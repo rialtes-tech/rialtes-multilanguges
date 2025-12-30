@@ -81,7 +81,7 @@ export default function Page() {
                 {t('the')} {" "}
                 <Link
                   className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                  href="https://www.rialtes.com/industry/manufacturing-cloud-erp/" target="_blank">
+                  href={`https://www.rialtes.com/${locale}/industry/manufacturing-cloud-erp/`} target="_blank">
 
                   {t('blogMainDataLink')}
                 </Link>{" "}{t('blogMainData2')}
@@ -112,7 +112,7 @@ export default function Page() {
                   {t('thatsWhereData2')}   {" "}
                   <Link
                     className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                    href="https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"
+                    href={`https://www.rialtes.com/${locale}/solutions/artificial-intelligence/salesforce-agentforce-consulting/`}
                     target="_blank"
                   >
                     {t('thatsWhereDataLink')}

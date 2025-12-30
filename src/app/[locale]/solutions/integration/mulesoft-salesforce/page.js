@@ -34,7 +34,7 @@ const page = () => {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* hero section */}
-      <section className="relative group overflow-hidden h-[399px] lg:h-[670px] sm:h-[450px]">
+      <section className="relative group overflow-hidden h-[400px] md:h-[500px] 4xl:h-[650px]">
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image
@@ -58,10 +58,10 @@ const page = () => {
         </div>
 
         <div className="absolute custom-container  lg:text-start top-[22%] text-[#ffffff]">
-          <h1 className="text-[18px] lg:text-[24px] font-bold">
+          <h1 className="text-[18px] 4xl:text-[24px] xl:text-[20px] md:text-[20px] font-bold">
             {t("MmuleSoftTitle")}
           </h1>
-          <h2 className="text-[26px] leading-tight lg:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px]">
+          <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] md:text-[30px] mt-[11.5px] md:mt-[28.5px]">
             {t("digitalOne")}
             <br /> {t("digitaltwo")}
             <br />
@@ -102,10 +102,10 @@ const page = () => {
       {/* page description */}
       <div className="lg:py-28 py-14 custom-container">
         <div className=" flex items-start lg:gap-[100px] gap-[20px] max-md:flex-col">
-          <h2 className="w-full md:max-w-[50%] 2xl:w-[40%] 4xl:w-[50%] max-w-full leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
+          <h2 className="w-full md:max-w-[50%] 2xl:w-[40%] 4xl:w-[50%] max-w-full leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px]">
             {t("leadingTitle")}
           </h2>
-          <p className="w-full md:max-w-[532px] max-w-full lg:text-xl text-base 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">
+          <p className="w-full md:max-w-[532px] max-w-full lg:text-xl text-base 4xl:text-[20px] xl:text-[16px]  md:text-[18px] text-[16px] leading-tight">
             {t("leadingDesc")}
           </p>
         </div>
@@ -115,15 +115,15 @@ const page = () => {
       <section className="py-24">
         <div className="custom-container flex items-start max-xl:flex-col justify-between gap-10">
           <div className="w-full xl:max-w-[50%] max-w-full">
-            <h2 className="w-full mb-8 4xl:text-[60px] xl:text-[40px] md:text-[26px] leading-tight">
+            <h2 className="w-full mb-8 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight">
               {t("unleashingTitle")}
             </h2>
-            <p className="w-full text-[16px] xl:text-[18px] 4xl:text-[20px]">
+            <p className="w-full text-[16px] xl:text-[16px]  md:text-[18px] 4xl:text-[20px]">
               {t("unleashingTitle")}
             </p>
             <UnorderedList
               arrName={pointsData}
-              ulClassName="mt-[40px]  4xl:text-[20px] xl:text-[18px] text-[16px]"
+              ulClassName="mt-[40px]  4xl:text-[20px] xl:text-[16px]  md:text-[18px] text-[16px]"
               liClassName="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2  before:leading-[0.5]"
             />
           </div>
@@ -138,16 +138,16 @@ const page = () => {
           </div>
         </div>
         <div className="mt-6 custom-container">
-          <LearnMore btnName={t('learnMore')} />
+          <LearnMore btnName={t('learnMore')}  locale={locale} />
         </div>
       </section>
       {/* serve section */}
       <section className="custom-container">
         <div className="w-full mb-14">
-          <h2 className="w-full mb-8 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
+          <h2 className="w-full mb-8 leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]  md:text-[30px] ">
             {t("serveTitle")}
           </h2>
-          <p className="w-full  text-[16px] 4xl:text-[20px] xl:text-[18px] leading-tight">
+          <p className="w-full  text-[16px] 4xl:text-[20px] xl:text-[16px]  md:text-[18px] leading-tight">
             {t("servicesTitle")}
           </p>
         </div>
@@ -155,10 +155,10 @@ const page = () => {
           {serveData.map(({ _id, tittle, descrip }) => (
             <div className="border-r border-[#707070] xl:pr-4  " key={_id}>
               <div className="max-w-[256px]">
-                <h4 className=" font-bold leading-tight 4xl:text-[24px] xl:text-[20px]">
+                <h4 className=" font-bold leading-tight 4xl:text-[24px] xl:text-[20px] md:text-[20px] text-[18px]">
                   {tittle}
                 </h4>
-                <p className="4xl:text-[20px] xl:text-[18px] text-[16px] font-medium">
+                <p className="4xl:text-[20px] xl:text-[16px]  md:text-[18px] text-[16px] font-medium">
                   {descrip}
                 </p>
               </div>
@@ -167,18 +167,18 @@ const page = () => {
         </div>
       </section>
       {/* drive data section */}
-      <div className="bg-[#fffbfb] py-16 mt-20">
+      <div className="bg-[#fffbfb] py-16 mt-10 xl:mt-20">
         <div className="custom-container">
-          <h2 className=" font-light mb-16 leading-tight 4xl:text-[40px] xl:text-[35px] md:text-[26px] ">
+          <h2 className=" font-light mb-16 leading-tight 4xl:text-[40px] xl:text-[36px] md:text-[30px] text-[26px] ">
             {t("driveTitle")}
           </h2>
           <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-8 ">
             {driveData.map(({ _id, percent, des }) => (
               <div key={_id}>
-                <h2 className="font-extrabold 4xl:text-[70px] xl:text[60px] text-[#0092E0]">
+                <h2 className="font-extrabold 4xl:text-[70px] xl:text-[50px] md:text-[40px] text-[32px] text-[#0092E0]">
                   {percent}
                 </h2>
-                <p className="4xl:text-[24px] xl:text-[18px]  text-[16px] whitespace-pre-wrap leading-tight">
+                <p className="4xl:text-[24px] xl:text-[20px] md:text-[20px] text-[16px]  leading-tight">
                   {des}
                 </p>
               </div>
@@ -196,7 +196,7 @@ const page = () => {
       </div>
       <div className="!py-[90px] custom-container">
         <ContactForm
-          className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[88%] 4xl:w-[100%]"
+          className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] xl:w-[88%] 4xl:w-[100%]"
           title={t("contactTitle")}
         />
       </div>

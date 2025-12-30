@@ -17,7 +17,7 @@ export default function page() {
     const t = useTranslations("agentForce");
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { managecustomerList, features, exampleOfActionList,schemaData, flexiblePricingList, items, salesforceAgentplusList, agentchatList, slides } = content.agentForce;
+    const { managecustomerList, features, exampleOfActionList, schemaData, flexiblePricingList, items, salesforceAgentplusList, agentchatList, slides } = content.agentForce;
 
     const AIBusinessBanner = () => {
 
@@ -31,14 +31,15 @@ export default function page() {
                             className="object-cover w-full h-full"
                         />
                     </div>
-                    <div className="xl:w-[61%] bg-[#073259] max-md:mx-[35px] text-white p-6 pb-0  4xl:p-16 2xl:p-12 xl:p-10  xl:pb-0 flex flex-col  4xl:mt-[170px] 2xl:mt-[120px] xl:mt-[100px] absolute xl:left-[39%] top-[99%] xl:top-0 xl:h-[381px] 4xl:h-[553px] 2xl:h-[458px]">
-                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] leading-tight pt-8 xl:pt-0 md:text-[28px] text-[26px] 4xl:mb-10 xl:mb-5 mb-5 2xl:mb-10 4xl:pr-28 2xl:pr-24 xl:pr-20">
+                    <div className="xl:w-[61%] bg-[#073259] max-md:mx-[35px] text-white p-6 pb-0  4xl:p-16 2xl:p-12 xl:p-10  xl:pb-0 flex flex-col  4xl:mt-[172px] 2xl:mt-[123px] xl:mt-[100px] absolute xl:left-[39%] top-[99%] xl:top-0 xl:h-[381px] 4xl:h-[553px] 2xl:h-[458px]">
+                        <h2 className="4xl:text-[60px]  xl:text-[40px] md:text-[30px] leading-tight pt-8 xl:pt-0  text-[26px] 4xl:mb-10 xl:mb-5 mb-5 2xl:mb-10 4xl:pr-28 2xl:pr-24 xl:pr-20">
                             {t('manageCustomerInquiries')}
                         </h2>
-                        <UnorderedList arrName={managecustomerList} ulClassName="space-y-3 4xl:space-y-3 xl:space-y-1 2xl:space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mb-6 list-disc list-outside pl-[25px]" liClassName="" />
+                        <UnorderedList arrName={managecustomerList} ulClassName="space-y-3 4xl:space-y-3 xl:space-y-1 2xl:space-y-3 4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] mb-6 list-disc list-outside pl-[25px]" liClassName="" />
 
-                        <div className="2xl:mt-[-18px] 4xl:mt-[-10px] xl:mt-[-20px]">
-                            <LearnMoreButton bgcolor="#006FBE" className="absolute" />
+                        <div className="2xl:mt-[10px] 4xl:mt-[-10px] xl:mt-[-20px]">
+                            <LearnMoreButton bgcolor="#006FBE" className="absolute" locale={locale}
+                                btnName={t('learnMoreButton')} />
                         </div>
                     </div>
                 </div>
@@ -56,19 +57,19 @@ export default function page() {
                     <img
                         src="/images/salesforce-consulting-services/leaverage-cutting-desktop.webp" // Replace with your actual image path
                         alt={t('leaverageCuttingAlt')}
-                        className={`}
+                        className={`
                                   ${locale === "es"
-                                ? "absolute inset-0  z-0 w-full 4xl:h-[1104px] 2xl:h-[972px] xl:h-[1011px]"
+                                ? "absolute inset-0  z-0 w-full 4xl:h-[1104px] 2xl:h-[856px] xl:h-[953px]"
                                 : locale === "fr"
-                                    ? "absolute inset-0  z-0 w-full 4xl:h-[1134px] 2xl:h-[998px] xl:h-[985px]"
-                                    : "absolute inset-0  z-0 w-full 4xl:h-[1029px] 2xl:h-[913px] xl:h-[933px]"
+                                    ? "absolute inset-0  z-0 w-full 4xl:h-[1134px] 2xl:h-[880px] xl:h-[929px]"
+                                    : "absolute inset-0  z-0 w-full 4xl:h-[1029px] 2xl:h-[856px] xl:h-[879px]"
                             }`}
 
                     />
                 </div>
                 <div className="block xl:hidden">
                     <img
-                        src="/images/salesforce-consulting-services/leaverage-cuttung-mobile.webp" // Replace with your actual image path
+                        src="/images/salesforce-consulting-services/leaverage-cuttung-mobile.webp"
                         alt={t('leaverageCuttingAlt')}
                         className="0 w-full"
                     />
@@ -78,10 +79,10 @@ export default function page() {
                 {/* Overlay Content */}
                 <div className="relative z-10 flex h-full ">
                     <div className="bg-opacity-90 text-white 4xl:max-w-[44rem] 2xl:max-w-[36rem] xl:max-w-[30rem] bg-black xl:bg-transparent max-md:px-[35px] md:px-[35px] xl:px-0">
-                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight mb-4 pt-12">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight mb-4 pt-12">
                             {t('leaveragecuttingTitle')}
                         </h2>
-                        <ul className="space-y-6 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mb-6 list-none pt-10">
+                        <ul className="space-y-6 4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] mb-6 list-none pt-10">
                             <li className="border-b border-white pb-5">
                                 <div className="font-bold">{t('agentforcedataCloude')}</div>
                                 <div className="mt-3">{t('unifiysublist')}</div>
@@ -100,7 +101,10 @@ export default function page() {
                             </li>
                         </ul>
 
-                        <LearnMoreButton bgcolor="#006FBE" className="absolute" />
+                        <div className="">
+                            <LearnMoreButton bgcolor="#006FBE" className="absolute" locale={locale}
+                                btnName={t('learnMoreButton')} />
+                        </div>
                     </div>
                 </div>
             </section>
@@ -110,13 +114,13 @@ export default function page() {
         return (
             <section>
                 <div className="4xl:max-w-4xl 2xl:max-w-[45rem] xl:max-w-[40rem]">
-                    <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight mb-4">
+                    <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight mb-4">
                         {t('theNextleap')}
                     </h2>
-                    <h3 className="4xl:text-[30px] 2xl:text-[24px] xl:text-[22px] text-[20px] font-semibold xl:mt-10 mt-6 leading-tight 4xl:pr-[12rem] 2xl:pr-20 xl:pr-18">
+                    <h3 className="4xl:text-[30px]  xl:text-[24px] md:text-[22px] text-[20px] font-semibold xl:mt-10 mt-6 leading-tight 4xl:pr-[12rem] 2xl:pr-20 xl:pr-18">
                         {t('agentforceEvolution')}
                     </h3>
-                    <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]  text-[16px] mt-8">{t('agentforceDebut')}</p>
+                    <p className="4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] mt-8">{t('agentforceDebut')}</p>
                 </div>
 
 
@@ -126,10 +130,10 @@ export default function page() {
                             key={idx}
                             className="p-8 transition border-2"
                         >
-                            <h3 className="4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[19px] font-semibold mb-2 text-[#0A6BB8] leading-tight pr-0 xl:pr-20">
+                            <h3 className="4xl:text-[26px] xl:text-[22px] md:text-[20px]  text-[18px] font-semibold mb-2 text-[#0A6BB8] leading-tight pr-0 xl:pr-20">
                                 {feature.title}
                             </h3>
-                            <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] leading-tight mt-5 xl:pr-10">
+                            <p className="4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] leading-tight mt-5 xl:pr-10">
                                 {feature.description}
                             </p>
                         </div>
@@ -163,31 +167,32 @@ export default function page() {
 
                     {/* Content section */}
                     <div className="relative z-20 xl:bg-[#073259] bg-black text-white px-8 pt-12 xl:pt-16 4xl:px-24 2xl:px-20 xl:px-16 xl:mt-40  xl:col-span-7 col-span-12 xl:order-1 order-2">
-                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] md:text-[28px] text-[26px] leading-tight">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight">
                             {t('prebuildTitle')}
                         </h2>
 
-                        <p className="4xl:text-[40px] 2xl:text-[36px] xl:text-[25px] text-[24px] font-semibold mb-8 leading-tight xl:pr-28 mt-5">
+                        <p className="4xl:text-[40px] 2xl:text-[36px] xl:text-[32px] md:text-[26px]  text-[22px] font-semibold mb-8 leading-tight xl:pr-28 mt-5">
                             {t('prebuildDesc')}
                         </p>
                         <div className="flex gap-10 xl:flex-row md:flex-row flex-col">
                             <div>
-                                <p className="font-semibold 4xl:text-[24px] 2xl:text-[22px] xl:text-[18px] text-[18px]">
+                                <p className="font-semibold 4xl:text-[24px] xl:text-[20px] md:text-[20px] text-[18px]">
                                     {t('exampleOfActionTitle')}
                                 </p>
-                                <UnorderedList arrName={exampleOfActionList} ulClassName="list-disc space-y-5 4xl:text-[19px] 2xl:text-[17px] xl:text-[15px] text-[16px] list-outside mt-5 pl-5" liClassName="" />
+                                <UnorderedList arrName={exampleOfActionList} ulClassName="list-disc space-y-5 4xl:text-[20px] xl:text-[16px] md:text-[18px]  text-[16px] list-outside mt-5 pl-5" liClassName="" />
 
                             </div>
                             <div>
-                                <p className="font-semibold 4xl:text-[24px] 2xl:text-[22px] xl:text-[18px] text-[18px] pr-16">
+                                <p className="font-semibold 4xl:text-[24px] xl:text-[20px] md:text-[20px] text-[18px] pr-16">
                                     {t('flexiblePricingTitle')}
                                 </p>
-                                <UnorderedList arrName={flexiblePricingList} ulClassName="list-disc space-y-5 4xl:text-[19px] 2xl:text-[17px] xl:text-[15px] text-[16px] list-outside mt-5 4xl:pr-16 pl-5" liClassName="" />
+                                <UnorderedList arrName={flexiblePricingList} ulClassName="list-disc space-y-5 4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] list-outside mt-5 4xl:pr-16 pl-5" liClassName="" />
 
                             </div>
                         </div>
                         <div className="4xl:mt-10 2xl:mt-10 xl:mt-5">
-                            <LearnMoreButton bgcolor="#006FBE" className="absolute" />
+                            <LearnMoreButton bgcolor="#006FBE" className="absolute" locale={locale}
+                                btnName={t('learnMoreButton')} />
                         </div>
                     </div>
                 </div>
@@ -203,7 +208,7 @@ export default function page() {
             <section>
                 <div className="mb-10 grid xl:grid-cols-12 grid-cols-1">
                     <div className="4xl:col-span-9 2xl:col-span-7 xl:col-span-7 col-span-12">
-                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] md:text-[28px] text-[26px] leading-tight">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight">
                             {t('industrySpecificTitle')}
                         </h2>
                     </div>
@@ -219,8 +224,8 @@ export default function page() {
                                 : "pr-0"
                                 }`}
                         >
-                            <h3 className="font-semibold 4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] mb-5 leading-tight">{item.title}</h3>
-                            <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]  text-[16px] leading-tight">
+                            <h3 className="font-semibold 4xl:text-[26px] 2xl:text-[22px] md:text-[22px]  text-[20px] mb-5 leading-tight">{item.title}</h3>
+                            <p className="4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] leading-tight">
                                 {item.desc}
                             </p>
                         </div>
@@ -238,8 +243,8 @@ export default function page() {
                                 : "pr-0"
                                 }`}
                         >
-                            <h3 className="font-semibold 4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] mb-5 text-[20px] leading-tight">{item.title}</h3>
-                            <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]  text-[16px] leading-tight ">
+                            <h3 className="font-semibold 4xl:text-[26px] xl:text-[22px] md:text-[22px] mb-5 text-[20px] leading-tight">{item.title}</h3>
+                            <p className="4xl:text-[20px] xl:text-[16px] md:text-[18px]  text-[16px] leading-tight ">
                                 {item.desc}
                             </p>
                         </div>
@@ -248,11 +253,11 @@ export default function page() {
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-12 items-center xl:mt-8 mt-12">
-                    <p className="lg:col-span-9 col-span-12 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] leading-tight mb-6 lg:mb-0 w-full">
+                    <p className="lg:col-span-9 col-span-12 4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] leading-tight mb-6 lg:mb-0 w-full xl:mt-8">
                         {t('ourspecificparagraph')}
                     </p>
                     <div className="lg:col-span-3 col-span-12 flex lg:justify-end">
-                        <LearnMoreButton bgcolor="#006FBE" />
+                        <LearnMoreButton bgcolor="#006FBE" locale={locale} btnName={t('learnMoreButton')} />
                     </div>
                 </div>
 
@@ -275,25 +280,27 @@ export default function page() {
 
                     {/* Content Section */}
                     <div className="order-2 xl:order-1 xl:col-span-5 max-md:px-[35px]">
-                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] md:text-[28px] text-[26px] leading-tight">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight">
                             {t('agentplusTitle')}
                         </h2>
-                        <h3 className="4xl:text-[42px] 2xl:text-[40px] xl:text-[30px] text-[20px] font-semibold mb-4 leading-tight 4xl:mt-5 2xl:mt-10 mt-5 pr-20 xl:pr-0">
+                        <h3 className="4xl:text-[42px] 2xl:text-[36px] xl:text-[32px] md:text-[26px] text-[20px] font-semibold mb-4 leading-tight 4xl:mt-5 2xl:mt-10 mt-5  xl:pr-0">
                             {t('agentplusDesc')}
                         </h3>
-                        <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] leading-tight mb-6 xl:pr-10">
+                        <p className="4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] leading-tight mb-6 xl:pr-10">
                             {t('agentplusParagraph1')}
                         </p>
-                        <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] leading-tight mb-6">
+                        <p className="4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] leading-tight mb-6">
                             {t('agentplusParagraph2')}
                         </p>
-                        <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] leading-tight mb-6">
+                        <p className="4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] leading-tight mb-6">
                             {t('agentplusParagraph3')}
                         </p>
-                        <UnorderedList arrName={salesforceAgentplusList} ulClassName="list-disc 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] leading-tight space-y-5 mb-6 font-medium list-outside pl-5 xl:pr-10" liClassName="" />
+                        <UnorderedList arrName={salesforceAgentplusList} ulClassName="list-disc 4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] leading-tight space-y-5 mb-6 font-medium list-outside pl-5 xl:pr-10" liClassName="" />
 
                         <div>
-                            <LearnMoreButton btnName="Know More" bgcolor="#006FBE" href="/services/application-services/salesforce-managed-services-provider-salesforceagentplus/" />
+                            <LearnMoreButton btnName={t('knowMoreButton')} bgcolor="#006FBE" href="/services/application-services/salesforce-managed-services-provider-salesforceagentplus/"
+                                locale={locale}
+                            />
                         </div>
                     </div>
                 </div>
@@ -324,27 +331,30 @@ export default function page() {
                 </div>
                 <div className="grid grid-cols-1 xl:grid-cols-2 items-start custom-container">
                     <div className="xl:pr-32">
-                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] md:text-[28px] text-[26px] leading-tight mb-5">{t('agentchatHeading')}</h2>
-                        <p className="4xl:text-[38px] 2xl:text-[30px] xl:text-[25px] text-[20px] font-semibold mb-4 leading-tight pr-16 xl:pr-0">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight mb-5">{t('agentchatHeading')}</h2>
+                        <p className="4xl:text-[38px] xl:text-[32px] md:text-[26px] text-[20px] font-semibold mb-4 leading-tight pr-8 xl:pr-0">
                             {t('agentchatSubheading')}
                         </p>
 
                     </div>
                     <div>
-                        <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[18px] font-semibold mb-2 leading-tight">{t('agentchatMoment')}</h3>
-                        <ul className="list-disc xl:list-inside list-outside pl-5 xl:pl-0 space-y-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-6 leading-tight">
+                        <h3 className="4xl:text-[24px] xl:text-[20px] md:text-[20px] text-[18px] font-semibold mb-2 leading-tight">{t('agentchatMoment')}</h3>
+                        {/* <ul className="list-disc xl:list-inside list-outside pl-5 xl:pl-0 space-y-5 4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] mt-6 leading-tight">
                             <li>Instant WhatsApp messaging embedded inside Salesforce.</li>
                             <li>Auto-responses, case creation, and service cloud integration.</li>
                             <li>Pre-built AI chatbots for Agentforce and Service Cloud.</li>
                             <li>Personalized notifications and marketing campaigns.</li>
-                        </ul>
-                        <UnorderedList arrName={agentchatList} ulClassName="list-disc xl:list-inside list-outside pl-5 xl:pl-0 space-y-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-6 leading-tight" liClassName="" />
+                        </ul> */}
+                        <UnorderedList arrName={agentchatList} ulClassName="list-disc  list-outside pl-5 xl:pl-4 space-y-5 4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] mt-6 leading-tight" liClassName="" />
 
-                        <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-10">
+                        <p className="4xl:text-[20px] md:text-[18px] xl:text-[16px] text-[16px] mt-10">
                             {t('agentchatParagraph')}
                         </p>
                         <div className="mt-10">
-                            <LearnMoreButton btnName="Know More" bgcolor="#006FBE" href="/products/agentchat/" />
+                            <LearnMoreButton btnName={t('knowMoreButton')} bgcolor="#006FBE"
+                                href="/products/agentchat"
+                                locale={locale}
+                            />
 
                         </div>
                     </div>
@@ -377,33 +387,33 @@ export default function page() {
 
                 <div className="py-16 text-white custom-container grid xl:grid-cols-12 grid-cols-1">
                     <div className="4xl:col-span-9 xl:col-span-7 2xl:col-span-7 col-span-12">
-                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] md:text-[28px] text-[26px] leading-tight mb-8">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight mb-8">
                             {t('yourStrategiy')}
                         </h2>
-                        <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mb-6 leading-tight">
+                        <p className="4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] mb-6 leading-tight">
                             {t('yourStrategiyParagraph1')}  <br className="xl:block hidden"></br>  {t('yourStrategiyParagraph2')}
                         </p>
 
-                        <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mb-4 leading-tight">{t('hereWhat')}</p>
-                        <ul className="space-y-8 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mb-6 leading-tight">
+                        <p className="4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] mb-6 leading-tight">{t('hereWhat')}</p>
+                        <ul className="space-y-8 4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] mb-6 leading-tight">
                             <li>
-                                <strong>{t('provenExpert')}</strong><br />
+                                <strong>{t('provenExpert')}</strong><br /><br className="md:hidden block"></br>
                                 {t('decedsOfExperience')} <br className="xl:block hidden"></br> {t('meansWeCant')} <br className="xl:block hidden"></br> {t('experimentation')}.
                             </li>
                             <li>
-                                <strong>{t('endToEndConsulting')}</strong><br />
+                                <strong>{t('endToEndConsulting')}</strong><br /><br className="md:hidden block"></br>
                                 {t('fromStrategyToSupport')}<br className="xl:block hidden"></br> {t('guideYouThrough')}
                             </li>
                             <li>
-                                <strong>{t('acceleratedAdoption')}</strong><br />
-                                {t('ourRobustMethodology')} <br className="xl:block hidden"></br> {t('programsShortenTimeToValue')} <br className="xl:block hidden"></br> {t('ensureYourTeamsAdopt')} <br className="xl:block hidden"></br> {t('agentforceConfidently')}.
+                                <strong>{t('acceleratedAdoption')}</strong><br /><br className="md:hidden block"></br>
+                                {t('ourRobustMethodology')}  <br className="xl:block hidden"></br> {t('ensureYourTeamsAdopt')} <br className="xl:block hidden"></br> {t('agentforceConfidently')}
                             </li>
                             <li>
-                                <strong>{t('globalPresence')}</strong><br />
+                                <strong>{t('globalPresence')}</strong><br /><br className="md:hidden block"></br>
                                 {t('unitedStates')}
                             </li>
                             <li>
-                                <strong>{t('connectedEcosystem')}</strong><br />
+                                <strong>{t('connectedEcosystem')}</strong><br /><br className="md:hidden block"></br>
                                 {t('withRinse')} <br className="xl:block hidden"></br> {t('monitoringAnalyticsUpdates')}
                             </li>
                         </ul>
@@ -433,7 +443,7 @@ export default function page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* hero section */}
-            <section className="relative group overflow-hidden h-[350px] md:h-[400px] 2xl:h-[600px] xl:h-[500px]  4xl:h-[650px]  ">
+            <section className="relative group overflow-hidden h-[350px] md:h-[500px] 4xl:h-[650px]  ">
                 {/* Desktop Image */}
                 <div className="hidden xl:block">
                     <Image
@@ -458,10 +468,10 @@ export default function page() {
                 <div className="relative h-full custom-container flex items-center text-[#ffffff]">
                     <div className="grid xl:grid-cols-12 grid-cols-4 md:grid-cols-7 w-full max-[375px]:grid-cols-3">
                         <div className="4xl:col-span-6 xl:col-span-5 col-span-3">
-                            <h1 className="font-bold  4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px]">
+                            <h1 className="font-bold  4xl:text-[24px] xl:text-[20px] text-[20px] leading-tight">
                                 {t('bannerTitle')}
                             </h1>
-                            <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] leading-tight mt-5 md:text-[30px] text-[26px] ">
+                            <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[30px] leading-tight mt-5  text-[26px] ">
                                 {t('bannerSubtitle')}
                             </h2>
                         </div>
@@ -474,11 +484,11 @@ export default function page() {
             <section className="custom-container 4xl:mt-20 xl:mt-10 mt-10">
                 <div className="grid xl:grid-cols-12">
                     <div className="4xl:col-span-9 2xl:col-span-8 xl:col-span-9">
-                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] leading-tight mt-5 md:text-[28px] text-[26px] xl:pr-20 4xl:pr-0 2xl:pr-0"> {t('whatYouNeedToKnow')}</h2>
-                        <p className="leading-tight font-normal 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]  text-[16px] mt-10 max-[430px]:pr-10">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[30px] leading-tight mt-5  text-[26px] xl:pr-20 4xl:pr-0 2xl:pr-0"> {t('whatYouNeedToKnow')}</h2>
+                        <p className="leading-tight font-normal 4xl:text-[20px]  xl:text-[18px] md:text-[18px]  text-[16px] mt-10 max-[430px]:pr-10">
                             {t('whatYouNeedToKnowDes1')}
                         </p>
-                        <p className="leading-tight font-normal mt-[19px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]  text-[16px] 4xl:pr-8 max-[430px]:pr-10">
+                        <p className="leading-tight font-normal mt-[19px] 4xl:text-[20px] xl:text-[16px]  text-[16px] md:text-[18px] 4xl:pr-8 max-[430px]:pr-10">
                             {t('whatYouNeedToKnowDes2')}
                         </p>
 
@@ -488,7 +498,7 @@ export default function page() {
             <section className="custom-container 4xl:mt-20 xl:mt-10 mt-10 4xl:pr-[398px]">
                 <div className="grid xl:grid-cols-12">
                     <div className="4xl:col-span-8 2xl:col-span-7 xl:col-span-7">
-                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] leading-tight mt-5 md:text-[28px] text-[26px] xl:pr-20 4xl:pr-0 2xl:pr-0 pr-8">{t('buildAhealthierBusiness')}</h2>
+                        <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[30px] leading-tight mt-5  text-[26px] xl:pr-20 4xl:pr-0 2xl:pr-0 ">{t('buildAhealthierBusiness')}</h2>
                     </div>
                 </div>
                 <HealthcareStats />
@@ -496,10 +506,17 @@ export default function page() {
             <section className="custom-container xl:px-0 mt-20 max-md:px-0">
                 <AIBusinessBanner />
             </section>
-            <section className=" xl:px-0 xl:mt-20 max-md:px-0 md:px-0 mt-[570px] md:mt-[450px]">
+            <section
+                className={`
+                                  ${locale === "es"
+                        ? "xl:px-0 xl:mt-20 max-md:px-0 md:px-0 mt-[670px] max-[375px]:mt-[700px] md:mt-[450px]"
+                        : locale === "fr"
+                            ? "xl:px-0 xl:mt-20 max-md:px-0 md:px-0 mt-[640px] md:mt-[450px]"
+                            : "xl:px-0 xl:mt-20 max-md:px-0 md:px-0 mt-[610px] md:mt-[450px]"
+                    }`}>
                 <AgentforceBanner />
             </section>
-            <section className="custom-container xl:mt-20  mt-14">
+            <section className="custom-container 4xl:mt-20 xl:mt-24  mt-14">
                 <AgentforcePromo />
             </section>
             <section className="custom-container xl:px-0 xl:mt-20 max-md:px-0 mt-16 4xl:pl-[142px]">
@@ -539,7 +556,7 @@ export default function page() {
             </section>
             {/* Contact Form */}
             <div className="custom-container pb-10 4xl:mt-[80px] 2xl:mt-[60px] xl:mt-[55px] mt-[50px] mb-[45px]">
-                <ContactForm title='Let’s Elevate Your Customer Engagement Together!' subtitle='Unlock AI, boost productivity, and optimize Salesforce with Agentforce consulting Services' className={"xl:w-[70%] xl:font-light 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight"} />
+                <ContactForm title={t("contactusTitle")} subtitle='Unlock AI, boost productivity, and optimize Salesforce with Agentforce consulting Services' className={"xl:w-[70%] xl:font-light 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight"} />
             </div >
         </section>
     )

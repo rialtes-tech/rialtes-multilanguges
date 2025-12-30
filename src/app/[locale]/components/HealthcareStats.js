@@ -8,7 +8,7 @@ export default function HealthcareStats() {
         <StatBox percentage="27%" description={t('greaterPatientAdherence')} />
         <StatBox percentage="91%" description={t('archivePostionROI')} />
         <StatBox percentage="29%" description={t('faterCaseResolution')} />
-         <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] text-gray-500">
+         <p className="4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px] text-gray-500">
         *Source: Salesforce
       </p>
       </div>
@@ -20,10 +20,10 @@ export default function HealthcareStats() {
 function StatBox({ percentage, description }) {
   return (
     <div className="flex flex-col items-start text-left">
-      <span className="text-[#006FBE] 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] leading-tight md:text-[28px] text-[48px] font-bold">
+      <span className="text-[#006FBE] 4xl:text-[60px] xl:text-[40px] md:text-[30px] leading-tight  text-[48px] font-bold">
         {percentage}
       </span>
-      <span className="4xl:text-[22px] 2xl:text-[18px] xl:text-[18px] text-[22px] xl:w-[60%] w-[55%] mt-2 font-semibold  leading-tight">
+      <span className="4xl:text-[22px] xl:text-[18px] md:text-[18px] text-[16px] xl:w-[60%] w-[55%] mt-2 font-semibold  leading-tight">
         {description}
       </span>
     </div>

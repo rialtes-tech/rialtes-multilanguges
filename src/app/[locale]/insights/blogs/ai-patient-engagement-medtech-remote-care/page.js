@@ -85,7 +85,7 @@ export default function Page() {
               </div>
               {/* Role of AI section */}
               <div className="md:mt-[50px] mt-[40px]">
-                <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[24px] 4xl:text-[30px] xl:text-[21px] text-[23px] ">
+                <h2 className="font-semibold mt-10 text-[#0092E0] 2xl:text-[26px] 4xl:text-[32px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                   {t("aiRoleTitle")}
                 </h2>
                 <p className="mt-[29px] xl:mt-[34px]   4xl:text-[20px] xl:text-[17px] text-[16px]">
@@ -201,7 +201,7 @@ export default function Page() {
                   {t("turnDesc2")}{" "}
                   <Link
                     href={
-                      "https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"
+                      `https://www.rialtes.com/${locale}/solutions/artificial-intelligence/salesforce-agentforce-consulting/`
                     }
                   >
                     <span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">
@@ -211,7 +211,7 @@ export default function Page() {
                   {t("turnDesc3")}{" "}
                   <Link
                     href={
-                      "https://www.rialtes.com/industry/life-sciences/home-health-ai-tech-solutions/"
+                      `https://www.rialtes.com/${locale}/industry/life-sciences/home-health-ai-tech-solutions/`
                     }
                   >
                     <span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">
