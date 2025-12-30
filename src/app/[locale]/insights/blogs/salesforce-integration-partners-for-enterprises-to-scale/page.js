@@ -13,7 +13,7 @@ import frContent from "../../../../../../messages/fr/blogs.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import { useLocale, useTranslations } from "next-intl";
 
-export default function Page() {
+export default function Page() { 
     const fullUrl = "https://www.rialtes.com/insights/blogs/integration-partners-for-salesforce-cutting-complexity-increasing-roi";
     const currUrl = useUrl()
     const t = useTranslations("integrationPartnersForSalesforce");
