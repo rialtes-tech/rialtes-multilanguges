@@ -125,7 +125,7 @@ export default function DemandPlusSection() {
                         <p className="mt-8 4xl:text-[22px] text-[16px] leading-tight font-normal">
                             {t('introducingDesc')}
                         </p>
-                        <UnorderedList arrName={endToEndData} ulClassName="list-disc leading-tight xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 mt-5  xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] " />
+                        <UnorderedList arrName={endToEndData} ulClassName="list-disc leading-tight xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 mt-5  xl:pr-0" liClassName="4xl:text-[20px] 2xl:text-[18px] xl:text-[16px]  text-[16px] " />
                         <div className="mt-5 absolute">
                             <LearnMore bgcolor="#134874" bordercolor="#134874" btnName={t('learnMoreBtn')} />
                         </div>
@@ -247,7 +247,7 @@ export default function DemandPlusSection() {
 
                         >{t('salesTitle')} </h2>
                         <h3 className="4xl:text-[42px] xl:text-[30px] 2xl:text-[32px] text-[22px] xl:mt-5 mt-5 leading-tight font-semibold">{t('driveTitle')} </h3>
-                        <p className="mt-5 font-normal 4xl:text-[20px] text-[16px] xl:text-[17px] leading-tight">
+                        <p className="mt-5 font-normal 4xl:text-[20px] text-[16px] 2xl:text-[17px] xl:text-[17px] leading-tight">
                             {t('salesDesc')}
                         </p>
                         <UnorderedList arrName={salesData} ulClassName="list-disc leading-tight xl:space-y-1 4xl:space-y-5 font-normal marker:font-bold marker:text-2xl pl-5 4xl:mt-8 2xl:mt-8 xl:mt-4 mt-5" liClassName="4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px]" />
@@ -408,7 +408,7 @@ export default function DemandPlusSection() {
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]">{t('seamlessTitle')} </h2>
                         <h3 className="mt-10 4xl:text-[42px] xl:text-[32px] text-[22px] font-semibold leading-tight">{t('seamlessSubTitle')} </h3>
                         <p className="mt-5 xl:pr-20 font-normal leading-tight 4xl:text-[20px] text-[16px]">{t('seamlessDesc')} </p>
-                        <UnorderedList arrName={seamlessIntegrationData} ulClassName="list-disc leading-normal xl:space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 mt-5  xl:pr-16" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+                        <UnorderedList arrName={seamlessIntegrationData} ulClassName="list-disc leading-normal xl:space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 mt-5  xl:pr-16" liClassName="4xl:text-[20px] 2xl:text-[16px] text-[16px]" />
                     </div>
                 </div>
             </section>
@@ -622,7 +622,7 @@ export default function DemandPlusSection() {
                 <div className="absolute top-[500px] xl:top-1/2 -translate-y-1/2 grid grid-cols-1 xl:grid-cols-12 text-white  px-9 xl:px-0">
                     <div className="col-span-6 xl:px-16 ">
                         <h2 className="leading-tight text-[26px] xl:text-[40px] 4xl:text-[60px] xl:pr-0 md:pr-6"> {t('leadingTitle')} </h2>
-                        <p className="mt-6 font-light text-[16px] 4xl:text-[20px] md:pr-8"> {t('leadingDesc')} </p> <UnorderedList arrName={leadingData} ulClassName="list-disc leading-tight space-y-3 xl:space-y-4 font-light marker:font-bold marker:text-2xl pl-5 mt-5" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px]" />
+                        <p className="mt-6 font-light text-[16px] 4xl:text-[20px] md:pr-8"> {t('leadingDesc')} </p> <UnorderedList arrName={leadingData} ulClassName="list-disc leading-tight space-y-3 xl:space-y-4 font-light marker:font-bold marker:text-2xl pl-5 mt-5" liClassName="text-[16px] xl:text-[16px] 4xl:text-[20px]" />
                     </div>
                     <div className="col-span-6" />
                 </div>
