@@ -124,10 +124,10 @@ export default function Page() {
                       <div
                         key={ind}
                         className="border border-[#707070] p-[26px] relative md:px-10 lg:px-[26px] pb-[62px]" >
-                        <p className="absolute top-[-24px] md:top-[-40px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]  text-[17px] text-[#0092E0] font-bold w-[80%] sm:w-[70%] lg:w-[80%] xl:w-[70%] 4xl:w-[80%] pb-4 px-3 bg-white border-b border-[#0092E0]">
+                        <p className="absolute top-[-24px] md:top-[-40px] 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[18px] text-[18px] text-[#0092E0] font-bold w-[80%] sm:w-[70%] lg:w-[80%] xl:w-[70%] 4xl:w-[80%] pb-4 px-3 bg-white border-b border-[#0092E0]">
                           {data.title}
                         </p>
-                        <p className="4xl:mt-20 lg:mt-16 md:mt-16 sm:mt-12 mt-14 max-[352px]:mt-20 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                        <p className="4xl:mt-24 lg:mt-20 md:mt-20  mt-[88px] max-[352px]:mt-20 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                           {data.desc}
                         </p>
                         <ul className="mt-[32px]">
