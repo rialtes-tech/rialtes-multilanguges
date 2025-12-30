@@ -1033,6 +1033,10 @@
     ]
   },
   "sapErp": {
+    "Automotive": "Automotriz",
+    "solutionPara": "Rialtes implementó soluciones integrales de SAP ERP en la nube para digitalizar y automatizar los procesos O2C y P2P.",
+    "fioriPara": "Como parte de la transformación de SAP ERP, Rialtes implementó SAP Fiori para modernizar la interfaz de usuario y mejorar la agilidad operativa en todos los departamentos.",
+    "benefitsPara": "La transformación generó resultados medibles en todas las operaciones:",
     "challenges": [
       {
         "title": "Order-to-Cash (O2C)",

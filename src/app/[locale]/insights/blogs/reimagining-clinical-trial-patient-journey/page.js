@@ -105,7 +105,7 @@ export default function Page() {
                                         {
                                             data.list.map((elem, id) => (
                                                 <React.Fragment key={id}>
-                                                    <h3 className="mt-10 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] font-bold 4xl:w-[90%]">
+                                                    <h3 className="mt-10 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] font-bold 4xl:w-[90%] leading-tight">
                                                         {elem.title}
                                                     </h3>
                                                     <p
@@ -133,7 +133,7 @@ export default function Page() {
                                             dangerouslySetInnerHTML={{ __html: data.desc }}
                                         />
 
-                                        <h3 className="mt-10 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] md:text-[16px] text-[16px] font-bold">
+                                        <h3 className="mt-10 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold leading-tight">
                                             {data.subTitle}
                                         </h3>
                                         <p
@@ -144,7 +144,7 @@ export default function Page() {
                                             data.list.map((elem, id) => (
                                                 <div className={`grid lg:grid-cols-12 grid-cols-1 gap-[20px] mt-10 pb-[30px] border-b border-[#bfbdbd] ${id == 2 && "border-0"}`} key={id}>
                                                     <div className="flex gap-5 lg:gap-[40px] lg:col-span-4 max-lg:items-center">
-                                                        <div className="text-center 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] bg-[#1486E6] text-white pt-2 font-bold w-[50px] lg:h-[60px] lg:w-[70px]">
+                                                        <div className="text-center 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] bg-[#1486E6] text-white pt-2 pb-2 font-bold w-[50px] lg:h-[60px] lg:w-[70px]">
                                                             {id + 1}
                                                         </div>
                                                         <h4 className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-bold">{elem.title}</h4>
@@ -175,7 +175,7 @@ export default function Page() {
                                             {
                                                 data.list.map((elem, id) => (
                                                     <div className={`${(id == 0 || id == 2) ? "lg:pr-[60px] lg:border-r border-[#bfbdbd]" : "lg:pl-[60px]"}`} key={id}>
-                                                        <h3 className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] lg:text-[16px] text-[16px] font-bold 4xl:w-[90%]">
+                                                        <h3 className="4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] lg:text-[18px] text-[18px] font-bold 4xl:w-[90%] leading-tight">
                                                             {elem.title}
                                                         </h3>
                                                         <p

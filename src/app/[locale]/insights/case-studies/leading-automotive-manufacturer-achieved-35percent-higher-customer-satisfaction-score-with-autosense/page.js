@@ -112,9 +112,9 @@ export default function Page() {
                   <ol className="list-decimal mt-5 pl-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-4">
                     {solutionList.map((item, index) => (
                       <li className="last:pb-4" key={index}>
-                        <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                        <h4 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                           {item.title}
-                        </h3> : {item.desc}
+                        </h4> : {item.desc}
                       </li>
                     ))}
                   </ol>
@@ -128,9 +128,9 @@ export default function Page() {
                   <ol className="list-decimal mt-5 pl-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-4">
                     {featureList.map((item, index) => (
                       <li className="last:pb-4" key={index}>
-                        <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                        <h4 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                           {item.title}
-                        </h3> : {item.desc}
+                        </h4> : {item.desc}
                       </li>
                     ))}
                   </ol>
@@ -160,9 +160,9 @@ export default function Page() {
                   <ol className="list-decimal mt-5 pl-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-4">
                     {serviceList.map((item, index) => (
                       <li className="last:pb-4" key={index}>
-                        <h3 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                        <h4 className="font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                           {item.title}
-                        </h3> : {item.desc}
+                        </h4> : {item.desc}
                       </li>
                     ))}
                   </ol>
