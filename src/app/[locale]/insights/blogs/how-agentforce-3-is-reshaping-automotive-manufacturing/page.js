@@ -104,7 +104,7 @@ export default function Page() {
                 {t("desctwo")}
                 <Link
                   className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                  href="https://www.rialtes.com/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/"
+                  href={`https://www.rialtes.com/${locale}/insights/blogs/agents-vs-copilots-vs-bots-whats-the-difference-and-why-it-matters/`} 
                 >
                   {t("desctwoLink")}
                 </Link>{" "}
@@ -122,7 +122,7 @@ export default function Page() {
                 <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
                   {t("sinceTitle")}
                 </p>
-                <h3 className="mt-[29px] xl:mt-[30px]  font-bold  4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px]  leading-tight">
+                <h3 className="mt-[29px] xl:mt-[30px]  font-bold  4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]  leading-tight">
                   {t("keyTitle")}
                 </h3>
                 <div className="grid gap-10 mt-10">
@@ -313,14 +313,14 @@ export default function Page() {
                   {t("link")}
                   <Link
                     className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                    href="https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/"
+                    href={`https://www.rialtes.com/${locale}/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/`}
                   >
                     {t("link1")}
                   </Link>{" "}
                   {t("link2")}
                   <Link
                     className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                    href="https://www.rialtes.com/industry/digital-transformation-in-automotive-industry/"
+                    href={`https://www.rialtes.com/${locale}/industry/digital-transformation-in-automotive-industry/`}
                   >
                     {t("link3")}
                   </Link>

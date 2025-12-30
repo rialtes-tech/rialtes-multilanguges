@@ -225,9 +225,31 @@
     ],
     "latestBlogs": [
       {
+        "id": 67,
+        "image": "/images/blog/strategic-partnership-digital-connection-thumbnail.webp",
+        "category": "Conseil SAP",
+        "industry": "Générique",
+        "date": "Dec. 29, 2025",
+        "url": "/what-makes-sap-consulting-companies-trustworthy/",
+        "title": "Ce qui rend les sociétés de conseil SAP dignes de confiance pour les engagements d’entreprise",
+        "alt": "Deux personnes se serrant la main avec des lignes numériques lumineuses symbolisant le partenariat et la collaboration.",
+        "description": "La confiance est le filtre qui détermine qui accède à la liste restreinte. Dans les programmes SAP en entreprise, la crédibilité n’est pas un facteur secondaire. Elle a un impact direct sur le risque, la gouvernance et la valeur à long terme. Dans ce blog, nous nous concentrons sur la manière dont les entreprises évaluent la confiance et la crédibilité des sociétés de conseil SAP lors de la phase de présélection, avant le début de l’évaluation formelle et de la contractualisation."
+      },
+      {
+        "id": 66,
+        "image": "/images/blog/business-growth-journey-thumbnail.webp",
+        "category": "Conseil Salesforce",
+        "industry": "Générique",
+        "date": "Dec. 23, 2025",
+        "url": "/salesforce-consulting-playbook-enterprise-growth/",
+        "title": "Guide de conseil Salesforce : stratégies pour stimuler la croissance et l’efficacité",
+        "alt": "Figure abstraite bleue gravissant des marches géométriques symbolisant la croissance de l’entreprise et le progrès stratégique",
+        "description": "Salesforce s’est imposé comme le CRM de référence pour les entreprises. Pourtant, pour beaucoup d’organisations, il peine encore à devenir un véritable moteur de croissance. L’écart ne vient que rarement des fonctionnalités. Il vient de la stratégie."
+      },
+      {
         "id": 65,
         "image": "/images/blog/cloud-computing-digital-storage-thumbnail.webp",
-        "category": "Salesforce Consulting",
+        "category": "Conseil Salesforce",
         "industry": "Générique",
         "date": "Dec. 18, 2025",
         "url": "/partner-salesforce-right-way-for-growth/",
@@ -240,7 +262,7 @@
         "image": "/images/blog/electric-vehicle-charging-energy-thumb.webp",
         "category": "Salesforce Automotive Cloud",
         "industry": "Automobile",
-        "date": "Dec. 11, 2025", 
+        "date": "Dec. 11, 2025",
         "url": "/digital-twin-in-automotive-industry-salesforce-cloud/",
         "title": "Digital Twin Automobile : Comment les OEM, Concessionnaires et Marques Électriques Réussissent avec Salesforce Automotive Cloud",
         "alt": "Port de charge de véhicule électrique avec des flux d’énergie lumineux représentant la puissance et la technologie propre",
@@ -447,7 +469,7 @@
       {
         "id": 44,
         "image": "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
-        "category": "Conseil Salesforce",
+        "category": "Sciences de la vie",
         "industry": "Générique",
         "date": "Oct. 06, 2025",
         "url": "/salesforce-development-services-to-boost-crm-efficiency/",

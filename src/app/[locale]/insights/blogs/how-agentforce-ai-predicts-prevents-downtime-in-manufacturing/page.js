@@ -185,7 +185,7 @@ export default function Page() {
                   })}
                 </div>
 
-                <p className="mt-20 xl:w-[90%] 4xl:text-[20px] xl:text-[17px] text-[16px]">
+                <p className="mt-14 xl:w-[90%] 4xl:text-[20px] xl:text-[17px] text-[16px]">
                   {t("impactDesc2")}
                 </p>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:gap-x-[26px] gap-y-[26px] mt-[48px] lg:mt-[60px] xl:w-[1080px] sm:w-[85%] lg:w-full">

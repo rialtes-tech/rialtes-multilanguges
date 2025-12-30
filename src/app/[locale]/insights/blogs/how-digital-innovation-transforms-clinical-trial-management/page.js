@@ -186,7 +186,7 @@ export default function Page() {
                         {data.desc2}
                       </p>
                       <div className="lg:mt-[50px] mt-[25px] relative grid grid-cols-1 md:grid-cols-2 lg:gap-y-12 gap-y-6">
-                        <div className="relative flex flex-col pr-14">
+                        <div className="relative flex flex-col md:pr-14">
                           <div className="hidden md:block absolute left-full top-0 bottom-0 w-px bg-[#707070]"></div>
                           <h3 className="text-[#006FBE] font-bold 4xl:text-[22px] 2xl:text-[19px] text-[18px]">
                             {data.gridLeft[0]}
@@ -199,7 +199,7 @@ export default function Page() {
                           </h3>
                         </div>
 
-                        <div className="relative flex flex-col pr-14">
+                        <div className="relative flex flex-col md:pr-14">
                           <div className="hidden md:block absolute left-full top-0 bottom-0 w-px bg-[#707070]"></div>
                           <h3 className="text-[#006FBE] font-bold 4xl:text-[22px] 2xl:text-[19px] text-[18px]">
                             {data.gridLeft[1]}

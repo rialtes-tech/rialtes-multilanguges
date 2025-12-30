@@ -179,7 +179,7 @@ export default function Page() {
                         <div className="xl:block hidden mt-14">
                             <Image
                                 src="/images/blog/5-pillars-of-SAP-implementation-strategy.svg"
-                                alt="5 Pillars of SAP Implementation Strategy"
+                                alt={t('fivePillarAlt')}
                                 priority
                                 width={0}
                                 height={0}
@@ -189,7 +189,7 @@ export default function Page() {
                         <div className="xl:hidden block">
                             <Image
                                 src="/images/blog/5-pillars-of-SAP-implementation-strategy-mobile.svg"
-                                alt="5 Pillars of SAP Implementation Strategy Mobile"
+                                alt={t('fivePillarAlt')}
                                 priority
                                 width={1200}
                                 height={800}
@@ -238,7 +238,7 @@ export default function Page() {
                                     ))}
 
                                     {data.list && ind === 1 && (
-                                        <ul className="pl-[36px] lg:pl-[46px] space-y-3 mt-5">
+                                        <ul className="pl-[36px] lg:pl-[56px] space-y-3 mt-5">
                                             {data.list.map((elems, idx) => (
                                                 <li
                                                     key={`list1-${ind}-${idx}`}
@@ -252,6 +252,7 @@ export default function Page() {
                                             ))}
                                         </ul>
                                     )}
+
 
                                     {data.list && ind === 2 && (
                                         <UnorderedList

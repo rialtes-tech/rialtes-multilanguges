@@ -14,10 +14,10 @@ const ServiceSection = () => {
   return (
     <div className="custom-container ">
       <div className="lg:mb-[67px] mb-6 md:max-w-[80%] 2xl:w-[74%] 4xl:w-[80%] max-w-full">
-        <h2 className=" mb-10 leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[80%] 4xl:w-[100%]">
+        <h2 className=" mb-2 xl:mb-10 leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] xl:w-[80%] 4xl:w-[100%]">
           {t("integrationTitle")}
         </h2>
-        <p className="w-full text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+        <p className="w-full text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight">
           {t("integrationDesc")}
         </p>
       </div>

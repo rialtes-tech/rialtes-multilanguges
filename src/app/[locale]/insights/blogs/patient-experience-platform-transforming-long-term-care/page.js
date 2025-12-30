@@ -238,12 +238,12 @@ export default function Page() {
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
 
-                                                <div className="grid md:grid-cols-2 grid-cols-1 lg:gap-[80px]">
+                                                <div className="grid md:grid-cols-2 grid-cols-1 xl:gap-[80px] md:gap-[40px]">
                                                     {
                                                         data.listData.map((elem, id) => {
                                                             return (
                                                                 <div key={id}>
-                                                                    <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] mt-[48px] font-bold">{elem.listTitle}</h3>
+                                                                    <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] xl:mt-[48px] mt-[30px] font-bold">{elem.listTitle}</h3>
                                                                     <UnorderedList arrName={elem.list} ulClassName="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-4" />
                                                                 </div>
                                                             )

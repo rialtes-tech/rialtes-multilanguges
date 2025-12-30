@@ -107,7 +107,7 @@ export default function Page() {
               {/* tranisition section */}
               <div className="md:mt-[50px] mt-[40px]">
                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('transitionTitle')}</h2>
-                <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"><Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/"}>{t('transitionLink')}</Link>{" "}{t('transitionDesc')}</p>
+                <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"><Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={`https://www.rialtes.com/${locale}/insights/blogs/how-salesforce-agentforce-actually-works/`}>{t('transitionLink')}</Link>{" "}{t('transitionDesc')}</p>
                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('transitionDesc2')}<Link className="underline" href={"mailto:sales@rialtes.com"}>sales@rialtes.com</Link>.</p>
               </div>
             </div>

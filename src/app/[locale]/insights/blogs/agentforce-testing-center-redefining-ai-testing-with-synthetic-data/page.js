@@ -115,7 +115,7 @@ export default function Page() {
                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('whyTitle')}</h2>
                 <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('whyDesc')}</p>
                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('whyDesc2')}</p>
-                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('whyDesc3')}{" "}<Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href={"https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"}><span className="font-normal">{t('whyLink')}</span></Link>{" "}{t('whyDesc4')} </p>
+                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('whyDesc3')}{" "}<Link className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline" href={`https://www.rialtes.com/${locale}/solutions/artificial-intelligence/salesforce-agentforce-consulting/`}><span className="font-normal">{t('whyLink')}</span></Link>{" "}{t('whyDesc4')} </p>
               </div>
             </div>
           </div>

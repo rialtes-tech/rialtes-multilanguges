@@ -139,7 +139,7 @@ const WebinarForm = ({ redirectUrl, emailWebinarLink }) => {
 
     return (
         <div className=" mt-10 bg-white">
-            <h3 className="mb-4">{t('formTitle')}</h3>
+            <h3 className="mb-4 text-[20px] md:text-[22px] xl:text-[24px] 4xl:text-[30px]">{t('formTitle')}</h3>
             <div className="grid grid-cols-6">
                 <div className="col-span-8 xl:col-span-4 md:col-span-6">
                     <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
