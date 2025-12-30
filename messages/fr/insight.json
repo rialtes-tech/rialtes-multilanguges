@@ -225,6 +225,18 @@
     ],
     "latestBlogs": [
       {
+  "id": 65,
+  "image": "/images/blog/salesforce-consulting-cluster-2.2_blog-thumb.webp",
+  "category": "Conseil Salesforce",
+  "industry": "Générique",
+  "date": "Dec. 22, 2025",
+  "url": "/salesforce-integration-partners-for-enterprises-to-scale/",
+  "title": "Partenaires d’Intégration Salesforce : Réduire la Complexité, Augmenter le ROI",
+  "alt": "Icône d’intégration cloud sur un smartphone représentant l’intégration Salesforce et la connectivité des systèmes d’entreprise.",
+  "description": "Salesforce se trouve au cœur de la stratégie numérique des entreprises pour une bonne raison. Il connecte les revenus, l’expérience client, les opérations de service et la prise de décision basée sur les données sur une seule plateforme."
+},
+
+      {
         "id": 65,
         "image": "/images/blog/cloud-computing-digital-storage-thumbnail.webp",
         "category": "Salesforce Consulting",

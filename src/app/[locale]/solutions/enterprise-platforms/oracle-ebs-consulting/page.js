@@ -115,7 +115,7 @@ export default function Page() {
         <div className="custom-container">
           <div className=" flex flex-col text-white relative  xl:py-10 py-6">
             <div className="xl:mt-20 mt-8">
-              <h2 className="text-[26px] xl:text-[45px] 4xl:text-[60px] leading-tight">
+              <h2 className="text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight">
                 {t('ebsTitle')}
               </h2>
               <div className="grid xl:grid-cols-12 grid-cols-1 items-center xl:mt-5 mt-3">
@@ -177,7 +177,7 @@ export default function Page() {
         <div className="h-full relative custom-container">
           <div className="grid xl:grid-cols-12 grid-cols-12 items-center text-white">
             <div className="4xl:col-span-9 xl:col-span-8 col-span-12 text-white sm:backdrop-blur-md sm:p-5 xl:p-0 sm:bg-blue-800/30 xl:backdrop-blur-0 xl:bg-transparent">
-              <h2 className="xl:mt-32 mt-16 leading-tight 4xl:text-[60px] xl:text-[45px] md:text-[26px] ">
+              <h2 className="xl:mt-32 mt-16 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
                 {t('deepExpertiesTitle')}
               </h2>
               <p className="4xl:text-[22px] xl:text-[18px] text-[16px] mt-5 leading-tight ">
@@ -225,7 +225,7 @@ export default function Page() {
             <div className="xl:col-span-6 col-span-12">
               <div className="pt-20 ">
                 <div className="max-sm:px-[36px]">
-                  <h2 className="pr-10 xl:pr-0 leading-tight 4xl:text-[60px] 2xl:text-[49px] xl:text-[45px] md:text-[26px] text-[22px]">
+                  <h2 className="pr-10 xl:pr-0 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] text-[22px]">
                     {t('thoughtTitle')}
                   </h2>
                   <p className="4xl:text-[22px] xl:text-[18px] text-[16px] mt-5 leading-tight xl:pr-14">
@@ -291,7 +291,7 @@ export default function Page() {
               />
             </div>
             <div className="xl:col-span-7 col-span-12">
-              <h2 className=" xl:mt-20 mt-16 leading-tight 4xl:text-[60px] xl:text-[44px] md:text-[26px]">
+              <h2 className=" xl:mt-20 mt-16 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
                 {t('supplyChainTitle')}
               </h2>
               <h2 className="4xl:text-[40px] xl:text-[28px] text-[22px] xl:font-bold font-medium mt-5 leading-tight">

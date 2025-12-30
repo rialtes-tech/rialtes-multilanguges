@@ -226,6 +226,17 @@
     ],
     "latestBlogs": [
       {
+  "id": 66,
+  "image": "/images/blog/salesforce-consulting-cluster-2.2_blog-thumb.webp",
+  "category": "Consultoría Salesforce",
+  "industry": "Genérico",
+  "date": "Dec. 22, 2025",
+  "url": "/salesforce-integration-partners-for-enterprises-to-scale/",
+  "title": "Socios de Integración para Salesforce: Reduciendo la Complejidad, Aumentando el ROI",
+  "alt": "Icono de integración en la nube en un smartphone que representa la integración de Salesforce y la conectividad de sistemas empresariales.",
+  "description": "Salesforce se sitúa en el centro de la estrategia digital empresarial por una razón. Conecta los ingresos, la experiencia del cliente, las operaciones de servicio y la toma de decisiones basada en datos en una sola plataforma."
+},
+      {
         "id": 65,
         "image": "/images/blog/cloud-computing-digital-storage-thumbnail.webp",
         "category": "Salesforce Consulting",
