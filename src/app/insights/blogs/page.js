@@ -62,7 +62,29 @@ const allCategories = [
 ];
 
 const latestBlogs = [
-   {
+  {
+    "id": 67,
+    "image": "/images/blog/strategic-partnership-digital-connection-thumbnail.webp",
+    "category": "SAP Consulting",
+    "industry": "Generic",
+    "date": "Dec. 29, 2025",
+    "url": "/what-makes-sap-consulting-companies-trustworthy/",
+    "title": "What Makes SAP Consulting Companies Trustworthy for Enterprise Engagements",
+    "alt": "Two people shaking hands with glowing digital lines symbolizing partnership and collaboration.",
+    "description": "Trust is the filter that determines who even makes it onto the shortlist. In enterprise SAP programs, credibility is not a soft factor. It directly impacts risk, governance, and long-term value.With this blog, we focus on how enterprises assess trust and credibility in SAP consulting companies during the pre-selection stage, before formal evaluation and contracting begin."
+  },
+  {
+    "id": 66,
+    "image": "/images/blog/business-growth-journey-thumbnail.webp",
+    "category": "Salesforce Consulting",
+    "industry": "Generic",
+    "date": "Dec. 23, 2025",
+    "url": "/salesforce-consulting-playbook-enterprise-growth/",
+    "title": "Salesforce Consulting Playbook: Strategies to Drive Growth and Efficiency",
+    "alt": "Abstract blue figure climbing geometric steps symbolizing business growth and strategic progress",
+    "description": "Salesforce has established itself as the enterprise CRM of record. But for many companies, it still falls short of becoming a true growth engine. The gap rarely comes down to features. It comes down to strategy."
+  },
+  {
     "id": 65,
     "image": "/images/blog/salesforce-consulting-cluster-2.2_blog-thumb.webp",
     "category": "Salesforce Consulting",
@@ -97,7 +119,7 @@ const latestBlogs = [
   },
   {
     "id": 62,
-    "image": "/images/blog/digital-data-stream-thumb.webp", 
+    "image": "/images/blog/digital-data-stream-thumb.webp",
     "category": "Managed Services",
     "industry": "Generic",
     "date": "Dec. 05, 2025",
@@ -121,7 +143,7 @@ const latestBlogs = [
     "id": 60,
     "image": "/images/blog/patient-consultation-genomics-thumb.webp",
     "category": "MediAina",
-    "industry": "Life Sciences", 
+    "industry": "Life Sciences",
     "date": "Dec. 03, 2025",
     "url": "/why-patient-drop-out-clinical-trials-and-how-to-prevent-it/",
     "title": "Why Clinical Trial Dropouts Happen — And How Digital Engagement Prevents Them",
@@ -166,7 +188,7 @@ const latestBlogs = [
     "image": "/images/blog/digital-touchscreen-technology-thumb.webp",
     "category": "MediAIna",
     "industry": "Life Sciences",
-    "date": "Nov. 20, 2025", 
+    "date": "Nov. 20, 2025",
     "url": "/ai-in-clinical-trials-rare-disease-enrolment/",
     "alt": "Person interacting with digital touchscreen interface displaying AI and futuristic technology elements",
     "title": "5 Proven Ways AI Accelerates Patient Enrolment in Rare Disease Clinical Trials",
@@ -672,7 +694,7 @@ const latestBlogs = [
   {
     id: 10,
     image: "/images/blog/sap-successfactors-office-365-thumb.webp",
-    category: "SAP SuccessFactors", 
+    category: "SAP SuccessFactors",
     industry: "HRMS",
     date: "Dec. 24, 2024",
     url: '/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/',
