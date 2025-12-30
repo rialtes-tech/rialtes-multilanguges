@@ -74,7 +74,7 @@ export default function Page() {
             />
             {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">
-              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">
+              <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight 4xl:w-[90%]">
                 {t("blogTitle")}
               </h1>
               <div className="xl:mt-[38px] mt-[33px]">
@@ -164,9 +164,7 @@ export default function Page() {
                   {t("integrateDesc2")}{" "}
                   <Link
                     className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                    href=" https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/?utm_source=internal&utm_medium=blog"
-                    target="_blank"
-                  >
+                    href={`https://www.rialtes.com/${locale}/solutions/enterprise-platforms/sap-consulting/?utm_source=internal&utm_medium=blog`} target="_blank">
                     {t("integrateLink")}
                   </Link>{" "}
                   , {t("integrateDesc3")}{" "}

@@ -166,9 +166,8 @@ export default function Page() {
                   {t("improveData2")}{" "}
                   <Link
                     className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                    href="https://www.rialtes.com/industry/life-sciences/pharma-biotech-digital-transformation/?utm_source=internal&utm_medium=blog"
-                    target="_blank"
-                  >
+                    href={`https://www.rialtes.com/${locale}/industry/life-sciences/pharma-biotech-digital-transformation/?utm_source=internal&utm_medium=blog`}
+                    target="_blank">
                     {" "}
                     {t("improveDataLink")}
                   </Link>{" "}

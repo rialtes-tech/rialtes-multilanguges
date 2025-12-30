@@ -58,7 +58,6 @@ export default function Page() {
           <Image
             src="/images/blog/abstract-data-visualization-digital-wave-technology.webp"
             alt={t('bannerAlt')}
-
             fill
             priority
           />
@@ -140,7 +139,7 @@ export default function Page() {
                 {goverenanceData.map((data, ind) => {
                   return (
                     <li key={ind}>
-                      <h3 className="inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight">
+                      <h3 className="mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight">
                         {data.title}
                       </h3>
                       <UnorderedList
@@ -152,7 +151,7 @@ export default function Page() {
                   );
                 })}
               </ul>
-              <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]  font-semibold">
+              <p className="mt-8 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]  font-semibold">
                 {t("governanceDesc2")}
               </p>
             </div>
@@ -257,7 +256,7 @@ export default function Page() {
                 {t("governedTitle")}
               </h2>
               <p className="mt-[29px] xl:mt-[34px]  4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                <Link href="https://www.rialtes.com/insights/blogs/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/">
+                <Link href={`https://www.rialtes.com/${locale}/insights/blogs/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/`}>
                   {" "}
                   <span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">
                     {t("governedLink")}
@@ -268,7 +267,7 @@ export default function Page() {
               <p className="mt-5   4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                 {t("governedAt")} <strong>{t("rialtes")}</strong> ,
                 {t("governedDesc2")}{" "}
-                <Link href="https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting">
+                <Link href={`https://www.rialtes.com/${locale}/solutions/enterprise-platforms/sap-consulting`}>
                   {" "}
                   <span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">
                     {t("sap")}

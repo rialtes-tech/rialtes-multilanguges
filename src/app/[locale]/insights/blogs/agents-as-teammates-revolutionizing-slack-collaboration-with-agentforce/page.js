@@ -168,7 +168,7 @@ export default function Page() {
                 {t("collaborateDesc2")}{" "}
                 <Link
                   className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                  href={"https://rialtes.netlify.app/solutions/artificial-intelligence/salesforce-agentforce-consulting?utm_source=blog&utm_medium=organic"}>
+                  href={`https://www.rialtes.com/${locale}/solutions/artificial-intelligence/salesforce-agentforce-consulting?utm_source=blog&utm_medium=organic`}>
                   <span>{t("collaborateLink")}</span>
                 </Link>{" "}
                 {t("collaborateDesc3")}{" "}

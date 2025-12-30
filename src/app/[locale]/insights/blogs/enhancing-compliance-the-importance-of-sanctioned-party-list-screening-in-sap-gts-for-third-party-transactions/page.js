@@ -129,7 +129,7 @@ export default function Page() {
 
                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                   {t('complyDesc2')}{" "}<Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                    href={"https://www.rialtes.com/solutions/enterprise-platforms/sap-consulting/?utm_source=blog&utm_medium=organic"}>
+                    href={`https://www.rialtes.com/${locale}/solutions/enterprise-platforms/sap-consulting/?utm_source=blog&utm_medium=organic`}>
                     <span>{t('complyLink')}</span>
                   </Link>{" "}{t('complyDesc3')}
                 </p>
