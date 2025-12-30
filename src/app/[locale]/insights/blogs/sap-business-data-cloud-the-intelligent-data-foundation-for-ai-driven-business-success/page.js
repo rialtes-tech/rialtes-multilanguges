@@ -81,8 +81,7 @@ export default function Page() {
                   {t("blogMainData1")}{" "}
                   <Link
                     className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400"
-                    href="https://news.sap.com/2025/02/sap-business-data-cloud-databricks-turbocharge-business-ai/"
-                  >
+                    href={`https://news.sap.com/2025/02/sap-business-data-cloud-databricks-turbocharge-business-ai/`}>
                     {t("blogMainDataLink")}
                   </Link>{" "}
                   {t("blogMainData2")}{" "}
@@ -205,8 +204,7 @@ export default function Page() {
                   {t("acceleratesDesc2")}{" "}
                   <Link
                     className="text-[#0092E0] underline"
-                    href="https://www.rialtes.com/contact-us/?utm_source=blog&utm_medium=internal"
-                  >
+                    href={`https://www.rialtes.com/${locale}/contact-us/?utm_source=blog&utm_medium=internal`}>
                     {t("acceleratesLink")}
                   </Link>{" "}
                   {t("acceleratesDesc3")}{" "}

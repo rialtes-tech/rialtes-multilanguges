@@ -6,7 +6,6 @@ import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
 import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
-import { ChevronDown, ChevronRight } from "lucide-react";
 import { useLocale, useTranslations } from "next-intl";
 import enContent from "../../../../../../messages/en/blogs.json";
 import esContent from "../../../../../../messages/es/blogs.json";
@@ -566,7 +565,7 @@ export default function Page() {
                    max-md:mt-[-80px] sm:mt-[-70px] md:mt-0
                    md:top-1/2 md:-translate-y-1/2 md:left-[-80px]
                    bg-[#006FBE] text-white font-semibold
-                   4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]
+                   4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[18px] text-[18px]
                    px-[30px] py-[22px] leading-tight
                    4xl:w-[340px] xl:w-[280px] 2xl:w-[325px] md:w-[240px] w-fit 4xl:h-[100px]"
                                             >

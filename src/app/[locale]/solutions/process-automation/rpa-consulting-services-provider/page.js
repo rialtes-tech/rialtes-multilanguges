@@ -57,8 +57,8 @@ const t = useTranslations("uiPath");
                 <div className="h-full absolute custom-container xl:!pr-0 mr-0 top-0">
                     <div className="grid xl:grid-cols-12  grid-cols-1 gap-2">
                         <div className="xl:col-span-6  col-span-12 4xl:mt-32 xl:mt-20 mt-40 4xl:pr-16  xl:pr-10 pr-20 md:pr-64">
-                            <h3 className="text-white xl:text-[24px]  font-bold mb-2">  {t('headerTitle')}  </h3>
-                            <h2 className="text-white leading-tight mt-5   text-[26px] 4xl:text-[60px]   xl:text-[44px]">
+                            <h3 className="text-white lg:text-[24px] text-[18px] font-bold mb-2">  {t('headerTitle')}  </h3>
+                            <h2 className="text-white leading-tight mt-5 text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">
                             {t('headerDesc')}</h2>
                         </div>
                         <div className="xl:col-span-7 col-span-12">
@@ -81,11 +81,11 @@ const t = useTranslations("uiPath");
                         />
                     </div>
                     <div className="xl:col-span-8 order-2 xl:order-1">
-                        <h1 className="leading-tight text-[26px] 4xl:text-[60px] xl:text-[42px] xl:pr-20 mt-10 4xl:mt-0 xl:mt-0 pr-10">
+                        <h1 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] xl:pr-20 mt-10 4xl:mt-0 xl:mt-0 pr-0">
                          {t('operationsTitle')}</h1>
-                        <p className="xl:mt-12 mt-5 4xl:text-[22px] text-[16px] pr-[36px] 4xl:pr-20 xl:pr-32">
+                        <p className="xl:mt-12 mt-5 4xl:text-[22px] md:text-[18px] text-[16px] pr-0 4xl:pr-20 xl:pr-32">
                        {t('operationsDescOne')}</p>
-                        <p className="mt-5 pb-16 4xl:text-[22px] text-[16px] pr-[30px] 4xl:pr-20 xl:pr-24">
+                        <p className="mt-5 pb-16 4xl:text-[22px] md:text-[18px] text-[16px] pr-0 4xl:pr-20 xl:pr-24">
                         {t('operationsDescTwo')}</p>
                     </div>
                 </div>
@@ -105,10 +105,10 @@ const t = useTranslations("uiPath");
                         />
                     </div>
                     <div className="xl:col-span-7 bg-[#006FBE] p-10 text-white order-2 xl:order-1 pb-40 4xl:pb-20 xl:pb-16">
-                        <h2 className="leading-tight text-[26px] 4xl:text-[60px] xl:text-[42px]"> {t('uiTitle')}  </h2>
-                        <p className="mt-5 4xl:text-[22px] text-[16px] font-normal 4xl:pr-20">
+                        <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]"> {t('uiTitle')}  </h2>
+                        <p className="mt-5 4xl:text-[22px] md:text-[18px] text-[16px] font-normal 4xl:pr-20">
                         {t('uiDesc')}</p>
-                        <UnorderedList arrName={whyRpaData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-12 mt-8 xl:pr-0 4xl:pr-20" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+                        <UnorderedList arrName={whyRpaData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-0 mt-8 xl:pr-0 4xl:pr-20" liClassName="4xl:text-[20px] text-[16px]" />
                     </div>
                 </div>
             </section>
@@ -121,16 +121,16 @@ const t = useTranslations("uiPath");
             </section>
             {/* end to end section */}
             <section className="xl:mt-24 4xl:mt-24 mt-16 my-10 custom-container 4xl:pr-[464px] xl:pr-[200px]">
-                <h2 className="leading-tight text-[26px] 4xl:text-[60px]  xl:text-[42px]">
+                <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">
                {t('serviceTitle')}  </h2>
-                <div className="4xl:text-[36px] text-[22px] xl:text-[25px] font-semibold leading-tight mt-5"> {t('serviceeDesc')}</div>
+                <div className="text-[22px] md:text-[22px] xl:text-[30px] 4xl:text-[36px] font-semibold leading-tight mt-5"> {t('serviceeDesc')}</div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-5 xl:mt-[67px] mt-[48px]">
                     {featureBoxes.map((feature, index) => (
                         <div
                             key={index}
                             className="bg-white border border-black hover:bg-[#D9F2FF] 4xl:p-10 p-8 flex flex-col h-full">
                             <div className="flex flex-col items-start mb-4">
-                                <h3 className="text-[#0A6BB8] mt-2 4xl:text-[30px] xl:text-[24px] text-[20px] font-semibold leading-tight">{feature.title}</h3>
+                                <h3 className="text-[#0A6BB8] mt-2 4xl:text-[30px] xl:text-[22px] text-[20px] font-semibold leading-tight">{feature.title}</h3>
                             </div>
                             <p className="text-[#000000] mt-2 4xl:text-[24px] xl:text-[18px] text-[16px] leading-tight font-normal">{feature.description}</p>
                         </div>
@@ -139,9 +139,9 @@ const t = useTranslations("uiPath");
             </section>
             {/* pre configured section */}
             <section className="mt-24 my-10 custom-container 4xl:pr-[405px] ">
-                <h2 className="leading-tight text-[26px] 4xl:text-[60px]  xl:text-[42px]">
+                <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">
                  {t('industryTitle')}</h2>
-                <p className="4xl:text-[22px] text-[16px] leading-tight mt-5">{t('industryDesc')}</p>
+                <p className="4xl:text-[22px] md:text-[18px] text-[16px] leading-tight mt-5">{t('industryDesc')}</p>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 xl:gap-5 4xl:gap-5 gap-20 xl:mt-[67px] mt-[48px] sm:w-[90%] md:w-[80%] lg:w-[90%] xl:w-full">
                     {featureBoxes2.map((feature, index) => (
                         <div
@@ -158,11 +158,11 @@ const t = useTranslations("uiPath");
                                 />
                             </div>
                             <div className="flex flex-col items-start mb-4 pt-10">
-                                <h3 className="text-[#0A6BB8] mt-2 4xl:text-[30px] xl:text-[24px] text-[24px] font-bold leading-tight">{feature.title}</h3>
+                                <h3 className="text-[#0A6BB8] mt-2 4xl:text-[30px] xl:text-[22px] text-[20px] font-bold leading-tight">{feature.title}</h3>
                             </div>
-                            <p className="text-[#000000] mt-2 4xl:text-[22px] xl:text-[18px] text-[20px] leading-tight font-normal pb-6 lg:pb-4">{feature.description}</p>
+                            <p className="text-[#000000] mt-2 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight font-normal pb-6 lg:pb-4">{feature.description}</p>
                             <div className="mt-auto">
-                                <LearnMore btnName={t('learnMoreBtn')}/>
+                                <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
                             </div>
                         </div>
                     ))}
@@ -196,19 +196,19 @@ const t = useTranslations("uiPath");
                         </div>
                     </div>
                     <div className="xl:col-span-8 bg-[#F0DCC9] max-md:px-[35px] 4xl:pb-[100px] xl:pb-32 md:px-[35px] text-black 4xl:pl-64 4xl:pr-[22rem] pb-[90px] xl:pr-[14rem] xl:pl-[11rem] pt-16  4xl:ml-[-200px] xl:ml-[-130px] mt-[-230px] 4xl:mt-0 xl:mt-0">
-                        <h2 className="leading-tight text-[26px] 4xl:text-[60px]  xl:text-[40px] pt-24 4xl:pt-0 xl:pt-0 pr-20 xl:pr-0 4xl:pr-0">
+                        <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] pt-24 4xl:pt-0 xl:pt-0">
                            {t('autoTitle')}
                         </h2>
-                        <h3 className="4xl:text-[40px] xl:text-[25px] text-[20px] font-semibold mt-5 leading-tight pr-20 xl:pr-0 4xl:pr-0">
+                        <h3 className="text-[20px] md:text-[26px] xl:text-[36px] 4xl:text-[40px] font-semibold mt-5 leading-tight">
                            {t('autoSubtitle')}
                         </h3>
                         <p className="mt-5 4xl:text-[22px] text-[16px]">{t('autoDesc')}</p>
-                        <div className="4xl:mt-10 xl:mt-5 font-semibold 4xl:text-[32px] xl:text-[20px] text-[18px] leading-tight mt-10">{t('titleOne')}</div>
-                        <UnorderedList arrName={aribaUseCases} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-1  font-medium marker:font-bold marker:text-2xl pl-5  mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
-                        <div className="4xl:mt-10 xl:mt-5 font-semibold 4xl:text-[32px] xl:text-[20px] text-[18px] leading-tight mt-10">{t('titleTwo')}</div>
-                        <UnorderedList arrName={aribaBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-1 font-medium  marker:font-bold marker:text-2xl pl-5 mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+                        <div className="4xl:mt-10 xl:mt-5 font-semibold 4xl:text-[32px] xl:text-[20px] text-[17px] leading-tight mt-10">{t('titleOne')}</div>
+                        <UnorderedList arrName={aribaUseCases} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-1  font-medium marker:font-bold marker:text-2xl pl-5  mt-3" liClassName="4xl:text-[20px] text-[16px]" />
+                        <div className="4xl:mt-10 xl:mt-5 font-semibold 4xl:text-[32px] xl:text-[20px] text-[17px] leading-tight mt-10">{t('titleTwo')}</div>
+                        <UnorderedList arrName={aribaBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-1 font-medium  marker:font-bold marker:text-2xl pl-5 mt-3" liClassName="4xl:text-[20px] text-[16px]" />
                         <div className="mt-5 absolute bottom-0">
-                            <LearnMore btnName={t('learnMoreBtn')}/>
+                            <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
                         </div>
                     </div>
                 </div>
@@ -241,24 +241,24 @@ const t = useTranslations("uiPath");
                         </div>
                     </div>
                     <div className="4xl:col-span-7 max-md:px-[35px] 4xl:pb-32 xl:pb-20 md:px-[35px] xl:col-span-6 pb-[90px] bg-[#BFDEE3] text-black pt-16 4xl:pl-[197px] 4xl:pr-[250px] 4xl:mr-[-200px] xl:pl-20 xl:pr-[200px] xl:mr-[-150px] order-2 xl:order-1 mt-[-285px] xl:mt-0 4xl:mt-0">
-                        <h2 className="leading-tight text-[26px] 4xl:text-[60px] xl:text-[42px] pt-48 xl:pt-0 4xl:pt-0">
+                        <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] pt-48 xl:pt-0 4xl:pt-0">
                            {t('hanaTitle')}
                         </h2>
-                        <h3 className="4xl:text-[40px] xl:text-[30px] text-[20px] font-semibold mt-5 leading-tight">
+                        <h3 className="text-[20px] md:text-[26px] xl:text-[36px] 4xl:text-[40px] font-semibold mt-5 leading-tight">
                             {t('hanaSubtitle')}
                         </h3>
-                        <p className="mt-5 4xl:text-[22px] text-[16px]">
+                        <p className="mt-5 4xl:text-[22px] md:text-[18px] text-[16px]">
                             {t('hanaDesc')}
                         </p>
-                        <div className="4xl:mt-10 xl:mt-8 mt-10 font-semibold 4xl:text-[32px] xl:text-[22px] text-[18px] leading-tight">
+                        <div className="4xl:mt-10 xl:mt-8 mt-10 font-semibold 4xl:text-[32px] xl:text-[22px] text-[17px] leading-tight">
                             {t('hanaTitleOne')}</div>
-                        <UnorderedList arrName={s4hanaUseCases} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
-                        <div className="4xl:mt-10 xl:mt-8 mt-10 font-semibold 4xl:text-[32px] xl:text-[22px] text-[18px] leading-tight">
+                        <UnorderedList arrName={s4hanaUseCases} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium mt-3" liClassName="4xl:text-[20px] text-[16px]" />
+                        <div className="4xl:mt-10 xl:mt-8 mt-10 font-semibold 4xl:text-[32px] xl:text-[22px] text-[17px] leading-tight">
                             {t('hanaTilteTwo')}
                         </div>
-                        <UnorderedList arrName={s4hanaBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+                        <UnorderedList arrName={s4hanaBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium mt-3" liClassName="4xl:text-[20px] text-[16px]" />
                         <div className="mt-5 absolute bottom-0">
-                            <LearnMore btnName={t('learnMoreBtn')}/>
+                            <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
                         </div>
                     </div>
                 </div>
@@ -291,26 +291,26 @@ const t = useTranslations("uiPath");
                         </div>
                     </div>
                     <div className="xl:col-span-8 bg-[#E6D2D2] 4xl:pb-32 xl:pb-20 max-md:px-[35px] md:px-[35px] mt-[-200px] pb-[90px] xl:mt-0 4xl:mt-0 text-black 4xl:pl-64 4xl:pr-[22rem] xl:pr-[14rem] xl:pl-[11rem] pt-16 4xl:ml-[-200px] xl:ml-[-130px] order-2 xl:order-1">
-                        <h2 className="leading-tight text-[26px] 4xl:text-[60px] xl:text-[40px] pt-32 xl:pt-0 4xl:pt-0">
+                        <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] pt-32 xl:pt-0 4xl:pt-0">
                             {t('rpaTitle')}
                         </h2>
-                        <h3 className="4xl:text-[40px] xl:text-[25px] text-[20px] font-semibold mt-5 leading-tight">
+                        <h3 className="text-[20px] md:text-[26px] xl:text-[36px] 4xl:text-[40px] font-semibold mt-5 leading-tight">
                           {t('rpaSubtitle')}
 
                         </h3>
-                        <p className="mt-5 4xl:text-[22px] text-[16px]">
+                        <p className="mt-5 4xl:text-[22px] md:text-[18px] text-[16px]">
                             {t('rpaDesc')}
                         </p>
-                        <div className="4xl:mt-10 xl:mt-5 font-semibold 4xl:text-[32px] xl:text-[20px] text-[18px] leading-tight mt-10">
+                        <div className="4xl:mt-10 xl:mt-5 font-semibold 4xl:text-[32px] xl:text-[20px] text-[17px] leading-tight mt-10">
                            {t('rpaTitleOne')}
                         </div>
-                        <UnorderedList arrName={successFactorUsecases} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-1 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
-                        <div className="4xl:mt-10 xl:mt-5 font-semibold 4xl:text-[32px] xl:text-[20px] text-[18px] leading-tight mt-10">
+                        <UnorderedList arrName={successFactorUsecases} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-1 marker:font-bold marker:text-2xl pl-5 font-medium mt-3" liClassName="4xl:text-[20px] text-[16px]" />
+                        <div className="4xl:mt-10 xl:mt-5 font-semibold 4xl:text-[32px] xl:text-[20px] text-[17px] leading-tight mt-10">
                             {t('rpaTilteTwo')}
                         </div>
-                        <UnorderedList arrName={successFactorBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-1 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+                        <UnorderedList arrName={successFactorBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-1 marker:font-bold marker:text-2xl pl-5 font-medium mt-3" liClassName="4xl:text-[20px] text-[16px]" />
                         <div className="mt-5 absolute bottom-0">
-                            <LearnMore btnName={t('learnMoreBtn')}/>
+                            <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
                         </div>
                     </div>
                 </div>
@@ -343,25 +343,25 @@ const t = useTranslations("uiPath");
                         </div>
                     </div>
                     <div className="4xl:col-span-7 xl:col-span-6 4xl:pb-32 xl:pb-20 max-md:px-[35px] md:px-[35px] bg-[#ACD8ED] pb-[90px] mt-[-200px] xl:mt-0 4xl:mt-0 text-black pt-16 4xl:pl-[197px] 4xl:pr-[250px] 4xl:mr-[-200px] xl:pl-20 xl:pr-[200px] xl:mr-[-150px] order-2 xl:order-1">
-                        <h2 className="leading-tight text-[26px] 4xl:text-[60px] xl:text-[42px] pt-32 xl:pt-0 4xl:pt-0">
+                        <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] pt-32 xl:pt-0 4xl:pt-0">
                             {t('SalesforceTitle')}
                         </h2>
-                        <h3 className="4xl:text-[40px] xl:text-[30px] text-[20px] font-semibold mt-5 leading-tight">
+                        <h3 className="text-[20px] md:text-[26px] xl:text-[36px] 4xl:text-[40px] font-semibold mt-5 leading-tight">
                            {t('SalesforceSubtitle')}
                         </h3>
-                        <p className="mt-5 4xl:text-[22px] text-[16px]">
+                        <p className="mt-5 4xl:text-[22px] md:text-[18px] text-[16px]">
                             {t('SalesforceDesc')}
                         </p>
-                        <div className="4xl:mt-10 xl:mt-8 font-semibold 4xl:text-[32px] xl:text-[22px] text-[18px] leading-tight mt-10">
+                        <div className="4xl:mt-10 xl:mt-8 font-semibold 4xl:text-[32px] xl:text-[22px] text-[17px] leading-tight mt-10">
                             {t('SalesforceTitleOne')}
                         </div>
-                        <UnorderedList arrName={salesforceUsecases} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
-                        <div className="4xl:mt-10 xl:mt-8 font-semibold 4xl:text-[32px] xl:text-[22px] text-[18px] leading-tight mt-10">
+                        <UnorderedList arrName={salesforceUsecases} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium mt-3" liClassName="4xl:text-[20px] text-[16px]" />
+                        <div className="4xl:mt-10 xl:mt-8 font-semibold 4xl:text-[32px] xl:text-[22px] text-[17px] leading-tight mt-10">
                             {t('SalesforceTilteTwo')}
                         </div>
-                        <UnorderedList arrName={salesforceBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+                        <UnorderedList arrName={salesforceBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium mt-3" liClassName="4xl:text-[20px] text-[16px]" />
                         <div className="mt-10 absolute bottom-0">
-                            <LearnMore btnName={t('learnMoreBtn')}/>
+                            <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
                         </div>
                     </div>
                 </div>
@@ -381,31 +381,31 @@ const t = useTranslations("uiPath");
                 </div>
                 <div className="grid xl:grid-cols-12 grid-cols-1  4xl:mt-[-285px] xl:mt-[-200px]">
                     <div className="xl:col-span-10 bg-[#016FBE]  text-white p-8 xl:pl-20 4xl:pl-20 4xl:pb-20 pb-24 xl:pb-10">
-                        <h2 className="leading-tight 4xl:mt-10 text-[26px] 4xl:text-[60px]  xl:text-[40px] pr-10 xl:pr-0 4xl:pr-0">{t('focusTitle')}</h2>
-                        <div className="4xl:text-[40px] text-[20px] font-semibold leading-tight 4xl:mt-8 xl:mt-5 mt-5">{t('focusDesc')}</div>
+                        <h2 className="leading-tight 4xl:mt-10 text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">{t('focusTitle')}</h2>
+                        <div className="text-[20px] md:text-[26px] xl:text-[36px] 4xl:text-[40px] font-semibold leading-tight 4xl:mt-8 xl:mt-5 mt-5">{t('focusDesc')}</div>
                         <div className="flex xl:gap-20 4xl:gap-20 gap-10 4xl:mt-14 mt-10 md:gap-0 xl:flex-row flex-col md:flex-row">
                             <div>
-                                <h3 className="4xl:text-[30px] text-[18px] xl:text-[22px]">{t('headingOne')}</h3>
-                                <UnorderedList arrName={automativeIndustryData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-12 mt-3 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+                                <h3 className="4xl:text-[30px] text-[17px] xl:text-[22px]">{t('headingOne')}</h3>
+                                <UnorderedList arrName={automativeIndustryData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 mt-3" liClassName="4xl:text-[20px] text-[16px]" />
                             </div>
                             <div>
-                                <h3 className="4xl:text-[30px] text-[18px] xl:text-[22px]">{t('headingTwo')}</h3>
-                                <UnorderedList arrName={manufacturingData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-12 mt-3 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+                                <h3 className="4xl:text-[30px] text-[17px] xl:text-[22px]">{t('headingTwo')}</h3>
+                                <UnorderedList arrName={manufacturingData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 mt-3" liClassName="4xl:text-[20px] text-[16px]" />
                             </div>
                         </div>
                         <div className="flex xl:gap-20 4xl:gap-24 gap-10 md:gap-6 xl:flex-row flex-col 4xl:mt-16 xl:mt-16 mt-10 md:flex-row">
                             <div>
-                                <h3 className="4xl:text-[30px] text-[18px] xl:text-[22px]">{t('headingThree')}</h3>
-                                <UnorderedList arrName={retailData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-12 mt-3 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+                                <h3 className="4xl:text-[30px] text-[17px] xl:text-[22px]">{t('headingThree')}</h3>
+                                <UnorderedList arrName={retailData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 mt-3" liClassName="4xl:text-[20px] text-[16px]" />
                                 <div className="absolute 4xl:mt-5 xl:block hidden">
-                                    <LearnMore btnName={t('learnMoreBtn')}/>
+                                    <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
                                 </div>
                             </div>
                             <div>
-                                <h3 className="4xl:text-[30px] text-[18px] xl:text-[22px]">{t('headingFour')}</h3>
-                                <UnorderedList arrName={hrData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-12 mt-3 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+                                <h3 className="4xl:text-[30px] text-[17px] xl:text-[22px]">{t('headingFour')}</h3>
+                                <UnorderedList arrName={hrData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 mt-3" liClassName="4xl:text-[20px] text-[16px]" />
                                 <div className="absolute mt-5 xl:hidden block">
-                                    <LearnMore btnName={t('learnMoreBtn')}/>
+                                    <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
                                 </div>
                             </div>
                         </div>
@@ -427,8 +427,8 @@ const t = useTranslations("uiPath");
                         />
                     </div>
                     <div className="xl:col-span-7 mt-16">
-                        <h2 className="leading-tight 4xl:mt-10 text-[26px] 4xl:text-[60px]  xl:text-[40px] pr-10 xl:pr-0 4xl:pr-0">{t('dataTitle')}</h2>
-                        <UnorderedList arrName={visualizationData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium 4xl:mt-8 xl:mt-5 pr-12 mt-8 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+                        <h2 className="leading-tight 4xl:mt-10 text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">{t('dataTitle')}</h2>
+                        <UnorderedList arrName={visualizationData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium 4xl:mt-8 xl:mt-5 mt-8" liClassName="4xl:text-[20px] text-[16px]" />
                     </div>
                 </div>
             </section>
@@ -447,18 +447,18 @@ const t = useTranslations("uiPath");
                         />
                     </div>
                     <div className="xl:col-span-4 order-2 xl:order-1">
-                        <h2 className="leading-tight text-[26px] 4xl:text-[55px] xl:text-[40px] 4xl:pr-10 pt-10 xl:pt-0 4xl:pt-0">
+                        <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[55px] 4xl:pr-10 pt-10 xl:pt-0 4xl:pt-0">
                            {t('aiTitle')}
                         </h2>
-                        <h3 className="4xl:text-[40px] xl:text-[30px] text-[20px] mt-5 leading-tight font-bold pr-10 xl:pr-0 4xl:pr-0">
+                        <h3 className="text-[20px] md:text-[26px] xl:text-[36px] 4xl:text-[40px] mt-5 leading-tight font-bold">
                             {t('aiSubtitle')}
                         </h3>
-                        <p className="4xl:text-[22px] text-[16px] leading-tight mt-5">
+                        <p className="4xl:text-[22px] md:text-[18px] text-[16px] leading-tight mt-5">
                             {t('aiDesc')}
                         </p>
-                        <UnorderedList arrName={aiEnhanceData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-medium marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5  mt-8 4xl:pr-16" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+                        <UnorderedList arrName={aiEnhanceData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-medium marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5  mt-8 4xl:pr-16" liClassName="4xl:text-[20px] text-[16px]" />
                         <div className="absolute mt-5 xl:mt-5">
-                            <LearnMore btnName={t('learnMoreBtn')}/>
+                            <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
                         </div>
                     </div>
                 </div>
@@ -478,9 +478,9 @@ const t = useTranslations("uiPath");
                         />
                     </div>
                     <div className="4xl:col-span-5 xl:col-span-6">
-                        <h2 className="leading-tight text-[26px] 4xl:text-[60px]  xl:text-[40px] 4xl:pr-10 pt-10 xl:pt-0 4xl:pt-0">{t('globalTitle')}</h2>
-                        <p className="4xl:text-[22px] text-[16px] leading-tight mt-5">{t('globalSubtitle')}</p>
-                        <UnorderedList arrName={provenData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-medium marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-12 mt-5 4xl:pr-16" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+                        <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] 4xl:pr-10 pt-10 xl:pt-0 4xl:pt-0">{t('globalTitle')}</h2>
+                        <p className="4xl:text-[22px] md:text-[18px] text-[16px] leading-tight mt-5">{t('globalSubtitle')}</p>
+                        <UnorderedList arrName={provenData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-medium marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 mt-5" liClassName="4xl:text-[20px] text-[16px]" />
                     </div>
                 </div>
             </section>
@@ -513,17 +513,17 @@ const t = useTranslations("uiPath");
                     <div className="xl:col-span-10 bg-[#016FBE]  text-white p-8 xl:pl-20 4xl:pl-20  pb-12 xl:pb-[rem] 4xl:pb-16">
                         <div className="flex xl:gap-20 xl:flex-row flex-col">
                             <div>
-                                <h2 className="leading-tight 4xl:mt-10 text-[26px] 4xl:text-[60px]  xl:text-[40px] pr-10 xl:pr-0 4xl:pr-0">{t('why')}</h2>
+                                <h2 className="leading-tight 4xl:mt-10 text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">{t('why')}</h2>
                             </div>
                             <div>
-                                <UnorderedList arrName={whyRiatlesData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-10 mt-8 xl:pr-0" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+                                <UnorderedList arrName={whyRiatlesData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 mt-8" liClassName="4xl:text-[20px] text-[16px]" />
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
             <div className="mt-20 custom-container pb-20">
-                <ContactForm title={t('contactTitle')} subtitle={t('contactSubtitle')} subtitle1={t('contactSubtitleOne')} className={"4xl:max-w-[58rem] xl:max-w-[44rem] leading-tight text-[26px] !font-light 4xl:text-[60px]  xl:text-[45px] pr-10 xl:pr-0"} />
+                <ContactForm title={t('contactTitle')} subtitle={t('contactSubtitle')} subtitle1={t('contactSubtitleOne')} className={"4xl:max-w-[58rem] xl:max-w-[44rem] leading-tight !font-light text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]"} />
             </div >
         </div>
     );

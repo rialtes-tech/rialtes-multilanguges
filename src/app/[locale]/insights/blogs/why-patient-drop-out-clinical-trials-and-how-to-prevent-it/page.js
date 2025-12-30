@@ -105,7 +105,7 @@ export default function Page() {
                                         {
                                             data.data.map((elem, id) => (
                                                 <React.Fragment key={id}>
-                                                    <h3 className="mt-10 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold 4xl:w-[90%]">
+                                                    <h3 className="mt-10 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold 4xl:w-[90%] leading-tight">
                                                         {elem.title}
                                                     </h3>
                                                     <p

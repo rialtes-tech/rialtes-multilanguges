@@ -152,7 +152,7 @@ export default function Page() {
                 <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t('completeDesc')}</p>
 
                 <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5">{t('completeDesc2')}
-                  {" "} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={"https://rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner?utm_source=blog&utm_medium=organic/"}>{t('completeLink')}</Link>
+                  {" "} <Link className="text-[#0092E0] underline transition duration-300 ease-out hover:text-gray-400" href={`https://rialtes.com/${locale}/services/hxm-transformation/successplus-successfactors-implementation-partner?utm_source=blog&utm_medium=organic/`}>{t('completeLink')}</Link>
                   {" "}  {t('completeDesc3')} <Link className="underline" href={"mailto:sales@rialtes.com"}><span >sales@rialtes.com</span></Link> {t('completeDesc4')}</p>
               </div>
             </div>

@@ -109,7 +109,7 @@ export default function Page() {
                 />
               </div>
                {/* Quick Answer */}
-              <div className="md:mt-[50px] mt-[40px]">
+              <div className="md:mt-[40px] mt-[40px]">
                 {quickAnswer.map((data, id) => {
                   return (
                     <div key={id}>

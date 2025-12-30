@@ -156,7 +156,7 @@ export default function Page() {
                     <li key={i}>
                       <h3
                         className={
-                          "font-bold mt-5 inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] leading-tight "
+                          "font-bold mt-5 inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] leading-tight text-[16px] "
                         }
                       >
                         {item.title}{" "}
@@ -166,7 +166,7 @@ export default function Page() {
                   ))}
                 </ol>
 
-                <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                <p className="mt-5 mb-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                   {t("smartDesc1")}
                 </p>
 
@@ -201,7 +201,7 @@ export default function Page() {
                     <li key={i}>
                       <h3
                         className={
-                          "font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] leading-tight"
+                          "font-bold inline text-[16px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] leading-tight"
                         }
                       >
                         {item.title}{" "}
@@ -250,7 +250,7 @@ export default function Page() {
                     <li key={i}>
                       <h3
                         className={
-                          "font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] leading-tight"
+                          "font-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] leading-tight text-[16px]"
                         }
                       >
                         {item.title}{" "}

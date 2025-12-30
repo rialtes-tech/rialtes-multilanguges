@@ -236,10 +236,32 @@
   "alt": "Icono de integración en la nube en un smartphone que representa la integración de Salesforce y la conectividad de sistemas empresariales.",
   "description": "Salesforce se sitúa en el centro de la estrategia digital empresarial por una razón. Conecta los ingresos, la experiencia del cliente, las operaciones de servicio y la toma de decisiones basada en datos en una sola plataforma."
 },
+{
+        "id": 67,
+        "image": "/images/blog/strategic-partnership-digital-connection-thumbnail.webp",
+        "category": "Consultoría SAP",
+        "industry": "Genérico",
+        "date": "Dec. 29, 2025",
+        "url": "/what-makes-sap-consulting-companies-trustworthy/",
+        "title": "Qué hace confiables a las empresas de consultoría SAP para compromisos empresariales",
+        "alt": "Dos personas estrechándose la mano con líneas digitales brillantes que simbolizan asociación y colaboración.",
+        "description": "La confianza es el filtro que determina quién siquiera llega a la lista corta. En los programas SAP empresariales, la credibilidad no es un factor blando. Impacta directamente en el riesgo, la gobernanza y el valor a largo plazo. Con este blog, nos centramos en cómo las empresas evalúan la confianza y la credibilidad de las empresas de consultoría SAP durante la etapa de preselección, antes de que comiencen la evaluación formal y la contratación."
+      },
+      {
+        "id": 66,
+        "image": "/images/blog/business-growth-journey-thumbnail.webp",
+        "category": "Consultoría de Salesforce",
+        "industry": "Genérico",
+        "date": "Dec. 23, 2025",
+        "url": "/salesforce-consulting-playbook-enterprise-growth/",
+        "title": "Guía de consultoría Salesforce: estrategias para impulsar el crecimiento y la eficiencia",
+        "alt": "Figura azul abstracta subiendo escalones geométricos que simbolizan el crecimiento empresarial y el progreso estratégico",
+        "description": "Salesforce se ha consolidado como el CRM empresarial de referencia. Sin embargo, para muchas empresas, todavía no logra convertirse en un verdadero motor de crecimiento. La brecha rara vez se debe a las funcionalidades. Se debe a la estrategia."
+      },
       {
         "id": 65,
         "image": "/images/blog/cloud-computing-digital-storage-thumbnail.webp",
-        "category": "Salesforce Consulting",
+        "category": "Consultoría de Salesforce",
         "industry": "Genérico",
         "date": "Dec. 18, 2025",
         "url": "/partner-salesforce-right-way-for-growth/",
@@ -260,7 +282,7 @@
       },
       {
         "id": 63,
-       "image": "/images/blog/digital-data-stream-thumb.webp",
+        "image": "/images/blog/digital-data-stream-thumb.webp",
         "category": "Servicios Gestionados",
         "industry": "Genérico",
         "date": "Dec. 05, 2025",
@@ -459,7 +481,7 @@
       {
         "id": 44,
         "image": "/images/blog/salesforce-consulting-cluster-feature-thumb.webp",
-        "category": "Consultoría de Salesforce",
+        "category": "Ciencias de la vida",
         "industry": "Genérico",
         "date": "Oct. 06, 2025",
         "url": "/salesforce-development-services-to-boost-crm-efficiency/",
