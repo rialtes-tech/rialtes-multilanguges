@@ -10,6 +10,28 @@ export default function page({ url }) {
     const [isLastSlide, setIsLastSlide] = useState(false);
     const latestBlogs = [
         {
+            "id": 67,
+            "image": "/images/blog/strategic-partnership-digital-connection-thumbnail.webp",
+            "category": "SAP Consulting",
+            "industry": "Generic",
+            "date": "Dec. 29, 2025",
+            "url": "/what-makes-sap-consulting-companies-trustworthy/",
+            "title": "What Makes SAP Consulting Companies Trustworthy for Enterprise Engagements",
+            "alt": "Two people shaking hands with glowing digital lines symbolizing partnership and collaboration.",
+            "description": "Trust is the filter that determines who even makes it onto the shortlist. In enterprise SAP programs, credibility is not a soft factor. It directly impacts risk, governance, and long-term value.With this blog, we focus on how enterprises assess trust and credibility in SAP consulting companies during the pre-selection stage, before formal evaluation and contracting begin."
+        },
+        {
+            "id": 66,
+            "image": "/images/blog/business-growth-journey-thumbnail.webp",
+            "category": "Salesforce Consulting",
+            "industry": "Generic",
+            "date": "Dec. 23, 2025",
+            "url": "/salesforce-consulting-playbook-enterprise-growth/",
+            "title": "Salesforce Consulting Playbook: Strategies to Drive Growth and Efficiency",
+            "alt": "Abstract blue figure climbing geometric steps symbolizing business growth and strategic progress",
+            "description": "Salesforce has established itself as the enterprise CRM of record. But for many companies, it still falls short of becoming a true growth engine. The gap rarely comes down to features. It comes down to strategy."
+        },
+        {
             "id": 65,
             "image": "/images/blog/salesforce-consulting-cluster-2.2_blog-thumb.webp",
             "category": "Salesforce Consulting",
