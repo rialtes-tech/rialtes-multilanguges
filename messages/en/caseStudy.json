@@ -527,39 +527,39 @@
     ],
     "featureList": [
       {
-        "title": "Unified Support Platform",
+        "title": "Unified Support Platform ",
         "desc": "All customer interactions, across internal teams, distributors, and OEMs, are now managed on a single platform."
       },
       {
-        "title": "Self-Service Portal",
+        "title": "Self-Service Portal ",
         "desc": "Distributors and OEMs can submit and track cases, and access a robust knowledge base 24/7."
       },
       {
-        "title": "Real-Time Communication",
+        "title": "Real-Time Communication ",
         "desc": "Built-in chat and messaging facilitate direct conversations between support teams and customers."
       },
       {
-        "title": "Knowledge Consolidation",
+        "title": "Knowledge Consolidation ",
         "desc": "Legacy support content was migrated into a centralized, searchable repository."
       },
       {
-        "title": "Einstein AI Assistance",
+        "title": "Einstein AI Assistance ",
         "desc": "AI-driven recommendations help customers resolve issues faster and reduce case volume."
       },
       {
-        "title": "Automated Case Assignment",
+        "title": "Automated Case Assignment ",
         "desc": "Routing logic based on geography and expertise ensures timely and accurate responses."
       },
       {
-        "title": "Cross-Continent Collaboration",
+        "title": "Cross-Continent Collaboration ",
         "desc": "Support teams can now share knowledge and updates effortlessly across time zones."
       },
       {
-        "title": "Segmented Content Delivery",
+        "title": "Segmented Content Delivery ",
         "desc": "Targeted release of support updates and critical info to specific customer groups."
       },
       {
-        "title": "Data Migration & Insights",
+        "title": "Data Migration & Insights ",
         "desc": "Historical case data migration enables in-depth trend analysis and smarter decision-making."
       }
     ],
@@ -1228,33 +1228,33 @@
     },
     "businessList": [
       {
-        "title": "Skill Silos",
+        "title": "Skill Silos ",
         "description": "Reliance on individual experts for each platform created bottlenecks. Any unavailability led to delays."
       },
       {
-        "title": "Talent Shortage",
+        "title": "Talent Shortage ",
         "description": "Local hiring markets lacked specialists with deep knowledge of the client’s specific tech stack."
       },
       {
-        "title": "Lack of Centralized Oversight",
+        "title": "Lack of Centralized Oversight ",
         "description": "Projects were loosely organized, limiting effective collaboration and knowledge sharing."
       }
     ],
     "solutionList": [
       {
-        "title": "Capability Assessment",
+        "title": "Capability Assessment ",
         "desc": "Conducted a thorough review of the client’s internal team and identified skill gaps."
       },
       {
-        "title": "Team Augmentation",
+        "title": "Team Augmentation ",
         "desc": "Deployed skilled resources to complement the client's in-house team, providing immediate support for Yardi, MRI, and RealPage."
       },
       {
-        "title": "Collaborative Transition",
+        "title": "Collaborative Transition ",
         "desc": "Initial support was provided offshore by Rialtes' technical team, gradually transitioning to a hybrid model with shared responsibilities."
       },
       {
-        "title": "End-to-End Ownership",
+        "title": "End-to-End Ownership ",
         "desc": "After a successful year, Rialtes took full ownership of all related systems—Yardi, RealPage, affordable housing, residential, and commercial support, delivering a comprehensive managed service model."
       }
     ],

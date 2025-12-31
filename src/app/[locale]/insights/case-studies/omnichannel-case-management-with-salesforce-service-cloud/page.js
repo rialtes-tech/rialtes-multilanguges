@@ -92,7 +92,7 @@ export default function Page() {
                   {featureList.map(({ title, desc }, index) => (
                     <li key={index}>
                       <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                        {title}
+                        {title} 
                       </h3>
                       : {desc}
                     </li>

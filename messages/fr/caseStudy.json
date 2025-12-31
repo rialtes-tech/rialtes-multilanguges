@@ -383,39 +383,39 @@
         ],
         "featureList": [
             {
-                "title": "Plateforme de support unifiée",
+                "title": "Plateforme de support unifiée ",
                 "desc": "Toutes les interactions clients, à travers les équipes internes, distributeurs et OEM, sont désormais gérées sur une plateforme unique."
             },
             {
-                "title": "Portail en libre-service",
+                "title": "Portail en libre-service ",
                 "desc": "Les distributeurs et OEM peuvent soumettre et suivre des cas, et accéder à une base de connaissances complète 24h/24 et 7j/7."
             },
             {
-                "title": "Communication en temps réel",
+                "title": "Communication en temps réel ",
                 "desc": "Le chat et la messagerie intégrés facilitent les conversations directes entre les équipes de support et les clients."
             },
             {
-                "title": "Consolidation des connaissances",
+                "title": "Consolidation des connaissances ",
                 "desc": "Le contenu de support hérité a été migré dans un référentiel centralisé et consultable."
             },
             {
-                "title": "Assistance IA Einstein",
+                "title": "Assistance IA Einstein ",
                 "desc": "Les recommandations basées sur l’IA aident les clients à résoudre plus rapidement leurs problèmes et réduisent le volume des cas."
             },
             {
-                "title": "Affectation automatisée des cas",
+                "title": "Affectation automatisée des cas ",
                 "desc": "La logique d’acheminement basée sur la géographie et l’expertise garantit des réponses rapides et précises."
             },
             {
-                "title": "Collaboration intercontinentale",
+                "title": "Collaboration intercontinentale ",
                 "desc": "Les équipes de support peuvent désormais partager facilement connaissances et mises à jour à travers les fuseaux horaires."
             },
             {
-                "title": "Diffusion de contenu segmenté",
+                "title": "Diffusion de contenu segmenté ",
                 "desc": "Publication ciblée de mises à jour de support et d’informations critiques à des groupes de clients spécifiques."
             },
             {
-                "title": "Migration et analyse des données",
+                "title": "Migration et analyse des données ",
                 "desc": "La migration des données historiques de cas permet une analyse approfondie des tendances et une prise de décision plus intelligente."
             }
         ],
@@ -856,7 +856,7 @@
         "warrantyTitle": "Adoption Améliorée de 40 % de l’Application de Garantie grâce à Salesforce Experience Cloud",
         "seoTitle": "Étude : Experience Cloud pour fabricant de toiture | Rialtes",
         "seoDescription": "Découvrez comment Rialtes a optimisé les réclamations de garantie et la satisfaction client avec Experience Cloud.",
-        "manufacturing": "Manufacture",
+        "manufacturing": "Fabrication",
         "read": "8 min de lecture",
         "clientTitle": "Profil du Client",
         "clientDesc": "Un fabricant de produits de toiture de premier plan, reconnu pour son innovation et sa qualité. Fort de plusieurs décennies d’expérience, il se spécialise dans les bardeaux d’asphalte, accessoires de toiture, solutions d’étanchéité et sous-couches pour usage résidentiel et commercial. Engagé en faveur de la durabilité, il investit dans des technologies de production avancées et maintient un large réseau de distribution, garantissant aux constructeurs, entrepreneurs et propriétaires l’accès à des solutions de toiture haut de gamme.",
@@ -892,33 +892,33 @@
         "schemaData": {},
         "businessList": [
             {
-                "title": "Silos de Compétences",
+                "title": "Silos de Compétences ",
                 "description": "La dépendance vis-à-vis d’experts individuels pour chaque plateforme créait des goulets d’étranglement. Toute indisponibilité entraînait des retards."
             },
             {
-                "title": "Pénurie de Talents",
+                "title": "Pénurie de Talents ",
                 "description": "Les marchés de recrutement locaux manquaient de spécialistes ayant une connaissance approfondie de la pile technologique spécifique du client."
             },
             {
-                "title": "Absence de Supervision Centralisée",
+                "title": "Absence de Supervision Centralisée ",
                 "description": "Les projets étaient faiblement organisés, limitant la collaboration efficace et le partage des connaissances."
             }
         ],
         "solutionList": [
             {
-                "title": "Évaluation des Compétences",
+                "title": "Évaluation des Compétences ",
                 "desc": "Examen approfondi de l’équipe interne du client et identification des lacunes en compétences."
             },
             {
-                "title": "Renforcement de l’Équipe",
+                "title": "Renforcement de l’Équipe ",
                 "desc": "Déploiement de ressources qualifiées pour compléter l’équipe interne du client, offrant un support immédiat pour Yardi, MRI et RealPage."
             },
             {
-                "title": "Transition Collaborative",
+                "title": "Transition Collaborative ",
                 "desc": "Le support initial a été fourni offshore par l’équipe technique de Rialtes, passant progressivement à un modèle hybride avec responsabilités partagées."
             },
             {
-                "title": "Responsabilité de Bout en Bout",
+                "title": "Responsabilité de Bout en Bout ",
                 "desc": "Après une année réussie, Rialtes a pris la pleine responsabilité de tous les systèmes associés—Yardi, RealPage, logement abordable, support résidentiel et commercial—offrant un modèle complet de service géré."
             }
         ],

@@ -377,8 +377,10 @@ export default function Page() {
 
 
                                 <p className="mt-[22px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                                    Managed Services isn’t outsourcing.</p>
-                                <p className=" 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">It’s access to the exact skills you need, exactly when you need them.
+                                  {t("internalSalesforcePara")}
+                                  </p>
+                                <p className=" 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                                    {t("internalSalesforcePara2")}
                                 </p>
 
                             </div>
