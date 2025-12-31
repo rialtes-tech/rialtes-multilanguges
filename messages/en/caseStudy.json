@@ -1545,6 +1545,9 @@
       "keywords": "sap erp cloud solutions, automotive case study",
       "datePublished": "2025-11-19"
     },
+    "solutionPara" : "Rialtes implemented comprehensive SAP ERP cloud solutions to digitize and automate O2C and P2P processes.",
+    "fioriPara" : "As part of the SAP ERP transformation, Rialtes implemented SAP Fiori to modernize the user interface and improve operational agility across departments.",
+    "benefitsPara" : "The transformation delivered measurable outcomes across operations:",
     "bannerAlt": "Automotive tires moving on a production line in a modern manufacturing facility",
     "seoTitle": "SAP ERP Cloud Solutions for Automotive | A Case Study",
     "seoDescription": "This automotive case study showcases how SAP ERP Cloud solutions have brought innovation to O2C and P2P, enhancing accuracy, inventory control, and speed.",
@@ -1556,6 +1559,7 @@
     "solutionTitle": "Solution",
     "fioriTitle": "Fiori Solutioning: Enhancing Usability and Process Efficiency",
     "benefitsTitle": "Benefits",
-    "businessTitle": "Business Impact of Fiori Enablement"
+    "businessTitle": "Business Impact of Fiori Enablement",
+    "Automotive" : "Automotive"
   }
 }

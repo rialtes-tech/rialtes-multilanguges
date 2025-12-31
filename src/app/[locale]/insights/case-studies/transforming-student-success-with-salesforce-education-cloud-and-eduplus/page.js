@@ -153,11 +153,11 @@ export default function page() {
                           className="object-contain"
                         />
                       </div>
-                      <div className="4xl:pr-20 2xl:pr-10 xl:pr-4 md:mt-[34px] mt-[29px]">
-                        <h3 className="font-bold text-black 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight mt-5">
+                      <div className="4xl:pr-20 2xl:pr-10 xl:pr-4 md:mt-[34px] mt-[20px]">
+                        <h4 className="font-bold text-black 4xl:text-[20px]  2xl:text-[17px]  xl:text-[17px] text-[16px] leading-tight mt-5">
                           {feature.title}
-                        </h3>
-                        <p className="text-black 4xl:text-[20px] 2xl:text-[17px] text-[16px] mt-5">
+                        </h4>
+                        <p className="text-black 4xl:text-[20px] 2xl:text-[17px] text-[16px] md:mt-5 mt-3">
                           {feature.description}
                         </p>
                       </div>
@@ -165,7 +165,7 @@ export default function page() {
                   ))}
                 </div>
 
-                <h3 className="4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] font-bold leading-tight text-black md:mt-[34px] mt-[29px]">
+                <h3 className="4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] font-bold leading-tight text-black md:mt-[60px] mt-[35px]">
                   {t("impactTitle")}
                 </h3>
 
@@ -174,10 +174,10 @@ export default function page() {
                 </p>
                 <section className="w-full flex justify-center">
                   <div className="w-full max-w-[1500px] flex flex-col lg:flex-row">
-                    <div className="4xl:w-[60%] 2xl:w-[58%] xl:w-[57%] pr-4 lg:pr-6 md:mt-[34px] mt-[29px] lg:pb-0">
-                      <h2 className="font-bold text-black 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight pb-6">
+                    <div className="4xl:w-[60%] 2xl:w-[58%] xl:w-[57%] pr-4 lg:pr-6 md:mt-[45px] mt-[29px] lg:pb-0">
+                      <h3 className="font-bold text-black 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight pb-6">
                         {t("resultsTitle")}
-                      </h2>
+                      </h3>
 
                       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ">
                         {quantitativeResults.map((item, index) => (
