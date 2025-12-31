@@ -105,9 +105,7 @@ export default function Page() {
                   <p className="mt-[29px] xl:mt-[30px] 4xl:pr-20  4xl:text-[20px] xl:text-[17px] text-[16px]">
                     {t("llmDesc")}{" "}
                     <Link
-                      href={
-                        "https://www.rialtes.com/insights/blogs/reimagine-enterprise-using-agentic-ai-systems"
-                      }
+                      href={t('href')}
                     >
                       <span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">
                         {t("llmStrongDesc")}</span></Link>{" "}{t("llmDesc2")}{" "}
@@ -213,10 +211,7 @@ export default function Page() {
                   <p className="mt-5 4xl:pr-5 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">
                     {t("fromChatbotDesc")}{" "}
                     <Link
-                      href={
-                        "https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/"
-                      }
-                    >
+                      href={t('hrefChat')}>
                       <span className="text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline">
 
                         {t("fromChatbotStrongDesc")}
