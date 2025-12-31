@@ -301,7 +301,7 @@ export default function Page() {
     const integrationAsPartOfBorder = [
         {
             "title": "Integration as Part of a Broader Salesforce Growth Strategy",
-            "desc": "Integration is not a standalone project. It’s foundational. This aligns with the  <a class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Salesforce consulting playbook for growth</a>  discussed in our other helpful blog.",
+            "desc": "Integration is not a standalone project. It’s foundational. This aligns with the  <a href='https://www.rialtes.com/insights/blogs/salesforce-consulting-playbook-enterprise-growth/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Salesforce consulting playbook for growth</a>  discussed in our other helpful blog.",
             "list": [
                 {
                     "title": "Integration Enables Automation and AI",

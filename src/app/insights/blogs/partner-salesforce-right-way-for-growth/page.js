@@ -134,7 +134,7 @@ export default function Page() {
             ],
             "desc2": [
                 "Your success depends on how well they understand your business model, challenges, workflows, and goals.",
-                "This is where trusted Salesforce consulting strategies are important. They bring clarity to complex transformation projects and make sure your CRM strategy actually delivers business outcomes"
+                "This is where  <a href='https://www.rialtes.com/insights/blogs/salesforce-consulting-playbook-enterprise-growth/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>trusted Salesforce consulting strategies </a> are important. They bring clarity to complex transformation projects and make sure your CRM strategy actually delivers business outcomes"
             ]
         }
     ]
@@ -596,7 +596,7 @@ export default function Page() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> 
             </section>
             {/* faq section */}
             <section className="xl:mt-[80px] mt-[40px] custom-container">
