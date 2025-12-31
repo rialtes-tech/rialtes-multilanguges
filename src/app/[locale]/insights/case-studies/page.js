@@ -17,7 +17,7 @@ import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCa
 
 export default function Page() {
  
-  const currUrl = useUrl()
+  const currUrl = useUrl() 
   const t = useTranslations('caseStudy')
   const locale = useLocale();
   const caseStudyContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
