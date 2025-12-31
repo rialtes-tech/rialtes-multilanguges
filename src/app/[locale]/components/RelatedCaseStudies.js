@@ -9,8 +9,11 @@ import esContent from '../../../../messages/es/insight.json';
 import frContent from '../../../../messages/fr/insight.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import { useMediaQuery } from "react-responsive";
+import { useEffect, useRef, useState } from "react";
 
 export default function page({ url, currTopic }) {
+    const carouselRef = useRef(null);
+    const [isLastSlide, setIsLastSlide] = useState(false);
     const t = useTranslations("caseStudy");
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, {
@@ -86,6 +89,24 @@ export default function page({ url, currTopic }) {
             </li>
         );
     };
+    const handleBeforeChange = (nextSlide, state) => {
+        const totalItems = state.totalItems;
+        const slidesToShow = state.slidesToShow;
+
+        const maxValidSlide = totalItems - slidesToShow;
+
+        setIsLastSlide(nextSlide >= maxValidSlide);
+    };
+    useEffect(() => {
+        if (isLastSlide) {
+            const timer = setTimeout(() => {
+                carouselRef.current.goToSlide(0);
+                setIsLastSlide(false);  // reset
+            }, 2000); // wait before restarting
+
+            return () => clearTimeout(timer);
+        }
+    }, [isLastSlide]);
 
     return (
         <section className="relative pb-8 lg:pb-4">
@@ -96,12 +117,13 @@ export default function page({ url, currTopic }) {
                         <h2 className="mb-[43px] leading-tight 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px]">{t('latestCaseStudyTitle')}</h2>
                     </div>
                     <Carousel
+                        ref={carouselRef}
                         swipeable={true}
                         draggable={true}
                         showDots={true}
                         responsive={responsive}
                         ssr={true}
-                        infinite={filteredCases.length > 1}
+                        infinite={false}
                         autoPlay={filteredCases.length > 1}
                         autoPlaySpeed={3000}
                         keyBoardControl={true}
@@ -111,7 +133,8 @@ export default function page({ url, currTopic }) {
                         removeArrowOnDeviceType={["tablet", "mobile"]}
                         dotListClass="custom-dot-list-style !justify-start flex-wrap"
                         itemClass="carousel-item-padding-40-px"
-                        partialVisible={true}
+                      partialVisible={!isLastSlide}
+                        beforeChange={handleBeforeChange}
                         arrows={false}
                         renderButtonGroupOutside={true}
                         customButtonGroup={
