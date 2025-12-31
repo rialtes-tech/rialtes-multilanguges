@@ -108,7 +108,7 @@ export default function page() {
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                                     {t('solutionTitle')}
                                 </h2>
-                                <p className="mt-[29px] font-medium xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Rialtes implemented comprehensive SAP ERP cloud solutions to digitize and automate O2C and P2P processes.</p>
+                                <p className="mt-[29px] font-medium xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{t("solutionPara")}</p>
                                 <div className="grid md:grid-cols-2 grid-cols-1 mt-5 gap-x-[80px] md:gap-y-[30px] gap-y-[20px]">
                                     {
                                         solutions.map((data, ind) => (
@@ -136,7 +136,10 @@ export default function page() {
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                                     {t('fioriTitle')}
                                 </h2>
-                                <p className="mt-[29px] font-medium xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">As part of the SAP ERP transformation, Rialtes implemented SAP Fiori to modernize the user interface and improve operational agility across departments.</p>
+                                <p className="mt-[29px] font-medium xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                                    {t("fioriPara")}
+                                </p>
+
                                 {
                                     fioriData.map((data, ind) => (
                                         <div key={ind}>
@@ -159,8 +162,10 @@ export default function page() {
                                 <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                                     {t('benefitsTitle')}
                                 </h2>
-                                <p className="mt-[29px] font-medium xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">The transformation delivered measurable outcomes across operations:</p>
-                                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-[10px] md:gap-[40px]">
+                                <p className="mt-[29px] font-medium xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                                    {t("benefitsPara")}
+                                </p>
+                                <div className=" mt-7 grid md:grid-cols-2 lg:grid-cols-4 gap-[10px] md:gap-[40px]">
                                     {
                                         benefits.map((data, ind) => (
                                             <div key={ind} className="mt-[15px]">
@@ -206,7 +211,7 @@ export default function page() {
 
             {/* case study carousel */}
             <section className="custom-container lg:pr-0 xl:my-[120px] md:my-[60px] my-[60px]">
-                <RelatedCaseStudies url={currUrl} currTopic="Automotive" />
+                <RelatedCaseStudies url={currUrl} currTopic={t("Automotive")} />
             </section>
         </section>
     );

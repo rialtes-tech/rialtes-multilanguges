@@ -225,7 +225,6 @@
     ],
     "latestBlogs": [
       {
-
         "id": 67,
         "image": "/images/blog/strategic-partnership-digital-connection-thumbnail.webp",
         "category": "Conseil SAP",
@@ -248,17 +247,16 @@
         "description": "Salesforce s’est imposé comme le CRM de référence pour les entreprises. Pourtant, pour beaucoup d’organisations, il peine encore à devenir un véritable moteur de croissance. L’écart ne vient que rarement des fonctionnalités. Il vient de la stratégie."
       },
       {
-  "id": 68,
-  "image": "/images/blog/salesforce-consulting-cluster-2.2_blog-thumb.webp",
-  "category": "Conseil Salesforce",
-  "industry": "Générique",
-  "date": "Dec. 22, 2025",
-  "url": "/salesforce-integration-partners-for-enterprises-to-scale/",
-  "title": "Partenaires d’Intégration Salesforce : Réduire la Complexité, Augmenter le ROI",
-  "alt": "Icône d’intégration cloud sur un smartphone représentant l’intégration Salesforce et la connectivité des systèmes d’entreprise.",
-  "description": "Salesforce se trouve au cœur de la stratégie numérique des entreprises pour une bonne raison. Il connecte les revenus, l’expérience client, les opérations de service et la prise de décision basée sur les données sur une seule plateforme."
-},
-
+        "id": 68,
+        "image": "/images/blog/salesforce-consulting-cluster-2.2_blog-thumb.webp",
+        "category": "Conseil Salesforce",
+        "industry": "Générique",
+        "date": "Dec. 22, 2025",
+        "url": "/salesforce-integration-partners-for-enterprises-to-scale/",
+        "title": "Partenaires d’Intégration Salesforce : Réduire la Complexité, Augmenter le ROI",
+        "alt": "Icône d’intégration cloud sur un smartphone représentant l’intégration Salesforce et la connectivité des systèmes d’entreprise.",
+        "description": "Salesforce se trouve au cœur de la stratégie numérique des entreprises pour une bonne raison. Il connecte les revenus, l’expérience client, les opérations de service et la prise de décision basée sur les données sur une seule plateforme."
+      },
       {
         "id": 65,
         "image": "/images/blog/cloud-computing-digital-storage-thumbnail.webp",
@@ -302,6 +300,17 @@
         "title": "De soins fragmentés à des écosystèmes intelligents : réinventer le parcours patient dans les essais cliniques",
         "alt": "Des personnes marchant dans un paysage de réseau numérique avec une capsule intelligente futuriste flottant au-dessus.",
         "description": "Les essais cliniques sont censés mesurer l’impact d’un traitement, mais pour de nombreux participants, l’expérience ressemble davantage à un marathon logistique. Plusieurs portails, des équipes de soins déconnectées, des formulaires répétés, des étapes suivantes peu claires et une visibilité limitée sur les progrès rendent la participation plus laborieuse que soignante."
+      },
+      {
+        "id": 61,
+        "image": "/images/blog/patient-consultation-genomics-thumb.webp",
+        "category": "MediAina",
+        "industry": "Life Sciences",
+        "date": "Dec. 03, 2025",
+        "url": "/why-patient-drop-out-clinical-trials-and-how-to-prevent-it/",
+        "title": "Pourquoi les abandons des essais cliniques se produisent — et comment l’engagement numérique les prévient",
+        "alt": "Infirmière montrant des informations médicales à un patient portant un foulard, à côté d’un graphique numérique d’ADN.",
+        "description": "Chaque essai clinique commence avec optimisme. Les chercheurs conçoivent les protocoles avec précision, les équipes cliniques préparent les sites et les patients s’inscrivent avec un véritable espoir de meilleurs résultats. Mais à un moment du parcours, de nombreux participants se retirent discrètement."
       },
       {
         "id": 60,
@@ -1114,7 +1123,7 @@
       {
         "id": 13,
         "image": "/images/case-studies/roof-shingle-color-samples-material-options-thumbnail.webp",
-        "industry": "Manufacture",
+        "industry": "Fabrication",
         "date": "Jun. 10, 2025",
         "url": "/insights/case-studies/warranty-claim-submission-using-experience-cloud/",
         "title": "Adoption accrue de 40% des demandes de garantie grâce à Salesforce Experience Cloud",
@@ -1134,7 +1143,7 @@
       {
         "id": 11,
         "image": "/images/case-studies/insurance-adjuster-homeowner-storm-damage-assessment-thumbnail.webp",
-        "industry": "Manufacture",
+        "industry": "Fabrication",
         "date": "May. 30, 2025",
         "url": "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud/",
         "title": "Réclamation en 4 minutes : Rialtes crée un portail mobile-first pour transformer l’expérience des réclamations",
@@ -1144,7 +1153,7 @@
       {
         "id": 1,
         "image": "/images/case-studies/roofing-shingle-samples-color-variety-display-carousel.webp",
-        "industry": "Manufacture",
+        "industry": "Fabrication",
         "date": "May. 28, 2025",
         "url": "/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/",
         "title": "150 commandes par jour, zéro travail manuel : Priorisation des commandes en libre-service avec Fiori",
@@ -1154,7 +1163,7 @@
       {
         "id": 2,
         "image": "/images/case-studies/quality-control-technician-inspecting-bottle-production-line-thumbnail.webp",
-        "industry": "Manufacture",
+        "industry": "Fabrication",
         "date": "Mar. 26, 2025",
         "url": "/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/",
         "title": "Optimisation des ventes avec Salesforce Sales Cloud pour un fabricant",
@@ -1164,7 +1173,7 @@
       {
         "id": 3,
         "image": "/images/case-studies/industrial-workers-safety-collaboration-thumbnail.webp",
-        "industry": "Manufacture",
+        "industry": "Fabrication",
         "date": "Jan. 08, 2025",
         "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce/",
         "title": "Transformation DevOps avec Copado et Salesforce",

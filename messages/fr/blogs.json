@@ -4133,6 +4133,8 @@
         "aithatlistensAlt": "Ondes numériques dynamiques et flux de données colorés illustrant le flux technologique et la connectivité réseau.",
         "seoTitle": "Comment les LLM transforment l’expérience client avec l’IA | Rialtes",
         "seoDescription": "Les LLM redéfinissent l’écoute et la réponse client, allant au-delà de l’automatisation pour créer des conversations réelles et enrichir le CX.",
+        "href":"https://www.rialtes.com/fr/insights/blogs/reimagine-enterprise-using-agentic-ai-systems",
+        "hrefChat":"https://www.rialtes.com/fr/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/",
         "LLMarchData": [
             {
                 "title": "Modèles uniquement encodeurs ",
@@ -4199,13 +4201,13 @@
         ],
         "readyData": [
             "Chez Rialtes, nous collaborons avec les entreprises pour intégrer les LLMs directement dans leur service client, afin d’apporter des conversations plus intelligentes, une résolution plus rapide et des interactions plus humaines sur tous les canaux.",
-            "Avec notre <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>expertise en conseil Agentforce</span></a>, nous vous aiderons à élaborer une stratégie évolutive, sécurisée et alignée sur vos objectifs, qu’il s’agisse de réduire la charge de support, d’augmenter le NPS ou de fournir une assistance multilingue 24/7. Faisons en sorte que votre <a href='https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> expérience client soit aussi intelligente que vos clients</span></a> l’attendent. Contactez-nous à <a href='mailto:sales@rialtes.com'><span class='transition duration-300 ease-out underline'>sales@rialtes.com</span></a> pour démarrer la conversation."
+            "Avec notre <a href='https://www.rialtes.com/fr/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>expertise en conseil Agentforce</span></a>, nous vous aiderons à élaborer une stratégie évolutive, sécurisée et alignée sur vos objectifs, qu’il s’agisse de réduire la charge de support, d’augmenter le NPS ou de fournir une assistance multilingue 24/7. Faisons en sorte que votre <a href='https://www.rialtes.com/fr/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> expérience client soit aussi intelligente que vos clients</span></a> l’attendent. Contactez-nous à <a href='mailto:sales@rialtes.com'><span class='transition duration-300 ease-out underline'>sales@rialtes.com</span></a> pour démarrer la conversation."
         ],
         "blogTopic": "IA Agentique",
         "blogTitle": "IA qui écoute, apprend et délivre : comment les grands modèles de langage transforment l’expérience client",
         "blogMainData": [
             "Une excellente expérience client commence par une excellente écoute. Mais il ne s’agit pas seulement d’entendre les mots ; il s’agit de comprendre l’intention, l’émotion, le contexte et l’historique. C’est là que les modèles traditionnels échouent, et que les Modèles de Langage de Grande Taille (LLMs) interviennent.",
-            "Les LLMs, propulsés par l’intelligence artificielle générative, redéfinissent la manière dont les entreprises écoutent et répondent. Ils vont au-delà de l’automatisation. Ils permettent une véritable conversation pour soutenir <a href='https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> l’avenir durable de notre planète</span>.</a>",
+            "Les LLMs, propulsés par l’intelligence artificielle générative, redéfinissent la manière dont les entreprises écoutent et répondent. Ils vont au-delà de l’automatisation. Ils permettent une véritable conversation pour soutenir <a href='https://www.rialtes.com/fr/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet'><span class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> l’avenir durable de notre planète</span>.</a>",
             "Dans ce guide, nous expliquerons ce que sont les LLMs, comment ils fonctionnent et ce qui les rend si efficaces pour transformer l’expérience client (CX). Vous verrez également pourquoi ils deviennent essentiels pour les entreprises qui souhaitent rester compétitives, réactives et humaines, même en grandissant."
         ],
         "llmTitle": "Qu’est-ce qu’un grand modèle de langage (LLM) et comment fonctionne-t-il ?",
@@ -5537,8 +5539,8 @@
             }
         ],
         "empowerData": [
-            "<a href='https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/' class='text-[#0092E0] underline hover:text-gray-400'> Salesforce Data Cloud</a> équipe les entreprises avec des outils pour anticiper les besoins des clients, fournir des insights en temps réel, optimiser l’inventaire et concevoir des parcours personnalisés qui les maintiennent compétitives sur un marché saturé. Avant de mettre en œuvre Data Cloud, les organisations doivent comprendre leurs données, définir des objectifs clairs et aligner les parties prenantes sur les résultats.",
-            "En tant que <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] underline hover:text-gray-400'> partenaire de conseil Salesforce</a>, Rialtes aide les marques e-commerce à aller au-delà des bases en exploitant toute la puissance de Data Cloud. Nos spécialistes identifient les bons cas d’usage, optimisent les délais de mise en œuvre et conçoivent des parcours clients pertinents. En combinant insights prédictifs et personnalisation, nous aidons à bâtir des relations plus solides, à améliorer la fidélité et à accélérer la croissance des revenus.",
+            "<a href='https://www.rialtes.com/fr/solutions/data-ai/salesforce-data-cloud-consulting/' class='text-[#0092E0] underline hover:text-gray-400'> Salesforce Data Cloud</a> équipe les entreprises avec des outils pour anticiper les besoins des clients, fournir des insights en temps réel, optimiser l’inventaire et concevoir des parcours personnalisés qui les maintiennent compétitives sur un marché saturé. Avant de mettre en œuvre Data Cloud, les organisations doivent comprendre leurs données, définir des objectifs clairs et aligner les parties prenantes sur les résultats.",
+            "En tant que <a href='https://www.rialtes.com/fr/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/' class='text-[#0092E0] underline hover:text-gray-400'> partenaire de conseil Salesforce</a>, Rialtes aide les marques e-commerce à aller au-delà des bases en exploitant toute la puissance de Data Cloud. Nos spécialistes identifient les bons cas d’usage, optimisent les délais de mise en œuvre et conçoivent des parcours clients pertinents. En combinant insights prédictifs et personnalisation, nous aidons à bâtir des relations plus solides, à améliorer la fidélité et à accélérer la croissance des revenus.",
             "Prêt à transformer la prédiction en profit ? Contactez-nous à <a href='mailto:sales@rialtes.com' class='underline hover:text-gray-400'>sales@rialtes.com</a>"
         ],
         "faqs": [
@@ -8934,6 +8936,7 @@
         "seoDescription": "Si votre équipe se demande pourquoi les patients abandonnent les essais, la cause repose souvent sur des lacunes d’expérience, de communication ou de soutien."
     },
     "sapManaged": {
+         "watchbuttonText" : "Regardez le webinaire",
         "schemaData": {},
         "faq": [
             {
@@ -8962,7 +8965,7 @@
             {
                 "title": "Que sont les services gérés SAP ?",
                 "desc": [
-                    "Les services gérés SAP offrent aux entreprises un support long terme sur l’ensemble de leur paysage SAP — cloud, on-premise, hybride et solutions spécifiques à l’industrie. Au lieu de s’appuyer uniquement sur des équipes internes, les entreprises travaillent avec un <a href='https://www.rialtes.com/services/business-transformation/sap-managed-services-provider/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>fournisseur expert de services gérés SAP</a> pour exploiter, stabiliser, moderniser et faire évoluer leur environnement SAP.",
+                    "Les services gérés SAP offrent aux entreprises un support long terme sur l’ensemble de leur paysage SAP — cloud, on-premise, hybride et solutions spécifiques à l’industrie. Au lieu de s’appuyer uniquement sur des équipes internes, les entreprises travaillent avec un <a href='https://www.rialtes.com/fr/services/business-transformation/sap-managed-services-provider/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>fournisseur expert de services gérés SAP</a> pour exploiter, stabiliser, moderniser et faire évoluer leur environnement SAP.",
                     "Cela couvre tout ce dont vous avez besoin pour garantir que SAP progresse constamment vers les objectifs commerciaux, notamment :"
                 ],
                 "subTitle": "Piliers principaux des services gérés SAP",
@@ -9060,7 +9063,7 @@
             }
         ],
         "whatEnterpriseData": [
-            "Les entreprises n’ont pas besoin de plus de tickets ou de cycles de maintenance réactifs. Elles ont besoin d’environnements SAP qui évoluent automatiquement, montent en charge avec confiance et <a href='https://www.rialtes.com/insights/blogs/sap-implementation-strategies-for-2026-success/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>accélèrent la transformation numérique</a>.",
+            "Les entreprises n’ont pas besoin de plus de tickets ou de cycles de maintenance réactifs. Elles ont besoin d’environnements SAP qui évoluent automatiquement, montent en charge avec confiance et <a href='https://www.rialtes.com/fr/insights/blogs/sap-implementation-strategies-for-2026-success/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>accélèrent la transformation numérique</a>.",
             "Et c’est exactement ce que SAP Digital Desk apporte comme impact nouvelle génération.",
             "Il unifie la stabilisation, la modernisation et l’innovation de tout le paysage SAP. Des performances de plateforme à l’évolution cloud, en passant par l’automatisation IA et les améliorations alignées au business, SAP Digital Desk transforme SAP en moteur stratégique de croissance, et non en simple outil opérationnel. Prêt à débloquer toute la valeur de SAP ? Parlons-en !",
             "Contactez-nous à <a href='mailto:sales@rialtes.com' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>sales@rialtes.com<a/> pour découvrir comment SAP Digital Desk peut transformer vos opérations SAP."
@@ -9111,7 +9114,7 @@
     "reimaginingClinical": {
         "mainData": [
             "Les essais cliniques sont censés mesurer l’impact des traitements, mais pour de nombreux participants, l’expérience ressemble davantage à un marathon logistique. Multiples portails, équipes de soins déconnectées, formulaires répétitifs, étapes floues et faible visibilité créent une participation vécue comme une charge plutôt qu’un parcours de soins.",
-            "Ce qui est prévu dans la conception d’un essai diffère souvent de ce que les patients vivent réellement. Alors que les équipes cliniques travaillent sans relâche à coordonner des flux complexes, les patients perçoivent souvent ces interactions comme déconnectées et fragmentées. Cette incohérence peut entraîner des problèmes <a href='https://www.rialtes.com/insights/blogs/why-patient-drop-out-clinical-trials-and-how-to-prevent-it/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>tels que des abandons</a>, des rapports manqués, des visites oubliées et des données incomplètes, non pas parce que les participants perdent intérêt, mais parce que leur parcours n’est pas conçu autour de leurs besoins.",
+            "Ce qui est prévu dans la conception d’un essai diffère souvent de ce que les patients vivent réellement. Alors que les équipes cliniques travaillent sans relâche à coordonner des flux complexes, les patients perçoivent souvent ces interactions comme déconnectées et fragmentées. Cette incohérence peut entraîner des problèmes <a href='https://www.rialtes.com/fr/insights/blogs/why-patient-drop-out-clinical-trials-and-how-to-prevent-it/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>tels que des abandons</a>, des rapports manqués, des visites oubliées et des données incomplètes, non pas parce que les participants perdent intérêt, mais parce que leur parcours n’est pas conçu autour de leurs besoins.",
             "L’innovation numérique transforme le secteur de la santé en créant des écosystèmes intelligents qui intègrent divers points de contact en une expérience fluide. Lorsque les systèmes de données, équipes, appareils, canaux et outils d’engagement collaborent efficacement, les essais deviennent plus rapides et centrés sur les besoins des patients."
         ],
         "fragmentationData": [
@@ -9176,7 +9179,7 @@
                     },
                     {
                         "title": "Participation mondiale sans barrières géographiques",
-                        "desc": "L’onboarding à distance et les opérations décentralisées facilitent l’élargissement de la diversité des cohortes — base du <a href='https://www.rialtes.com/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>rôle de l’IA dans les maladies rares</a>."
+                        "desc": "L’onboarding à distance et les opérations décentralisées facilitent l’élargissement de la diversité des cohortes — base du <a href='https://www.rialtes.com/fr/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>rôle de l’IA dans les maladies rares</a>."
                     },
                     {
                         "title": "Une expérience centrée sur l’humain",
@@ -9197,7 +9200,7 @@
                     "Rapports automatisés réduisant la charge opérationnelle",
                     "Flux coordonnés entre payeurs, prestataires, sponsors et CRO"
                 ],
-                "desc2": "Autrement dit, l’<a href='https://www.rialtes.com/insights/blogs/how-digital-innovation-transforms-clinical-trial-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>avenir des essais cliniques</a> ne sera pas seulement numérique, mais piloté par des systèmes interconnectés fonctionnant comme un véritable écosystème."
+                "desc2": "Autrement dit, l’<a href='https://www.rialtes.com/fr/insights/blogs/how-digital-innovation-transforms-clinical-trial-management/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>avenir des essais cliniques</a> ne sera pas seulement numérique, mais piloté par des systèmes interconnectés fonctionnant comme un véritable écosystème."
             }
         ],
         "howMediainaData": [

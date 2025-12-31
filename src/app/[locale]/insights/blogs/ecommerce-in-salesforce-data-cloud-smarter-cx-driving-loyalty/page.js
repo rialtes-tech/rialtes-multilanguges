@@ -95,7 +95,7 @@ export default function Page() {
                           key={ind}
                           className="border border-[#707070] p-[28px] md:px-[34px] md:pt-[26px] md:pb-[40px]"
                         >
-                          <h3 className="mt-2  4xl:text-[22px] xl:text-[19px] text-[18px] leading-tight text-[#0092E0] font-bold pb-4 border-b border-[#707070]">
+                          <h3 className="mt-2 4xl:text-[22px] xl:text-[19px] text-[18px] leading-tight text-[#0092E0] font-bold pb-4 border-b border-[#707070]">
                             {data.title}
                           </h3>
                           <p className="mt-5 4xl:text-[20px] xl:text-[17px] text-[16px]">
@@ -138,7 +138,7 @@ export default function Page() {
                   })}
                 </div>
                 <div className="xl:mt-[80px] md:mt-[60px] mt-[40px]">
-                  <h2 className="font-semibold mt-20 text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px] pr-10 xl:pr-0 leading-tight">
+                  <h2 className="font-semibold  text-[#0092E0] 4xl:text-[30px] xl:text-[26px] text-[22px] pr-10 xl:pr-0 leading-tight">
                     {t("predictiveTitle")}
                   </h2>
 
@@ -158,7 +158,7 @@ export default function Page() {
                                 {ind + 1}
                               </span>{" "}
                             </p>
-                            <h3 className="mt-3 lg:mt-5 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] font-bold 4xl:w-[74%] leading-tight">
+                            <h3 className="mt-3 lg:mt-5 4xl:text-[22px] xl:text-[19px] text-[18px] font-bold 4xl:w-[74%] leading-tight">
                               {data.title}
                             </h3>
                           </div>
@@ -170,10 +170,10 @@ export default function Page() {
                               <ul className="list-disc marker:text-[#006FBE] pl-[32px] space-y-2">
                                 {data.list.map((item, ind) => (
                                   <li className="mt-5" key={ind}>
-                                    <p className="inline font-bold text-[16px] xl:text-[18px] 4xl:text-[20px]">
+                                    <p className="inline font-bold text-[16px] xl:text-[17px] 4xl:text-[20px]">
                                       {item.title} :{" "}
                                     </p>
-                                    <span className=" font-medium text-[16px] xl:text-[18px] 4xl:text-[20px]">
+                                    <span className=" font-medium text-[16px] xl:text-[17px] 4xl:text-[20px]">
                                       {item.desc}
                                     </span>
                                   </li>

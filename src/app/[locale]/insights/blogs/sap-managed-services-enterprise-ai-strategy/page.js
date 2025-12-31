@@ -141,7 +141,7 @@ export default function Page() {
                                         </div>
 
                                         <div className="md:col-span-10 flex flex-col justify-center">
-                                            <h3 className="md:block hidden 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] md:text-[16px] text-[16px] font-bold">
+                                            <h3 className="md:block hidden 4xl:text-[24px] 2xl:text-[21px] xl:text-[18px] md:text-[16px] text-[16px] font-bold">
                                                 {data.title}
                                             </h3>
 
@@ -210,8 +210,8 @@ export default function Page() {
                                             data.list.map((data, ind) => {
                                                 return (
                                                     <div className="md:flex mt-24 md:mt-[26px] py-[34px] md:py-[40px] lg:py-[40px] 4xl:py-[40px] px-[26px] md:pr-[50px] 4xl:pr-[30px] border border-[#707070] relative md:ml-[90px] sm:w-[80%] md:w-auto xl:w-[950px] 4xl:w-[1100px]" key={ind}>
-                                                        <h3 className={`md:absolute max-md:mt-[-80px] sm:mt-[-70px] md:mt-0 md:top-[50%] md:translate-y-[-50%] 4xl:w-[400px] xl:w-[340px] md:w-[380px] w-fit md:left-[-60px] bg-[#006FBE] text-white font-semibold 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[20px] text-[20px] px-[20px] py-[18px] md:px-[30px] md:py-[22px] leading-tight xl:h-[90px] 4xl:h-[100px] ${(ind == 4) ? "xl:pt-[36px]" : ""} ${(ind == 2) ? "4xl:pt-[36px]" : ""}`}><span>{data.title}</span></h3>
-                                                        <div className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium my-auto max-md:mt-8 md:ml-[340px] xl:ml-[300px] 4xl:ml-[380px]" dangerouslySetInnerHTML={{ __html: data.desc }} />
+                                                        <h3 className={`md:absolute max-md:mt-[-80px] sm:mt-[-70px] md:mt-0 md:top-[50%] md:translate-y-[-50%] 4xl:w-[400px] 2xl:w-[360px] xl:w-[360px] md:w-[380px] w-fit md:left-[-60px] bg-[#006FBE] text-white font-semibold 4xl:text-[22px] 2xl:text-[19px] xl:text-[19px] md:text-[20px] text-[20px] px-[20px] py-[18px] md:px-[30px] md:py-[22px] leading-tight xl:h-[90px] 4xl:h-[110px] ${(ind == 4) ? "xl:pt-[36px]" : ""} ${(ind == 2) ? "4xl:pt-[36px]" : ""}`}><span>{data.title}</span></h3>
+                                                        <div className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium my-auto max-md:mt-8 md:ml-[340px] xl:ml-[320px] 4xl:ml-[380px]" dangerouslySetInnerHTML={{ __html: data.desc }} />
                                                     </div>
 
                                                 )
@@ -243,7 +243,7 @@ export default function Page() {
                                     </div>
 
                                     <div>
-                                        <LearnMoreButton bgcolor="#006FBE" bordercolor="#006FBE" btnName="Watch the Webinar" href="https://www.rialtes.com/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/" arialabel="watch webinar button" />
+                                        <LearnMoreButton bgcolor="#006FBE" bordercolor="#006FBE" btnName={t("watchbuttonText")} href="https://www.rialtes.com/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/" arialabel="watch webinar button" />
                                     </div>
                                 </div>
                             </div>
