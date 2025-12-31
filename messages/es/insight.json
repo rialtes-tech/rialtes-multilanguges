@@ -303,6 +303,17 @@
         "description": "Los ensayos clínicos están destinados a medir el impacto de un tratamiento, pero para muchos participantes, la experiencia se siente más como un maratón logístico. Múltiples portales, equipos de atención desconectados, formularios repetitivos, pasos siguientes poco claros y una visibilidad limitada del progreso hacen que la participación se sienta más como trabajo que como atención."
       },
       {
+        "id": 61,
+        "image": "/images/blog/patient-consultation-genomics-thumb.webp",
+        "category": "MediAina",
+        "industry": "Life Sciences",
+        "date": "Dec. 03, 2025",
+        "url": "/why-patient-drop-out-clinical-trials-and-how-to-prevent-it/",
+        "title": "Por qué ocurren los abandonos en los ensayos clínicos y cómo la participación digital los previene",
+        "alt": "Enfermera mostrando información médica a un paciente con pañuelo en la cabeza junto a un gráfico digital de ADN.",
+        "description": "Todo ensayo clínico comienza con optimismo. Los investigadores diseñan los protocolos con precisión, los equipos clínicos preparan los centros y los pacientes se inscriben con una esperanza real de obtener mejores resultados. Pero en algún punto del recorrido, muchos participantes se retiran silenciosamente."
+      },
+      {
         "id": 60,
         "image": "/images/blog/salesforce-managed-services-salesforceagent-plus-feature-thumb.webp",
         "category": "Servicios Gestionados",
