@@ -37,7 +37,7 @@ export default function Page() {
     schemaData
   } = blogsContent.howAgentforce;
 
-  const fullUrl = "https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/how-agentforce-3-is-reshaping-automotive-manufacturing";
   const currUrl = useUrl();
   return (
     <div className="min-h-screen bg-white">
