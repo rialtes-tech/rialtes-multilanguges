@@ -238,7 +238,7 @@ export default function Page() {
             </div >
             {/* use cases section */}
             <section>
-                <div className="mt-20 lg:mt-40 custom-container text-black">
+                <div className="mt-20 4xl:mt-30 custom-container text-black">
                     <h2 className="text-[28px] md:text-[40px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] leading-tight "> {t('agentChatTitle')}</h2>
                 </div>
                 <div className="custom-container max-md:px-0 mb-20">
@@ -276,7 +276,7 @@ export default function Page() {
             >
                 <div className="mt-16 text-white custom-container xl:!pr-[142px] pt-6">
                     <h2 className="text-[28px] md:text-[40px] max-lg:pb-6 lg:text-[40px] xl:pb-10 xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] leading-tight">{t('setupTitle')}</h2>
-                    <div className="flex flex-col xl:flex-row  4xl:gap-34px 2xl:gap-40 xl:gap-48">
+                    <div className="flex flex-col xl:flex-row  4xl:gap-34px 2xl:gap-40 xl:gap-36">
                         <div className="relative">
                             <Image
                                 className="w-[194px] 4xl:w-[188px] 2xl:w-[120px] xl:w-[400px] md:w-[220px] "
@@ -286,7 +286,7 @@ export default function Page() {
                                 height={0}
                                 priority
                             />
-                            <p className="absolute 4xl:left-[60px] leading-tight 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px] xl:top-[60px] xl:left-[20px]  left-[55px] top-[100px] text-[24px]  md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[20px] 4xl:text-[24px] md:top-[130px]  md:left-[90px] 4xl:w-[203px] 2xl:w-[170px] xl:w-[160px] lg:w-[170px] md:w-[250px]">{t('descOne')}</p>
+                            <p className="absolute 4xl:left-[60px] leading-tight 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px] xl:top-[60px] xl:left-[40px]  left-[55px] top-[100px] text-[24px]  md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[20px] 4xl:text-[24px] md:top-[130px]  md:left-[90px] 4xl:w-[203px] 2xl:w-[170px] xl:w-[160px] lg:w-[170px] md:w-[250px]">{t('descOne')}</p>
                         </div>
                         <div className="relative">
                             <Image
@@ -298,7 +298,7 @@ export default function Page() {
                                 sizes="100vw"
                                 priority
                             />
-                            <p className="absolute mb-14 pb-10 leading-tight 4xl:left-[60px] 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px]  xl:top-[60px] xl:left-[20px]  left-[55px] top-[100px] text-[22px] md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[22px] 4xl:text-[24px]  md:top-[130px] md:left-[90px] 4xl:w-[222px] 2xl:w-[200px] xl:w-[180px] lg:w-[170px] md:w-[260px]">{t('descTwo')}</p>
+                            <p className="absolute mb-14 pb-10 leading-tight 4xl:left-[60px] 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px]  xl:top-[60px] xl:left-[40px]  left-[55px] top-[100px] text-[22px] md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[22px] 4xl:text-[24px]  md:top-[130px] md:left-[90px] 4xl:w-[222px] 2xl:w-[200px] xl:w-[180px] lg:w-[170px] md:w-[260px]">{t('descTwo')}</p>
                         </div>
                         <div className="relative">
                             <Image
@@ -310,7 +310,7 @@ export default function Page() {
                                 sizes="100vw"
                                 priority
                             />
-                            <p className="absolute leading-tight 4xl:left-[60px] 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px]  xl:top-[60px] xl:left-[20px] left-[55px] top-[100px] text-[20px] md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[22px] 4xl:text-[24px] md:top-[130px] md:left-[90px] 4xl:w-[230px] 2xl:w-[210px] xl:w-[180px] lg:w-[170px] md:w-[310px] ">{t('descThree')}</p>
+                            <p className="absolute leading-tight 4xl:left-[60px] 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px]  xl:top-[60px] xl:left-[40px] left-[55px] top-[100px] text-[20px] md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[22px] 4xl:text-[24px] md:top-[130px] md:left-[90px] 4xl:w-[230px] 2xl:w-[210px] xl:w-[180px] lg:w-[170px] md:w-[310px] ">{t('descThree')}</p>
                         </div>
 
                         <div className="relative">
@@ -323,7 +323,7 @@ export default function Page() {
                                 sizes="100vw"
                                 priority
                             />
-                            <p className="absolute leading-tight  4xl:left-[60px] 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px]  xl:top-[60px] xl:left-[20px] left-[55px] top-[100px] text-[22px] md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[22px] 4xl:text-[24px] md:top-[130px] md:left-[90px] 4xl:w-[190px] 2xl:w-[190px] xl:w-[180px] lg:w-[170px] md:w-[260px]">{t('descFour')}</p>
+                            <p className="absolute leading-tight  4xl:left-[60px] 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px]  xl:top-[60px] xl:left-[40px] left-[55px] top-[100px] text-[22px] md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[22px] 4xl:text-[24px] md:top-[130px] md:left-[90px] 4xl:w-[190px] 2xl:w-[190px] xl:w-[180px] lg:w-[170px] md:w-[260px]">{t('descFour')}</p>
                         </div>
 
                         <div className="relative">
@@ -336,7 +336,7 @@ export default function Page() {
                                 sizes="100vw"
                                 priority
                             />
-                            <p className="absolute leading-tight 4xl:left-[60px] 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px]  xl:top-[60px] xl:left-[20px] left-[55px] top-[100px] text-[22px] md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[22px] 4xl:text-[24px]  md:top-[130px] md:left-[90px] 4xl:w-[190px] 2xl:w-[190px] xl:w-[180px] lg:w-[170px] md:w-[260px]">{t('descFive')}</p>
+                            <p className="absolute leading-tight 4xl:left-[60px] 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px]  xl:top-[60px] xl:left-[40px] left-[55px] top-[100px] text-[22px] md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[22px] 4xl:text-[24px]  md:top-[130px] md:left-[90px] 4xl:w-[190px] 2xl:w-[190px] xl:w-[180px] lg:w-[170px] md:w-[260px]">{t('descFive')}</p>
                         </div>
                     </div>
                 </div>

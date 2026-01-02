@@ -93,7 +93,7 @@ export default function Page() {
             <section>
                 <div className="custom-container mx-auto grid  4xl:grid-cols-[620px,991px] xl:mt-[-85px] 2xl:mt-[-100px] 2xl:grid-cols-[530px,842px] xl:grid-cols-[465px,710px]  grid-cols-1  gap-0 items-center 4xl:pr-0 2xl:pr-0 xl:pr-0  4xl:mt-0 mt-10">
                     {/* Left Side - Text Card */}
-                    <div className="bg-[#05ACA6] text-white p-12 z-10 relative order-2 xl:order-1 2xl:mt-[60px] 4xl:mt-0 xl:mt-[80px]">
+                    <div className="bg-[#05ACA6] text-white p-12 z-10 relative order-2 xl:order-1 2xl:mt-[120px] 4xl:mt-0 xl:mt-[80px]">
                         <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] leading-tight md:text-[23px]">{t('visionTitle')}</h2>
                         <h3 className="4xl:text-[36px] xl:text-[30px] font-semibold mt-4 leading-tight">
                             {t('visionSubTitle')}
@@ -161,14 +161,14 @@ export default function Page() {
                                             backgroundColor: data.bgColor ? data.bgColor : 'transparent'
                                         }}>
 
-                                        <h2 className={`4xl:text-[52px] xl:text-[40px] 2xl:text-[48px] text-[26px] leading-tight max-lg:w-[90%] ${ind == 4 || ind == 8 ? "xl:w-[90%]" : " xl:w-[70%]"} ${ind == 10 && "xl:w-[80%]"}`}>
+                                        <h2 className={`4xl:text-[52px] xl:text-[40px] 2xl:text-[48px] text-[26px] leading-tight max-lg:w-[90%] ${ind == 4 || ind == 8 ? "xl:w-[90%]" : " xl:w-[70%]"} ${ind == 10 && "xl:w-[90%]"}`}>
                                             {data.title}
                                         </h2>
                                         <p className="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight mt-[15px] xl:mt-[18px] font-normal xl:w-[80%] 4xl:w-[76%]">
                                             {data.desc}
                                         </p>
 
-                                        <div className="grid xl:grid-cols-2 grid-cols-1 mt-[31px] xl:mt-[63px] xl:gap-[40px] xl:pr-[110px] 4xl:pr-[160px] gap-y-[36px] max-xl:mb-[36px] 4xl:w-[96%]">
+                                        <div className="grid xl:grid-cols-2 grid-cols-1 mt-[31px] xl:mt-[43px] xl:gap-[40px] xl:pr-[110px] 4xl:pr-[160px] gap-y-[36px] max-xl:mb-[36px] 4xl:w-[96%]">
                                             <div>
                                                 <h3 className="text-[#006FBE] font-bold 4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight">
                                                     {t('benefitsTitle')}
