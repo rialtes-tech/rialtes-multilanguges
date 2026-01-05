@@ -1026,7 +1026,7 @@
         "predictiveDesc3": "Technologies Clés à l’Origine de la Maintenance Prédictive",
         "predictiveDesc4": "En combinant ces technologies, les gestionnaires peuvent surveiller des dizaines, voire des centaines d’actifs sans inspection manuelle — un élément fondamental de la",
         "predictiveDesc4Link": "convergence CRM + ERP pour la gestion immobilière",
-        "href":"https://www.rialtes.com/fr/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/",
+        "href": "https://www.rialtes.com/fr/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/",
         "dataPowerTitle": "Les Données qui Alimentent la Prédiction",
         "predictionDesc": "Combinées, ces données créent une image prédictive de l’état des actifs, permettant d’agir avant que les systèmes ne tombent en panne.",
         "preparingTitle": "Se Préparer à un Avenir Immobilier Piloté par l’IA",
@@ -4133,8 +4133,8 @@
         "aithatlistensAlt": "Ondes numériques dynamiques et flux de données colorés illustrant le flux technologique et la connectivité réseau.",
         "seoTitle": "Comment les LLM transforment l’expérience client avec l’IA | Rialtes",
         "seoDescription": "Les LLM redéfinissent l’écoute et la réponse client, allant au-delà de l’automatisation pour créer des conversations réelles et enrichir le CX.",
-        "href":"https://www.rialtes.com/fr/insights/blogs/reimagine-enterprise-using-agentic-ai-systems",
-        "hrefChat":"https://www.rialtes.com/fr/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/",
+        "href": "https://www.rialtes.com/fr/insights/blogs/reimagine-enterprise-using-agentic-ai-systems",
+        "hrefChat": "https://www.rialtes.com/fr/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/",
         "LLMarchData": [
             {
                 "title": "Modèles uniquement encodeurs ",
@@ -5937,7 +5937,7 @@
         "digiTitle": "Redéfinir les soins de santé, un voyage à la fois",
         "seoTitle": "Parcours patients numériques : l’avenir de la santé IA | Rialtes",
         "seoDescription": "L’avenir de la santé passe par des parcours patients numériques, prédictifs et personnalisés grâce à l’IA.",
-        "href":"https://www.rialtes.com/fr/products/mediaina-reimagining-patient-journeys/",
+        "href": "https://www.rialtes.com/fr/products/mediaina-reimagining-patient-journeys/",
         "whyDigitalJourneyData": [
             "L’industrie des soins de santé est à un tournant. Les patients ne veulent plus d’expériences fragmentées, d’attendre des semaines pour un rendez-vous, de répéter leur historique à chaque point de contact ou de jongler avec plusieurs portails. Ils souhaitent une prise en charge fluide, personnalisée et continue — aussi pratique que dans d’autres secteurs. Ce changement alimente la demande croissante de parcours numériques du patient, où chaque étape — de la prise de rendez-vous au suivi — est connectée, intelligente et centrée sur le patient.",
             "<a href='https://fr.wikipedia.org/wiki/Intelligence_artificielle_dans_la_sant%C3%A9' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>L’IA dans les soins de santé</a> et les sciences de la vie est au cœur de cette transformation, apportant intelligence, automatisation et personnalisation à la prestation de soins. Des plateformes comme MediAIna démontrent que lorsque la technologie s’aligne avec l’empathie, nous pouvons redéfinir la manière dont les patients interagissent avec les prestataires, les assureurs et les chercheurs.",
@@ -7684,7 +7684,7 @@
     "sap2026": {
         "seoTitle": "Stratégies d’implémentation SAP expertes pour réussir en 2026 | Rialtes",
         "seoDescription": "La mise en œuvre de SAP n’est pas un simple exercice plug-and-play ; elle exige une feuille de route et une stratégie qui équilibrent technologie, objectifs commerciaux et capital humain.",
-        "fivePillarAlt":"Infographie SAP en cinq étapes: cas d'affaires, consultants experts, migration données, formation, valeur continue",
+        "fivePillarAlt": "Infographie SAP en cinq étapes: cas d'affaires, consultants experts, migration données, formation, valeur continue",
         "mainData": [
             "Nous savons que la mise en œuvre de SAP ne consiste pas seulement à mettre à niveau un système. Il s’agit de transformer la façon dont une entreprise fonctionne, de la finance et la chaîne d’approvisionnement aux RH et à l’expérience client. Bien menée, elle peut réduire les coûts, accroître la transparence et accélérer la croissance. Mal exécutée, elle peut épuiser les budgets et frustrer les équipes pendant des mois.",
             "Selon McKinsey, près de 55 % des grandes implémentations ERP dépassent le budget ou n’atteignent pas le retour sur investissement attendu. Le coupable ? Un manque d’alignement stratégique et une gestion du changement insuffisante. L’implémentation SAP n’est pas un simple exercice technique ; elle exige une feuille de route équilibrant technologie, objectifs commerciaux et ressources humaines.",
@@ -8561,6 +8561,8 @@
         "faqTitle": "FAQ : Exploiter les données et l’IA pour améliorer les RH modernes avec SAP SuccessFactors"
     },
     "salesforceManaged": {
+        "internalSalesforcePara": "Les services gérés ne sont pas de l’externalisation.",
+        "internalSalesforcePara2": "C’est l’accès aux compétences exactes dont vous avez besoin, exactement au moment où vous en avez besoin.",
         "salesforceManagedTitle": "Services Gérés Salesforce : Le secret pour augmenter les revenus, et pas seulement maintenir le CRM",
         "salesforceManaged": [
             "La plupart des entreprises investissent massivement dans Salesforce, mais seules quelques-unes exploitent réellement sa vraie valeur commerciale. La plateforme est puissante, mais sans optimisation continue, automatisation, amélioration des données et insights basés sur l’IA, elle devient discrètement un CRM sous-utilisé plutôt qu’un moteur de revenus.",
@@ -8936,7 +8938,7 @@
         "seoDescription": "Si votre équipe se demande pourquoi les patients abandonnent les essais, la cause repose souvent sur des lacunes d’expérience, de communication ou de soutien."
     },
     "sapManaged": {
-         "watchbuttonText" : "Regardez le webinaire",
+        "watchbuttonText": "Regardez le webinaire",
         "schemaData": {},
         "faq": [
             {

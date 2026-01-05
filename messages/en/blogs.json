@@ -12066,6 +12066,8 @@
         "faqTitle": "FAQs: Leverage Data and AI to enhance Modern HR with SAP SuccessFactors"
     },
     "salesforceManaged": {
+        "internalSalesforcePara" : "  Managed Services isn’t outsourcing.",
+        "internalSalesforcePara2" : "It’s access to the exact skills you need, exactly when you need them.",
         "salesforceManagedTitle": "Salesforce Managed Services: The Secret to Scaling Revenue, Not Just Maintaining CRM",
         "salesforceManaged": [
             "Most companies invest heavily in Salesforce, yet only a fraction unlock its real business value. The platform is powerful, but without continuous optimization, automation, data improvement, and AI-driven insights, it quietly becomes an under-utilized CRM instead of a revenue engine.",
