@@ -50,7 +50,7 @@ export default function Page() {
             priority
             height={0}
             width={0}
-            className="w-full h-full object-cover object-[70%_60%]"
+            className="w-full h-full object-cover object-[45%_60%]"
           />
         </div>
       </section>
