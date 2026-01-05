@@ -72,8 +72,8 @@ export default function Page() {
                 <div className="relative z-20 custom-container 4xl:mt-[22rem] 2xl:mt-[20rem] xl:mt-[18rem] mt-[200px] 4xl:pr-0">
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-2">
                         <div className="xl:col-span-12 col-span-12 pr-5 text-white">
-                            <h1 className="leading-tight break-words 4xl:text-[60px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] 4xl:pr-0 md:pr-40 pr-10">
-                                <span className="text-white text-[24px] xl:text-[60px] 2xl:text-[80px] 4xl:text-[105px] mb-2 break-words">
+                            <h1 className="leading-tight break-words text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] 4xl:pr-0 md:pr-40 pr-10">
+                                <span className="text-white text-[28px] xl:text-[60px] 2xl:text-[80px] 4xl:text-[105px] mb-2 break-words">
                                     {t('headerTitle')}
                                     <span className="align-super inline-block w-5 h-5 xl:w-12 xl:h-12">
                                         <Image
@@ -87,7 +87,7 @@ export default function Page() {
                                     </span>
                                 </span>
                             </h1>
-                            <h2 className="xl:font-bold font-semibold leading-tight pb-10 xl:pb-0 text-[20px] 4xl:text-[60px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] mt-5 pr-16 4xl:pr-0 2xl:pr-0 xl:pr-0">
+                            <h2 className="xl:font-bold font-semibold leading-tight pb-10 xl:pb-0 text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] mt-5 ">
                                 {t('headerSubTitle')}
                             </h2>
                         </div>
@@ -99,7 +99,7 @@ export default function Page() {
             <section>
                 <div className="grid grid-cols-12 bg-[#134874] custom-container 4xl:pr-0 2xl:pr-0 xl:pr-0">
                     <div className="xl:col-span-7 4xl:col-span-6 col-span-12 mt-10 4xl:pb-20 xl:pb-20 pb-10 4xl:pr-24 xl:pr-0 2xl:pr-0 pr-0">
-                        <p className="text-white font-light leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]">
+                        <p className="text-white font-light leading-tight text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]">
                             {t('pageDesc')}
                         </p>
                     </div>
@@ -140,9 +140,9 @@ export default function Page() {
                 <div className="relative custom-container 4xl:pb-0 text-white">
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 4xl:mt-32 xl:mt-20 mx-auto mt-20">
                         <div className="xl:col-span-12 col-span-12">
-                            <h2 className="4xl:text-[60px] 2xl:text-[48px] text-[26px] xl:text-[40px] leading-tight">{t('yourDigitalTitle')}</h2>
-                            <p className="leading-tight mt-[17px] xl:mt-[28px] xl:w-[80%] 2xl:w-full text-[16px] xl:text-[18px] 4xl:text-[20px]">{t('yourDigitalDesc')}</p>
-                            <h3 className="4xl:text-[36px] xl:text-[30px] text-[18px] mt-[32px] xl:mt-[60px]">{t('yourDigitalSubTitle')}</h3>
+                            <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] leading-tight">{t('yourDigitalTitle')}</h2>
+                            <p className="leading-tight mt-[17px] xl:mt-[28px] xl:w-[80%] 2xl:w-full text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]">{t('yourDigitalDesc')}</p>
+                            <h3 className="4xl:text-[36px] text-[20px] xl:text-[30px] md:text-[20px] mt-[32px] xl:mt-[60px]">{t('yourDigitalSubTitle')}</h3>
                         </div>
                     </div>
 
@@ -156,10 +156,10 @@ export default function Page() {
                                     height={100}
                                     className="mb-4 w-[100px] h-[100px]"
                                 />
-                                <h3 className="font-bold 4xl:text-[23px] mt-5 text-[18px] leading-tight">
+                                <h3 className="font-bold 4xl:text-[23px] mt-5 text-[16px] md:text-[18px] leading-tight">
                                     {feature.title}
                                 </h3>
-                                <p className="text-gray-200 leading-tight mt-6 lg:mt-8 4xl:w-[90%] min-[400px]:w-[80%] sm:w-full text-[18px] 4xl:text-[23px]">{feature.desc}</p>
+                                <p className="text-gray-200 leading-tight mt-6 lg:mt-8 4xl:w-[90%] min-[400px]:w-[80%] sm:w-full text-[16px] md:text-[18px] 4xl:text-[23px]">{feature.desc}</p>
                             </div>
                         ))}
                     </div>
@@ -174,13 +174,13 @@ export default function Page() {
                 <div className="grid xl:grid-cols-2 grid-cols-1 custom-container xl:pr-0">
                     {/* Left Content */}
                     <div className="text-white">
-                        <h2 className="min-[400px]:w-[80%] sm:w-full 4xl:text-[60px] 2x:text-[40px] xl:text-[40px] md:text-[30px] font-light leading-tight text-white mt-20">
+                        <h2 className="min-[400px]:w-[80%] sm:w-full text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] font-light leading-tight text-white mt-20">
                             {t('assetMarketingTitle')}
                         </h2>
-                        <h3 className="mt-8 4xl:text-[40px] 2xl:text-[30px] xl:text-[28px]  text-[22px] font-semibold text-white">
+                        <h3 className="mt-8 4xl:text-[40px] xl:text-[36px] md:text-[26px]  text-[22px] font-semibold text-white">
                             {t('assetMarketingSubTitle')}
                         </h3>
-                        <p className="mt-4 text-gray-200 leading-tight 4xl:w-[90%] min-[400px]:w-[90%] sm:w-full text-[16px] xl:text-[18px] 4xl:text-[20px]">
+                        <p className="mt-4 text-gray-200 leading-tight 4xl:w-[90%] min-[400px]:w-[90%] sm:w-full text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]">
                             {t('assetMarketingDesc')}
                         </p>
                     </div>
@@ -202,8 +202,8 @@ export default function Page() {
                             assetMarketingData.map((data, ind) => {
                                 return (
                                     <div key={ind}>
-                                        <h4 className="font-semibold text-white 4xl:text-[22px] text-[18px]">{data.title}</h4>
-                                        <UnorderedList arrName={data.list} ulClassName="mt-3 list-outside space-y-5 text-gray-200 list-disc 4xl:text-[20px] text-[16px] pl-[20px]" liClassName="" />
+                                        <h4 className="font-semibold text-white text-[16px] md:text-[18px] 4xl:text-[22px]">{data.title}</h4>
+                                        <UnorderedList arrName={data.list} ulClassName="mt-3 list-outside space-y-5 text-gray-200 list-disc text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] pl-[20px]" liClassName="" />
                                     </div>
                                 )
                             })
@@ -216,7 +216,7 @@ export default function Page() {
                             <LearnMore btnName={t('learnMoreBtn')} locale={locale} bgcolor="#0A6BB8" bordercolor="#0A6BB8" hoverTextColor="black" />
                         </div>
                         <div>
-                            <p className={`bg-[#0A6BB8] text-white  md:py-[12px] md:px-[32px] py-[14px] px-[20px] md:mt-[23px] min-[400px]:w-[90%] sm:w-fit text-[16px] xl:text-[18px] 4xl:text-[20px]"
+                            <p className={`bg-[#0A6BB8] text-white  md:py-[12px] md:px-[32px] py-[14px] px-[20px] md:mt-[23px] min-[400px]:w-[90%] sm:w-fit text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]"
                               ${locale === "es"
                                     ? "4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] text-[18px]"
                                     : locale === "fr"
@@ -246,14 +246,14 @@ export default function Page() {
                     <div className="lg:col-span-8 col-span-12 bg-[#C6E7FF] lg:relative 4xl:pl-[230px] 2xl:px-[140px] lg:pl-[130px] lg:pr-[100px] px-10 lg:pt-[78px] pt-[30px] !pb-0">
 
                         {/* Text content */}
-                        <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[48px] text-[26px] text-[#0A2E4D] leading-tight mb-4">
+                        <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] text-[#0A2E4D] leading-tight mb-4">
                             {t('aiEnabledTitle')}
                         </h2>
 
-                        <p className="font-semibold 4xl:text-[40px] mt-10 2xl:text-[30px] xl:text-[24px] text-[18px] text-black mb-2 leading-tight">
+                        <p className="font-semibold mt-10 4xl:text-[40px] xl:text-[36px] md:text-[26px] text-[22px] text-black mb-2 leading-tight">
                             {t('aiEnabledDesc')}
                         </p>
-                        <p className="text-gray-700 mb-6 max-w-2xl mt-6 text-[16px] xl:text-[18px] 4xl:text-[20px]">
+                        <p className="text-gray-700 mb-6 max-w-2xl mt-6 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]">
                             {t('aiEnabledDesc2')}
                         </p>
 
@@ -263,8 +263,8 @@ export default function Page() {
                                 aiEnabledData.map((data, ind) => {
                                     return (
                                         <div key={ind}>
-                                            <h3 className="font-semibold text-[#0A6FBF] mb-3 text-[18px] xl:text-[20px] 4xl:text-[22px]">{data.title}</h3>
-                                            <UnorderedList arrName={data.list} ulClassName="space-y-[19px] xl:space-y-[24px] 4xl:text-[20px] text-[16px] list-outside list-disc xl:pb-16 2xl:pb-14 4xl:pb-0 pl-[22px]" liClassName="" />
+                                            <h3 className="font-semibold text-[#0A6FBF] mb-3 text-[16px] md:text-[18px] 4xl:text-[22px]">{data.title}</h3>
+                                            <UnorderedList arrName={data.list} ulClassName="space-y-[19px] xl:space-y-[24px] text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] list-outside list-disc xl:pb-16 2xl:pb-14 4xl:pb-0 pl-[22px]" liClassName="" />
                                         </div>
                                     )
                                 })
@@ -299,9 +299,9 @@ export default function Page() {
                 {/* property section */}
                 <section className="lg:pt-[170px] pt-[53px] lg:mt-[-80px] custom-container">
                     <>
-                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] text-[26px] font-light leading-tight">{t('propertyTitle')}</h2>
-                        <h3 className="xl:mt-[36px] mt-[14px] 4xl:text-[40px] 2xl:text-[30px] xl:text-[28px] text-[18px] font-semibold leading-tight">{t('propertySubTitle')}</h3>
-                        <p className="xl:mt-[39px] mt-[16px]">{t('propertyDesc')}</p>
+                        <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] font-light leading-tight">{t('propertyTitle')}</h2>
+                        <h3 className="xl:mt-[36px] mt-[14px] 4xl:text-[40px] xl:text-[36px] md:text-[26px]  text-[22px] font-semibold leading-tight">{t('propertySubTitle')}</h3>
+                        <p className="xl:mt-[39px] mt-[16px text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]">{t('propertyDesc')}</p>
                     </>
                     <div className="grid lg:grid-cols-2 4xl:gap-[140px] xl:gap-[60px] gap-10 xl:mt-[68px] lg:mt-[30px]">
                         {properties.map((feature, idx) => (
@@ -321,8 +321,8 @@ export default function Page() {
                                     <h3 className="font-semibold mb-4 text-white 4xl:text-[28px] text-[18px]">
                                         {feature.title}
                                     </h3>
-                                    <UnorderedList arrName={feature.points} ulClassName="list-disc pl-5 space-y-5 mb-4 text-white 4xl:text-[20px] text-[16px]" liClassName="" />
-                                    <h4 className="font-semibold text-white mt-10 4xl:text-[22px] text-[18px]">
+                                    <UnorderedList arrName={feature.points} ulClassName="list-disc pl-5 space-y-5 mb-4 text-white text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]" liClassName="" />
+                                    <h4 className="font-semibold text-white mt-10 text-[16px] md:text-[18px] 4xl:text-[22px]">
                                         {t('outcomeTitle')}
                                     </h4>
                                     <UnorderedList arrName={feature.outcomes} ulClassName="list-disc pl-5 space-y-5 text-white mt-4 4xl:text-[20px] text-[16px] min-[400px]:w-[90%] sm:w-full" liClassName="" />
@@ -337,7 +337,7 @@ export default function Page() {
                             <LearnMore btnName={t('learnMoreBtn')} locale={locale} bgcolor="#073259" bordercolor="#073259" />
                         </>
                         <>
-                            <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-3 text-white text-left 4xl:text-[22px] text-[18px] xl:text-[16px] w-fit">
+                            <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-3 text-white text-left text-[16px] md:text-[18px] 4xl:text-[22px] w-fit">
                                 {t('propertyBlueBox')}
                             </p>
                         </>
@@ -359,7 +359,7 @@ export default function Page() {
 
                     {/* Right Side - Content */}
                     <div className="4xl:px-16 text-white xl:col-span-8 col-span-12 2xl:px-14 xl:px-14">
-                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] text-[26px] font-light leading-tight mt-10 xl:mt-0 4xl:mt-0 2xl:mt-0">
+                        <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] font-light leading-tight mt-10 xl:mt-0 4xl:mt-0 2xl:mt-0">
                             {t('excelPersonaTitle')}  <span className="align-super inline-block ml-[-6px] md:ml-[-8px] w-4 h-4 xl:w-6 xl:h-6">
                                 <Image
                                     src="/images/products/exelona/desktop/trademark.png"
@@ -371,10 +371,10 @@ export default function Page() {
                                 />
                             </span> – {t('excelPersonaTitle2')}
                         </h2>
-                        <h3 className="mt-8 4xl:text-[40px] 2xl:text-[30px] xl:text-[28px] text-[18px] font-semibold leading-tight 4xl:pr-64 2xl:pr-64 xl:pr-32 min-[400px]:w-[90%] sm:w-full">
+                        <h3 className="mt-8 4xl:text-[40px] xl:text-[36px] md:text-[26px]  text-[22px] font-semibold leading-tight 4xl:pr-64 2xl:pr-64 xl:pr-32 min-[400px]:w-[90%] sm:w-full">
                             {t('excelPersonaSubTitle')}
                         </h3>
-                        <p className="mt-8 text-base 4xl:pr-[28rem] 2xl:pr-[20rem] xl:pr-[13rem] pr-10 text-[16px] xl:text-[18px] 4xl:text-[20px]">
+                        <p className="mt-8 text-base 4xl:pr-[28rem] 2xl:pr-[20rem] xl:pr-[13rem] pr-10 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]">
                             {t('excelPersonaDesc')}
                         </p>
 
@@ -385,8 +385,8 @@ export default function Page() {
                                 excelPersonaData.map((data, ind) => {
                                     return (
                                         <div key={ind}>
-                                            <h4 className="4xl:text-[22px] text-[18px] font-semibold mb-3 xl:mb-[32px]">{data.title}</h4>
-                                            <UnorderedList arrName={data.list} ulClassName="space-y-5 text-gray-200 list-disc list-outside 4xl:text-[20px] text-[16px] pl-5 4xl:pr-20 2xl:pr-20" liClassName="" />
+                                            <h4 className="text-[16px] md:text-[18px] 4xl:text-[22px] font-semibold mb-3 xl:mb-[32px]">{data.title}</h4>
+                                            <UnorderedList arrName={data.list} ulClassName="space-y-5 text-gray-200 list-disc list-outside text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] pl-5 4xl:pr-20 2xl:pr-20" liClassName="" />
                                         </div>
                                     )
                                 })
@@ -422,7 +422,7 @@ export default function Page() {
                     2xl:pl-[135px] 2xl:pr-[510px] xl:pl-[80px] xl:pr-[435px] 
                     pl-10 order-last xl:order-first mt-[-230px] 4xl:mt-0 2xl:mt-0 xl:mt-0 max-xl:px-[35px]">
                             {/* Text content */}
-                            <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[48px] text-[26px] text-[#0A2E4D] leading-tight mb-4 pt-[17rem] xl:pt-14 4xl:pt-20 2xl:pt-16 3xl:w-[90%]">
+                            <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] text-[#0A2E4D] leading-tight mb-4 pt-[17rem] xl:pt-14 4xl:pt-20 2xl:pt-16 3xl:w-[90%]">
                                 {t('excelPayTitle')}  <span className="align-super inline-block ml-[6px] w-4 h-4 xl:w-6 xl:h-6">
                                     <Image
                                         src="/images/products/exelona/desktop/black-trademark.png"
@@ -435,10 +435,10 @@ export default function Page() {
                                 </span> <br /> {t('excelPayTitle2')}
                             </h2>
 
-                            <p className="font-semibold 4xl:text-[40px] mt-10 2xl:text-[30px] xl:text-[24px] text-[18px] text-black mb-2 leading-tight 4xl:pr-[12rem] ">
+                            <p className="font-semibold mt-10 4xl:text-[40px] xl:text-[36px] md:text-[26px]  text-[22px] text-black mb-2 leading-tight 4xl:pr-[12rem] ">
                                 {t('excelPayDesc')}
                             </p>
-                            <p className="text-gray-700 mb-6 max-w-2xl mt-6 text-[16px] xl:text-[18px] 4xl:text-[20px]">
+                            <p className="text-gray-700 mb-6 max-w-2xl mt-6 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]">
                                 {t('excelPayDesc2')}
                             </p>
 
@@ -448,10 +448,10 @@ export default function Page() {
                                     excelPayData.map((data, ind) => {
                                         return (
                                             <div key={ind}>
-                                                <h3 className="font-semibold text-[#000000] mb-3 4xl:mb-[] 4xl:text-[22px] text-[18px]">
+                                                <h3 className="font-semibold text-[#000000] mb-3 4xl:mb-[] text-[16px] md:text-[18px] 4xl:text-[22px]">
                                                     {data.title}
                                                 </h3>
-                                                <UnorderedList arrName={data.list} ulClassName="4xl:space-y-5 space-y-3 xl:space-y-3 text-gray-800 4xl:text-[20px] text-[16px] list-disc pl-[20px]" liClassName="" />
+                                                <UnorderedList arrName={data.list} ulClassName="4xl:space-y-5 space-y-3 xl:space-y-3 text-gray-800 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] list-disc pl-[20px]" liClassName="" />
                                             </div>
                                         )
                                     })
@@ -502,14 +502,14 @@ export default function Page() {
 
                     <div className="xl:col-span-9 4xl:mt-0 xl:mt-0 2xl:mt-0 xl:mb-20 col-span-12 bg-[#073259] text-white xl:relative 4xl:pl-[315px] 4xl:ml-[-100px] 4xl:pr-[150px] 2xl:px-[150px] xl:pl-[130px] xl:pr-[100px] px-10">
 
-                        <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[48px] text-[26px] leading-tight mb-4 pt-[49px] xl:pt-14 4xl:pt-20 2xl:pt-16 min-[400px]:w-[90%] sm:w-full">
+                        <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] leading-tight mb-4 pt-[49px] xl:pt-14 4xl:pt-20 2xl:pt-16 min-[400px]:w-[90%] sm:w-full">
                             {t('agentchatTitle')}
                         </h2>
 
-                        <p className="font-semibold 4xl:text-[40px] mt-10 2xl:text-[30px] xl:text-[24px] text-[18px] mb-2 leading-tight">
+                        <p className="font-semibold mt-10 4xl:text-[40px] xl:text-[36px] md:text-[26px]  text-[22px] mb-2 leading-tight">
                             {t('agentChatDesc')}
                         </p>
-                        <p className="mb-6 mt-6 leading-tight 4xl:pr-64 2xl:pr-64 xl:pr-32 text-[16px] xl:text-[18px] 4xl:text-[20px]">
+                        <p className="mb-6 mt-6 leading-tight 4xl:pr-64 2xl:pr-64 xl:pr-32 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]">
                             {t('agentChatDesc2')}
                         </p>
 
@@ -518,8 +518,8 @@ export default function Page() {
                                 agentChatData.map((data, ind) => {
                                     return (
                                         <div key={ind}>
-                                            <h3 className="font-bold mb-3 4xl:text-[22px] text-[18px]">{data.title}</h3>
-                                            <UnorderedList arrName={data.list} ulClassName="4xl:space-y-5 space-y-3 xl:space-y-3 text-[16px] xl:text-[18px] 4xl:text-[20px] list-outside list-disc xl:pb-16 2xl:pb-14 4xl:pb-0 pr-10 4xl:pl-[20px] 2xl:pl-[20px] xl:pl-[20px] pl-[15px]" liClassName="" />
+                                            <h3 className="font-bold mb-3 text-[16px] md:text-[18px] 4xl:text-[22px]">{data.title}</h3>
+                                            <UnorderedList arrName={data.list} ulClassName="4xl:space-y-5 space-y-3 xl:space-y-3 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] list-outside list-disc xl:pb-16 2xl:pb-14 4xl:pb-0 pr-10 4xl:pl-[20px] 2xl:pl-[20px] xl:pl-[20px] pl-[15px]" liClassName="" />
                                         </div>
                                     )
                                 })
@@ -553,13 +553,13 @@ export default function Page() {
                 <section className="custom-container mt-20 xl:pb-[120px] pb-[90px]">
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 xl:gap-10 4xl:gap-[80px]">
                         <div className="xl:col-span-7 col-span-12">
-                            <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[48px] text-[26px]  leading-tight text-white font-light">
+                            <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] leading-tight text-white font-light">
                                 {t('builtTitle')}
                             </h2>
                         </div>
 
                         <div className="xl:col-span-5 col-span-12 max-lg:mt-[23px]">
-                            <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-relaxed text-gray-200 4xl:w-[86%]">
+                            <p className="text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-relaxed text-gray-200 4xl:w-[86%]">
                                 {t('builtDesc')}
                             </p>
                         </div>
@@ -570,7 +570,7 @@ export default function Page() {
                             builtData.map((data, ind) => {
                                 return (
                                     <div className="bg-white py-[30px] px-[27px] xl:py-[46px] xl:px-[40px]" key={ind}>
-                                        <p className="leading-tight text-[16px] xl:text-[19px] 4xl:text-[20px]">{data}</p>
+                                        <p className="leading-tight text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]">{data}</p>
                                     </div>
                                 )
                             })
@@ -605,13 +605,13 @@ export default function Page() {
                         {/* Overlay only on this block */}
                         <div className="absolute inset-0 bg-[#068EDA] mix-blend-multiply"></div>
                         <div className="relative pt-[63px] xl:pt-[80px] text-white xl:px-[81px] px-[36px] md:w-[90%] lg:w-full">
-                            <h2 className="font-light 4xl:text-[60px] xl:text-[40px] text-[26px]">
+                            <h2 className="font-light text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">
                                 {t('salesforceTitle')}
                             </h2>
-                            <h3 className="font-semibold 4xl:text-[40px] xl:text-[30px] text-[18px] xl:mt-[24px] mt-[22px]">
+                            <h3 className="font-semibold 4xl:text-[40px] xl:text-[36px] md:text-[26px]  text-[22px] xl:mt-[24px] mt-[22px]">
                                 {t('salesforceSubTitle')}
                             </h3>
-                            <p className="font-light 4xl:text-[20px] xl:text-[18px] text-[16px] xl:mt-[33px] mt-[22px]">
+                            <p className="font-light text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] xl:mt-[33px] mt-[22px]">
                                 {t('headerTitle')}  Exelona<span className="align-super inline-block ml-[1px] w-3 h-3 xl:w-4 xl:h-4">
                                     <Image
                                         src="/images/products/exelona/desktop/trademark.png"
@@ -629,18 +629,18 @@ export default function Page() {
                                     buildSalesforceData.map((data, ind) => {
                                         return (
                                             <div key={ind}>
-                                                <p className="font-bold 4xl:text-[22px] xl:text-[20px] text-[18px] xl:mt-[33px] mt-[22px]">
+                                                <p className="font-bold text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] xl:mt-[33px] mt-[22px]">
                                                     {data.title}
                                                 </p>
                                                 <ul className="list-disc pl-6 xl:mt-[19px] mt-[12px] space-y-[19px]">
                                                     {data.list.map((elem, id) => (
                                                         <li key={id} className="mb-2">
                                                             {elem.title && (
-                                                                <p className="font-bold 4xl:text-[20px] xl:text-[18px] text-[16px]">
+                                                                <p className="font-bold text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]">
                                                                     {elem.title}
                                                                 </p>
                                                             )}
-                                                            <p className="font-light 4xl:text-[20px] xl:text-[18px] text-[16px]">
+                                                            <p className="font-light text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]">
                                                                 {elem.desc}
                                                             </p>
                                                         </li>
@@ -669,9 +669,9 @@ export default function Page() {
             </section>
 
             <section className="custom-container text-white bg-[#134874] py-16 max-md:mt-0">
-                <ContactForm title={'Ready to Transform Your Real Estate Business?'} subtitle={"Let’s build it, automate it, and grow it—with Exelona."} className={"leading-tight  xl:w-[70%] 4xl:text-[60px] xl:text-[40px]"} beginBtnBg="#006FBE" />
+                <ContactForm title={t('contactUs')} subtitle={t('subTitle')} className={"leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]"} beginBtnBg="#006FBE" />
 
-                <h3 className="font-semibold 4xl:text-[40px] xl:text-[30px] text-[18px] xl:mt-[91px] mt-[62px]">
+                <h3 className="font-semibold 4xl:text-[40px] xl:text-[26px] text-[18px] xl:mt-[91px] mt-[62px]">
                     {t('trustedTitle')}
                 </h3>
             </section>
