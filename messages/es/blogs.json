@@ -597,7 +597,7 @@
         "predictiveDesc3": "Tecnologías Clave que Impulsan el Mantenimiento Predictivo",
         "predictiveDesc4": "Al combinar estas tecnologías, los administradores pueden monitorear docenas o incluso cientos de activos sin necesidad de inspecciones manuales — una parte fundamental de la",
         "predictiveDesc4Link": "convergencia CRM + ERP en la gestión inmobiliaria",
-        "href":"https://www.rialtes.com/es/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/",
+        "href": "https://www.rialtes.com/es/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/",
         "dataPowerTitle": "Datos que Impulsan la Predicción",
         "predictionDesc": "Combinadas, estas señales crean una imagen predictiva de la salud de los activos, permitiendo actuar antes de que los sistemas fallen.",
         "preparingTitle": "Preparándose para un Futuro Inmobiliario Impulsado por IA",
@@ -4076,8 +4076,8 @@
         "aithatlistensAlt": "Ondas digitales dinámicas y flujos de datos coloridos que ilustran el flujo tecnológico y la conectividad de red.",
         "seoTitle": "Cómo los LLM Transforman la Experiencia del Cliente",
         "seoDescription": "Los LLM con IA generativa redefinen cómo las empresas escuchan y responden, creando conversaciones reales y transformando la experiencia del cliente.",
-        "href":"https://www.rialtes.com/es/insights/blogs/reimagine-enterprise-using-agentic-ai-systems",
-        "hrefChat":"https://www.rialtes.com/es/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/",
+        "href": "https://www.rialtes.com/es/insights/blogs/reimagine-enterprise-using-agentic-ai-systems",
+        "hrefChat": "https://www.rialtes.com/es/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/",
         "LLMarchData": [
             {
                 "title": "Modelos solo codificadores ",
@@ -5880,7 +5880,7 @@
         "digiTitle": "Transformando la atención sanitaria, un viaje a la vez",
         "seoTitle": "Viajes Digitales del Paciente: Futuro de la IA en Salud",
         "seoDescription": "El futuro de la salud son viajes digitales impulsados por IA: predictivos, personalizados y que empoderan a pacientes y proveedores.",
-        "href":"https://www.rialtes.com/es/products/mediaina-reimagining-patient-journeys/",
+        "href": "https://www.rialtes.com/es/products/mediaina-reimagining-patient-journeys/",
         "whyDigitalJourneyData": [
             "La industria de la salud se encuentra en un punto de inflexión. Los pacientes ya no quieren experiencias fragmentadas, esperar semanas para una cita, repetir su historial en cada punto de contacto o lidiar con portales desconectados. Quieren una atención personalizada y continua que refleje la comodidad de otras industrias. Este cambio ha acelerado la demanda de recorridos digitales del paciente, donde cada paso, desde la programación hasta el seguimiento, está conectado, es inteligente y centrado en el paciente.",
             "<a href='https://es.wikipedia.org/wiki/Inteligencia_artificial_en_salud' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>La IA en la atención médica</a> y las ciencias de la vida está en el corazón de esta transformación, aportando inteligencia, automatización y personalización a la prestación de cuidados. Plataformas como MediAIna demuestran que cuando la tecnología se alinea con la empatía, podemos redefinir cómo los pacientes interactúan con proveedores, aseguradoras e investigadores.",
@@ -7627,7 +7627,7 @@
     "sap2026": {
         "seoTitle": "Estrategias Expertas de Implementación SAP para el Éxito en 2026 | Rialtes",
         "seoDescription": "La implementación de SAP no es un ejercicio de conectar y usar; requiere una hoja de ruta y una estrategia que equilibren la tecnología, los objetivos comerciales y las personas.",
-        "fivePillarAlt":"Infografía de implementación SAP en cinco pasos: caso de negocio, consultores, migración, capacitación, valor continuo",
+        "fivePillarAlt": "Infografía de implementación SAP en cinco pasos: caso de negocio, consultores, migración, capacitación, valor continuo",
         "mainData": [
             "Sabemos que implementar SAP no se trata solo de actualizar un sistema. Se trata de redefinir cómo opera una empresa, desde las finanzas y la cadena de suministro hasta los recursos humanos y la experiencia del cliente. Cuando se hace bien, puede reducir costos, aumentar la transparencia y acelerar el crecimiento. Cuando se hace mal, puede agotar presupuestos y frustrar a los equipos durante meses.",
             "Según McKinsey, casi el 55% de las implementaciones ERP a gran escala superan los presupuestos o no logran el ROI esperado. ¿La causa? Falta de alineación estratégica y una gestión del cambio inadecuada. La implementación de SAP no es un ejercicio de conectar y usar; requiere una hoja de ruta que equilibre la tecnología, los objetivos comerciales y las personas.",
@@ -8504,6 +8504,8 @@
         "faqTitle": "Preguntas frecuentes: Aprovecha los datos y la IA para mejorar el RR. HH. moderno con SAP SuccessFactors"
     },
     "salesforceManaged": {
+        "internalSalesforcePara": "Los Servicios Gestionados no son subcontratación.",
+        "internalSalesforcePara2": "Es acceso a las habilidades exactas que necesitas, exactamente cuando las necesitas.",
         "salesforceManagedTitle": "Servicios Gestionados de Salesforce: El secreto para escalar los ingresos, no solo mantener el CRM",
         "salesforceManaged": [
             "La mayoría de las empresas invierten fuertemente en Salesforce, pero solo una fracción aprovecha su verdadero valor comercial. La plataforma es poderosa, pero sin una optimización continua, automatización, mejora de datos y conocimientos impulsados por IA, se convierte silenciosamente en un CRM subutilizado en lugar de un motor de ingresos.",
@@ -8879,7 +8881,7 @@
         "seoDescription": "Si tu equipo de investigación se pregunta por qué los pacientes abandonan los ensayos clínicos, la causa suele ser brechas en experiencia, comunicación o soporte."
     },
     "sapManaged": {
-         "watchbuttonText" : "Mira el seminario web",
+        "watchbuttonText": "Mira el seminario web",
         "schemaData": {},
         "faq": [
             {

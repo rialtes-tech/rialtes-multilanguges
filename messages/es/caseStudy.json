@@ -383,39 +383,39 @@
     ],
     "featureList": [
       {
-        "title": "Plataforma de Soporte Unificada",
+        "title": "Plataforma de Soporte Unificada ",
         "desc": "Todas las interacciones con los clientes, incluidos equipos internos, distribuidores y OEMs, se gestionan ahora en una sola plataforma."
       },
       {
-        "title": "Portal de Autoservicio",
+        "title": "Portal de Autoservicio ",
         "desc": "Distribuidores y OEMs pueden enviar y rastrear casos, y acceder a una base de conocimientos sólida las 24 horas, todos los días."
       },
       {
-        "title": "Comunicación en Tiempo Real",
+        "title": "Comunicación en Tiempo Real ",
         "desc": "El chat y mensajería integrados facilitan conversaciones directas entre los equipos de soporte y los clientes."
       },
       {
-        "title": "Consolidación del Conocimiento",
+        "title": "Consolidación del Conocimiento ",
         "desc": "El contenido de soporte heredado se migró a un repositorio centralizado y de fácil búsqueda."
       },
       {
-        "title": "Asistencia con Einstein AI",
+        "title": "Asistencia con Einstein AI ",
         "desc": "Las recomendaciones impulsadas por IA ayudan a los clientes a resolver problemas más rápido y reducen el volumen de casos."
       },
       {
-        "title": "Asignación Automática de Casos",
+        "title": "Asignación Automática de Casos ",
         "desc": "La lógica de enrutamiento basada en la geografía y experiencia garantiza respuestas oportunas y precisas."
       },
       {
-        "title": "Colaboración Intercontinental",
+        "title": "Colaboración Intercontinental ",
         "desc": "Los equipos de soporte ahora pueden compartir conocimientos y actualizaciones sin esfuerzo a través de zonas horarias."
       },
       {
-        "title": "Entrega Segmentada de Contenido",
+        "title": "Entrega Segmentada de Contenido ",
         "desc": "Lanzamiento dirigido de actualizaciones de soporte e información crítica a grupos específicos de clientes."
       },
       {
-        "title": "Migración de Datos y Análisis",
+        "title": "Migración de Datos y Análisis ",
         "desc": "La migración de datos históricos de casos permite un análisis profundo de tendencias y decisiones más inteligentes."
       }
     ],
@@ -891,33 +891,33 @@
     "schemaData": {},
     "businessList": [
       {
-        "title": "Silos de habilidades",
+        "title": "Silos de habilidades ",
         "description": "La dependencia de expertos individuales para cada plataforma generaba cuellos de botella. Cualquier indisponibilidad provocaba retrasos."
       },
       {
-        "title": "Escasez de talento",
+        "title": "Escasez de talento ",
         "description": "Los mercados locales de contratación carecían de especialistas con profundo conocimiento del conjunto tecnológico específico del cliente."
       },
       {
-        "title": "Falta de supervisión centralizada",
+        "title": "Falta de supervisión centralizada ",
         "description": "Los proyectos estaban organizados de manera laxa, lo que limitaba la colaboración efectiva y el intercambio de conocimientos."
       }
     ],
     "solutionList": [
       {
-        "title": "Evaluación de capacidades",
+        "title": "Evaluación de capacidades ",
         "desc": "Se realizó una revisión exhaustiva del equipo interno del cliente e identificaron las brechas de habilidades."
       },
       {
-        "title": "Aumento de equipo",
+        "title": "Aumento de equipo ",
         "desc": "Se desplegaron recursos especializados para complementar el equipo interno del cliente, proporcionando soporte inmediato para Yardi, MRI y RealPage."
       },
       {
-        "title": "Transición colaborativa",
+        "title": "Transición colaborativa ",
         "desc": "El soporte inicial fue proporcionado de forma remota por el equipo técnico de Rialtes, pasando gradualmente a un modelo híbrido con responsabilidades compartidas."
       },
       {
-        "title": "Gestión integral",
+        "title": "Gestión integral ",
         "desc": "Tras un año exitoso, Rialtes asumió la plena responsabilidad de todos los sistemas relacionados—Yardi, RealPage, vivienda asequible, residencial y soporte comercial—ofreciendo un modelo integral de servicios gestionados."
       }
     ],

@@ -29,7 +29,7 @@ export default function Page() {
     faqs,
     schemaData
   } = blogsContent.agentforceHitech;
-  const fullUrl = "https://www.rialtes.com/insights/blogs/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/how-agentforce-ai-transforms-erp-systems/";
 
   return (
     <section className="min-h-screen">

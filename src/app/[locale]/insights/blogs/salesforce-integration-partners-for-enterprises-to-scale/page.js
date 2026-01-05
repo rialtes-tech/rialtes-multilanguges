@@ -14,7 +14,7 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import { useLocale, useTranslations } from "next-intl";
 
 export default function Page() { 
-    const fullUrl = "https://www.rialtes.com/insights/blogs/integration-partners-for-salesforce-cutting-complexity-increasing-roi";
+    const fullUrl = "https://www.rialtes.com/insights/blogs/salesforce-integration-partners-for-enterprises-to-scale";
     const currUrl = useUrl()
     const t = useTranslations("integrationPartnersForSalesforce");
     const locale = useLocale();
