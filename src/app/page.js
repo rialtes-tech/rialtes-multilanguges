@@ -150,10 +150,9 @@ const Home = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const slides = useMemo(() => [
-        { link: "/solutions/data-ai/sap-business-data-cloud-bdc-consulting/",alt:"SAP Business Data Cloud consulting banner showing enterprise data and AI solutions", title: "SAP Business Data Cloud", image: '/images/homepage/sap-business-datacloude-desktop.webp', imageMobile: '/images/homepage/sap-business-data-cloude-mobile.webp' },
-        { link: "/products/exelona-salesforce-for-real-estate-management",alt:"Exelona Salesforce real estate management platform banner for property automation", image: '/images/homepage/real-estate-desktop-banner.webp', title: "Exelona", imageMobile: '/images/homepage/real-estate-mobile-banner.webp' },
-        { link: "/industry/hitech-semiconductor-ai-it-solutions",alt:"AI and IT solutions for semiconductor industry banner showing high-tech innovation", image: '/images/homepage/semiconducter-desktop-banner.webp', title: "Semiconductor Industry", imageMobile: '/images/homepage/semiconductor-mobile-banner.webp' },
-
+        { link: "/solutions/integration/sap-cloud-platform-integration-consulting/",alt:"Migrating from SAP PI/PO to SAP CPI to enable secure, intelligent, and cloud-first enterprise integration", title: "SAP CPI", image: '/images/homepage/sap-pi-po-to-sap-cpi-migration.webp', imageMobile: '/images/homepage/sap-pi-po-to-sap-cpi-migration-mobile.webp' },
+        { link: "https://www.rialtes.com/products/agentchat",alt:"WhatsApp customer interactions embedded in Salesforce using AgentChat for secure and personalized messaging", image: '/images/homepage/whatsapp-salesforce-agentchat.webp', title: "Agentchat", imageMobile: '/images/homepage/whatsapp-salesforce-agentchat-mobile.webp' },
+        { link: "/industry/education-cloud-it-solutions",alt:"Holistic education solutions modernizing academic operations and strengthening connections across institutions", image: '/images/homepage/holistic-education-solutions.webp', title: "Education", imageMobile: '/images/homepage/holistic-education-solutions-mobile.webp' },
     ], [])
     const handlePrevInsights = () => {
         setActiveIndexInsights((prevIndex) =>
