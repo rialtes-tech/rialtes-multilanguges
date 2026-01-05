@@ -388,7 +388,7 @@ const Header = () => {
             }`}>
             <MenuItem
               label={t('solutionTitle')}
-              link="/"
+              link=""
               onHover={() => handleMouseEnterCard(1)}
               onClick={() => handleMenuClick(1)}
               className={`md:font-bold font-normal 4xl:text-[20px] xl:text-[18px] text-[16px]`}
@@ -397,7 +397,7 @@ const Header = () => {
             />
             <MenuItem
               label={t('productsTitle')}
-              link="/"
+              link=""
               onHover={() => handleMouseEnterCard(2)}
               onClick={() => handleMenuClick(2)}
               isActive={activeCard === 2}
@@ -407,7 +407,7 @@ const Header = () => {
             />
             <MenuItem
               label={t('servicesTitle')}
-              link="/"
+              link=""
               onHover={() => handleMouseEnterCard(3)}
               onClick={() => handleMenuClick(3)}
               isActive={activeCard === 3}
@@ -439,13 +439,14 @@ const Header = () => {
               link="/insights"
               onHover={() => handleMouseEnterCard(6)}
               onClick={() => handleMenuClick(6)}
-              className={`md:font-bold font-normal 4xl:text-[20px] xl:text-[18px] text-[16px]`}
+              className={`md:font-bold font-normal 4xl:text-[20px] xl:text-[18px] text-[16px]`}  
               isActive={activeCard === 6}
               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
             />
             <MenuItem
               label={t('contactTitle')}
               link="/contact-us"
+              onHover={handleMouseLeaveCard}
               className={`md:font-bold font-normal 4xl:text-[20px] xl:text-[18px] text-[16px]`}
               isActive={activeCard === 7}
               aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions"
