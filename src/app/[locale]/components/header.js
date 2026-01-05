@@ -1,16 +1,15 @@
 "use client";
 import Image from "next/image"
-import Link from "next/link"
 import { useRef, useState } from "react";
 import LanguageSwitcher from "./LanguageSwitcherDropdown";
 import arrowImg from "../../../../public/images/flags/arrow.png"
 import { useLocale, useTranslations } from "next-intl";
 import SearchBar from "./searchBar";
-import { useRouter } from "next/navigation";
+import { Link, useRouter } from "@/i18n/navigation";
 
 
 const MenuItem = ({ label, link, onHover, className, onClick, isActive }) => {
-  return (
+  return ( 
     <Link href={link}>
       <div
         onClick={onClick}
