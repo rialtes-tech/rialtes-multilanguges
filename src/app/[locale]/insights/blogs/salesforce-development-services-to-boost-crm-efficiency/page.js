@@ -18,7 +18,7 @@ export default function Page() {
     const locale = useLocale();
     const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const {schemaData , blogMainData, salesforceFeature, choosingRightData, whyCrmDAta, workFlowExample, rialtesYourTrustData, whatToLook, theCaseOfCustom, salesforceFeatureList, strategiesList, keyBenifitesSalesforce, keyBenifiteList, faqData } = blogsContent.salesforceDevelopment;
-    const fullUrl = "https://www.rialtes.com/insights/blogs/boost-your-crm-efficiency-with-tailored-salesforce-development-services/";
+    const fullUrl = "https://www.rialtes.com/insights/blogs/salesforce-development-services-to-boost-crm-efficiency/";
     const currUrl = useUrl()
 
     return (

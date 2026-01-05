@@ -14,7 +14,7 @@ import frContent from "../../../../../../messages/fr/blogs.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
 export default function Page() {
-    const fullUrl = "https://www.rialtes.com/insights/blogs/conversational-ai-in-real-estate-scale-resident-support";
+    const fullUrl = "https://www.rialtes.com/insights/blogs/erp-crm-convergence-real-estate-leaders-guide";
     const currUrl = useUrl()
     const t = useTranslations("erpCrm");
     const locale = useLocale();

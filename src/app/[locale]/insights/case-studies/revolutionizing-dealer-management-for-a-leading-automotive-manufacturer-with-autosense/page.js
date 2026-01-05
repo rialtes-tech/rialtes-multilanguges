@@ -107,9 +107,9 @@ export default function Page() {
                                     <ol className="list-decimal mt-5 pl-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-4">
                                         {approachList.map(({ title, description }, index) => (
                                             <li key={index}>
-                                                <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                                                <h4 className="h3-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                                                     {title}
-                                                </h3>
+                                                </h4>
                                                 : {description}
                                             </li>
                                         ))}
@@ -124,9 +124,9 @@ export default function Page() {
                                     <ol className="list-decimal mt-5 pl-[34px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-4">
                                         {featuresList.map(({ title, description }, index) => (
                                             <li key={index}>
-                                                <h3 className="h3-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                                                <h4 className="h3-bold inline 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                                                     {title}
-                                                </h3>
+                                                </h4>
                                                 : {description}
                                             </li>
                                         ))}

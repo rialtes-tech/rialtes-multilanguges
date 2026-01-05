@@ -14,7 +14,7 @@ import RelatedCaseStudies from '@/app/[locale]/components/RelatedCaseStudies'
 
 export default function Page() {
   const currUrl = useUrl()
-  const t = useTranslations("warrantyClaimCaseStudy");
+  const t = useTranslations("warrantyClaimCaseStudy");   
   const locale = useLocale();
   const Content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { benefitsList,schemaData } = Content.warrantyClaimCaseStudy;
