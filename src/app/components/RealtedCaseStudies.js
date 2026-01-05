@@ -238,13 +238,13 @@ export default function page({ url, currTopic }) {
                     aria-label="Custom Dots"
 
                 />
-            </li>
+            </li> 
         );
     };
 
     const handleBeforeChange = (nextSlide, state) => {
         const totalItems = state.totalItems;
-        const slidesToShow = state.slidesToShow;
+        const slidesToShow = state.slidesToShow; 
 
         const maxValidSlide = totalItems - slidesToShow;
 
