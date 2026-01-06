@@ -1397,6 +1397,7 @@
         }
       }
     },
+    "aiPoweredTitle1" : "AI-Powered Transformation",
     "seoTitle": "Salesforce-Powered IT Solutions for Medical Device Companies | Rialtes",
     "seoDescription": "Salesforce-based IT solutions for medical device companies simplify compliance, improve traceability, and accelerate sales. Discover the Rialtes advantage.",
     "bannerAlt": "Modern MRI scanner with blue lighting in clinical imaging suite showcasing advanced diagnostic medical technology",
@@ -2850,17 +2851,17 @@
     "educationSolutions": [
       {
         "title": "SAP S/4HANA for Education",
-        "href": "/services/business-transformation/grow-with-sap-services",
+        "href": "/en/services/business-transformation/grow-with-sap-services",
         "description": "Robust ERP for education finance, HR, and campus operations."
       },
       {
         "title": "Salesforce Marketing and Revenue Cloud",
-        "href": "/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting",
+        "href": "/en/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting",
         "description": "Personalized campaigns and dynamic pricing."
       },
       {
         "title": "SAP ARIBA for Education",
-        "href": "/services/spend-management/sapbuyplus-ariba-implementation-partner",
+        "href": "/en/services/spend-management/sapbuyplus-ariba-implementation-partner",
         "description": "Procurement solutions for campus operations."
       }
     ]
