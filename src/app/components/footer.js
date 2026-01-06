@@ -189,7 +189,7 @@ const Footer = () => {
       </div>
 
       {/* Copyright */}
-      <p className="mt-5 text-start">©2025 Rialtes, All rights reserved</p>
+      <p className="mt-5 text-start">©2026 Rialtes, All rights reserved</p>
 
       {/* Scroll to Top Button */}
       {isVisible && (

@@ -74,7 +74,7 @@ const latestBlogs = [
     "description": "Trust is the filter that determines who even makes it onto the shortlist. In enterprise SAP programs, credibility is not a soft factor. It directly impacts risk, governance, and long-term value.With this blog, we focus on how enterprises assess trust and credibility in SAP consulting companies during the pre-selection stage, before formal evaluation and contracting begin."
   },
   {
-    "id": 66,
+    "id": 66, 
     "image": "/images/blog/business-growth-journey-thumbnail.webp",
     "category": "Salesforce Consulting",
     "industry": "Generic",

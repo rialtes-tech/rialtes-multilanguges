@@ -126,7 +126,7 @@ export default function Page() {
             "title": "Why Choosing the Right Salesforce Partner Matters",
             "desc": "A Salesforce partner isn’t just a vendor. They become your:",
             "list": [
-                "Strategy advisor ",
+                "Strategy advisor ", 
                 "Integration architect ",
                 "Long-term optimization specialist ",
                 "Training and adoption guide ",
