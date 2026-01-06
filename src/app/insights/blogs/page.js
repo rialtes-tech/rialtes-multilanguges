@@ -63,6 +63,17 @@ const allCategories = [
 
 const latestBlogs = [
   {
+    "id": 68,
+    "image": "/images/blog/enterprise-growth-strategy-thumbnail.webp",
+    "category": "Rise with SAP",
+    "industry": "Generic",
+    "date": "Jan. 05, 2026",
+    "url": "/rise-with-sap-erp-transformation-strategy/",
+    "title": "Why ERP Transformation Challenges Are Forcing Enterprises to Rethink Their Strategy",
+    "alt": "Business leader on a path symbolizing enterprise growth and digital transformation",
+    "description": "ERP modernization has been on boardroom agendas for years, yet success stories are still far fewer than expected. Leaders know transformation is necessary, but the path often turns bumpy."
+  },
+  {
     "id": 67,
     "image": "/images/blog/strategic-partnership-digital-connection-thumbnail.webp",
     "category": "SAP Consulting",
