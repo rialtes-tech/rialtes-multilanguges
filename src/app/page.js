@@ -32,46 +32,46 @@ const schemaData = {
     ]
 }
 const carouselData = [
-    { 
+    {
         title: "Blogs",
         description:
-            "Enterprises can’t afford disconnected systems anymore; integration is the backbone of true digital transformation",
-        image: "/images/blog/sap-cpi-mobile-banner.webp",
+            "SAP PI PO to SAP CPI Migration: A Complete Guide",
+        image: "/images/homepage/insights5.webp",
         link: '/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide'
     },
     {
         title: "Blogs",
         description:
             "AI in Patient Engagement: How AI Agents Support MedTech in Remote Monitoring",
-        image: "/images/blog/ai-in-patient-mobile-banner.webp",
+        image: "/images/homepage/insights4.webp",
         link: '/insights/blogs/ai-patient-engagement-medtech-remote-care'
     },
     {
         title: "Blogs",
         description:
-            "Build and Deploy Your First AI Agent Using Agentforce",
-        image: "/images/blog/first-ai-agent-mob-banner.webp",
+            "How to Build and Deploy Your First AI Agent with Agentforce (Step-by-Step Guide)",
+        image: "/images/homepage/insights3.webp",
         link: '/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce'
     },
     {
         title: "Blogs",
         description:
-            "Trust is the filter that determines who even makes it onto the shortlist",
-        image: "/images/blog/strategic-partnership-digital-connection-thumbnail.webp",
+            "What Makes SAP Consulting Companies Trustworthy for Enterprise Engagements",
+        image: "/images/homepage/insights1.webp",
         link: '/insights/blogs/what-makes-sap-consulting-companies-trustworthy'
     },
     {
         title: "Blogs",
         description:
-            "Salesforce has established itself as the enterprise CRM of record",
-        image: "/images/blog/business-growth-journey-thumbnail.webp",
+            "Salesforce Consulting Playbook: Strategies to Drive Growth and Efficiency",
+        image: "/images/homepage/insights2.webp",
         link: '/insights/blogs/salesforce-consulting-playbook-enterprise-growth'
     },
     {
         title: "Blogs",
         description:
-            "Salesforce sits at the center of enterprise digital strategy for a reason",
-        image: "/images/blog/salesforce-consulting-cluster-2.2_blog-thumb.webp",
+            "Integration Partners for Salesforce: Cutting Complexity, Increasing ROI",
+        image: "/images/homepage/insights6.webp",
         link: '/insights/blogs/salesforce-integration-partners-for-enterprises-to-scale'
     },
 ];
@@ -150,9 +150,9 @@ const Home = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const slides = useMemo(() => [
-        { link: "/solutions/integration/sap-cloud-platform-integration-consulting/",alt:"Migrating from SAP PI/PO to SAP CPI to enable secure, intelligent, and cloud-first enterprise integration", title: "SAP CPI", image: '/images/homepage/sap-pi-po-to-sap-cpi-migration.webp', imageMobile: '/images/homepage/sap-pi-po-to-sap-cpi-migration-mobile.webp' },
-        { link: "https://www.rialtes.com/products/agentchat",alt:"WhatsApp customer interactions embedded in Salesforce using AgentChat for secure and personalized messaging", image: '/images/homepage/whatsapp-salesforce-agentchat.webp', title: "Agentchat", imageMobile: '/images/homepage/whatsapp-salesforce-agentchat-mobile.webp' },
-        { link: "/industry/education-cloud-it-solutions",alt:"Holistic education solutions modernizing academic operations and strengthening connections across institutions", image: '/images/homepage/holistic-education-solutions.webp', title: "Education", imageMobile: '/images/homepage/holistic-education-solutions-mobile.webp' },
+        { link: "/solutions/integration/sap-cloud-platform-integration-consulting/", alt: "Migrating from SAP PI/PO to SAP CPI to enable secure, intelligent, and cloud-first enterprise integration", title: "SAP CPI", image: '/images/homepage/sap-pi-po-to-sap-cpi-migration.webp', imageMobile: '/images/homepage/sap-pi-po-to-sap-cpi-migration-mobile.webp' },
+        { link: "https://www.rialtes.com/products/agentchat", alt: "WhatsApp customer interactions embedded in Salesforce using AgentChat for secure and personalized messaging", image: '/images/homepage/whatsapp-salesforce-agentchat.webp', title: "Agentchat", imageMobile: '/images/homepage/whatsapp-salesforce-agentchat-mobile.webp' },
+        { link: "/industry/education-cloud-it-solutions", alt: "Holistic education solutions modernizing academic operations and strengthening connections across institutions", image: '/images/homepage/holistic-education-solutions.webp', title: "Education", imageMobile: '/images/homepage/holistic-education-solutions-mobile.webp' },
     ], [])
     const handlePrevInsights = () => {
         setActiveIndexInsights((prevIndex) =>

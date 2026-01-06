@@ -83,7 +83,7 @@ export default function MyComponent() {
       ); // The first visible item is the active one
 
       const activeIndex =
-        activeItem < 10 ? `0${activeItem}` : activeItem.toString();
+        activeItem < 10 ? `${activeItem}` : activeItem.toString();
 
       const div = document.createElement("div");
       div.classList.add("slide-number");
