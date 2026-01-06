@@ -225,7 +225,18 @@
     ],
     "latestBlogs": [
       {
-        "id": 67,
+        "id": 69,
+        "image": "/images/blog/enterprise-growth-strategy-thumbnail.webp",
+        "category": "Rise with SAP",
+        "industry": "Generic",
+        "date": "Jan. 05, 2026",
+        "url": "/rise-with-sap-erp-transformation-strategy/",
+        "title": "Pourquoi les défis de la transformation ERP poussent les entreprises à repenser leur stratégie",
+        "alt": "Dirigeant d’entreprise sur un chemin symbolisant la croissance de l’entreprise et la transformation numérique",
+        "description": "La modernisation des ERP figure depuis des années à l’agenda des conseils d’administration, pourtant les réussites restent bien moins nombreuses que prévu. Les dirigeants savent que la transformation est nécessaire, mais le parcours devient souvent semé d’embûches."
+      },
+      {
+        "id": 68,
         "image": "/images/blog/strategic-partnership-digital-connection-thumbnail.webp",
         "category": "Conseil SAP",
         "industry": "Générique",
@@ -236,7 +247,7 @@
         "description": "La confiance est le filtre qui détermine qui accède à la liste restreinte. Dans les programmes SAP en entreprise, la crédibilité n’est pas un facteur secondaire. Elle a un impact direct sur le risque, la gouvernance et la valeur à long terme. Dans ce blog, nous nous concentrons sur la manière dont les entreprises évaluent la confiance et la crédibilité des sociétés de conseil SAP lors de la phase de présélection, avant le début de l’évaluation formelle et de la contractualisation."
       },
       {
-        "id": 66,
+        "id": 67,
         "image": "/images/blog/business-growth-journey-thumbnail.webp",
         "category": "Conseil Salesforce",
         "industry": "Générique",
@@ -247,7 +258,7 @@
         "description": "Salesforce s’est imposé comme le CRM de référence pour les entreprises. Pourtant, pour beaucoup d’organisations, il peine encore à devenir un véritable moteur de croissance. L’écart ne vient que rarement des fonctionnalités. Il vient de la stratégie."
       },
       {
-        "id": 68,
+        "id": 66,
         "image": "/images/blog/salesforce-consulting-cluster-2.2_blog-thumb.webp",
         "category": "Conseil Salesforce",
         "industry": "Générique",
@@ -1059,7 +1070,7 @@
       },
       {
         "id": 6,
-      "imgSrc": "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
+        "imgSrc": "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
         "category": "Automobile",
         "date": "Jun. 30, 2025",
         "url": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/",

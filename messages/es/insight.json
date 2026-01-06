@@ -226,7 +226,18 @@
     ],
     "latestBlogs": [
       {
-        "id": 67,
+        "id": 69,
+        "image": "/images/blog/enterprise-growth-strategy-thumbnail.webp",
+        "category": "Rise with SAP",
+        "industry": "Generic",
+        "date": "Jan. 05, 2026",
+        "url": "/rise-with-sap-erp-transformation-strategy/",
+        "title": "Por qué los desafíos de la transformación del ERP están obligando a las empresas a replantear su estrategia",
+        "alt": "Líder empresarial en un camino que simboliza el crecimiento empresarial y la transformación digital",
+        "description": "La modernización del ERP ha estado en la agenda de los consejos directivos durante años, pero los casos de éxito siguen siendo mucho menos frecuentes de lo esperado. Los líderes saben que la transformación es necesaria, pero el camino suele volverse accidentado."
+      },
+      {
+        "id": 68,
         "image": "/images/blog/strategic-partnership-digital-connection-thumbnail.webp",
         "category": "Consultoría SAP",
         "industry": "Genérico",
@@ -237,7 +248,7 @@
         "description": "La confianza es el filtro que determina quién siquiera llega a la lista corta. En los programas SAP empresariales, la credibilidad no es un factor blando. Impacta directamente en el riesgo, la gobernanza y el valor a largo plazo. Con este blog, nos centramos en cómo las empresas evalúan la confianza y la credibilidad de las empresas de consultoría SAP durante la etapa de preselección, antes de que comiencen la evaluación formal y la contratación."
       },
       {
-        "id": 68,
+        "id": 67,
         "image": "/images/blog/business-growth-journey-thumbnail.webp",
         "category": "Consultoría de Salesforce",
         "industry": "Genérico",
@@ -1060,7 +1071,7 @@
       },
       {
         "id": 6,
-      "imgSrc": "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
+        "imgSrc": "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
         "category": "Automotriz",
         "date": "Jun. 30, 2025",
         "url": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/",
