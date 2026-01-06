@@ -32,47 +32,47 @@ const schemaData = {
     ]
 }
 const carouselData = [
-    {
+    { 
         title: "Blogs",
         description:
-            "Redefining the Future of Enterprise AI with SAP Joule",
-        image: "/images/blog/jthumb.webp",
-        link: '/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule'
+            "Enterprises can’t afford disconnected systems anymore; integration is the backbone of true digital transformation",
+        image: "/images/blog/sap-cpi-mobile-banner.webp",
+        link: '/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide'
     },
     {
         title: "Blogs",
         description:
-            "Automate Your Healthcare Organization with athenahealth and Salesforce Integration",
-        image: "/images/blog/blog-88.webp",
-        link: '/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration'
+            "AI in Patient Engagement: How AI Agents Support MedTech in Remote Monitoring",
+        image: "/images/blog/ai-in-patient-mobile-banner.webp",
+        link: '/insights/blogs/ai-patient-engagement-medtech-remote-care'
     },
     {
         title: "Blogs",
         description:
-            "SAP Business Data Cloud: The Intelligent Data Foundation for AI-Driven Business Success",
-        image: "/images/blog/SAP Business cloud_Blog thumb.webp",
-        link: '/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success'
+            "Build and Deploy Your First AI Agent Using Agentforce",
+        image: "/images/blog/first-ai-agent-mob-banner.webp",
+        link: '/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce'
     },
     {
         title: "Blogs",
         description:
-            "How Agentforce Agents Scale ERP Systems with AI ",
-        image: "/images/blog/blog-12.webp",
-        link: '/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai'
+            "Trust is the filter that determines who even makes it onto the shortlist",
+        image: "/images/blog/strategic-partnership-digital-connection-thumbnail.webp",
+        link: '/insights/blogs/what-makes-sap-consulting-companies-trustworthy'
     },
     {
         title: "Blogs",
         description:
-            "How SAP SuccessFactors Enhances Remote Work Management",
-        image: "/images/blog/blog-13.webp",
-        link: '/insights/blogs/how-sap-successfactors-enhances-remote-work-management'
+            "Salesforce has established itself as the enterprise CRM of record",
+        image: "/images/blog/business-growth-journey-thumbnail.webp",
+        link: '/insights/blogs/salesforce-consulting-playbook-enterprise-growth'
     },
     {
         title: "Blogs",
         description:
-            "How Salesforce Agentforce Actually Works",
-        image: "/images/blog/blog-1.webp",
-        link: '/insights/blogs/how-salesforce-agentforce-actually-works'
+            "Salesforce sits at the center of enterprise digital strategy for a reason",
+        image: "/images/blog/salesforce-consulting-cluster-2.2_blog-thumb.webp",
+        link: '/insights/blogs/salesforce-integration-partners-for-enterprises-to-scale'
     },
 ];
 const successStoryData = [
