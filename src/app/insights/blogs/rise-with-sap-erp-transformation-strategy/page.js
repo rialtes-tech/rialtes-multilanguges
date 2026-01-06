@@ -85,7 +85,7 @@ export default function Page() {
     }
     const mainData = [
         "ERP modernization has been on boardroom agendas for years, yet success stories are still far fewer than expected. Leaders know transformation is necessary, but the path often turns bumpy. Gartner reports that 55 percent of ERP projects fail to meet their original business case, while McKinsey notes 70 percent of digital transformation efforts stall or fail to scale beyond pilots. The reasons repeat themselves: legacy technical debt, customizations that lock flexibility, ballooning implementation costs, and a slow crawl toward business value.",
-        "Enterprises are now asking the right questions. \n Not “Should we modernize?” \n But “How do we transform without repeating the mistakes of the last decade?”",
+        "Enterprises are now asking the right questions. <br/> Not “Should we modernize?” <br/> But “How do we transform without repeating the mistakes of the last decade?”",
         "This shift in mindset is prompting organizations to reassess their ERP strategy, move beyond fragmented upgrades, and seek a guided, outcomes-driven approach. That’s exactly where RISE with SAP becomes an inflection point."
     ]
     const faqData = [
@@ -413,6 +413,9 @@ export default function Page() {
                                                 </div>
 
                                             </div>
+                                            <p className="mt-8 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                                dangerouslySetInnerHTML={{ __html: data.desc2 }}
+                                            />
                                         </div>
                                     ))
                                 }
