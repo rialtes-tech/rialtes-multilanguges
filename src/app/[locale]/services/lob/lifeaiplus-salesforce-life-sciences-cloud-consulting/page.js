@@ -19,7 +19,7 @@ export default function page() {
     const RelatedSolutionsSection = () => {
         return (
             <section className={`custom-container lg:mt-[95px] mt-[80px] pb-[59px]`}>
-                <h2 className="leading-tight text-black pr-10 xl:pr-0 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
+                <h2 className="leading-tight text-black pr-10 xl:pr-0 text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">
                     {t('relatedTitle')}
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-16 xl:mt-[45px] mt-[33px] text-black">
@@ -32,10 +32,10 @@ export default function page() {
                                 key={index}
                                 className={`flex flex-col justify-between ${borderRight} ${borderBottom} h-full`}>
                                 <div className="flex-1 flex flex-col">
-                                    <h3 className="text-black font-semibold 4xl:text-[30px] xl:text-[26px] text-[22px] leading-tight">
+                                    <h3 className="text-black font-semibold 4xl:text-[30px] xl:text-[24px] md:text-[20px] text-[18px] leading-tight">
                                         {item.title}
                                     </h3>
-                                    <p className="text-black mt-10 font-normal pr-10 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+                                    <p className="text-black mt-10 font-normal pr-10 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight">
                                         {item.desc}
                                     </p>
                                     <div className={`mt-auto pt-10 ${index === relatedSolutionsData.length - 1 ? 'xl:mt-[37px]' : ''}`}>
@@ -86,7 +86,7 @@ export default function page() {
                     <div className="grid md:grid-cols-12 grid-cols-1 xl:mt-20">
                         <div className="md:col-span-5 4xl:col-span-6 col-span-12 mt-32">
                             <h3 className="text-white xl:text-[24px] text-[18px] font-bold mb-2">{t('headerTitle')}</h3>
-                            <h2 className="text-white leading-tight md:text-[26px] xl:text-[40px] 4xl:text-[60px] mt-5">
+                            <h2 className="text-white leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] mt-5">
                                 {t('headerSubTitle')}
                             </h2>
                         </div>
@@ -99,11 +99,11 @@ export default function page() {
             <section className="mt-16 custom-container">
                 <div className="grid xl:grid-cols-12 grid-cols-1">
                     <div className="xl:col-span-8 2xl:col-span-7 4xl:col-span-9 col-span-12 xl:pr-16">
-                        <h1 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
+                        <h1 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">
                             {t('pageDescTitle')}
                         </h1>
-                        <p className="mt-10 xl:pr-0  text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{t('pageDesc1')}</p>
-                        <p className="mt-5 xl:pr-0  text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{t('pageDesc2')}</p>
+                        <p className="mt-10 xl:pr-0 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight">{t('pageDesc1')}</p>
+                        <p className="mt-5 xl:pr-0  text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight">{t('pageDesc2')}</p>
                     </div>
                     <div className="xl:col-span-2 col-span-12">
                     </div>
@@ -122,15 +122,15 @@ export default function page() {
                 </div>
                 <div className="custom-container max-lg:px-0 text-white relative">
                     <div className="bg-[#0F71BF]  md:p-14 max-md:p-[33px] lg:mt-[-595px] relative">
-                        <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">{t('whatIsLifeTitle')}</h2>
-                        <p className="mt-5 font-normal xl:pr-20 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{t('whatIsLifeDesc')}</p>
-                        <h3 className="text-[22px] xl:text-[30px] 4xl:text-[36px] leading-tight font-semibold mt-5">{t('whatIsLifeSubTitle')}</h3>
+                        <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">{t('whatIsLifeTitle')}</h2>
+                        <p className="mt-5 font-normal xl:pr-20 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight">{t('whatIsLifeDesc')}</p>
+                        <h3 className="4xl:text-[36px] xl:text-[30px] md:text-[20px] text-[18px] leading-tight font-semibold mt-5">{t('whatIsLifeSubTitle')}</h3>
                         <div className="grid lg:grid-cols-12  grid-cols-1 mt-10 lg:gap-10 gap-y-10">
                             {
                                 lifeAiData.map((data, ind) => {
                                     return (
                                         <div className="lg:col-span-4 col-span-12 h-full" key={ind}>
-                                            <p className={`font-bold ${ind == 2 || ind == 5 || ind == 6 ? "" : " lg:border-r-[2px] border-white "}  ${ind == 4 ? "max-lg:pb-8" : "pb-8"} lg:pr-10 text-[17px] xl:text-[19px] 4xl:text-[20px] leading-tight`}>{data}</p>
+                                            <p className={`font-bold ${ind == 2 || ind == 5 || ind == 6 ? "" : " lg:border-r-[2px] border-white "}  ${ind == 4 ? "max-lg:pb-8" : "pb-8"} lg:pr-10 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight`}>{data}</p>
                                             {
                                                 ind !== 6 && <div className="absolute h-[2px] bg-white w-[20%] lg:hidden"></div>
                                             }
@@ -161,8 +161,8 @@ export default function page() {
                     </div>
                     <div className="col-span-6 bg-[#073259] text-white order-2 xl:order-1 pb-20 xl:pb-32">
                         <div className="custom-container xl:pt-16 pt-10 xl:pr-[8rem] mx-[35px] xl:mx-0">
-                            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">{t('whyPartnerTitle')}</h2>
-                            <UnorderedList arrName={whyPartnerData} ulClassName="list-disc leading-tight 4xl:space-y-4 xl:space-y-3 2xl:space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] mt-5 pr-2 xl:pr-0" liClassName="" />
+                            <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">{t('whyPartnerTitle')}</h2>
+                            <UnorderedList arrName={whyPartnerData} ulClassName="list-disc leading-tight 4xl:space-y-4 xl:space-y-3 2xl:space-y-3 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] mt-5 pr-2 xl:pr-0" liClassName="" />
                             <div className="mt-5 absolute">
                                 <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale}/>
                             </div>
@@ -198,8 +198,8 @@ export default function page() {
                 <div className="custom-container xl:pr-0">
                     <div className="grid xl:grid-cols-12 grid-cols-1 md:gap-[10px] xl:gap-[50px] bg-[#0690C9] text-white mt-[-100px] relative custom-container 4xl:px-[90px] py-[20px]">
                         <div className="xl:col-span-6 col-span-12 pt-[20px] xl:pr-[100px]">
-                            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">{t('deepExpertiseTitle')}</h2>
-                            <p className="mt-5 font-normal text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+                            <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">{t('deepExpertiseTitle')}</h2>
+                            <p className="mt-5 font-normal text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight">
                                 {t('deepExpertiseDesc')}
                             </p>
                             <div className=" absolute bottom-[75px] xl:block hidden">
@@ -207,10 +207,10 @@ export default function page() {
                             </div>
                         </div>
                         <div className="xl:col-span-6 col-span-12 xl:mt-10 mt-5">
-                            <h3 className="text-[22px] xl:text-[25px] 4xl:text-[36px] font-semibold leading-tight xl:pr-16">
+                            <h3 className="4xl:text-[36px] xl:text-[30px] md:text-[20px] text-[18px] font-semibold leading-tight xl:pr-16">
                                 {t('keySalesforceTitle')}
                             </h3>
-                            <UnorderedList arrName={deepData} ulClassName="list-disc leading-tight xl:space-y-4 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] mt-5 lg:pr-4" liClassName="" />
+                            <UnorderedList arrName={deepData} ulClassName="list-disc leading-tight xl:space-y-4 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] mt-5 lg:pr-4" liClassName="" />
                             <div className="mt-12 xl:hidden block pb-[20px]">
                                 <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale}/>
                             </div>
@@ -237,25 +237,25 @@ export default function page() {
                     </div>
                     {/* Content Second on Mobile, First on Desktop */}
                     <div className="xl:col-span-6 order-2 xl:order-1">
-                        <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  xl:w-[81%] 4xl:w-[100%]">{t('howRialtesTitle')}</h2>
-                        <p className="mt-5  xl:pr-0 font-normal text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+                        <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]  xl:w-[81%] 4xl:w-[100%]">{t('howRialtesTitle')}</h2>
+                        <p className="mt-5  xl:pr-0 font-normal text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight">
                             {t('howRialtesDesc')}
                         </p>
-                        <UnorderedList arrName={howRialtesData} ulClassName="list-disc xl:space-y-4 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight mt-6" liClassName="" />
+                        <UnorderedList arrName={howRialtesData} ulClassName="list-disc xl:space-y-4 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight mt-6" liClassName="" />
                     </div>
                 </div>
             </section>
             {/* Specialized Expertise for the Future section */}
             <section className="mt-[80px] sm:mt-[90px] md:mt-[95px] bg-[#EDEDED] pb-30">
                 <div className="custom-container relative bottom-[-60px]">
-                    <h2 className=" pb-6 leading-tight xl:pt-[30px] xl:pb-0 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[65%] 2xl:w-[60%] 4xl:w-[83%]">{t('specializedTitle')}</h2>
+                    <h2 className=" pb-6 leading-tight xl:pt-[30px] xl:pb-0 text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] xl:w-[65%] 2xl:w-[60%] 4xl:w-[83%]">{t('specializedTitle')}</h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-12 xl:mt-16">
                         {featureBoxes.map((feature, index) => (
                             <div
                                 key={index}
                                 className="bg-white border hover:border-[#EDEDED] border-gray-300 hover:bg-[#D9F2FF] p-12 flex flex-col h-full">
                                 <div className="flex flex-col items-start mb-4">
-                                    <h3 className="text-[#0A6BB8] mt-2 leading-tight 4xl:text-[30px] xl:text-[25px] md:text-[20px]   font-semibold">{feature.title}</h3>
+                                    <h3 className="text-[#0A6BB8] mt-2 leading-tight 4xl:text-[30px] xl:text-[24px] md:text-[20px] text-[18px]  font-semibold">{feature.title}</h3>
                                 </div>
                                 <p className="mt-2 text-[16px] xl:text-[18px] 4xl:text-[24px] leading-tight">{feature.description}</p>
                             </div>
@@ -290,12 +290,12 @@ export default function page() {
                 <div className="custom-container">
                     <div className="grid xl:grid-cols-12 grid-cols-1 bg-[#A16B5D] text-white xl:pb-16 pb-8 sticky xl:mt-[-100px] pr-3">
                         <div className="col-span-6 xl:pl-20 xl:pt-20 pl-10 pt-10">
-                            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">{t('priorMgmtTitle')}</h2>
-                            <h3 className="4xl:text-[42px] xl:text-[30px] text-[20px] mt-5 font-semibold leading-tight">{t('priorMgmtSubTitle')}</h3>
-                            <p className="mt-5 font-normal pr-10 xl:pr-0 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{t('priorMgmtDesc')}</p>
+                            <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">{t('priorMgmtTitle')}</h2>
+                            <h3 className="text-[20px] md:text-[26px] xl:text-[36px] 4xl:text-[42px] mt-5 font-semibold leading-tight">{t('priorMgmtSubTitle')}</h3>
+                            <p className="mt-5 font-normal pr-10 xl:pr-0 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight">{t('priorMgmtDesc')}</p>
                         </div>
                         <div className="col-span-6  xl:p-16 p-8">
-                            <UnorderedList arrName={priorData} ulClassName="list-disc leading-tight xl:space-y-4 space-y-2 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-10 xl:pr-14 pr-0" liClassName="" />
+                            <UnorderedList arrName={priorData} ulClassName="list-disc leading-tight xl:space-y-4 space-y-2 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] xl:mt-10 xl:pr-14 pr-0" liClassName="" />
                             <div className="xl:mt-10 mt-5">
                                 <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale}/>
                             </div>
@@ -341,10 +341,10 @@ export default function page() {
                     <div className="relative p-8 4xl:w-[907px] xl:w-[725px] h-full mt-[17rem] xl:mt-0 pb-10">
                         <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
                         <div className="relative bg-opacity-80 text-white z-10 xl:p-10 xl:pl-24 rounded-lg">
-                            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">{t('aiDrivenTitle')}</h2>
-                            <p className='mt-5 font-normal text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight'>{t('aiDrivenDesc1')}</p>
-                            <UnorderedList arrName={aiDrivenData} ulClassName="list-disc leading-tight xl:space-y-8 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] mt-5 xl:pr-0 pr-5" liClassName="" />
-                            <p className="mt-8 font-normal leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]">{t('aiDrivenDesc2')}</p>
+                            <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">{t('aiDrivenTitle')}</h2>
+                            <p className='mt-5 font-normal text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight'>{t('aiDrivenDesc1')}</p>
+                            <UnorderedList arrName={aiDrivenData} ulClassName="list-disc leading-tight xl:space-y-8 font-normal marker:font-bold marker:text-2xl pl-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] mt-5 xl:pr-0 pr-5" liClassName="" />
+                            <p className="mt-8 font-normal leading-tight text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]">{t('aiDrivenDesc2')}</p>
                         </div>
                     </div>
                 </div>
@@ -353,7 +353,7 @@ export default function page() {
             <RelatedSolutionsSection />
             {/* contact form */}
             <div className="custom-container text-black py-16">
-                <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} subtitle1={t('contactSubTitle2')} className={"xl:max-w-[72%] leading-tight font-normal 4xl:text-[56px] xl:text-[40px] text-[26px] "} />
+                <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} subtitle1={t('contactSubTitle2')} className={"xl:max-w-[72%] leading-tight font-normal text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[56px]"} />
             </div>
         </div >
     );

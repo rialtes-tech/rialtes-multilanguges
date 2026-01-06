@@ -60,10 +60,10 @@ export default function Page() {
               <h3 className="text-white text-[20px] xl:text-[24px] font-bold mb-2 break-words">
                 {t('headerTitle')}
               </h3>
-              <h2 className={`text-white leading-tight break-words 4xl:text-[60px] xl:text-[40px] ${frActive || esActive ? "text-[24px] sm:w-[70%] md:w-[70%] lg:w-[80%]" : "text-[26px]"}  xl:w-[81%] 2xl:w-[73%] 4xl:w-[100%]`}>
+              <h2 className={`text-white leading-tight break-words text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] ${frActive || esActive ? "text-[24px] sm:w-[70%] md:w-[70%] lg:w-[80%]" : "text-[26px]"}  xl:w-[81%] 2xl:w-[73%] 4xl:w-[100%]`}>
                 {t('headerSubTitle')}
               </h2>
-              <h3 className={`mt-4 md:mt-8 text-[18px] xl:text-[23px] 4xl:text-[35px] text-white font-medium leading-tight xl:font-semibold max-w-full break-words ${frActive || esActive ? "pr-10 sm:w-[70%]  md:w-[50%] lg:w-[80%] xl:pr-24" : "pr-24"}`}>
+              <h3 className={`mt-4 md:mt-8 4xl:text-[35px] text-[18px] xl:text-[30px] md:text-[20px] text-white font-medium leading-tight xl:font-semibold max-w-full break-words ${frActive || esActive ? "pr-10 sm:w-[70%]  md:w-[50%] lg:w-[80%] xl:pr-24" : "pr-24"}`}>
                 {t('headerSubTitle2')}
               </h3>
               <div className="md:w-32 w-20 pt-6 mt-2">
@@ -88,11 +88,11 @@ export default function Page() {
       <section className="mt-16 custom-container">
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="4xl:col-span-10 xl:col-span-9 col-span-12">
-            <h1 className="leading-tight 4xl:text-[56px] xl:text-[40px] md:text-[26px] xl:mb-8 xl:w-[90%] 2xl:w-[80%] 4xl:w-[100%]">
+            <h1 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] xl:mb-8 xl:w-[90%] 2xl:w-[80%] 4xl:w-[100%]">
               {t('pageDescTitle')}
             </h1>
-            <p className="text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight mt-5">{t('pageDesc1')}  </p>
-            <p className="text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight mt-5">{t('pageDesc2')} </p>
+            <p className="4xl:text-[22px] md:text-[18px] text-[16px] leading-tight mt-5">{t('pageDesc1')}  </p>
+            <p className="text-[16px] md:text-[18px] 4xl:text-[22px] leading-tight mt-5">{t('pageDesc2')} </p>
           </div>
           <div className="xl:col-span-4 col-span-12">
           </div>
@@ -114,7 +114,7 @@ export default function Page() {
                   sizes="100vw"
                   priority
                 />
-                <p className="4xl:text-[26px] xl:text-[22px] text-[20px] leading-tight font-medium">{service.text}</p>
+                <p className="4xl:text-[26px] xl:text-[20px] text-[18px] leading-tight font-medium">{service.text}</p>
               </div>
             ))}
           </div>
@@ -147,8 +147,8 @@ export default function Page() {
           <div>
           </div>
           <div className="xl:grid xl:grid-cols-12 grid-cols-1 relative  xl:mt-0 mt-[30rem]">
-            <div className="xl:col-span-4 col-span-12 xl:pl-16 pl-8 text-white pr-22  xl:pr-0">
-              <h2 className="xl:mt-20  leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
+            <div className="xl:col-span-5 col-span-12 xl:pl-16 px-8 text-white">
+              <h2 className="xl:mt-20  leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">
                 {t('growWithSapTitle')}
               </h2>
             </div>
@@ -157,9 +157,9 @@ export default function Page() {
           </div>
           <div className="xl:grid xl:grid-cols-12 grid-cols-1 relative xl:pl-16 px-[35px] ">
             <div className="xl:col-span-5 col-span-12 text-white">
-              <p className="mt-10 font-normal text-[16px] xl:text-[20px] 4xl:text-[22px] leading-tight">{t('growWithSapTitleDesc')} </p>
-              <h3 className="mt-10  4xl:text-[30px] xl:text-[22px] text-[20px] leading-tight xl:font-bold  font-medium">{t('growWithSapSubTitle')}</h3>
-              <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-light">
+              <p className="mt-10 font-normal 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight">{t('growWithSapTitleDesc')} </p>
+              <h3 className="mt-10  4xl:text-[30px] xl:text-[24px] md:text-[20px] text-[18px] leading-tight xl:font-bold  font-medium">{t('growWithSapSubTitle')}</h3>
+              <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight font-light">
                 {benefits.map((item, index) => (
                   <li key={index} className={index === 0 ? "mt-4" : ""}>
                     <span className="font-bold">{item.bold}</span>{item.text}
@@ -197,19 +197,19 @@ export default function Page() {
           className="h-full relative custom-container">
           <div className="grid xl:grid-cols-12 grid-cols-1 text-white backdrop-blur-md bg-black/30 p-5 ">
             <div className="xl:col-span-8 col-span-12">
-              <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[26px]  mt-16 leading-tight xl:pr-20">
+              <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] mt-16 leading-tight xl:pr-20">
                 {t('sapBusinessTitle')}
               </h2>
-              <h3 className="mt-5 4xl:text-[40px] xl:text-[30px] text-[22px]">{t('sapBusinessSubTitle')} </h3>
+              <h3 className="mt-5 4xl:text-[40px] xl:text-[36px] md:text-[26px] text-[22px]">{t('sapBusinessSubTitle')} </h3>
             </div>
-            <div className="xl:col-span-4 col-span-12 xl:mt-16 mt-5 pr-20">
-              <p className="xl:text-[22px] text-[16px] font-medium">{t('sapBusinessDesc')}</p>
+            <div className="xl:col-span-4 col-span-12 xl:mt-16 mt-5 xl:pr-20">
+              <p className="4xl:text-[22px] md:text-[18px] text-[16px] font-medium">{t('sapBusinessDesc')}</p>
             </div>
           </div>
-          <div className="grid xl:grid-cols-12 grid-cols-1 text-white xl:pt-10 pt-16 xl:pb-20 xl:pr-10 xl:pl-20 backdrop-blur-md bg-black/30 p-5">
+          <div className="grid xl:grid-cols-12 grid-cols-1 text-white xl:pt-10  xl:pb-20 xl:pr-10 xl:pl-20 backdrop-blur-md bg-black/30 p-5">
             <div className="xl:col-span-5 col-span-12">
-              <h3 className="4xl:text-[30px] xl:text-[24px] text-[22px] leading-tight xl:font-bold font-medium pr-10">{t('benefitsTitle')} </h3>
-              <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight xl:mt-10 mt-3">
+              <h3 className="4xl:text-[30px] xl:text-[24px] md:text-[20px] text-[18px] leading-tight xl:font-bold font-medium pr-10">{t('benefitsTitle')} </h3>
+              <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight xl:mt-10 mt-3">
                 {sapBenefits.map((item, index) => (
                   <li key={index}>
                     <span className="font-bold">{item.bold} </span>{item.text}
@@ -219,9 +219,9 @@ export default function Page() {
             </div>
             <div className="xl:col-span-1 col-span-12">
             </div>
-            <div className="xl:col-span-5 col-span-12 mt-20 xl:mt-0">
-              <h3 className="4xl:text-[30px] xl:text-[24px] text-[22px] leading-tight font-bold">{t('rialtesSapMigratingTitle')}</h3>
-              <UnorderedList arrName={rialtesSapData} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight " />
+            <div className="xl:col-span-5 col-span-12 mt-10 xl:mt-0">
+              <h3 className="4xl:text-[30px] xl:text-[24px] md:text-[20px] text-[18px] leading-tight font-bold">{t('rialtesSapMigratingTitle')}</h3>
+              <UnorderedList arrName={rialtesSapData} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3" liClassName="text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight " />
               <div className="xl:mt-3">
                 <LearnMore btnName={t('learnMoreBtn')} textColor="#134874" bgcolor="#ffffff" locale={locale} />
               </div>
@@ -233,14 +233,14 @@ export default function Page() {
       <section className="custom-container text-black py-20 pt-16">
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-8 col-span-12 xl:w-[90%] 4xl:w-[100%]">
-            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
+            <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">
               {t('rialtesSapTitle')}
             </h2>
-            <h3 className="4xl:text-[40px] xl:text-[30px] text-[22px] mt-5">{t('rialtesSapSubTitle')} </h3>
+            <h3 className="4xl:text-[40px] xl:text-[36px] md:text-[26px] text-[22px] mt-5">{t('rialtesSapSubTitle')} </h3>
           </div>
           <div className="xl:col-span-4 col-span-12 mt-5 xl:mt-0 font-normal ">
-            <p className="4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight">{t('rialtesSapDesc')} </p>
-            <p className="mt-5 4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight">{t('rialtesSapDesc2')} </p>
+            <p className="4xl:text-[22px] md:text-[18px] text-[16px] leading-tight">{t('rialtesSapDesc')} </p>
+            <p className="mt-5 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight">{t('rialtesSapDesc2')} </p>
           </div>
         </div>
       </section>
@@ -251,8 +251,8 @@ export default function Page() {
           <table className="w-full border-collapse">
             <thead>
               <tr className="bg-[#D0EEFF] text-left">
-                <th className="p-4 pl-10 4xl:text-[30px] xl:text-[24px] text-[16px] leading-tight font-medium">{t('keyPhasesTableTitle1')} </th>
-                <th className="p-4 xl:pl-32 px-20 4xl:text-[30px] xl:text-[24px] text-[16px] leading-tight font-medium">{t('keyPhasesTableTitle2')}</th>
+                <th className="p-4 pl-10 4xl:text-[30px] xl:text-[24px] md:text-[20px] text-[18px] leading-tight font-medium">{t('keyPhasesTableTitle1')} </th>
+                <th className="p-4 xl:pl-32 px-20 4xl:text-[30px] xl:text-[24px] md:text-[20px] text-[18px] leading-tight font-medium">{t('keyPhasesTableTitle2')}</th>
               </tr>
             </thead>
             <tbody className="mt-3">
@@ -297,7 +297,7 @@ export default function Page() {
           <div className="relative  xl:mt-0 z-10 h-full custom-container">
             <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-20">
               <div className="4xl:col-span-7 xl:col-span-6  col-span-12 pb-10">
-                <h2 className="text-white max-md:mt-[390px] mt-16 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
+                <h2 className="text-white max-md:mt-[390px] mt-16 leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">
                   {t('expandingTitle')}
                 </h2>
               </div>
@@ -310,10 +310,10 @@ export default function Page() {
               <div
                 key={index}
                 className="flex-1 p-8 bg-white hover:bg-[#D9F2FF] text-black border-[3px] transition duration-300">
-                <h3 className="text-[22px] xl:text-[30px] font-semibold leading-tight">
+                <h3 className="md:text-[20px] text-[18px] xl:text-[24px] 4xl:text-[30px] font-semibold leading-tight">
                   {card.title}
                 </h3>
-                <p className="text-[16px] xl:text-[20px] mt-5 font-normal leading-tight">
+                <p className="text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] mt-5 font-normal leading-tight">
                   {card.description}
                 </p>
               </div>
@@ -325,11 +325,11 @@ export default function Page() {
       <section className="xl:mt-24 mt-16 h-full relative custom-container">
         <div className="grid grid-cols-12">
           <div className="xl:col-span-10 col-span-12">
-            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[78%] 4xl:w-[100%]">{t('sapCpiTitle')} </h2>
+            <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] xl:w-[78%] 4xl:w-[100%]">{t('sapCpiTitle')} </h2>
             <div className="grid xl:grid-cols-12 grid-cols-1 pt-10 xl:pb-32 pb-10 xl:gap-20">
               <div className="xl:col-span-6 col-span-12">
-                <h3 className="4xl:text-[30px] xl:text-[24px] text-[21px]  xl:font-semibold font-medium  leading-tight">{t('sapCpiSubTitle')} </h3>
-                <ul className="list-disc space-y-5 marker:font-bold marker:text-[#036CBC] marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-10 mt-5 leading-tight">
+                <h3 className="4xl:text-[30px] xl:text-[24px] md:text-[20px] text-[18px]  xl:font-semibold font-medium  leading-tight">{t('sapCpiSubTitle')} </h3>
+                <ul className="list-disc space-y-5 marker:font-bold marker:text-[#036CBC] marker:text-2xl pl-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] xl:mt-10 mt-5 leading-tight">
                   {sapIntegrationPoints.map((item, index) => (
                     <li key={index}>
                       <span className="font-bold">{item.bold}</span>
@@ -339,9 +339,9 @@ export default function Page() {
                 </ul>
               </div>
               <div className="xl:col-span-6 col-span-12 mt-16 xl:mt-0">
-                <h3 className="4xl:text-[30px] xl:text-[24px] text-[21px] xl:font-semibold font-medium leading-tight">{t('sapBtpTitle')} </h3>
-                <p className="xl:mt-10 mt-5 font-normal text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{t('sapBtpDesc')}</p>
-                <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-[#036CBC] marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-10 mt-5">
+                <h3 className="4xl:text-[30px] xl:text-[24px] md:text-[20px] text-[18px] xl:font-semibold font-medium leading-tight">{t('sapBtpTitle')} </h3>
+                <p className="xl:mt-10 mt-5 font-normal text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight">{t('sapBtpDesc')}</p>
+                <ul className="list-disc xl:space-y-5 marker:font-bold marker:text-[#036CBC] marker:text-2xl pl-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] xl:mt-10 mt-5">
                   {sapInnovationList.map((item, index) => (
                     <li key={index}>
                       <span className="font-bold">{item}</span>
@@ -370,7 +370,7 @@ export default function Page() {
             />
             <div className="grid xl:grid-cols-12 grid-cols-1 absolute xl:left-10">
               <div className="xl:col-span-7 col-span-12">
-                <h2 className="text-black xl:mt-[-30px] mt-[23rem] bg-white xl:bg-transparent pl-8 p-10 xl:p-0 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">{t('conversationalTitle')} </h2>
+                <h2 className="text-black xl:mt-[-30px] mt-[23rem] bg-white xl:bg-transparent pl-8 p-10 xl:p-0 leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">{t('conversationalTitle')} </h2>
               </div>
               <div className="xl:col-span-6 col-span-12">
               </div>
@@ -378,14 +378,14 @@ export default function Page() {
           </div>
           <div className={`grid xl:grid-cols-12 grid-cols-1 text-white xl:gap-20 gap-y-10 mt-80 md:mt-14 xl:mt-0 ${frActive || esActive ? "max-[360px]:mt-[400px] mt-[320px] sm:mt-[260px] md:mt-[250px] lg:mt-[200px] xl:mt-0" : "max-[366px]:mt-[360px] mt-[290px] sm:mt-[220px] md:mt-[230px] lg:mt-[200px] xl:mt-0"}`}>
             <div className="xl:col-span-5 col-span-12">
-              <h2 className="4xl:text-[40px] xl:text-[28px] text-[20px] leading-tight xl:font-semibold font-bold">{t('meetTitle')} </h2>
-              <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] mt-5 font-normal leading-tight">
+              <h2 className="4xl:text-[40px] xl:text-[36px] md:text-[26px] text-[22px] leading-tight xl:font-semibold font-bold">{t('meetTitle')} </h2>
+              <p className="text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] mt-5 font-normal leading-tight">
                 {t('rialchatTitle')}</p>
               <LearnMore btnName={t('knowMoreBtn')} href='/products/agentchat' textColor="#134874" bgcolor="#ffffff" locale={locale} />
             </div>
             <div className="xl:col-span-7 col-span-12 xl:pr-20 ">
-              <h3 className="4xl:text-[30px] xl:text-[24px] text-[18px] leading-tight font-semibold">{t('conversationalBenefitsTitle')}</h3>
-              <ul className="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl xl:pr-16 leading-tight">
+              <h3 className="4xl:text-[30px] xl:text-[24px] md:text-[20px] text-[18px] leading-tight font-semibold">{t('conversationalBenefitsTitle')}</h3>
+              <ul className="list-disc xl:space-y-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl xl:pr-16 leading-tight">
                 {featureHighlights.map((item, index) => (
                   <li key={index} className={index === 0 ? "mt-5" : ""}>
                     <span className="font-bold">{item.bold} </span>{item.text}
@@ -397,13 +397,14 @@ export default function Page() {
         </div>
       </section>
       {/* future proofing section */}
-      <section className="xl:py-20 pt-16 pb-10 xl:mt-10">
+      <section className="xl:py-20 pt-16 xl:pb-10 xl:mt-10">
         <div className="h-full relative custom-container">
           <div className="grid xl:grid-cols-12 grid-cols-1">
             <div className="xl:col-span-5 col-span-12 relative group overflow-hidden h-[383px] xl:h-full">
               <Image
                 src="/images/services/grow-with-sap/digital-human-face-artificial-intelligence.webp"
                 alt={t('futureAlt')}
+                style={{ objectFit: "cover" }}
                 fill
                 priority
                 className=" transform transition-transform duration-500 group-hover:scale-110 xl:!h-[563px] xl:!w-[532px]"
@@ -412,16 +413,16 @@ export default function Page() {
             <div className="xl:col-span-1 col-span-12">
             </div>
             <div className="xl:col-span-6 col-span-12 text-black mt-8 xl:mt-0">
-              <h2 className="leading-tight 4xl:text-[56px] xl:text-[43px] md:text-[26px]">{t('futureProofingTitle')} </h2>
-              <p className="mt-5 xl:text-[22px] text-[16px] leading-tight">{t('futureProofingDesc')} </p>
-              <UnorderedList arrName={futureProofingData} ulClassName="list-disc xl:space-y-5 marker:text-[#036CBC] marker:font-bold marker:text-2xl pl-5  font-semibold mt-10" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+              <h2 className="leading-tight 4xl:text-[56px] text-[26px] md:text-[30px] xl:text-[40px]">{t('futureProofingTitle')} </h2>
+              <p className="mt-5 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight">{t('futureProofingDesc')} </p>
+              <UnorderedList arrName={futureProofingData} ulClassName="list-disc xl:space-y-5 marker:text-[#036CBC] marker:font-bold marker:text-2xl pl-5  font-semibold mt-10" liClassName="text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]"/>
             </div>
           </div>
         </div>
       </section>
       {/* contact form */}
       <section className="custom-container text-black py-16">
-        <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} className={"leading-tight max-w-[76%] 4xl:text-[60px] xl:text-[40px] md:text-[26px] "} />
+        <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} className={"leading-tight  text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]"} />
       </section>
     </div >
   );
