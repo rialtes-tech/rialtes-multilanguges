@@ -11,7 +11,6 @@ import frContent from '../../../../../messages/fr/products.json';
 import { changeLocalization } from "../../components/changeLocalization";
 import LearnMore from "../../components/learnMore";
 
-
 export default function Page() {
     const t = useTranslations("mediaina");
     const locale = useLocale();
@@ -52,7 +51,7 @@ export default function Page() {
                 <div className="relative custom-container 4xl:pb-20">
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 mt-20 mx-auto">
                         <div className="xl:col-span-7 col-span-12 pr-5 4xl:pr-[6rem]">
-                            <h1 className="text-white  leading-tight break-words 4xl:text-[60px] md:text-[32px]  xl:text-[40px] 2xl:text-[48px] 4xl:pr-0 md:pr-40 pr-10">
+                            <h1 className="text-white  leading-tight break-words text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] 4xl:pr-0 md:pr-40 pr-10">
                                 <span className="text-white text-[20px] xl:text-[24px] font-bold mb-2 break-words">{t('headerTitle')}</span>  <br>
                                 </br>
                                 <div className="pt-5">{t('headerSubTitle')}<br></br>{t('headerSubTitle2')} </div>
@@ -70,10 +69,10 @@ export default function Page() {
                     <div>
                         <div className="xl:grid xl:grid-cols-12 grid-cols-1 xl:mt-10 xl:gap-16 4xl:gap-10 flex flex-col-reverse">
                             <div className="xl:col-span-8 col-span-12">
-                                <p className="leading-tight font-normal 4xl:pr-20">
+                                <p className="leading-tight font-normal 4xl:pr-20 text-[16px] 4xl:text-[20px]">
                                     {t('pageDesc')}
                                 </p>
-                                <p className="mt-5 font-normal 4xl:pr-32 leading-tight">{t('pageDesc2')}</p>
+                                <p className="mt-5 font-normal 4xl:pr-32 leading-tight text-[16px] 4xl:text-[20px]">{t('pageDesc2')}</p>
                             </div>
                             <div className="xl:col-span-4 col-span-12">
                                 <Image
@@ -93,18 +92,18 @@ export default function Page() {
             <section>
                 <div className="custom-container mx-auto grid  4xl:grid-cols-[620px,991px] xl:mt-[-85px] 2xl:mt-[-100px] 2xl:grid-cols-[530px,842px] xl:grid-cols-[465px,710px]  grid-cols-1  gap-0 items-center 4xl:pr-0 2xl:pr-0 xl:pr-0  4xl:mt-0 mt-10">
                     {/* Left Side - Text Card */}
-                    <div className="bg-[#05ACA6] text-white p-12 z-10 relative order-2 xl:order-1 2xl:mt-[120px] 4xl:mt-0 xl:mt-[80px]">
-                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] leading-tight md:text-[23px]">{t('visionTitle')}</h2>
-                        <h3 className="4xl:text-[36px] xl:text-[30px] font-semibold mt-4 leading-tight">
+                    <div className="bg-[#05ACA6] text-white p-12 z-10 relative order-2 xl:order-1 2xl:mt-[-40px] 4xl:mt-0 xl:mt-[-45px]">
+                        <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] leading-tight">{t('visionTitle')}</h2>
+                        <h3 className="4xl:text-[36px] text-[20px] xl:text-[30px] md:text-[20px] font-semibold mt-4 leading-tight">
                             {t('visionSubTitle')}
                         </h3>
-                        <p className="mt-6 leading-tight font-light">
+                        <p className="mt-6 leading-tight font-light text-[16px] xl:text-[16px] md:text-[18px] 4xl:text-[20px]">
                             {t('visionDesc')}
                         </p>
 
                         <div className="mt-10 space-y-4 pb-20">
-                            <p className="font-bold 4xl:text-[20px]">{t('benefitsTitle')}</p>
-                            <UnorderedList arrName={rialtesBenefits} ulClassName="list-disc pl-6 space-y-8 4xl:text-[20px] leading-tight 4xl:pr-8" liClassName="" />
+                            <p className="font-bold text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]">{t('benefitsTitle')}</p>
+                            <UnorderedList arrName={rialtesBenefits} ulClassName="list-disc pl-6 space-y-8 text-[16px] xl:text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight 4xl:pr-8" liClassName="" />
                         </div>
                         <div className="absolute bottom-0">
                             <LearnMore href="/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/" locale={locale} btnName={t('khownMoreBtn')} />
@@ -143,43 +142,35 @@ export default function Page() {
                         ind % 2 == 0 ?
                             <section className="custom-container xl:pl-0 max-xl:px-0 relative lg:!pr-[0px] xl:!pr-[80px] 4xl:!pr-[140px] mt-[103px] xl:mt-[21px]" key={ind}>
                                 <div className="grid xl:grid-cols-12 grid-cols-1 relative xl:gap-[40px] items-stretch">
-                                    <div className={`4xl:col-span-9 xl:col-span-8 col-span-1 
-       xl:pt-[81px] md:pt-[360px] max-[400px]:pt-[180px] pt-[220px] sm:pt-[240px] 
-        custom-container xl:!pr-[20px] xl:order-1 order-2 xl:mt-0 max-[400px]:mt-[-140px] mt-[-180px] sm:mt-[-200px] md:mt-[-300px] 
-        relative z-10 xl:mb-[60px] 2xl:mb-[100px] 4xl:mb-[80px] 
-        
-
-          ${locale === "es"
+                                    <div className={`4xl:col-span-9 xl:col-span-8 col-span-1 xl:pt-[81px] md:pt-[360px] max-[400px]:pt-[180px] pt-[220px] sm:pt-[240px] custom-container xl:!pr-[20px] xl:order-1 order-2 xl:mt-0 max-[400px]:mt-[-140px] mt-[-180px] sm:mt-[-200px] md:mt-[-300px] relative z-10 xl:mb-[60px] 2xl:mb-[100px] 4xl:mb-[80px] ${locale === "es"
                                             ? "4xl:pb-[120px] 2xl:pb-[120px] xl:pb-[80px]"
                                             : locale === "fr"
                                                 ? "4xl:pb-[100px] 2xl:pb-[120px] xl:pb-[80px]"
                                                 : ""
                                         }`}
-
-
                                         style={{
                                             backgroundColor: data.bgColor ? data.bgColor : 'transparent'
                                         }}>
 
-                                        <h2 className={`4xl:text-[52px] xl:text-[40px] 2xl:text-[48px] text-[26px] leading-tight max-lg:w-[90%] ${ind == 4 || ind == 8 ? "xl:w-[90%]" : " xl:w-[70%]"} ${ind == 10 && "xl:w-[90%]"}`}>
+                                        <h2 className={`4xl:text-[52px] text-[26px] md:text-[30px] xl:text-[40px] leading-tight max-lg:w-[90%] ${ind == 4 || ind == 8 ? "xl:w-[90%]" : " xl:w-[70%]"} ${ind == 10 && "xl:w-[90%]"}`}>
                                             {data.title}
                                         </h2>
-                                        <p className="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight mt-[15px] xl:mt-[18px] font-normal xl:w-[80%] 4xl:w-[76%]">
+                                        <p className="text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight mt-[15px] xl:mt-[18px] font-normal xl:w-[80%] 4xl:w-[76%]">
                                             {data.desc}
                                         </p>
 
                                         <div className="grid xl:grid-cols-2 grid-cols-1 mt-[31px] xl:mt-[43px] xl:gap-[40px] xl:pr-[110px] 4xl:pr-[160px] gap-y-[36px] max-xl:mb-[36px] 4xl:w-[96%]">
                                             <div>
-                                                <h3 className="text-[#006FBE] font-bold 4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight">
+                                                <h3 className="text-[#006FBE] font-bold 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight">
                                                     {t('benefitsTitle')}
                                                 </h3>
-                                                <UnorderedList arrName={data.benefitList} ulClassName="list-disc pl-5 space-y-[14px] xl:space-y-[18px] 4xl:text-[20px] xl:text-[18px] text-[16px] mt-[12px] xl:mt-[19px]" liClassName="" />
+                                                <UnorderedList arrName={data.benefitList} ulClassName="list-disc pl-5 space-y-[14px] xl:space-y-[18px] text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] mt-[12px] xl:mt-[19px]" liClassName="" />
                                             </div>
                                             <div>
-                                                <h3 className="text-[#006FBE] font-bold 4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight">
+                                                <h3 className="text-[#006FBE] font-bold 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight">
                                                     {t('OutcomesTitle')}
                                                 </h3>
-                                                <UnorderedList arrName={data.outcomeList} ulClassName="list-disc pl-5 space-y-[14px] xl:space-y-[18px] 4xl:text-[20px] xl:text-[18px] text-[16px] mt-[12px] xl:mt-[19px]" liClassName="" />
+                                                <UnorderedList arrName={data.outcomeList} ulClassName="list-disc pl-5 space-y-[14px] xl:space-y-[18px] text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] mt-[12px] xl:mt-[19px]" liClassName="" />
                                             </div>
                                         </div>
 
@@ -245,44 +236,36 @@ export default function Page() {
                                         </div>
                                     </div>
 
-                                    <div
-                                        className={`4xl:col-span-9 xl:col-span-8 col-span-1 
-xl:pt-[81px] md:pt-[360px] max-[400px]:pt-[180px] pt-[220px] sm:pt-[240px] 
-        custom-container xl:order-2 order-2 xl:mt-0 max-[400px]:mt-[-140px] mt-[-180px] sm:mt-[-200px] md:mt-[-300px] 
-        relative z-10 xl:mb-[60px] 2xl:mb-[100px] 4xl:mb-[80px] xl:pl-[120px] 4xl:pl-[220px] xl:!pr-[60px] 4xl:!pr-[140px]
-        `} style={{
-                                            backgroundColor: data.bgColor ? data.bgColor : 'transparent'
-                                        }}>
+                                    <div className={`4xl:col-span-9 xl:col-span-8 col-span-1 xl:pt-[81px] md:pt-[360px] max-[400px]:pt-[180px] pt-[220px] sm:pt-[240px] custom-container xl:order-2 order-2 xl:mt-0 max-[400px]:mt-[-140px] mt-[-180px] sm:mt-[-200px] md:mt-[-300px] relative z-10 xl:mb-[60px] 2xl:mb-[100px] 4xl:mb-[80px] xl:pl-[120px] 4xl:pl-[220px] xl:!pr-[60px] 4xl:!pr-[140px]`} style={{ backgroundColor: data.bgColor ? data.bgColor : 'transparent'}}>
                                         <h2 className={`4xl:text-[58px] xl:text-[40px] 2xl:text-[48px] text-[26px] leading-tight max-lg:w-[90%] ${ind == 9 ? "4xl:w-[90%]" : "4xl:w-[80%]"}`}>
                                             {data.title}
                                         </h2>
-                                        <p className="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight mt-[15px] xl:mt-[18px] font-normal xl:w-[90%]">
+                                        <p className="text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight mt-[15px] xl:mt-[18px] font-normal xl:w-[90%]">
                                             {data.desc}
                                         </p>
 
                                         <div className="grid xl:grid-cols-2 grid-cols-1 mt-[31px] xl:mt-[63px] xl:gap-[40px] gap-y-[36px] max-xl:mb-[36px] 4xl:w-[90%]">
                                             <div>
-                                                <h3 className="text-[#006FBE] font-bold 4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight">
+                                                <h3 className="text-[#006FBE] font-bold 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight">
                                                    {t('benefitsTitle')}
                                                 </h3>
                                                 <UnorderedList
                                                     arrName={data.benefitList}
-                                                    ulClassName="list-disc pl-5 space-y-[14px] xl:space-y-[18px] 4xl:text-[20px] xl:text-[18px] text-[16px] mt-[12px] xl:mt-[19px]"
+                                                    ulClassName="list-disc pl-5 space-y-[14px] xl:space-y-[18px] text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] mt-[12px] xl:mt-[19px]"
                                                     liClassName=""
                                                 />
                                             </div>
                                             <div>
-                                                <h3 className="text-[#006FBE] font-bold 4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight">
+                                                <h3 className="text-[#006FBE] font-bold 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight">
                                                     {t('OutcomesTitle')}
                                                 </h3>
                                                 <UnorderedList
                                                     arrName={data.outcomeList}
-                                                    ulClassName="list-disc pl-5 space-y-[14px] xl:space-y-[18px] 4xl:text-[20px] xl:text-[18px] text-[16px] mt-[12px] xl:mt-[19px]"
+                                                    ulClassName="list-disc pl-5 space-y-[14px] xl:space-y-[18px] text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] mt-[12px] xl:mt-[19px]"
                                                     liClassName=""
                                                 />
                                             </div>
                                         </div>
-
                                         <div className="mt-auto xl:mt-[65px] items-end">
                                             <div>
                                                 <LearnMore bgcolor="#073259" bordercolor="#073259" btnName={t('learnMoreBtn')} locale={locale}/>
@@ -294,10 +277,8 @@ xl:pt-[81px] md:pt-[360px] max-[400px]:pt-[180px] pt-[220px] sm:pt-[240px]
                     )
                 })
             }
-
-
-            <section className="custom-container text-black py-10 mt-10 max-md:mt-0">
-                <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} className={"leading-tight max-w-[76%] 4xl:text-[60px] xl:text-[40px]"} />
+            <section className="custom-container text-black py-10  max-md:mt-0">
+                <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} className={"leading-tight max-w-[76%] text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]"} />
             </section>
         </div >
     );

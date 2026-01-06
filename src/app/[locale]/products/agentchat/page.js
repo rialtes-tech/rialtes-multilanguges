@@ -62,7 +62,7 @@ export default function Page() {
                         <div className="absolute bg-[#134874] text-white  w-[256px] h-[205px] md:w-[332px] md:h-[255px]  xl:w-[400px] xl:h-[290px] 2xl:w-[420px] 2xl:h-[310px] 4xl:w-[478px] 4xl:h-[355px] lg:left-[6%] top-0 ">
                             <div className=" xl:mx-[58px] xl:my-6 my-6 md:my-0 mx-[30px] md:mx-[40px]">
                                 <h1><span className=" font-light  text-[17px] md:text-[20px] xl:text-[26px] 4xl:text-[30px] leading-tight ">{t('headerTitle')} </span>
-                                    <span className="font-light block text-[33px] md:text-[40px]  xl:text-[46px]  leading-tight 4xl:text-[60px] mt-[-12px]">{t('headerSubTitle')} </span>
+                                    <span className="font-light block text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] leading-tight mt-[-12px]">{t('headerSubTitle')} </span>
                                     <span className="text-[17px] md:text-[20px] xl:text-[26px]  4xl:text-[30px] font-light leading-tight block">{t('headerOne')}</span></h1>
                             </div>
                         </div>
@@ -85,18 +85,18 @@ export default function Page() {
                 </div>
                 <div className="custom-container grid lg:grid-cols-12 grid-cols-1  lg:gap-[60px] xl:gap-[80px] mt-[100px] xl:mt-[100px] 4xl:mt-[150px]">
                     <div className="lg:col-span-5 col-span-12 ">
-                        <h2 className="leading-tight text-[28px] md:text-[30px] pb-4 lg:text-[28px] xl:text-[30px] 2xl:text-[36px] 4xl:text-[40px] ">{t('engageHeader')}</h2>
+                        <h2 className="leading-tight text-[26px] pb-4 lg:text-[28px] xl:text-[30px] 2xl:text-[36px] 4xl:text-[40px] ">{t('engageHeader')}</h2>
                     </div>
                     <div className="lg:col-span-7 col-span-12">
-                        <p className="text-[16px] md:text-[18px] lg:text-[17px] xl:text-[16px] 2xl:text-[18px] 4xl:text-[20px]">{t('engageDescOne')}</p>
-                        <p className="mt-5 text-[16px] md:text-[18px] lg:text-[17px] xl:text-[16px] 2xl:text-[18px] 4xl:text-[20px] ">{t('engageDescTwo')}</p>
+                        <p className="text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]">{t('engageDescOne')}</p>
+                        <p className="mt-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]">{t('engageDescTwo')}</p>
                     </div>
                 </div>
             </div>
 
             {/* why agent chat section */}
             <div className="xl:mt-20 md:mt-[2rem] xl:!pr-[142px] custom-container text-black py-6">
-                <h2 className="text-[28px] md:text-[40px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] ">{t('whyHeader')}</h2>
+                <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">{t('whyHeader')}</h2>
             </div>
             <div className="text-black custom-container max-md:px-0 mb-20">
                 <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 md:mt-10 ">
@@ -114,10 +114,10 @@ export default function Page() {
                     <div>
                         <div className="group flex flex-col justify-between border p-8 4xl:p-[54px] h-full hover:bg-[#134874]">
                             <div>
-                                <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[28px] md:text-[28px] leading-tight 4xl:w-[375px] 2xl:w-[350px] xl:w-[300px] text-black group-hover:text-white">
+                                <h3 className="font-semibold 4xl:text-[35px] text-[20px] md:text-[30px] leading-tight 4xl:w-[375px] 2xl:w-[350px] xl:w-[300px] text-black group-hover:text-white">
                                     {t('whySubHeader')}
                                 </h3>
-                                <p className="mt-5 xl:mt-10 text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px] text-black group-hover:text-white">
+                                <p className="mt-5 xl:mt-10 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px] text-black group-hover:text-white">
                                     {t('whyDesc')} </p>
                             </div>
                             <Image className="w-[50px] 4xl:w-[75px] 2xl:w-[70px] md:mt-20 mt-10 group-hover:invert group-hover:brightness-200"
@@ -133,8 +133,8 @@ export default function Page() {
                     <div>
                         <div className="group flex flex-col justify-between border p-8 4xl:p-[54px]  h-full hover:bg-[#134874] hover:text-white">
                             <div>
-                                <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[28px] md:text-[28px]  leading-tight 4xl:w-[358px] 2xl:w-[350px] xl:w-[300px]  ">{t('rapidTitle')}</h3>
-                                <p className=" mt-5 xl:mt-20  text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[330px] xl:w-[300px] lg:w-[300px] ">{t('rapidDesc')}</p>
+                                <h3 className="font-semibold 4xl:text-[35px] text-[18px] xl:text-[30px] md:text-[20px] leading-tight 4xl:w-[358px] 2xl:w-[350px] xl:w-[300px]  ">{t('rapidTitle')}</h3>
+                                <p className=" mt-5 xl:mt-20  text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[330px] xl:w-[300px] lg:w-[300px] ">{t('rapidDesc')}</p>
                             </div>
                             <Image
                                 className="w-[50px] 4xl:w-[83px]  2xl:w-[76px] mt-20 group-hover:invert group-hover:brightness-200"
@@ -152,8 +152,8 @@ export default function Page() {
                     <div>
                         <div className="group flex flex-col justify-between border p-8 4xl:p-[54px] h-full hover:bg-[#134874] hover:text-white">
                             <div>
-                                <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[33px] xl:text-[26px] lg:text-[28px] md:text-[28px]  leading-tight 4xl:w-[380px] 2xl:w-[350px]  xl:w-[300px]">{t('realTitle')}</h3>
-                                <p className="mt-5 xl:mt-20  text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px]">{t('realDeac')}</p>
+                                <h3 className="font-semibold 4xl:text-[35px] text-[20px] xl:text-[30px] md:text-[20px] leading-tight 4xl:w-[380px] 2xl:w-[350px]  xl:w-[300px]">{t('realTitle')}</h3>
+                                <p className="mt-5 xl:mt-20 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px]">{t('realDeac')}</p>
                             </div>
                             <Image
                                 className="w-[50px] 4xl:w-[67px] 2xl:w-[64px] xl:mt-40 mt-5 group-hover:invert group-hover:brightness-200"
@@ -169,8 +169,8 @@ export default function Page() {
                     <div>
                         <div className="group flex flex-col justify-between border p-8 4xl:p-[54px] h-full hover:bg-[#134874] hover:text-white">
                             <div>
-                                <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[28px] md:text-[28px] leading-tight 4xl:w-[391px] 2xl:w-[340px] xl:w-[300px]">{t('delegateTitle')}</h3>
-                                <p className="mt-5 xl:mt-10  text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px]" >{t('delegateDesc')}</p>
+                                <h3 className="font-semibold 4xl:text-[35px] xl:text-[30px] md:text-[20px] text-[20px] leading-tight 4xl:w-[391px] 2xl:w-[340px] xl:w-[300px]">{t('delegateTitle')}</h3>
+                                <p className="mt-5 xl:mt-10 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px]" >{t('delegateDesc')}</p>
                             </div>
                             <Image
                                 className="w-[50px] 4xl:w-[74px] 2xl:w-[70px] xl:mt-20 md:mt-20 mt-5 group-hover:invert group-hover:brightness-200"
@@ -185,8 +185,8 @@ export default function Page() {
                     </div>
                     <div>
                         <div className="group border p-8 4xl:p-[54px] h-full hover:bg-[#134874] hover:text-white">
-                            <h3 className="font-semibold 4xl:text-[35px] text-[26px] 2xl:text-[32px] xl:text-[26px] lg:text-[28px] md:text-[28px] leading-tight 4xl:w-[370px] 2xl:w-[346px] xl:w-[300px]">{t('roleTitle')}</h3>
-                            <p className="mt-5 xl:mt-20  text-[16px] md:text-[18px] lg:text-[18px] xl:text-[16px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px]">{t('roleDesc')}</p>
+                            <h3 className="font-semibold 4xl:text-[35px] text-[20px] xl:text-[30px] md:text-[20px] leading-tight 4xl:w-[370px] 2xl:w-[346px] xl:w-[300px]">{t('roleTitle')}</h3>
+                            <p className="mt-5 xl:mt-20 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] 4xl:w-[358px] 2xl:w-[340px] xl:w-[300px] lg:w-[300px]">{t('roleDesc')}</p>
                             <Image
                                 className="w-[50px] 4xl:w-[83px]  2xl:w-[76px] xl:mt-20 md:mt-20 mt-5 group-hover:invert group-hover:brightness-200"
                                 src='/images/industry/rialchat/fast-response-time-stopwatch-icon.svg'
@@ -202,16 +202,16 @@ export default function Page() {
             </div>
             {/* key features section */}
             <div className="xl:mt-20 mb-20 custom-container text-black">
-                <h2 className="text-[28px]  md:text-[40px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] leading-tight ">{t('keyTitle')}</h2>
+                <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] leading-tight ">{t('keyTitle')}</h2>
                 {features.map((feature, index) => (
                     <div
                         key={index}
                         className="flex flex-col-reverse md:grid md:grid-cols-2 mt-10 border-b-2 hover:bg-gray-100 hover:p-5 hover:shadow-lg transition-all duration-500 ease-in-out origin-left">
                         <div className="pb-8">
-                            <h3 className="font-semibold text-[22px] md:text-[28px] lg:text-[28px] xl:text-[30px] 2xl:text-[32px] 4xl:text-[35px] leading-tight md:mt-20">
+                            <h3 className="font-semibold 4xl:text-[35px] text-[20px] xl:text-[30px] md:text-[20px] leading-tight md:mt-20">
                                 {feature.title}
                             </h3>
-                            <ul className="list-disc mt-8 text-[16px] md:text-[18px] lg:text-[18px] xl:text-[18px] 2xl:text-[19px] 4xl:text-[20px] 4xl:w-[570px] 2xl:w-[550px] xl:w-[520px] lg:w-[500px] px-2">
+                            <ul className="list-disc mt-8 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] 4xl:w-[570px] 2xl:w-[550px] xl:w-[520px] lg:w-[500px] px-2">
                                 {feature.points.map((point, i) => (
                                     <li
                                         key={i}
@@ -239,7 +239,7 @@ export default function Page() {
             {/* use cases section */}
             <section>
                 <div className="mt-20 4xl:mt-30 custom-container text-black">
-                    <h2 className="text-[28px] md:text-[40px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] leading-tight "> {t('agentChatTitle')}</h2>
+                    <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] leading-tight"> {t('agentChatTitle')}</h2>
                 </div>
                 <div className="custom-container max-md:px-0 mb-20">
                     <div className="overflow-x-auto mt-10 max-md:px-0">
@@ -270,12 +270,9 @@ export default function Page() {
                     : locale === "fr"
                         ? "xl:h-[400px] 4xl:h-[580px] 2xl:h-[510px]"
                         : "xl:h-[400px] 4xl:h-[520px] 2xl:h-[480px]"
-                }`}
-
-
-            >
+                }`}>
                 <div className="mt-16 text-white custom-container xl:!pr-[142px] pt-6">
-                    <h2 className="text-[28px] md:text-[40px] max-lg:pb-6 lg:text-[40px] xl:pb-10 xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] leading-tight">{t('setupTitle')}</h2>
+                    <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] max-lg:pb-6 lg:text-[40px] xl:pb-10 leading-tight">{t('setupTitle')}</h2>
                     <div className="flex flex-col xl:flex-row  4xl:gap-34px 2xl:gap-40 xl:gap-36">
                         <div className="relative">
                             <Image
@@ -310,7 +307,7 @@ export default function Page() {
                                 sizes="100vw"
                                 priority
                             />
-                            <p className="absolute leading-tight 4xl:left-[60px] 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px]  xl:top-[60px] xl:left-[40px] left-[55px] top-[100px] text-[20px] md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[22px] 4xl:text-[24px] md:top-[130px] md:left-[90px] 4xl:w-[230px] 2xl:w-[210px] xl:w-[180px] lg:w-[170px] md:w-[310px] ">{t('descThree')}</p>
+                            <p className="absolute leading-tight 4xl:left-[60px] 4xl:top-[100px] 2xl:top-[60px] 2xl:left-[40px]  xl:top-[60px] xl:left-[40px] left-[55px] top-[100px] text-[20px] md:text-[24px] lg:text-[18px] xl:text-[16px] 2xl:text-[22px] 4xl:text-[24px] md:top-[115px] md:left-[90px] 4xl:w-[230px] 2xl:w-[210px] xl:w-[180px] lg:w-[170px] md:w-[310px] ">{t('descThree')}</p>
                         </div>
 
                         <div className="relative">
@@ -357,7 +354,7 @@ export default function Page() {
                             />
                         </div>
                         <div className="xl:col-span-8">
-                            <h2 className="text-[26px] md:text-[40px] lg:text-[40px] xl:text-[40px] 2xl:text-[50px] 4xl:text-[60px] leading-tight max-w-[1081px] w-full">{t('readyTitle')}</h2>
+                            <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] leading-tight max-w-[1081px] w-full">{t('readyTitle')}</h2>
                             <p className="mt-10 font-light text-[18px] md:text-[22px] lg:text-[22px] xl:text-[22px] 2xl:text-[26px] 4xl:text-[28px] max-w-[1000px] w-full leading-tight">{t('readyDesc')}</p>
                             <div className="xl:flex xl:flex-row md:flex-row flex-col mt-16 items-center gap-10 4xl:gap-[34px] ">
                                 <div className="flex flex-col lg:flex-row gap-4 w-full h-[105px] max-lg:p-4">
@@ -371,7 +368,7 @@ export default function Page() {
                                             sizes="100vw"
                                             priority
                                         />
-                                        <p className="pr-4 font-light text-[22px] md:text-[24px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] 4xl:text-[22px] leading-tight 4xl:w-[152px] 2xl:w-[200px] xl:w-[180px] lg:w-[120px] md:w-[160px]">{t('getStart')}</p>
+                                        <p className="pr-4 font-light text-[16px] md:text-[18px] 4xl:text-[22px] leading-tight 4xl:w-[152px] 2xl:w-[200px] xl:w-[180px] lg:w-[120px] md:w-[160px]">{t('getStart')}</p>
                                     </div>
                                     <div className="hidden lg:block border-r-2  self-stretch border-gray-300 mx-4"></div>
                                     <div className="block lg:hidden w-full border-b border-gray-300 "></div>
@@ -387,7 +384,7 @@ export default function Page() {
                                             sizes="100vw"
                                             priority
                                         />
-                                        <p className="pr-4 font-light text-[22px] md:text-[24px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] 4xl:text-[22px] leading-tight 4xl:w-[152px] 2xl:w-[190px] xl:w-[180px] lg:w-[120px] md:w-[180px]">{t('contactUs')}</p>
+                                        <p className="pr-4 font-light text-[16px] md:text-[18px] 4xl:text-[22px] leading-tight 4xl:w-[152px] 2xl:w-[190px] xl:w-[180px] lg:w-[120px] md:w-[180px]">{t('contactUs')}</p>
                                     </div>
                                     <div className="hidden lg:block border-r-2 self-stretch border-gray-300 mx-4"></div>
                                     <div className="block lg:hidden w-full border-b border-gray-300 mt-4"></div>
@@ -396,7 +393,7 @@ export default function Page() {
                                 <div className="flex flex-col lg:flex-row  gap-4 w-full h-[105px] max-lg:p-4 ">
                                     <div className="flex flex-row items-center gap-4  ">
                                         <Image
-                                            className="w-[50px] md:w-[60px] xl:w-[50px] "
+                                            className="w-[50px] md:w-[60px] xl:w-[50px]"
                                             src='/images/industry/rialchat/schedule-demo-appointment-calendar.svg'
                                             alt={t('demoAlt')}
                                             width={0}
@@ -404,7 +401,7 @@ export default function Page() {
                                             sizes="100vw"
                                             priority
                                         />
-                                        <p className="font-light text-[22px] md:text-[24px] lg:text-[16px] xl:text-[18px] 2xl:text-[20px] 4xl:text-[22px] leading-tight 4xl:w-[152px] 2xl:w-[140px] xl:w-[130px] lg:w-[120px] md:w-[110px]">{t('scheduled')}</p>
+                                        <p className="font-light text-[16px] md:text-[18px] 4xl:text-[22px] leading-tight 4xl:w-[152px] 2xl:w-[140px] xl:w-[130px] lg:w-[120px] md:w-[110px]">{t('scheduled')}</p>
                                     </div>
                                 </div>
                             </div>
@@ -412,10 +409,9 @@ export default function Page() {
                     </div>
                 </div>
             </div>
-
             {/* Contact Form */}
             <div className="custom-container text-black py-10">
-                <ContactForm title={t('contactTitle')} className={' font-light leading-tight text-[26px] md:text-[40px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] 4xl:w-[1222px] 2xl:w-[1100px] xl:w-[800px] '} />
+                <ContactForm title={t('contactTitle')} className={' font-light leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] 4xl:w-[1222px] 2xl:w-[1100px] xl:w-[800px] '} />
             </div>
         </div>
     );
