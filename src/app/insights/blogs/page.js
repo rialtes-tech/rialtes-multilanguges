@@ -58,6 +58,8 @@ const allCategories = [
   "SAP SuccessFactors",
   "Managed Services",
   "Salesforce Automotive Cloud",
+  "Rise with SAP",
+  "Grow with SAP",
   "Others"
 ];
 
@@ -1098,7 +1100,7 @@ const BlogList = () => {
               </svg>
             </button>
             {showOptionsCategory && (
-              <div className='absolute bg-white border border-[#707070] w-[200px] md:w-[250px] right-0 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight'>
+              <div className='absolute z-30 bg-white border border-[#707070] w-[200px] md:w-[250px] right-0 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight'>
                 <ul className="py-3">
                   {
                     allCategories.map((data, ind) => (
