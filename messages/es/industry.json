@@ -780,6 +780,7 @@
     "contactTitle": "¡Asóciate con Rialtes — Habilitando la Excelencia de Próxima Generación en Farmacéutica y Biotecnología!"
   },
   "medicalDevices": {
+     "aiPoweredTitle1" : "Transformación impulsada por IA",
      "schemaData": {},
     "bannerAlt": "Escáner de resonancia magnética moderno con iluminación azul en una sala clínica de diagnóstico por imágenes",
     "thoughtAlt": "Doctora profesional con bata blanca revisando registros médicos en un moderno centro de atención sanitaria",
@@ -1817,17 +1818,17 @@
     "educationSolutions": [
       {
         "title": "SAP S/4HANA para Educación",
-        "href": "/services/business-transformation/grow-with-sap-services",
+        "href": "/es/services/business-transformation/grow-with-sap-services",
         "description": "ERP robusto para finanzas educativas, recursos humanos y operaciones del campus."
       },
       {
         "title": "Salesforce Marketing y Revenue Cloud",
-        "href": "/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting",
+        "href": "/es/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting",
         "description": "Campañas personalizadas y precios dinámicos."
       },
       {
         "title": "SAP ARIBA para Educación",
-        "href": "/services/spend-management/sapbuyplus-ariba-implementation-partner",
+        "href": "/es/services/spend-management/sapbuyplus-ariba-implementation-partner",
         "description": "Soluciones de adquisiciones para operaciones del campus."
       }
     ]
