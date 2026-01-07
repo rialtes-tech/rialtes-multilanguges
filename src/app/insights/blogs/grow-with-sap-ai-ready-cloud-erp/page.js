@@ -28,15 +28,7 @@ export default function Page() {
         }
 
     ]
-    const howEnterpriseData = [
-        {
-            "title": "How Enterprises Define SAP Consulting Credibility",
-            "desc": [
-                "SAP consulting's credibility is not based on claims. It’s based on consistent signals. Enterprises look for evidence that a consulting company can be relied upon when complexity, change, and pressure increase.",
-                "Key credibility dimensions include transparency, accountability, maturity, and long-term intent."
-            ]
-        }
-    ]
+   
 
     const whatAreData = [
         {
@@ -126,16 +118,8 @@ export default function Page() {
                     "desc": "When growth is rapid, manual processes become bottlenecks. GROW with SAP sets up the structure needed for compliance, multi-country operations, future acquisitions, and process consistency across business units."
                 },
                 {
-                    "title": "Best practice processes instead of reinvented workflows",
-                    "desc": "You get proven process templates that already work for global organizations. Finance closes faster, procurement approvals move automatically, supply chains become more visible, and manual spreadsheet-based operations finally fade out."
-                },
-                {
                     "title": "Organizations moving off legacy ERP or multiple disconnected systems",
                     "desc": "If your data lives in different tools, departments, or spreadsheets, scaling becomes painful. GROW unifies operations into a single digital core and eliminates complexity step by step."
-                },
-                {
-                    "title": "Real-time finance and operational visibility",
-                    "desc": "Dashboards and embedded analytics deliver instant insights into working capital, inventory, fulfillment bottlenecks, and order-to-cash performance. Leaders can spot risks before they surface and act with clarity instead of hindsight."
                 },
                 {
                     "title": "Companies preparing for AI-driven automation",
@@ -248,9 +232,9 @@ export default function Page() {
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "BlogPosting",
-        "headline": "What Makes SAP Consulting Companies Trustworthy for Enterprise Engagements | Rialtes",
-        "description": "Learn how enterprises assess trust, credibility, transparency, and governance maturity in SAP consulting companies before formal evaluation and contracting.",
-        "image": "https://www.rialtes.com/images/blogs/strategic-partnership-digital-connection.webp",
+        "headline": "Grow with SAP: Your Fast-Track Ticket to an AI-First Tomorrow",
+        "description": "GROW with SAP lays the digital foundation needed to automate faster, scale confidently, and unlock intelligence across finance, supply chain, procurement, manufacturing, and beyond.",
+        "image": "https://www.rialtes.com/images/blogs/grow-with-sap-ai-first.webp",
         "author": {
             "@type": "Organization",
             "name": "Rialtes"
@@ -265,51 +249,51 @@ export default function Page() {
         },
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "https://www.rialtes.com/insights/blogs/what-makes-sap-consulting-companies-trustworthy/"
+            "@id": "https://www.rialtes.com/insights/blogs/grow-with-sap-ai-ready-cloud-erp/"
         },
-        "datePublished": "2025-12-29",
+        "datePublished": "2026-01-06",
         "mainEntity": {
             "@type": "FAQPage",
-            "name": "Trust and Credibility in SAP Consulting FAQs",
+            "name": "GROW with SAP FAQs",
             "mainEntity": [
                 {
                     "@type": "Question",
-                    "name": "What makes an SAP consulting company trustworthy?",
+                    "name": "What is GROW with SAP?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Enterprises trust SAP consulting companies that demonstrate transparency, governance maturity, leadership accountability, and long-term orientation from the first interaction."
+                        "text": "GROW with SAP is a packaged offering that helps businesses adopt SAP S/4HANA Public Cloud quickly using standardized best-practice processes, automation-ready workflows, and a lower total cost of ownership."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "How do enterprises assess SAP consulting credibility before evaluation?",
+                    "name": "Why choose GROW with SAP over traditional ERP deployment?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Through early conversations, reference behavior, governance clarity, and how openly risks and trade-offs are discussed."
+                        "text": "GROW with SAP reduces heavy customization, accelerates go-live, keeps the ERP core clean, and ensures the system remains upgrade-friendly for future AI and automation scenarios."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "Why is trust important before the SAP consulting company evaluation?",
+                    "name": "How does GROW with SAP prepare businesses for AI?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Because trust determines who advances to formal evaluation and how much strategic access the consulting partner receives."
+                        "text": "GROW with SAP standardizes and integrates processes so data is clean, consistent, and trustworthy, making it easier to introduce machine learning, predictive analytics, and AI copilots on top of the ERP."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "What are common SAP consulting credibility signals?",
+                    "name": "What role does Rialtes play in a GROW with SAP implementation?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Clear assumptions, honest risk discussions, governance frameworks, leadership continuity, and willingness to challenge poor decisions."
+                        "text": "Rialtes helps assess current processes, configure SAP S/4HANA Public Cloud, migrate data, prioritize standardization over customization, design automation, and build a 12–36 month AI and innovation roadmap."
                     }
                 },
                 {
                     "@type": "Question",
-                    "name": "How does trust affect long-term SAP consulting partnerships?",
+                    "name": "Is GROW with SAP suitable for SMBs?",
                     "acceptedAnswer": {
                         "@type": "Answer",
-                        "text": "Trust enables deeper collaboration, faster decision-making, and stronger alignment over multi-year SAP programs."
+                        "text": "Yes, GROW with SAP is designed for growing businesses that want enterprise-grade ERP capabilities with faster implementation timelines and minimal infrastructure complexity."
                     }
                 }
             ]
@@ -318,10 +302,10 @@ export default function Page() {
     return (
         <section className="min-h-screen">
             <Seo
-                title="Building Credibility in SAP Consulting Companies | Rialtes"
-                description="Enterprises trust SAP consulting companies that demonstrate transparency, governance maturity, leadership accountability, and long-term orientation."
+                title="Grow with SAP: Modern ERP for an AI-First Tomorrow | Rialtes"
+                description="Grow with SAP gives you a clean, cloud-native ERP foundation so you can automate operations, connect data, and become truly AI-ready without legacy complexity."
                 keywords="Partners, website, welcome"
-                canonical={`https://www.rialtes.com/insights/blogs/what-makes-sap-consulting-companies-trustworthy/`}
+                canonical={`https://www.rialtes.com/insights/blogs/grow-with-sap-ai-ready-cloud-erp/`}
             />
 
             <Script
@@ -334,7 +318,7 @@ export default function Page() {
             <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
                 <div className="xl:block hidden">
                     <Image
-                        src="/images/blog/voygernext/voyager-banner.webp"
+                        src="/images/blog/voygernext/grow-with-sap-ai-first.webp"
                         alt="Two people shaking hands with glowing digital lines symbolizing partnership and collaboration."
                         fill
                         priority
@@ -342,7 +326,7 @@ export default function Page() {
                 </div>
                 <div className="xl:hidden block">
                     <Image
-                        src="/images/blog/strategic-partnership-digital-connection-mobile.webp"
+                        src="/images/blog/voygernext/voyager-mobile.webp"
                         alt="Two people shaking hands with glowing digital lines symbolizing partnership and collaboration."
                         priority
                         height={0}
@@ -359,7 +343,7 @@ export default function Page() {
                         {/* date and icons */}
                         <div className="sm:flex justify-between">
                             <div>
-                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">SAP Consulting</span>{" "}
+                                <span className="text-[#0092E0] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">Grow with SAP</span>{" "}
                                 <span className="text-[#ACACAC] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"> | </span>06 January 2026
                             </div>
 
@@ -376,10 +360,10 @@ export default function Page() {
 
                             <div className="xl:mt-[38px] mt-[33px]">
                                 {
-                                    mainData.map((data, ind) => {
+                                    mainData.map((data,index) => {
                                         return (
                                             <p
-                                                key={ind}
+                                               key={`${data}-${index}`} 
                                                 className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                 dangerouslySetInnerHTML={{ __html: data }}
                                             />
@@ -389,15 +373,15 @@ export default function Page() {
 
 
                                 {
-                                    whyTrustData.map((data, ind) => (
-                                        <div className="md:mt-[50px] mt-[40px]" key={ind}>
+                                    whyTrustData.map((data, index) => (
+                                        <div className="md:mt-[50px] mt-[40px]" key={`${data.title}-${index}`}>
                                             <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                                                 {data.title}
                                             </h2>
 
-                                            {data.desc.map((item, i) => (
+                                            {data.desc.map((item,index) => (
                                                 <p
-                                                    key={ind}
+                                                   key={`${item}-${index}`}
                                                     className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: item }}
                                                 />
@@ -406,17 +390,26 @@ export default function Page() {
                                     ))
                                 }
                                 <div className="bg-[#006FBE] text-white font-semibold p-5 mt-16 4xl:text-[26px] 2xl:text-[22px] xl:text-[22px] md:text-[20px] text-[20px]">GROW with SAP = Modern ERP + Standardization + Future AI Enablement</div>
+                                <div className="xl:block hidden md:block">
+                                    <img
+                                        src="/images/blog/voygernext/infographic11.png"
+                                        alt="Two people shaking hands with glowing digital lines symbolizing partnership and collaboration."
+                                        className="w-full mt-16"
+                                    />
+                                </div>
+                                <div className="xl:hidden block md:hidden">
 
-                                <img
-                                    src="/images/blog/voygernext/infographic11.png"
-                                    alt="Two people shaking hands with glowing digital lines symbolizing partnership and collaboration."
-                                    className="w-full mt-16"
-                                />
+                                    <img
+                                        src="/images/blog/voygernext/mobile-info.webp"
+                                        alt="Two people shaking hands with glowing digital lines symbolizing partnership and collaboration."
+                                        className="mt-16 m-auto"
+                                    />
+                                </div>
                                 <p className="mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">This alone shifts companies from reactive problem-solving to proactive decision-making.</p>
 
                                 {
-                                    commonTrustData.map((data, ind) => (
-                                        <div className="md:mt-[50px] mt-[40px]" key={ind}>
+                                    commonTrustData.map((data, index) => (
+                                        <div className="md:mt-[50px] mt-[40px]" key={`${data.title}-${index}`}>
                                             <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
                                             <UnorderedList arrName={data.desc} ulClassName="mt-5 space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium" />
                                             <UnorderedList arrName={data.list} ulClassName="mt-5 space-y-2 pl-[26px] lg:pl-[46px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium list-disc" />
@@ -424,8 +417,8 @@ export default function Page() {
                                     ))
                                 }
                                 {
-                                    standardizationData.map((data, ind) => (
-                                        <div className="md:mt-[50px] mt-[40px]" key={ind}>
+                                    standardizationData.map((data, index) => (
+                                        <div className="md:mt-[50px] mt-[40px]" key={`${data.title}-${index}`}>
                                             <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
                                             <UnorderedList arrName={data.desc} ulClassName="mt-5 space-y-2 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium" />
                                             <UnorderedList arrName={data.list} ulClassName="mt-5 space-y-2 pl-[26px] lg:pl-[46px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium list-disc" />
@@ -440,19 +433,16 @@ export default function Page() {
                                     />
                                     <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">A three-stage maturity roadmap showcasing evolution from manual processes to AI-powered decisions.</p>
                                 </div>
-
-
-
                                 {
-                                    whatAreData.map((data, ind) => (
-                                        <div className="md:mt-[50px] mt-[40px]" key={ind}>
+                                    whatAreData.map((data, index) => (
+                                        <div className="md:mt-[50px] mt-[40px]" key={`${data.title}-${index}`}>
                                             <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
                                             <UnorderedList arrName={data.desc} ulClassName="mt-5 space-y-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium" />
                                             <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-[40px] mt-[40px] gap-[20px] sm:w-[80%] md:w-full xl:w-[96%]">
                                                 {
-                                                    data.list.map((elem, id) => {
+                                                    data.list.map((elem, index) => {
                                                         return (
-                                                            <div className="4xl:p-[30px] p-[32px] border border-[#707070]" key={id}>
+                                                            <div className="4xl:p-[30px] p-[32px] border border-[#707070]" key={`${elem.title}-${index}`}>
                                                                 <h3 className="text-[#006FBE] 4xl:text-[22px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold pb-4 border-b border-[#707070] leading-tight">{elem.title}</h3>
                                                                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight" dangerouslySetInnerHTML={{ __html: elem.desc }} />
                                                             </div>
@@ -464,21 +454,16 @@ export default function Page() {
                                         </div>
                                     ))
                                 }
-
-
-
-
-
                                 {
-                                    whoShouldConsider.map((data, ind) => (
-                                        <div className="md:mt-[50px] mt-[40px]" key={ind}>
+                                    whoShouldConsider.map((data, index) => (
+                                        <div className="md:mt-[50px] mt-[40px]" key={`${data.title1}-${index}`}>
                                             <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title1}</h2>
                                             <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title2}</h2>
 
 
-                                            {data.desc.map((item, i) => (
+                                            {data.desc.map((item, index) => (
                                                 <p
-                                                    key={ind}
+                                                    key={`${item}-${index}`}
                                                     className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: item }}
                                                 />
@@ -486,9 +471,6 @@ export default function Page() {
                                         </div>
                                     ))
                                 }
-
-
-
                                 <table className="w-full border-collapse mt-10">
                                     {/* Header */}
                                     <thead className="bg-gray-100 border-b border-gray-300">
@@ -507,42 +489,36 @@ export default function Page() {
                                     <tbody>
                                         {tableData.map((row, index) => (
                                             <tr
-                                                key={index}
-                                                className="border-b border-gray-300 md:table-row block"
+                                                key={`${row.function}-${index}`}
+                                                className="border-b border-gray-300 xl:table-row"
                                             >
                                                 <td
-                                                    className="p-4 md:table-cell block
+                                                    className="p-4 xl:table-cell 
                 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                 >
-                                                    <span className="md:hidden font-semibold">Function: </span>
                                                     {row.function}
                                                 </td>
 
                                                 <td
-                                                    className="p-4 md:table-cell block
+                                                    className="p-4 xl:table-cell 
                 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                 >
-                                                    <span className="md:hidden font-semibold">
-                                                        Example AI / Insight Use Case:{" "}
-                                                    </span>
+
                                                     {row.useCase}
                                                 </td>
                                             </tr>
                                         ))}
                                     </tbody>
                                 </table>
-
-
-
                                 {
-                                    whoshouldlistCard.map((data, ind) => (
-                                        <div className="md:mt-[50px] mt-[40px]" key={ind}>
+                                    whoshouldlistCard.map((data, index) => (
+                                        <div className="md:mt-[50px] mt-[40px]" key={`${data.title}-${index}`}>
                                             <UnorderedList arrName={data.desc} ulClassName="mt-5 space-y-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium" />
                                             <div className="grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 lg:mt-[40px] mt-[40px] gap-[20px] sm:w-[80%] md:w-full xl:w-[96%]">
                                                 {
-                                                    data.list.map((elem, id) => {
+                                                    data.list.map((elem, index) => {
                                                         return (
-                                                            <div className="4xl:p-[30px] p-[32px] border border-[#707070]" key={id}>
+                                                            <div className="4xl:p-[30px] p-[32px] border border-[#707070]" key={`${elem.title}-${index}`}>
                                                                 <h3 className="text-[#006FBE] 4xl:text-[22px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold pb-4 leading-tight">{elem.title}</h3>
                                                                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight" dangerouslySetInnerHTML={{ __html: elem.desc }} />
                                                             </div>
@@ -556,15 +532,15 @@ export default function Page() {
                                 }
 
                                 {
-                                    howSalesforceData.map((data, ind) => (
-                                        <div className="md:mt-[50px] mt-[40px]" key={ind}>
+                                    howSalesforceData.map((data, index) => (
+                                        <div className="md:mt-[50px] mt-[40px]" key={`${data.title}-${index}`}>
                                             <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{data.title}</h2>
 
                                             <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc}</p>
                                             {
-                                                data.list.map((elem, id) => (
-                                                    <div key={id}>
-                                                        <h3 className="4xl:text-[20px] 2xl:text-[19px] text-[20px] font-bold mt-8">{id + 1}. {elem.title}</h3>
+                                                data.list.map((elem, index) => (
+                                                    <div key={`${elem.title}-${index}`} className="mt-8">
+                                                        <h3 className="4xl:text-[20px] 2xl:text-[19px] text-[20px] font-bold mt-8">{index + 1}. {elem.title}</h3>
                                                         <UnorderedList arrName={elem.desc} ulClassName={`md:pl-[24px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium`} />
                                                     </div>
                                                 ))
@@ -576,13 +552,6 @@ export default function Page() {
                                         </div>
                                     ))
                                 }
-
-
-
-
-
-
-
                             </div>
                         </div>
                     </div>

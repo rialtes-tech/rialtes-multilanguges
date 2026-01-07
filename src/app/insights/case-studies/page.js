@@ -75,7 +75,7 @@ const latestCaseStudy = [
   },
   {
     id: 12,
-    image: "/images/case-studies/revolutionary-thumbnail.webp",
+    image: "/images/case-studies/business-professionals-collaborating-laptop-modern-office-thumbnail.webp",
     industry: "Automotive",
     date: "03 June 2025",
     url: "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
@@ -85,9 +85,9 @@ const latestCaseStudy = [
   },
   {
     id: 11,
-    image: "/images/case-studies/adaptis-for-web-thumbnail.webp",
+    image: "/images/case-studies/insurance-adjuster-homeowner-storm-damage-assessment-thumbnail.webp",
     industry: "Manufacturing",
-    date: "30 May 2025",
+    date: "30 May 2025", 
     url: "/insights/case-studies/warranty-claim-submission-mobile-i-pad-using-experience-cloud/",
     title: "Claim in 4 Minutes: Rialtes Builds Mobile-First Portal to Transform Claims Experience",
     alt: "Insurance adjuster inspecting storm-damaged home exterior with homeowner",
@@ -105,7 +105,7 @@ const latestCaseStudy = [
   },
   {
     id: 2,
-    image: "/images/case-studies/streamline-sales-thumbnail.webp",
+    image: "/images/case-studies/quality-control-technician-inspecting-bottle-production-line-thumbnail.webp",
     industry: "Manufacturing",
     date: "26 Mar 2025",
     url: "/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/",
