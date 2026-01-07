@@ -65,6 +65,17 @@ const allCategories = [
 
 const latestBlogs = [
   {
+    "id": 69,
+    "image": "/images/blog/voygernext/voyager-thumb.webp",
+    "category": "Grow with SAP",
+    "industry": "Generic",
+    "date": "Jan. 06, 2026",
+    "url": "/grow-with-sap-ai-ready-cloud-erp/",
+    "title": "Grow with SAP: Your Fast-Track Ticket to an AI-First Tomorrow",
+    "alt": "Grow with SAP AI-ready cloud ERP for an AI-first business future",
+    "description": "According to McKinsey, more than 70 percent of organizations have already experimented with GenAI, and one in three expects AI to reshape core operations within the next three years."
+  },
+  {
     "id": 68,
     "image": "/images/blog/enterprise-growth-strategy-thumbnail.webp",
     "category": "Rise with SAP",
@@ -87,7 +98,7 @@ const latestBlogs = [
     "description": "Trust is the filter that determines who even makes it onto the shortlist. In enterprise SAP programs, credibility is not a soft factor. It directly impacts risk, governance, and long-term value.With this blog, we focus on how enterprises assess trust and credibility in SAP consulting companies during the pre-selection stage, before formal evaluation and contracting begin."
   },
   {
-    "id": 66, 
+    "id": 66,
     "image": "/images/blog/business-growth-journey-thumbnail.webp",
     "category": "Salesforce Consulting",
     "industry": "Generic",
