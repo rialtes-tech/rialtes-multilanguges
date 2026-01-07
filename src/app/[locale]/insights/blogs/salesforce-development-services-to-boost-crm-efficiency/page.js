@@ -125,17 +125,16 @@ export default function Page() {
                                                     className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.hereAre }}
                                                 />
-                                            <ul className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-2">
-                                               {data.list2.map((item, i) => (
-                                                  <li key={i}>
-                                                         <h4 className="inline-block font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                                                          {item.title}
-                                                        </h4>:{" "}
-                                                        {item.description}
-                                                            </li>
-                                                              ))}
-                                                    </ul>
-                                                   <p
+                                                <ul className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-2">
+                                                    {data.list2.map((item, i) => (
+                                                        <li key={i}>
+                                                            <h4 className="inline-block font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
+                                                                {item.title}
+                                                            </h4>:{" "}
+                                                            {item.description}
+                                                        </li>
+                                                    ))}
+                                                </ul>                                                <p
                                                     className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-8"
                                                     dangerouslySetInnerHTML={{ __html: data.thisisWhere }}
                                                 />
@@ -217,16 +216,16 @@ export default function Page() {
                                                     className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: data.desc }}
                                                 />
- <ul className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-2">
-          {data.list2.map((item, i) => (
-            <li key={i}>
-              <h4 className="inline-block font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
-                {item.title}
-              </h4>:{" "}
-             {item.description}
-            </li>
-          ))}
-        </ul>
+                                                <ul className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[34px] font-medium space-y-2">
+                                                    {data.list2.map((item, i) => (
+                                                        <li key={i}>
+                                                            <h3 className="inline-block font-bold 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]">
+                                                                {item.title}
+                                                            </h3>:{" "}
+                                                            {item.description}
+                                                        </li>
+                                                    ))}
+                                                </ul>
                                             </div>
                                         )
                                     })

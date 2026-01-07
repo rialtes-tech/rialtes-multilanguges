@@ -26,7 +26,7 @@ export default function Page() {
                 <div className="custom-container">
                     <div className="grid md:grid-cols-12 grid-cols-1">
                         <div className="4xl:col-span-10 lg:col-span-9 2xl:col-span-7 md:col-span-9 col-span-12">
-                            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
+                            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] ">
                                 {t('criticalChTitle')}
                             </h2>
                         </div>
@@ -52,10 +52,10 @@ export default function Page() {
                                 </div>
                                 {/* Text Content */}
                                 <div className="order-3">
-                                    <h2 className="xl:w-[90%] 4xl:text-[42px] xl:text-[33px] text-[28px] xl:font-bold font-medium mb-6 lg:mt-[46px] mt-[36px] leading-tight sm:w-[80%] lg:w-full">
+                                    <h2 className="xl:w-[90%] 4xl:text-[42px] xl:text-[36px] text-[28px] xl:font-bold font-medium mb-6 lg:mt-[46px] mt-[36px] leading-tight sm:w-[80%] lg:w-full">
                                         {challenge.title}
                                     </h2>
-                                    <UnorderedList arrName={challenge.points} ulClassName="list-disc lg:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[18px] text-[16px] lg:mt-[46px] leading-tight mt-[25px]" liClassName="" />
+                                    <UnorderedList arrName={challenge.points} ulClassName="list-disc lg:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] lg:mt-[46px] leading-tight mt-[25px]" liClassName="" />
                                 </div>
                             </div>
                             <div className="lg:col-span-1 col-span-12 order-4 lg:order-2"></div>
@@ -113,11 +113,11 @@ export default function Page() {
                 <div className="h-full relative custom-container">
                     <div className={`grid xl:grid-cols-12 grid-cols-1 xl:gap-20 xl:mt-20 ${(frActive || esActive) ? "md:w-[80%] xl:w-full" : ""}`}>
                         <div className={`col-span-12 sm:pr-5 ${(frActive || esActive) ? "4xl:col-span-7 xl:col-span-8" : "4xl:col-span-7 xl:col-span-6"}`}>
-                            <h3 className={`text-white xl:text-[24px] text-[18px] leading-tight font-bold xl:mb-2 mb-5  ${(frActive || esActive) ? "mt-10 sm:mt-20 4xl:mt-16" : "mt-20 xl:mt-32"}`}>{t('headerTitle')}</h3>
-                            <h1 className="text-white leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
+                            <h3 className={`text-white 4xl:text-[24px] xl:text-[20px] text-[18px] leading-tight font-bold xl:mb-2 mb-5  ${(frActive || esActive) ? "mt-10 sm:mt-20 4xl:mt-16" : "mt-20 xl:mt-32"}`}>{t('headerTitle')}</h3>
+                            <h1 className="text-white leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px]">
                                 {t('headerSubTitle')}
                             </h1>
-                            <h3 className={`4xl:text-[45px] xl:text-[33px] md:text-[18px] mt-5 text-white font-bold leading-tight xl:pr-0 ${(frActive || esActive) ? "pr-0 sm:pr-10" : "pr-16"}`}>{t('headerSubTitle2')}</h3>
+                            <h3 className={`4xl:text-[45px] xl:text-[36px] md:text-[26px] text-[22px] mt-5 text-white font-bold leading-tight xl:pr-0 ${(frActive || esActive) ? "pr-0 sm:pr-10" : "pr-8"}`}>{t('headerSubTitle2')}</h3>
                         </div>
                         <div className="xl:col-span-6 col-span-12">
                         </div>
@@ -128,15 +128,15 @@ export default function Page() {
             <section className="xl:mt-10 mt-4 custom-container">
                 <div className="grid xl:grid-cols-12 grid-cols-1">
                     <div className="xl:col-span-10 col-span-12 leading-tight font-medium">
-                        <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight mt-10">{t('pageDesc')} </p>
-                        <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight mt-5">{t('pageDesc2')} </p>
+                        <p className="text-[16px] xl:text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight mt-10">{t('pageDesc')} </p>
+                        <p className="text-[16px] xl:text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight mt-5">{t('pageDesc2')} </p>
                     </div>
                     <div className="xl:col-span-4 col-span-12">
                     </div>
                 </div>
             </section>
             {/* thought leadership section */}
-            <section className={`relative group overflow-hidden ${(frActive || esActive) ? "max-[385px]:h-[1100px] h-[900px] md:h-[700px] 4xl:h-[1060px]" : " h-[900px] md:h-[650px] "} 2xl:h-[960px] xl:h-[1000px] lg:h-[700px] sm:h-[850px] xl:mt-24 mt-16 text-white`}>
+            <section className={`relative group overflow-hidden ${(frActive || esActive) ? "max-[385px]:h-[1100px] h-[900px] md:h-[800px] 4xl:h-[1060px]" : " h-[900px] md:h-[740px] "} 2xl:h-[960px] xl:h-[1000px] lg:h-[700px] sm:h-[850px] xl:mt-24 mt-16 text-white`}>
                 <div className="md:block hidden">
                     <Image
                         src="/images/medical/female-doctor-reviewing-medical-records.webp"
@@ -160,14 +160,14 @@ export default function Page() {
                 <div className="custom-container absolute md:mt-[86px] lg:mt-[106px] max-md:bottom-[52px] md:bottom-auto">
                     <div className="grid md:grid-cols-12 grid-cols-1">
                         <div className="md:col-span-7 2xl:col-span-6 col-span-12">
-                            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:mt-10 mt-5">{t('thoughtTitle')}</h2>
-                            <h3 className="4xl:text-[42px] xl:text-[35px] text-[22px] xl:mt-5 mt-3 font-bold leading-tight xl:w-[90%]">
+                            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] xl:mt-10 mt-5">{t('thoughtTitle')}</h2>
+                            <h3 className="4xl:text-[42px] xl:text-[36px] md:text-[26px] text-[22px] xl:mt-6 mt-3 font-bold leading-tight xl:w-[90%]">
                                 {t('thoughtSubTitle')}
                             </h3>
-                            <p className="4xl:text-[22px] xl:text-[20px] text-[16px] mt-5 leading-tight">
+                            <p className="4xl:text-[22px] xl:text-[18px] md:text-[18px] text-[16px] xl:mt-7 mt-5 leading-tight">
                                 {t('thoughtDesc')}
                             </p>
-                            <UnorderedList arrName={thoughLeadershipData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[18px] text-[16px] mt-5 leading-tight" liClassName="" />
+                            <UnorderedList arrName={thoughLeadershipData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] mt-5 leading-tight" liClassName="" />
                         </div>
                     </div>
                 </div>
@@ -196,7 +196,7 @@ export default function Page() {
                     <div className={`relative p-6 md:p-12  ${(frActive || esActive) ? "4xl:w-[720px] 4xl:h-[500px] xl:w-[570px] xl:h-[367px]" : "4xl:w-[690px] 4xl:h-[430px] xl:w-[520px] xl:h-[367px]"}`}>
                         <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
                         <div className="relative bg-opacity-80 text-white z-10 xl:p-4 rounded-lg">
-                            <h2 className="4xl:text-[60px] xl:text-[42px] text-[26px] leading-tight">{t('whyPartnerTitle')}</h2>
+                            <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight">{t('whyPartnerTitle')}</h2>
                         </div>
                     </div>
                 </div>
@@ -204,7 +204,7 @@ export default function Page() {
                     <div className="custom-container grid grid-cols-1 gap-[21px] lg:gap-[32px] md:grid-cols-2 xl:grid-cols-3 text-black relative z-10">
                         {whyPartnerData.map((item, index) => (
                             <div key={index} className="bg-white xl:p-12 p-[40px] border-[1px] border-solid border-[#707070] hover:bg-[#D9F2FF] text-black sm:mx-auto sm:w-[80%] md:w-full">
-                                <h3 className="4xl:text-[24px] xl:text-[22px] text-[20px] font-bold leading-tight">{item}</h3>
+                                <h3 className="4xl:text-[24px] xl:text-[20px] text-[20px] font-bold leading-tight">{item}</h3>
                             </div>
                         ))}
                     </div>
@@ -239,24 +239,24 @@ export default function Page() {
                 <div className="text-white custom-container h-full relative">
                     <div className="grid grid-cols-12">
                         <div className="4xl:col-span-10 2xl:col-span-7 xl:col-span-8 lg:col-span-11 sm:col-span-11 col-span-12 xl:mt-[106px] mt-[52px]">
-                            <h2 className="leading-tight  4xl:text-[60px] xl:text-[42px] text-[26px]">{t('endTitle')}</h2>
+                            <h2 className="leading-tight  4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px]">{t('endTitle')}</h2>
                         </div>
                     </div>
                     <div className="grid xl:grid-cols-12 grid-cols-1 text-white xl:pt-20 pt-10">
                         <div className="xl:col-span-5 col-span-12">
-                            <h3 className="4xl:text-[40px] xl:text-[33px] text-[28px] font-bold leading-tight">{t('salesforceTitle')} </h3>
-                            <h2 className="4xl:text-[35px] xl:text-[25px] text-[22px] leading-tight mt-5 font-medium xl:font-normal">{t('salesforceSubTitle')}</h2>
-                            <UnorderedList arrName={salesforceLifeData} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight xl:mt-10 mt-5" liClassName="" />
+                            <h3 className="4xl:text-[42px] xl:text-[36px] text-[28px] font-bold leading-tight">{t('salesforceTitle')} </h3>
+                            <h2 className="4xl:text-[36px] xl:text-[26px]  text-[22px] leading-tight mt-5 font-medium xl:font-normal">{t('salesforceSubTitle')}</h2>
+                            <UnorderedList arrName={salesforceLifeData} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight xl:mt-10 mt-5" liClassName="" />
                         </div>
                         <div className="xl:col-span-2 col-span-12">
                         </div>
                         <div className="xl:col-span-5 col-span-12 mt-[72px] xl:mt-0">
-                            <h3 className="4xl:text-[40px]  xl:text-[33px] text-[28px] font-bold leading-tight">{t('sapTitle')} </h3>
-                            <h2 className="4xl:text-[35px] xl:text-[25px] text-[22px] leading-tight mt-5 font-medium xl:font-normal">{t('sapSubTitle')} </h2>
+                            <h3 className="4xl:text-[42px]  xl:text-[36px] text-[28px] font-bold leading-tight">{t('sapTitle')} </h3>
+                            <h2 className="4xl:text-[36px] xl:text-[26px] text-[22px] leading-tight mt-5 font-medium xl:font-normal">{t('sapSubTitle')} </h2>
                             <UnorderedList arrName={sapData} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight" liClassName="" />
                         </div>
                     </div>
-                    <button className="bg-white hover:bg-[#ffffff]  hover:text-[#134874] border-[1px] text-[20px] border-[solid] border-[#134874] my-[60px] font-semibold text-black py-3 px-8 transition duration-300 order-4">
+                    <button className="bg-white hover:bg-[#ffffff]  hover:text-[#134874] border-[1px] 4xl:text-[20px] xl:text-[16px] border-[solid] border-[#134874] my-[60px] font-semibold text-black py-3 px-8 transition duration-300 order-4 text-[16px] md:text-[18px]">
                         <Link   href={`/${locale}/contact-us`}>{t('learnMoreTitle')} </Link>
                     </button>
                 </div>
@@ -265,10 +265,10 @@ export default function Page() {
             <div className="xl:mt-[136px] mt-[56px] custom-container h-full relative">
                 <div className="grid xl:grid-cols-12 grid-cols-1">
                     <div className="3xl:col-span-8 lg:col-span-10 col-span-12">
-                        <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
-                            AI-Powered Transformation
+                        <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px]">
+                         {t("aiPoweredTitle1")}
                         </h2>
-                        <h3 className="4xl:text-[40px] xl:text-[30px] text-[22px] font-bold xl:mt-[35px] mt-[22px]">{t('aiPoweredTitle')}</h3>
+                        <h3 className="4xl:text-[40px] xl:text-[30px] md:text-[26px] text-[22px] font-bold xl:mt-[35px] mt-[22px] leading-tight">{t('aiPoweredTitle')}</h3>
                     </div>
                 </div>
             </div>
@@ -299,8 +299,8 @@ export default function Page() {
                         <div className="lg:col-span-6 col-span-12">
                         </div>
                         <div className="lg:col-span-6 lg:order-2 col-span-12 lg:mt-[92px] lg:mb-[123px] mt-[57px] mb-[95px] lg:mx-[61px] mx-[36px]">
-                            <h3 className="4xl:text-[40px] xl:text-[32px] text-[22px] leading-tight font-bold">{t('keyAiTitle')}</h3>
-                            <UnorderedList arrName={keyAiData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight mt-5" liClassName="" />
+                            <h3 className="4xl:text-[40px] xl:text-[32px] md:text-[26px] text-[22px] leading-tight font-bold">{t('keyAiTitle')}</h3>
+                            <UnorderedList arrName={keyAiData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight mt-5" liClassName="" />
                         </div>
                     </div>
                 </div>
@@ -330,8 +330,8 @@ export default function Page() {
                     </div>
                     <div className="grid lg:grid-cols-12 grid-cols-1 relative">
                         <div className="lg:col-span-7 col-span-12 lg:mt-[92px] lg:mb-[83px] mt-[57px] mb-[95px] lg:mx-[61px] mx-[36px]">
-                            <h3 className="4xl:text-[40px] xl:text-[32px] text-[22px] leading-tight font-bold">{t('benefitsAiTitle')}</h3>
-                            <UnorderedList arrName={benefitsofAi} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight mt-5" liClassName="" />
+                            <h3 className="4xl:text-[40px] xl:text-[32px] md:text-[26px] text-[22px] leading-tight font-bold">{t('benefitsAiTitle')}</h3>
+                            <UnorderedList arrName={benefitsofAi} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight mt-5" liClassName="" />
                         </div>
                     </div>
                 </div>
@@ -362,15 +362,15 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="lg:col-span-7 2xl:col-span-6 col-span-12 order-2 lg:order-1">
-                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] font-light mb-8 leading-tight mt-10 xl:mt-0">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] font-light mb-8 leading-tight mt-10 xl:mt-0">
                             {t('patientTitle')}
                         </h2>
                         <div className="xl:pr-12 pr-0">
-                            <h3 className="4xl:text-[40px] xl:text-[33px] text-[22px] font-bold leading-tight">
+                            <h3 className="4xl:text-[42px] xl:text-[36px] md:text-[26px] text-[22px] font-bold leading-tight">
                                 {t('patientSubTitle')}
                             </h3>
-                            <UnorderedList arrName={patientData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 mt-5 leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px]" liClassName="" />
-                            <p className="4xl:text-[26px] xl:text-[22px] text-[18px] xl:mt-[68px] mt-[50px] bg-[#0E3157] p-[24px] lg:p-[40px] text-white leading-tight w-[94%]">
+                            <UnorderedList arrName={patientData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 mt-5 leading-tight text-[16px] xl:text-[16px] md:text-[18px] 4xl:text-[20px]" liClassName="" />
+                            <p className="4xl:text-[26px] xl:text-[20px] md:text-[20px] text-[18px] xl:mt-[68px] mt-[50px] bg-[#0E3157] p-[24px] lg:p-[40px] text-white leading-tight w-[94%]">
                                 {t('patientDesc')}
                             </p>
                         </div>
@@ -391,11 +391,11 @@ export default function Page() {
                         />
                     </div>
                     <div className="lg:col-span-6 col-span-12 xl:pl-[55px]">
-                        <h2 className="4xl:text-[50px] xl:text-[39px] text-[26px] font-light mb-8 leading-tight mt-10 xl:mt-0">{t('integratedTitle')}</h2>
-                        <UnorderedList arrName={integratedData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px] xl:mt-5" liClassName="" />
+                        <h2 className="4xl:text-[50px] xl:text-[40px] md:text-[30px] text-[26px] font-light mb-8 leading-tight mt-10 xl:mt-0">{t('integratedTitle')}</h2>
+                        <UnorderedList arrName={integratedData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 leading-tight text-[16px] xl:text-[16px] md:text-[18px] 4xl:text-[20px] xl:mt-5" liClassName="" />
                     </div>
                 </div>
-                <p className="4xl:text-[26px] xl:text-[22px] text-[18px] bg-[#0E3157] xl:py-10 text-white xl:mt-[63px] mt-[35px] p-[24px] 2xl:mr-[40px]">{t('integratedDesc')}</p>
+                <p className="4xl:text-[26px] xl:text-[20px] md:text-[20px] text-[18px] bg-[#0E3157] xl:py-10 text-white xl:mt-[63px] mt-[35px] p-[24px] 2xl:mr-[40px]">{t('integratedDesc')}</p>
             </div>
             {/* mobile apps and remote device section */}
             <div className="xl:mt-[126px] mt-[54px] relative custom-container">
@@ -411,10 +411,10 @@ export default function Page() {
                                 className="h-full w-full transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:brightness-90 group-hover:saturate-150"
                             />
                         </div>
-                        <h2 className="mt-10 4xl:text-[50px] xl:text-[40px] text-[26px] leading-tight">{t('mobileTitle')}</h2>
-                        <h3 className="4xl:text-[38px] xl:text-[30px] text-[22px] xl:mt-10 mt-5 font-bold leading-tight">{t('mobileSubTitle')}</h3>
-                        <UnorderedList arrName={mobileData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[18px] 4xl:text-[20px] mt-5 leading-tight" liClassName="" />
-                        <p className="bg-[#068EDA] text-white 4xl:text-[26px] xl:text-[19px] text-[18px] p-[24px] xl:p-[30px] 4xl:p-[40px]  xl:mt-[56px] mt-[38px] leading-tight">{t('mobileDesc')}</p>
+                        <h2 className="mt-10 4xl:text-[50px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight">{t('mobileTitle')}</h2>
+                        <h3 className="4xl:text-[38px] xl:text-[30px] md:text-[26px] text-[22px] xl:mt-10 mt-5 font-bold leading-tight">{t('mobileSubTitle')}</h3>
+                        <UnorderedList arrName={mobileData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 text-[16px] xl:text-[16px] md:text-[18px] 4xl:text-[20px] mt-5 leading-tight" liClassName="" />
+                        <p className="bg-[#068EDA] text-white 4xl:text-[26px] xl:text-[20px] md:text-[20px] text-[18px] p-[24px] xl:p-[30px] 4xl:p-[40px]  xl:mt-[56px] mt-[38px] leading-tight">{t('mobileDesc')}</p>
                     </div>
                     <div className="lg:col-span-6 col-span-12 lg:mt-64 mt-16">
                         <div className="relative">
@@ -427,10 +427,10 @@ export default function Page() {
                                 className="h-full w-full transform transition-transform duration-500 group-hover:scale-110"
                             />
                         </div>
-                        <h2 className="mt-10 4xl:text-[47px] xl:text-[38px] text-[26px] leading-tight">{t('remoteTitle')}</h2>
-                        <h3 className="4xl:text-[40px] xl:text-[30px] text-[22px] xl:mt-10 mt-5 font-bold leading-tight">{t('remoteSubTitle')}</h3>
-                        <UnorderedList arrName={remoteDeviceData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight" liClassName="" />
-                        <p className="bg-[#068EDA] text-white 4xl:text-[26px] xl:text-[19px] text-[18px]  p-[24px] xl:p-[30px] 4xl:p-[40px]  xl:mt-[62px] mt-[38px] leading-tight">{t('remoteDesc')}</p>
+                        <h2 className="mt-10 4xl:text-[50px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight">{t('remoteTitle')}</h2>
+                        <h3 className="4xl:text-[38px] xl:text-[30px] md:text-[26px] text-[22px] xl:mt-10 mt-5 font-bold leading-tight">{t('remoteSubTitle')}</h3>
+                        <UnorderedList arrName={remoteDeviceData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 mt-5 text-[16px] xl:text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight" liClassName="" />
+                        <p className="bg-[#068EDA] text-white 4xl:text-[26px] xl:text-[20px] md:text-[20px] text-[18px]  p-[24px] xl:p-[30px] 4xl:p-[40px]  xl:mt-[62px] mt-[38px] leading-tight">{t('remoteDesc')}</p>
                     </div>
                 </div>
             </div>
@@ -461,24 +461,24 @@ export default function Page() {
                     </div>
                     <div className="grid lg:grid-cols-12 grid-cols-1 lg:mt-[61px] mt-[66px] text-white lg:gap-[60px]">
                         <div className="lg:col-span-6 col-span-12">
-                            <h2 className="4xl:text-[50px] xl:text-[40px] text-[26px] leading-tight">{t('salesforceAgentTitle')}</h2>
-                            <h3 className="4xl:text-[42px] xl:text-[32px] text-[26px] leading-tight xl:font-semibold">{t('salesforceAgentSubTitle')}</h3>
-                            <p className="4xl:text-[22px] xl:text-[18px] text-[16px] xl:mt-5 mt-8 font-normal leading-tight">{t('salesforceAgentDesc')}</p>
+                            <h2 className="4xl:text-[50px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight">{t('salesforceAgentTitle')}</h2>
+                            <h3 className="4xl:text-[42px] xl:text-[36px] text-[26px] leading-tight xl:font-semibold">{t('salesforceAgentSubTitle')}</h3>
+                            <p className="4xl:text-[22px] xl:text-[18px] md:text-[18px] text-[16px] xl:mt-5 mt-8 font-normal leading-tight">{t('salesforceAgentDesc')}</p>
                             <div className="xl:mt-10 mt-5">
-                                <button className="bg-white xl:text-[20px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-black py-3 px-8 transition duration-300 order-4 mt-6" aria-label="salesforce agentforce button">
+                                <button className="bg-white text-[16px] md:text-[18px] 4xl:text-[20px] xl:text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-black py-3 px-8 transition duration-300 order-4 mt-6" aria-label="salesforce agentforce button">
                                     <Link href={`/${locale}/solutions/artificial-intelligence/salesforce-agentforce-consulting`}>{t('knowMoreBtn')}</Link>
                                 </button>
                             </div>
                         </div>
                         <div className="lg:col-span-6 col-span-12">
-                            <h3 className="4xl:text-[30px] xl:text-[23px] text-[18px] xl:mt-5 mt-8 xl:font-semibold">{t('howAgentTitle')}</h3>
-                            <UnorderedList arrName={salesforceAgentData} ulClassName="list-disc leading-tight xl:space-y-4 marker:font-bold marker:text-2xl pl-5 font-medium  mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px]" liClassName="" />
+                            <h3 className="4xl:text-[30px] xl:text-[24px] md:text-[22px] text-[18px] xl:mt-5 mt-8 xl:font-semibold">{t('howAgentTitle')}</h3>
+                            <UnorderedList arrName={salesforceAgentData} ulClassName="list-disc leading-tight xl:space-y-4 marker:font-bold marker:text-2xl pl-5 font-medium  mt-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]" liClassName="" />
                         </div>
                     </div>
                 </div>
                 <div className="absolute sm:mt-[20px] lg:mt-[38px] xl:mt-0">
                     <div className="custom-container">
-                        <p className="4xl:text-[26px] xl:text-[23px] text-[18px] bg-[#068EDA] xl:py-[52px] xl:pl-[48px] p-[24px] text-white leading-tight font-normal">{t('salesforceAgentBlueBox')}</p>
+                        <p className="4xl:text-[26px] xl:text-[20px] md:text-[20px] text-[18px] bg-[#068EDA] xl:py-[52px] xl:pl-[48px] p-[24px] text-white leading-tight font-normal">{t('salesforceAgentBlueBox')}</p>
                     </div>
                 </div>
             </div>
@@ -507,16 +507,16 @@ export default function Page() {
                             />
                         </div>
                     </div>
-                    <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] text-white mt-10 leading-tight">{t('realTimeTitle')}</h2>
+                    <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] text-white mt-10 leading-tight">{t('realTimeTitle')}</h2>
                     <div className="grid lg:grid-cols-12 grid-cols-1 text-white mt-8 lg:gap-[60px]">
                         <div className="lg:col-span-6 col-span-12">
-                            <h3 className="4xl:text-[40px] xl:text-[34px] text-[26px] leading-tight font-bold">{t('realTimeSubTitle')}</h3>
-                            <p className="4xl:text-[22px] xl:text-[18px] text-[16px] mt-8 leading-tight">{t('realTimeDesc')}</p>
+                            <h3 className="4xl:text-[42px] xl:text-[36px] md:text-[28px] text-[26px] leading-tight font-bold">{t('realTimeSubTitle')}</h3>
+                            <p className="4xl:text-[22px] xl:text-[18px] md:text-[18px] text-[16px] mt-8 leading-tight">{t('realTimeDesc')}</p>
                         </div>
                         <div className="lg:col-span-6 col-span-12">
-                            <UnorderedList arrName={realTimeData} ulClassName="list-disc lg:space-y-4 marker:font-bold marker:text-2xl pl-5 mt-5 font-medium lg:mt-0 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight" liClassName="" />
+                            <UnorderedList arrName={realTimeData} ulClassName="list-disc lg:space-y-4 marker:font-bold marker:text-2xl pl-5 mt-5 font-medium lg:mt-0 text-[16px] xl:text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight" liClassName="" />
                             <div className="mt-5">
-                                <button className="bg-white xl:text-[20px] border-[1px] hover:text-[#134874] font-semibold text-black py-3 px-8 transition duration-300 order-4 mt-6" aria-label="real time know more button">
+                                <button className="bg-white 4xl:text-[20px] xl:text-[16px] border-[1px] hover:text-[#134874] font-semibold text-black py-3 px-8 transition duration-300 order-4 mt-6" aria-label="real time know more button text-[16px] md:text-[18px]">
                                     <Link href={`/${locale}/products/agentchat`}>{t('knowMoreBtn')}</Link>
                                    
                                 </button>
@@ -526,15 +526,15 @@ export default function Page() {
                 </div>
                 <div className="absolute md:mt-[80px] mt-[60px] 2xl:mt-[90px]">
                     <div className="custom-container">
-                        <p className="text-[18px] xl:text-[23px] 4xl:text-[25px] bg-[#068EDA] xl:p-[48px] p-[24px] text-white inline-block">
+                        <p className="text-[18px] md:text-[20px] xl:text-[20px] 4xl:text-[26px] bg-[#068EDA] xl:p-[48px] p-[24px] text-white inline-block">
                             {t('stayConnectedTitle')}
                         </p>
                     </div>
                 </div>
             </div>
             {/* Contact Form */}
-            <div className="xl:mt-16 mt-10 custom-container text-black py-20">
-                <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} className={"max-w-[70rem] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[70%] 4xl:w-full"} />
+            <div className="xl:mt-16 mt-14 custom-container text-black py-20">
+                <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} className={"max-w-[70rem] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] xl:w-[70%] 4xl:w-full"} />
             </div>
         </div>
     );

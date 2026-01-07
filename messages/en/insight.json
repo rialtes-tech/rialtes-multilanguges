@@ -248,6 +248,8 @@
       "SAP SuccessFactors",
       "Managed Services",
       "Salesforce Automotive Cloud",
+      "Rise with SAP",
+      "Grow with SAP",
       "Others"
     ],
     "slides": [
@@ -298,7 +300,18 @@
     ],
     "latestBlogs": [
       {
-        "id": 67,
+        "id": 69,
+        "image": "/images/blog/enterprise-growth-strategy-thumbnail.webp",
+        "category": "Rise with SAP",
+        "industry": "Generic",
+        "date": "Jan. 05, 2026",
+        "url": "/rise-with-sap-erp-transformation-strategy/",
+        "title": "Why ERP Transformation Challenges Are Forcing Enterprises to Rethink Their Strategy",
+        "alt": "Business leader on a path symbolizing enterprise growth and digital transformation",
+        "description": "ERP modernization has been on boardroom agendas for years, yet success stories are still far fewer than expected. Leaders know transformation is necessary, but the path often turns bumpy."
+      },
+      {
+        "id": 68,
         "image": "/images/blog/strategic-partnership-digital-connection-thumbnail.webp",
         "category": "SAP Consulting",
         "industry": "Generic",
@@ -309,7 +322,7 @@
         "description": "Trust is the filter that determines who even makes it onto the shortlist. In enterprise SAP programs, credibility is not a soft factor. It directly impacts risk, governance, and long-term value.With this blog, we focus on how enterprises assess trust and credibility in SAP consulting companies during the pre-selection stage, before formal evaluation and contracting begin."
       },
       {
-        "id": 66,
+        "id": 67,
         "image": "/images/blog/business-growth-journey-thumbnail.webp",
         "category": "Salesforce Consulting",
         "industry": "Generic",
@@ -320,7 +333,7 @@
         "description": "Salesforce has established itself as the enterprise CRM of record. But for many companies, it still falls short of becoming a true growth engine. The gap rarely comes down to features. It comes down to strategy."
       },
       {
-        "id": 68,
+        "id": 66,
         "image": "/images/blog/salesforce-consulting-cluster-2.2_blog-thumb.webp",
         "category": "Salesforce Consulting",
         "industry": "Generic",
@@ -1169,7 +1182,7 @@
       },
       {
         "id": 6,
-      "imgSrc": "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
+        "imgSrc": "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
         "category": "Automotive",
         "date": "Jun. 30, 2025",
         "url": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/",
@@ -1188,16 +1201,15 @@
         "description": "Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer."
       },
       {
-  "id": 4,
-  "imgSrc": "/images/case-studies/business-professionals-collaborating-laptop-modern-office-carousel.webp",
-  "category": "Automotive",
-  "date": "Jun. 03, 2025",
-  "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
-  "title": "Revolutionizing Dealer Management with Rialtes AutoSense",
-  "alt": "Professionals collaborating around a laptop in a modern office",
-  "description": "A renowned global automotive manufacturer, known for its cutting-edge vehicles, faced significant challenges with its outdated dealer portal."
-}
-
+        "id": 4,
+        "imgSrc": "/images/case-studies/business-professionals-collaborating-laptop-modern-office-carousel.webp",
+        "category": "Automotive",
+        "date": "Jun. 03, 2025",
+        "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
+        "title": "Revolutionizing Dealer Management with Rialtes AutoSense",
+        "alt": "Professionals collaborating around a laptop in a modern office",
+        "description": "A renowned global automotive manufacturer, known for its cutting-edge vehicles, faced significant challenges with its outdated dealer portal."
+      }
     ],
     "latestCaseStudyTitle": "Related Case Studies",
     "latestCaseStudy": [
@@ -1225,7 +1237,7 @@
         "id": 14,
         "image": "/images/case-studies/automotive-robotic-assembly-line-car-manufacturing-thumbnail.webp",
         "industry": "Automotive",
-        "date": "Jun. 30, 2025", 
+        "date": "Jun. 30, 2025",
         "url": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/",
         "title": "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
         "alt": "Illustration showing AutoSense warranty management modules for automotive operations",

@@ -10360,5 +10360,209 @@
         "blogTopic": "Conseil SAP",
         "blogTitle": "Ce qui rend les sociétés de conseil SAP dignes de confiance pour les engagements d’entreprise",
         "faqTitle": "FAQ : Confiance et crédibilité dans le conseil SAP"
+    },
+    "voyagerERP": {
+        "schemaData": {},
+        "mainData": [
+            "La modernisation des ERP figure à l’ordre du jour des comités de direction depuis des années, mais les réussites restent bien moins nombreuses que prévu. Les dirigeants savent que la transformation est nécessaire, mais le parcours est souvent semé d’embûches. Gartner indique que 55 % des projets ERP ne respectent pas leur business case initial, tandis que McKinsey souligne que 70 % des initiatives de transformation digitale stagnent ou n’atteignent pas l’échelle au-delà des pilotes. Les causes se répètent : dette technique héritée, personnalisations qui bloquent la flexibilité, coûts de mise en œuvre qui explosent et lente progression vers la création de valeur métier.",
+            "Les entreprises se posent désormais les bonnes questions.\n Pas « Devons-nous moderniser ? »\n Mais « Comment nous transformer sans répéter les erreurs de la dernière décennie ? »",
+            "Ce changement d’état d’esprit pousse les organisations à réévaluer leur stratégie ERP, à dépasser les mises à niveau fragmentées et à rechercher une approche guidée et orientée résultats. C’est précisément là que RISE with SAP devient un point d’inflexion."
+        ],
+        "faqData": [
+            {
+                "question": "Qu’est-ce que RISE with SAP ?",
+                "answer": "Un programme de transformation qui fournit SAP S/4HANA Cloud, l’infrastructure, les outils et les services dans un contrat unique, aidant les entreprises à moderniser leur ERP avec prévisibilité et rapidité."
+            },
+            {
+                "question": "Comment RISE réduit-il les risques des projets ERP ?",
+                "answer": "En permettant l’adoption fit-to-standard, les principes de clean core, des contrôles de gouvernance et des méthodologies guidées qui évitent la surpersonnalisation et l’escalade des coûts."
+            },
+            {
+                "question": "Pourquoi ne pas simplement mettre à niveau l’ERP existant ?",
+                "answer": "Les mises à niveau traditionnelles conservent la complexité des ERP hérités, tandis que RISE permet une modernisation via l’automatisation, l’innovation cloud et l’extensibilité future par l’IA."
+            },
+            {
+                "question": "RISE with SAP prend-il en charge les modèles hybrides et multicloud ?",
+                "answer": "Oui. Il prend en charge des hyperscalers comme AWS, Azure et Google Cloud Platform, offrant flexibilité et efficacité de déploiement à l’échelle mondiale."
+            },
+            {
+                "question": "Qu’est-ce qui fait de Rialtes un partenaire d’implémentation solide ?",
+                "answer": "Une expertise sectorielle approfondie, des professionnels SAP certifiés et des capacités de delivery globales garantissant un impact opérationnel réel."
+            }
+        ],
+        "legacyData": [
+            {
+                "title": "Le problème des ERP hérités que plus personne ne peut ignorer",
+                "desc": [
+                    "De nombreux systèmes ERP ont parfaitement rempli leur rôle à une époque. Ils assuraient des processus structurés, contrôlés et conformes. Mais aujourd’hui, l’entreprise évolue différemment : plus vite, de manière interconnectée, axée sur les données et pilotée par l’IA."
+                ],
+                "descc": "Les ERP hérités peinent dans ce contexte, et voici les symptômes",
+                "list": [
+                    "Chaque nouvelle intégration ressemble à un bricolage",
+                    "Les rapports prennent des jours car les données sont cloisonnées",
+                    "Les personnalisations se cassent lors des mises à jour",
+                    "Les équipes s’appuient sur des tableurs pour compenser les lacunes du système",
+                    "Les initiatives d’innovation sont bloquées par des contraintes techniques"
+                ],
+                "desc2": "Un système conçu pour hier ralentit une entreprise construite pour demain.",
+                "desc3": "Cette stagnation est coûteuse. IDC estime que les entreprises mondiales perdent des milliers de milliards chaque année à cause des inefficacités de processus et des systèmes obsolètes. Les entreprises ne peuvent pas rester agiles si leur cœur fonctionne encore comme en 2008."
+            }
+        ],
+        "whyErpData": [
+            {
+                "title": "Pourquoi les transformations ERP échouent",
+                "desc": [
+                    "Lorsque la transformation échoue, ce n’est que rarement à cause du logiciel. Il s’agit plutôt de l’exécution, de la gouvernance et de l’état d’esprit qui pilote la modernisation.",
+                    "Les schémas d’échec les plus courants ressemblent à ceci :"
+                ],
+                "list": [
+                    {
+                        "title": "Surpersonnalisation qui détruit la flexibilité",
+                        "desc": "Les entreprises répliquent des processus anciens au lieu d’adopter des bonnes pratiques standardisées. Cela rend les mises à jour douloureuses, coûteuses et risquées."
+                    },
+                    {
+                        "title": "Dérive du périmètre et dépassements de coûts",
+                        "desc": "Les projets commencent avec clarté, mais prennent rapidement de l’ampleur. Sans garde-fous ni gouvernance, les délais s’allongent et les budgets explosent."
+                    },
+                    {
+                        "title": "Technologie d’abord, métier ensuite",
+                        "desc": "Les implémentations se concentrent souvent sur la migration IT plutôt que sur la création de valeur. Résultat : un nouveau système, mais les mêmes inefficacités."
+                    },
+                    {
+                        "title": "La conduite du changement reléguée au second plan",
+                        "desc": "Les collaborateurs résistent aux nouveaux processus lorsqu’ils ne comprennent pas le « pourquoi ». L’adoption utilisateur devient alors le principal obstacle."
+                    }
+                ],
+                "subtitle": "Pourquoi les projets ERP échouent",
+                "subList": [
+                    "Surpersonnalisation",
+                    "Dérive du périmètre",
+                    "Faible adoption"
+                ],
+                "desc2": "La leçon est claire : la transformation a besoin de structure, pas seulement de licences logicielles."
+            }
+        ],
+        "riseData": [
+            {
+                "title": "RISE with SAP : une manière plus intelligente de transformer, pas seulement de remplacer l’ERP",
+                "desc": [
+                    "RISE with SAP a été conçu pour répondre précisément à ce défi des grandes entreprises.",
+                    "Il s’agit d’un modèle de transformation métier en tant que service, combinant SAP S/4HANA Cloud, l’infrastructure, les outils, les accélérateurs et le support dans une offre unique. Plutôt que de gérer seuls la modernisation de l’ERP, les entreprises bénéficient d’un parcours managé, guidé et orienté résultats."
+                ],
+                "descc": "Qu’est-ce qui rend RISE différent ?",
+                "list": [
+                    "Un contrat unique pour l’ERP, le cloud, l’infrastructure et les outils",
+                    "L’approche clean core réduit le poids des personnalisations",
+                    "Un time-to-value plus rapide grâce à l’adoption fit-to-standard",
+                    "Une base prête pour l’IA avec l’extensibilité SAP BTP",
+                    "Automatisation, analytique et innovation continue intégrées",
+                    "Une architecture compatible avec les mises à niveau, conçue pour l’agilité à long terme"
+                ],
+                "desc2": "Les entreprises n’installent pas seulement un logiciel. Elles pérennisent leurs opérations."
+            }
+        ],
+        "howRiseData": [
+            {
+                "title": "Comment RISE with SAP aide les entreprises à s’affranchir de la gravité des systèmes hérités",
+                "desc": "Voyons à quoi ressemble une transformation lorsqu’elle est correctement exécutée.",
+                "list": [
+                    {
+                        "title": "Migrer vers SAP S/4HANA en toute confiance",
+                        "desc": "Les entreprises disposent d’une feuille de route claire, de l’évaluation jusqu’au go-live. La complexité héritée est démêlée, les processus sont rationalisés et la transition est structurée plutôt que chaotique."
+                    },
+                    {
+                        "title": "Fonctionner sur un clean core plutôt que sur un ERP surpersonnalisé",
+                        "desc": "L’adoption des meilleures pratiques sectorielles réduit la dette de code et rend les futures mises à jour simples et fluides."
+                    },
+                    {
+                        "title": "Automatiser plutôt que gérer des urgences",
+                        "desc": "Grâce à l’IA intégrée, aux workflows et à l’analytique, les équipes passent moins de temps à résoudre des problèmes et plus de temps à améliorer la performance."
+                    },
+                    {
+                        "title": "Innover en continu",
+                        "desc": "Les mises à jour trimestrielles apportent de nouvelles fonctionnalités d’automatisation, de conformité et d’intelligence sans interruption de service."
+                    }
+                ],
+                "desc2": "RISE with SAP = Migration + Innovation + Accélération",
+                "list2": [
+                    "Un contrat, une plateforme",
+                    "Processus standardisés",
+                    "Automatisation et analytique intégrées",
+                    "ERP cloud toujours à jour"
+                ]
+            }
+        ],
+        "commonData": [
+            {
+                "title": "Là où RISE with SAP est le plus pertinent",
+                "desc": [
+                    "Ce n’est pas uniquement pour la modernisation IT. C’est pour les organisations qui cherchent à créer un avantage métier durable.",
+                    "Idéal pour :"
+                ],
+                "list": [
+                    "Les entreprises planifiant une modernisation complète de leur cœur digital",
+                    "Les organisations avec une forte dette de personnalisation",
+                    "Les groupes internationaux nécessitant une standardisation entre régions",
+                    "Les entreprises se préparant à l’IA, à l’automatisation et aux extensions BTP",
+                    "Les sociétés lassées des coûts élevés de maintenance et de mise à niveau"
+                ],
+                "desc2": "Si la transformation exige clarté et rapidité plutôt qu’incertitude, RISE est la voie à suivre."
+            },
+            {
+                "title": "Les résultats métier qui comptent pour la direction",
+                "desc": [
+                    "La véritable valeur se mesure dans les résultats"
+                ],
+                "list": [
+                    "Une modernisation plus rapide par rapport aux reconstructions ERP sur plusieurs années",
+                    "Une réduction des charges opérationnelles et d’infrastructure",
+                    "Une standardisation et une gouvernance globales des processus",
+                    "Moins de perturbations liées à la maintenance et aux mises à jour",
+                    "Une meilleure rapidité de reporting et une confiance accrue dans la prise de décision",
+                    "Une base prête pour l’IA, l’automatisation et une croissance pilotée par les données"
+                ],
+                "desc2": "C’est ainsi que les entreprises sortent de la stagnation ERP pour évoluer vers une transformation continue."
+            }
+        ],
+        "howRialtesData": [
+            {
+                "title": "Comment Rialtes délivre des transformations RISE with SAP réussies",
+                "desc": [
+                    "La technologie seule ne garantit pas les résultats ; le partenaire qui conduit la transformation, oui.",
+                    "Chez Rialtes, nous aidons les entreprises à adopter et à faire évoluer SAP S/4HANA <a href='https://www.rialtes.com/fr/services/business-transformation/rise-with-sap-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>via RISE with SAP avec une approche<a/> fondée sur la gouvernance, la prévisibilité et des livrables métier mesurables."
+                ],
+                "subtitle": "Notre méthodologie garantit le succès sans chaos :",
+                "list": [
+                    {
+                        "title": "Découverte et cartographie de la valeur",
+                        "desc": "Identifier les points de douleur, les écarts de maturité et les résultats métier."
+                    },
+                    {
+                        "title": "Adoption fit-to-standard",
+                        "desc": "S’appuyer sur les meilleures pratiques plutôt que de réinventer les processus."
+                    },
+                    {
+                        "title": "Construction clean core et migration des données",
+                        "desc": "Maintenir des systèmes stables, évolutifs et faciles à intégrer."
+                    },
+                    {
+                        "title": "Activation de l’automatisation et de l’IA",
+                        "desc": "Introduire des workflows, des tableaux de bord analytiques et des opérations en libre-service."
+                    },
+                    {
+                        "title": "Modèle d’amélioration continue",
+                        "desc": "Support post go-live, suivi des KPI et planification de la feuille de route d’innovation."
+                    }
+                ],
+                "subtitle2": "Modèle de delivery RISE de Rialtes"
+            }
+        ],
+        "bannerAlt": "Dirigeant d’entreprise sur un chemin symbolisant la croissance et la transformation digitale",
+        "blogTitle": "Pourquoi les défis de la transformation ERP obligent les entreprises à repenser leur stratégie",
+        "legacyAlt": "Défis des ERP hérités incluant des mises à niveau lentes, des intégrations coûteuses et des silos de données",
+        "discoverAlt": "Flux de processus montrant les étapes découvrir, définir, déployer, automatiser, optimiser et innover",
+        "faqTitle": "FAQs : Modernisation de l’ERP avec RISE with SAP",
+        "seoTitle": "Pourquoi RISE with SAP est la clé du succès de la modernisation ERP | Rialtes",
+        "seoDescription": "Découvrez comment RISE with SAP aide les entreprises à moderniser leur ERP avec rapidité, gouvernance et résultats mesurables afin de rester compétitives dans une ère numérique."
     }
 }
