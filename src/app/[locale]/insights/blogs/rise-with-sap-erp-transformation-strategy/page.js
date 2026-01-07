@@ -19,14 +19,12 @@ export default function Page() {
     const currUrl = useUrl()
     const t = useTranslations("voyagerERP");
     const locale = useLocale();
-    const blogsContent = changeLocalization(locale, {
+    const blogsContent = changeLocalization(locale, {/*  */
         en: enContent,
         es: esContent,
         fr: frContent,
     });
-    const { mainData, faqData, legacyData, whyErpData, riseData, howRiseData, commonData, howRialtesData } = blogsContent.voyagerERP
-
-    const schemaData = {}
+    const { schemaData, mainData, faqData, legacyData, whyErpData, riseData, howRiseData, commonData, howRialtesData } = blogsContent.voyagerERP
 
     return (
         <section className="min-h-screen">
@@ -109,7 +107,7 @@ export default function Page() {
                                                 <Image
                                                     src="/images/blog/legacy-erp-reality-check.webp"
                                                     alt={t("legacyAlt")}
-                                                    className="4xl:w-[600px] w-full h-full"
+                                                    className="xl:w-[700px] w-full h-full"
                                                     height={0}
                                                     width={0}
                                                     priority
