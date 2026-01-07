@@ -14,7 +14,7 @@ export default function Page() {
 
     const mainData = [
         "If there’s one thing the market is signaling loudly, it is that AI is already reshaping industries, rewriting workflows, and rewarding companies that leap early. But here’s the catch: AI doesn’t thrive on fragmented systems, legacy processes, or scattered data. It needs structure, standardization, and a clean core to build on.",
-        "According to McKinsey, more than 70 percent of organizations have already experimented with GenAI, and one in three expects AI to reshape core operations within the next three years. Gartner predicts that 80 percent of enterprises will shift from legacy to cloud-centric ERP by 2027, driven by the need for data standardization, automation, and connected business processes. Yet, most companies still struggle with fragmented systems and outdated workflows, making AI deployment slow, expensive, and unreliable. The reality is simple: AI only creates value when the underlying ERP is modern, clean, and integrated.",
+        "<a href='https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>According to McKinsey</a> , more than 70 percent of organizations have already experimented with GenAI, and one in three expects AI to reshape core operations within the next three years. Gartner predicts that 80 percent of enterprises will shift from legacy to cloud-centric ERP by 2027, driven by the need for data standardization, automation, and connected business processes. Yet, most companies still struggle with fragmented systems and outdated workflows, making AI deployment slow, expensive, and unreliable. The reality is simple: AI only creates value when the underlying ERP is modern, clean, and integrated.",
         "This is where GROW with SAP lays the digital foundation needed to automate faster, scale confidently, and unlock intelligence across finance, supply chain, procurement, manufacturing, and beyond."
     ]
 
@@ -28,7 +28,7 @@ export default function Page() {
         }
 
     ]
-   
+
 
     const whatAreData = [
         {
@@ -168,7 +168,7 @@ export default function Page() {
                     ],
                 }
             ],
-            "desc2": "At Rialtes, we help organizations move to SAP S/4HANA Cloud under the GROW program and build an ERP foundation that’s automation-first, AI-ready, and future-proof by design. Whether you’re scaling, modernizing, or preparing for next-stage digital transformation, GROW with SAP gives you a clean starting point and the speed to get value early."
+            "desc2": "At Rialtes, we help organizations  <a href='https://www.rialtes.com/services/business-transformation/grow-with-sap-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>move to SAP S/4HANA Cloud under the GROW program</a> and build an ERP foundation that’s automation-first, AI-ready, and future-proof by design. Whether you’re scaling, modernizing, or preparing for next-stage digital transformation, GROW with SAP gives you a clean starting point and the speed to get value early."
         }
     ]
     const faqdata = [
@@ -360,10 +360,10 @@ export default function Page() {
 
                             <div className="xl:mt-[38px] mt-[33px]">
                                 {
-                                    mainData.map((data,index) => {
+                                    mainData.map((data, index) => {
                                         return (
                                             <p
-                                               key={`${data}-${index}`} 
+                                                key={`${data}-${index}`}
                                                 className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                 dangerouslySetInnerHTML={{ __html: data }}
                                             />
@@ -379,9 +379,9 @@ export default function Page() {
                                                 {data.title}
                                             </h2>
 
-                                            {data.desc.map((item,index) => (
+                                            {data.desc.map((item, index) => (
                                                 <p
-                                                   key={`${item}-${index}`}
+                                                    key={`${item}-${index}`}
                                                     className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                     dangerouslySetInnerHTML={{ __html: item }}
                                                 />
@@ -405,7 +405,7 @@ export default function Page() {
                                         className="mt-16 m-auto"
                                     />
                                 </div>
-                                <p className="mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">This alone shifts companies from reactive problem-solving to proactive decision-making.</p>
+                                <p className="xl:mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">This alone shifts companies from reactive problem-solving to proactive decision-making.</p>
 
                                 {
                                     commonTrustData.map((data, index) => (
@@ -425,13 +425,13 @@ export default function Page() {
                                         </div>
                                     ))
                                 }
-                                <div className="bg-[#EDEDED] p-6 mt-5">
+                                <div className="bg-[#EDEDED] p-6 mt-5 ml-8 4xl:w-[90%] 2xl:w-[80%] xl:w-[80%]">
                                     <img
                                         src="/images/blog/voygernext/infographic.png"
                                         alt="Two people shaking hands with glowing digital lines symbolizing partnership and collaboration."
 
                                     />
-                                    <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">A three-stage maturity roadmap showcasing evolution from manual processes to AI-powered decisions.</p>
+                                    <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] 4xl:pr-[8rem] 2xl:pr-[4rem]">A three-stage maturity roadmap showcasing evolution from manual processes to AI-powered decisions.</p>
                                 </div>
                                 {
                                     whatAreData.map((data, index) => (
@@ -471,9 +471,9 @@ export default function Page() {
                                         </div>
                                     ))
                                 }
-                                <table className="w-full border-collapse mt-10">
+                                <table className="4xl:w-[80%] 2xl:w-[85%] border-collapse mt-10">
                                     {/* Header */}
-                                    <thead className="bg-gray-100 border-b border-gray-300">
+                                    <thead className="bg-gray-100 border-b border-gray-500">
                                         <tr>
                                             <th className="text-left font-semibold p-4
               4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
@@ -490,17 +490,17 @@ export default function Page() {
                                         {tableData.map((row, index) => (
                                             <tr
                                                 key={`${row.function}-${index}`}
-                                                className="border-b border-gray-300 xl:table-row"
+                                                className="border-b border-gray-500 xl:table-row"
                                             >
                                                 <td
-                                                    className="p-4 xl:table-cell 
+                                                    className="p-4 xl:table-cell font-medium 
                 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                 >
                                                     {row.function}
                                                 </td>
 
                                                 <td
-                                                    className="p-4 xl:table-cell 
+                                                    className="p-4 xl:table-cell font-medium
                 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                 >
 
@@ -539,7 +539,7 @@ export default function Page() {
                                             <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc}</p>
                                             {
                                                 data.list.map((elem, index) => (
-                                                    <div key={`${elem.title}-${index}`} className="mt-8">
+                                                    <div key={`${elem.title}-${index}`} className="mt-8 pl-6">
                                                         <h3 className="4xl:text-[20px] 2xl:text-[19px] text-[20px] font-bold mt-8">{index + 1}. {elem.title}</h3>
                                                         <UnorderedList arrName={elem.desc} ulClassName={`md:pl-[24px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium`} />
                                                     </div>
