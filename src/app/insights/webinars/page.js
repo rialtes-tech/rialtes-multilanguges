@@ -554,11 +554,11 @@ export default function About() {
 
                     <div className="mb-4">
                       <p className="font-medium">{webinar.speaker}</p>
-                      <p className="text-sm text-gray-600">{webinar.position}</p>
+                      <p className="text-[15px] text-gray-600">{webinar.position}</p>
                     </div>
 
                     <div className="mt-auto">
-                      <button className="text-[#0092E0] hover:text-blue-700 font-medium text-sm">
+                      <button className="text-[#0092E0] font-semibold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]">
                         Open Now
                       </button>
                     </div>
