@@ -79,7 +79,7 @@ const CaseStudyCard = ({ casestudy }) => (
         </Link>
       </div>
       <Link href={casestudy.url}>
-        <p className="text-[#0092E0] font-bold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">Read More</p>
+        <p className="text-[#0092E0] font-semibold mt-5 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">Read More</p>
       </Link>
     </div>
   </div>
@@ -157,7 +157,7 @@ export default function Page() {
         <div className="relative h-full custom-container flex items-center">
           <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
             <div className="col-span-12">
-              <h2 className="text-black leading-tight 4xl:text-[70px]  xl:text-[50px]   text-[35px]">
+              <h2 className="text-black leading-tight 4xl:text-[70px] xl:text-[50px] text-[35px]">
                 News
               </h2>
             </div>
