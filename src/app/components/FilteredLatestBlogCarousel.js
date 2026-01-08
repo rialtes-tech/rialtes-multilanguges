@@ -10,6 +10,17 @@ export default function page({ url }) {
     const [isLastSlide, setIsLastSlide] = useState(false);
     const latestBlogs = [
         {
+          "id": 75,
+            "image": "/images/blog/fragmented-customer-journeys-feature-thumb.webp",
+            "category": "Salesforce Marketing Cloud",
+            "industry": "Generic", 
+            "date": "Jan. 08, 2026",
+            "url": "/fragmented-customer-journeys-salesforce-marketing-cloud/",
+            "title": "What Are Fragmented Customer Journeys and Why Do They Matter?",
+            "alt": "Hexagonal tiles with human icons on a blue background representing fragmented customer journeys",
+            "description": "Personalized marketing has been the promise for over a decade. Yet despite better tools, more data, and smarter platforms, customer engagement continues to fall short. "  
+        },
+        {
             "id": 69,
             "image": "/images/blog/voygernext/voyager-thumb.webp",
             "category": "Grow with SAP",
