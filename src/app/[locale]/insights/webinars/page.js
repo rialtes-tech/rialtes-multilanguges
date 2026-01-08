@@ -365,10 +365,12 @@ export default function About() {
                         transition: "transform 0.3s ease",
                         transform:
                           hoveredBlog === webinar.id ? "scale(1.05)" : "scale(1)",
-                      }}>
+                      }}
+                    >
+
                       <ImageComponent
                         imgPath={webinar.image}
-                        alt={webinar.altImage}
+                        alt={webinar.title}
                         width={0}
                         height={0}
                         sizes="100vw"

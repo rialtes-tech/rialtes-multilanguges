@@ -32,7 +32,7 @@ export default function ImageComponent({
                     <img
                         src="/images/common-img/loader.gif"
                         alt="Loading"
-                        className="w-16 h-16 object-contain"
+                        className="w-12 h-12 object-contain"
                     />
                 </div>
             ) : (
