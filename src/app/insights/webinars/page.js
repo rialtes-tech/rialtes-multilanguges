@@ -5,6 +5,7 @@ import { SlControlPlay } from "react-icons/sl";
 import Link from "next/link";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
+import ImageComponent from "@/app/components/ImageComponent";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -527,8 +528,9 @@ export default function About() {
                           hoveredBlog === webinar.id ? "scale(1.05)" : "scale(1)",
                       }}
                     >
-                      <Image
-                        src={webinar.image}
+
+                      <ImageComponent
+                        imgPath={webinar.image}
                         alt={webinar.title}
                         width={0}
                         height={0}
@@ -540,6 +542,8 @@ export default function About() {
                           objectFit: "cover",
                         }}
                         priority
+                        classes=""
+                        loaderClass="h-[320px] xl:h-[420px] 2xl:h-[400px]"
                       />
                     </div>
                   </div>

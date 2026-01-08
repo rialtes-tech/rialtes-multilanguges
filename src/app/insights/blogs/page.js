@@ -6,6 +6,7 @@ import Carousel from 'react-multi-carousel';
 import Link from "next/link";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
+import ImageComponent from "@/app/components/ImageComponent";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
@@ -935,8 +936,9 @@ const FeaturedCarousel = () => {
             <div key={slide.id} className="flex sm:flex-row flex-col md:mr-4 sm:mr-2 group items-stretch h-full">
               <div className="basis-full lg:h-[320px] xl:h-[420px] 2xl:h-[550px]">
                 <Link href={'/insights/blogs' + slide.url}>
-                  <Image
-                    src={slide.image}
+
+                  <ImageComponent
+                    imgPath={slide.image}
                     alt={slide.alt}
                     title={slide.title}
                     width={0}
@@ -944,7 +946,7 @@ const FeaturedCarousel = () => {
                     sizes="100vw"
                     style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                     priority
-                    className="object-cover w-full h-full"
+                    classes="object-cover w-full h-full"
                   />
                 </Link>
               </div>
@@ -967,14 +969,15 @@ const BlogCard = ({ blog }) => (
   <div className="border border-gray-300 hover:border-white w-full h-full flex flex-col group">
     <div className="h-[260px] 4xl:h-[300px] max-h-[300px]">
       <Link href={'/insights/blogs' + blog.url}>
-        <Image
-          src={blog.image}
+        <ImageComponent
+          imgPath={blog.image}
           alt={blog.alt}
           width={0}
           height={0}
           sizes="100vw"
           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
           priority
+          classes=""
         />
       </Link>
     </div>
