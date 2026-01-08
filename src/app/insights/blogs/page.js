@@ -6,6 +6,7 @@ import Carousel from 'react-multi-carousel';
 import Link from "next/link";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
+import ImageComponent from "@/app/components/ImageComponent";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
@@ -59,11 +60,33 @@ const allCategories = [
   "Managed Services",
   "Salesforce Automotive Cloud",
   "Rise with SAP",
+  "Salesforce Marketing Cloud",
   "Grow with SAP",
   "Others"
 ];
 
 const latestBlogs = [
+      {      "id": 70,
+            "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
+            "category": "Salesforce Life Sciences Cloud",
+            "industry": " Life Sciences",
+            "date": "Jan. 07, 2026",
+            "url": "/crm-as-growth-engine-life-sciences/",
+            "title": "Life Sciences CRM: Why Sales-Only Systems No Longer Work in Modern Healthcare",
+            "alt": "Doctor analyzing patient diagnostics on multiple screens displaying brain scans, skeletal images, and real-time vital signs",
+            "description": "For years, most life sciences organizations treated CRM as a sales enablement tool — a place to track accounts, schedule visits, manage samples, and record touchpoints. "
+        },
+  {
+"id": 75,
+    "image": "/images/blog/fragmented-customer-journeys-feature-thumb.webp",
+    "category": "Salesforce Marketing Cloud",
+    "industry": "Generic",
+    "date": "Jan. 08, 2026",
+    "url": "/fragmented-customer-journeys-salesforce-marketing-cloud/",
+    "title": "What Are Fragmented Customer Journeys and Why Do They Matter?",
+    "alt": "Hexagonal tiles with human icons on a blue background representing fragmented customer journeys",
+    "description": "Personalized marketing has been the promise for over a decade. Yet despite better tools, more data, and smarter platforms, customer engagement continues to fall short. "
+  },
   {
     "id": 69,
     "image": "/images/blog/voygernext/voyager-thumb.webp",
@@ -946,8 +969,9 @@ const FeaturedCarousel = () => {
             <div key={slide.id} className="flex sm:flex-row flex-col md:mr-4 sm:mr-2 group items-stretch h-full">
               <div className="basis-full lg:h-[320px] xl:h-[420px] 2xl:h-[550px]">
                 <Link href={'/insights/blogs' + slide.url}>
-                  <Image
-                    src={slide.image}
+
+                  <ImageComponent
+                    imgPath={slide.image}
                     alt={slide.alt}
                     title={slide.title}
                     width={0}
@@ -955,7 +979,7 @@ const FeaturedCarousel = () => {
                     sizes="100vw"
                     style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                     priority
-                    className="object-cover w-full h-full"
+                    classes="object-cover w-full h-full"
                   />
                 </Link>
               </div>
@@ -978,14 +1002,15 @@ const BlogCard = ({ blog }) => (
   <div className="border border-gray-300 hover:border-white w-full h-full flex flex-col group">
     <div className="h-[260px] 4xl:h-[300px] max-h-[300px]">
       <Link href={'/insights/blogs' + blog.url}>
-        <Image
-          src={blog.image}
+        <ImageComponent
+          imgPath={blog.image}
           alt={blog.alt}
           width={0}
           height={0}
           sizes="100vw"
           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
           priority
+          classes=""
         />
       </Link>
     </div>
