@@ -65,7 +65,7 @@ const latestCaseStudy = [
   },
   {
     id: 13,
-    image: "/images/case-studies/Adaptis_thumbnail.webp",
+    image: "/images/case-studies/adaptis-thumb.webp", 
     industry: "Manufacturing",
     date: "10 June 2025",
     url: "/insights/case-studies/warranty-claim-submission-using-experience-cloud/",
