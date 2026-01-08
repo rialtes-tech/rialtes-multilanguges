@@ -370,7 +370,7 @@ export default function Page() {
                                                 <Image
                                                     src="/images/blog/legacy-erp-reality-check.webp"
                                                     alt="Legacy ERP challenges including slow upgrades, costly integrations, and data silos"
-                                                    className="4xl:w-[600px] w-full h-full"
+                                                    className="xl:w-[700px] w-full h-full"
                                                     height={0}
                                                     width={0}
                                                     priority
