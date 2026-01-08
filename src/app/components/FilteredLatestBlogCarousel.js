@@ -9,6 +9,17 @@ export default function page({ url }) {
     const carouselRef = useRef(null);
     const [isLastSlide, setIsLastSlide] = useState(false);
     const latestBlogs = [
+         {
+            "id": 70,
+            "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
+            "category": "Salesforce Life Sciences Cloud",
+            "industry": " Life Sciences",
+            "date": "Jan. 07, 2026",
+            "url": "/crm-as-growth-engine-life-sciences/",
+            "title": "Life Sciences CRM: Why Sales-Only Systems No Longer Work in Modern Healthcare",
+            "alt": "Doctor analyzing patient diagnostics on multiple screens displaying brain scans, skeletal images, and real-time vital signs",
+            "description": "For years, most life sciences organizations treated CRM as a sales enablement tool — a place to track accounts, schedule visits, manage samples, and record touchpoints. "
+        },
         {
           "id": 75,
             "image": "/images/blog/fragmented-customer-journeys-feature-thumb.webp",
