@@ -227,6 +227,18 @@
     ],
     "latestBlogs": [
       {
+  "id": 70,
+  "image": "/images/blog/voygernext/voyager-thumb.webp",
+  "category": "GROW avec SAP",
+  "industry": "Générique",
+  "date": "06 janv. 2026",
+  "url": "/grow-with-sap-ai-ready-cloud-erp/",
+  "title": "GROW avec SAP : votre voie rapide vers un avenir axé sur l’IA",
+  "alt": "GROW avec SAP ERP cloud prêt pour l’IA pour un avenir métier axé sur l’IA",
+  "description": "Selon McKinsey, plus de 70 % des organisations ont déjà expérimenté la GenAI, et une sur trois s’attend à ce que l’IA transforme les opérations clés au cours des trois prochaines années."
+},
+
+      {
         "id": 69,
         "image": "/images/blog/enterprise-growth-strategy-thumbnail.webp",
         "category": "Rise with SAP",

@@ -221,7 +221,7 @@ const Home = () => {
                                 priority
                                 fetchPriority='high'
                                 width={500}
-                                height={500}
+                                height={500}    
                             />
                         </div>
 

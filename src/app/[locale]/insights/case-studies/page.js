@@ -122,7 +122,7 @@ export default function Page() {
                       const isFirst = index === 0;
                       const isLast = index === industries.length - 1;
                       return (
-                        <li
+                        <li 
                           key={industry}
                           className={`px-5 py-2 cursor-pointer ${isFirst ? 'pt-4' : ''} ${isLast ? 'pb-4' : ''}`}
                           onClick={() => filterCaseStudyByIndustry(industry)}

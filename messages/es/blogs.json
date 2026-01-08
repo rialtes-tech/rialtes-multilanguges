@@ -10508,5 +10508,216 @@
         "faqTitle": "FAQs: Modernización del ERP con RISE with SAP",
         "seoTitle": "Por qué RISE with SAP es clave para el éxito de la modernización del ERP | Rialtes",
         "seoDescription": "Descubra cómo RISE with SAP ayuda a las empresas a modernizar el ERP con velocidad, gobernanza y resultados medibles para mantenerse competitivas en una era digital."
+    },
+    "growWithSapERP": {
+        "mainData": [
+            "Si hay algo que el mercado está señalando con fuerza, es que la IA ya está transformando industrias, redefiniendo flujos de trabajo y recompensando a las empresas que actúan temprano. Pero aquí está el desafío: la IA no prospera con sistemas fragmentados, procesos heredados o datos dispersos. Necesita estructura, estandarización y un núcleo limpio sobre el cual construir.",
+            "Según McKinsey, más del 70 % de las organizaciones ya han experimentado con GenAI, y una de cada tres espera que la IA transforme las operaciones centrales en los próximos tres años. Gartner predice que el 80 % de las empresas migrará de ERP heredados a ERP centrados en la nube para 2027, impulsadas por la necesidad de estandarización de datos, automatización y procesos empresariales conectados. Sin embargo, la mayoría de las empresas aún lucha con sistemas fragmentados y flujos de trabajo obsoletos, lo que hace que la implementación de IA sea lenta, costosa y poco confiable. La realidad es simple: la IA solo crea valor cuando el ERP subyacente es moderno, limpio e integrado.",
+            "Aquí es donde GROW con SAP establece la base digital necesaria para automatizar más rápido, escalar con confianza y desbloquear inteligencia en finanzas, cadena de suministro, compras, manufactura y más."
+        ],
+        "whyTrustData": [
+            {
+                "title": "Por qué GROW con SAP es la plataforma de lanzamiento para una empresa inteligente",
+                "desc": [
+                    "La transición a un ERP moderno ya no es solo una actualización de TI. Es la columna vertebral de la innovación. La IA, el aprendizaje automático y la analítica avanzada dependen de la calidad y consistencia de los datos operativos.",
+                    "GROW con SAP ofrece procesos estandarizados, mejores prácticas de la industria y una pila nativa en la nube que elimina el desorden y te prepara para una transformación rápida."
+                ]
+            }
+        ],
+        "whatAreData": [
+            {
+                "title": "Lo que las empresas obtienen con GROW con SAP",
+                "desc": [
+                    "Cuando las empresas adoptan GROW con SAP, el impacto no es solo técnico. Se refleja en decisiones más rápidas, operaciones más fluidas y una planificación más segura para la siguiente fase de crecimiento."
+                ],
+                "list": [
+                    {
+                        "title": "Menor TCO que las implementaciones ERP tradicionales",
+                        "desc": "La implementación cloud-first elimina la carga de grandes inversiones en infraestructura y costos continuos de actualización. En lugar de mantener servidores y código personalizado año tras año, las empresas operan con un modelo de suscripción predecible y redirigen el capital ahorrado hacia la innovación."
+                    },
+                    {
+                        "title": "Tiempos de implementación más rápidos",
+                        "desc": "Gracias a que GROW con SAP ofrece mejores prácticas preconfiguradas por industria, las empresas no comienzan desde cero. Los equipos pueden salir en vivo en meses, no en años, acelerando el retorno de valor y reduciendo la fatiga del cambio organizacional."
+                    },
+                    {
+                        "title": "Procesos de mejores prácticas en lugar de flujos reinventados",
+                        "desc": "Obtienes plantillas de procesos probadas que ya funcionan para organizaciones globales. Finanzas cierra más rápido, las aprobaciones de compras se automatizan, las cadenas de suministro ganan visibilidad y las operaciones manuales basadas en hojas de cálculo desaparecen."
+                    },
+                    {
+                        "title": "Sistema siempre actualizado con innovaciones continuas en la nube",
+                        "desc": "No más ciclos de actualización disruptivos. Recibes mejoras trimestrales, nuevas funcionalidades y mejoras de rendimiento automáticamente en la nube."
+                    },
+                    {
+                        "title": "Visibilidad financiera y operativa en tiempo real",
+                        "desc": "Los paneles y análisis integrados brindan información instantánea sobre capital de trabajo, inventario, cuellos de botella y desempeño de pedidos."
+                    },
+                    {
+                        "title": "Base escalable lista para IA, aplicaciones BTP y automatización",
+                        "desc": "Una vez que el ERP central está limpio y estandarizado, la automatización se vuelve natural. Puedes extender fácilmente capacidades con SAP BTP, integrar copilotos de IA y diseñar flujos predictivos."
+                    }
+                ]
+            }
+        ],
+        "whoShouldConsider": [
+            {
+                "title1": "¿Quién debería considerar GROW con SAP?",
+                "title2": "ERP como la capa de inteligencia",
+                "desc": [
+                    "El ERP tradicional fue creado para almacenar transacciones.",
+                    "El ERP moderno está diseñado para aprender de ellas.",
+                    "GROW con SAP convierte el ERP en un motor de decisiones que combina datos operativos en tiempo real, analítica integrada y recomendaciones basadas en IA.",
+                    "Dónde se manifiesta la inteligencia:"
+                ]
+            }
+        ],
+        "tableData": [
+            {
+                "function": "Finanzas",
+                "useCase": "Predecir flujo de caja, detectar anomalías, automatizar cierres"
+            },
+            {
+                "function": "Cadena de suministro",
+                "useCase": "Pronosticar demanda, optimizar inventario, reducir desperdicio"
+            },
+            {
+                "function": "Ventas y servicio",
+                "useCase": "Motores de recomendación, cotizaciones automatizadas"
+            },
+            {
+                "function": "Manufactura",
+                "useCase": "Mantenimiento predictivo, insights IoT de planta"
+            },
+            {
+                "function": "RRHH",
+                "useCase": "Planificación de fuerza laboral, insights de productividad"
+            }
+        ],
+        "whoshouldlistCard": [
+            {
+                "desc": [
+                    "GROW con SAP está diseñado para organizaciones que desean escalar sin arrastrar limitaciones heredadas. Es ideal para empresas que evolucionan rápidamente, amplían sus líneas de productos, ingresan a nuevos mercados o digitalizan sus operaciones centrales por primera vez."
+                ],
+                "list": [
+                    {
+                        "title": "Empresas de tamaño medio que buscan capacidades de nivel empresarial",
+                        "desc": "Puede que aún no seas un gigante global, pero buscas el mismo nivel de control, transparencia y capacidades avanzadas que ofrecen los ERP empresariales, sin largos ciclos de implementación ni desarrollos excesivos a medida."
+                    },
+                    {
+                        "title": "Empresas de rápido crecimiento que se preparan para escalar globalmente",
+                        "desc": "Cuando el crecimiento es acelerado, los procesos manuales se convierten en cuellos de botella. GROW con SAP establece la estructura necesaria para el cumplimiento normativo, las operaciones multinacionales, futuras adquisiciones y la consistencia de procesos entre unidades de negocio."
+                    },
+                    {
+                        "title": "Organizaciones que migran desde ERP heredados o múltiples sistemas desconectados",
+                        "desc": "Si tus datos viven en diferentes herramientas, departamentos u hojas de cálculo, escalar se vuelve complejo. GROW unifica las operaciones en un único núcleo digital y elimina la complejidad paso a paso."
+                    },
+                    {
+                        "title": "Empresas que se preparan para la automatización impulsada por IA",
+                        "desc": "Para adoptar la IA de manera efectiva, los flujos de trabajo deben estar estandarizados, los datos limpios y los sistemas conectados. GROW con SAP construye esa base, haciendo que la incorporación posterior de automatización, analítica predictiva y copilotos de IA sea fluida y rentable."
+                    }
+                ]
+            }
+        ],
+        "howSalesforceData": [
+            {
+                "title": "Cómo Rialtes te ayuda a adoptar GROW con SAP con éxito",
+                "desc": [
+                    "Elegir el ERP correcto es crítico. Implementarlo correctamente lo es aún más.",
+                    "Te ayudamos a poner en marcha SAP S/4HANA Cloud a través de GROW con SAP con un enfoque estructurado:"
+                ],
+                "list": [
+                    {
+                        "title": "Evaluación y mapeo de procesos",
+                        "desc": [
+                            "Comprender flujos actuales y alinearlos con mejores prácticas SAP."
+                        ]
+                    },
+                    {
+                        "title": "Configuración del sistema y migración de datos",
+                        "desc": [
+                            "Migración estructurada con mínima interrupción."
+                        ]
+                    },
+                    {
+                        "title": "Estandarización sobre personalización",
+                        "desc": [
+                            "Adoptar procesos probados en lugar de complejidades heredadas."
+                        ]
+                    },
+                    {
+                        "title": "Diseño y habilitación de automatización",
+                        "desc": [
+                            "Configurar flujos, paneles y integraciones."
+                        ]
+                    },
+                    {
+                        "title": "Hoja de ruta de IA e innovación (12–36 meses)",
+                        "desc": [
+                            "Planificación de automatización futura y copilotos de IA."
+                        ]
+                    }
+                ],
+                "desc2": "En Rialtes, ayudamos a las organizaciones a adoptar SAP S/4HANA Cloud bajo el programa GROW y a construir una base ERP preparada para la automatización y la IA."
+            }
+        ],
+        "faqdata": [
+            {
+                "question": "¿Qué es GROW con SAP?",
+                "answer": "Una oferta empaquetada que permite a las empresas adoptar SAP S/4HANA Public Cloud rápidamente."
+            },
+            {
+                "question": "¿Por qué elegir GROW con SAP frente a ERP tradicional?",
+                "answer": "Reduce personalización, acelera el go-live y mantiene el núcleo limpio."
+            },
+            {
+                "question": "¿Cómo prepara GROW con SAP a las empresas para la IA?",
+                "answer": "Estandarizando procesos y datos para facilitar la adopción de IA."
+            },
+            {
+                "question": "¿Qué rol juega Rialtes?",
+                "answer": "Planificación, implementación, migración y hoja de ruta de IA."
+            },
+            {
+                "question": "¿Es adecuado para pymes?",
+                "answer": "Sí, está diseñado para empresas en crecimiento."
+            }
+        ],
+        "commonTrustData": [
+            {
+                "title": "Preparación del ERP para la IA",
+                "desc": [
+                    "Antes de que la IA pueda optimizar las cadenas de suministro, automatizar cuentas por pagar o pronosticar la demanda, necesita datos confiables y unificados. Los ERP tradicionales suelen tener dificultades en este aspecto porque arrastran años de código personalizado, soluciones temporales y sistemas aislados.",
+                    "GROW con SAP elimina esa complejidad. Obtienes un ERP estandarizado impulsado por SAP S/4HANA Cloud que garantiza que los datos estén estructurados, integrados y listos para las capas de inteligencia.",
+                    "Esto conduce a:"
+                ],
+                "list": [
+                    "Adopción más rápida de IA sin necesidad de reprovisionar la plataforma más adelante",
+                    "Analítica predictiva en lugar de reportes manuales",
+                    "Soporte automatizado para la toma de decisiones en finanzas, compras y operaciones",
+                    "Un camino claro hacia SAP BTP, IA generativa, copilotos Joule y futuros flujos de trabajo agenticos"
+                ]
+            }
+        ],
+        "standardizationData": [
+            {
+                "title": "La estandarización impulsa la automatización — y aquí es donde vive el verdadero ROI",
+                "desc": [
+                    "La automatización no comienza con bots o IA. Comienza con la estandarización de procesos para que los flujos de trabajo se ejecuten de la misma manera cada vez.",
+                    "GROW con SAP ofrece escenarios industriales predefinidos desde el primer momento. En lugar de pasar meses definiendo cómo debería funcionar el proceso de compras, las empresas pueden adoptar mejores prácticas comprobadas y automatizar desde el Día 1.",
+                    "Ejemplos de resultados que entregamos a nuestros clientes en Rialtes:"
+                ],
+                "list": [
+                    "Reducción de aprobaciones manuales mediante flujos de trabajo basados en reglas",
+                    "Conciliación y coincidencia automática de facturas",
+                    "Seguimiento de inventario en tiempo real con activadores automáticos de reposición",
+                    "Informes generados automáticamente para el cierre de fin de mes",
+                    "Flujos de compras sin intervención manual respaldados por portales de autoservicio"
+                ]
+            }
+        ],
+        "schemaData": {},
+        "blogTitle": "GROW con SAP: tu vía rápida hacia un mañana impulsado por la IA",
+        "faqTitle": "Preguntas frecuentes: GROW con SAP para obtener valor desde el inicio",
+        "tableHeadFunction": "Función",
+        "tableHeadUseCase": "Ejemplo de caso de uso de IA / insights"
     }
 }
