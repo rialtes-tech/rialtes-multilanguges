@@ -13,11 +13,12 @@ import frContent from '../../../../../messages/fr/insight.json';
 import { changeLocalization } from "../../components/changeLocalization";
 import useUrl from "@/app/[locale]/components/useUrl";
 import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
+import ImageComponent from "../../components/ImageComponent";
 
 
 export default function Page() {
- 
-  const currUrl = useUrl() 
+
+  const currUrl = useUrl()
   const t = useTranslations('caseStudy')
   const locale = useLocale();
   const caseStudyContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
@@ -25,17 +26,17 @@ export default function Page() {
 
   const CaseStudyCard = ({ casestudy }) => (
     <div className="border border-gray-300 hover:border-white w-full h-full flex flex-col group">
-      <div className="relative overflow-hidden">
+      <div className="relative overflow-hidden h-[260px] 4xl:h-[300px] max-h-[300px]">
         <Link href={casestudy.url}>
-          <Image
-            className="w-full transition-transform duration-300 hover:scale-84"
-            src={casestudy.image}
+          <ImageComponent
+            imgPath={casestudy.image}
             alt={casestudy.alt}
             width={0}
             height={0}
             sizes="100vw"
             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             priority
+            classes="w-full transition-transform duration-300 hover:scale-84"
           />
         </Link>
       </div>
@@ -176,12 +177,12 @@ export default function Page() {
   };
 
   const FeaturedCarousel = () => {
-      const carouselRef = useRef(null);
+    const carouselRef = useRef(null);
     const [isLastSlide, setIsLastSlide] = useState(false);
     const responsive = {
       desktop: {
         breakpoint: { max: 3000, min: 1024 },
-        items: 1, 
+        items: 1,
         partialVisibilityGutter: 200,
         slidesToSlide: 1,
       },
@@ -233,23 +234,23 @@ export default function Page() {
         </li>
       );
     };
-     const handleBeforeChange = (nextSlide, state) => {
-        const totalItems = state.totalItems;
-        const slidesToShow = state.slidesToShow;
+    const handleBeforeChange = (nextSlide, state) => {
+      const totalItems = state.totalItems;
+      const slidesToShow = state.slidesToShow;
 
-        const maxValidSlide = totalItems - slidesToShow;
+      const maxValidSlide = totalItems - slidesToShow;
 
-        setIsLastSlide(nextSlide >= maxValidSlide);
+      setIsLastSlide(nextSlide >= maxValidSlide);
     };
     useEffect(() => {
-        if (isLastSlide) {
-            const timer = setTimeout(() => {
-                carouselRef.current.goToSlide(0);
-                setIsLastSlide(false);
-            }, 2000);
+      if (isLastSlide) {
+        const timer = setTimeout(() => {
+          carouselRef.current.goToSlide(0);
+          setIsLastSlide(false);
+        }, 2000);
 
-            return () => clearTimeout(timer);
-        }
+        return () => clearTimeout(timer);
+      }
     }, [isLastSlide]);
 
     return (
@@ -265,10 +266,10 @@ export default function Page() {
             showDots={true}
             responsive={responsive}
             ssr={true}
-             partialVisible={!isLastSlide}
+            partialVisible={!isLastSlide}
             infinite={false}
             autoPlay={true}
-             beforeChange={handleBeforeChange}
+            beforeChange={handleBeforeChange}
             autoPlaySpeed={3000}
             keyBoardControl={true}
             customTransition="all .5s"
@@ -287,14 +288,15 @@ export default function Page() {
               <div key={slide.id} className="flex sm:flex-row flex-col md:mr-4 sm:mr-2 group items-stretch h-full">
                 <div className="basis-full lg:h-[320px] xl:h-[420px] 2xl:h-[500px]">
                   <Link href={slide.url}>
-                    <Image
-                      src={slide.imgSrc}
+                    <ImageComponent
+                      imgPath={slide.imgSrc}
                       alt={slide.alt}
                       width={0}
                       height={0}
                       sizes="100vw"
                       style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                       priority
+                      classes=""
                     />
                   </Link>
                 </div>

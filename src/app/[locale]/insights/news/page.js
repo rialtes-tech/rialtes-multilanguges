@@ -10,7 +10,7 @@ import enContent from '../../../../../messages/en/insight.json';
 import esContent from '../../../../../messages/es/insight.json';
 import frContent from '../../../../../messages/fr/insight.json';
 import { changeLocalization } from "../../components/changeLocalization";
-
+import ImageComponent from "../../components/ImageComponent";
 
 export default function Page() {
   const t = useTranslations('news')
@@ -22,15 +22,16 @@ export default function Page() {
     <div className="border border-[#707070] w-full h-full flex flex-col group">
       <div className="relative overflow-hidden">
         <Link href={casestudy.url}>
-          <Image
-            className="w-full transition-transform duration-300 hover:scale-105"
-            src={casestudy.image}
+          <ImageComponent
+            imgPath={casestudy.image}
             alt={casestudy.title}
             width={0}
             height={0}
             sizes="100vw"
             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+            loaderClass="h-[250px] xl:h-[280px] 2xl:h-[350px]"
             priority
+            classes="w-full transition-transform duration-300 hover:scale-105"
           />
         </Link>
       </div>
