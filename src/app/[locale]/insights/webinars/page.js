@@ -10,6 +10,7 @@ import enContent from '../../../../../messages/en/insight.json';
 import esContent from '../../../../../messages/es/insight.json';
 import frContent from '../../../../../messages/fr/insight.json';
 import { changeLocalization } from "../../components/changeLocalization";
+import ImageComponent from "../../components/ImageComponent";
 
 const webinars = [
 ];
@@ -18,7 +19,7 @@ export default function About() {
   const t = useTranslations('webinars')
   const locale = useLocale();
   const webinarsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { allWebinars,schemaData } = webinarsContent.webinars;
+  const { allWebinars, schemaData } = webinarsContent.webinars;
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isMobile, setIsMobile] = useState(false);
   const [isTablet, setIsTablet] = useState(false);
@@ -365,8 +366,8 @@ export default function About() {
                         transform:
                           hoveredBlog === webinar.id ? "scale(1.05)" : "scale(1)",
                       }}>
-                      <Image
-                        src={webinar.image}
+                      <ImageComponent
+                        imgPath={webinar.image}
                         alt={webinar.altImage}
                         width={0}
                         height={0}
@@ -378,6 +379,8 @@ export default function About() {
                           objectFit: "cover",
                         }}
                         priority
+                        classes=""
+                        loaderClass="h-[320px] xl:h-[420px] 2xl:h-[400px]"
                       />
                     </div>
                   </div>
