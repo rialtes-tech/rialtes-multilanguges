@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useState } from 'react';
 import 'react-multi-carousel/lib/styles.css';
 import Script from "next/script";
+import ImageComponent from "@/app/components/ImageComponent";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "CollectionPage",
@@ -53,17 +54,17 @@ const latestCaseStudy = [
 ];
 const CaseStudyCard = ({ casestudy }) => (
   <div className="border border-[#707070] w-full h-full flex flex-col group">
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-hidden h-[260px] 4xl:h-[300px] max-h-[300px]">
       <Link href={casestudy.url}>
-        <Image
-          className="w-full transition-transform duration-300 hover:scale-105"
-          src={casestudy.image}
+        <ImageComponent
+          imgPath={casestudy.image}
           alt={casestudy.title}
           width={0}
           height={0}
           sizes="100vw"
           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
           priority
+          classes="w-full transition-transform duration-300 hover:scale-105"
         />
       </Link>
     </div>

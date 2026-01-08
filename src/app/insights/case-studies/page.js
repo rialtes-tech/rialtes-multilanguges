@@ -8,6 +8,7 @@ import 'react-multi-carousel/lib/styles.css';
 import Carousel from 'react-multi-carousel';
 import Script from "next/script";
 import Seo from "@/app/components/Seo";
+import ImageComponent from "@/app/components/ImageComponent";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -198,17 +199,17 @@ const latestCaseStudy = [
 
 const CaseStudyCard = ({ casestudy }) => (
   <div className="border border-gray-300 hover:border-white w-full h-full flex flex-col group">
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-hidden h-[260px] 4xl:h-[300px] max-h-[300px]">
       <Link href={casestudy.url}>
-        <Image
-          className="w-full transition-transform duration-300 hover:scale-84"
-          src={casestudy.image}
+        <ImageComponent
+          imgPath={casestudy.image}
           alt={casestudy.alt}
           width={0}
           height={0}
           sizes="100vw"
           style={{ width: '100%', height: '100%', objectFit: 'cover' }}
           priority
+          classes="w-full transition-transform duration-300 hover:scale-84"
         />
       </Link>
     </div>
@@ -469,14 +470,15 @@ const FeaturedCarousel = () => {
             <div key={slide.id} className="flex md:flex-row flex-col md:basis-[95%] basis-[100%] border border-gray-300 hover:border-white xl:mr-12 mr-3 group max-sm:h-[700px] md:h-[600px] lg:h-full mb-[26px]">
               <div className="basis-full md:basis-2/3 lg:basis-4/3">
                 <Link href={slide.url}>
-                  <Image
-                    src={slide.image}
+                  <ImageComponent
+                    imgPath={slide.image}
                     alt={slide.alt}
                     width={0}
                     height={0}
                     sizes="100vw"
                     style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                     priority
+                    classes=""
                   />
                 </Link>
               </div>
