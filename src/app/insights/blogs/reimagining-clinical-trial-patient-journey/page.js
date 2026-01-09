@@ -359,7 +359,7 @@ export default function Page() {
                                         />
                                         {
                                             data.list.map((elem, id) => (
-                                                <div className={`grid lg:grid-cols-12 grid-cols-1 gap-[20px] mt-10 pb-[30px] border-b border-[#bfbdbd] ${id == 2 && "border-0"}`} key={id}>
+                                                <div className={`grid lg:grid-cols-12 grid-cols-1 gap-[20px] mt-10 pb-[30px] ${id == 2 ? "border-0" : "border-b border-[#bfbdbd]"}`} key={id}>
                                                     <div className="flex gap-5 lg:gap-[40px] lg:col-span-4 max-lg:items-center">
                                                         <div className="text-center 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] bg-[#1486E6] text-white pt-2 font-bold w-[50px] lg:h-[60px] lg:w-[70px]">
                                                             {id + 1}
