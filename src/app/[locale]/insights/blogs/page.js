@@ -11,6 +11,7 @@ import enContent from '../../../../../messages/en/insight.json';
 import esContent from '../../../../../messages/es/insight.json';
 import frContent from '../../../../../messages/fr/insight.json';
 import { changeLocalization } from "../../components/changeLocalization";
+import ImageComponent from "../../components/ImageComponent";
 
 
 export default function Page() {
@@ -23,8 +24,8 @@ export default function Page() {
     <div className="border border-gray-300 hover:border-white w-full h-full flex flex-col group">
       <div className="h-[260px] 4xl:h-[300px] max-h-[300px]">
         <Link href={'/insights/blogs' + blog.url}>
-          <Image
-            src={blog.image}
+          <ImageComponent
+            imgPath={blog.image}
             alt={blog.alt}
             title={blog.title}
             width={0}
@@ -32,6 +33,7 @@ export default function Page() {
             sizes="100vw"
             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             priority
+            classes=""
           />
         </Link>
       </div>
@@ -302,7 +304,7 @@ export default function Page() {
               <div key={slide.id} className="flex sm:flex-row flex-col md:mr-4 sm:mr-2 group items-stretch h-full">
                 <div className="basis-full lg:h-[320px] xl:h-[420px] 2xl:h-[550px]">
                   <Link href={'/insights/blogs' + slide.url}>
-                    <Image
+                    {/* <Image
                       src={slide.image}
                       alt={slide.alt}
                       title={slide.title}
@@ -312,6 +314,18 @@ export default function Page() {
                       style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                       priority
                       className="object-cover w-full h-full"
+                    /> */}
+
+                    <ImageComponent
+                      imgPath={slide.image}
+                      alt={slide.alt}
+                      title={slide.title}
+                      width={0}
+                      height={0}
+                      sizes="100vw"
+                      style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                      priority
+                      classes="object-cover w-full h-full"
                     />
                   </Link>
                 </div>

@@ -25,7 +25,7 @@
     "seoDescription": "Unlock success with Rialtes’ IT services and IT consulting. Powered by AI innovation, we drive efficiency, elevate performance, and fuel sustainable growth.",
     "beyondTitle": "Beyond Business: A Commitment to Change",
     "innovatingData": "Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact",
-    "successStoriesTitle": "Success Stories",
+    "successStoriesTitle": "Success Stories", 
     "successStoriesDesc": "Discover how we’ve harnessed the disruptive power of cutting-edge AI to help companies anticipate and act with insight and speed with IT consulting services.",
     "industryExpertiesTitle": "Industry Expertise & Solutions",
     "industryExpertiesDesc": "We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.",
@@ -40,39 +40,39 @@
     "carouselData": [
       {
         "alt": "Abstract blue glowing network visualization with flowing data streams and digital nodes",
-        "description": "Redefining the Future of Enterprise AI with SAP Joule",
-        "image": "/images/homepage/data-flow-network-art.webp",
-        "link": "/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule"
-      },
+        "description": "SAP PI PO to SAP CPI Migration: A Complete Guide",
+        "image": "/images/homepage/insights5.webp",
+        "link": "/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide"
+      }, 
       {
         "alt": "Female healthcare worker in blue scrubs wearing face mask holding digital tablet",
-        "description": "Automate Your Healthcare Organization with athenahealth and Salesforce Integration",
-        "image": "/images/homepage/medical-professional-with-tablet.webp",
-        "link": "/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration"
+        "description": "AI in Patient Engagement: How AI Agents Support MedTech in Remote Monitoring",
+        "image": "/images/homepage/insights4.webp",
+        "link": "/insights/blogs/ai-patient-engagement-medtech-remote-care"
       },
       {
         "alt": "Blue digital wave pattern blending water splashes with mesh grid technology backdrop",
-        "description": "SAP Business Data Cloud: The Intelligent Data Foundation for AI-Driven Business Success",
-        "image": "/images/homepage/tech-wave-fusion-background.webp",
-        "link": "/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success"
+        "description": "How to Build and Deploy Your First AI Agent with Agentforce (Step-by-Step Guide)",
+        "image": "/images/homepage/insights3.webp",
+        "link": "/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce"
       },
       {
         "alt": "Glowing blue robotic hand with illuminated LED fingers on touchscreen surface",
-        "description": "How Agentforce Agents Scale ERP Systems with AI ",
-        "image": "/images/homepage/ai-robot-hand-technology.webp",
-        "link": "/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai"
+        "description": "What Makes SAP Consulting Companies Trustworthy for Enterprise Engagements ",
+        "image": "/images/homepage/insights1.webp",
+        "link": "/insights/blogs/what-makes-sap-consulting-companies-trustworthy"
       },
       {
         "alt": "Overhead view of person's hand using silver laptop on blue gradient background",
-        "description": "How SAP SuccessFactors Enhances Remote Work Management",
-        "image": "/images/homepage/modern-laptop-workstation.webp",
-        "link": "/insights/blogs/how-sap-successfactors-enhances-remote-work-management"
+        "description": "Salesforce Consulting Playbook: Strategies to Drive Growth and Efficiency",
+        "image": "/images/homepage/insights2.webp",
+        "link": "/insights/blogs/salesforce-consulting-playbook-enterprise-growth"
       },
       {
         "alt": "Cute white and blue AI robot with glowing features next to smartphone chatbot interface",
-        "description": "How Salesforce Agentforce Actually Works",
-        "image": "/images/homepage/ai-chatbot-assistant-robot.webp",
-        "link": "/insights/blogs/how-salesforce-agentforce-actually-works"
+        "description": "Integration Partners for Salesforce: Cutting Complexity, Increasing ROI",
+        "image": "/images/homepage/insights6.webp",
+        "link": "/insights/blogs/salesforce-integration-partners-for-enterprises-to-scale"
       }
     ],
     "slidesData": [
