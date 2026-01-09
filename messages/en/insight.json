@@ -297,17 +297,28 @@
       }
     ],
     "latestBlogs": [
-       {
-    "id": 69,
-    "image": "/images/blog/voygernext/voyager-thumb.webp",
-    "category": "Grow with SAP",
-    "industry": "Generic",
-    "date": "Jan. 06, 2026",
-    "url": "/grow-with-sap-ai-ready-cloud-erp/",
-    "title": "Grow with SAP: Your Fast-Track Ticket to an AI-First Tomorrow",
-    "alt": "Grow with SAP AI-ready cloud ERP for an AI-first business future",
-    "description": "According to McKinsey, more than 70 percent of organizations have already experimented with GenAI, and one in three expects AI to reshape core operations within the next three years."
-  },
+      {
+        "id": 75,
+        "image": "/images/blog/fragmented-customer-journeys-feature-thumb.webp",
+        "category": "Salesforce Marketing Cloud",
+        "industry": "Generic",
+        "date": "Jan. 08, 2026",
+        "url": "/fragmented-customer-journeys-salesforce-marketing-cloud/",
+        "title": "What Are Fragmented Customer Journeys and Why Do They Matter?",
+        "alt": "Hexagonal tiles with human icons on a blue background representing fragmented customer journeys",
+        "description": "Personalized marketing has been the promise for over a decade. Yet despite better tools, more data, and smarter platforms, customer engagement continues to fall short. "
+      },
+      {
+        "id": 69,
+        "image": "/images/blog/voygernext/voyager-thumb.webp",
+        "category": "Grow with SAP",
+        "industry": "Generic",
+        "date": "Jan. 06, 2026",
+        "url": "/grow-with-sap-ai-ready-cloud-erp/",
+        "title": "Grow with SAP: Your Fast-Track Ticket to an AI-First Tomorrow",
+        "alt": "Grow with SAP AI-ready cloud ERP for an AI-first business future",
+        "description": "According to McKinsey, more than 70 percent of organizations have already experimented with GenAI, and one in three expects AI to reshape core operations within the next three years."
+      },
       {
         "id": 67,
         "image": "/images/blog/strategic-partnership-digital-connection-thumbnail.webp",
@@ -1180,7 +1191,7 @@
       },
       {
         "id": 6,
-      "imgSrc": "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
+        "imgSrc": "/images/case-studies/AutoSense Warranty Management Modules_Case study feature thumb.webp",
         "category": "Automotive",
         "date": "Jun. 30, 2025",
         "url": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/",
@@ -1199,16 +1210,15 @@
         "description": "Know how Rialtes used Salesforce Experience Cloud to streamline warranty claims and improve customer satisfaction for a roofing manufacturer."
       },
       {
-  "id": 4,
-  "imgSrc": "/images/case-studies/business-professionals-collaborating-laptop-modern-office-carousel.webp",
-  "category": "Automotive",
-  "date": "Jun. 03, 2025",
-  "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
-  "title": "Revolutionizing Dealer Management with Rialtes AutoSense",
-  "alt": "Professionals collaborating around a laptop in a modern office",
-  "description": "A renowned global automotive manufacturer, known for its cutting-edge vehicles, faced significant challenges with its outdated dealer portal."
-}
-
+        "id": 4,
+        "imgSrc": "/images/case-studies/business-professionals-collaborating-laptop-modern-office-carousel.webp",
+        "category": "Automotive",
+        "date": "Jun. 03, 2025",
+        "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
+        "title": "Revolutionizing Dealer Management with Rialtes AutoSense",
+        "alt": "Professionals collaborating around a laptop in a modern office",
+        "description": "A renowned global automotive manufacturer, known for its cutting-edge vehicles, faced significant challenges with its outdated dealer portal."
+      }
     ],
     "latestCaseStudyTitle": "Related Case Studies",
     "latestCaseStudy": [
@@ -1236,7 +1246,7 @@
         "id": 14,
         "image": "/images/case-studies/automotive-robotic-assembly-line-car-manufacturing-thumbnail.webp",
         "industry": "Automotive",
-        "date": "Jun. 30, 2025", 
+        "date": "Jun. 30, 2025",
         "url": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense/",
         "title": "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
         "alt": "Illustration showing AutoSense warranty management modules for automotive operations",
@@ -1255,7 +1265,7 @@
       {
         "id": 12,
         "image": "/images/case-studies/business-professionals-collaborating-laptop-modern-office-thumbnail.webp",
-        "industry": "Automotive", 
+        "industry": "Automotive",
         "date": "Jun. 03, 2025",
         "url": "/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/",
         "title": "Revving Up Dealer Management with AutoSense by Rialtes",

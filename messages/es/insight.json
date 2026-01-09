@@ -228,17 +228,27 @@
     ],
     "latestBlogs": [
       {
-  "id": 70,
-  "image": "/images/blog/voygernext/voyager-thumb.webp",
-  "category": "Grow con SAP",
-  "industry": "Genérico",
-  "date": "06 ene. 2026",
-  "url": "/grow-with-sap-ai-ready-cloud-erp/",
-  "title": "GROW con SAP: tu vía rápida hacia un mañana impulsado por la IA",
-  "alt": "GROW con SAP ERP en la nube preparado para IA para un futuro empresarial impulsado por la IA",
-  "description": "Según McKinsey, más del 70 % de las organizaciones ya han experimentado con GenAI, y una de cada tres espera que la IA transforme las operaciones centrales en los próximos tres años."
-},
-
+        "id": 75,
+        "image": "/images/blog/fragmented-customer-journeys-feature-thumb.webp",
+        "category": "Salesforce Marketing Cloud",
+        "industry": "Genérico",
+        "date": "Jan. 08, 2026",
+        "url": "/fragmented-customer-journeys-salesforce-marketing-cloud/",
+        "title": "¿Qué son los recorridos fragmentados del cliente y por qué son importantes?",
+        "alt": "Mosaicos hexagonales con íconos humanos sobre un fondo azul que representan recorridos fragmentados del cliente",
+        "description": "El marketing personalizado ha sido la promesa durante más de una década. Sin embargo, a pesar de mejores herramientas, más datos y plataformas más inteligentes, la interacción con los clientes sigue sin cumplir las expectativas."
+      },
+      {
+        "id": 70,
+        "image": "/images/blog/voygernext/voyager-thumb.webp",
+        "category": "Grow con SAP",
+        "industry": "Genérico",
+        "date": "06 ene. 2026",
+        "url": "/grow-with-sap-ai-ready-cloud-erp/",
+        "title": "GROW con SAP: tu vía rápida hacia un mañana impulsado por la IA",
+        "alt": "GROW con SAP ERP en la nube preparado para IA para un futuro empresarial impulsado por la IA",
+        "description": "Según McKinsey, más del 70 % de las organizaciones ya han experimentado con GenAI, y una de cada tres espera que la IA transforme las operaciones centrales en los próximos tres años."
+      },
       {
         "id": 69,
         "image": "/images/blog/enterprise-growth-strategy-thumbnail.webp",
