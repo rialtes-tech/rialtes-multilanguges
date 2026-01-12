@@ -373,7 +373,7 @@ export default function Page() {
                                         </div>
                                     ))
                                 }
-                                <div className="hidden md:block mt-5">
+                                <div className="hidden md:block mt-5 ">
                                     <table className="w-full border-separate border-spacing-y-3">
                                         <thead>
                                             <tr className="bg-[#DEDEDE] text-left">
@@ -418,7 +418,7 @@ export default function Page() {
 
 
                                 {/* Mobile Layout */}
-                                <div className="md:hidden space-y-4">
+                                <div className="md:hidden space-y-4 mt-5">
                                     {rows.map((row, idx) => (
                                         <div
                                             key={idx}
