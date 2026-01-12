@@ -67,7 +67,7 @@ const allCategories = [
 
 const latestBlogs = [
   {
-    "id": 71,
+    "id": 73,
     "image": "/images/blog/from-project-partner/thumb.webp",
     "category": "SAP Consulting",
     "industry": " Life Sciences",
