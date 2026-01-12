@@ -20,8 +20,8 @@ export default function Page() {
     const ServicesCard = ({ services }) => (
         <div className="flex flex-col border border-[#707070] p-6 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
             <div className="flex-grow flex flex-col">
-                <h3 className="mb-[15px] md:mb-[25px]  font-semibold  text-[#0A6BB8] 4xl:text-[30px] text-[20px] leading-tight">{services.title}</h3>
-                <p className='md:mb-[15px] mb-0  4xl:text-[24px] text-[16px] font-normal pr-12 xl:pr-0 4xl:pr-0 leading-tight'>{services.description}</p>
+                <h3 className="mb-[15px] md:mb-[25px]  font-semibold  text-[#0A6BB8] 4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight">{services.title}</h3>
+                <p className='md:mb-[15px] mb-0 4xl:text-[24px] md:text-[18px] text-[16px] font-normal pr-12 xl:pr-0 4xl:pr-0 leading-tight'>{services.description}</p>
             </div>
         </div>
     );
@@ -29,15 +29,15 @@ export default function Page() {
         return (
             <section className="bg-[#EAF8FD] pt-16 pb-16 xl:pb-0 4xl:pb-0">
                 <div className="custom-container">
-                    <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] font-light mb-12">
+                    <h2 className=" text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] font-light mb-12">
                         {t('exploreMoreTitle')}
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 text-left">
                         {moreSalesforce.map((service, index) => (
                             <div key={index} className="flex flex-col items-start justify-between h-full">
                                 <div>
-                                    <h3 className="text-[#005BA1] font-semibold 4xl:text-[36px] text-[20px] mb-5 leading-tight pr-[7rem] xl:pr-0 4xl:pr-0">{service.title}</h3>
-                                    <p className="text-black xl:mb-5 4xl:text-[22px] text-[16px] leading-tight pr-[5rem] xl:pr-0 4xl:pr-10">{service.description}</p>
+                                    <h3 className="text-[#005BA1] font-semibold text-[22px] md:text-[24x] xl:text-[26px] 4xl:text-[36px] mb-5 leading-tight pr-[7rem] xl:pr-0 4xl:pr-0">{service.title}</h3>
+                                    <p className="text-black xl:mb-5 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight pr-[5rem] xl:pr-0 4xl:pr-10">{service.description}</p>
                                 </div>
                                 <div>
                                     <LearnMore btnName={t('learnMoreBtn')} />
@@ -54,8 +54,8 @@ export default function Page() {
             <div className="text-black 2xl:pr-70 xl:pr-10 md:pr-8">
                 <div className="grid 4xl:grid-cols-12">
                     <div className="4xl:col-span-12">
-                        <h2 className="text-black mb-6  xl:text-[40px] 4xl:pr-[2rem] xl:pr-80 4xl:text-[60px]  text-[26px]  leading-tight mt-16 xl:mt-0 4xl:mt-0 ">{t('ourAdvantageTitle')}</h2>
-                        <p className="4xl:text-[22px] text-[16px] my-12">{t('ourAdvantageDesc')}</p>
+                        <h2 className="text-black mb-6  text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] 4xl:pr-[2rem] xl:pr-80 leading-tight mt-16 xl:mt-0 4xl:mt-0 ">{t('ourAdvantageTitle')}</h2>
+                        <p className="4xl:text-[22px] md:text-[18px] text-[16px] my-12">{t('ourAdvantageDesc')}</p>
                     </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
@@ -110,8 +110,7 @@ export default function Page() {
                             <h3 className="text-white text-[20px] xl:text-[24px] font-bold mb-2 break-words ">
                                 {t('headerTitle')}
                             </h3>
-
-                            <h2 className="text-white  leading-tight break-words 4xl:text-[60px] xl:text-[40px] text-[26px]  xl:mt-10 4xl:mt-10 mt-5 4xl:pr-0 xl:pr-0 md:pr-[22rem] sm:pr-20 xs:pr-16">
+                            <h2 className="text-white leading-tight break-words text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] xl:mt-10 4xl:mt-10 mt-5 4xl:pr-0 xl:pr-0 md:pr-[22rem] sm:pr-20 xs:pr-16">
                                 {t('headerSubTitle')}
                             </h2>
                             <h1 className="xl:mt-8 4xl:mt-8 mt-5 text-[18px] xl:text-[23px] 4xl:text-[35px] xl:pr-[15rem] 4xl:pr-[10rem] text-white font-bold  leading-tight  pr-[7rem] md:pr-[25rem]">
@@ -127,10 +126,10 @@ export default function Page() {
             <section className="mt-16 custom-container">
                 <div className="grid xl:grid-cols-12 grid-cols-1">
                       <div className="4xl:col-span-10 xl:col-span-8 col-span-12">
-                        <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:mb-8 pr-[2rem] xl:pr-0 4xl:pr-0">
+                        <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] xl:mb-8 pr-[2rem] xl:pr-0 4xl:pr-0">
                             {t('pageDescTitle')}
                         </h2>
-                        <p className="text-[16px] 4xl:text-[22px] leading-tight mt-5 4xl:pr-[25px] pr-[2rem] xl:pr-0">{t('pageDesc')}</p>
+                        <p className="4xl:text-[22px] md:text-[18px] text-[16px] leading-tight mt-5 4xl:pr-[25px] pr-[2rem] xl:pr-0">{t('pageDesc')}</p>
                     </div>
                     <div className="xl:col-span-4 col-span-12">
                     </div>
@@ -175,18 +174,18 @@ export default function Page() {
                         {/* Title + Description */}
                         <div className="text-left mb-5">
 
-                            <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[50px] text-[26px] leading-tight pt-10 2xl:pt-20 4xl:pt-16 xl:pt-10 lg:pr-0 4xl:pr-64 2xl:pr-64 xl:pr-64">
+                            <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] leading-tight pt-10 2xl:pt-20 4xl:pt-16 xl:pt-10 lg:pr-0 4xl:pr-64 2xl:pr-64 xl:pr-64">
                                 {t('deepTitle')}     </h2>
 
-                            <p className="mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] 4xl:pr-[40rem] 2xl:pr-[32rem] xl:pr-[25rem]">
+                            <p className="mt-4 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] 4xl:pr-[40rem] 2xl:pr-[32rem] xl:pr-[25rem]">
                                 {t('deepDesc')}    
                             </p>
                         </div>
 
                         {/* Lists */}
                         <div className="grid grid-cols-1 md:grid-cols-2 xl:gap-10">
-                            <UnorderedList arrName={deepData1} ulClassName="list-disc font-light xl:font-medium pl-5 mt-4 xl:mt-8 space-y-3 4xl:space-y-6 xl:space-y-5 text-[16px] 4xl:text-[20px] leading-tight  marker:text-white 4xl:pr-[20px] pr-3" liClassName="" />
-                            <UnorderedList arrName={deepData2} ulClassName="list-disc pl-5 font-light xl:font-medium mt-4 xl:mt-8 space-y-3 4xl:space-y-6 xl:space-y-5 text-[16px] 4xl:text-[20px] leading-tight  marker:text-white 4xl:pr-[20px] pr-3" liClassName="" />
+                            <UnorderedList arrName={deepData1} ulClassName="list-disc font-light xl:font-medium pl-5 mt-4 xl:mt-8 space-y-3 4xl:space-y-6 xl:space-y-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight  marker:text-white 4xl:pr-[20px] pr-3" liClassName="" />
+                            <UnorderedList arrName={deepData2} ulClassName="list-disc pl-5 font-light xl:font-medium mt-4 xl:mt-8 space-y-3 4xl:space-y-6 xl:space-y-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight  marker:text-white 4xl:pr-[20px] pr-3" liClassName="" />
                         </div>
 
                         {/* Button */}
@@ -212,9 +211,9 @@ export default function Page() {
                         />
                     </div>
                     <div className="lg:col-span-5 col-span-12 max-md:px-[35px]">
-                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight pt-10 lg:pt-0 4xl:pt-0  lg:pr-0 4xl:pr-0">{t('drivingBusinessTitle')}</h2>
-                        <p className="4xl:pt-10 xl:pt-3 pt-5 pr-10 lg:pr-0 4xl:pr-0">{t('drivingBusinessDesc')}</p>
-                        <ul className="list-disc 4xl:space-y-5 lg:space-y-2 space-y-3 marker:font-bold marker:text-2xl pl-5 text-[16px] 4xl:text-[20px] leading-tight 4xl:mt-8 mt-3 4xl:pr-[11rem] xl:pr-0 ">
+                        <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] leading-tight pt-10 lg:pt-0 4xl:pt-0  lg:pr-0 4xl:pr-0">{t('drivingBusinessTitle')}</h2>
+                        <p className="4xl:pt-10 xl:pt-3 pt-5 pr-10 lg:pr-0 4xl:pr-0 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]">{t('drivingBusinessDesc')}</p>
+                        <ul className="list-disc 4xl:space-y-5 lg:space-y-2 space-y-3 marker:font-bold marker:text-2xl pl-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight 4xl:mt-8 mt-3 4xl:pr-[11rem] xl:pr-0 ">
                             {marketingFeatures.map((feature, index) => (
                                 <li key={index}>
                                     <span className="font-bold">{feature.title} </span>
@@ -262,15 +261,13 @@ export default function Page() {
                         {/* Left Content */}
                         <div className="pt-10  xl:pt-20 4xl:pt-20 xl:ml-[5rem] 4xl:ml-0 flex flex-col justify-between">
                             <div>
-                                <h2 className="text-[26px] xl:text-[40px] 4xl:text-[60px] leading-tight pr-10 xl:pr-0 4xl:pr-0">
+                                <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] leading-tight pr-10 xl:pr-0 4xl:pr-0">
                                     {t('reimaginTitle')}
                                 </h2>
-                                <p className="mt-5 text-[16px] 4xl:text-[22px]">
+                                <p className="mt-5 4xl:text-[22px] md:text-[18px] text-[16px]">
                                     {t('reimaginDesc')}
                                 </p>
                             </div>
-
-
                             <div className="hidden xl:block mt-10">
                                 <LearnMore btnName={t('learnMoreBtn')} />
                             </div>
@@ -278,19 +275,17 @@ export default function Page() {
 
                         {/* Right Content */}
                         <div className=" xl:pt-20 4xl:pt-20 4xl:pb-[60px] 2xl:pb-[70px] xl:pb-[70px]">
-                            <ul className="list-disc marker:text-black marker:font-bold 4xl:pl-5 4xl:p-10 4xl:pt-0 4xl:pb-5 text-[16px] 4xl:text-[22px] space-y-3 pr-6 pl-6 xl:pr-20 4xl:pr-24 font-medium">
+                            <ul className="list-disc marker:text-black marker:font-bold 4xl:pl-5 4xl:p-10 4xl:pt-0 4xl:pb-5 4xl:text-[22px] md:text-[18px] text-[16px] space-y-3 pr-6 pl-6 xl:pr-20 4xl:pr-24 font-medium">
                                 {aiMarketingData.map((item, index) => (
                                     <li key={index}>
                                         <strong>{item.title}</strong> {item.description}
                                     </li>
                                 ))}
                             </ul>
-                            <p className="text-[16px] 4xl:text-[22px] mt-5 xl:mt-5 4xl:mt-5 pr-12 xl:pr-4 4xl:pr-4">
+                            <p className="4xl:text-[22px] md:text-[18px] text-[16px] mt-5 xl:mt-5 4xl:mt-5 pr-12 xl:pr-4 4xl:pr-4">
                                 {t('byHarnessingTitle')}
                             </p>
                         </div>
-
-
                         <div className="xl:hidden col-span-full flex justify-start xl:mt-10">
                             <LearnMore btnName={t('learnMoreBtn')} />
                         </div>
@@ -325,12 +320,12 @@ export default function Page() {
                 <div className="grid xl:grid-cols-12 grid-cols-12 absolute xl:top-[-4rem] 4xl:top-[-8rem]  md:top-[57rem]">
                     <div className="xl:col-span-6 col-span-12"></div>
                     <div className="xl:col-span-5 col-span-12 bg-[#184671] text-white 4xl:pt-16 xl:pt-8 4xl:px-14 xl:px-10 px-10 pt-10">
-                        <h2 className="4xl:text-[50px] text-[26px] xl:text-[38px] leading-tight font-light">{t('introducingAgentChatTitle')}</h2>
-                        <h3 className="4xl:text-[35px] text-[24px] xl:text-[25px] mt-8 leading-tight xl:pr-0 4xl:pr-0">{t('introducingAgentChatSubTitle')}</h3>
+                        <h2 className="4xl:text-[50px] text-[26px] xl:text-[32px] leading-tight font-light">{t('introducingAgentChatTitle')}</h2>
+                        <h3 className="4xl:text-[35px] text-[24px] xl:text-[22px] mt-8 leading-tight xl:pr-0 4xl:pr-0">{t('introducingAgentChatSubTitle')}</h3>
                         <h3 className="mt-8 leading-tight 4xl:text-[30px] text-[20px] xl:pr-0 4xl:pr-0">{t('introducingAgentChatSubTitle2')}</h3>
                         <p className="mt-8 leading-tight font-light 4xl:text-[22px] text-[16px] xl:pr-0 4xl:pr-0">{t('introducingAgentChatDesc')}</p>
                         <h3 className="mt-5 4xl:text-[30px] text-[20px]">{t('keyFeatures')}</h3>
-                        <ul className="list-disc marker:text-white marker:font-bold pl-5 text-[16px] 4xl:text-[20px] leading-tight 4xl:space-y-8 xl:space-y-4 space-y-4 mt-5 xl:pr-0 4xl:pr-16">
+                        <ul className="list-disc marker:text-white marker:font-bold pl-5 4xl:text-[20px] xl:text-[14px] 2xl:text-[16px] text-[16px]  leading-tight 4xl:space-y-8 xl:space-y-4 space-y-4 mt-5 xl:pr-0 4xl:pr-16">
                             {agentChatData.map((feature, index) => (
                                 <li key={index}>
                                     <strong>{feature.title}</strong> {feature.description}
@@ -347,10 +342,10 @@ export default function Page() {
             {/* your growth section */}
             <section className={` custom-container relative 4xl:pr-[142px]  max-md:px-0
              ${locale === "es"
-                    ? "4xl:mt-[24rem] 2xl:mt-[10rem] mt-[88rem] xs:mt-[1275px] sm:mt-[58rem] md:mt-[52rem] lg:mt-[30rem] xl:mt-[30rem]"
+                    ? "4xl:mt-[24rem] 2xl:mt-[10rem] mt-[88rem] xs:mt-[1275px] sm:mt-[58rem] md:mt-[52rem] lg:mt-[30rem] xl:mt-[18rem]"
                     : locale === "fr"
-                        ? "4xl:mt-[24rem] 2xl:mt-[10rem]  mt-[90rem] xs:mt-[1360px] sm:mt-[58rem] md:mt-[56rem] lg:mt-[30rem] xl:mt-[32rem] max-md:px-0"
-                        : "4xl:mt-[14rem] 2xl:mt-[10rem] max-[360px]:mt-[1396px] mt-[75rem] xs:mt-[1145px] sm:mt-[58rem] md:mt-[50rem] lg:mt-[30rem] xl:mt-[20rem] max-md:px-0"
+                        ? "4xl:mt-[24rem] 2xl:mt-[10rem]  mt-[90rem] xs:mt-[1360px] sm:mt-[58rem] md:mt-[56rem] lg:mt-[30rem] xl:mt-[18rem] max-md:px-0"
+                        : "4xl:mt-[14rem] 2xl:mt-[10rem] max-[360px]:mt-[1396px] mt-[75rem] xs:mt-[1145px] sm:mt-[58rem] md:mt-[50rem] lg:mt-[30rem] xl:mt-[13rem] max-md:px-0"
                 }`}
             >
                 <div className="grid grid-cols-1 xl:grid-cols-2 items-stretch relative">
@@ -394,16 +389,16 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="bg-[#3991AB] text-white z-10 4xl:p-10 4xl:pl-14 relative 4xl:pb-28 xl:pb-20 4xl:pt-10 order-2 xl:order-1 max-md:px-[35px] md:px-[35px] xl:pl-12 xl:pt-8 xl:mb-[70px] 4xl:mb-20">
-                        <h2 className="text-[26px] xl:text-[40px] 4xl:text-[55px] leading-tight pt-10 xl:pt-0 4xl:pt-0">
+                        <h2 className=" text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[55px]leading-tight pt-10 xl:pt-0 4xl:pt-0">
                             {t('yourGrowthTitle')}
                         </h2>
-                        <h3 className="mt-4 xl:mt-3 text-[20px] xl:text-[26px] 4xl:text-[36px] font-semibold pr-20 leading-tight xl:pr-0 4xl:pr-0">
+                        <h3 className="mt-4 xl:mt-3 ttext-[22px] md:text-[26px] xl:text-[30px] 4xl:text-[36px] font-semibold pr-20 leading-tight xl:pr-0 4xl:pr-0">
                             {t('yourGrowthSubTitle')}
                         </h3>
-                        <p className="mt-4 xl:mt-5 text-[16px] 4xl:text-[22px] leading-tight font-light 4xl:pr-6">
+                        <p className="mt-4 xl:mt-5 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight font-light 4xl:pr-6">
                             {t('yourGrowthDesc')}
                         </p>
-                        <UnorderedList arrName={yourGrowthData} ulClassName="list-disc pl-5 mt-4 xl:mt-8 space-y-3 4xl:space-y-5 xl:space-y-3 text-[16px] 4xl:text-[22px] leading-tight font-normal marker:text-white 4xl:pr-[20px] pr-10" liClassName="" />
+                        <UnorderedList arrName={yourGrowthData} ulClassName="list-disc pl-5 mt-4 xl:mt-8 space-y-3 4xl:space-y-5 xl:space-y-3 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight font-normal marker:text-white 4xl:pr-[20px] pr-10" liClassName="" />
                         <div className="xl:absolute xl:mt-2 bottom-0 mt-8 4xl:mt-2">
                             <LearnMore btnName={t('learnMoreBtn')} />
                         </div>
