@@ -29,7 +29,7 @@ export default function Page() {
             alt={blog.alt}
             title={blog.title}
             width={0}
-            height={0}
+            height={0} 
             sizes="100vw"
             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             priority
