@@ -10721,7 +10721,8 @@
         "tableHeadUseCase": "Ejemplo de caso de uso de IA / insights"
     },
     "salesforceMarketingCloud": {
-        "salesforcemarketingTitle": "¿Qué son los recorridos fragmentados del cliente y por qué son importantes?",
+   "schemaData": {},
+   "salesforcemarketingTitle": "¿Qué son los recorridos fragmentados del cliente y por qué son importantes?",
         "mainData": [
             "El marketing personalizado ha sido la promesa durante más de una década. Sin embargo, a pesar de mejores herramientas, más datos y plataformas más inteligentes, la interacción con los clientes sigue sin cumplir las expectativas. Los correos electrónicos no se abren. Las notificaciones push resultan irrelevantes. Los recorridos se interrumpen a mitad de camino. Las campañas se lanzan a tiempo, pero no logran conectar.",
             "El problema no es la falta de esfuerzo. Es la fragmentación.",
@@ -10947,5 +10948,238 @@
         "categoryName": "Salesforce Marketing Cloud",
         "bannerAlt" : "Red hexagonal con iconos de personas mostrando segmentación de clientes y visualización de estrategia de personalización",
         "personalizedImageAlt" : "Diagrama de fallos en personalización: silos de datos, rutas fragmentadas, insights retrasados y bajo engagemen"
+
+    },
+    "crmBlog" :{
+        "schemaData": {},
+        "blogMainData": [
+  "Durante años, la mayoría de las organizaciones de ciencias de la vida trataron el CRM como una herramienta de habilitación de ventas: un lugar para realizar el seguimiento de cuentas, programar visitas, gestionar muestras y registrar interacciones. Funcionaba cuando los modelos comerciales eran más simples, los pipelines eran lineales y la interacción con los pacientes se producía principalmente a través de los médicos. Sin embargo, el panorama sanitario ha cambiado de forma significativa.",
+  "Los pacientes están más informados. Los proveedores son más digitales. Las normativas regulatorias siguen endureciéndose. Los recorridos de tratamiento son más largos, complejos y orientados a resultados. Mientras tanto, el éxito comercial ya no depende únicamente de los representantes de ventas, sino también de la experiencia, el acceso, la adherencia, la educación y la interacción basada en datos.",
+  "La investigación valida este cambio. Deloitte informa que más del 60 % de los líderes de ciencias de la vida consideran la experiencia del paciente como una prioridad estratégica principal, aunque solo el 28 % cree que sus sistemas respaldan la interacción de extremo a extremo. <a href='https://healthcareasiamagazine.com/healthcare/news/healthcare-data-projected-grow-36-cagr-2025/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Otro estudio</a> sugiere que los volúmenes de datos sanitarios están creciendo a una tasa compuesta anual del 36 %, pero gran parte de ellos permanece sin utilizar debido a ecosistemas fragmentados y tecnologías heredadas.",
+  "La conclusión es fácil de entender: el CRM para ciencias de la vida no puede seguir centrado en las ventas. Debe convertirse en <a href='https://www.rialtes.com/es/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>centrado en el paciente, inteligente en datos y impulsado por IA</a>."
+],
+"lifeAiData": [
+  {
+    "title": "Presentamos LifeAI+: un enfoque conectado e inteligente del CRM para ciencias de la vida",
+    "desc": "LifeAI+ es nuestro servicio integral de consultoría e implementación diseñado específicamente para el ecosistema de ciencias de la vida. Combina el poder de Salesforce Life Sciences Cloud, Health Cloud y la automatización impulsada por IA para ayudar a las empresas a <a href='https://www.rialtes.com/es/insights/blogs/patient-experience-platform-transforming-long-term-care/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>modernizar la experiencia del paciente</a>, optimizar la interacción con los profesionales sanitarios y escalar operaciones digitales conformes.",
+    "desc1": "En lugar de tratar el CRM como un sistema de ventas, LifeAI+ lo convierte en un motor de interacción a nivel industrial.",
+    "desc2": "Lo que LifeAI+ aporta a su organización",
+    "list": [
+      "Datos unificados de pacientes, profesionales sanitarios, pagadores y ensayos clínicos",
+      "Flujos de trabajo automatizados entre equipos comerciales y médicos",
+      "Insights impulsados por IA para la interacción, la adherencia y la próxima mejor acción",
+      "Marcos de cumplimiento integrados para la seguridad regulatoria",
+      "Experiencia omnicanal en correo electrónico, campo, aplicaciones y portales de pacientes",
+      "Analítica y paneles para la toma de decisiones en tiempo real"
+    ]
+  }
+],
+"toolsData": [
+  {
+    "title": "Los límites del CRM tradicional en ciencias de la vida",
+    "desc": "Llamemos claramente a la brecha existente. El CRM tradicional nunca fue diseñado para las complejidades de la atención sanitaria moderna. Realiza el seguimiento de interacciones, sí, pero no conecta flujos de trabajo clínicos, resultados de pacientes, asuntos médicos, acceso al mercado ni programas poscomerciales como la adherencia y el monitoreo remoto.",
+    "desc1": "Los puntos de dolor más comunes incluyen:",
+    "list": [
+      "Datos de pacientes, profesionales sanitarios y comerciales aislados",
+      "Visibilidad limitada de los resultados del tratamiento",
+      "Procesos manuales en los equipos de soporte",
+      "Dificultad para rastrear la interacción omnicanal",
+      "Falta de insights en tiempo real para la toma de decisiones",
+      "Riesgo de cumplimiento debido a documentación desarticulada"
+    ],
+    "desc2": "Esto conduce a un resultado simple pero doloroso: grandes productos tienen dificultades para desbloquear todo su impacto porque la experiencia a su alrededor no está coordinada ni es inteligente.",
+    "crmData": [
+      {
+        "title": "Flujos de trabajo centrados en ventas",
+        "icon": "/images/blog/target-goal-precision-focus-icon.svg",
+        "alt": "Icono de objetivo circular con anillos concéntricos representando metas, precisión de objetivos y enfoque empresarial"
+      },
+      {
+        "title": "Datos desconectados de pacientes y proveedores",
+        "icon": "/images/blog/healthcare-cloud-storage-patient-data-icon.svg",
+        "alt": "Icono de almacenamiento en nube con perfil de paciente y cruz médica representando gestión de datos de salud segura"
+      },
+      {
+        "title": "Sin integración clínica o de servicios",
+        "icon": "/images/blog/cloud-cancel-disconnect-service-termination-icon.svg",
+        "alt": "Icono de nube con símbolo de cancelación representando cancelación de servicio en nube o desconexión de integración"
+      },
+      {
+        "title": "Baja automatización y generación de insights",
+        "icon": "/images/blog/business-growth-analytics-performance-optimization-icon.svg",
+        "alt": "Icono de engranaje con gráfico ascendente representando análisis de crecimiento, métricas de rendimiento y optimización"
+      }
+    ]
+  }
+],
+ "industryData": [
+    {
+      "title": "La industria ha cambiado y el CRM debe evolucionar con ella",
+      "desc": "Las organizaciones modernas de ciencias de la vida no solo venden terapias. Gestionan relaciones a lo largo de toda la cadena de valor del sector sanitario.",
+      "desc1": "Esto incluye:",
+      "list": [
+        "Profesionales de la salud",
+        "Pacientes y cuidadores",
+        "Partes interesadas en ensayos clínicos",
+        "Pagadores y PBM",
+        "Especialistas y centros de tratamiento",
+        "Equipos de farmacovigilancia y seguridad"
+      ],
+      "desc2": "El objetivo es lograr un compromiso continuo, confianza y un soporte impulsado por el cumplimiento normativo. Cuando el CRM integra datos clínicos, operativos y del mundo real, la organización pasa de una comunicación reactiva a una experiencia proactiva",
+      "desc3": "Por eso la industria está pasando de CRM = ventas",
+      "desc4": "hacia",
+      "desc5": "CRM = plataforma unificada de pacientes, proveedores y operaciones comerciales."
+    }
+  ],
+
+  "salesData": [
+    {
+      "title": "Más allá de las ventas: lo que debe ofrecer un CRM moderno para ciencias de la vida",
+      "desc": "Analicemos cómo se ve un “CRM de nueva generación” en escenarios empresariales reales y cómo LifeAI+ lo hace posible.",
+      "points": [
+        {
+          "heading": "Soporte del recorrido del paciente, no solo llamadas a HCP",
+          "intro": "La atención no termina cuando se prescribe un tratamiento. Los pacientes necesitan incorporación, asistencia financiera, recordatorios, educación y seguimiento.",
+          "enablesText": "LifeAI+ permite:",
+          "list": [
+            "Flujos de incorporación digital",
+            "Comunicación personalizada con pacientes",
+            "Coordinación entre navegadores de enfermería y equipos de atención",
+            "Seguimiento de la adherencia mediante aplicaciones para pacientes",
+            "Insights generados por IA sobre riesgos de abandono"
+          ],
+          "outcome": "¿Resultado? Mayor adherencia terapéutica y mejores resultados en el mundo real."
+        },
+        {
+          "heading": "Inteligencia real para equipos de campo y médicos",
+          "intro": "Los representantes de ventas necesitan contexto. Los MSL necesitan evidencia. Ambos necesitan los datos en un solo lugar, no en 12 hojas de cálculo.",
+          "enablesText": "LifeAI+ los impulsa con:",
+          "list": [
+            "Perfiles 360° de HCP e insights de preferencias",
+            "Planificación de territorios y priorización de visitas",
+            "Gestión de consultas médicas",
+            "Seguimiento de visitas remotas, híbridas y presenciales"
+          ],
+          "outcome": "Esto hace que el compromiso sea más inteligente, conforme y basado en valor."
+        },
+        {
+          "heading": "Cumplimiento sin carga manual",
+          "intro": "En las ciencias de la vida, el cumplimiento no es opcional: es supervivencia. El seguimiento manual aumenta el riesgo.",
+          "enablesText": "LifeAI+ habilita flujos de trabajo con políticas integradas para:",
+          "list": [
+            "Consentimiento y privacidad de datos",
+            "Seguimiento de muestras",
+            "Transparencia en la compensación a HCP",
+            "Notificación de EA y farmacovigilancia"
+          ],
+          "outcome": "El alineamiento regulatorio se vuelve proactivo, no reactivo."
+        },
+        {
+          "heading": "Continuidad clínico-comercial",
+          "intro": "Ensayos, lanzamiento, comercialización y posmercado: todas las etapas deben comunicarse entre sí.",
+          "enablesText": "LifeAI+ conecta:",
+          "list": [
+            "Datos de participación en ensayos",
+            "Programas de apoyo al paciente",
+            "Gestión de seguridad y casos",
+            "Evidencia del mundo real y bucles de retroalimentación"
+          ],
+          "outcome": "Esto garantiza que las decisiones se basen en resultados, no en suposiciones."
+        }
+      ]
+    }
+  ],
+
+  "businessData": [
+    {
+      "title": "Resultados empresariales que importan a la dirección",
+      "list": [
+        "Lanzamientos más rápidos y comercialización optimizada",
+        "Mayor satisfacción de los HCP y tasas de respuesta digital más altas",
+        "Mejor adherencia del paciente y resultados de soporte",
+        "Reducción de la carga manual y de los costos operativos",
+        "Paneles en tiempo real para visibilidad del rendimiento",
+        "Documentación y aprobaciones listas para el cumplimiento",
+        "Predicción impulsada por IA para churn, adherencia y compromiso"
+      ],
+      "desc": "Así es como el CRM se convierte en un impulsor del crecimiento, no solo en una base de datos."
+    }
+  ],
+
+  "beforeAfterData": [
+    {
+      "before": "Seguimiento manual",
+      "after": "Flujos de trabajo automatizados"
+    },
+    {
+      "before": "Silos de datos",
+      "after": "Modelo de datos único e integrado"
+    },
+    {
+      "before": "Ventas y servicio",
+      "after": "Motores de recomendación y cotizaciones automatizadas"
+    },
+    {
+      "before": "CRM solo para ventas",
+      "after": "Habilitación de pacientes + HCP + casos + ensayos"
+    },
+    {
+      "before": "Insights reactivos",
+      "after": "Inteligencia predictiva"
+    }
+  ],
+
+  "impactData": [
+    {
+      "title": "Dónde LifeAI+ genera el mayor impacto",
+      "desc": "Ideal para organizaciones que desean transformar la experiencia, unificar sistemas o escalar digitalmente.",
+      "list": [
+        "Empresas farmacéuticas y biotecnológicas que lanzan nuevos productos",
+        "Empresas de tecnología médica que gestionan el ciclo de vida de dispositivos",
+        "CRO y equipos de investigación que mejoran la eficiencia de los ensayos",
+        "Proveedores de terapias especializadas que necesitan soporte de adherencia",
+        "Empresas que reemplazan CRM heredados o fragmentados"
+      ],
+      "desc1": "Si la misión es lograr mejores resultados, mayor compromiso y mejores decisiones, <a href='https://www.rialtes.com/es/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>LifeAI+ es el siguiente paso</a>. Las ciencias de la vida no necesitan otro CRM; necesitan una plataforma de experiencia inteligente. Eso es lo que LifeAI+ aporta."
+    }
+  ],
+
+  "faqData": [
+    {
+      "question": "1. ¿Qué es un CRM de Ciencias de la Vida?",
+      "answer": "Un CRM diseñado específicamente para organizaciones farmacéuticas, biotecnológicas, medtech y de atención sanitaria para gestionar el compromiso con HCP, pacientes y áreas comerciales con cumplimiento normativo y transparencia de datos."
+    },
+    {
+      "question": "2. ¿Por qué el CRM tradicional ya no es suficiente para las ciencias de la vida?",
+      "answer": "Porque se centra principalmente en interacciones de ventas, mientras que la atención sanitaria moderna exige soporte al paciente, compromiso omnicanal con HCP, automatización, seguimiento de seguridad e insights basados en resultados."
+    },
+    {
+      "question": "3. ¿Cómo mejora Rialtes LifeAI+ la experiencia de pacientes y HCP?",
+      "answer": "Unificando datos, automatizando flujos de trabajo, habilitando el compromiso digital y utilizando IA para identificar próximas acciones, riesgos y oportunidades."
+    },
+    {
+      "question": "4. ¿LifeAI+ admite el cumplimiento regulatorio?",
+      "answer": "Sí. Proporciona gestión de consentimientos, seguimiento de EA, informes de transparencia, flujos de documentación y registros de datos listos para auditoría."
+    },
+    {
+      "question": "5. ¿Qué plataformas utiliza LifeAI+?",
+      "answer": "Salesforce Life Sciences Cloud, Health Cloud, Data Cloud, Einstein AI y marcos de automatización diseñados para el sector sanitario."
+    },
+    {
+      "question": "6. ¿Cuál es el futuro de la innovación digital en la investigación clínica?",
+      "answer": "El futuro reside en ecosistemas conectados, centrados en el paciente e impulsados por IA que aceleran los plazos de los ensayos, reducen costos y mejoran los resultados de los pacientes."
+    }
+  ],
+  "blogCategory": "Salesforce Life Sciences Cloud",
+  "headerText": "CRM en ciencias de la vida: por qué los sistemas solo de ventas ya no funcionan",
+  "whyText": "Por qué el CRM tradicional se queda corto",
+  "pillerTitle": "Pilar central de LifeAI+",
+  "pillerOne": "Experiencia del paciente",
+  "pillertwo": "Participación de profesionales sanitarios",
+  "pillerThree": "Automatización del cumplimiento",
+  "pillerFour": "Inteligencia impulsada por IA",
+  "chart": "Gráfico Antes vs Después de LifeAI+",
+  "faq": "FAQs: Necesidad de CRM en ciencias de la vida",
+  "bannerAlt": "Médico analizando diagnósticos de paciente en pantallas múltiples mostrando escáneres cerebrales e imágenes esqueléticas"
     }
 }

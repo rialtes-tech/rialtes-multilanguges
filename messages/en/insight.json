@@ -309,6 +309,17 @@
         "description": "Personalized marketing has been the promise for over a decade. Yet despite better tools, more data, and smarter platforms, customer engagement continues to fall short. "
       },
       {
+        "id": 70,
+        "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
+        "category": "Salesforce Life Sciences Cloud",
+        "industry": " Life Sciences",
+        "date": "Jan. 07, 2026",
+        "url": "/crm-as-growth-engine-life-sciences/",
+        "title": "Life Sciences CRM: Why Sales-Only Systems No Longer Work in Modern Healthcare",
+        "alt": "Doctor analyzing patient diagnostics on multiple screens displaying brain scans, skeletal images, and real-time vital signs",
+        "description": "For years, most life sciences organizations treated CRM as a sales enablement tool — a place to track accounts, schedule visits, manage samples, and record touchpoints. "
+      },
+      {
         "id": 69,
         "image": "/images/blog/voygernext/voyager-thumb.webp",
         "category": "Grow with SAP",
@@ -318,6 +329,17 @@
         "title": "Grow with SAP: Your Fast-Track Ticket to an AI-First Tomorrow",
         "alt": "Grow with SAP AI-ready cloud ERP for an AI-first business future",
         "description": "According to McKinsey, more than 70 percent of organizations have already experimented with GenAI, and one in three expects AI to reshape core operations within the next three years."
+      },
+      {
+        "id": 68,
+        "image": "/images/blog/enterprise-growth-strategy-thumbnail.webp",
+        "category": "Rise with SAP",
+        "industry": "Generic",
+        "date": "Jan. 05, 2026",
+        "url": "/rise-with-sap-erp-transformation-strategy/",
+        "title": "Why ERP Transformation Challenges Are Forcing Enterprises to Rethink Their Strategy",
+        "alt": "Business leader on a path symbolizing enterprise growth and digital transformation",
+        "description": "ERP modernization has been on boardroom agendas for years, yet success stories are still far fewer than expected. Leaders know transformation is necessary, but the path often turns bumpy."
       },
       {
         "id": 67,
