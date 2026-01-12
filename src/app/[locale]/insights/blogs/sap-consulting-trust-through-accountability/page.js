@@ -1,12 +1,12 @@
 "use client";
 import Image from "next/image";
-import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
-import useUrl from "@/app/components/useUrl";
-import Seo from "@/app/components/Seo";
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/[locale]/components/useUrl";
+import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
-import FAQAccordion from "@/app/components/faqAccordion";
-import BlogSocialIcons from '@/app/components/blogSocialIcons'
-import UnorderedList from "@/app/components/unorderedList";
+import FAQAccordion from "@/app/[locale]/components/faqAccordion";
+import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
+import UnorderedList from "@/app/[locale]/components/unorderedList";
 import React from "react";
 
 
