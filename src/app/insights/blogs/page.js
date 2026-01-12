@@ -66,6 +66,16 @@ const allCategories = [
 ];
 
 const latestBlogs = [
+   {      "id": 71,
+            "image": "/images/blog/from-project-partner/thumb.webp",
+            "category": "SAP Consulting",
+            "industry": " Life Sciences",
+            "date": "Jan. 02, 2026",
+            "url": "/from-project-partner-to-strategic-sap-consulting-ally/",
+            "title": "From Project Partner to Strategic Ally: Scaling SAP Consulting Engagements",
+            "alt": "Doctor analyzing patient diagnostics on multiple screens displaying brain scans, skeletal images, and real-time vital signs",
+            "description": "Enterprise SAP programs rarely end with one deployment. Once the core landscape is live, the real journey begins: expansion across business units. "
+        },
       {      "id": 70,
             "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
             "category": "Salesforce Life Sciences Cloud",
