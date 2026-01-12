@@ -227,28 +227,38 @@
     ],
     "latestBlogs": [
       {
-  "id": 71,
-  "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
-  "category": "Salesforce Life Sciences Cloud",
-  "industry": "Sciences de la vie",
-  "date": "07 Jan. 2026",
-  "url": "/crm-as-growth-engine-life-sciences/",
-  "title": "CRM des sciences de la vie : pourquoi les systèmes axés uniquement sur les ventes ne fonctionnent plus dans les soins de santé modernes",
-  "alt": "Médecin analysant diagnostics patient sur écrans multiples affichant scanners cérébraux, images squelettiques, signes vitaux",
-  "description": "Pendant des années, la plupart des organisations des sciences de la vie ont considéré le CRM comme un outil d’aide à la vente — un espace pour suivre les comptes, planifier les visites, gérer les échantillons et enregistrer les points de contact."
-},
+        "id": 75,
+        "image": "/images/blog/fragmented-customer-journeys-feature-thumb.webp",
+        "category": "Salesforce Marketing Cloud",
+        "industry": "Générique",
+        "date": "Jan. 08, 2026",
+        "url": "/fragmented-customer-journeys-salesforce-marketing-cloud/",
+        "title": "Que sont les parcours clients fragmentés et pourquoi sont-ils importants ?",
+        "alt": "Tuiles hexagonales avec des icônes humaines sur un fond bleu représentant des parcours clients fragmentés",
+        "description": "Le marketing personnalisé est une promesse depuis plus de dix ans. Pourtant, malgré de meilleurs outils, davantage de données et des plateformes plus intelligentes, l’engagement client continue de décevoir."
+      },
       {
-  "id": 70,
-  "image": "/images/blog/voygernext/voyager-thumb.webp",
-  "category": "GROW avec SAP",
-  "industry": "Générique",
-  "date": "06 janv. 2026",
-  "url": "/grow-with-sap-ai-ready-cloud-erp/",
-  "title": "GROW avec SAP : votre voie rapide vers un avenir axé sur l’IA",
-  "alt": "GROW avec SAP ERP cloud prêt pour l’IA pour un avenir métier axé sur l’IA",
-  "description": "Selon McKinsey, plus de 70 % des organisations ont déjà expérimenté la GenAI, et une sur trois s’attend à ce que l’IA transforme les opérations clés au cours des trois prochaines années."
-},
-
+        "id": 71,
+        "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
+        "category": "Salesforce Life Sciences Cloud",
+        "industry": "Sciences de la vie",
+        "date": "Jan. 07, 2026",
+        "url": "/crm-as-growth-engine-life-sciences/",
+        "title": "CRM des sciences de la vie : pourquoi les systèmes axés uniquement sur les ventes ne fonctionnent plus dans les soins de santé modernes",
+        "alt": "Médecin analysant diagnostics patient sur écrans multiples affichant scanners cérébraux, images squelettiques, signes vitaux",
+        "description": "Pendant des années, la plupart des organisations des sciences de la vie ont considéré le CRM comme un outil d’aide à la vente — un espace pour suivre les comptes, planifier les visites, gérer les échantillons et enregistrer les points de contact."
+      },
+      {
+        "id": 70,
+        "image": "/images/blog/voygernext/voyager-thumb.webp",
+        "category": "GROW avec SAP",
+        "industry": "Générique",
+        "date": "Jan. 06, 2026",
+        "url": "/grow-with-sap-ai-ready-cloud-erp/",
+        "title": "GROW avec SAP : votre voie rapide vers un avenir axé sur l’IA",
+        "alt": "GROW avec SAP ERP cloud prêt pour l’IA pour un avenir métier axé sur l’IA",
+        "description": "Selon McKinsey, plus de 70 % des organisations ont déjà expérimenté la GenAI, et une sur trois s’attend à ce que l’IA transforme les opérations clés au cours des trois prochaines années."
+      },
       {
         "id": 69,
         "image": "/images/blog/enterprise-growth-strategy-thumbnail.webp",
