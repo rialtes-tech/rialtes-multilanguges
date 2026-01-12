@@ -110,17 +110,7 @@ const latestBlogs = [
     "alt": "Hexagonal tiles with human icons on a blue background representing fragmented customer journeys",
     "description": "Personalized marketing has been the promise for over a decade. Yet despite better tools, more data, and smarter platforms, customer engagement continues to fall short. "
   },
-  {
-    "id": 70,
-    "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
-    "category": "Salesforce Life Sciences Cloud",
-    "industry": "Life Sciences",
-    "date": "Jan. 07, 2026",
-    "url": "/crm-as-growth-engine-life-sciences/",
-    "title": "Life Sciences CRM: Why Sales-Only Systems No Longer Work in Modern Healthcare",
-    "alt": "Doctor analyzing patient diagnostics on multiple screens displaying brain scans, skeletal images, and real-time vital signs",
-    "description": "For years, most life sciences organizations treated CRM as a sales enablement tool — a place to track accounts, schedule visits, manage samples, and record touchpoints. "
-  },
+ 
   {
     "id": 69,
     "image": "/images/blog/voygernext/voyager-thumb.webp",
