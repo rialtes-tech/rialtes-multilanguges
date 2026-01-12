@@ -12,7 +12,7 @@ import { AiFillCaretRight } from "react-icons/ai";
 import { AiOutlineCaretDown } from "react-icons/ai";
 export default function Page() {
   const fullUrl =
-    "https://www.rialtes.com/insights/blogs/how-digital-innovation-transforms-clinical-trial-management";
+    "https://www.rialtes.com/insights/blogs/crm-as-growth-engine-life-sciences";
   const currUrl = useUrl();
 
   const schemaData = {
