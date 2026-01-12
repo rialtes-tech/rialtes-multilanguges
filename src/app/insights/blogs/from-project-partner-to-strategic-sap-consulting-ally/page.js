@@ -14,7 +14,7 @@ export default function Page() {
 
     const mainData = [
         "Enterprise SAP programs rarely end with one deployment. Once the core landscape is live, the real journey begins: expansion across business units, automation waves, analytics maturity, integration landscapes, and continuous improvement.",
-        "Here’s the thing: organizations don’t scale SAP relationships with vendors who just deliver tasks. They scale with partners who show ownership, governance discipline, and the ability to think beyond the current scope. A   <a href='https://www.linkedin.com/pulse/how-enterprises-evaluate-choose-sap-consulting-citof/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>SAP consulting long-term partnership <a/>  is earned through predictability, accountability, and shared transformation outcomes.",
+        "Here’s the thing: organizations don’t scale SAP relationships with vendors who just deliver tasks. They scale with partners who show ownership, governance discipline, and the ability to think beyond the current scope. A <a href='https://www.linkedin.com/pulse/how-enterprises-evaluate-choose-sap-consulting-citof/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>SAP consulting long-term partnership<a/> is earned through predictability, accountability, and shared transformation outcomes.",
     ]
 
 
@@ -456,7 +456,7 @@ export default function Page() {
 
                                             <h3 className=" 4xl:text-[22px] 2xl:text-[19px] xl:text-[20px] md:text-[20px] text-[20px] font-bold pb-4 leading-tight mt-5">{data.boldTitle}</h3>
 
-                                                <UnorderedList arrName={data.list} ulClassName="space-y-2 pl-[26px] lg:pl-[46px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium list-disc" />
+                                            <UnorderedList arrName={data.list} ulClassName="space-y-2 pl-[26px] lg:pl-[46px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium list-disc" />
 
                                             <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight" dangerouslySetInnerHTML={{ __html: data.desc2 }} />
                                         </div>
