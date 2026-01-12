@@ -1,277 +1,26 @@
 "use client";
 import Image from "next/image";
-import FilteredBlogCarousel from '@/app/components/FilteredLatestBlogCarousel'
-import useUrl from "@/app/components/useUrl";
-import Seo from "@/app/components/Seo";
+import FilteredBlogCarousel from '@/app/[locale]/components/FilteredLatestBlogCarousel'
+import useUrl from "@/app/[locale]/components/useUrl";
+import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
-import FAQAccordion from "@/app/components/faqAccordion";
-import BlogSocialIcons from '@/app/components/blogSocialIcons'
-import UnorderedList from "@/app/components/unorderedList";
+import enContent from '../../../../../../messages/en/blogs.json';
+import esContent from '../../../../../../messages/es/blogs.json';
+import frContent from '../../../../../../messages/fr/blogs.json';
+import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import FAQAccordion from "@/app/[locale]/components/faqAccordion";
+import BlogSocialIcons from '@/app/[locale]/components/blogSocialIcons'
+import UnorderedList from "@/app/[locale]/components/unorderedList";
+import { useLocale, useTranslations } from "next-intl";
+
 
 export default function Page() {
+    const t = useTranslations('fromProjectPartnerToStrategicSapConsultingAlly')
     const fullUrl = "https://www.rialtes.com/insights/blogs/what-makes-sap-consulting-companies-trustworthy";
     const currUrl = useUrl()
-
-    const mainData = [
-        "Enterprise SAP programs rarely end with one deployment. Once the core landscape is live, the real journey begins: expansion across business units, automation waves, analytics maturity, integration landscapes, and continuous improvement.",
-        "Here’s the thing: organizations don’t scale SAP relationships with vendors who just deliver tasks. They scale with partners who show ownership, governance discipline, and the ability to think beyond the current scope. A   <a href='https://www.linkedin.com/pulse/how-enterprises-evaluate-choose-sap-consulting-citof/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>SAP consulting long-term partnership <a/>  is earned through predictability, accountability, and shared transformation outcomes.",
-    ]
-
-
-    const whyTrustData = [
-        {
-            "title": "What Enterprises Expect When Scaling SAP Consulting Partnerships",
-            "desc": [
-                "Once the foundation is proven, enterprises evaluate if the partner can operate at scale. Expectations shift from delivery metrics to strategic enablement.",
-            ],
-            "title2": "The Maturity Curve of an SAP Consulting Partnership",
-            "desc2": "Most partners stop at stage 1 or 2. Enterprises scale relationships only when partners step into ownership at stages 3 and 4."
-        }
-
-    ]
-    const whyEnterpriseData = [
-        {
-            "title": "Why Enterprises Choose Rialtes for Long-Term SAP Partnerships",
-            "desc": [
-                "Rialtes works beyond implementation milestones. We step in as partners who co-own business outcomes, from architecture decisions to automation pipelines. Our teams bring governance discipline, structured delivery models, and transparency in risk communication that enterprises rely on while scaling.",
-                "As organizations grow across regions, functions, and digital priorities, Rialtes becomes the continuity thread, ensuring knowledge compounding, faster rollouts, stable operational governance, and sustained transformation value.",
-                "For enterprises seeking  trusted SAP consulting relationships   built on maturity, accountability, and long-term impact, Rialtes evolves from project partner to strategic ally, accelerating transformation over years, not months"
-            ],
-        }
-
-    ]
-    const rows = [
-        {
-            stage: "1. Project Vendor",
-            focus: "Scope-based delivery",
-            expectation: "Technical capability",
-            scale: "Timelines, quality, UAT readiness",
-            bg: "bg-[#E2FFE5]",
-        },
-        {
-            stage: "2. Preferred Partner",
-            focus: "Multi-stream enablement",
-            expectation: "Dependency reduction",
-            scale: "Documentation, governance, playbooks",
-            bg: "bg-[#FFF2E2]",
-        },
-        {
-            stage: "3. Transformation Ally",
-            focus: "Co-owning outcomes",
-            expectation: "Innovation + business alignment",
-            scale: "CoE enablement, roadmap planning",
-            bg: "bg-[#FAD7ED]",
-        },
-        {
-            stage: "4. Strategic SAP Consulting Long-Term Partnership",
-            focus: "Continuous improvement",
-            expectation: "Long-horizon strategy",
-            scale: "Value tracking, automation agenda",
-            bg: "bg-[#DDE1FD]",
-        },
-    ];
-
-    const whyErpData = [
-        {
-            "title": "How Enterprises Expand SAP Engagements Beyond the First Deployment",
-            "desc": [
-                "Long-term growth doesn’t happen by default; it requires continuity, relevant use cases, and predictable execution.",
-            ],
-            "title2": "Pathways Through Which SAP Relationships Expand",
-            "list": [
-                {
-                    "title": "New geographies & business units",
-                    "desc": "Rollouts become faster when the partner already understands DNA, data, and org context."
-                },
-                {
-                    "title": "Feature enablement & automation waves",
-                    "desc": "AI, workflow automation, compliance modules, mobile extensions."
-                },
-                {
-                    "title": "Integration with adjacent systems",
-                    "desc": "SAP + Salesforce, SAP + MES, SAP + Data Cloud, value compounds when connected."
-                },
-                {
-                    "title": "Managed support & optimization",
-                    "desc": "Stabilization, adoption metrics, TCO reduction, and continuous functional enhancements."
-                },
-                {
-                    "title": "Analytics and insight-driven transformation",
-                    "desc": "SAP Analytics Cloud, Data Cloud integration, predictive planning.."
-                }
-            ],
-            "desc2": "A <a href='https://www.rialtes.com/insights/blogs/what-makes-sap-consulting-companies-trustworthy/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> trusted SAP consulting relationship</a> grows like a flywheel; each win fuels the next."
-        }
-    ]
-
-
-
-    const howSalesforceData = [
-        {
-            "title": "Signals That a Partner Is Ready for Long-Term Strategic Engagement",
-            "desc": ["Scaling a consulting relationship is never impulsive. Enterprises expand scope only when they sense alignment, maturity, and a     <a href='https://www.rialtes.com/insights/blogs/why-enterprises-choose-sap-consulting-partners/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>partner capable of growing with them<a/>. CIOs look for behavioural proof, not pitch-deck promises; they evaluate how a partner acts under pressure, how decisions are challenged, and whether teams operate like co-owners rather than implementers.",
-            ],
-            "list": [
-                {
-                    "title": "The partner challenges decisions with rationale instead of following instructions blindly",
-                    "desc": ["A strategic partner doesn’t nod on every request. They question processes, validate assumptions, and protect the business from downstream complexity. Pushback is thoughtful, data-based, and timed well."],
-                },
-                {
-                    "title": "Risk conversations are transparent, structured, and solution-oriented",
-                    "desc": [
-                        "Healthy delivery environments surface issues early. When a partner raises risks without political hedging and proposes mitigation paths, leadership gains confidence. It signals ownership, not avoidance"
-                    ],
-                },
-                {
-                    "title": "Leadership continuity is visible across phases, not just during sales cycles",
-                    "desc": [
-                        "Enterprises notice when the people who sold the vision remain accountable during execution. Consistency of program leads, architects, and engagement heads matters more than headcount."
-                    ],
-
-                },
-                {
-                    "title": "Business context is understood beyond transactions and configuration",
-                    "desc": [
-                        "Partners ready to scale connect SAP work to revenue flows, supply chain realities, compliance frameworks, and how decisions impact users. They speak business language, not only S/4HANA modules."
-                    ],
-
-                },
-                {
-                    "title": "Delivery cadence is measurable, predictable, and repeatable across workstreams",
-                    "desc": [
-                        "When ceremonies run on rhythm, escalations are clear, and reporting is outcome-based, teams feel safe increasing scope. Reliability builds trust quietly, sprint by sprint."
-                    ],
-                }
-            ]
-        }
-    ]
-    const faqdata = [
-        {
-            "question": "What does a scalable SAP consulting partnership look like?",
-            "answer": "It’s when delivery shifts from ticket completion to value realization. The partner co-builds roadmaps, improves adoption, drives automation, and becomes involved in business planning rather than being a project executor."
-        },
-        {
-            "question": "How is long-term SAP consulting value measured?",
-            "answer": "Through cost-to-serve reduction, release velocity, user adoption rates, integration maturity, automation impact, time-to-change cycles, and business KPIs linked to SAP outcomes — not just go-live success."
-        },
-        {
-            "question": "Why expand with one SAP partner instead of using many?",
-            "answer": "Consolidation reduces re-learning, speeds decision cycles, stabilizes architecture, and builds institutional memory. One trusted partner scale faster than onboarding a new vendor for every initiative."
-        },
-        {
-            "question": "When should enterprises shift from a project model to a managed partnership?",
-            "answer": "Typically, post-stabilization, when enhancements become continuous. A managed model supports automation, innovation, and rollouts without constant procurement cycles."
-        },
-        {
-            "question": "What makes a partner a strategic ally, not a vendor?",
-            "answer": "Ownership mindset. The ability to forecast risks, help shape business roadmaps, deliver cross-functional value, and remain accountable beyond scope boundaries."
-        }
-    ]
-
-
-    const commonTrustData = [
-        {
-            "title": "Why Most SAP Relationships Stall After the First Project",
-            "desc": [
-                "Many engagements start strong but fail to evolve because the partner remains execution-focused instead of growth-focused. The signs look familiar:"
-            ],
-            "list": [
-                "Delivery becomes transaction-oriented, not value-oriented",
-                "Stakeholders struggle with visibility into the future transformation roadmap",
-                "The partner works in the system, but not on the strategy",
-                "Different business units are onboarding new vendors, diluting ownership"
-            ],
-            desc2: "A single project proves capability. Scaling requires trust, pace, and a strategic SAP consulting relationship roadmap."
-        }
-    ]
-    const standardizationData = [
-        {
-            "title": "SAP Consulting Governance — The Real Differentiator",
-            "desc": [
-                "Capability wins projects. <a href='https://www.rialtes.com/insights/blogs/sap-consulting-trust-through-accountability/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Governance wins trust</a>. As programs expand, decision velocity and alignment matter more than tickets closed.",
-            ],
-            "boldTitle": "Scalable Governance Frameworks Include:",
-            "list": [
-                "Cross-functional steering committees",
-                "Structured RACI and escalation paths",
-                "Release, regression & integration playbooks",
-                "Change management and communication frameworks",
-                "SLA-based managed services for continuous delivery"
-            ],
-            desc2: "When governance matures, business users stop seeing SAP as a project and start seeing it as the operating engine."
-        }
-    ]
-
-    const schemaData = {
-        "@context": "https://schema.org",
-        "@type": "BlogPosting",
-        "headline": "Grow with SAP: Your Fast-Track Ticket to an AI-First Tomorrow",
-        "description": "GROW with SAP lays the digital foundation needed to automate faster, scale confidently, and unlock intelligence across finance, supply chain, procurement, manufacturing, and beyond.",
-        "image": "https://www.rialtes.com/images/blogs/grow-with-sap-ai-first.webp",
-        "author": {
-            "@type": "Organization",
-            "name": "Rialtes"
-        },
-        "publisher": {
-            "@type": "Organization",
-            "name": "Rialtes",
-            "logo": {
-                "@type": "ImageObject",
-                "url": "https://www.rialtes.com/images/homepage/logo.svg"
-            }
-        },
-        "mainEntityOfPage": {
-            "@type": "WebPage",
-            "@id": "https://www.rialtes.com/insights/blogs/grow-with-sap-ai-ready-cloud-erp/"
-        },
-        "datePublished": "2026-01-06",
-        "mainEntity": {
-            "@type": "FAQPage",
-            "name": "GROW with SAP FAQs",
-            "mainEntity": [
-                {
-                    "@type": "Question",
-                    "name": "What is GROW with SAP?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "GROW with SAP is a packaged offering that helps businesses adopt SAP S/4HANA Public Cloud quickly using standardized best-practice processes, automation-ready workflows, and a lower total cost of ownership."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Why choose GROW with SAP over traditional ERP deployment?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "GROW with SAP reduces heavy customization, accelerates go-live, keeps the ERP core clean, and ensures the system remains upgrade-friendly for future AI and automation scenarios."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "How does GROW with SAP prepare businesses for AI?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "GROW with SAP standardizes and integrates processes so data is clean, consistent, and trustworthy, making it easier to introduce machine learning, predictive analytics, and AI copilots on top of the ERP."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "What role does Rialtes play in a GROW with SAP implementation?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Rialtes helps assess current processes, configure SAP S/4HANA Public Cloud, migrate data, prioritize standardization over customization, design automation, and build a 12–36 month AI and innovation roadmap."
-                    }
-                },
-                {
-                    "@type": "Question",
-                    "name": "Is GROW with SAP suitable for SMBs?",
-                    "acceptedAnswer": {
-                        "@type": "Answer",
-                        "text": "Yes, GROW with SAP is designed for growing businesses that want enterprise-grade ERP capabilities with faster implementation timelines and minimal infrastructure complexity."
-                    }
-                }
-            ]
-        }
-    }
+    const locale = useLocale();
+    const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const { mainData, whyTrustData, whyEnterpriseData, rows, whyErpData, schemaData, howSalesforceData, faqdata, commonTrustData, standardizationData } = blogsContent.fromProjectPartnerToStrategicSapConsultingAlly;
     return (
         <section className="min-h-screen">
             <Seo
@@ -329,7 +78,7 @@ export default function Page() {
 
                         {/* main blog */}
                         <div className="xl:mt-[60px] mt-[42px]">
-                            <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">From Project Partner to Strategic Ally: Scaling SAP Consulting Engagements</h1>
+                            <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">{t('blogTitle')}</h1>
 
                             <div className="xl:mt-[38px] mt-[33px]">
                                 {
@@ -535,7 +284,7 @@ export default function Page() {
             </section>
             {/* faq section */}
             <section className="xl:mt-[80px] mt-[40px] custom-container">
-                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">FAQs: Scale SAP Consulting Partnerships</h2>
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">{t('faqTitle')}</h2>
                 <div className="mt-[29px] xl:mt-[30px]">
                     <FAQAccordion faqData={faqdata} />
                 </div>

@@ -10951,5 +10951,198 @@
   "chart": "Gráfico Antes vs Después de LifeAI+",
   "faq": "FAQs: Necesidad de CRM en ciencias de la vida",
   "bannerAlt": "Médico analizando diagnósticos de paciente en pantallas múltiples mostrando escáneres cerebrales e imágenes esqueléticas"
+    },
+    "fromProjectPartnerToStrategicSapConsultingAlly": {
+  "mainData": [
+    "Los programas SAP empresariales rara vez terminan con una sola implementación. Una vez que el entorno central está en producción, comienza el verdadero recorrido: expansión entre unidades de negocio, olas de automatización, madurez analítica, paisajes de integración y mejora continua.",
+    "Aquí está la clave: las organizaciones no escalan relaciones SAP con proveedores que solo ejecutan tareas. Escalan con socios que demuestran sentido de propiedad, disciplina de gobernanza y capacidad de pensar más allá del alcance actual. Una <a href='https://www.linkedin.com/pulse/how-enterprises-evaluate-choose-sap-consulting-citof/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>asociación de consultoría SAP a largo plazo</a> se gana mediante previsibilidad, responsabilidad y resultados de transformación compartidos."
+  ],
+
+  "whyTrustData": [
+    {
+      "title": "Lo que las empresas esperan al escalar asociaciones de consultoría SAP",
+      "desc": [
+        "Una vez que se demuestra la base, las empresas evalúan si el socio puede operar a escala. Las expectativas cambian de métricas de entrega a habilitación estratégica."
+      ],
+      "title2": "La curva de madurez de una asociación de consultoría SAP",
+      "desc2": "La mayoría de los socios se detienen en la etapa 1 o 2. Las empresas solo escalan relaciones cuando los socios asumen responsabilidad en las etapas 3 y 4."
     }
+  ],
+
+  "whyEnterpriseData": [
+    {
+      "title": "Por qué las empresas eligen a Rialtes para asociaciones SAP a largo plazo",
+      "desc": [
+        "Rialtes trabaja más allá de los hitos de implementación. Actuamos como socios que co-poseen los resultados del negocio, desde decisiones de arquitectura hasta pipelines de automatización. Nuestros equipos aportan disciplina de gobernanza, modelos de entrega estructurados y transparencia en la comunicación de riesgos.",
+        "A medida que las organizaciones crecen en regiones, funciones y prioridades digitales, Rialtes se convierte en el hilo de continuidad, garantizando acumulación de conocimiento, despliegues más rápidos, gobernanza operativa estable y valor de transformación sostenido.",
+        "Para las empresas que buscan relaciones de consultoría SAP confiables basadas en madurez, responsabilidad e impacto a largo plazo, Rialtes evoluciona de socio de proyecto a aliado estratégico, acelerando la transformación durante años, no meses."
+      ]
+    }
+  ],
+  "faqTitle": "Preguntas frecuentes: Escalar asociaciones de consultoría SAP",
+
+  "rows": [
+    {
+      "stage": "1. Proveedor de proyecto",
+      "focus": "Entrega basada en alcance",
+      "expectation": "Capacidad técnica",
+      "scale": "Plazos, calidad, preparación para UAT",
+      "bg": "bg-[#E2FFE5]"
+    },
+    {
+      "stage": "2. Socio preferido",
+      "focus": "Habilitación de múltiples flujos",
+      "expectation": "Reducción de dependencias",
+      "scale": "Documentación, gobernanza, playbooks",
+      "bg": "bg-[#FFF2E2]"
+    },
+    {
+      "stage": "3. Aliado de transformación",
+      "focus": "Co-propiedad de resultados",
+      "expectation": "Innovación + alineación con el negocio",
+      "scale": "Habilitación del CoE, planificación del roadmap",
+      "bg": "bg-[#FAD7ED]"
+    },
+    {
+      "stage": "4. Asociación estratégica de consultoría SAP a largo plazo",
+      "focus": "Mejora continua",
+      "expectation": "Estrategia de largo plazo",
+      "scale": "Seguimiento de valor, agenda de automatización",
+      "bg": "bg-[#DDE1FD]"
+    }
+  ],
+
+  "whyErpData": [
+    {
+      "title": "Cómo las empresas amplían los compromisos SAP más allá de la primera implementación",
+      "desc": [
+        "El crecimiento a largo plazo no ocurre por defecto; requiere continuidad, casos de uso relevantes y ejecución predecible."
+      ],
+      "title2": "Vías mediante las cuales se expanden las relaciones SAP",
+      "list": [
+        {
+          "title": "Nuevas geografías y unidades de negocio",
+          "desc": "Los despliegues son más rápidos cuando el socio ya comprende el ADN, los datos y el contexto organizacional."
+        },
+        {
+          "title": "Habilitación de funcionalidades y olas de automatización",
+          "desc": "IA, automatización de flujos de trabajo, módulos de cumplimiento, extensiones móviles."
+        },
+        {
+          "title": "Integración con sistemas adyacentes",
+          "desc": "SAP + Salesforce, SAP + MES, SAP + Data Cloud; el valor se multiplica cuando se conecta."
+        },
+        {
+          "title": "Soporte gestionado y optimización",
+          "desc": "Estabilización, métricas de adopción, reducción del TCO y mejoras funcionales continuas."
+        },
+        {
+          "title": "Analítica y transformación basada en insights",
+          "desc": "SAP Analytics Cloud, integración con Data Cloud, planificación predictiva."
+        }
+      ],
+      "desc2": "Una <a href='https://www.rialtes.com/insights/blogs/what-makes-sap-consulting-companies-trustworthy/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>relación de consultoría SAP confiable</a> crece como un volante de inercia; cada éxito impulsa el siguiente."
+    }
+  ],
+
+  "howSalesforceData": [
+    {
+      "title": "Señales de que un socio está listo para una relación estratégica a largo plazo",
+      "desc": [
+        "Escalar una relación de consultoría nunca es impulsivo. Las empresas amplían el alcance solo cuando perciben alineación, madurez y un <a href='https://www.rialtes.com/insights/blogs/why-enterprises-choose-sap-consulting-partners/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>socio capaz de crecer con ellas</a>. Los CIO buscan pruebas de comportamiento, no promesas de presentaciones."
+      ],
+      "list": [
+        {
+          "title": "El socio cuestiona decisiones con fundamento en lugar de seguir instrucciones ciegamente",
+          "desc": [
+            "Un socio estratégico valida supuestos, cuestiona procesos y protege al negocio de complejidad futura."
+          ]
+        },
+        {
+          "title": "Las conversaciones sobre riesgos son transparentes y orientadas a soluciones",
+          "desc": [
+            "Los entornos saludables identifican riesgos temprano y proponen planes de mitigación claros."
+          ]
+        },
+        {
+          "title": "La continuidad del liderazgo es visible durante todas las fases",
+          "desc": [
+            "Las empresas valoran que quienes venden la visión sigan siendo responsables durante la ejecución."
+          ]
+        },
+        {
+          "title": "El contexto del negocio se entiende más allá de transacciones y configuración",
+          "desc": [
+            "Los socios conectan SAP con ingresos, cadena de suministro y cumplimiento, no solo con módulos."
+          ]
+        },
+        {
+          "title": "La cadencia de entrega es medible, predecible y repetible",
+          "desc": [
+            "La fiabilidad genera confianza sprint tras sprint."
+          ]
+        }
+      ]
+    }
+  ],
+
+  "faqdata": [
+    {
+      "question": "¿Cómo es una asociación de consultoría SAP escalable?",
+      "answer": "Cuando la entrega pasa de completar tickets a generar valor real para el negocio."
+    },
+    {
+      "question": "¿Cómo se mide el valor de la consultoría SAP a largo plazo?",
+      "answer": "Mediante KPIs de negocio, automatización, adopción y velocidad de cambio."
+    },
+    {
+      "question": "¿Por qué expandirse con un solo socio SAP?",
+      "answer": "Reduce reprocesos, acelera decisiones y construye memoria institucional."
+    },
+    {
+      "question": "¿Cuándo pasar de un modelo de proyecto a una asociación gestionada?",
+      "answer": "Después de la estabilización, cuando las mejoras se vuelven continuas."
+    },
+    {
+      "question": "¿Qué convierte a un socio en aliado estratégico?",
+      "answer": "Mentalidad de propiedad y responsabilidad más allá del alcance contractual."
+    }
+  ],
+
+  "commonTrustData": [
+    {
+      "title": "Por qué la mayoría de las relaciones SAP se estancan después del primer proyecto",
+      "desc": [
+        "Muchas iniciativas comienzan fuertes pero no evolucionan porque el socio sigue enfocado en la ejecución y no en el crecimiento."
+      ],
+      "list": [
+        "La entrega se vuelve transaccional, no orientada al valor",
+        "Los stakeholders carecen de visibilidad sobre el roadmap futuro",
+        "El socio trabaja en el sistema, pero no en la estrategia",
+        "Diferentes unidades de negocio incorporan nuevos proveedores, diluyendo la responsabilidad"
+      ],
+      "desc2": "Un solo proyecto demuestra capacidad. Escalar requiere confianza, ritmo y una hoja de ruta estratégica."
+    }
+  ],
+
+  "standardizationData": [
+    {
+      "title": "Gobernanza en consultoría SAP — El verdadero diferenciador",
+      "desc": [
+        "La capacidad gana proyectos. <a href='https://www.rialtes.com/insights/blogs/sap-consulting-trust-through-accountability/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>La gobernanza genera confianza</a>. A medida que los programas crecen, la velocidad de decisión y la alineación importan más que los tickets cerrados."
+      ],
+      "boldTitle": "Los marcos de gobernanza escalables incluyen:",
+      "list": [
+        "Comités de dirección multifuncionales",
+        "RACI estructurado y rutas de escalamiento",
+        "Playbooks de liberación, regresión e integración",
+        "Marcos de gestión del cambio y comunicación",
+        "Servicios gestionados basados en SLA para entrega continua"
+      ],
+      "desc2": "Cuando la gobernanza madura, los usuarios dejan de ver SAP como un proyecto y comienzan a verlo como el motor operativo."
+    }
+  ],
+  "blogTitle": "De socio de proyecto a aliado estratégico: escalando los compromisos de consultoría SAP"
+}
+
 }
