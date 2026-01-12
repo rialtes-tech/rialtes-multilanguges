@@ -228,28 +228,38 @@
     ],
     "latestBlogs": [
       {
-  "id": 71,
-  "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
-  "category": "Salesforce Life Sciences Cloud",
-  "industry": "Ciencias de la vida",
-  "date": "07 Jan. 2026",
-  "url": "/crm-as-growth-engine-life-sciences/",
-  "title": "CRM para ciencias de la vida: por qué los sistemas centrados solo en ventas ya no funcionan en la atención sanitaria moderna",
-  "alt": "Médico analizando diagnósticos de paciente en pantallas múltiples mostrando escáneres cerebrales e imágenes esqueléticas",
-  "description": "Durante años, la mayoría de las organizaciones de ciencias de la vida trataron el CRM como una herramienta de habilitación de ventas: un lugar para realizar el seguimiento de cuentas, programar visitas, gestionar muestras y registrar puntos de contacto."
-},
+        "id": 72,
+        "image": "/images/blog/from-project-partner/thumb.webp",
+        "category": "Consultoría SAP",
+        "industry": "Ciencias de la Vida",
+        "date": "02 jan. 2026",
+        "url": "/from-project-partner-to-strategic-sap-consulting-ally/",
+        "title": "De socio de proyecto a aliado estratégico: escalando los compromisos de consultoría SAP",
+        "alt": "Doctor analizando diagnósticos de pacientes en múltiples pantallas que muestran escaneos cerebrales, imágenes del esqueleto y signos vitales en tiempo real",
+        "description": "Los programas SAP empresariales rara vez terminan con una sola implementación. Una vez que el entorno central está en producción, comienza el verdadero recorrido: expansión entre unidades de negocio."
+      },
       {
-  "id": 70,
-  "image": "/images/blog/voygernext/voyager-thumb.webp",
-  "category": "Grow con SAP",
-  "industry": "Genérico",
-  "date": "06 ene. 2026",
-  "url": "/grow-with-sap-ai-ready-cloud-erp/",
-  "title": "GROW con SAP: tu vía rápida hacia un mañana impulsado por la IA",
-  "alt": "GROW con SAP ERP en la nube preparado para IA para un futuro empresarial impulsado por la IA",
-  "description": "Según McKinsey, más del 70 % de las organizaciones ya han experimentado con GenAI, y una de cada tres espera que la IA transforme las operaciones centrales en los próximos tres años."
-},
-
+        "id": 71,
+        "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
+        "category": "Salesforce Life Sciences Cloud",
+        "industry": "Ciencias de la vida",
+        "date": "07 Jan. 2026",
+        "url": "/crm-as-growth-engine-life-sciences/",
+        "title": "CRM para ciencias de la vida: por qué los sistemas centrados solo en ventas ya no funcionan en la atención sanitaria moderna",
+        "alt": "Médico analizando diagnósticos de paciente en pantallas múltiples mostrando escáneres cerebrales e imágenes esqueléticas",
+        "description": "Durante años, la mayoría de las organizaciones de ciencias de la vida trataron el CRM como una herramienta de habilitación de ventas: un lugar para realizar el seguimiento de cuentas, programar visitas, gestionar muestras y registrar puntos de contacto."
+      },
+      {
+        "id": 70,
+        "image": "/images/blog/voygernext/voyager-thumb.webp",
+        "category": "Grow con SAP",
+        "industry": "Genérico",
+        "date": "06 Jan. 2026",
+        "url": "/grow-with-sap-ai-ready-cloud-erp/",
+        "title": "GROW con SAP: tu vía rápida hacia un mañana impulsado por la IA",
+        "alt": "GROW con SAP ERP en la nube preparado para IA para un futuro empresarial impulsado por la IA",
+        "description": "Según McKinsey, más del 70 % de las organizaciones ya han experimentado con GenAI, y una de cada tres espera que la IA transforme las operaciones centrales en los próximos tres años."
+      },
       {
         "id": 69,
         "image": "/images/blog/enterprise-growth-strategy-thumbnail.webp",

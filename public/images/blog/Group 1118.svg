@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="829" height="174" viewBox="0 0 829 174">
+  <g id="Group_1118" data-name="Group 1118" transform="translate(-279 -3862)">
+    <path id="Union_13" data-name="Union 13" d="M0,94V0H134.639V0L181,47,134.639,93.994V94Z" transform="translate(712 3942)" fill="#9ca8e8"/>
+    <path id="Union_13_-_Outline" data-name="Union 13 - Outline" d="M133.8,92l44.393-45L133.8,2H2V92H133.8m.842,2H0V0H134.639V0L181,47,134.639,93.994Z" transform="translate(712 3942)" fill="#fff"/>
+    <path id="Union_18" data-name="Union 18" d="M0,94V0H165.3L215,47,165.3,94Z" transform="translate(893 3942)" fill="#d4aadf"/>
+    <path id="Union_18_-_Outline" data-name="Union 18 - Outline" d="M164.509,92l47.581-45L164.509,2H2V92H164.509m.8,2H0V0H165.3L215,47Z" transform="translate(893 3942)" fill="#fff"/>
+    <path id="Union_12" data-name="Union 12" d="M0,93.678V0H162.538l61.944,46.839L162.538,93.677H0Z" transform="translate(487.644 3942)" fill="#9cd1e8"/>
+    <path id="Union_12_-_Outline" data-name="Union 12 - Outline" d="M161.867,91.678l59.3-44.839L161.867,2H2V91.678H161.867m.672,2H0V0H162.538l61.944,46.839Z" transform="translate(487.644 3942)" fill="#fff"/>
+    <path id="Union_11" data-name="Union 11" d="M0,93.678V0H149.528l59.117,46.842L149.528,93.678Z" transform="translate(279 3942)" fill="#b6e0da"/>
+    <path id="Union_11_-_Outline" data-name="Union 11 - Outline" d="M148.832,91.678l56.593-44.837L148.832,2H2V91.678H148.832m.7,2H0V0H149.528l59.117,46.842Z" transform="translate(279 3942)" fill="#fff"/>
+    <text id="Why_Personalization_Fails_" data-name="Why Personalization Fails " transform="translate(279 3862)" font-size="28" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="27">Why Personalization Fails </tspan></text>
+    <text id="Data_Silos_" data-name="Data Silos " transform="translate(305 3976)" font-size="22" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="21">Data Silos </tspan></text>
+    <text id="Fragmented_Journeys_" data-name="Fragmented Journeys " transform="translate(507.963 3962)" font-size="22" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="21">Fragmented </tspan><tspan x="0" y="48">Journeys </tspan></text>
+    <text id="Delayed_Insights_" data-name="Delayed Insights " transform="translate(735 3962)" font-size="22" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="21">Delayed </tspan><tspan x="0" y="48">Insights </tspan></text>
+    <text id="Low_Engagement" data-name="Low Engagement" transform="translate(914 3962)" font-size="22" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="21">Low </tspan><tspan x="0" y="48">Engagement</tspan></text>
+  </g>
+</svg>

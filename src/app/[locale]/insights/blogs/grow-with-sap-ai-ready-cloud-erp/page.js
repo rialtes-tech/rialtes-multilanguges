@@ -114,7 +114,7 @@ export default function Page() {
                                         </div>
                                     ))
                                 }
-                                <div className="bg-[#006FBE] text-white font-semibold p-5 mt-16 4xl:text-[26px] 2xl:text-[22px] xl:text-[22px] md:text-[20px] text-[20px]">GROW with SAP = Modern ERP + Standardization + Future AI Enablement</div>
+                                <div className="bg-[#006FBE] text-white 2xl:w-[90%] 4xl:w-full font-semibold p-5 mt-16 4xl:text-[26px] 2xl:text-[22px] xl:text-[22px] md:text-[20px] text-[20px]">GROW with SAP = Modern ERP + Standardization + Future AI Enablement</div>
                                 <div className="xl:block hidden md:block">
                                     <img
                                         src="/images/blog/voygernext/infographic11.png"
@@ -130,7 +130,7 @@ export default function Page() {
                                         className="mt-16 m-auto"
                                     />
                                 </div>
-                                <p className="mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">This alone shifts companies from reactive problem-solving to proactive decision-making.</p>
+                                <p className="xl:mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">This alone shifts companies from reactive problem-solving to proactive decision-making.</p>
 
                                 {
                                     commonTrustData.map((data, index) => (
@@ -150,13 +150,13 @@ export default function Page() {
                                         </div>
                                     ))
                                 }
-                                <div className="bg-[#EDEDED] p-6 mt-5">
+                                <div className="bg-[#EDEDED] p-6 mt-5 ml-8 4xl:w-[90%] 2xl:w-[80%] xl:w-[80%]">
                                     <img
                                         src="/images/blog/voygernext/infographic.png"
                                         alt="Two people shaking hands with glowing digital lines symbolizing partnership and collaboration."
 
                                     />
-                                    <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">A three-stage maturity roadmap showcasing evolution from manual processes to AI-powered decisions.</p>
+                                    <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] 4xl:pr-[8rem] 2xl:pr-[4rem]">A three-stage maturity roadmap showcasing evolution from manual processes to AI-powered decisions.</p>
                                 </div>
                                 {
                                     whatAreData.map((data, index) => (
@@ -168,7 +168,7 @@ export default function Page() {
                                                     data.list.map((elem, index) => {
                                                         return (
                                                             <div className="4xl:p-[30px] p-[32px] border border-[#707070]" key={`${elem.title}-${index}`}>
-                                                                <h3 className="text-[#006FBE] 4xl:text-[22px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold pb-4 border-b border-[#707070] leading-tight">{elem.title}</h3>
+                                                                <h3 className="text-[#006FBE] 4xl:text-[22px] 2xl:text-[19px] xl:text-[20px] md:text-[20px] text-[20px] font-bold pb-4 border-b border-[#707070] leading-tight">{elem.title}</h3>
                                                                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight" dangerouslySetInnerHTML={{ __html: elem.desc }} />
                                                             </div>
                                                         )
@@ -196,9 +196,9 @@ export default function Page() {
                                         </div>
                                     ))
                                 }
-                                <table className="w-full border-collapse mt-10">
+                                <table className="4xl:w-[80%] 2xl:w-[85%] xl:w-[90%] border-collapse mt-10">
                                     {/* Header */}
-                                    <thead className="bg-gray-100 border-b border-gray-300">
+                                    <thead className="bg-gray-100 border-b border-gray-500">
                                         <tr>
                                             <th className="text-left font-semibold p-4
               4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
@@ -215,17 +215,17 @@ export default function Page() {
                                         {tableData.map((row, index) => (
                                             <tr
                                                 key={`${row.function}-${index}`}
-                                                className="border-b border-gray-300 xl:table-row"
+                                                className="border-b border-gray-500 xl:table-row"
                                             >
                                                 <td
-                                                    className="p-4 xl:table-cell 
+                                                    className="p-4 xl:table-cell font-medium 
                 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                 >
                                                     {row.function}
                                                 </td>
 
                                                 <td
-                                                    className="p-4 xl:table-cell 
+                                                    className="p-4 xl:table-cell font-medium
                 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                 >
 
@@ -244,7 +244,7 @@ export default function Page() {
                                                     data.list.map((elem, index) => {
                                                         return (
                                                             <div className="4xl:p-[30px] p-[32px] border border-[#707070]" key={`${elem.title}-${index}`}>
-                                                                <h3 className="text-[#006FBE] 4xl:text-[22px] 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px] font-bold pb-4 leading-tight">{elem.title}</h3>
+                                                                <h3 className="text-[#006FBE] 4xl:text-[22px] 2xl:text-[19px] xl:text-[20px] md:text-[20px] text-[20px] font-bold pb-4 leading-tight">{elem.title}</h3>
                                                                 <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight" dangerouslySetInnerHTML={{ __html: elem.desc }} />
                                                             </div>
                                                         )
@@ -264,8 +264,8 @@ export default function Page() {
                                             <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc}</p>
                                             {
                                                 data.list.map((elem, index) => (
-                                                    <div key={`${elem.title}-${index}`} className="mt-8">
-                                                        <h3 className="4xl:text-[20px] 2xl:text-[19px] text-[20px] font-bold mt-8">{index + 1}. {elem.title}</h3>
+                                                    <div key={`${elem.title}-${index}`} className="mt-8 pl-6">
+                                                        <h3 className="4xl:text-[20px] 2xl:text-[17px] text-[20px] font-bold mt-8">{index + 1}. {elem.title}</h3>
                                                         <UnorderedList arrName={elem.desc} ulClassName={`md:pl-[24px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium`} />
                                                     </div>
                                                 ))
