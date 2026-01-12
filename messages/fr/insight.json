@@ -238,6 +238,17 @@
         "description": "Les programmes SAP d’entreprise se terminent rarement par un seul déploiement. Une fois le socle central en production, le véritable parcours commence : l’expansion à travers les unités métiers."
       },
       {
+        "id": 72,
+        "image": "/images/blog/data-analysis-business-strategy-thumbnail.webp",
+        "category": "Conseil SAP",
+        "industry": "Générique",
+        "date": "Jan. 09, 2026",
+        "url": "/sap-consulting-trust-through-accountability/",
+        "title": "La responsabilité dans le conseil SAP : ce que les entreprises doivent exiger de leurs partenaires",
+        "alt": "Équipe examinant des données métier et des indicateurs de performance sur un tableau de bord analytique numérique",
+        "description": "Les programmes SAP d’entreprise n’échouent pas parce que la technologie fait défaut ; ils échouent lorsque la gouvernance se dégrade, que la responsabilité devient floue et que les décisions manquent de redevabilité. Les grands programmes de transformation impliquent des feuilles de route pluriannuelles, des impacts transverses et un niveau de complexité où les hypothèses se transforment rapidement en risques."
+      },
+      {
         "id": 75,
         "image": "/images/blog/fragmented-customer-journeys-feature-thumb.webp",
         "category": "Salesforce Marketing Cloud",

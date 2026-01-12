@@ -309,6 +309,17 @@
         "description": "Enterprise SAP programs rarely end with one deployment. Once the core landscape is live, the real journey begins: expansion across business units. "
       },
       {
+        "id": 72,
+        "image": "/images/blog/data-analysis-business-strategy-thumbnail.webp",
+        "category": "SAP Consulting",
+        "industry": "Generic",
+        "date": "Jan. 09, 2026",
+        "url": "/sap-consulting-trust-through-accountability/",
+        "title": "Accountability in SAP Consulting: What Enterprises Must Demand from Partners",
+        "alt": "Team reviewing business data and performance metrics on a digital analytics dashboard",
+        "description": "Enterprise SAP programs don’t fail because technology isn’t available; they fail when governance breaks down, when ownership blurs, and when decisions lack accountability. Large transformation programs involve multi-year roadmaps, cross-functional impact, and the kind of complexity where assumptions compound into risk quickly."
+      },
+      {
         "id": 75,
         "image": "/images/blog/fragmented-customer-journeys-feature-thumb.webp",
         "category": "Salesforce Marketing Cloud",
