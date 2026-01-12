@@ -10776,7 +10776,234 @@
         "tableHeadUseCase": "Exemple de cas d’usage IA / insights",
         "schemaData": {}
     },
-
+    "salesforceMarketingCloud": {
+        "salesforcemarketingTitle": "Que sont les parcours clients fragmentés et pourquoi sont-ils importants ?",
+        "mainData": [
+            "Le marketing personnalisé est une promesse depuis plus de dix ans. Pourtant, malgré de meilleurs outils, davantage de données et des plateformes plus intelligentes, l’engagement client continue de décevoir. Les e-mails restent non ouverts. Les notifications push semblent non pertinentes. Les parcours se brisent en cours de route. Les campagnes sont lancées à temps, mais n’arrivent pas à créer de lien.",
+            "Le problème n’est pas un manque d’effort. C’est la fragmentation.",
+            "Selon <a href='https://www.salesforce.com/small-business/what-are-customer-expectations/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Salesforce research</a>, 76 % des clients s’attendent à ce que les entreprises comprennent leurs besoins et leurs attentes, mais plus de la moitié déclarent que la plupart des messages marketing restent génériques. Gartner ajoute que plus de 60 % des responsables marketing ont du mal à activer la personnalisation à grande échelle en raison de systèmes déconnectés et de données incohérentes.",
+            "Cet écart entre l’intention et l’exécution est précisément ce que créent les parcours clients fragmentés, et pourquoi ils comptent bien plus que ce que la plupart des équipes imaginent."
+        ],
+        "fragmentedData": [
+            {
+                "title": "Que sont les parcours clients fragmentés ?",
+                "desc": [
+                    "Un parcours client fragmenté se produit lorsque les interactions entre les canaux, les équipes et les systèmes ne parviennent pas à se connecter en une expérience unique et cohérente."
+                ],
+                "descc": "Du point de vue du client, cela ressemble à ceci :",
+                "list": [
+                    "Un e-mail fait la promotion d’un produit qu’ils ont déjà acheté",
+                    "Un dossier de service client ne tient pas compte des interactions marketing récentes",
+                    "Le contenu du site web ne reflète pas les préférences connues",
+                    "Les offres semblent aléatoires plutôt que pertinentes au bon moment"
+                ],
+                "desc2": "En coulisses, la fragmentation est généralement causée par des silos de données, des plateformes déconnectées et une exécution axée sur les canaux plutôt que sur la conception du parcours.",
+                "desc3": "Aperçu du parcours fragmenté",
+                "snapshot": {
+                    "channels": [
+                        "Email",
+                        "Web",
+                        "Mobile",
+                        "Publicités",
+                        "Service",
+                        "Ventes"
+                    ],
+                    "cards": [
+                        {
+                            "icon": "/images/blog/document-customization-icon.svg",
+                            "text": "Aucun contexte partagé",
+                            "scale": 1.1,
+                            "alt" : "Icône de personnalisation de document avec engrenage représentant personnalisation de contenu et options de configuration"
+                        },
+                        {
+                            "icon": "/images/blog/real-time-cloud-integration-icon.svg",
+                            "text": "Aucune synchronisation des données en temps réel",
+                            "scale": 1.5,
+                            "alt" : "Icône d'intégration cloud en temps réel avec symbole de synchronisation montrant connectivité de données transparente"
+                        },
+                        {
+                            "icon": "/images/blog/cloud-network-connectivity-icon.svg",
+                            "text": "Aucune vue client unifiée",
+                            "scale": 1.2,
+                            "alt" : "Icône de connectivité réseau cloud avec nœuds de connexion représentant infrastructure cloud distribuée et flux de données"
+                        }
+                    ]
+                }
+            }
+        ],
+        "personalizedMarketing": [
+            {
+                "title": "Pourquoi le marketing personnalisé échoue encore à grande échelle",
+                "desc": [
+                    "La personnalisation fonctionne dans des projets pilotes. Elle se dégrade lorsque le volume, les canaux et la complexité augmentent. Voici pourquoi."
+                ],
+                "list": [
+                    {
+                        "title": "Les données sont réparties dans trop d’endroits",
+                        "desc": "Les données clients sont dispersées entre le CRM, l’ERP, l’analytique web, les applications mobiles, les plateformes e-commerce et des outils tiers. Sans modèle de données unifié, les équipes marketing s’appuient sur des vues partielles et des segments obsolètes.",
+                        "desc2": "Résultat : une personnalisation basée sur des suppositions, et non sur le comportement."
+                    },
+                    {
+                        "title": "Les parcours sont conçus autour des canaux, pas des clients",
+                        "desc": "Les équipes email optimisent l’email. Les équipes mobiles optimisent les notifications push. Les équipes digitales gèrent le contenu web. Mais le client ne vit pas des canaux — il vit un parcours.",
+                        "desc2": "Lorsque les canaux ne communiquent pas entre eux, les parcours se brisent."
+                    },
+                    {
+                        "title": "La segmentation statique ne suit pas le rythme",
+                        "desc": "Les segments basés sur des règles peinent à s’adapter au comportement en temps réel. Lorsque la campagne est déclenchée, le moment est déjà passé.",
+                        "desc2": "Le faible engagement n’est pas un problème créatif. C’est un problème de timing."
+                    },
+                    {
+                        "title": "Le marketing et les ventes fonctionnent en silos",
+                        "desc": "Le marketing lance des campagnes sans visibilité sur les étapes du pipeline ou les problèmes de service. Les ventes engagent des conversations sans savoir ce que le marketing a promis.",
+                        "desc2": "Les clients ressentent immédiatement cette déconnexion."
+                    }
+                ],
+                "subtitle": "Pourquoi les projets ERP échouent à cause de la sur-personnalisation",
+                "subList": [
+                    "Dérive du périmètre",
+                    "Mentalité technocentrée",
+                    "Faible adoption"
+                ],
+                "desc2": "La leçon est simple : la transformation nécessite une structure, pas seulement des licences logicielles."
+            }
+        ],
+        "fragmentedJourney": [
+            {
+                "title": "Pourquoi les parcours fragmentés nuisent plus que les métriques d’engagement",
+                "desc": [
+                    "La fragmentation ne réduit pas seulement les clics. Elle affecte les revenus, la confiance et la croissance à long terme."
+                ],
+                "list": [
+                    "Taux de désabonnement et d’opt-out plus élevés",
+                    "Baisse des conversions sur l’ensemble des canaux",
+                    "Dépenses publicitaires gaspillées sur des messages non pertinents",
+                    "Progression plus lente dans le funnel",
+                    "Faible valeur vie client"
+                ],
+                "desc2": "McKinsey estime que les entreprises offrant des expériences cohérentes et connectées augmentent leurs revenus de 10 à 15 % plus rapidement que leurs concurrents. La fragmentation produit l’effet inverse.",
+                "desc3": "Sur des marchés concurrentiels, les clients partent sans se plaindre"
+            }
+        ],
+        "connectedJourney": [
+            {
+                "title": "À quoi ressemble réellement un parcours connecté",
+                "desc": [
+                    "Un parcours connecté s’adapte en temps réel. Chaque interaction s’appuie sur la précédente."
+                ],
+                "descc": "Exemple :",
+                "list": [
+                    "Une visite du site web met à jour l’intention du client",
+                    "Le contenu des emails s’adapte automatiquement",
+                    "Les équipes commerciales voient l’historique d’engagement dans le CRM",
+                    "Les agents du service client consultent les campagnes récentes",
+                    "Les offres évoluent selon l’étape du cycle de vie"
+                ],
+                "desc2": "Il ne s’agit pas d’une coordination manuelle. C’est une orchestration pilotée par les systèmes. Lorsqu’elle est mise en œuvre, c’est là que Salesforce Marketing Cloud excelle réellement."
+            }
+        ],
+        "advantageplus": [
+            {
+                "title": "Advantage+ : transformer Salesforce Marketing Cloud en moteur de parcours",
+                "desc": "Salesforce Marketing Cloud est puissant. Mais la puissance sans structure crée de la complexité. Nous aidons les organisations à passer de l’exécution de campagnes à une transformation marketing à grande échelle grâce à nos <a href='https://www.rialtes.com/fr/services/lob/salesforce-marketing-cloud-implementation-consulting/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Services Advantage+</a>, en utilisant Salesforce Marketing Cloud comme fondation.",
+                "desc2": "Advantage+ est conçu autour de l’ensemble du cycle de vie marketing",
+                "list": [
+                    {
+                        "title": "Conseil et développement de la stratégie",
+                        "desc": "Nous alignons les objectifs business avec les capacités de Salesforce. Aucune décision orientée outil. Chaque parcours est associé à des résultats mesurables."
+                    },
+                    {
+                        "title": "Implémentation et configuration",
+                        "desc": "Déploiement rapide et structuré, adapté à votre modèle d’engagement client — B2B ou B2C."
+                    },
+                    {
+                        "title": "Services créatifs et design",
+                        "desc": "Templates d’email responsives, landing pages et assets de parcours conçus pour assurer la cohérence entre les canaux."
+                    },
+                    {
+                        "title": "Assurance qualité et optimisation",
+                        "desc": "Tests de bout en bout sur les appareils, les canaux et les scénarios avant le lancement."
+                    },
+                    {
+                        "title": "Intégration et préparation des données",
+                        "desc": "Nous connectons Marketing Cloud à Sales Cloud, Service Cloud, CRM, ERP et aux plateformes tierces, éliminant les silos."
+                    },
+                    {
+                        "title": "Support post-mise en production et analytique",
+                        "desc": "Une optimisation continue, des formations et des analyses garantissent un ROI durable et une amélioration continue des performances."
+                    }
+                ],
+                "model": {
+                    "label": "Modèle de transformation marketing Advantage+",
+                    "steps": [
+                        "Stratégie",
+                        "Construction",
+                        "Création",
+                        "Test",
+                        "Connecter",
+                        "Optimiser"
+                    ]
+                }
+            }
+        ],
+        "solveFragmentation": [
+            {
+                "title": "Comment Advantage+ résout la fragmentation",
+                "desc": [
+                    "Voici ce qui change lorsque les parcours sont connectés :"
+                ],
+                "list": [
+                    "Vue client unique à travers les systèmes",
+                    "Parcours pilotés par le comportement plutôt que par des campagnes statiques",
+                    "Déclencheurs et personnalisation en temps réel",
+                    "Contexte unifié entre le marketing, les ventes et le service",
+                    "Automatisation évolutive sans perte de pertinence"
+                ],
+                "desc2": "La personnalisation cesse d’être fragile et devient reproductible."
+            }
+        ],
+        "benefits": [
+            {
+                "title": "Qui bénéficie le plus des services Advantage+",
+                "list": [
+                    "Organisations B2B avec des cycles d’achat longs",
+                    "Marques B2C gérant un engagement multicanal",
+                    "Entreprises confrontées à un faible ROI des campagnes",
+                    "Équipes migrant vers ou optimisant Marketing Cloud",
+                    "Entreprises cherchant à opérationnaliser la personnalisation"
+                ],
+                "desc2": "Si la personnalisation semble complexe, incohérente ou difficile à déployer à grande échelle, Advantage+ apporte de la structure.",
+                "desc3": "Lorsque les données se connectent, que les systèmes s’alignent et que les parcours s’adaptent en temps réel, l’engagement suit naturellement. Avec la bonne fondation et le bon modèle d’exécution, Salesforce Marketing Cloud devient plus qu’un simple outil de campagne ; il devient le moteur de relations client significatives. Rialtes aide les organisations à exploiter la puissance de Salesforce Marketing Cloud grâce à nos services Advantage+. Prêt à accélérer votre marketing ? <a href='https://www.rialtes.com/fr/contact-us/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Parlons-en !</a>"
+            }
+        ],
+        "faqData": [
+            {
+                "question": "Que sont les parcours clients fragmentés ?",
+                "answer": "Ils surviennent lorsque les interactions client à travers les canaux et les systèmes sont déconnectées, entraînant des expériences incohérentes et non pertinentes."
+            },
+            {
+                "question": "Pourquoi le marketing personnalisé échoue-t-il à grande échelle ?",
+                "answer": "Parce que les données sont cloisonnées, les parcours sont pilotés par les canaux et les systèmes manquent d’orchestration en temps réel."
+            },
+            {
+                "question": "Comment Salesforce Marketing Cloud aide-t-il à corriger la fragmentation ?",
+                "answer": "Il permet des parcours multicanaux, une personnalisation en temps réel et une automatisation, lorsqu’il est correctement intégré et mis en œuvre."
+            },
+            {
+                "question": "RISE with SAP prend-il en charge les modèles hybrides et multicloud ?",
+                "answer": "Un cadre complet de conseil et de services qui aide les organisations à adopter, intégrer et optimiser Salesforce Marketing Cloud pour une personnalisation évolutive."
+            },
+            {
+                "question": "Advantage+ prend-il en charge à la fois le B2B et le B2C ?",
+                "answer": "Oui. Advantage+ est conçu pour des parcours B2B complexes et un engagement B2C à fort volume."
+            }
+        ],
+        "seoTitle": "Que sont les parcours clients fragmentés dans Salesforce ? | Rialtes",
+        "seoDescription": "Un parcours client fragmenté se produit lorsque les interactions entre les canaux, les équipes et les systèmes ne parviennent pas à se connecter en une expérience unique et cohérente.",
+        "categoryName": "Salesforce Marketing Cloud",
+        "bannerAlt" : "Réseau hexagonal avec icônes de personnes montrant segmentation client et visualisation de stratégie de personnalisation",
+        "personalizedImageAlt" : "Diagramme des échecs de personnalisation: silos de données, parcours fragmentés, insights retardés, faible engagement"
+    },
     "crmBlog" :{
         "schemaData": {},
         "blogMainData": [

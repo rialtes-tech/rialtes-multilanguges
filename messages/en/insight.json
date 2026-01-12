@@ -309,6 +309,17 @@
         "description": "Enterprise SAP programs rarely end with one deployment. Once the core landscape is live, the real journey begins: expansion across business units. "
       },
       {
+        "id": 75,
+        "image": "/images/blog/fragmented-customer-journeys-feature-thumb.webp",
+        "category": "Salesforce Marketing Cloud",
+        "industry": "Generic",
+        "date": "Jan. 08, 2026",
+        "url": "/fragmented-customer-journeys-salesforce-marketing-cloud/",
+        "title": "What Are Fragmented Customer Journeys and Why Do They Matter?",
+        "alt": "Hexagonal tiles with human icons on a blue background representing fragmented customer journeys",
+        "description": "Personalized marketing has been the promise for over a decade. Yet despite better tools, more data, and smarter platforms, customer engagement continues to fall short. "
+      },
+      {
         "id": 70,
         "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
         "category": "Salesforce Life Sciences Cloud",
@@ -329,6 +340,17 @@
         "title": "Grow with SAP: Your Fast-Track Ticket to an AI-First Tomorrow",
         "alt": "Grow with SAP AI-ready cloud ERP for an AI-first business future",
         "description": "According to McKinsey, more than 70 percent of organizations have already experimented with GenAI, and one in three expects AI to reshape core operations within the next three years."
+      },
+      {
+        "id": 68,
+        "image": "/images/blog/enterprise-growth-strategy-thumbnail.webp",
+        "category": "Rise with SAP",
+        "industry": "Generic",
+        "date": "Jan. 05, 2026",
+        "url": "/rise-with-sap-erp-transformation-strategy/",
+        "title": "Why ERP Transformation Challenges Are Forcing Enterprises to Rethink Their Strategy",
+        "alt": "Business leader on a path symbolizing enterprise growth and digital transformation",
+        "description": "ERP modernization has been on boardroom agendas for years, yet success stories are still far fewer than expected. Leaders know transformation is necessary, but the path often turns bumpy."
       },
       {
         "id": 67,

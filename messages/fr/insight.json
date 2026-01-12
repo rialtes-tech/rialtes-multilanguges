@@ -238,6 +238,17 @@
         "description": "Les programmes SAP d’entreprise se terminent rarement par un seul déploiement. Une fois le socle central en production, le véritable parcours commence : l’expansion à travers les unités métiers."
       },
       {
+        "id": 75,
+        "image": "/images/blog/fragmented-customer-journeys-feature-thumb.webp",
+        "category": "Salesforce Marketing Cloud",
+        "industry": "Générique",
+        "date": "Jan. 08, 2026",
+        "url": "/fragmented-customer-journeys-salesforce-marketing-cloud/",
+        "title": "Que sont les parcours clients fragmentés et pourquoi sont-ils importants ?",
+        "alt": "Tuiles hexagonales avec des icônes humaines sur un fond bleu représentant des parcours clients fragmentés",
+        "description": "Le marketing personnalisé est une promesse depuis plus de dix ans. Pourtant, malgré de meilleurs outils, davantage de données et des plateformes plus intelligentes, l’engagement client continue de décevoir."
+      },
+      {
         "id": 71,
         "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
         "category": "Salesforce Life Sciences Cloud",
