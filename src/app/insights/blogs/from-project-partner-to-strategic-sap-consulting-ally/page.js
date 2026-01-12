@@ -192,11 +192,11 @@ export default function Page() {
             ],
             "boldTitle": "Scalable Governance Frameworks Include:",
             "list": [
-                "Cross-functional steering committees",
-                "Structured RACI and escalation paths",
-                "Release, regression & integration playbooks",
-                "Change management and communication frameworks",
-                "SLA-based managed services for continuous delivery"
+                "<h4> Cross-functional steering committees</h4>",
+                "<h4> Structured RACI and escalation paths</h4>",
+                "<h4> Release, regression & integration playbooks</h4>",
+                "<h4> Change management and communication frameworks</h4>",
+                "<h4> SLA-based managed services for continuous delivery</h4>"
             ],
             desc2: "When governance matures, business users stop seeing SAP as a project and start seeing it as the operating engine."
         }
@@ -456,10 +456,8 @@ export default function Page() {
 
                                             <h3 className=" 4xl:text-[22px] 2xl:text-[19px] xl:text-[20px] md:text-[20px] text-[20px] font-bold pb-4 leading-tight mt-5">{data.boldTitle}</h3>
 
-                                            <h4>
                                                 <UnorderedList arrName={data.list} ulClassName="space-y-2 pl-[26px] lg:pl-[46px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium list-disc" />
 
-                                            </h4>
                                             <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight" dangerouslySetInnerHTML={{ __html: data.desc2 }} />
                                         </div>
                                     ))
@@ -501,7 +499,7 @@ export default function Page() {
                                             />
                                             {
                                                 data.list.map((elem, index) => (
-                                                    <div key={`${elem.title}-${index}`} className="mt-8 pl-6 p-8 border border-[#707070]">
+                                                    <div key={`${elem.title}-${index}`} className="mt-8 pl-6 p-8 border border-[#707070] 4xl:w-[80%] 2xl:w-[90%] xl:w-[90%] md:w-full">
                                                         <h3 className="4xl:text-[20px] 2xl:text-[17px] text-[20px] font-bold">{elem.title}</h3>
                                                         <UnorderedList arrName={elem.desc} ulClassName={`4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium mt-4`} />
                                                     </div>
