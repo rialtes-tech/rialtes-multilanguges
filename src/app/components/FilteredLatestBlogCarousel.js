@@ -19,7 +19,29 @@ export default function page({ url }) {
             "alt": "Doctor analyzing patient diagnostics on multiple screens displaying brain scans, skeletal images, and real-time vital signs",
             "description": "Enterprise SAP programs rarely end with one deployment. Once the core landscape is live, the real journey begins: expansion across business units. "
         },
-         {
+        {
+            "id": 72,
+            "image": "/images/blog/data-analysis-business-strategy-thumbnail.webp",
+            "category": "SAP Consulting",
+            "industry": "Generic",
+            "date": "Jan. 09, 2026",
+            "url": "/sap-consulting-trust-through-accountability/",
+            "title": "Accountability in SAP Consulting: What Enterprises Must Demand from Partners",
+            "alt": "Team reviewing business data and performance metrics on a digital analytics dashboard",
+            "description": "Enterprise SAP programs don’t fail because technology isn’t available; they fail when governance breaks down, when ownership blurs, and when decisions lack accountability. Large transformation programs involve multi-year roadmaps, cross-functional impact, and the kind of complexity where assumptions compound into risk quickly."
+        },
+        {
+            "id": 71,
+            "image": "/images/blog/fragmented-customer-journeys-feature-thumb.webp",
+            "category": "Salesforce Marketing Cloud",
+            "industry": "Generic",
+            "date": "Jan. 08, 2026",
+            "url": "/fragmented-customer-journeys-salesforce-marketing-cloud/",
+            "title": "What Are Fragmented Customer Journeys and Why Do They Matter?",
+            "alt": "Hexagonal tiles with human icons on a blue background representing fragmented customer journeys",
+            "description": "Personalized marketing has been the promise for over a decade. Yet despite better tools, more data, and smarter platforms, customer engagement continues to fall short. "
+        },
+        {
             "id": 70,
             "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
             "category": "Salesforce Life Sciences Cloud",
@@ -31,21 +53,10 @@ export default function page({ url }) {
             "description": "For years, most life sciences organizations treated CRM as a sales enablement tool — a place to track accounts, schedule visits, manage samples, and record touchpoints. "
         },
         {
-          "id": 75,
-            "image": "/images/blog/fragmented-customer-journeys-feature-thumb.webp",
-            "category": "Salesforce Marketing Cloud",
-            "industry": "Generic", 
-            "date": "Jan. 08, 2026",
-            "url": "/fragmented-customer-journeys-salesforce-marketing-cloud/",
-            "title": "What Are Fragmented Customer Journeys and Why Do They Matter?",
-            "alt": "Hexagonal tiles with human icons on a blue background representing fragmented customer journeys",
-            "description": "Personalized marketing has been the promise for over a decade. Yet despite better tools, more data, and smarter platforms, customer engagement continues to fall short. "  
-        },
-        {
             "id": 69,
             "image": "/images/blog/voygernext/voyager-thumb.webp",
             "category": "Grow with SAP",
-            "industry": "Generic", 
+            "industry": "Generic",
             "date": "Jan. 06, 2026",
             "url": "/grow-with-sap-ai-ready-cloud-erp/",
             "title": "Grow with SAP: Your Fast-Track Ticket to an AI-First Tomorrow",
