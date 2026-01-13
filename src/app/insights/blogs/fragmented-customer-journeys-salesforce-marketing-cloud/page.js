@@ -134,16 +134,19 @@ export default function Page() {
                     {
                         icon: "/images/blog/file_955224.svg",
                         text: "No shared context",
+                        alt : "Blue document with gear icon representing workflow automation and document management process optimization",
                         scale: 1.1
                     },
                     {
                         icon: "/images/blog/Group 1104.svg",
                         text: "No real-time data sync",
+                        alt : "Blue cloud with prohibition symbol and download icon representing cloud access restrictions and data control",
                         scale: 1.5
                     },
                     {
                         icon: "/images/blog/cloud-computing_4279195.svg",
                         text: "No unified customer view",
+                        alt : "Blue network nodes with magnifying glass prohibition symbol representing restricted data analysis and access control",
                         scale: 1.2
                     }
                 ]
@@ -339,7 +342,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/fragmented-customer-journeys.webp"
-                        alt=""
+                        alt="Red person icons on wooden hexagonal tiles representing organizational network structure and team collaboration hierarchy"
                         fill
                         priority
                     />
@@ -347,7 +350,7 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/fragmented-customer-journeys-mobile.webp"
-                        alt=""
+                        alt="Red person icons on wooden hexagonal tiles representing organizational network structure and team collaboration hierarchy"
                         priority
                         height={0}
                         width={0}
@@ -437,7 +440,7 @@ export default function Page() {
                                                                     <div className="h-[64px] flex items-center">
                                                                         <Image
                                                                             src={item.icon}
-                                                                            alt={item.text}
+                                                                            alt={item.alt}
                                                                             width={64}
                                                                             height={64}
                                                                             style={{ transform: `scale(${item.scale || 1})` }}
@@ -509,7 +512,7 @@ export default function Page() {
                                             <div className="w-full h-full my-5 xl:mt-14 md:mt-10">
                                                 <Image
                                                     src="/images/blog/Group 1118.svg"
-                                                    alt=""
+                                                    alt="Why personalization fails diagram showing progression from data silos to fragmented journeys, delayed insights, low engagement"
                                                     className="w-[340px] md:w-[700px] 4xl:w-[830px] 2xl:w-[780px] xl:w-[750px] h-auto"
                                                     height={0}
                                                     width={0}
@@ -679,7 +682,8 @@ export default function Page() {
             </section>
             {/* faq section */}
             <section className="xl:mt-[80px] mt-[40px] custom-container">
-                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">FAQs: ERP Modernization with RISE with SAP</h2>
+                <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">FAQs: Fragmented Customer Journey 
+</h2>
                 <div className="mt-[29px] xl:mt-[30px]">
                     <FAQAccordion faqData={faqData} />
                 </div>
