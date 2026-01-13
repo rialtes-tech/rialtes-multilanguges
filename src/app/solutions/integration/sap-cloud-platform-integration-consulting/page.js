@@ -4,6 +4,7 @@ import Seo from "@/app/components/Seo";
 import Image from "next/image";
 import Script from "next/script";
 import React from "react";
+import BreadCrumbs from '../../../components/BreadCrumbs'
 import UnorderedList from "@/app/components/unorderedList";
 export default function page() {
     const schemaData = {
@@ -353,8 +354,9 @@ export default function page() {
                 </div>
             </section>
             {/* page description */}
-            <section className="custom-container xl:mt-[131px] mt-[50px]">
-                <div className="grid lg:grid-cols-12 grid-cols-1 xl:gap-[40px] lg:gap-[20px] gap-y-[25px]">
+            <section className="custom-container">
+                <BreadCrumbs currPage="SAP Cloud Platform Integration" />
+                <div className="grid lg:grid-cols-12 grid-cols-1 xl:gap-[40px] lg:gap-[20px] gap-y-[25px] xl:mt-[101px] mt-[40px]">
                     <div className="lg:col-span-5 xl:col-span-6 4xl:col-span-7 col-span-12">
                         <div className=" lg:block hidden">
                             <h2 className="text-[26px] leading-tight 2xl:text-[48px] xl:text-[40px] 4xl:text-[60px]">

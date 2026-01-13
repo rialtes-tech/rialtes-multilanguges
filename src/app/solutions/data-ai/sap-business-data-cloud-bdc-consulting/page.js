@@ -5,6 +5,7 @@ import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
 import ContactForm from "../../../components/contactform";
 import Script from "next/script";
+import BreadCrumbs from '../../../components/BreadCrumbs'
 import UnorderedList from "@/app/components/unorderedList";
 const schemaData = {
   "@context": "https://schema.org",
@@ -195,9 +196,11 @@ export default function Page() {
         </div>
       </section>
       {/* page description */}
-      <section className="mt-16">
+      <>
         <section className="custom-container">
-          <h2 className="4xl:w-[69%] 2xl:w-[46%] xl:w-[55%] leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
+          {/*breadcrumb  */}
+          <BreadCrumbs currPage="SAP Business Data Cloud" subPath="Data & AI"/>
+          <h2 className="mt-16 4xl:w-[69%] 2xl:w-[46%] xl:w-[55%] leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
             Unify Your Enterprise Data From Finance to Frontline{" "}
           </h2>
           <p className=" xl:w-[67%] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight ">
@@ -278,7 +281,7 @@ export default function Page() {
                 src="/images/sap-bdc-services/SAP-data-web.webp"
                 alt="Sap data fabric image"
                 width={0}
-                height={0} 
+                height={0}
                 priority
               />
             </div>
@@ -638,7 +641,7 @@ export default function Page() {
             </div>
           </div>
         </section>
-      </section>
+      </>
       <div className="mx-[35px] custom-container text-black py-16">
         <ContactForm className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[60%] 4xl:w-[80%]"
           title=

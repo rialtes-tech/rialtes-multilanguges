@@ -9,7 +9,8 @@ export default function page({ url }) {
     const carouselRef = useRef(null);
     const [isLastSlide, setIsLastSlide] = useState(false);
     const latestBlogs = [
-         {      "id": 71,
+        {
+            "id": 71,
             "image": "/images/blog/from-project-partner/thumb.webp",
             "category": "SAP Consulting",
             "industry": " Life Sciences",

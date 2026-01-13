@@ -1,8 +1,9 @@
 "use client";
 import Image from "next/image";
-import ContactForm from "../../../app/components/contactform";
+import ContactForm from "../../components/contactform";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
+import BreadCrumbs from '../../components/BreadCrumbs'
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -75,6 +76,7 @@ export default function Page() {
       </section>
       {/* page description */}
       <section className="custom-container">
+        <BreadCrumbs currPage="Social Responsibility" subPath=" "/>
         <div className="xl:py-[80px] pt-14 pb-10 bg-white ">
           <div className=" xl:mb-0">
             <h2 className="text-black md:pb-0 font-bold 4xl:text-[43px]  xl:text-[35px] text-[22px] leading-tight ">

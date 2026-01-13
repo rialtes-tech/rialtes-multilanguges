@@ -6,6 +6,7 @@ import CarouselComponent from "../../../components/useCarousel";
 import Link from "next/link";
 import Seo from "@/app/components/Seo";
 import UnorderedList from "@/app/components/unorderedList";
+import BreadCrumbs from '../../../components/BreadCrumbs'
 import Script from "next/script";
 const schemaData = {
     "@context": "https://schema.org",
@@ -121,7 +122,7 @@ const solutionSuccess = [
             'Accelerate Your Digital Transformation',
             'Flexible and Scalable ERP Solutions',
             'Increase in operational efficiency',
-            'Integrated AI and automation', 
+            'Integrated AI and automation',
             'Flexible Pricing Options'
         ],
         knowMore: '/services/business-transformation/grow-with-sap-services'
@@ -216,9 +217,12 @@ export default function Page() {
                     </div>
                 </div>
             </section>
+
             {/* leverage sap section */}
-            <section className="w-full custom-container xl:mt-[124px] mt-[53px] xl:mb-[0px] mb-[52px]">
-                <div className="grid md:grid-cols-2 xl:gap-[40px] gap-[39px]">
+            <section className="w-full custom-container">
+                {/*breadcrumb  */}
+                <BreadCrumbs currPage="SAP Consulting" />
+                <div className="grid md:grid-cols-2 xl:gap-[40px] gap-[39px]  xl:mt-[100px] mt-[53px] xl:mb-[0px] mb-[52px]">
                     <div>
                         <h1 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  xl:w-[100%] w-[90%]">Leverage SAP Consulting Services for Reliable Business Operations</h1>
                     </div>
