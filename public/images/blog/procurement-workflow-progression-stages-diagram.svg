@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="779.001" height="94" viewBox="0 0 779.001 94">
+  <g id="Group_1125" data-name="Group 1125" transform="translate(-280 -1864)">
+    <g id="Group_1121" data-name="Group 1121">
+      <path id="Union_11" data-name="Union 11" d="M0,93.678V0H149.528l59.117,46.842L149.528,93.678Z" transform="translate(280 1864)" fill="#b6e0da"/>
+      <path id="Union_11_-_Outline" data-name="Union 11 - Outline" d="M148.832,91.678l56.593-44.837L148.832,2H2V91.678H148.832m.7,2H0V0H149.528l59.117,46.842Z" transform="translate(280 1864)" fill="#fff"/>
+      <text id="Strong_platform_" data-name="Strong platform " transform="translate(306 1884)" font-size="22" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="21">Strong </tspan><tspan x="0" y="48">platform </tspan></text>
+    </g>
+    <g id="Group_1122" data-name="Group 1122">
+      <path id="Union_12" data-name="Union 12" d="M0,93.677V0H131.566L193.51,46.839,131.566,93.677Z" transform="translate(488.644 1864)" fill="#9cd1e8"/>
+      <path id="Union_12_-_Outline" data-name="Union 12 - Outline" d="M130.895,91.677l59.3-44.839L130.895,2H2V91.677H130.895m.671,2H0V0H131.566L193.51,46.839Z" transform="translate(488.644 1864)" fill="#fff"/>
+      <text id="Weak_adoption_" data-name="Weak adoption " transform="translate(508.963 1884)" font-size="22" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="21">Weak </tspan><tspan x="0" y="48">adoption </tspan></text>
+    </g>
+    <g id="Group_1123" data-name="Group 1123">
+      <path id="Union_13" data-name="Union 13" d="M-32,94V0H134.637L181,47,134.637,94Z" transform="translate(713 1864)" fill="#9ca8e8"/>
+      <path id="Union_13_-_Outline" data-name="Union 13 - Outline" d="M133.8,92l44.391-45L133.8,2H-30V92H133.8m.836,2H-32V0H134.637L181,47Z" transform="translate(713 1864)" fill="#fff"/>
+      <text id="Fragmented_workflows_" data-name="Fragmented workflows " transform="translate(705 1884)" font-size="22" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="21">Fragmented </tspan><tspan x="0" y="48">workflows </tspan></text>
+    </g>
+    <g id="Group_1124" data-name="Group 1124">
+      <path id="Union_18" data-name="Union 18" d="M0,94V0H115.305L165,47l-49.7,47Z" transform="translate(894 1864)" fill="#d4aadf"/>
+      <path id="Union_18_-_Outline" data-name="Union 18 - Outline" d="M114.509,92,162.09,47,114.509,2H2V92H114.509m.8,2H0V0H115.305L165,47Z" transform="translate(894 1864)" fill="#fff"/>
+      <text id="Missed_value" data-name="Missed value" transform="translate(915 1884)" font-size="22" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="21">Missed </tspan><tspan x="0" y="48">value</tspan></text>
+    </g>
+  </g>
+</svg>
