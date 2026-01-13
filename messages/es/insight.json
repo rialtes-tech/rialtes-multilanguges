@@ -239,6 +239,17 @@
         "description": "Los programas SAP empresariales rara vez terminan con una sola implementación. Una vez que el entorno central está en producción, comienza el verdadero recorrido: expansión entre unidades de negocio."
       },
       {
+        "id": 72,
+        "image": "/images/blog/data-analysis-business-strategy-thumbnail.webp",
+        "category": "Consultoría SAP",
+        "industry": "Genérico",
+        "date": "Jan. 09, 2026",
+        "url": "/sap-consulting-trust-through-accountability/",
+        "title": "Responsabilidad en la consultoría SAP: lo que las empresas deben exigir a sus socios",
+        "alt": "Equipo revisando datos empresariales y métricas de rendimiento en un panel de análisis digital",
+        "description": "Los programas SAP empresariales no fracasan porque la tecnología no esté disponible; fracasan cuando la gobernanza se debilita, cuando la responsabilidad se diluye y cuando las decisiones carecen de rendición de cuentas. Los grandes programas de transformación implican hojas de ruta de varios años, impacto multifuncional y un nivel de complejidad en el que las suposiciones se convierten rápidamente en riesgos."
+      },
+      {
         "id": 71,
         "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
         "category": "Salesforce Life Sciences Cloud",
