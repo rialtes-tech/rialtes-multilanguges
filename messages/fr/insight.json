@@ -226,17 +226,7 @@
       }
     ],
     "latestBlogs": [
-      {
-        "id": 72,
-        "image": "/images/blog/from-project-partner/thumb.webp",
-        "category": "Conseil SAP",
-        "industry": "Sciences de la vie",
-        "date": "02 jan. 2026",
-        "url": "/from-project-partner-to-strategic-sap-consulting-ally/",
-        "title": "Du partenaire de projet à l’allié stratégique : développer les engagements de conseil SAP",
-        "alt": "Médecin analysant des diagnostics de patients sur plusieurs écrans affichant des scanners cérébraux, des images du squelette et des signes vitaux en temps réel",
-        "description": "Les programmes SAP d’entreprise se terminent rarement par un seul déploiement. Une fois le socle central en production, le véritable parcours commence : l’expansion à travers les unités métiers."
-      },
+    
       {
         "id": 72,
         "image": "/images/blog/data-analysis-business-strategy-thumbnail.webp",
@@ -264,7 +254,7 @@
         "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
         "category": "Salesforce Life Sciences Cloud",
         "industry": "Sciences de la vie",
-        "date": "07 Jan. 2026",
+        "date": "Jan. 07, 2026",
         "url": "/crm-as-growth-engine-life-sciences/",
         "title": "CRM des sciences de la vie : pourquoi les systèmes axés uniquement sur les ventes ne fonctionnent plus dans les soins de santé modernes",
         "alt": "Médecin analysant diagnostics patient sur écrans multiples affichant scanners cérébraux, images squelettiques, signes vitaux",
@@ -275,7 +265,7 @@
         "image": "/images/blog/voygernext/voyager-thumb.webp",
         "category": "GROW avec SAP",
         "industry": "Générique",
-        "date": "06 jan. 2026",
+        "date": "Jan. 06, 2026",
         "url": "/grow-with-sap-ai-ready-cloud-erp/",
         "title": "GROW avec SAP : votre voie rapide vers un avenir axé sur l’IA",
         "alt": "GROW avec SAP ERP cloud prêt pour l’IA pour un avenir métier axé sur l’IA",
@@ -291,6 +281,17 @@
         "title": "Pourquoi les défis de la transformation ERP poussent les entreprises à repenser leur stratégie",
         "alt": "Dirigeant d’entreprise sur un chemin symbolisant la croissance de l’entreprise et la transformation numérique",
         "description": "La modernisation des ERP figure depuis des années à l’agenda des conseils d’administration, pourtant les réussites restent bien moins nombreuses que prévu. Les dirigeants savent que la transformation est nécessaire, mais le parcours devient souvent semé d’embûches."
+      },
+        {
+        "id": 72,
+        "image": "/images/blog/from-project-partner/thumb.webp",
+        "category": "Conseil SAP",
+        "industry": "Sciences de la vie",
+        "date": "Jan. 02, 2026",
+        "url": "/from-project-partner-to-strategic-sap-consulting-ally/",
+        "title": "Du partenaire de projet à l’allié stratégique : développer les engagements de conseil SAP",
+        "alt": "Médecin analysant des diagnostics de patients sur plusieurs écrans affichant des scanners cérébraux, des images du squelette et des signes vitaux en temps réel",
+        "description": "Les programmes SAP d’entreprise se terminent rarement par un seul déploiement. Une fois le socle central en production, le véritable parcours commence : l’expansion à travers les unités métiers."
       },
       {
         "id": 68,

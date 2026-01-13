@@ -10777,6 +10777,7 @@
         "schemaData": {}
     },
     "salesforceMarketingCloud": {
+         "schemaData": {},
         "salesforcemarketingTitle": "Que sont les parcours clients fragmentés et pourquoi sont-ils importants ?",
         "mainData": [
             "Le marketing personnalisé est une promesse depuis plus de dix ans. Pourtant, malgré de meilleurs outils, davantage de données et des plateformes plus intelligentes, l’engagement client continue de décevoir. Les e-mails restent non ouverts. Les notifications push semblent non pertinentes. Les parcours se brisent en cours de route. Les campagnes sont lancées à temps, mais n’arrivent pas à créer de lien.",

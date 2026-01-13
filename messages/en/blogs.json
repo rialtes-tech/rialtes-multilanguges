@@ -14921,6 +14921,76 @@
         }
     },
     "salesforceMarketingCloud": {
+     "schemaData" : {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "What Are Fragmented Customer Journeys in Salesforce Marketing Cloud?",
+    "description": "A fragmented customer journey occurs when interactions across channels, teams, and systems fail to connect into a single, coherent experience.",
+    "image": "https://www.rialtes.com/images/blogs/fragmented-customer-journeys.webp",
+    "author": {
+        "@type": "Organization",
+        "name": "Rialtes"
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "Rialtes",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.rialtes.com/images/homepage/logo.svg"
+        }
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/en/insights/blogs/fragmented-customer-journeys-salesforce-marketing-cloud/"
+    },
+    "datePublished": "2026-01-08",
+    "mainEntity": {
+        "@type": "FAQPage",
+        "name": "Fragmented Customer Journeys in Salesforce FAQs",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What are fragmented customer journeys?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "They occur when customer interactions across channels and systems are disconnected, leading to inconsistent and irrelevant experiences."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Why does personalized marketing fail at scale?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Because data is siloed, journeys are channel-driven, and systems lack real-time orchestration."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does Salesforce Marketing Cloud help fix fragmentation?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "It enables cross-channel journeys, real-time personalization, and automation — when integrated and implemented correctly."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What is Advantage+ by Rialtes?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A full-spectrum consulting and services framework that helps organizations adopt, integrate, and optimize Salesforce Marketing Cloud for scalable personalization."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does Advantage+ support both B2B and B2C?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Advantage+ is designed for complex B2B journeys and high-volume B2C engagement."
+                }
+            }
+        ]
+    }
+},
         "salesforcemarketingTitle": "What Are Fragmented Customer Journeys and Why Do They Matter?",
         "mainData": [
             "Personalized marketing has been the promise for over a decade. Yet despite better tools, more data, and smarter platforms, customer engagement continues to fall short. Emails go unopened. Push notifications feel irrelevant. Journeys break mid-way. Campaigns launch on time but fail to connect.",

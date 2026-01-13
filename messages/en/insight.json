@@ -297,17 +297,7 @@
       }
     ],
     "latestBlogs": [
-      {
-        "id": 71,
-        "image": "/images/blog/from-project-partner/thumb.webp",
-        "category": "SAP Consulting",
-        "industry": " Life Sciences",
-        "date": "Jan. 02, 2026",
-        "url": "/from-project-partner-to-strategic-sap-consulting-ally/",
-        "title": "From Project Partner to Strategic Ally: Scaling SAP Consulting Engagements",
-        "alt": "Doctor analyzing patient diagnostics on multiple screens displaying brain scans, skeletal images, and real-time vital signs",
-        "description": "Enterprise SAP programs rarely end with one deployment. Once the core landscape is live, the real journey begins: expansion across business units. "
-      },
+    
       {
         "id": 72,
         "image": "/images/blog/data-analysis-business-strategy-thumbnail.webp",
@@ -362,6 +352,17 @@
         "title": "Why ERP Transformation Challenges Are Forcing Enterprises to Rethink Their Strategy",
         "alt": "Business leader on a path symbolizing enterprise growth and digital transformation",
         "description": "ERP modernization has been on boardroom agendas for years, yet success stories are still far fewer than expected. Leaders know transformation is necessary, but the path often turns bumpy."
+      },
+      {
+         "id": 71,
+        "image": "/images/blog/from-project-partner/thumb.webp",
+        "category": "SAP Consulting",
+        "industry": " Life Sciences",
+        "date": "Jan. 02, 2026",
+        "url": "/from-project-partner-to-strategic-sap-consulting-ally/",
+        "title": "From Project Partner to Strategic Ally: Scaling SAP Consulting Engagements",
+        "alt": "Doctor analyzing patient diagnostics on multiple screens displaying brain scans, skeletal images, and real-time vital signs",
+        "description": "Enterprise SAP programs rarely end with one deployment. Once the core landscape is live, the real journey begins: expansion across business units. "
       },
       {
         "id": 67,
