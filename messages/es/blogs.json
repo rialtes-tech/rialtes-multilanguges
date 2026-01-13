@@ -10721,8 +10721,8 @@
         "tableHeadUseCase": "Ejemplo de caso de uso de IA / insights"
     },
     "salesforceMarketingCloud": {
-   "schemaData": {},
-   "salesforcemarketingTitle": "¿Qué son los recorridos fragmentados del cliente y por qué son importantes?",
+        "schemaData": {},
+        "salesforcemarketingTitle": "¿Qué son los recorridos fragmentados del cliente y por qué son importantes?",
         "mainData": [
             "El marketing personalizado ha sido la promesa durante más de una década. Sin embargo, a pesar de mejores herramientas, más datos y plataformas más inteligentes, la interacción con los clientes sigue sin cumplir las expectativas. Los correos electrónicos no se abren. Las notificaciones push resultan irrelevantes. Los recorridos se interrumpen a mitad de camino. Las campañas se lanzan a tiempo, pero no logran conectar.",
             "El problema no es la falta de esfuerzo. Es la fragmentación.",
@@ -10758,19 +10758,19 @@
                             "icon": "/images/blog/document-customization-icon.svg",
                             "text": "Sin contexto compartido",
                             "scale": 1.1,
-                            "alt" : "Icono de personalización de documento con engranaje representando personalización de contenido y opciones de configuración"
+                            "alt": "Icono de personalización de documento con engranaje representando personalización de contenido y opciones de configuración"
                         },
                         {
                             "icon": "/images/blog/real-time-cloud-integration-icon.svg",
                             "text": "Sin sincronización de datos en tiempo real",
                             "scale": 1.5,
-                            "alt" : "Icono de integración cloud en tiempo real con símbolo de sincronización mostrando conectividad de datos sin interrupciones"
+                            "alt": "Icono de integración cloud en tiempo real con símbolo de sincronización mostrando conectividad de datos sin interrupciones"
                         },
                         {
                             "icon": "/images/blog/cloud-network-connectivity-icon.svg",
                             "text": "Sin una vista unificada del cliente",
                             "scale": 1.2,
-                            "alt" : "Icône de connectivité réseau cloud avec nœuds de connexion représentant infrastructure cloud distribuée et flux de données"
+                            "alt": "Icône de connectivité réseau cloud avec nœuds de connexion représentant infrastructure cloud distribuée et flux de données"
                         }
                     ]
                 }
@@ -10946,433 +10946,596 @@
         "seoTitle": "¿Qué son los recorridos fragmentados del cliente en Salesforce? | Rialtes",
         "seoDescription": "Un recorrido fragmentado del cliente ocurre cuando las interacciones entre canales, equipos y sistemas no logran conectarse en una experiencia única y coherente.",
         "categoryName": "Salesforce Marketing Cloud",
-        "bannerAlt" : "Red hexagonal con iconos de personas mostrando segmentación de clientes y visualización de estrategia de personalización",
-        "personalizedImageAlt" : "Diagrama de fallos en personalización: silos de datos, rutas fragmentadas, insights retrasados y bajo engagemen"
-
+        "bannerAlt": "Red hexagonal con iconos de personas mostrando segmentación de clientes y visualización de estrategia de personalización",
+        "personalizedImageAlt": "Diagrama de fallos en personalización: silos de datos, rutas fragmentadas, insights retrasados y bajo engagemen"
     },
-    "crmBlog" :{
+    "crmBlog": {
         "schemaData": {},
         "blogMainData": [
-  "Durante años, la mayoría de las organizaciones de ciencias de la vida trataron el CRM como una herramienta de habilitación de ventas: un lugar para realizar el seguimiento de cuentas, programar visitas, gestionar muestras y registrar interacciones. Funcionaba cuando los modelos comerciales eran más simples, los pipelines eran lineales y la interacción con los pacientes se producía principalmente a través de los médicos. Sin embargo, el panorama sanitario ha cambiado de forma significativa.",
-  "Los pacientes están más informados. Los proveedores son más digitales. Las normativas regulatorias siguen endureciéndose. Los recorridos de tratamiento son más largos, complejos y orientados a resultados. Mientras tanto, el éxito comercial ya no depende únicamente de los representantes de ventas, sino también de la experiencia, el acceso, la adherencia, la educación y la interacción basada en datos.",
-  "La investigación valida este cambio. Deloitte informa que más del 60 % de los líderes de ciencias de la vida consideran la experiencia del paciente como una prioridad estratégica principal, aunque solo el 28 % cree que sus sistemas respaldan la interacción de extremo a extremo. <a href='https://healthcareasiamagazine.com/healthcare/news/healthcare-data-projected-grow-36-cagr-2025/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Otro estudio</a> sugiere que los volúmenes de datos sanitarios están creciendo a una tasa compuesta anual del 36 %, pero gran parte de ellos permanece sin utilizar debido a ecosistemas fragmentados y tecnologías heredadas.",
-  "La conclusión es fácil de entender: el CRM para ciencias de la vida no puede seguir centrado en las ventas. Debe convertirse en <a href='https://www.rialtes.com/es/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>centrado en el paciente, inteligente en datos y impulsado por IA</a>."
-],
-"lifeAiData": [
-  {
-    "title": "Presentamos LifeAI+: un enfoque conectado e inteligente del CRM para ciencias de la vida",
-    "desc": "LifeAI+ es nuestro servicio integral de consultoría e implementación diseñado específicamente para el ecosistema de ciencias de la vida. Combina el poder de Salesforce Life Sciences Cloud, Health Cloud y la automatización impulsada por IA para ayudar a las empresas a <a href='https://www.rialtes.com/es/insights/blogs/patient-experience-platform-transforming-long-term-care/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>modernizar la experiencia del paciente</a>, optimizar la interacción con los profesionales sanitarios y escalar operaciones digitales conformes.",
-    "desc1": "En lugar de tratar el CRM como un sistema de ventas, LifeAI+ lo convierte en un motor de interacción a nivel industrial.",
-    "desc2": "Lo que LifeAI+ aporta a su organización",
-    "list": [
-      "Datos unificados de pacientes, profesionales sanitarios, pagadores y ensayos clínicos",
-      "Flujos de trabajo automatizados entre equipos comerciales y médicos",
-      "Insights impulsados por IA para la interacción, la adherencia y la próxima mejor acción",
-      "Marcos de cumplimiento integrados para la seguridad regulatoria",
-      "Experiencia omnicanal en correo electrónico, campo, aplicaciones y portales de pacientes",
-      "Analítica y paneles para la toma de decisiones en tiempo real"
-    ]
-  }
-],
-"toolsData": [
-  {
-    "title": "Los límites del CRM tradicional en ciencias de la vida",
-    "desc": "Llamemos claramente a la brecha existente. El CRM tradicional nunca fue diseñado para las complejidades de la atención sanitaria moderna. Realiza el seguimiento de interacciones, sí, pero no conecta flujos de trabajo clínicos, resultados de pacientes, asuntos médicos, acceso al mercado ni programas poscomerciales como la adherencia y el monitoreo remoto.",
-    "desc1": "Los puntos de dolor más comunes incluyen:",
-    "list": [
-      "Datos de pacientes, profesionales sanitarios y comerciales aislados",
-      "Visibilidad limitada de los resultados del tratamiento",
-      "Procesos manuales en los equipos de soporte",
-      "Dificultad para rastrear la interacción omnicanal",
-      "Falta de insights en tiempo real para la toma de decisiones",
-      "Riesgo de cumplimiento debido a documentación desarticulada"
-    ],
-    "desc2": "Esto conduce a un resultado simple pero doloroso: grandes productos tienen dificultades para desbloquear todo su impacto porque la experiencia a su alrededor no está coordinada ni es inteligente.",
-    "crmData": [
-      {
-        "title": "Flujos de trabajo centrados en ventas",
-        "icon": "/images/blog/target-goal-precision-focus-icon.svg",
-        "alt": "Icono de objetivo circular con anillos concéntricos representando metas, precisión de objetivos y enfoque empresarial"
-      },
-      {
-        "title": "Datos desconectados de pacientes y proveedores",
-        "icon": "/images/blog/healthcare-cloud-storage-patient-data-icon.svg",
-        "alt": "Icono de almacenamiento en nube con perfil de paciente y cruz médica representando gestión de datos de salud segura"
-      },
-      {
-        "title": "Sin integración clínica o de servicios",
-        "icon": "/images/blog/cloud-cancel-disconnect-service-termination-icon.svg",
-        "alt": "Icono de nube con símbolo de cancelación representando cancelación de servicio en nube o desconexión de integración"
-      },
-      {
-        "title": "Baja automatización y generación de insights",
-        "icon": "/images/blog/business-growth-analytics-performance-optimization-icon.svg",
-        "alt": "Icono de engranaje con gráfico ascendente representando análisis de crecimiento, métricas de rendimiento y optimización"
-      }
-    ]
-  }
-],
- "industryData": [
-    {
-      "title": "La industria ha cambiado y el CRM debe evolucionar con ella",
-      "desc": "Las organizaciones modernas de ciencias de la vida no solo venden terapias. Gestionan relaciones a lo largo de toda la cadena de valor del sector sanitario.",
-      "desc1": "Esto incluye:",
-      "list": [
-        "Profesionales de la salud",
-        "Pacientes y cuidadores",
-        "Partes interesadas en ensayos clínicos",
-        "Pagadores y PBM",
-        "Especialistas y centros de tratamiento",
-        "Equipos de farmacovigilancia y seguridad"
-      ],
-      "desc2": "El objetivo es lograr un compromiso continuo, confianza y un soporte impulsado por el cumplimiento normativo. Cuando el CRM integra datos clínicos, operativos y del mundo real, la organización pasa de una comunicación reactiva a una experiencia proactiva",
-      "desc3": "Por eso la industria está pasando de CRM = ventas",
-      "desc4": "hacia",
-      "desc5": "CRM = plataforma unificada de pacientes, proveedores y operaciones comerciales."
-    }
-  ],
-
-  "salesData": [
-    {
-      "title": "Más allá de las ventas: lo que debe ofrecer un CRM moderno para ciencias de la vida",
-      "desc": "Analicemos cómo se ve un “CRM de nueva generación” en escenarios empresariales reales y cómo LifeAI+ lo hace posible.",
-      "points": [
-        {
-          "heading": "Soporte del recorrido del paciente, no solo llamadas a HCP",
-          "intro": "La atención no termina cuando se prescribe un tratamiento. Los pacientes necesitan incorporación, asistencia financiera, recordatorios, educación y seguimiento.",
-          "enablesText": "LifeAI+ permite:",
-          "list": [
-            "Flujos de incorporación digital",
-            "Comunicación personalizada con pacientes",
-            "Coordinación entre navegadores de enfermería y equipos de atención",
-            "Seguimiento de la adherencia mediante aplicaciones para pacientes",
-            "Insights generados por IA sobre riesgos de abandono"
-          ],
-          "outcome": "¿Resultado? Mayor adherencia terapéutica y mejores resultados en el mundo real."
-        },
-        {
-          "heading": "Inteligencia real para equipos de campo y médicos",
-          "intro": "Los representantes de ventas necesitan contexto. Los MSL necesitan evidencia. Ambos necesitan los datos en un solo lugar, no en 12 hojas de cálculo.",
-          "enablesText": "LifeAI+ los impulsa con:",
-          "list": [
-            "Perfiles 360° de HCP e insights de preferencias",
-            "Planificación de territorios y priorización de visitas",
-            "Gestión de consultas médicas",
-            "Seguimiento de visitas remotas, híbridas y presenciales"
-          ],
-          "outcome": "Esto hace que el compromiso sea más inteligente, conforme y basado en valor."
-        },
-        {
-          "heading": "Cumplimiento sin carga manual",
-          "intro": "En las ciencias de la vida, el cumplimiento no es opcional: es supervivencia. El seguimiento manual aumenta el riesgo.",
-          "enablesText": "LifeAI+ habilita flujos de trabajo con políticas integradas para:",
-          "list": [
-            "Consentimiento y privacidad de datos",
-            "Seguimiento de muestras",
-            "Transparencia en la compensación a HCP",
-            "Notificación de EA y farmacovigilancia"
-          ],
-          "outcome": "El alineamiento regulatorio se vuelve proactivo, no reactivo."
-        },
-        {
-          "heading": "Continuidad clínico-comercial",
-          "intro": "Ensayos, lanzamiento, comercialización y posmercado: todas las etapas deben comunicarse entre sí.",
-          "enablesText": "LifeAI+ conecta:",
-          "list": [
-            "Datos de participación en ensayos",
-            "Programas de apoyo al paciente",
-            "Gestión de seguridad y casos",
-            "Evidencia del mundo real y bucles de retroalimentación"
-          ],
-          "outcome": "Esto garantiza que las decisiones se basen en resultados, no en suposiciones."
-        }
-      ]
-    }
-  ],
-
-  "businessData": [
-    {
-      "title": "Resultados empresariales que importan a la dirección",
-      "list": [
-        "Lanzamientos más rápidos y comercialización optimizada",
-        "Mayor satisfacción de los HCP y tasas de respuesta digital más altas",
-        "Mejor adherencia del paciente y resultados de soporte",
-        "Reducción de la carga manual y de los costos operativos",
-        "Paneles en tiempo real para visibilidad del rendimiento",
-        "Documentación y aprobaciones listas para el cumplimiento",
-        "Predicción impulsada por IA para churn, adherencia y compromiso"
-      ],
-      "desc": "Así es como el CRM se convierte en un impulsor del crecimiento, no solo en una base de datos."
-    }
-  ],
-
-  "beforeAfterData": [
-    {
-      "before": "Seguimiento manual",
-      "after": "Flujos de trabajo automatizados"
-    },
-    {
-      "before": "Silos de datos",
-      "after": "Modelo de datos único e integrado"
-    },
-    {
-      "before": "Ventas y servicio",
-      "after": "Motores de recomendación y cotizaciones automatizadas"
-    },
-    {
-      "before": "CRM solo para ventas",
-      "after": "Habilitación de pacientes + HCP + casos + ensayos"
-    },
-    {
-      "before": "Insights reactivos",
-      "after": "Inteligencia predictiva"
-    }
-  ],
-
-  "impactData": [
-    {
-      "title": "Dónde LifeAI+ genera el mayor impacto",
-      "desc": "Ideal para organizaciones que desean transformar la experiencia, unificar sistemas o escalar digitalmente.",
-      "list": [
-        "Empresas farmacéuticas y biotecnológicas que lanzan nuevos productos",
-        "Empresas de tecnología médica que gestionan el ciclo de vida de dispositivos",
-        "CRO y equipos de investigación que mejoran la eficiencia de los ensayos",
-        "Proveedores de terapias especializadas que necesitan soporte de adherencia",
-        "Empresas que reemplazan CRM heredados o fragmentados"
-      ],
-      "desc1": "Si la misión es lograr mejores resultados, mayor compromiso y mejores decisiones, <a href='https://www.rialtes.com/es/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>LifeAI+ es el siguiente paso</a>. Las ciencias de la vida no necesitan otro CRM; necesitan una plataforma de experiencia inteligente. Eso es lo que LifeAI+ aporta."
-    }
-  ],
-
-  "faqData": [
-    {
-      "question": "1. ¿Qué es un CRM de Ciencias de la Vida?",
-      "answer": "Un CRM diseñado específicamente para organizaciones farmacéuticas, biotecnológicas, medtech y de atención sanitaria para gestionar el compromiso con HCP, pacientes y áreas comerciales con cumplimiento normativo y transparencia de datos."
-    },
-    {
-      "question": "2. ¿Por qué el CRM tradicional ya no es suficiente para las ciencias de la vida?",
-      "answer": "Porque se centra principalmente en interacciones de ventas, mientras que la atención sanitaria moderna exige soporte al paciente, compromiso omnicanal con HCP, automatización, seguimiento de seguridad e insights basados en resultados."
-    },
-    {
-      "question": "3. ¿Cómo mejora Rialtes LifeAI+ la experiencia de pacientes y HCP?",
-      "answer": "Unificando datos, automatizando flujos de trabajo, habilitando el compromiso digital y utilizando IA para identificar próximas acciones, riesgos y oportunidades."
-    },
-    {
-      "question": "4. ¿LifeAI+ admite el cumplimiento regulatorio?",
-      "answer": "Sí. Proporciona gestión de consentimientos, seguimiento de EA, informes de transparencia, flujos de documentación y registros de datos listos para auditoría."
-    },
-    {
-      "question": "5. ¿Qué plataformas utiliza LifeAI+?",
-      "answer": "Salesforce Life Sciences Cloud, Health Cloud, Data Cloud, Einstein AI y marcos de automatización diseñados para el sector sanitario."
-    },
-    {
-      "question": "6. ¿Cuál es el futuro de la innovación digital en la investigación clínica?",
-      "answer": "El futuro reside en ecosistemas conectados, centrados en el paciente e impulsados por IA que aceleran los plazos de los ensayos, reducen costos y mejoran los resultados de los pacientes."
-    }
-  ],
-  "blogCategory": "Salesforce Life Sciences Cloud",
-  "headerText": "CRM en ciencias de la vida: por qué los sistemas solo de ventas ya no funcionan",
-  "whyText": "Por qué el CRM tradicional se queda corto",
-  "pillerTitle": "Pilar central de LifeAI+",
-  "pillerOne": "Experiencia del paciente",
-  "pillertwo": "Participación de profesionales sanitarios",
-  "pillerThree": "Automatización del cumplimiento",
-  "pillerFour": "Inteligencia impulsada por IA",
-  "chart": "Gráfico Antes vs Después de LifeAI+",
-  "faq": "FAQs: Necesidad de CRM en ciencias de la vida",
-  "bannerAlt": "Médico analizando diagnósticos de paciente en pantallas múltiples mostrando escáneres cerebrales e imágenes esqueléticas"
+            "Durante años, la mayoría de las organizaciones de ciencias de la vida trataron el CRM como una herramienta de habilitación de ventas: un lugar para realizar el seguimiento de cuentas, programar visitas, gestionar muestras y registrar interacciones. Funcionaba cuando los modelos comerciales eran más simples, los pipelines eran lineales y la interacción con los pacientes se producía principalmente a través de los médicos. Sin embargo, el panorama sanitario ha cambiado de forma significativa.",
+            "Los pacientes están más informados. Los proveedores son más digitales. Las normativas regulatorias siguen endureciéndose. Los recorridos de tratamiento son más largos, complejos y orientados a resultados. Mientras tanto, el éxito comercial ya no depende únicamente de los representantes de ventas, sino también de la experiencia, el acceso, la adherencia, la educación y la interacción basada en datos.",
+            "La investigación valida este cambio. Deloitte informa que más del 60 % de los líderes de ciencias de la vida consideran la experiencia del paciente como una prioridad estratégica principal, aunque solo el 28 % cree que sus sistemas respaldan la interacción de extremo a extremo. <a href='https://healthcareasiamagazine.com/healthcare/news/healthcare-data-projected-grow-36-cagr-2025/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Otro estudio</a> sugiere que los volúmenes de datos sanitarios están creciendo a una tasa compuesta anual del 36 %, pero gran parte de ellos permanece sin utilizar debido a ecosistemas fragmentados y tecnologías heredadas.",
+            "La conclusión es fácil de entender: el CRM para ciencias de la vida no puede seguir centrado en las ventas. Debe convertirse en <a href='https://www.rialtes.com/es/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>centrado en el paciente, inteligente en datos y impulsado por IA</a>."
+        ],
+        "lifeAiData": [
+            {
+                "title": "Presentamos LifeAI+: un enfoque conectado e inteligente del CRM para ciencias de la vida",
+                "desc": "LifeAI+ es nuestro servicio integral de consultoría e implementación diseñado específicamente para el ecosistema de ciencias de la vida. Combina el poder de Salesforce Life Sciences Cloud, Health Cloud y la automatización impulsada por IA para ayudar a las empresas a <a href='https://www.rialtes.com/es/insights/blogs/patient-experience-platform-transforming-long-term-care/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>modernizar la experiencia del paciente</a>, optimizar la interacción con los profesionales sanitarios y escalar operaciones digitales conformes.",
+                "desc1": "En lugar de tratar el CRM como un sistema de ventas, LifeAI+ lo convierte en un motor de interacción a nivel industrial.",
+                "desc2": "Lo que LifeAI+ aporta a su organización",
+                "list": [
+                    "Datos unificados de pacientes, profesionales sanitarios, pagadores y ensayos clínicos",
+                    "Flujos de trabajo automatizados entre equipos comerciales y médicos",
+                    "Insights impulsados por IA para la interacción, la adherencia y la próxima mejor acción",
+                    "Marcos de cumplimiento integrados para la seguridad regulatoria",
+                    "Experiencia omnicanal en correo electrónico, campo, aplicaciones y portales de pacientes",
+                    "Analítica y paneles para la toma de decisiones en tiempo real"
+                ]
+            }
+        ],
+        "toolsData": [
+            {
+                "title": "Los límites del CRM tradicional en ciencias de la vida",
+                "desc": "Llamemos claramente a la brecha existente. El CRM tradicional nunca fue diseñado para las complejidades de la atención sanitaria moderna. Realiza el seguimiento de interacciones, sí, pero no conecta flujos de trabajo clínicos, resultados de pacientes, asuntos médicos, acceso al mercado ni programas poscomerciales como la adherencia y el monitoreo remoto.",
+                "desc1": "Los puntos de dolor más comunes incluyen:",
+                "list": [
+                    "Datos de pacientes, profesionales sanitarios y comerciales aislados",
+                    "Visibilidad limitada de los resultados del tratamiento",
+                    "Procesos manuales en los equipos de soporte",
+                    "Dificultad para rastrear la interacción omnicanal",
+                    "Falta de insights en tiempo real para la toma de decisiones",
+                    "Riesgo de cumplimiento debido a documentación desarticulada"
+                ],
+                "desc2": "Esto conduce a un resultado simple pero doloroso: grandes productos tienen dificultades para desbloquear todo su impacto porque la experiencia a su alrededor no está coordinada ni es inteligente.",
+                "crmData": [
+                    {
+                        "title": "Flujos de trabajo centrados en ventas",
+                        "icon": "/images/blog/target-goal-precision-focus-icon.svg",
+                        "alt": "Icono de objetivo circular con anillos concéntricos representando metas, precisión de objetivos y enfoque empresarial"
+                    },
+                    {
+                        "title": "Datos desconectados de pacientes y proveedores",
+                        "icon": "/images/blog/healthcare-cloud-storage-patient-data-icon.svg",
+                        "alt": "Icono de almacenamiento en nube con perfil de paciente y cruz médica representando gestión de datos de salud segura"
+                    },
+                    {
+                        "title": "Sin integración clínica o de servicios",
+                        "icon": "/images/blog/cloud-cancel-disconnect-service-termination-icon.svg",
+                        "alt": "Icono de nube con símbolo de cancelación representando cancelación de servicio en nube o desconexión de integración"
+                    },
+                    {
+                        "title": "Baja automatización y generación de insights",
+                        "icon": "/images/blog/business-growth-analytics-performance-optimization-icon.svg",
+                        "alt": "Icono de engranaje con gráfico ascendente representando análisis de crecimiento, métricas de rendimiento y optimización"
+                    }
+                ]
+            }
+        ],
+        "industryData": [
+            {
+                "title": "La industria ha cambiado y el CRM debe evolucionar con ella",
+                "desc": "Las organizaciones modernas de ciencias de la vida no solo venden terapias. Gestionan relaciones a lo largo de toda la cadena de valor del sector sanitario.",
+                "desc1": "Esto incluye:",
+                "list": [
+                    "Profesionales de la salud",
+                    "Pacientes y cuidadores",
+                    "Partes interesadas en ensayos clínicos",
+                    "Pagadores y PBM",
+                    "Especialistas y centros de tratamiento",
+                    "Equipos de farmacovigilancia y seguridad"
+                ],
+                "desc2": "El objetivo es lograr un compromiso continuo, confianza y un soporte impulsado por el cumplimiento normativo. Cuando el CRM integra datos clínicos, operativos y del mundo real, la organización pasa de una comunicación reactiva a una experiencia proactiva",
+                "desc3": "Por eso la industria está pasando de CRM = ventas",
+                "desc4": "hacia",
+                "desc5": "CRM = plataforma unificada de pacientes, proveedores y operaciones comerciales."
+            }
+        ],
+        "salesData": [
+            {
+                "title": "Más allá de las ventas: lo que debe ofrecer un CRM moderno para ciencias de la vida",
+                "desc": "Analicemos cómo se ve un “CRM de nueva generación” en escenarios empresariales reales y cómo LifeAI+ lo hace posible.",
+                "points": [
+                    {
+                        "heading": "Soporte del recorrido del paciente, no solo llamadas a HCP",
+                        "intro": "La atención no termina cuando se prescribe un tratamiento. Los pacientes necesitan incorporación, asistencia financiera, recordatorios, educación y seguimiento.",
+                        "enablesText": "LifeAI+ permite:",
+                        "list": [
+                            "Flujos de incorporación digital",
+                            "Comunicación personalizada con pacientes",
+                            "Coordinación entre navegadores de enfermería y equipos de atención",
+                            "Seguimiento de la adherencia mediante aplicaciones para pacientes",
+                            "Insights generados por IA sobre riesgos de abandono"
+                        ],
+                        "outcome": "¿Resultado? Mayor adherencia terapéutica y mejores resultados en el mundo real."
+                    },
+                    {
+                        "heading": "Inteligencia real para equipos de campo y médicos",
+                        "intro": "Los representantes de ventas necesitan contexto. Los MSL necesitan evidencia. Ambos necesitan los datos en un solo lugar, no en 12 hojas de cálculo.",
+                        "enablesText": "LifeAI+ los impulsa con:",
+                        "list": [
+                            "Perfiles 360° de HCP e insights de preferencias",
+                            "Planificación de territorios y priorización de visitas",
+                            "Gestión de consultas médicas",
+                            "Seguimiento de visitas remotas, híbridas y presenciales"
+                        ],
+                        "outcome": "Esto hace que el compromiso sea más inteligente, conforme y basado en valor."
+                    },
+                    {
+                        "heading": "Cumplimiento sin carga manual",
+                        "intro": "En las ciencias de la vida, el cumplimiento no es opcional: es supervivencia. El seguimiento manual aumenta el riesgo.",
+                        "enablesText": "LifeAI+ habilita flujos de trabajo con políticas integradas para:",
+                        "list": [
+                            "Consentimiento y privacidad de datos",
+                            "Seguimiento de muestras",
+                            "Transparencia en la compensación a HCP",
+                            "Notificación de EA y farmacovigilancia"
+                        ],
+                        "outcome": "El alineamiento regulatorio se vuelve proactivo, no reactivo."
+                    },
+                    {
+                        "heading": "Continuidad clínico-comercial",
+                        "intro": "Ensayos, lanzamiento, comercialización y posmercado: todas las etapas deben comunicarse entre sí.",
+                        "enablesText": "LifeAI+ conecta:",
+                        "list": [
+                            "Datos de participación en ensayos",
+                            "Programas de apoyo al paciente",
+                            "Gestión de seguridad y casos",
+                            "Evidencia del mundo real y bucles de retroalimentación"
+                        ],
+                        "outcome": "Esto garantiza que las decisiones se basen en resultados, no en suposiciones."
+                    }
+                ]
+            }
+        ],
+        "businessData": [
+            {
+                "title": "Resultados empresariales que importan a la dirección",
+                "list": [
+                    "Lanzamientos más rápidos y comercialización optimizada",
+                    "Mayor satisfacción de los HCP y tasas de respuesta digital más altas",
+                    "Mejor adherencia del paciente y resultados de soporte",
+                    "Reducción de la carga manual y de los costos operativos",
+                    "Paneles en tiempo real para visibilidad del rendimiento",
+                    "Documentación y aprobaciones listas para el cumplimiento",
+                    "Predicción impulsada por IA para churn, adherencia y compromiso"
+                ],
+                "desc": "Así es como el CRM se convierte en un impulsor del crecimiento, no solo en una base de datos."
+            }
+        ],
+        "beforeAfterData": [
+            {
+                "before": "Seguimiento manual",
+                "after": "Flujos de trabajo automatizados"
+            },
+            {
+                "before": "Silos de datos",
+                "after": "Modelo de datos único e integrado"
+            },
+            {
+                "before": "Ventas y servicio",
+                "after": "Motores de recomendación y cotizaciones automatizadas"
+            },
+            {
+                "before": "CRM solo para ventas",
+                "after": "Habilitación de pacientes + HCP + casos + ensayos"
+            },
+            {
+                "before": "Insights reactivos",
+                "after": "Inteligencia predictiva"
+            }
+        ],
+        "impactData": [
+            {
+                "title": "Dónde LifeAI+ genera el mayor impacto",
+                "desc": "Ideal para organizaciones que desean transformar la experiencia, unificar sistemas o escalar digitalmente.",
+                "list": [
+                    "Empresas farmacéuticas y biotecnológicas que lanzan nuevos productos",
+                    "Empresas de tecnología médica que gestionan el ciclo de vida de dispositivos",
+                    "CRO y equipos de investigación que mejoran la eficiencia de los ensayos",
+                    "Proveedores de terapias especializadas que necesitan soporte de adherencia",
+                    "Empresas que reemplazan CRM heredados o fragmentados"
+                ],
+                "desc1": "Si la misión es lograr mejores resultados, mayor compromiso y mejores decisiones, <a href='https://www.rialtes.com/es/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>LifeAI+ es el siguiente paso</a>. Las ciencias de la vida no necesitan otro CRM; necesitan una plataforma de experiencia inteligente. Eso es lo que LifeAI+ aporta."
+            }
+        ],
+        "faqData": [
+            {
+                "question": "1. ¿Qué es un CRM de Ciencias de la Vida?",
+                "answer": "Un CRM diseñado específicamente para organizaciones farmacéuticas, biotecnológicas, medtech y de atención sanitaria para gestionar el compromiso con HCP, pacientes y áreas comerciales con cumplimiento normativo y transparencia de datos."
+            },
+            {
+                "question": "2. ¿Por qué el CRM tradicional ya no es suficiente para las ciencias de la vida?",
+                "answer": "Porque se centra principalmente en interacciones de ventas, mientras que la atención sanitaria moderna exige soporte al paciente, compromiso omnicanal con HCP, automatización, seguimiento de seguridad e insights basados en resultados."
+            },
+            {
+                "question": "3. ¿Cómo mejora Rialtes LifeAI+ la experiencia de pacientes y HCP?",
+                "answer": "Unificando datos, automatizando flujos de trabajo, habilitando el compromiso digital y utilizando IA para identificar próximas acciones, riesgos y oportunidades."
+            },
+            {
+                "question": "4. ¿LifeAI+ admite el cumplimiento regulatorio?",
+                "answer": "Sí. Proporciona gestión de consentimientos, seguimiento de EA, informes de transparencia, flujos de documentación y registros de datos listos para auditoría."
+            },
+            {
+                "question": "5. ¿Qué plataformas utiliza LifeAI+?",
+                "answer": "Salesforce Life Sciences Cloud, Health Cloud, Data Cloud, Einstein AI y marcos de automatización diseñados para el sector sanitario."
+            },
+            {
+                "question": "6. ¿Cuál es el futuro de la innovación digital en la investigación clínica?",
+                "answer": "El futuro reside en ecosistemas conectados, centrados en el paciente e impulsados por IA que aceleran los plazos de los ensayos, reducen costos y mejoran los resultados de los pacientes."
+            }
+        ],
+        "blogCategory": "Salesforce Life Sciences Cloud",
+        "headerText": "CRM en ciencias de la vida: por qué los sistemas solo de ventas ya no funcionan",
+        "whyText": "Por qué el CRM tradicional se queda corto",
+        "pillerTitle": "Pilar central de LifeAI+",
+        "pillerOne": "Experiencia del paciente",
+        "pillertwo": "Participación de profesionales sanitarios",
+        "pillerThree": "Automatización del cumplimiento",
+        "pillerFour": "Inteligencia impulsada por IA",
+        "chart": "Gráfico Antes vs Después de LifeAI+",
+        "faq": "FAQs: Necesidad de CRM en ciencias de la vida",
+        "bannerAlt": "Médico analizando diagnósticos de paciente en pantallas múltiples mostrando escáneres cerebrales e imágenes esqueléticas"
     },
     "fromProjectPartnerToStrategicSapConsultingAlly": {
-  "mainData": [
-    "Los programas SAP empresariales rara vez terminan con una sola implementación. Una vez que el entorno central está en producción, comienza el verdadero recorrido: expansión entre unidades de negocio, olas de automatización, madurez analítica, paisajes de integración y mejora continua.",
-    "Aquí está la clave: las organizaciones no escalan relaciones SAP con proveedores que solo ejecutan tareas. Escalan con socios que demuestran sentido de propiedad, disciplina de gobernanza y capacidad de pensar más allá del alcance actual. Una <a href='https://www.linkedin.com/pulse/how-enterprises-evaluate-choose-sap-consulting-citof/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>asociación de consultoría SAP a largo plazo</a> se gana mediante previsibilidad, responsabilidad y resultados de transformación compartidos."
-  ],
-
-  "whyTrustData": [
-    {
-      "title": "Lo que las empresas esperan al escalar asociaciones de consultoría SAP",
-      "desc": [
-        "Una vez que se demuestra la base, las empresas evalúan si el socio puede operar a escala. Las expectativas cambian de métricas de entrega a habilitación estratégica."
-      ],
-      "title2": "La curva de madurez de una asociación de consultoría SAP",
-      "desc2": "La mayoría de los socios se detienen en la etapa 1 o 2. Las empresas solo escalan relaciones cuando los socios asumen responsabilidad en las etapas 3 y 4."
-    }
-  ],
-
-  "whyEnterpriseData": [
-    {
-      "title": "Por qué las empresas eligen a Rialtes para asociaciones SAP a largo plazo",
-      "desc": [
-        "Rialtes trabaja más allá de los hitos de implementación. Actuamos como socios que co-poseen los resultados del negocio, desde decisiones de arquitectura hasta pipelines de automatización. Nuestros equipos aportan disciplina de gobernanza, modelos de entrega estructurados y transparencia en la comunicación de riesgos.",
-        "A medida que las organizaciones crecen en regiones, funciones y prioridades digitales, Rialtes se convierte en el hilo de continuidad, garantizando acumulación de conocimiento, despliegues más rápidos, gobernanza operativa estable y valor de transformación sostenido.",
-        "Para las empresas que buscan relaciones de consultoría SAP confiables basadas en madurez, responsabilidad e impacto a largo plazo, Rialtes evoluciona de socio de proyecto a aliado estratégico, acelerando la transformación durante años, no meses."
-      ]
-    }
-  ],
-  "faqTitle": "Preguntas frecuentes: Escalar asociaciones de consultoría SAP",
-
-  "rows": [
-    {
-      "stage": "1. Proveedor de proyecto",
-      "focus": "Entrega basada en alcance",
-      "expectation": "Capacidad técnica",
-      "scale": "Plazos, calidad, preparación para UAT",
-      "bg": "bg-[#E2FFE5]"
+        "mainData": [
+            "Los programas SAP empresariales rara vez terminan con una sola implementación. Una vez que el entorno central está en producción, comienza el verdadero recorrido: expansión entre unidades de negocio, olas de automatización, madurez analítica, paisajes de integración y mejora continua.",
+            "Aquí está la clave: las organizaciones no escalan relaciones SAP con proveedores que solo ejecutan tareas. Escalan con socios que demuestran sentido de propiedad, disciplina de gobernanza y capacidad de pensar más allá del alcance actual. Una <a href='https://www.linkedin.com/pulse/how-enterprises-evaluate-choose-sap-consulting-citof/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>asociación de consultoría SAP a largo plazo</a> se gana mediante previsibilidad, responsabilidad y resultados de transformación compartidos."
+        ],
+        "whyTrustData": [
+            {
+                "title": "Lo que las empresas esperan al escalar asociaciones de consultoría SAP",
+                "desc": [
+                    "Una vez que se demuestra la base, las empresas evalúan si el socio puede operar a escala. Las expectativas cambian de métricas de entrega a habilitación estratégica."
+                ],
+                "title2": "La curva de madurez de una asociación de consultoría SAP",
+                "desc2": "La mayoría de los socios se detienen en la etapa 1 o 2. Las empresas solo escalan relaciones cuando los socios asumen responsabilidad en las etapas 3 y 4."
+            }
+        ],
+        "whyEnterpriseData": [
+            {
+                "title": "Por qué las empresas eligen a Rialtes para asociaciones SAP a largo plazo",
+                "desc": [
+                    "Rialtes trabaja más allá de los hitos de implementación. Actuamos como socios que co-poseen los resultados del negocio, desde decisiones de arquitectura hasta pipelines de automatización. Nuestros equipos aportan disciplina de gobernanza, modelos de entrega estructurados y transparencia en la comunicación de riesgos.",
+                    "A medida que las organizaciones crecen en regiones, funciones y prioridades digitales, Rialtes se convierte en el hilo de continuidad, garantizando acumulación de conocimiento, despliegues más rápidos, gobernanza operativa estable y valor de transformación sostenido.",
+                    "Para las empresas que buscan relaciones de consultoría SAP confiables basadas en madurez, responsabilidad e impacto a largo plazo, Rialtes evoluciona de socio de proyecto a aliado estratégico, acelerando la transformación durante años, no meses."
+                ]
+            }
+        ],
+        "faqTitle": "Preguntas frecuentes: Escalar asociaciones de consultoría SAP",
+        "rows": [
+            {
+                "stage": "1. Proveedor de proyecto",
+                "focus": "Entrega basada en alcance",
+                "expectation": "Capacidad técnica",
+                "scale": "Plazos, calidad, preparación para UAT",
+                "bg": "bg-[#E2FFE5]"
+            },
+            {
+                "stage": "2. Socio preferido",
+                "focus": "Habilitación de múltiples flujos",
+                "expectation": "Reducción de dependencias",
+                "scale": "Documentación, gobernanza, playbooks",
+                "bg": "bg-[#FFF2E2]"
+            },
+            {
+                "stage": "3. Aliado de transformación",
+                "focus": "Co-propiedad de resultados",
+                "expectation": "Innovación + alineación con el negocio",
+                "scale": "Habilitación del CoE, planificación del roadmap",
+                "bg": "bg-[#FAD7ED]"
+            },
+            {
+                "stage": "4. Asociación estratégica de consultoría SAP a largo plazo",
+                "focus": "Mejora continua",
+                "expectation": "Estrategia de largo plazo",
+                "scale": "Seguimiento de valor, agenda de automatización",
+                "bg": "bg-[#DDE1FD]"
+            }
+        ],
+        "whyErpData": [
+            {
+                "title": "Cómo las empresas amplían los compromisos SAP más allá de la primera implementación",
+                "desc": [
+                    "El crecimiento a largo plazo no ocurre por defecto; requiere continuidad, casos de uso relevantes y ejecución predecible."
+                ],
+                "title2": "Vías mediante las cuales se expanden las relaciones SAP",
+                "list": [
+                    {
+                        "title": "Nuevas geografías y unidades de negocio",
+                        "desc": "Los despliegues son más rápidos cuando el socio ya comprende el ADN, los datos y el contexto organizacional."
+                    },
+                    {
+                        "title": "Habilitación de funcionalidades y olas de automatización",
+                        "desc": "IA, automatización de flujos de trabajo, módulos de cumplimiento, extensiones móviles."
+                    },
+                    {
+                        "title": "Integración con sistemas adyacentes",
+                        "desc": "SAP + Salesforce, SAP + MES, SAP + Data Cloud; el valor se multiplica cuando se conecta."
+                    },
+                    {
+                        "title": "Soporte gestionado y optimización",
+                        "desc": "Estabilización, métricas de adopción, reducción del TCO y mejoras funcionales continuas."
+                    },
+                    {
+                        "title": "Analítica y transformación basada en insights",
+                        "desc": "SAP Analytics Cloud, integración con Data Cloud, planificación predictiva."
+                    }
+                ],
+                "desc2": "Una <a href='https://www.rialtes.com/insights/blogs/what-makes-sap-consulting-companies-trustworthy/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>relación de consultoría SAP confiable</a> crece como un volante de inercia; cada éxito impulsa el siguiente."
+            }
+        ],
+        "howSalesforceData": [
+            {
+                "title": "Señales de que un socio está listo para una relación estratégica a largo plazo",
+                "desc": [
+                    "Escalar una relación de consultoría nunca es impulsivo. Las empresas amplían el alcance solo cuando perciben alineación, madurez y un <a href='https://www.rialtes.com/insights/blogs/why-enterprises-choose-sap-consulting-partners/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>socio capaz de crecer con ellas</a>. Los CIO buscan pruebas de comportamiento, no promesas de presentaciones."
+                ],
+                "list": [
+                    {
+                        "title": "El socio cuestiona decisiones con fundamento en lugar de seguir instrucciones ciegamente",
+                        "desc": [
+                            "Un socio estratégico valida supuestos, cuestiona procesos y protege al negocio de complejidad futura."
+                        ]
+                    },
+                    {
+                        "title": "Las conversaciones sobre riesgos son transparentes y orientadas a soluciones",
+                        "desc": [
+                            "Los entornos saludables identifican riesgos temprano y proponen planes de mitigación claros."
+                        ]
+                    },
+                    {
+                        "title": "La continuidad del liderazgo es visible durante todas las fases",
+                        "desc": [
+                            "Las empresas valoran que quienes venden la visión sigan siendo responsables durante la ejecución."
+                        ]
+                    },
+                    {
+                        "title": "El contexto del negocio se entiende más allá de transacciones y configuración",
+                        "desc": [
+                            "Los socios conectan SAP con ingresos, cadena de suministro y cumplimiento, no solo con módulos."
+                        ]
+                    },
+                    {
+                        "title": "La cadencia de entrega es medible, predecible y repetible",
+                        "desc": [
+                            "La fiabilidad genera confianza sprint tras sprint."
+                        ]
+                    }
+                ]
+            }
+        ],
+        "faqdata": [
+            {
+                "question": "¿Cómo es una asociación de consultoría SAP escalable?",
+                "answer": "Cuando la entrega pasa de completar tickets a generar valor real para el negocio."
+            },
+            {
+                "question": "¿Cómo se mide el valor de la consultoría SAP a largo plazo?",
+                "answer": "Mediante KPIs de negocio, automatización, adopción y velocidad de cambio."
+            },
+            {
+                "question": "¿Por qué expandirse con un solo socio SAP?",
+                "answer": "Reduce reprocesos, acelera decisiones y construye memoria institucional."
+            },
+            {
+                "question": "¿Cuándo pasar de un modelo de proyecto a una asociación gestionada?",
+                "answer": "Después de la estabilización, cuando las mejoras se vuelven continuas."
+            },
+            {
+                "question": "¿Qué convierte a un socio en aliado estratégico?",
+                "answer": "Mentalidad de propiedad y responsabilidad más allá del alcance contractual."
+            }
+        ],
+        "commonTrustData": [
+            {
+                "title": "Por qué la mayoría de las relaciones SAP se estancan después del primer proyecto",
+                "desc": [
+                    "Muchas iniciativas comienzan fuertes pero no evolucionan porque el socio sigue enfocado en la ejecución y no en el crecimiento."
+                ],
+                "list": [
+                    "La entrega se vuelve transaccional, no orientada al valor",
+                    "Los stakeholders carecen de visibilidad sobre el roadmap futuro",
+                    "El socio trabaja en el sistema, pero no en la estrategia",
+                    "Diferentes unidades de negocio incorporan nuevos proveedores, diluyendo la responsabilidad"
+                ],
+                "desc2": "Un solo proyecto demuestra capacidad. Escalar requiere confianza, ritmo y una hoja de ruta estratégica."
+            }
+        ],
+        "standardizationData": [
+            {
+                "title": "Gobernanza en consultoría SAP — El verdadero diferenciador",
+                "desc": [
+                    "La capacidad gana proyectos. <a href='https://www.rialtes.com/insights/blogs/sap-consulting-trust-through-accountability/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>La gobernanza genera confianza</a>. A medida que los programas crecen, la velocidad de decisión y la alineación importan más que los tickets cerrados."
+                ],
+                "boldTitle": "Los marcos de gobernanza escalables incluyen:",
+                "list": [
+                    "Comités de dirección multifuncionales",
+                    "RACI estructurado y rutas de escalamiento",
+                    "Playbooks de liberación, regresión e integración",
+                    "Marcos de gestión del cambio y comunicación",
+                    "Servicios gestionados basados en SLA para entrega continua"
+                ],
+                "desc2": "Cuando la gobernanza madura, los usuarios dejan de ver SAP como un proyecto y comienzan a verlo como el motor operativo."
+            }
+        ],
+        "blogTitle": "De socio de proyecto a aliado estratégico: escalando los compromisos de consultoría SAP"
     },
-    {
-      "stage": "2. Socio preferido",
-      "focus": "Habilitación de múltiples flujos",
-      "expectation": "Reducción de dependencias",
-      "scale": "Documentación, gobernanza, playbooks",
-      "bg": "bg-[#FFF2E2]"
-    },
-    {
-      "stage": "3. Aliado de transformación",
-      "focus": "Co-propiedad de resultados",
-      "expectation": "Innovación + alineación con el negocio",
-      "scale": "Habilitación del CoE, planificación del roadmap",
-      "bg": "bg-[#FAD7ED]"
-    },
-    {
-      "stage": "4. Asociación estratégica de consultoría SAP a largo plazo",
-      "focus": "Mejora continua",
-      "expectation": "Estrategia de largo plazo",
-      "scale": "Seguimiento de valor, agenda de automatización",
-      "bg": "bg-[#DDE1FD]"
+    "sapTrust": {
+        "schemaData": {},
+        "faqData": [
+            {
+                "question": "¿Qué es la gobernanza en la consultoría SAP?",
+                "answer": "La gobernanza en los programas SAP es el sistema operativo para la toma de decisiones. Define cómo se evalúan los cambios de alcance, quién aprueba las decisiones arquitectónicas, cómo emergen los riesgos y cómo fluye la rendición de cuentas entre el negocio y TI. Una gobernanza sólida mantiene los programas predecibles. Garantiza que el diseño no se desvíe, que la alineación de los stakeholders se mantenga y que la implementación no dependa de esfuerzos heroicos o de apagar incendios. Sin ella, incluso los proyectos técnicamente sólidos colapsan bajo la ambigüedad."
+            },
+            {
+                "question": "¿Por qué la responsabilidad importa más que la capacidad?",
+                "answer": "La capacidad pone en marcha el proyecto; la responsabilidad determina si sobrevive a la complejidad. Las empresas han visto fracasar a socios talentosos porque la propiedad se diluyó. Cuando los roles no están claros, los problemas se prolongan, las decisiones se estancan y la culpa reemplaza al progreso. La responsabilidad impone compromiso con los resultados, no solo con los entregables. Un socio creíble da un paso al frente durante el conflicto, no se aparta. Asume la propiedad del proceso, la calidad, los plazos y el impacto en el negocio."
+            },
+            {
+                "question": "¿Cómo es una gobernanza escalable?",
+                "answer": "La gobernanza escalable es visible, medible y repetible a lo largo de las fases y los despliegues globales. Incluye comités directivos que intervienen de forma proactiva, rutas de escalamiento que no dependen de relaciones individuales, matrices RACI que eliminan la ambigüedad y un control de cambios estructurado que protege el alcance sin bloquear la innovación. Significa contar con playbooks para UAT, hypercare, pruebas de regresión y gestión de releases, de modo que la ejecución sea consistente tanto si el programa se expande de una planta a 15 como de un país a 20."
+            },
+            {
+                "question": "¿Cómo evalúan los CIO la responsabilidad antes de la selección?",
+                "answer": "Los CIO ponen a prueba la madurez del socio desde el inicio, normalmente antes de firmar el contrato. Analizan el modelo de escalamiento, cómo responde el socio cuando se le desafía y si los riesgos se reconocen con transparencia o se minimizan para ganar el acuerdo. Observan quién participa en las reuniones de gobernanza: líderes senior o solo equipos comerciales. Verifican la continuidad del liderazgo de delivery y solicitan recorridos por escenarios reales, como la gestión de rollbacks o los riesgos de cutover."
+            },
+            {
+                "question": "¿Qué indica que un socio de consultoría SAP es confiable?",
+                "answer": "Los socios confiables demuestran claridad e integridad desde el primer día. No prometen en exceso, cuestionan las suposiciones con respeto y respaldan sus recomendaciones con datos y razonamiento. Operan con una cultura de desafío, dispuestos a decir “no” cuando algo pone en riesgo la estabilidad futura. Piensan más allá del go-live, diseñando para la mantenibilidad, futuras actualizaciones y adopción del negocio, no solo para la finalización técnica. Un socio creíble se siente menos como un proveedor y más como un co-propietario de los resultados."
+            }
+        ],
+        "mainData": [
+            "Los programas SAP empresariales no fracasan porque la tecnología no esté disponible; fracasan cuando la gobernanza se rompe, cuando la propiedad se difumina y cuando las decisiones carecen de responsabilidad. Los grandes programas de transformación implican hojas de ruta de varios años, impacto multifuncional y un nivel de complejidad en el que las suposiciones se convierten rápidamente en riesgo. Por eso las empresas no solo evalúan la capacidad SAP; evalúan cómo se comporta un socio bajo presión, cómo escala los problemas y cómo protege la continuidad del negocio mucho después del go-live.",
+            "Este bloque profundiza en el verdadero factor decisivo detrás de la <a href='https://www.linkedin.com/pulse/how-enterprises-evaluate-choose-sap-consulting-citof/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>selección de socios SAP</a>: la madurez de la gobernanza. Desglosa cómo las organizaciones evalúan la responsabilidad, cómo se ven en la práctica los marcos de propiedad escalables y por qué la credibilidad proviene de la estructura, la disciplina y el comportamiento en la entrega, no de las promesas. En el fondo, demuestra que la confianza se gana en la forma en que un socio de consultoría dirige el programa, cuestiona decisiones y acompaña al liderazgo de TI cuando lo que está en juego es alto."
+        ],
+        "whyGovData": [
+            {
+                "title": "Por qué la gobernanza define el éxito de la consultoría SAP más que la velocidad de entrega",
+                "desc": [
+                    "La entrega rápida tiene poco valor sin control. Las iniciativas SAP fracasan cuando la propiedad de las decisiones no está clara, el escalamiento es lento o la responsabilidad queda atrapada entre equipos. Una gobernanza sólida protege los resultados, los presupuestos y los plazos.",
+                    "La gobernanza crea:"
+                ],
+                "list": [
+                    "Un sistema para tomar decisiones, no solo reuniones",
+                    "Rutas de responsabilidad que evitan ciclos de culpa",
+                    "Visibilidad del riesgo antes de que se convierta en disrupción",
+                    "Confianza para CIO y patrocinadores del negocio"
+                ]
+            }
+        ],
+        "whyGovernanceData": [
+            {
+                "title": "Lo que las empresas esperan de una gobernanza de consultoría SAP escalable",
+                "list": [
+                    {
+                        "title": "Propiedad clara en todos los niveles",
+                        "desc": "Los equipos avanzan más rápido cuando todos saben quién es responsable de qué. La ambigüedad introduce riesgo.",
+                        "listTitle": "Las empresas esperan:",
+                        "listData": [
+                            "Responsables nombrados para diseño, datos, pruebas y cutover",
+                            "Roles definidos de sponsor y comité directivo",
+                            "Decisiones documentadas, no implícitas"
+                        ]
+                    },
+                    {
+                        "title": "Un modelo de gobernanza que escale con el programa",
+                        "desc": "Lo que funciona para un piloto no se sostiene cuando el alcance se duplica o las regiones se expanden.",
+                        "listTitle": "Señales de escalabilidad:",
+                        "listData": [
+                            "Ritmo estructurado de comités directivos",
+                            "Autoridad de decisión según nivel de impacto",
+                            "Playbooks para cambio, riesgo y comunicación"
+                        ]
+                    },
+                    {
+                        "title": "Transparencia en riesgos y escalamiento",
+                        "desc": "En el trabajo SAP a nivel empresarial, el riesgo se oculta donde los líderes no pueden verlo. Los socios confiables sacan los problemas a la luz temprano, con opciones y claridad de impacto.",
+                        "listTitle": "Alertas a evitar:",
+                        "listData": [
+                            "Riesgos ocultos en reportes de estado",
+                            "Escalamientos canalizados a través de ventas",
+                            "Ausencia de umbrales formales para elevar decisiones"
+                        ]
+                    },
+                    {
+                        "title": "Responsabilidad más allá del go-live",
+                        "desc": "La responsabilidad no termina con el despliegue. Las empresas esperan que los socios inviertan en resultados de medio plazo: estabilidad, adopción y optimización.",
+                        "listTitle": "Indicadores de responsabilidad a largo plazo:",
+                        "listData": [
+                            "KPIs post go-live (rendimiento, adopción, respuesta a incidentes)",
+                            "Propiedad del intake de cambios y la gestión del backlog",
+                            "Alineación estratégica con la evolución del roadmap de SAP"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "sapDeliveryData": [
+            {
+                "title": "Responsabilidad en la entrega SAP: cómo los CIO evalúan la credibilidad",
+                "desc": [
+                    "Los CIO no buscan entusiasmo vacío; buscan disciplina y la capacidad de operar bajo presión real. Las herramientas, los plazos y las credenciales importan, pero lo que realmente genera confianza es cómo se comporta un socio cuando aparece la fricción. Los programas SAP siempre enfrentan momentos de conflicto, debates de alcance, brechas de integridad de datos y plazos poco realistas.",
+                    "Los CIO evalúan:"
+                ],
+                "list": [
+                    "Cómo se toman las decisiones cuando las prioridades chocan o cambian a mitad del camino",
+                    "Si el socio cuestiona suposiciones arriesgadas en lugar de asentir",
+                    "Si los equipos de delivery están empoderados para avanzar sin esperar intervención ejecutiva",
+                    "Qué tan transparentes son los riesgos al ser identificados, documentados y gestionados",
+                    "Si la responsabilidad es proactiva o solo reactiva cuando los problemas ya escalaron"
+                ],
+                "desc2": "Un socio que no sabe decir “no” es un riesgo mayor que uno que desafía. Los CIO valoran a los consultores que protegen el programa — incluso cuando implica conversaciones difíciles — porque ese es el <a href='https://www.rialtes.com/es/insights/blogs/what-makes-sap-consulting-companies-trustworthy/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>comportamiento de un verdadero propietario</a>, no de un proveedor."
+            }
+        ],
+        "howAccountablilityData": [
+            {
+                "title": "Cómo la responsabilidad influye en la selección de empresas de consultoría SAP",
+                "list": [
+                    {
+                        "title": "Por qué la responsabilidad importa",
+                        "desc": "<strong>La responsabilidad indica</strong> más que capacidad: muestra si el socio va a:",
+                        "list": [
+                            "Asumir la propiedad cuando los proyectos se complican",
+                            "Cuestionar decisiones arriesgadas",
+                            "Enfocarse en el valor, no solo en completar tareas"
+                        ]
+                    },
+                    {
+                        "title": "Alta responsabilidad = mayor involucramiento",
+                        "desc": "Cuando la responsabilidad es fuerte, las empresas mueven a los socios de <span>proveedor a colaborador estratégico</span>.",
+                        "listTitle": "El acceso se amplía hacia:",
+                        "list": [
+                            "Definición de requisitos y reuniones de gobernanza",
+                            "Planificación de riesgos y escenarios",
+                            "Consejos de arquitectura y diseño",
+                            "Revisiones de preparación para producción"
+                        ],
+                        "desc2": "Confianza = más influencia + más responsabilidad"
+                    },
+                    {
+                        "title": "Baja responsabilidad = confianza limitada",
+                        "desc": "Los socios con baja responsabilidad suelen:",
+                        "list": [
+                            "Evitar conversaciones difíciles",
+                            "Decir sí a todo sin evaluar el impacto",
+                            "No rastrear ni documentar decisiones"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "whyEnterpriseData": [
+            {
+                "title": "Por qué las empresas confían en Rialtes para la gobernanza y la asunción de riesgos",
+                "data": [
+                    "Rialtes opera con la madurez de gobernanza que las empresas esperan, no como un proveedor de delivery, sino como un socio que asume riesgos. Desde el primer día, establecemos responsabilidad, claridad, umbrales de escalamiento y derechos de decisión que evitan ruido y confusión más adelante.",
+                    "Nuestros equipos aportan estructura a los programas mediante cadencias de comités directivos, registros de riesgo transparentes, comunicación proactiva y participación del liderazgo en hitos críticos. Identificamos riesgos temprano, cuestionamos suposiciones con respeto y garantizamos que las decisiones protejan el valor a largo plazo, no solo el progreso a corto plazo.",
+                    "Para CIO y líderes de transformación que priorizan responsabilidad, control y <a href='https://www.rialtes.com/es/solutions/enterprise-platforms/sap-consulting-implementation-partners/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>gobernanza de consultoría SAP de nivel empresarial</a>, Rialtes se destaca como un socio que se hace cargo de los resultados, no solo de los entregables."
+                ]
+            }
+        ],
+        "tableData": [
+            {
+                "level": "Alta",
+                "trust": "Fuerte",
+                "role": "Consejos estratégicos, decisiones de transformación, liderazgo activo en la entrega",
+                "bg": "bg-[#E9FFE9]"
+            },
+            {
+                "level": "Baja",
+                "trust": "Débil",
+                "role": "Propuestas, demostraciones y conversaciones superficiales",
+                "bg": "bg-[#FFF1E6]"
+            }
+        ],
+        "seoTitle": "Responsabilidad en SAP: la verdadera medida de la confianza en consultoría | Rialtes",
+        "seoDescription": "La responsabilidad impone compromiso con los resultados, no solo con los entregables. Un socio SAP creíble da un paso al frente durante el conflicto, no se aparta.",
+        "bannerAlt": "Equipo revisando datos empresariales y métricas de rendimiento en un panel de análisis digital",
+        "blogTopic": "Consultoría SAP",
+        "blogName": "Responsabilidad en la consultoría SAP: lo que las empresas deben exigir a sus socios",
+        "tableTitle1": "Nivel de responsabilidad",
+        "tableTitle2": "Confianza empresarial",
+        "tableTitle3": "Acceso y rol",
+        "faqTitle": "FAQs: Gobernanza y responsabilidad en la consultoría SAP"
     }
-  ],
-
-  "whyErpData": [
-    {
-      "title": "Cómo las empresas amplían los compromisos SAP más allá de la primera implementación",
-      "desc": [
-        "El crecimiento a largo plazo no ocurre por defecto; requiere continuidad, casos de uso relevantes y ejecución predecible."
-      ],
-      "title2": "Vías mediante las cuales se expanden las relaciones SAP",
-      "list": [
-        {
-          "title": "Nuevas geografías y unidades de negocio",
-          "desc": "Los despliegues son más rápidos cuando el socio ya comprende el ADN, los datos y el contexto organizacional."
-        },
-        {
-          "title": "Habilitación de funcionalidades y olas de automatización",
-          "desc": "IA, automatización de flujos de trabajo, módulos de cumplimiento, extensiones móviles."
-        },
-        {
-          "title": "Integración con sistemas adyacentes",
-          "desc": "SAP + Salesforce, SAP + MES, SAP + Data Cloud; el valor se multiplica cuando se conecta."
-        },
-        {
-          "title": "Soporte gestionado y optimización",
-          "desc": "Estabilización, métricas de adopción, reducción del TCO y mejoras funcionales continuas."
-        },
-        {
-          "title": "Analítica y transformación basada en insights",
-          "desc": "SAP Analytics Cloud, integración con Data Cloud, planificación predictiva."
-        }
-      ],
-      "desc2": "Una <a href='https://www.rialtes.com/insights/blogs/what-makes-sap-consulting-companies-trustworthy/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>relación de consultoría SAP confiable</a> crece como un volante de inercia; cada éxito impulsa el siguiente."
-    }
-  ],
-
-  "howSalesforceData": [
-    {
-      "title": "Señales de que un socio está listo para una relación estratégica a largo plazo",
-      "desc": [
-        "Escalar una relación de consultoría nunca es impulsivo. Las empresas amplían el alcance solo cuando perciben alineación, madurez y un <a href='https://www.rialtes.com/insights/blogs/why-enterprises-choose-sap-consulting-partners/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>socio capaz de crecer con ellas</a>. Los CIO buscan pruebas de comportamiento, no promesas de presentaciones."
-      ],
-      "list": [
-        {
-          "title": "El socio cuestiona decisiones con fundamento en lugar de seguir instrucciones ciegamente",
-          "desc": [
-            "Un socio estratégico valida supuestos, cuestiona procesos y protege al negocio de complejidad futura."
-          ]
-        },
-        {
-          "title": "Las conversaciones sobre riesgos son transparentes y orientadas a soluciones",
-          "desc": [
-            "Los entornos saludables identifican riesgos temprano y proponen planes de mitigación claros."
-          ]
-        },
-        {
-          "title": "La continuidad del liderazgo es visible durante todas las fases",
-          "desc": [
-            "Las empresas valoran que quienes venden la visión sigan siendo responsables durante la ejecución."
-          ]
-        },
-        {
-          "title": "El contexto del negocio se entiende más allá de transacciones y configuración",
-          "desc": [
-            "Los socios conectan SAP con ingresos, cadena de suministro y cumplimiento, no solo con módulos."
-          ]
-        },
-        {
-          "title": "La cadencia de entrega es medible, predecible y repetible",
-          "desc": [
-            "La fiabilidad genera confianza sprint tras sprint."
-          ]
-        }
-      ]
-    }
-  ],
-
-  "faqdata": [
-    {
-      "question": "¿Cómo es una asociación de consultoría SAP escalable?",
-      "answer": "Cuando la entrega pasa de completar tickets a generar valor real para el negocio."
-    },
-    {
-      "question": "¿Cómo se mide el valor de la consultoría SAP a largo plazo?",
-      "answer": "Mediante KPIs de negocio, automatización, adopción y velocidad de cambio."
-    },
-    {
-      "question": "¿Por qué expandirse con un solo socio SAP?",
-      "answer": "Reduce reprocesos, acelera decisiones y construye memoria institucional."
-    },
-    {
-      "question": "¿Cuándo pasar de un modelo de proyecto a una asociación gestionada?",
-      "answer": "Después de la estabilización, cuando las mejoras se vuelven continuas."
-    },
-    {
-      "question": "¿Qué convierte a un socio en aliado estratégico?",
-      "answer": "Mentalidad de propiedad y responsabilidad más allá del alcance contractual."
-    }
-  ],
-
-  "commonTrustData": [
-    {
-      "title": "Por qué la mayoría de las relaciones SAP se estancan después del primer proyecto",
-      "desc": [
-        "Muchas iniciativas comienzan fuertes pero no evolucionan porque el socio sigue enfocado en la ejecución y no en el crecimiento."
-      ],
-      "list": [
-        "La entrega se vuelve transaccional, no orientada al valor",
-        "Los stakeholders carecen de visibilidad sobre el roadmap futuro",
-        "El socio trabaja en el sistema, pero no en la estrategia",
-        "Diferentes unidades de negocio incorporan nuevos proveedores, diluyendo la responsabilidad"
-      ],
-      "desc2": "Un solo proyecto demuestra capacidad. Escalar requiere confianza, ritmo y una hoja de ruta estratégica."
-    }
-  ],
-
-  "standardizationData": [
-    {
-      "title": "Gobernanza en consultoría SAP — El verdadero diferenciador",
-      "desc": [
-        "La capacidad gana proyectos. <a href='https://www.rialtes.com/insights/blogs/sap-consulting-trust-through-accountability/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>La gobernanza genera confianza</a>. A medida que los programas crecen, la velocidad de decisión y la alineación importan más que los tickets cerrados."
-      ],
-      "boldTitle": "Los marcos de gobernanza escalables incluyen:",
-      "list": [
-        "Comités de dirección multifuncionales",
-        "RACI estructurado y rutas de escalamiento",
-        "Playbooks de liberación, regresión e integración",
-        "Marcos de gestión del cambio y comunicación",
-        "Servicios gestionados basados en SLA para entrega continua"
-      ],
-      "desc2": "Cuando la gobernanza madura, los usuarios dejan de ver SAP como un proyecto y comienzan a verlo como el motor operativo."
-    }
-  ],
-  "blogTitle": "De socio de proyecto a aliado estratégico: escalando los compromisos de consultoría SAP"
-}
-
 }
