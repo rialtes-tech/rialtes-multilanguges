@@ -7,11 +7,26 @@ export default function Breadcrumb({ currPage, subPath }) {
     const pathname = usePathname();
     const cleanPath = pathname.replace(/\/$/, "");
     const segments = cleanPath.split("/").filter(Boolean);
+    console.log(segments, segments.length);
+
     const EXISTING_ROUTES = {
         "about-us": "/about-us"
     };
 
-    const breadcrumbs = segments.slice(0, subPath ? 1 : 2).map((segment) => {
+    let manualPath;
+    if (segments.length === 3 && subPath) {
+        manualPath = 1;
+    } else if (segments.length === 3) {
+        manualPath = 2;
+    } else if (segments.length === 1) {
+        manualPath = 0;
+    } else if (segments.length === 2) {
+        manualPath = 1;
+    } else {
+        manualPath = 2;
+    }
+
+    const breadcrumbs = segments.slice(0, manualPath).map((segment) => {
         const label = segment
             .split("-")
             .map(word => word.charAt(0).toUpperCase() + word.slice(1))
@@ -27,10 +42,11 @@ export default function Breadcrumb({ currPage, subPath }) {
             <p className="4xl:text-[22px] xl:text-[18px] text-[16px] flex flex-wrap gap-1">
                 <Link
                     href="/"
-                    className="cursor-pointer hover:text-[#0C8AED]">
+                    className="cursor-pointer hover:text-[#0C8AED]"
+                >
                     Home
                 </Link> {"/"}
-                {currPage !== "About Us" && (
+                {
                     breadcrumbs.map((item, index) => (
                         <span key={item.label} className="flex items-center gap-1">
                             {item.href ? (
@@ -45,22 +61,15 @@ export default function Breadcrumb({ currPage, subPath }) {
                                     {item.label} {" / "}
                                 </span>
                             )}
-
                         </span>
                     ))
-                )}
-
+                }
 
                 {/* sub path */}
-                {
-                    subPath && <span>
-                        {subPath} {"/"}
-                    </span>
-                }
+                {subPath && <span>{subPath} {" / "}</span>}
+
                 {/* Current page */}
-                <span className="text-[#0C8AED]">
-                    {currPage}
-                </span>
+                <span className="text-[#0C8AED]">{currPage}</span>
             </p>
         </div>
     );

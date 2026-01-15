@@ -4,6 +4,8 @@ import Seo from "@/app/components/Seo";
 import Image from "next/image";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
+import BreadCrumbs from '@/app/components/BreadCrumbs'
+
 export default function page() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -316,8 +318,10 @@ export default function page() {
                 </div>
             </section>
             {/* page desc section */}
-            <section className="custom-container xl:mt-[135px] mt-[42px]">
-                <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px]">
+            <section className="custom-container mt-5">
+                <BreadCrumbs currPage="Salesforce Managed Services"/>
+
+                <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] xl:mt-[125px] mt-[42px]">
                     <div className="lg:col-span-6 xl:col-span-7 col-span-12">
                         <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light md:w-[90%] lg:w-[80%] xl:w-[90%] 2xl:w-[70%] 4xl:w-full">
                             Reimagine Salesforce. Empower Your Agents. Deliver Customer Magic.

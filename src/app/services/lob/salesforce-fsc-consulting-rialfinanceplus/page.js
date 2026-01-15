@@ -5,6 +5,8 @@ import Seo from "@/app/components/Seo";
 import LearnMore from "@/app/components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
+import BreadCrumbs from '@/app/components/BreadCrumbs'
+
 export default function page() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -308,8 +310,10 @@ export default function page() {
                 </div>
             </section>
             {/* page description section */}
-            <section className="custom-container xl:mt-[99px] mt-[50px]">
-                <div>
+            <section className="custom-container mt-5">
+                <BreadCrumbs currPage="Salesforce Financial Services Cloud" subPath="Line of Business"/>
+
+                <div className="xl:mt-[99px] mt-[50px]">
                     <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] w-[90%] sm:w-full">
                         AI-Powered Financial Services. <div className="sm:block hidden" /> Personalized Client Journeys. <div className="sm:block hidden" /> Seamless Omnichannel Engagement.
                     </h2>
