@@ -3,7 +3,7 @@ import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import FeaturedCarousel from '../../../components/servicesFeaturedCarousel';
 import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel';
-import ServicesBlogs from "@/app/components/servicesBlogs";
+import BreadCrumbs from '../../../components/BreadCrumbs'
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
@@ -143,7 +143,6 @@ export default function HealthCloud() {
             title: 'Optimized Product Delivery',
         }
     ]
-
     const salesForce2 = [
         {
             id: 1,
@@ -228,7 +227,7 @@ export default function HealthCloud() {
                                 width={0}
                                 height={0}
                                 priority
-                                className="mt-5 w-[120px] md:w-[150px] lg:w-[190px] xl:w-[180px] 2xl:w-[240px] 4xl:w-[300px]"/>
+                                className="mt-5 w-[120px] md:w-[150px] lg:w-[190px] xl:w-[180px] 2xl:w-[240px] 4xl:w-[300px]" />
                         </div>
                         <div className="col-span-12 lg:col-span-3 xl:col-span-5">
                         </div>
@@ -236,6 +235,7 @@ export default function HealthCloud() {
                 </div>
             </section>
             <section className="custom-container">
+                <BreadCrumbs currPage="Salesforce Revenue Cloud" />
                 <div className="py-8 bg-white">
                     <div className="2xl:pr-72 xl:pr-40 md:pr-20 4xl:pr-20">
                         <div className="flex flex-col lg:flex-row items-center py-6 ">

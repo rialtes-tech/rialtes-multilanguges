@@ -5,6 +5,7 @@ import ContactForm from "../../../components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
+import BreadCrumbs from '../../../components/BreadCrumbs'
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -250,7 +251,8 @@ export default function DataCloud() {
       </section>
       {/* page description */}
       <section className="custom-container">
-        <section className="pt-16 bg-white">
+        <BreadCrumbs currPage="Salesforce Data Cloud" subPath="Data & AI"/>
+        <section className="pt-10 md:pt-16 bg-white">
           <div className="mx-auto">
             <h2 className="text-[#000000] 4xl:text-[60px] xl:text-[40px] text-[26px] mb-8">
               What Is Salesforce Data Cloud?

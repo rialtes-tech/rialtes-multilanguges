@@ -4,6 +4,8 @@ import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
 import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
+import BreadCrumbs from '../../../components/BreadCrumbs'
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -296,9 +298,10 @@ export default function Page() {
         </div>
       </section>
       {/* Empower your enterprise with Rialtes section */}
-      <section className="xl:py-20 pt-10 pb-5">
+      <section className="mt-5">
         <div className="custom-container">
-          <div>
+          <BreadCrumbs currPage="Oracle EBS" />
+          <div className="xl:py-20 pt-10 pb-5">
             <h2 className="4xl:text-[40px]  xl:text-[32px] text-[26px] 4xl:w-[89%] 2xl:w-[78%] xl:w-[88%] w-full  xl:pr-0 leading-tight">
               Empower your enterprise with Rialtes’ cutting-edge Oracle EBS
               solutions, backed by deep industry knowledge, certified expertise,

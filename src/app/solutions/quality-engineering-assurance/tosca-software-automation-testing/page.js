@@ -4,6 +4,7 @@ import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Image from "next/image";
 import UnorderedList from "@/app/components/unorderedList";
+import BreadCrumbs from '../../../components/BreadCrumbs'
 import Script from "next/script";
 export default function DemandPlusSection() {
   const schemaData = {
@@ -223,6 +224,7 @@ export default function DemandPlusSection() {
       </section>
       {/* page description */}
       <section className="custom-container xl:!pr-0">
+        <BreadCrumbs currPage="Tricentis Tosca" subPath="Quality Engineering & Assurance"/>
         <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-24 mt-10">
           <div className="xl:col-span-9">
             <h2 className="leading-tight text-[26px] 4xl:text-[60px]  xl:text-[42px]">

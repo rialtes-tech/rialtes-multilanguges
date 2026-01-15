@@ -4,6 +4,7 @@ import ContactForm from "../../../components/contactform";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import UnorderedList from "@/app/components/unorderedList";
+import BreadCrumbs from '../../../components/BreadCrumbs'
 import Script from "next/script";
 const schemaData = {
   "@context": "https://schema.org",
@@ -297,8 +298,10 @@ export default function Page() {
       </section>
 
       {/* page description section */}
-      <section className="mt-16 custom-container">
-        <div className="grid xl:grid-cols-12 grid-cols-1">
+      <section className="mt-5 custom-container">
+        <BreadCrumbs currPage="Grow with SAP" />
+
+        <div className="grid xl:grid-cols-12 grid-cols-1 mt-16 ">
           <div className="4xl:col-span-10 xl:col-span-9 col-span-12">
             <h1 className="leading-tight 4xl:text-[56px] xl:text-[40px] md:text-[26px] xl:mb-8  xl:w-[90%] 2xl:w-[80%] 4xl:w-[100%]">
               Unlock the Power of SAP S/4HANA Cloud with Rialtes VoyagerNext Services
@@ -575,7 +578,7 @@ export default function Page() {
         </div>
         <p className="xl:block hidden 4xl:text-[26px] xl:text-[20px] text-[16px] bg-[#0C8AD4] font-normal p-5 xl:pl-10  text-white leading-tight">Our certified BTP experts ensure future-proof architecture for every client.</p>
       </section>
-     <p className="block xl:hidden 4xl:text-[26px] xl:text-[20px] text-[18px] bg-[#0C8AD4] p-5 pl-[30px] xl:pl-10 xl:mr-[142px] text-white leading-tight">Our certified BTP experts ensure future-proof architecture for every client.</p>
+      <p className="block xl:hidden 4xl:text-[26px] xl:text-[20px] text-[18px] bg-[#0C8AD4] p-5 pl-[30px] xl:pl-10 xl:mr-[142px] text-white leading-tight">Our certified BTP experts ensure future-proof architecture for every client.</p>
       {/* conversational section */}
       <section className="bg-[#184671] xl:pb-20 pb-10 xl:mt-32 mt-10">
         <div className="custom-container h-full relative">

@@ -3,6 +3,8 @@ import Link from "next/link";
 import ContactForm from "../components/contactform";
 import Seo from "../components/Seo";
 import Script from "next/script";
+import BreadCrumbs from '../components/BreadCrumbs'
+
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -181,6 +183,9 @@ export default function About() {
             </section>
             {/* Mission & Vision Section */}
             <div className="mt-40 custom-container">
+                <div className="pt-5">
+                    <BreadCrumbs currPage="About Us" />
+                </div>
                 <h1 className="py-14 leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px]  xl:w-[76%] 4xl:w-[100%]">
                     World largest brands work with Rialtes to transform their processes and automate their businesses for increased ROI.
                 </h1>
