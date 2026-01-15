@@ -226,7 +226,17 @@
       }
     ],
     "latestBlogs": [
-    
+      {
+        "id": 75,
+        "image": "/images/blog/digital-connectivity-bridge-network-integration-thumb.webp",
+        "category": "SAP Ariba",
+        "industry": "Générique",
+        "date": "Jan. 12, 2026",
+        "url": "/sapbuyplus-sap-ariba-connected-procurement/",
+        "title": "SAPBuy+ : Le chaînon manquant de l’approvisionnement Ariba",
+        "alt": "Pont numérique avec connexions réseau reliant smartphone au cloud représentant système d'intégration achats SAP Ariba",
+        "description": "Les achats ont connu plus de changements significatifs au cours des cinq dernières années que durant les vingt précédentes."
+      },
       {
         "id": 74,
         "image": "/images/blog/data-analysis-business-strategy-thumbnail.webp",
@@ -282,7 +292,7 @@
         "alt": "Dirigeant d’entreprise sur un chemin symbolisant la croissance de l’entreprise et la transformation numérique",
         "description": "La modernisation des ERP figure depuis des années à l’agenda des conseils d’administration, pourtant les réussites restent bien moins nombreuses que prévu. Les dirigeants savent que la transformation est nécessaire, mais le parcours devient souvent semé d’embûches."
       },
-        {
+      {
         "id": 69,
         "image": "/images/blog/from-project-partner/thumb.webp",
         "category": "Conseil SAP",

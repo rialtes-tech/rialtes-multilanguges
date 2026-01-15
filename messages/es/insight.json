@@ -227,8 +227,17 @@
       }
     ],
     "latestBlogs": [
-   
-     
+      {
+        "id": 75,
+        "image": "/images/blog/digital-connectivity-bridge-network-integration-thumb.webp",
+        "category": "SAP Ariba",
+        "industry": "Genérico",
+        "date": "Jan. 12, 2026",
+        "url": "/sapbuyplus-sap-ariba-connected-procurement/",
+        "title": "SAPBuy+: El eslabón perdido en la contratación con Ariba",
+        "alt": "Puente digital con conexiones de red vinculando smartphone a nube representando integración de adquisiciones SAP Ariba",
+        "description": "La contratación ha experimentado más cambios significativos en los últimos cinco años que en los veinte anteriores."
+      },
       {
         "id": 74,
         "image": "/images/blog/data-analysis-business-strategy-thumbnail.webp",
@@ -240,7 +249,7 @@
         "alt": "Equipo revisando datos empresariales y métricas de rendimiento en un panel de análisis digital",
         "description": "Los programas SAP empresariales no fracasan porque la tecnología no esté disponible; fracasan cuando la gobernanza se debilita, cuando la responsabilidad se diluye y cuando las decisiones carecen de rendición de cuentas. Los grandes programas de transformación implican hojas de ruta de varios años, impacto multifuncional y un nivel de complejidad en el que las suposiciones se convierten rápidamente en riesgos."
       },
-         {
+      {
         "id": 73,
         "image": "/images/blog/fragmented-customer-journeys-feature-thumb.webp",
         "category": "Salesforce Marketing Cloud",
@@ -284,7 +293,7 @@
         "alt": "Líder empresarial en un camino que simboliza el crecimiento empresarial y la transformación digital",
         "description": "La modernización del ERP ha estado en la agenda de los consejos directivos durante años, pero los casos de éxito siguen siendo mucho menos frecuentes de lo esperado. Los líderes saben que la transformación es necesaria, pero el camino suele volverse accidentado."
       },
-       {
+      {
         "id": 69,
         "image": "/images/blog/from-project-partner/thumb.webp",
         "category": "Consultoría SAP",

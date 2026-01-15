@@ -297,7 +297,17 @@
       }
     ],
     "latestBlogs": [
-    
+      {
+        "id": 75,
+        "image": "/images/blog/digital-connectivity-bridge-network-integration-thumb.webp",
+        "category": "SAP Ariba",
+        "industry": "Generic",
+        "date": "Jan. 12, 2026",
+        "url": "/sapbuyplus-sap-ariba-connected-procurement/",
+        "title": "SAPBuy+: The Missing Link in Ariba Procurement",
+        "alt": "Digital bridge with network connections linking smartphone to cloud representing SAP Ariba procurement integration system",
+        "description": "Procurement has undergone more significant changes in the last five years than it did in the previous twenty. "
+      },
       {
         "id": 73,
         "image": "/images/blog/data-analysis-business-strategy-thumbnail.webp",
@@ -354,7 +364,7 @@
         "description": "ERP modernization has been on boardroom agendas for years, yet success stories are still far fewer than expected. Leaders know transformation is necessary, but the path often turns bumpy."
       },
       {
-         "id": 68,
+        "id": 68,
         "image": "/images/blog/from-project-partner/thumb.webp",
         "category": "SAP Consulting",
         "industry": " Life Sciences",
