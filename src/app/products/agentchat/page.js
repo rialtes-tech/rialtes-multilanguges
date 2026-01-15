@@ -3,6 +3,7 @@ import Image from "next/image";
 import ContactForm from "../../components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
+import BreadCrumbs from '../../components/BreadCrumbs'
 import Script from "next/script";
 const schemaData = {
     "@context": "https://schema.org",
@@ -183,7 +184,10 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
-                <div className="custom-container grid lg:grid-cols-12 grid-cols-1  lg:gap-[60px] xl:gap-[80px] mt-[100px] xl:mt-[100px] 4xl:mt-[150px]">
+                <div className="custom-container py-5">
+                    <BreadCrumbs currPage="AgentChat"/>
+                </div>
+                <div className="custom-container grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] xl:gap-[80px] mt-[100px] xl:mt-[100px] 4xl:mt-[110px]">
                     <div className="lg:col-span-5 col-span-12 ">
                         <h2 className="leading-tight text-[28px] md:text-[30px] pb-4 lg:text-[28px] xl:text-[30px] 2xl:text-[36px] 4xl:text-[40px] ">Engage, Support, and Close Deals - All Through WhatsApp. All Inside Salesforce.</h2>
                     </div>

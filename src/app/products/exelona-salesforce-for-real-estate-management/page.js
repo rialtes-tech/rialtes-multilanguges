@@ -4,6 +4,7 @@ import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import ContactForm from "@/app/components/contactform";
 import LearnMore from "@/app/components/learnMore";
+import BreadCrumbs from '@/app/components/BreadCrumbs'
 import UnorderedList from "@/app/components/unorderedList";
 const schemaData = {
     "@context": "https://schema.org",
@@ -364,9 +365,11 @@ export default function Page() {
 
 
                 {/* Content */}
-                <div className="relative z-20 custom-container 4xl:mt-[22rem] 2xl:mt-[20rem] xl:mt-[18rem] mt-[200px] 4xl:pr-0">
-                    <div className="grid xl:grid-cols-12 grid-cols-1 gap-2">
-                        <div className="xl:col-span-12 col-span-12 pr-5 text-white">
+                <div className="relative z-20 text-white custom-container 4xl:mt-[22rem] 2xl:mt-[20rem] xl:mt-[18rem] mt-[200px] 4xl:pr-0">
+                    <BreadCrumbs currPage="Exelona" />
+
+                    <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 mt-5">
+                        <div className="xl:col-span-12 col-span-12 pr-5 ">
                             <h1 className="leading-tight break-words 4xl:text-[60px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] 4xl:pr-0 md:pr-40 pr-10">
                                 <span className="text-white text-[28px] xl:text-[60px] 2xl:text-[80px] 4xl:text-[105px] mb-2 break-words">
                                     Exelona

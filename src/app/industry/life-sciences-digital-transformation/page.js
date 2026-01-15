@@ -4,6 +4,8 @@ import Seo from "@/app/components/Seo";
 import Image from "next/image";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
+import BreadCrumbs from '@/app/components/BreadCrumbs'
+
 export default function page() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -322,8 +324,10 @@ export default function page() {
                 </div>
             </section>
             {/* page description section */}
-            <section className="custom-container xl:mt-[119px] mt-[44px]">
-                <div className="">
+            <section className="custom-container mt-4">
+                <BreadCrumbs currPage="Life Sciences" />
+
+                <div className="xl:mt-[119px] mt-[44px]">
                     <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light w-[90%] md:w-[90%] lg:w-[60%] xl:w-[66%] 2xl:w-[60%] 4xl:w-[80%]">
                         Driving Compliance & Innovation in Life Sciences & Healthcare through SAP, Salesforce & AI.
                     </h2>

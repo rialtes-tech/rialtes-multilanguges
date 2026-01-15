@@ -6,6 +6,8 @@ import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
+import BreadCrumbs from '@/app/components/BreadCrumbs'
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -229,8 +231,10 @@ export default function page() {
           </div>
         </div>
       </section>
-      <section className="mt-16 custom-container">
-        <div className="grid xl:grid-cols-12 grid-cols-1">
+      <section className="mt-5 custom-container">
+        <BreadCrumbs currPage="Retail" subPath="Line of Business"/>
+
+        <div className="mt-16 grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-10 col-span-12 ">
             <h1 className="leading-tight text-[26px] xl:text-[45px] 4xl:text-[60px] 4xl:pr-10 xl:pr-24">
               Empowering Global Retailers with AI-Driven, Omnichannel Solutions
@@ -299,9 +303,9 @@ export default function page() {
                 ))}
               </ul>
               <div className="xl:hidden block mt-[5px] ">
-              <LearnMore bgcolor="#006FBE"/>
+                <LearnMore bgcolor="#006FBE" />
               </div>
-             
+
             </div>
           </div>
         </div>

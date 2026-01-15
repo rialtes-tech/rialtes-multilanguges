@@ -5,6 +5,8 @@ import Image from "next/image";
 import ContactForm from "../components/contactform";
 import Seo from "../components/Seo";
 import Script from "next/script";
+import BreadCrumbs from '@/app/components/BreadCrumbs'
+
 export default function Industry() {
   const schemaData = {
     "@context": "https://schema.org",
@@ -300,8 +302,10 @@ export default function Industry() {
           </div>
         </div>
       </section>
-      <section className="custom-container lg:mt-[111px] mt-[45px]">
-        <div className="grid lg:grid-cols-12 grid-cols-1  gap-y-[20px]">
+      <section className="custom-container mt-5">
+        <BreadCrumbs currPage="Industry" />
+
+        <div className="grid lg:grid-cols-12 grid-cols-1  gap-y-[20px] lg:mt-[111px] mt-[45px]">
           <div className="2xl:col-span-6 xl:col-span-7 col-span-12">
             <h1 className="text-[#000000] xl:text-[60px] text-[26px] leading-tight">
               Different Industries, Different Mindsets

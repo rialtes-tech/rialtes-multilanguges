@@ -10,7 +10,7 @@ export default function page({ url }) {
     const [isLastSlide, setIsLastSlide] = useState(false);
     const latestBlogs = [
         {
-            "id": 75,
+            "id": 73,
             "image": "/images/blog/digital-connectivity-bridge-network-integration-thumb.webp",
             "category": "SAP Ariba",
             "industry": "Generic",
@@ -20,7 +20,6 @@ export default function page({ url }) {
             "alt": "Digital bridge with network connections linking smartphone to cloud representing SAP Ariba procurement integration system",
             "description": "Procurement has undergone more significant changes in the last five years than it did in the previous twenty. "
         },
-      
         {
             "id": 72,
             "image": "/images/blog/data-analysis-business-strategy-thumbnail.webp",
@@ -76,7 +75,7 @@ export default function page({ url }) {
             "alt": "Business leader on a path symbolizing enterprise growth and digital transformation",
             "description": "ERP modernization has been on boardroom agendas for years, yet success stories are still far fewer than expected. Leaders know transformation is necessary, but the path often turns bumpy."
         },
-          {
+        {
             "id": 71,
             "image": "/images/blog/from-project-partner/thumb.webp",
             "category": "SAP Consulting",

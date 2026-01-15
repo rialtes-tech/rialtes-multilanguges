@@ -7,6 +7,7 @@ import Seo from "@/app/components/Seo";
 import Image from "next/image";
 import UnorderedList from "@/app/components/unorderedList";
 import LearnMore from "@/app/components/learnMore";
+import BreadCrumbs from '../../../components/BreadCrumbs'
 import Script from "next/script";
 const schemaData = {
   "@context": "https://schema.org",
@@ -230,8 +231,9 @@ const page = () => (
       </div> */}
     </section>
     {/* page description */}
-    <div className="lg:py-28 py-14 custom-container">
-      <div className=" flex items-start lg:gap-[100px] gap-[20px] max-md:flex-col">
+    <div className="custom-container">
+      <BreadCrumbs currPage="MuleSoft" />
+      <div className="lg:py-24 py-12 flex items-start lg:gap-[100px] gap-[20px] max-md:flex-col">
         <h2 className="w-full md:max-w-[50%] 2xl:w-[40%] 4xl:w-[50%] max-w-full leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
           Leading Platform to Unlock an Integrated View of Your Business
         </h2>
@@ -314,7 +316,7 @@ const page = () => (
     <div className="custom-container py-20 bg-[#F5F5F5] xl:pr-0">
       <FeaturedCarousel />
     </div>
-   <div className="mt-[120px] py-10 bg-[#808080]">
+    <div className="mt-[120px] py-10 bg-[#808080]">
       <div className="custom-container">
         <ExploreMoreCarousel />
       </div>

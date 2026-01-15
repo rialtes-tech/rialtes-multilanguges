@@ -7,6 +7,8 @@ import CaseStudyIndivisual from '../../components/caseStudyIndivisual';
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
+import BreadCrumbs from '@/app/components/BreadCrumbs'
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -311,6 +313,8 @@ export default function Page() {
       </section>
       {/* page description */}
       <section className="custom-container">
+        <BreadCrumbs currPage="Real Estate" />
+
         <div className="py-10 bg-white">
           <div>
             <div className="flex flex-col xl:flex-row py-6 xl:gap-10">
