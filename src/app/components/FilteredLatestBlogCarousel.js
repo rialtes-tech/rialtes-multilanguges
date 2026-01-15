@@ -10,7 +10,18 @@ export default function page({ url }) {
     const [isLastSlide, setIsLastSlide] = useState(false);
     const latestBlogs = [
         {
-            "id": 75,
+            "id": 74,
+            "image": "/images/blog/automated-warehouse-conveyor-system-logistics-thumbnail.webp",
+            "category": "Kinaxis RapidResponse",
+            "industry": "Generic",
+            "date": "Jan. 13, 2026",
+            "url": "/kinaxis-rapidresponse-demandplus-real-time-supply-chain/",
+            "title": "Building a Real-Time, Resilient Supply Chain with Rialtes Demand+",
+            "alt": "Automated warehouse with colorful light trails showing high-speed conveyor systems and efficient inventory movement in motion",
+            "description": "Supply chains don’t break anymore. They bend, snap back, and get tested again almost immediately. Demand spikes without warning. Suppliers miss commitments."
+        }, 
+        {
+            "id": 73,
             "image": "/images/blog/digital-connectivity-bridge-network-integration-thumb.webp",
             "category": "SAP Ariba",
             "industry": "Generic",
@@ -20,7 +31,6 @@ export default function page({ url }) {
             "alt": "Digital bridge with network connections linking smartphone to cloud representing SAP Ariba procurement integration system",
             "description": "Procurement has undergone more significant changes in the last five years than it did in the previous twenty. "
         },
-      
         {
             "id": 72,
             "image": "/images/blog/data-analysis-business-strategy-thumbnail.webp",
