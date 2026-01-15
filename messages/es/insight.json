@@ -227,20 +227,10 @@
       }
     ],
     "latestBlogs": [
-      {
-        "id": 75,
-        "image": "/images/blog/fragmented-customer-journeys-feature-thumb.webp",
-        "category": "Salesforce Marketing Cloud",
-        "industry": "Genérico",
-        "date": "Jan. 08, 2026",
-        "url": "/fragmented-customer-journeys-salesforce-marketing-cloud/",
-        "title": "¿Qué son los recorridos fragmentados del cliente y por qué son importantes?",
-        "alt": "Mosaicos hexagonales con íconos humanos sobre un fondo azul que representan recorridos fragmentados del cliente",
-        "description": "El marketing personalizado ha sido la promesa durante más de una década. Sin embargo, a pesar de mejores herramientas, más datos y plataformas más inteligentes, la interacción con los clientes sigue sin cumplir las expectativas."
-      },
+   
      
       {
-        "id": 72,
+        "id": 74,
         "image": "/images/blog/data-analysis-business-strategy-thumbnail.webp",
         "category": "Consultoría SAP",
         "industry": "Genérico",
@@ -250,8 +240,19 @@
         "alt": "Equipo revisando datos empresariales y métricas de rendimiento en un panel de análisis digital",
         "description": "Los programas SAP empresariales no fracasan porque la tecnología no esté disponible; fracasan cuando la gobernanza se debilita, cuando la responsabilidad se diluye y cuando las decisiones carecen de rendición de cuentas. Los grandes programas de transformación implican hojas de ruta de varios años, impacto multifuncional y un nivel de complejidad en el que las suposiciones se convierten rápidamente en riesgos."
       },
+         {
+        "id": 73,
+        "image": "/images/blog/fragmented-customer-journeys-feature-thumb.webp",
+        "category": "Salesforce Marketing Cloud",
+        "industry": "Genérico",
+        "date": "Jan. 08, 2026",
+        "url": "/fragmented-customer-journeys-salesforce-marketing-cloud/",
+        "title": "¿Qué son los recorridos fragmentados del cliente y por qué son importantes?",
+        "alt": "Mosaicos hexagonales con íconos humanos sobre un fondo azul que representan recorridos fragmentados del cliente",
+        "description": "El marketing personalizado ha sido la promesa durante más de una década. Sin embargo, a pesar de mejores herramientas, más datos y plataformas más inteligentes, la interacción con los clientes sigue sin cumplir las expectativas."
+      },
       {
-        "id": 71,
+        "id": 72,
         "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
         "category": "Salesforce Life Sciences Cloud",
         "industry": "Ciencias de la vida",
@@ -262,7 +263,7 @@
         "description": "Durante años, la mayoría de las organizaciones de ciencias de la vida trataron el CRM como una herramienta de habilitación de ventas: un lugar para realizar el seguimiento de cuentas, programar visitas, gestionar muestras y registrar puntos de contacto."
       },
       {
-        "id": 70,
+        "id": 71,
         "image": "/images/blog/voygernext/voyager-thumb.webp",
         "category": "Grow con SAP",
         "industry": "Genérico",
@@ -273,7 +274,7 @@
         "description": "Según McKinsey, más del 70 % de las organizaciones ya han experimentado con GenAI, y una de cada tres espera que la IA transforme las operaciones centrales en los próximos tres años."
       },
       {
-        "id": 69,
+        "id": 70,
         "image": "/images/blog/enterprise-growth-strategy-thumbnail.webp",
         "category": "Rise with SAP",
         "industry": "Generic",
@@ -284,7 +285,7 @@
         "description": "La modernización del ERP ha estado en la agenda de los consejos directivos durante años, pero los casos de éxito siguen siendo mucho menos frecuentes de lo esperado. Los líderes saben que la transformación es necesaria, pero el camino suele volverse accidentado."
       },
        {
-        "id": 72,
+        "id": 69,
         "image": "/images/blog/from-project-partner/thumb.webp",
         "category": "Consultoría SAP",
         "industry": "Ciencias de la Vida",

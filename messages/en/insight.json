@@ -299,7 +299,7 @@
     "latestBlogs": [
     
       {
-        "id": 72,
+        "id": 73,
         "image": "/images/blog/data-analysis-business-strategy-thumbnail.webp",
         "category": "SAP Consulting",
         "industry": "Generic",
@@ -310,7 +310,7 @@
         "description": "Enterprise SAP programs don’t fail because technology isn’t available; they fail when governance breaks down, when ownership blurs, and when decisions lack accountability. Large transformation programs involve multi-year roadmaps, cross-functional impact, and the kind of complexity where assumptions compound into risk quickly."
       },
       {
-        "id": 75,
+        "id": 72,
         "image": "/images/blog/fragmented-customer-journeys-feature-thumb.webp",
         "category": "Salesforce Marketing Cloud",
         "industry": "Generic",
@@ -321,7 +321,7 @@
         "description": "Personalized marketing has been the promise for over a decade. Yet despite better tools, more data, and smarter platforms, customer engagement continues to fall short. "
       },
       {
-        "id": 70,
+        "id": 71,
         "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
         "category": "Salesforce Life Sciences Cloud",
         "industry": " Life Sciences",
@@ -332,7 +332,7 @@
         "description": "For years, most life sciences organizations treated CRM as a sales enablement tool — a place to track accounts, schedule visits, manage samples, and record touchpoints. "
       },
       {
-        "id": 69,
+        "id": 70,
         "image": "/images/blog/voygernext/voyager-thumb.webp",
         "category": "Grow with SAP",
         "industry": "Generic",
@@ -343,7 +343,7 @@
         "description": "According to McKinsey, more than 70 percent of organizations have already experimented with GenAI, and one in three expects AI to reshape core operations within the next three years."
       },
       {
-        "id": 68,
+        "id": 69,
         "image": "/images/blog/enterprise-growth-strategy-thumbnail.webp",
         "category": "Rise with SAP",
         "industry": "Generic",
@@ -354,7 +354,7 @@
         "description": "ERP modernization has been on boardroom agendas for years, yet success stories are still far fewer than expected. Leaders know transformation is necessary, but the path often turns bumpy."
       },
       {
-         "id": 71,
+         "id": 68,
         "image": "/images/blog/from-project-partner/thumb.webp",
         "category": "SAP Consulting",
         "industry": " Life Sciences",
