@@ -18,16 +18,16 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 export default function Page() {
     const fullUrl = "https://www.rialtes.com/insights/blogs/sapbuyplus-sap-ariba-connected-procurement";
     const currUrl = useUrl()
-       const t = useTranslations("sapAriba");
-       const locale = useLocale();
-       const blogsContent = changeLocalization(locale, {/*  */
-           en: enContent,
-           es: esContent,
-           fr: frContent,
-       });
-       const { mainData,procurementData,sapbuyplusData,supplierCollaboration,aribaNetwork,automationIntelligence,traditionalAriba,businessOutcomes,sapbuyplus,sapAribaTransformation,faqData,schemaData } = blogsContent.sapAriba 
-   
-   
+    const t = useTranslations("sapAriba");
+    const locale = useLocale();
+    const blogsContent = changeLocalization(locale, {/*  */
+        en: enContent,
+        es: esContent,
+        fr: frContent,
+    });
+    const { mainData, procurementData, sapbuyplusData, supplierCollaboration, aribaNetwork, automationIntelligence, traditionalAriba, businessOutcomes, sapbuyplus, sapAribaTransformation, faqData, schemaData } = blogsContent.sapAriba
+
+
     const ChevronRight = () => (
         <svg
             viewBox="0 0 24 24"
@@ -65,7 +65,7 @@ export default function Page() {
                 <div className="xl:block hidden">
                     <Image
                         src="/images/blog/digital-connectivity-bridge-network-integration.webp"
-                         alt={t("bannerAlt")}
+                        alt={t("bannerAlt")}
                         fill
                         priority
                     />
@@ -136,7 +136,7 @@ export default function Page() {
 
                                             />
                                             <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.descc}</p>
-                                             <p className="mt-8 4xl:text-[20px] font-bold 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc3}</p>
+                                            <p className="mt-8 4xl:text-[20px] font-bold 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc3}</p>
 
                                             <div className="w-full h-full my-5 xl:mt-8 md:mt-6">
                                                 <Image
@@ -241,7 +241,7 @@ export default function Page() {
                                                 className="mt-5  4xl:text-[24px] font-bold 2xl:text-[21px] xl:text-[20px] md:text-[20px] text-[20px]"
                                                 dangerouslySetInnerHTML={{ __html: data.desc2 }}
                                             />
-                                             <p
+                                            <p
                                                 className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                                                 dangerouslySetInnerHTML={{ __html: data.desc6 }}
                                             />
@@ -259,12 +259,12 @@ export default function Page() {
 
                                                 <div className={`border border-b-0 border-black mt-[-25px] xl:px-6 px-2 xl:py-6  py-6 flex flex-wrap items-center gap-4 4xl:text-[22px] 2xl:text-[20px] xl:text-[20px] md:text-[18px]  font-medium
                                                  ${locale === "es"
-                                                    ? "4xl:w-[540px] 2xl:w-[490px] xl:w-[510px] w-[320px] max-[400px]:w-[260px] md:w-[420px]"
-                                                    : locale === "fr"
-                                                        ? "4xl:w-[590px] 2xl:w-[520px] xl:w-[510px] w-[320px] max-[400px]:w-[260px] md:w-[420px]"
-                                                        : "4xl:w-[540px] 2xl:w-[490px] xl:w-[470px] w-[320px] max-[400px]:w-[260px] md:w-[420px] "
-                                                }`
-                                                    
+                                                        ? "4xl:w-[540px] 2xl:w-[490px] xl:w-[510px] w-[320px] max-[400px]:w-[260px] md:w-[420px]"
+                                                        : locale === "fr"
+                                                            ? "4xl:w-[590px] 2xl:w-[520px] xl:w-[510px] w-[320px] max-[400px]:w-[260px] md:w-[420px]"
+                                                            : "4xl:w-[540px] 2xl:w-[490px] xl:w-[470px] w-[320px] max-[400px]:w-[260px] md:w-[420px] "
+                                                    }`
+
                                                 }>
 
                                                     {data.model.steps.map((step, index) => (
@@ -285,11 +285,11 @@ export default function Page() {
                                                 <div className={`inline-block bg-[#006FBE] text-white px-6 py-3 font-semibold
                                              4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] md:text-[16px] text-[16px]
                                               ${locale === "es"
-                                                    ? " w-[340px] max-[400px]:w-[290px] md:w-[500px] 4xl:w-[760px] 2xl:w-[690px] xl:w-[620px]"
-                                                    : locale === "fr"
-                                                        ? " w-[340px] max-[400px]:w-[290px] md:w-[500px] 4xl:w-[670px] 2xl:w-[620px] xl:w-[570px]"
-                                                        : " w-[340px] max-[400px]:w-[290px] md:w-[500px] 4xl:w-[680px] 2xl:w-[620px] xl:w-[570px]"
-                                                }`}>
+                                                        ? " w-[340px] max-[400px]:w-[290px] md:w-[500px] 4xl:w-[760px] 2xl:w-[690px] xl:w-[620px]"
+                                                        : locale === "fr"
+                                                            ? " w-[340px] max-[400px]:w-[290px] md:w-[500px] 4xl:w-[670px] 2xl:w-[620px] xl:w-[570px]"
+                                                            : " w-[340px] max-[400px]:w-[290px] md:w-[500px] 4xl:w-[680px] 2xl:w-[620px] xl:w-[570px]"
+                                                    }`}>
                                                     {data.model.label}
                                                 </div>
                                             </div>
@@ -329,39 +329,48 @@ export default function Page() {
 
 
                                             <div className="mt-[30px]">
-                                                <div className="flex items-start justify-between">
+                                                <div className="flex flex-col md:flex-row md:items-start md:justify-between">
 
                                                     {data.model.steps.map((step, index) => (
-                                                        <div key={index} className="flex flex-col items-start flex-1">
-
-                                                           
-                                                            <div className="flex items-center w-full">
+                                                        <div
+                                                            key={index}
+                                                            className="flex md:flex-col flex-row items-start md:items-start flex-1"
+                                                        >
 
                                                          
-                                                                <div className="bg-[#006FBE] xl:p-[6px] p-[2px] rounded-full flex items-center justify-center z-10">
-                                                                    <span className="text-white flex items-center">
+                                                            <div className="flex md:flex-row flex-col items-center md:w-full w-[40px] ">
+
+                                                             <div className="bg-[#006FBE] xl:p-[6px] p-[4px] rounded-full flex items-center justify-center z-10">
+                                                                    <span className="text-white flex items-center  transform rotate-90 md:rotate-0">
                                                                         <ChevronRight />
                                                                     </span>
                                                                 </div>
 
-
+                                                         
                                                                 {index !== data.model.steps.length - 1 && (
-                                                                    <div className="flex-1 h-[2px] bg-black"></div>
+                                                                    <>
+                                                                       
+                                                                        <div className="hidden md:block flex-1 h-[2px] bg-black"></div>
+
+                                                                      
+                                                                        <div className="block md:hidden w-[2px] h-[26px] bg-black"></div>
+                                                                    </>
                                                                 )}
                                                             </div>
-                                                   <span className="mt-4 font-bold justify-start   4xl:text-[24px] 
-                                                   2xl:text-[20px]  xl:text-[18px]  md:text-[18px] max-[400px]:text-[8px] text-[10px] px-1">
+
+                                                      
+                                                            <span
+                                                                className="md:mt-4 mt-1 ml-4 md:ml-0 font-bold 4xl:text-[24px]  2xl:text-[20px]  xl:text-[18px]    md:text-[18px]   text-[16px]"
+                                                            >
                                                                 {step}
                                                             </span>
 
-
-
                                                         </div>
-
-
                                                     ))}
+
                                                 </div>
                                             </div>
+
 
 
 
