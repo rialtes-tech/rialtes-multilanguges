@@ -66,28 +66,8 @@ const allCategories = [
 ];
 
 const latestBlogs = [
-  {
-    "id": 73,
-    "image": "/images/blog/from-project-partner/thumb.webp",
-    "category": "SAP Consulting",
-    "industry": " Life Sciences",
-    "date": "Jan. 02, 2026",
-    "url": "/from-project-partner-to-strategic-sap-consulting-ally/",
-    "title": "From Project Partner to Strategic Ally: Scaling SAP Consulting Engagements",
-    "alt": "Doctor analyzing patient diagnostics on multiple screens displaying brain scans, skeletal images, and real-time vital signs",
-    "description": "Enterprise SAP programs rarely end with one deployment. Once the core landscape is live, the real journey begins: expansion across business units. "
-  },
-  {
-    "id": 70,
-    "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
-    "category": "Salesforce Life Sciences Cloud",
-    "industry": " Life Sciences",
-    "date": "Jan. 07, 2026",
-    "url": "/crm-as-growth-engine-life-sciences/",
-    "title": "Life Sciences CRM: Why Sales-Only Systems No Longer Work in Modern Healthcare",
-    "alt": "Doctor analyzing patient diagnostics on multiple screens displaying brain scans, skeletal images, and real-time vital signs",
-    "description": "For years, most life sciences organizations treated CRM as a sales enablement tool — a place to track accounts, schedule visits, manage samples, and record touchpoints. "
-  },
+ 
+  
   {
     "id": 72,
     "image": "/images/blog/data-analysis-business-strategy-thumbnail.webp",
@@ -110,7 +90,17 @@ const latestBlogs = [
     "alt": "Hexagonal tiles with human icons on a blue background representing fragmented customer journeys",
     "description": "Personalized marketing has been the promise for over a decade. Yet despite better tools, more data, and smarter platforms, customer engagement continues to fall short. "
   },
- 
+ {
+    "id": 70,
+    "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
+    "category": "Salesforce Life Sciences Cloud",
+    "industry": " Life Sciences",
+    "date": "Jan. 07, 2026",
+    "url": "/crm-as-growth-engine-life-sciences/",
+    "title": "Life Sciences CRM: Why Sales-Only Systems No Longer Work in Modern Healthcare",
+    "alt": "Doctor analyzing patient diagnostics on multiple screens displaying brain scans, skeletal images, and real-time vital signs",
+    "description": "For years, most life sciences organizations treated CRM as a sales enablement tool — a place to track accounts, schedule visits, manage samples, and record touchpoints. "
+  },
   {
     "id": 69,
     "image": "/images/blog/voygernext/voyager-thumb.webp",
@@ -132,6 +122,17 @@ const latestBlogs = [
     "title": "Why ERP Transformation Challenges Are Forcing Enterprises to Rethink Their Strategy",
     "alt": "Business leader on a path symbolizing enterprise growth and digital transformation",
     "description": "ERP modernization has been on boardroom agendas for years, yet success stories are still far fewer than expected. Leaders know transformation is necessary, but the path often turns bumpy."
+  },
+   {
+    "id": 73,
+    "image": "/images/blog/from-project-partner/thumb.webp",
+    "category": "SAP Consulting",
+    "industry": " Life Sciences",
+    "date": "Jan. 02, 2026",
+    "url": "/from-project-partner-to-strategic-sap-consulting-ally/",
+    "title": "From Project Partner to Strategic Ally: Scaling SAP Consulting Engagements",
+    "alt": "Doctor analyzing patient diagnostics on multiple screens displaying brain scans, skeletal images, and real-time vital signs",
+    "description": "Enterprise SAP programs rarely end with one deployment. Once the core landscape is live, the real journey begins: expansion across business units. "
   },
   {
     "id": 67,
