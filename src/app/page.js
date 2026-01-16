@@ -40,6 +40,14 @@ const carouselData = [
         link: '/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide'
     },
     {
+        title: "Case Studies",
+        description:
+            "Transforming O2C and P2P Processes with SAP ERP Cloud Solutions",
+        image: "/images/homepage/prp-processes.webp",
+        link: '/insights/case-studies/sap-erp-cloud-solutions-automotive-case-study'
+    },
+
+    {
         title: "Blogs",
         description:
             "AI in Patient Engagement: How AI Agents Support MedTech in Remote Monitoring",
@@ -47,11 +55,25 @@ const carouselData = [
         link: '/insights/blogs/ai-patient-engagement-medtech-remote-care'
     },
     {
+        title: "Case Studies",
+        description:
+            "Transforming Student Success with Salesforce Education Cloud and Edu+",
+        image: "/images/homepage/transforming-student.webp",
+        link: '/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus'
+    },
+    {
         title: "Blogs",
         description:
             "How to Build and Deploy Your First AI Agent with Agentforce (Step-by-Step Guide)",
         image: "/images/homepage/insights3.webp",
         link: '/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce'
+    },
+    {
+        title: "Case Studies",
+        description:
+            "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
+        image: "/images/homepage/leading-automotive.webp",
+        link: '/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense'
     },
     {
         title: "Blogs",
@@ -74,27 +96,9 @@ const carouselData = [
         image: "/images/homepage/insights6.webp",
         link: '/insights/blogs/salesforce-integration-partners-for-enterprises-to-scale'
     },
-    {
-        title: "Case Studies",
-        description:
-            "Transforming O2C and P2P Processes with SAP ERP Cloud Solutions",
-        image: "/images/homepage/prp-processes.webp",
-        link: '/insights/case-studies/sap-erp-cloud-solutions-automotive-case-study'
-    },
-    {
-        title: "Case Studies",
-        description:
-            "Transforming Student Success with Salesforce Education Cloud and Edu+",
-        image: "/images/homepage/transforming-student.webp",
-        link: '/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus'
-    },
-    {
-        title: "Case Studies",
-        description:
-            "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
-        image: "/images/homepage/leading-automotive.webp",
-        link: '/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense'
-    },
+
+
+
 ];
 const successStoryData = [
     {
