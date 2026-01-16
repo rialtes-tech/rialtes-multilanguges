@@ -11,8 +11,7 @@ import UnorderedList from "@/app/components/unorderedList";
 import { AiFillCaretRight } from "react-icons/ai";
 import { AiOutlineCaretDown } from "react-icons/ai";
 export default function Page() {
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/crm-as-growth-engine-life-sciences";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/crm-as-growth-engine-life-sciences";
   const currUrl = useUrl();
 
   const schemaData = {
@@ -22,7 +21,7 @@ export default function Page() {
     description:
       "CRM in life sciences is no longer just a sales tool—it now drives patient engagement, compliance, and measurable business growth.",
     image:
-      "https://www.rialtes.com//images/blog/medical-diagnostic-imaging-analysis-multiple-screens.webp",
+      "https://www.rialtes.com/images/blog/medical-diagnostic-imaging-analysis-multiple-screens.webp",
     author: {
       "@type": "Organization",
       name: "Rialtes",
