@@ -248,6 +248,8 @@
       "SAP SuccessFactors",
       "Managed Services",
       "Salesforce Automotive Cloud",
+       "Salesforce Life Sciences Cloud",
+       "Kinaxis RapidResponse",
       "Others"
     ],
     "slides": [
@@ -297,6 +299,17 @@
       }
     ],
     "latestBlogs": [
+      {
+            "id": 74,
+            "image": "/images/blog/automated-warehouse-conveyor-system-logistics-thumbnail.webp",
+            "category": "Kinaxis RapidResponse",
+            "industry": "Generic",
+            "date": "Jan. 13, 2026",
+            "url": "/kinaxis-rapidresponse-demandplus-real-time-supply-chain/",
+            "title": "Building a Real-Time, Resilient Supply Chain with Rialtes Demand+",
+            "alt": "Automated warehouse with colorful light trails showing high-speed conveyor systems and efficient inventory movement in motion",
+            "description": "Supply chains don’t break anymore. They bend, snap back, and get tested again almost immediately. Demand spikes without warning. Suppliers miss commitments."
+        }, 
     
       {
         "id": 72,

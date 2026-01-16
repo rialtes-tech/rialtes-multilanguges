@@ -178,6 +178,8 @@
       "Salesforce Automotive Cloud",
       "Rise with SAP",
       "Grow with SAP",
+       "Salesforce Life Sciences Cloud",
+       "Kinaxis RapidResponse",
       "Otros"
     ],
     "slides": [
@@ -227,6 +229,17 @@
       }
     ],
     "latestBlogs": [
+      {
+            "id": 74,
+            "image": "/images/blog/automated-warehouse-conveyor-system-logistics-thumbnail.webp",
+            "category": "Kinaxis RapidResponse",
+            "industry": "Generic",
+            "date": "Jan. 13, 2026",
+            "url": "/kinaxis-rapidresponse-demandplus-real-time-supply-chain/",
+            "title": "Construyendo una cadena de suministro resiliente y en tiempo real con Rialtes Demand+",
+            "alt": "Almacén automatizado con estelas de luz coloridas mostrando sistemas de transporte rápido y movimiento eficiente de inventario",
+           "description": "Las cadenas de suministro ya no se rompen. Se doblan, se recuperan y se vuelven a poner a prueba casi de inmediato. La demanda aumenta sin previo aviso. Los proveedores incumplen compromisos."
+        }, 
       {
         "id": 75,
         "image": "/images/blog/fragmented-customer-journeys-feature-thumb.webp",
