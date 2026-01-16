@@ -11537,5 +11537,242 @@
         "tableTitle2": "Confianza empresarial",
         "tableTitle3": "Acceso y rol",
         "faqTitle": "FAQs: Gobernanza y responsabilidad en la consultoría SAP"
+    },
+    "kinaxisBlog":{
+        "schemaData": {},
+         "blogCategory": "Kinaxis RapidResponse",
+  "bannerTitle": "Construyendo una cadena de suministro resiliente y en tiempo real con Rialtes Demand+",
+  "oldPlan": "Planificación tradicional vs planificación en tiempo real",
+  "old": "Antiguo",
+  "realTitle": "Tiempo real",
+  "batchTitle": "Ciclos por lotes",
+  "continue": "Toma de decisiones continua",
+  "data": "Datos aislados",
+  "eco": "Ecosistema conectado",
+  "reactive": "Gestión reactiva de crisis",
+  "pro": "Resiliencia proactiva",
+  "demandTitle": "El modelo de entrega Demand+",
+  "faqTitle": "Preguntas frecuentes: Transforme su cadena de suministro con Rialtes «Demand+»",
+  "bannerAlt":"Almacén automatizado con estelas de luz coloridas mostrando sistemas de transporte rápido y movimiento eficiente de inventario",
+  "blogMainData": [
+    "Las cadenas de suministro ya no se rompen. Se doblan, se recuperan y se vuelven a poner a prueba casi de inmediato. La demanda aumenta sin previo aviso. Los proveedores incumplen compromisos. Los costos de transporte cambian de la noche a la mañana. Y se espera que los equipos de planificación respondan en horas, no en semanas. Según una <a href='https://www.mckinsey.com/capabilities/operations/our-insights/boosting-supply-chain-resilience' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>encuesta de McKinsey sobre la cadena de suministro 2023</a>, el 73 % de los ejecutivos globales experimentaron interrupciones significativas en los últimos dos años, y casi la mitad afirma que sus sistemas de planificación actuales aún carecen de la agilidad para responder en tiempo real. Al mismo tiempo, Gartner informa que solo el 22 % de las organizaciones ha logrado una verdadera visibilidad integral de la cadena de suministro, lo que deja a la mayoría de los líderes tomando decisiones de alto impacto con información parcial. <br /> Fuente:",
+    "Esa es la brecha peligrosa de hoy: lo que sucede en el terreno frente a lo que ven los líderes. Y por eso la resiliencia ya no se basa en hojas de cálculo más rápidas o ciclos por lotes más ajustados. Se basa en una planificación concurrente y en tiempo real que conecta la demanda, el suministro, el inventario y la capacidad en un único modelo vivo."
+  ],
+
+  "whyData": [
+    {
+      "title": "Por qué la planificación tradicional de la cadena de suministro ya no puede seguir el ritmo",
+      "desc": "La mayoría de los entornos de planificación fueron diseñados para la estabilidad. Ciclos mensuales de S&OP. Revisiones semanales de la demanda. Procesos por lotes durante la noche. Eso funcionaba cuando la disrupción era la excepción.",
+      "desc1": "Ahora, la disrupción es la norma.",
+      "desc2": "Desafíos comunes que vemos en las empresas:",
+      "list": [
+        "Planes de demanda desalineados con las realidades del suministro",
+        "Colchones de inventario que ocultan problemas más profundos",
+        "Visibilidad retrasada de las restricciones de los proveedores",
+        "Planificación manual de escenarios que lleva días",
+        "Equipos que reaccionan en lugar de anticiparse"
+      ],
+      "desc3": "El problema no es la falta de esfuerzo, sino la falta de concurrencia."
+    }
+  ],
+
+  "realData": [
+    {
+      "title": "Qué significa realmente la planificación resiliente en tiempo real",
+      "desc": "La resiliencia no significa evitar la disrupción. Significa absorber los impactos y adaptarse más rápido de lo que se propagan.",
+      "desc1": "En una cadena de suministro moderna, esto requiere que tres capacidades trabajen juntas:",
+      "list": [
+        {
+          "title": "Visibilidad en tiempo real",
+          "desc": "en demanda, suministro, inventario y capacidad"
+        },
+        {
+          "title": "Planificación concurrente",
+          "desc": "para que cada cambio se propague instantáneamente a través de la red"
+        },
+        {
+          "title": "Simulación rápida de escenarios",
+          "desc": "para probar respuestas antes de ejecutarlas"
+        }
+      ],
+      "desc2": "Esta es la base de Kinaxis RapidResponse y el núcleo de DemandPlus."
+    }
+  ],
+  "planData": [
+    {
+      "title": "El poder de la planificación concurrente con Kinaxis RapidResponse",
+      "desc": "A diferencia de las herramientas de planificación tradicionales que ejecutan procesos secuenciales, Kinaxis RapidResponse opera sobre un único modelo de datos en memoria.",
+      "desc1": "Eso significa:",
+      "list": [
+        "Un cambio en la demanda actualiza el suministro al instante",
+        "Un retraso de un proveedor recalcula los planes de producción en segundos",
+        "Una restricción de capacidad redefine automáticamente las prioridades de cumplimiento",
+        "Un nuevo escenario de pronóstico muestra el impacto en ingresos, niveles de servicio y margen"
+      ],
+      "desc2": "Los equipos de planificación dejan de esperar informes. Empiezan a trabajar con la verdad en tiempo real.",
+      "desc3": "Así es como las organizaciones pasan de reaccionar tarde a actuar temprano.",
+      "desc4": "Planificación concurrente en acción",
+      "steps": [
+        { "text": "Cambio en la demanda", "bg": "#E3F8FF" },
+        { "text": "El suministro se recalcula", "bg": "#FAF1D2" },
+        { "text": "El inventario se ajusta", "bg": "#E3F8FF" },
+        { "text": "Impacto financiero visible", "bg": "#FAF1D2" },
+        { "text": "Todo en tiempo real", "bg": "#E3F8FF" }
+      ]
+    }
+  ],
+
+  "visibilityData": [
+    {
+      "title": "Por qué la resiliencia comienza con la visibilidad",
+      "desc": "No puedes arreglar lo que no puedes ver. La mayoría de las disrupciones se agravan porque las señales están ocultas en sistemas que no se comunican entre sí. Para cuando la dirección lo nota, el costo ya está asegurado.",
+      "desc1": "DemandPlus conecta:",
+      "list": [
+        "Planificación de la demanda",
+        "Planificación del suministro",
+        "Optimización de inventarios",
+        "Gestión de capacidad",
+        "S&OP e IBP",
+        "Modelado del impacto financiero"
+      ],
+      "desc2": "En un único entorno sincronizado.",
+      "desc3": "Los líderes obtienen respuestas instantáneas a preguntas como:",
+      "listTwo": [
+        "¿Qué sucede si este proveedor no cumple con un envío?",
+        "¿Podemos reasignar inventario sin afectar los niveles de servicio?",
+        "¿Qué clientes deberíamos priorizar si el suministro se reduce?",
+        "¿Cómo afecta esta decisión al margen del próximo trimestre?"
+      ],
+      "desc4": "Esta es una resiliencia basada en la claridad, no en suposiciones."
+    }
+  ],
+   "DemandData": [
+    {
+      "title": "Presentamos Rialtes Demand+: Planificación en tiempo real en acción",
+      "desc": "Rialtes DemandPlus es nuestro conjunto de servicios de extremo a extremo, construido alrededor de <a href='https://www.rialtes.com/es/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Kinaxis RapidResponse</a>, para ayudar a las organizaciones a lograr cadenas de suministro conectadas, inteligentes y resilientes.",
+      "desc1": "Como socio certificado de Kinaxis y SAP con oficinas en Estados Unidos, Canadá, India y Singapur, y un equipo de expertos altamente certificados en Kinaxis, ayudamos a las empresas a convertir RapidResponse en una ventaja estratégica, no solo en otra herramienta.",
+      "desc2": "Demand+ no se trata solo de implementar software. Se trata de cambiar la forma en que se toman las decisiones de planificación."
+    }
+  ],
+
+  "DemandplusData": [
+    {
+      "title": "Lo que ofrece Demand+",
+      "desc": "Nuestro marco Demand+ reúne estrategia, tecnología y ejecución en un único modelo de transformación cohesivo.",
+      "list": [
+        {
+          "title": "Asesoría de licencias Kinaxis y evaluación de valor",
+          "desc": "Ayudamos a las organizaciones a definir el alcance, la hoja de ruta y el ROI correctos antes de que comience la implementación."
+        },
+        {
+          "title": "Arquitectura y diseño de soluciones",
+          "desc": "Los modelos de planificación se construyen en torno a tus restricciones reales de negocio, no a plantillas genéricas."
+        },
+        {
+          "title": "Implementación rápida y configuración de procesos",
+          "desc": "Despliegue acelerado con flujos de trabajo de mejores prácticas para demanda, suministro, inventario y S&OP."
+        },
+        {
+          "title": "Aseguramiento de calidad, pruebas y capacitación de usuarios",
+          "desc": "Garantizando que los planificadores confíen en el sistema, porque la adopción lo es todo."
+        },
+        {
+          "title": "Integración con SAP S/4HANA, Oracle EBS y sistemas no SAP",
+          "desc": "DemandPlus conecta RapidResponse con tu ERP y tu ecosistema para que los datos fluyan sin fricción."
+        },
+        {
+          "title": "Soporte posterior a la puesta en marcha y optimización continua",
+          "desc": "La resiliencia mejora con el tiempo. Seguimos involucrados para evolucionar los procesos, no solo mantener los sistemas."
+        }
+      ],
+      "model": {
+        "label": "Modelo de transformación de marketing Advantage+",
+        "steps": ["Estrategia", "Construir", "Crear", "Probar", "Conectar", "Optimizar"]
+      },
+      "steps": [
+        "Evaluar",
+        "Diseñar",
+        "Implementar",
+        "Integrar",
+        "Habilitar",
+        "Optimizar"
+      ]
+    }
+  ],
+  "DeliversData": [
+    {
+      "title": "Cómo Demand+ permite una respuesta más rápida ante las disrupciones",
+      "desc": "Veamos escenarios del mundo real.",
+      "list": [
+        {
+          "title": "Escenario 1: Aumento repentino de la demanda",
+          "desc": "Una promoción genera pedidos inesperados. Con la planificación por lotes, los equipos reaccionan días después. Con RapidResponse, los cambios en la demanda activan recalculaciones instantáneas de suministro e inventario. Los planificadores reequilibran la producción y el cumplimiento el mismo día."
+        },
+        {
+          "title": "Escenario 2: Retraso de un proveedor",
+          "desc": "Un componente crítico se retrasa dos semanas. RapidResponse muestra inmediatamente el impacto posterior en los niveles de servicio, los ingresos y el margen. Los equipos simulan alternativas y se comprometen con la mejor opción antes de que la disrupción se propague."
+        },
+        {
+          "title": "Escenario 3: Restricción de capacidad",
+          "desc": "Una línea de fabricación se detiene. En lugar de hojas de cálculo manuales, los planificadores ven compensaciones en tiempo real entre plantas, SKU y clientes."
+        }
+      ]
+    }
+  ],
+
+  "benefitsData": [
+    {
+      "title": "Quiénes se benefician más de DemandPlus",
+      "desc": "<a href='https://www.rialtes.com/es/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>DemandPlus</a> es ideal para organizaciones que operan en entornos complejos y de rápido movimiento:",
+      "list": [
+        "Empresas de manufactura y distribución",
+        "Cadenas de suministro de ciencias de la vida y tecnología médica",
+        "Redes de bienes de consumo y retail",
+        "Empresas automotrices e industriales",
+        "Firmas de alta tecnología y electrónica"
+      ],
+      "desc1": "Si la volatilidad es parte de tu realidad, la planificación en tiempo real también debería serlo."
+    }
+  ],
+
+  "businessData": [
+    {
+      "title": "Resultados empresariales que importan a los líderes",
+      "desc": "Cuando la resiliencia en tiempo real se convierte en la norma, el impacto es tangible:",
+      "list": [
+        "Respuesta más rápida a cambios en la demanda y el suministro",
+        "Mayores niveles de servicio con menor inventario",
+        "Reducción de costos de urgencia y gestión de crisis",
+        "Mejor alineación entre planificación y finanzas",
+        "Mayor confianza en las decisiones de S&OP e IBP",
+        "Una cadena de suministro que se adapta en lugar de absorber pérdidas"
+      ],
+      "desc1": "Así es como la planificación pasa de ser un soporte operativo a una ventaja estratégica. Con Rialtes Demand+ y Kinaxis RapidResponse, la planificación en tiempo real se convierte en tu ventaja, transformando la incertidumbre en una ventaja competitiva."
+    }
+  ],
+
+  "faqData": [
+    {
+      "question": "¿Qué es Demand+ de Rialtes?",
+      "answer": "Demand+ es el marco de servicios integral de Rialtes construido alrededor de Kinaxis RapidResponse para permitir una planificación de la cadena de suministro en tiempo real, concurrente y resiliente."
+    },
+    {
+      "question": "¿Cómo apoya Kinaxis RapidResponse la planificación en tiempo real?",
+      "answer": "Utiliza un único modelo de datos en memoria que actualiza simultáneamente la demanda, el suministro, el inventario y la capacidad, lo que permite análisis instantáneos de escenarios y toma de decisiones."
+    },
+    {
+      "question": "¿Por qué es importante la planificación concurrente para la resiliencia?",
+      "answer": "Porque las disrupciones afectan a toda la cadena de suministro al mismo tiempo. La planificación secuencial retrasa la respuesta, mientras que la planificación concurrente permite una acción inmediata y coordinada."
+    },
+    {
+      "question": "¿DemandPlus se integra con SAP y Oracle?",
+      "answer": "Sí. DemandPlus integra Kinaxis RapidResponse con SAP S/4HANA, Oracle EBS y sistemas no SAP para un flujo de datos sin interrupciones."
+    },
+    {
+      "question": "¿Qué hace de Rialtes un socio sólido de Kinaxis?",
+      "answer": "Expertos certificados en Kinaxis, capacidad de entrega global y un marco Demand+ probado que se enfoca en resultados, no solo en la implementación."
+    }
+  ]
+
     }
 }
