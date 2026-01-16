@@ -11592,5 +11592,241 @@
         "tableTitle2": "Confiance des entreprises",
         "tableTitle3": "Accès et rôle",
         "faqTitle": "FAQ : Gouvernance et responsabilité en conseil SAP"
+    },
+    "kinaxisBlog":{
+        "schemaData": {},
+        "blogCategory": "Kinaxis RapidResponse",
+  "bannerTitle": "Construire une chaîne d'approvisionnement en temps réel et résiliente avec Rialtes Demand+",
+  "oldPlan": "Planification traditionnelle vs planification en temps réel",
+  "old": "Ancien",
+  "realTitle": "Temps réel",
+  "batchTitle": "Cycles par lots",
+  "continue": "Prise de décision continue",
+  "data": "Données cloisonnées",
+  "eco": "Écosystème connecté",
+  "reactive": "Gestion réactive des crises",
+  "pro": "Résilience proactive",
+  "demandTitle": "Le modèle de livraison Demand+",
+  "faqTitle": "FAQ : Transformez votre chaîne d'approvisionnement avec Rialtes « Demand+ »",
+  "bannerAlt":"Entrepôt automatisé avec traînées lumineuses colorées montrant systèmes convoyeurs rapides et mouvement inventaire efficace",
+    "blogMainData": [
+    "Les chaînes d’approvisionnement ne se cassent plus. Elles se plient, rebondissent et sont testées à nouveau presque immédiatement. La demande augmente sans avertissement. Les fournisseurs ne respectent pas leurs engagements. Les coûts de transport fluctuent du jour au lendemain. Et les équipes de planification sont censées réagir en quelques heures, pas en semaines. Selon une <a href='https://www.mckinsey.com/capabilities/operations/our-insights/boosting-supply-chain-resilience' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>enquête McKinsey 2023 sur la chaîne d'approvisionnement</a>, 73 % des dirigeants mondiaux ont connu des perturbations importantes au cours des deux dernières années, et près de la moitié déclarent que leurs systèmes de planification actuels manquent encore d’agilité pour répondre en temps réel. Dans le même temps, Gartner rapporte que seulement 22 % des organisations ont atteint une véritable visibilité de bout en bout de la chaîne d’approvisionnement, laissant la plupart des dirigeants prendre des décisions à fort impact avec des informations partielles. <br /> Source :",
+    "C’est l’écart dangereux d’aujourd’hui : ce qui se passe sur le terrain par rapport à ce que voient les dirigeants. Et c’est pourquoi la résilience ne repose plus sur des feuilles de calcul plus rapides ou des cycles par lots plus serrés. Elle repose sur une planification simultanée en temps réel qui connecte la demande, l’offre, les stocks et la capacité dans un seul modèle vivant."
+  ],
+
+  "whyData": [
+    {
+      "title": "Pourquoi la planification traditionnelle de la chaîne d’approvisionnement ne peut plus suivre",
+      "desc": "La plupart des environnements de planification ont été conçus pour la stabilité. Cycles S&OP mensuels. Revues hebdomadaires de la demande. Traitements par lots pendant la nuit. Cela fonctionnait lorsque les perturbations étaient l’exception.",
+      "desc1": "Aujourd’hui, les perturbations sont la norme.",
+      "desc2": "Défis courants que nous observons dans les entreprises :",
+      "list": [
+        "Plans de demande désalignés par rapport aux réalités de l’offre",
+        "Tampons de stock masquant des problèmes plus profonds",
+        "Visibilité retardée sur les contraintes des fournisseurs",
+        "Planification manuelle de scénarios qui prend des jours",
+        "Équipes qui réagissent au lieu d’anticiper"
+      ],
+      "desc3": "Le problème n’est pas un manque d’effort, mais un manque de simultanéité."
+    }
+  ],
+
+  "realData": [
+    {
+      "title": "Ce que signifie réellement une planification résiliente en temps réel",
+      "desc": "La résilience ne signifie pas éviter les perturbations. Elle signifie absorber les chocs et s’adapter plus rapidement que leur propagation.",
+      "desc1": "Dans une chaîne d’approvisionnement moderne, cela nécessite que trois capacités travaillent ensemble :",
+      "list": [
+        {
+          "title": "Visibilité en temps réel",
+          "desc": "sur la demande, l’offre, les stocks et la capacité"
+        },
+        {
+          "title": "Planification simultanée",
+          "desc": "afin que chaque changement se propage instantanément à travers le réseau"
+        },
+        {
+          "title": "Simulation rapide de scénarios",
+          "desc": "pour tester les réponses avant leur exécution"
+        }
+      ],
+      "desc2": "C’est la base de Kinaxis RapidResponse et le cœur de DemandPlus."
+    }
+  ],
+  "planData": [
+    {
+      "title": "La puissance de la planification simultanée avec Kinaxis RapidResponse",
+      "desc": "Contrairement aux outils de planification traditionnels qui exécutent des processus séquentiels, Kinaxis RapidResponse fonctionne sur un modèle de données unique en mémoire.",
+      "desc1": "Cela signifie :",
+      "list": [
+        "Un changement de la demande met à jour instantanément l’offre",
+        "Un retard fournisseur recalcule les plans de production en quelques secondes",
+        "Une contrainte de capacité redéfinit automatiquement les priorités de livraison",
+        "Un nouveau scénario de prévision montre l’impact sur les revenus, les niveaux de service et la marge"
+      ],
+      "desc2": "Les équipes de planification cessent d’attendre des rapports. Elles commencent à travailler avec la vérité en temps réel.",
+      "desc3": "C’est ainsi que les organisations passent de réactions tardives à des actions anticipées.",
+      "desc4": "La planification simultanée en action",
+      "steps": [
+        { "text": "Changement de la demande", "bg": "#E3F8FF" },
+        { "text": "Recalcul de l’offre", "bg": "#FAF1D2" },
+        { "text": "Ajustement des stocks", "bg": "#E3F8FF" },
+        { "text": "Impact financier visible", "bg": "#FAF1D2" },
+        { "text": "Tout en temps réel", "bg": "#E3F8FF" }
+      ]
+    }
+  ],
+
+  "visibilityData": [
+    {
+      "title": "Pourquoi la résilience commence par la visibilité",
+      "desc": "Vous ne pouvez pas réparer ce que vous ne pouvez pas voir. La plupart des perturbations s’aggravent parce que les signaux sont enfouis dans des systèmes qui ne communiquent pas entre eux. Au moment où la direction s’en rend compte, le coût est déjà engagé.",
+      "desc1": "DemandPlus connecte :",
+      "list": [
+        "Planification de la demande",
+        "Planification de l’offre",
+        "Optimisation des stocks",
+        "Gestion des capacités",
+        "S&OP et IBP",
+        "Modélisation de l’impact financier"
+      ],
+      "desc2": "Dans un seul environnement synchronisé.",
+      "desc3": "Les dirigeants obtiennent des réponses instantanées à des questions telles que :",
+      "listTwo": [
+        "Que se passe-t-il si ce fournisseur manque une livraison ?",
+        "Pouvons-nous réallouer les stocks sans nuire aux niveaux de service ?",
+        "Quels clients devons-nous prioriser si l’offre se resserre ?",
+        "Comment cette décision affecte-t-elle la marge du prochain trimestre ?"
+      ],
+      "desc4": "C’est une résilience fondée sur la clarté, et non sur les suppositions."
+    }
+  ],
+  "DemandData": [
+    {
+      "title": "Présentation de Rialtes Demand+ : la planification en temps réel en action",
+      "desc": "Rialtes DemandPlus est notre suite de services de bout en bout, construite autour de <a href='https://www.rialtes.com/fr/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Kinaxis RapidResponse</a>, pour aider les organisations à atteindre des chaînes d’approvisionnement connectées, intelligentes et résilientes.",
+      "desc1": "En tant que partenaire certifié Kinaxis et SAP avec des bureaux aux États-Unis, au Canada, en Inde et à Singapour, et une équipe d’experts Kinaxis hautement certifiés, nous aidons les entreprises à transformer RapidResponse en un avantage stratégique — et pas seulement en un outil de plus.",
+      "desc2": "Demand+ ne se limite pas au déploiement de logiciels. Il s’agit de changer la façon dont les décisions de planification sont prises."
+    }
+  ],
+
+  "DemandplusData": [
+    {
+      "title": "Ce que Demand+ offre",
+      "desc": "Notre cadre Demand+ réunit la stratégie, la technologie et l’exécution dans un modèle de transformation cohérent.",
+      "list": [
+        {
+          "title": "Conseil sur les licences Kinaxis et évaluation de la valeur",
+          "desc": "Nous aidons les organisations à définir le périmètre, la feuille de route et le ROI appropriés avant le début de la mise en œuvre."
+        },
+        {
+          "title": "Architecture et conception de solutions",
+          "desc": "Les modèles de planification sont construits autour de vos contraintes métier réelles — et non sur des modèles génériques."
+        },
+        {
+          "title": "Mise en œuvre rapide et configuration des processus",
+          "desc": "Déploiement accéléré avec des workflows de bonnes pratiques pour la demande, l’offre, les stocks et le S&OP."
+        },
+        {
+          "title": "Assurance qualité, tests et formation des utilisateurs",
+          "desc": "Garantir que les planificateurs fassent confiance au système — car l’adoption est essentielle."
+        },
+        {
+          "title": "Intégration avec SAP S/4HANA, Oracle EBS et systèmes non SAP",
+          "desc": "DemandPlus connecte RapidResponse à votre ERP et à votre écosystème afin que les données circulent sans friction."
+        },
+        {
+          "title": "Support post-mise en production et optimisation continue",
+          "desc": "La résilience s’améliore avec le temps. Nous restons engagés pour faire évoluer les processus, pas seulement pour maintenir les systèmes."
+        }
+      ],
+      "model": {
+        "label": "Modèle de transformation marketing Advantage+",
+        "steps": ["Stratégie", "Construire", "Créer", "Tester", "Connecter", "Optimiser"]
+      },
+      "steps": [
+        "Évaluer",
+        "Concevoir",
+        "Mettre en œuvre",
+        "Intégrer",
+        "Activer",
+        "Optimiser"
+      ]
+    }
+  ],
+  "DeliversData": [
+    {
+      "title": "Comment Demand+ permet une réponse plus rapide aux perturbations",
+      "desc": "Examinons des scénarios du monde réel.",
+      "list": [
+        {
+          "title": "Scénario 1 : Pic soudain de la demande",
+          "desc": "Une promotion génère des commandes inattendues. Avec une planification par lots, les équipes réagissent plusieurs jours plus tard. Avec RapidResponse, les changements de la demande déclenchent des recalculs instantanés de l’offre et des stocks. Les planificateurs rééquilibrent la production et l’exécution le jour même."
+        },
+        {
+          "title": "Scénario 2 : Retard d’un fournisseur",
+          "desc": "Un composant critique est retardé de deux semaines. RapidResponse montre immédiatement l’impact en aval sur les niveaux de service, les revenus et la marge. Les équipes simulent des alternatives et s’engagent sur la meilleure option avant que la perturbation ne se propage."
+        },
+        {
+          "title": "Scénario 3 : Contrainte de capacité",
+          "desc": "Une ligne de production est arrêtée. Au lieu de feuilles de calcul manuelles, les planificateurs voient les arbitrages en temps réel entre les usines, les SKU et les clients."
+        }
+      ]
+    }
+  ],
+
+  "benefitsData": [
+    {
+      "title": "Qui bénéficie le plus de DemandPlus",
+      "desc": "<a href='https://www.rialtes.com/fr/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>DemandPlus</a> est idéal pour les organisations qui évoluent dans des environnements complexes et en évolution rapide :",
+      "list": [
+        "Entreprises de fabrication et de distribution",
+        "Chaînes d’approvisionnement des sciences de la vie et des technologies médicales",
+        "Réseaux de biens de consommation et de commerce de détail",
+        "Entreprises automobiles et industrielles",
+        "Entreprises de haute technologie et d’électronique"
+      ],
+      "desc1": "Si la volatilité fait partie de votre réalité, la planification en temps réel devrait en faire partie aussi."
+    }
+  ],
+
+  "businessData": [
+    {
+      "title": "Résultats métiers qui comptent pour les dirigeants",
+      "desc": "Lorsque la résilience en temps réel devient la norme, l’impact est tangible :",
+      "list": [
+        "Réponse plus rapide aux changements de la demande et de l’offre",
+        "Niveaux de service plus élevés avec moins de stocks",
+        "Réduction des coûts d’urgence et de gestion de crise",
+        "Meilleur alignement entre la planification et la finance",
+        "Confiance accrue dans les décisions S&OP et IBP",
+        "Une chaîne d’approvisionnement qui s’adapte au lieu d’absorber des pertes"
+      ],
+      "desc1": "C’est ainsi que la planification passe du soutien opérationnel à un avantage stratégique. Avec Rialtes Demand+ et Kinaxis RapidResponse, la planification en temps réel devient votre avantage, transformant l’incertitude en avantage concurrentiel."
+    }
+  ],
+
+  "faqData": [
+    {
+      "question": "Qu’est-ce que Demand+ de Rialtes ?",
+      "answer": "Demand+ est le cadre de services de bout en bout de Rialtes, construit autour de Kinaxis RapidResponse pour permettre une planification de la chaîne d’approvisionnement en temps réel, simultanée et résiliente."
+    },
+    {
+      "question": "Comment Kinaxis RapidResponse prend-il en charge la planification en temps réel ?",
+      "answer": "Il utilise un modèle de données unique en mémoire qui met à jour simultanément la demande, l’offre, les stocks et la capacité, permettant une analyse instantanée des scénarios et une prise de décision rapide."
+    },
+    {
+      "question": "Pourquoi la planification simultanée est-elle importante pour la résilience ?",
+      "answer": "Parce que les perturbations affectent l’ensemble de la chaîne d’approvisionnement en même temps. La planification séquentielle retarde la réponse, tandis que la planification simultanée permet une action immédiate et coordonnée."
+    },
+    {
+      "question": "DemandPlus s’intègre-t-il avec SAP et Oracle ?",
+      "answer": "Oui. DemandPlus intègre Kinaxis RapidResponse avec SAP S/4HANA, Oracle EBS et des systèmes non SAP pour un flux de données fluide."
+    },
+    {
+      "question": "Qu’est-ce qui fait de Rialtes un partenaire Kinaxis solide ?",
+      "answer": "Des experts Kinaxis certifiés, une capacité de livraison mondiale et un cadre Demand+ éprouvé qui se concentre sur les résultats, pas seulement sur la mise en œuvre."
+    }
+  ]
     }
 }
