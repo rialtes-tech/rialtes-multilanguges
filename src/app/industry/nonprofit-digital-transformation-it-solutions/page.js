@@ -5,6 +5,8 @@ import Image from "next/image";
 import Script from "next/script";
 import React from "react";
 import UnorderedList from "@/app/components/unorderedList";
+import BreadCrumbs from '@/app/components/BreadCrumbs'
+
 export default function retailPage() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -299,6 +301,10 @@ export default function retailPage() {
                     </div>
                 </div>
             </section>
+            {/* breadcrumb */}
+            <div className="custom-container">
+                <BreadCrumbs currPage="Nonprofit" />
+            </div>
             {/* page description section */}
             <section className="custom-container xl:mt-[99px] mt-[50px]">
                 <div className="md:w-[80%] lg:w-[70%] 4xl:w-[80%] sm:w-[90%]">

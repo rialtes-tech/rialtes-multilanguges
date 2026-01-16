@@ -6,6 +6,8 @@ import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
+import BreadCrumbs from '@/app/components/BreadCrumbs'
+
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -315,6 +317,10 @@ export default function Page() {
                     </div>
                 </div>
             </section>
+            {/* breadcrumb */}
+            <div className="custom-container">
+                <BreadCrumbs currPage="Medical Devices" />
+            </div>
             {/* page description */}
             <section className="xl:mt-10 mt-4 custom-container">
                 <div className="grid xl:grid-cols-12 grid-cols-1">

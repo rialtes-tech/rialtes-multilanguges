@@ -6,6 +6,8 @@ import LearnMore from "@/app/components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import React from "react";
+import BreadCrumbs from '@/app/components/BreadCrumbs'
+
 export default function Page() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -292,8 +294,12 @@ export default function Page() {
                     </div>
                 </div>
             </section>
+            {/* breadcrumb */}
+            <div className="custom-container">
+                <BreadCrumbs currPage="Home Health" />
+            </div>
             {/* page description section */}
-            <div className="custom-container xl:mt-[124px] mt-[33px]">
+            <div className="custom-container xl:mt-[114px] mt-[33px]">
                 <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[40px] gap-y-[28px]">
                     <div className="lg:col-span-6 xl:col-span-7 col-span-12">
                         <h2 className="4xl:text-[60px] xl:text-[45px] text-[26px] leading-tight md:w-[80%] xl:w-full">

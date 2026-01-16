@@ -6,6 +6,8 @@ import Link from "next/link";
 import LearnMore from "../../components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
+import BreadCrumbs from '@/app/components/BreadCrumbs'
+
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -982,6 +984,10 @@ export default function page() {
                     </div>
                 </div>
             </section>
+            {/* breadcrumb */}
+            <div className="custom-container">
+                <BreadCrumbs currPage="Automotive" />
+            </div>
             {/* powering next gen section */}
             <section className="custom-container xl:mt-[112px] mt-[62px]">
                 <h2 className="4xl:text-[60px] 2xl:text-[58px] xl:text-[40px] lg:text-[40px] md:text-[35px] text-[26px] max-[400px]:text-[22px]  leading-tight xl:w-[69%] 2xl:w-[85%] lg:w-[77%] font-light">Powering the Next-Generation Automotive Ecosystem with Rialtes</h2>

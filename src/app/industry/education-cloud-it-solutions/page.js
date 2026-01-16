@@ -6,6 +6,8 @@ import Link from "next/link";
 import LearnMore from "../../components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
+import BreadCrumbs from '@/app/components/BreadCrumbs'
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -275,7 +277,7 @@ export default function Page() {
           />
         </div>
         <div className="h-full relative custom-container">
-          <div className="grid xl:grid-cols-12 grid-cols-1  xl:mt-20  mt-[9rem]">
+          <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-20 mt-[8rem]">
             <div className="xl:col-span-7 col-span-12">
               <h2 className="text-white 2xl:text-[24px] xl:text-[22px] text-[18px] font-bold mb-2 mt-10">
                 Education Industry
@@ -291,6 +293,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* breadcrumb */}
+      <div className="custom-container">
+        <BreadCrumbs currPage="Education" />
+      </div>
       {/* page description */}
       <section className="xl:mt-16 mt-8 custom-container">
         <div className="grid xl:grid-cols-12 grid-cols-1">
@@ -324,7 +330,7 @@ export default function Page() {
             alt="Thought Leadership image"
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-            
+
             priority
             sizes="100vw"
           />
@@ -743,7 +749,7 @@ export default function Page() {
                 </p>
               </div>
             </div>
-            
+
             <div className="xl:mt-20 mt-10">
               <h3 className="2xl:text-[30px] xl:text-[28px] md:text-[26px] text-[24px]">
                 Key Features:
@@ -838,21 +844,21 @@ export default function Page() {
               </div>
             </div>
           </div>
-          
+
         </div>
 
-<div className="relative">
-        <div className="h-full xl:mr-[142px] custom-container z-40">
-          <p className=" 4xl:text-[26px] 2xl:text-[22px]  xl:text-[18px] md:text-[20px]  text-[18px] bg-[#0C8AD4]  p-5 xl:p-8  pl-6  text-white max-[360px]:mt-[-70px] max-[414px]:mt-0 mt-[15px] md:mt-[-50px] xl:mt-[-55px] 4xl:mt-[-65px]  xl:w-[80%] leading-tight font-light max-[400px]:text-[17px] ">
-            With AgentChat, elevate your institution’s communication to new
-            heights—efficient, secure, and fully integrated.
-          </p>
-        </div>
-        <div className="mt-10 custom-container ">
-          <button className="bg-[#134874]  hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 text-[16px] xl:text-[22px] px-8 transition duration-300 order-4 mt-6">
-            <Link href="/products/agentchat">Know More</Link>
-          </button>
-        </div>
+        <div className="relative">
+          <div className="h-full xl:mr-[142px] custom-container z-40">
+            <p className=" 4xl:text-[26px] 2xl:text-[22px]  xl:text-[18px] md:text-[20px]  text-[18px] bg-[#0C8AD4]  p-5 xl:p-8  pl-6  text-white max-[360px]:mt-[-70px] max-[414px]:mt-0 mt-[15px] md:mt-[-50px] xl:mt-[-55px] 4xl:mt-[-65px]  xl:w-[80%] leading-tight font-light max-[400px]:text-[17px] ">
+              With AgentChat, elevate your institution’s communication to new
+              heights—efficient, secure, and fully integrated.
+            </p>
+          </div>
+          <div className="mt-10 custom-container ">
+            <button className="bg-[#134874]  hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 text-[16px] xl:text-[22px] px-8 transition duration-300 order-4 mt-6">
+              <Link href="/products/agentchat">Know More</Link>
+            </button>
+          </div>
         </div>
       </section>
       {/* related section */}

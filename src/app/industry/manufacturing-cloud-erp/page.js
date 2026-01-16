@@ -4,6 +4,8 @@ import ContactForm from "../../components/contactform"
 import Seo from "@/app/components/Seo";
 import LearnMore from "../../components/learnMore";
 import Script from "next/script";
+import BreadCrumbs from '@/app/components/BreadCrumbs'
+
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -143,7 +145,7 @@ export default function Page() {
             fill
             priority
             sizes="100vw"
-            style={{objectFit: "cover", objectPosition: "75% 20%" }}
+            style={{ objectFit: "cover", objectPosition: "75% 20%" }}
 
           />
         </div>
@@ -154,7 +156,7 @@ export default function Page() {
             fill
             priority
             sizes="100vw"
-             style={{objectFit: "cover" }}
+            style={{ objectFit: "cover" }}
 
           />
         </div>
@@ -172,8 +174,12 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* breadcrumb */}
+      <div className="custom-container">
+        <BreadCrumbs currPage="Manufacturing" />
+      </div>
       {/* page description */}
-      <section className="xl:mt-16 mt-8 custom-container">
+      <section className="xl:mt-14 mt-8 custom-container">
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-7 col-span-12">
             <p className="mt-10  leading-tight xl:pr-20 ">Driving end-to-end digital transformation for manufacturers with AI, Cloud, and Smart Automation. Rialtes empowers manufacturing companies to evolve beyond traditional operations and embrace next-gen manufacturing ecosystems that are agile, data-driven, and customer-centric.</p>
@@ -188,10 +194,10 @@ export default function Page() {
           <Image
             src="/images/industry/manufacture/thoughts.webp"
             alt="thought leadership image"
-            fill  
+            fill
             priority
             sizes="100vw"
-            style={{objectFit: "cover", objectPosition: "75% 20%" }}
+            style={{ objectFit: "cover", objectPosition: "75% 20%" }}
           />
         </div>
         <div className="xl:hidden block h-[625px]">
@@ -203,7 +209,7 @@ export default function Page() {
             width={0}
             height={0}
             className="w-full h-full"
-            style={{objectFit: "cover", objectPosition: "75% 60%" }}
+            style={{ objectFit: "cover", objectPosition: "75% 60%" }}
           />
         </div>
         <div className="custom-container h-full relative xl:block hidden ">
@@ -232,7 +238,7 @@ export default function Page() {
             fill
             priority
             className="custom-container xl:!pr-0"
-                        style={{objectFit: "cover"}}
+            style={{ objectFit: "cover" }}
 
             sizes="100vw"
           />
@@ -281,7 +287,7 @@ export default function Page() {
             <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">Speed, Scale, Success</h3>
             <p className="mt-5 xl:mb-10 mb-5 font-normal 4xl:pr-20 pr-5 leading-tight">With industry-specific accelerators, Rialtes enables manufacturers to deploy ready-to-use solutions that cut down months of setup time. From smart factory templates to AI-powered predictive workflows, our tools are designed to accelerate value realization, improve productivity, and drive intelligent operations. Our accelerators also ensure regulatory compliance and quality assurance, reducing risks during implementation.</p>
             <div className="xl:bottom-0">
-              <LearnMore/>
+              <LearnMore />
             </div>
           </div>
         </div>
@@ -312,7 +318,7 @@ export default function Page() {
               Rialtes helps discrete manufacturers handle complex product configurations, multi-tier supply chains, and custom engineering processes. Our solutions integrate end-to-end quoting, engineering, and order management, delivering real-time visibility and seamless customer collaboration. AI-powered insights help predict maintenance needs, reduce downtime, and ensure superior product quality.
             </p>
             <div className="xl:bottom-0">
-              <LearnMore/>
+              <LearnMore />
             </div>
           </div>
         </div>
@@ -533,7 +539,7 @@ export default function Page() {
               AI is no longer the future — it’s shaping today’s manufacturing. Rialtes brings AI-powered solutions for predictive maintenance, intelligent scheduling, defect detection, and demand forecasting. AI helps manufacturers adapt faster, optimize resources, and deliver customized products efficiently, enhancing both profitability and customer satisfaction.
             </p>
             <div className="xl:mt-5 mt-[-10px]  absolute  xl:relative">
-              <LearnMore  />
+              <LearnMore />
             </div>
           </div>
           <div className="xl:col-span-8 col-span-12 xl:block hidden xl:ml-[-300px]">
@@ -583,7 +589,7 @@ export default function Page() {
               Rialtes partners with SAP and Salesforce to create connected, intelligent, and agile manufacturing ecosystems. SAP’s Digital Manufacturing Cloud and Salesforce Manufacturing Cloud together deliver 360-degree visibility from factory to customer. We enable manufacturers to integrate customer feedback, dealer management, and service workflows into a single intelligent platform.
             </p>
             <div className="mt-5">
-              <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"}  />
+              <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
             </div>
           </div>
         </div>
