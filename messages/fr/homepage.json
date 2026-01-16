@@ -20,41 +20,71 @@
         "innovatingAlt": "Texte bleu marine en gras indiquant INNOVATING avec texture de motif de carte de circuit sur fond blanc",
         "carouselData": [
             {
-                "alt": "Visualisation d’un réseau bleu lumineux avec des flux de données et des nœuds numériques",
-                "description": "Redéfinir l’avenir de l’IA d’entreprise avec SAP Joule",
-                "image": "/images/homepage/data-flow-network-art.webp",
-                "link": "/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule"
+                "alt": "Visualisation abstraite d’un réseau bleu lumineux avec des flux de données et des nœuds numériques",
+                "description": "Migration de SAP PI PO vers SAP CPI : guide complet",
+                "image": "/images/homepage/insights5.webp",
+                "link": "/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide",
+                "title": "Blogs"
+            },
+              {
+                "title": "Études de Cas",
+                "description": "Transformation des processus O2C et P2P grâce aux solutions SAP ERP Cloud",
+                "image": "/images/homepage/prp-processes.webp",
+                "link": "/insights/case-studies/sap-erp-cloud-solutions-automotive-case-study",
+                "alt": ""
             },
             {
-                "alt": "Travailleuse de la santé en blouse bleue et masque tenant une tablette numérique",
-                "description": "Automatisez votre organisation de santé grâce à l’intégration d’athenahealth et Salesforce",
-                "image": "/images/homepage/medical-professional-with-tablet.webp",
-                "link": "/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration"
+                "alt": "Professionnelle de santé en tenue bleue portant un masque et tenant une tablette numérique",
+                "description": "L’IA dans l’engagement des patients : comment les agents IA soutiennent la MedTech dans la surveillance à distance",
+                "image": "/images/homepage/insights4.webp",
+                "link": "/insights/blogs/ai-patient-engagement-medtech-remote-care",
+                "title": "Blogs"
+            },
+             {
+                "title": "Études de Cas",
+                "description": "Transformer la réussite des étudiants avec Salesforce Education Cloud et Edu+",
+                "image": "/images/homepage/transforming-student.webp",
+                "link": "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus",
+                "alt": ""
             },
             {
-                "alt": "Motif d’onde numérique bleue mélangeant des éclaboussures d’eau et une grille technologique",
-                "description": "SAP Business Data Cloud : la base de données intelligente pour un succès commercial piloté par l’IA",
-                "image": "/images/homepage/tech-wave-fusion-background.webp",
-                "link": "/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success"
+                "alt": "Motif d’onde numérique bleue mêlant éclaboussures d’eau et fond technologique en grille",
+                "description": "Comment créer et déployer votre premier agent IA avec Agentforce (guide étape par étape)",
+                "image": "/images/homepage/insights3.webp",
+                "link": "/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce",
+                "title": "Blogs"
+            },
+             {
+                "title": "Études de Cas",
+                "description": "Un constructeur automobile de premier plan a atteint un score de satisfaction client supérieur de 35 % grâce à AutoSense",
+                "image": "/images/homepage/leading-automotive.webp",
+                "link": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense",
+                "alt": ""
             },
             {
-                "alt": "Main robotique bleue brillante avec des doigts LED illuminés sur un écran tactile",
-                "description": "Comment les agents Agentforce font évoluer les systèmes ERP avec l’IA",
-                "image": "/images/homepage/ai-robot-hand-technology.webp",
-                "link": "/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai"
+                "alt": "Main robotique bleue lumineuse avec doigts LED éclairés sur une surface tactile",
+                "description": "Ce qui rend les cabinets de conseil SAP dignes de confiance pour les projets d’entreprise",
+                "image": "/images/homepage/insights1.webp",
+                "link": "/insights/blogs/what-makes-sap-consulting-companies-trustworthy",
+                "title": "Blogs"
             },
             {
-                "alt": "Vue de dessus d’une main utilisant un ordinateur portable argenté sur un fond bleu dégradé",
-                "description": "Comment SAP SuccessFactors améliore la gestion du travail à distance",
-                "image": "/images/homepage/modern-laptop-workstation.webp",
-                "link": "/insights/blogs/how-sap-successfactors-enhances-remote-work-management"
+                "alt": "Vue de dessus de la main d’une personne utilisant un ordinateur portable argenté sur un fond bleu dégradé",
+                "description": "Guide de conseil Salesforce : stratégies pour stimuler la croissance et l’efficacité",
+                "image": "/images/homepage/insights2.webp",
+                "link": "/insights/blogs/salesforce-consulting-playbook-enterprise-growth",
+                "title": "Blogs"
             },
             {
-                "alt": "Adorable robot IA blanc et bleu avec des éléments lumineux à côté d’une interface de chatbot sur smartphone",
-                "description": "Comment fonctionne réellement Salesforce Agentforce",
-                "image": "/images/homepage/ai-chatbot-assistant-robot.webp",
-                "link": "/insights/blogs/how-salesforce-agentforce-actually-works"
+                "alt": "Adorable robot IA blanc et bleu aux éléments lumineux à côté d’une interface de chatbot sur smartphone",
+                "description": "Partenaires d’intégration Salesforce : réduire la complexité et augmenter le ROI",
+                "image": "/images/homepage/insights6.webp",
+                "link": "/insights/blogs/salesforce-integration-partners-for-enterprises-to-scale",
+                "title": "Blogs"
             }
+          
+           
+           
         ],
         "slidesData": [
             {

@@ -20,40 +20,67 @@
         "innovatingAlt": "Texto azul marino en negrita que dice INNOVATING con textura de patrón de placa de circuito sobre fondo blanco",
         "carouselData": [
             {
-                "alt": "Visualización de red azul brillante con flujos de datos y nodos digitales",
-                "description": "Redefiniendo el futuro de la IA empresarial con SAP Joule",
-                "image": "/images/homepage/data-flow-network-art.webp",
-                "link": "/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule"
+                "alt": "Visualización abstracta de una red azul brillante con flujos de datos y nodos digitales",
+                "description": "Migración de SAP PI PO a SAP CPI: una guía completa",
+                "image": "/images/homepage/insights5.webp",
+                "link": "/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide",
+                "title": "Blogs"
             },
             {
-                "alt": "Trabajadora sanitaria con bata azul y mascarilla sosteniendo una tableta digital",
-                "description": "Automatiza tu organización sanitaria con la integración de athenahealth y Salesforce",
-                "image": "/images/homepage/medical-professional-with-tablet.webp",
-                "link": "/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration"
+                "title": "Casos de Estudio",
+                "description": "Transformación de los procesos O2C y P2P con soluciones SAP ERP en la nube",
+                "image": "/images/homepage/prp-processes.webp",
+                "link": "/insights/case-studies/sap-erp-cloud-solutions-automotive-case-study",
+                "alt": ""
             },
             {
-                "alt": "Patrón de ondas digitales azules que combina salpicaduras de agua con una cuadrícula tecnológica",
-                "description": "SAP Business Data Cloud: la base de datos inteligente para el éxito empresarial impulsado por la IA",
-                "image": "/images/homepage/tech-wave-fusion-background.webp",
-                "link": "/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success"
+                "alt": "Trabajadora sanitaria con uniforme azul y mascarilla sosteniendo una tableta digital",
+                "description": "IA en la participación del paciente: cómo los agentes de IA apoyan a MedTech en la monitorización remota",
+                "image": "/images/homepage/insights4.webp",
+                "link": "/insights/blogs/ai-patient-engagement-medtech-remote-care",
+                "title": "Blogs"
             },
             {
-                "alt": "Mano robótica azul brillante con dedos LED iluminados sobre una pantalla táctil",
-                "description": "Cómo los agentes de Agentforce escalan los sistemas ERP con IA",
-                "image": "/images/homepage/ai-robot-hand-technology.webp",
-                "link": "/insights/blogs/agentforce-agents-scales-enterprise-resource-planning-systems-with-ai"
+                "title": "Casos de Estudio",
+                "description": "Transformando el éxito estudiantil con Salesforce Education Cloud y Edu+",
+                "image": "/images/homepage/transforming-student.webp",
+                "link": "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus",
+                "alt": ""
             },
             {
-                "alt": "Vista superior de una mano usando una computadora portátil plateada sobre un fondo azul degradado",
-                "description": "Cómo SAP SuccessFactors mejora la gestión del trabajo remoto",
-                "image": "/images/homepage/modern-laptop-workstation.webp",
-                "link": "/insights/blogs/how-sap-successfactors-enhances-remote-work-management"
+                "alt": "Patrón de onda digital azul que combina salpicaduras de agua con un fondo tecnológico de malla",
+                "description": "Cómo crear y desplegar tu primer agente de IA con Agentforce (guía paso a paso)",
+                "image": "/images/homepage/insights3.webp",
+                "link": "/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce",
+                "title": "Blogs"
             },
             {
-                "alt": "Lindo robot de IA blanco y azul con rasgos brillantes junto a una interfaz de chatbot en un smartphone",
-                "description": "Cómo funciona realmente Salesforce Agentforce",
-                "image": "/images/homepage/ai-chatbot-assistant-robot.webp",
-                "link": "/insights/blogs/how-salesforce-agentforce-actually-works"
+                "title": "Casos de Estudio",
+                "description": "Un fabricante automotriz líder logró un 35 % más de puntuación en satisfacción del cliente con AutoSense",
+                "image": "/images/homepage/leading-automotive.webp",
+                "link": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense",
+                "alt": ""
+            },
+            {
+                "alt": "Mano robótica azul brillante con dedos LED iluminados sobre una superficie táctil",
+                "description": "Qué hace que las empresas de consultoría SAP sean confiables para proyectos empresariales",
+                "image": "/images/homepage/insights1.webp",
+                "link": "/insights/blogs/what-makes-sap-consulting-companies-trustworthy",
+                "title": "Blogs"
+            },
+            {
+                "alt": "Vista superior de la mano de una persona usando un portátil plateado sobre un fondo azul degradado",
+                "description": "Manual de consultoría Salesforce: estrategias para impulsar el crecimiento y la eficiencia",
+                "image": "/images/homepage/insights2.webp",
+                "link": "/insights/blogs/salesforce-consulting-playbook-enterprise-growth",
+                "title": "Blogs"
+            },
+            {
+                "alt": "Lindo robot de IA blanco y azul con elementos brillantes junto a una interfaz de chatbot en un smartphone",
+                "description": "Socios de integración para Salesforce: reduciendo la complejidad y aumentando el ROI",
+                "image": "/images/homepage/insights6.webp",
+                "link": "/insights/blogs/salesforce-integration-partners-for-enterprises-to-scale",
+                "title": "Blogs"
             }
         ],
         "slidesData": [
@@ -373,7 +400,7 @@
             {
                 "id": 1,
                 "url": "/insights/case-studies/streamlined-devops-using-copado-and-salesforce",
-        "imgSrc": "/images/case-studies/case study 3_thumb_n.webp",
+                "imgSrc": "/images/case-studies/case study 3_thumb_n.webp",
                 "title": "Trabajadores industriales con equipo de seguridad colaborando con laptop en instalación de fabricación.",
                 "description": "Un fabricante líder especializado en la construcción de materiales innovadores para proyectos residenciales y comerciales.",
                 "altText": "Trabajadores con equipo de seguridad colaborando con un portátil en planta industrial"
