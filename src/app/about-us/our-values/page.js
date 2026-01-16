@@ -2,6 +2,7 @@
 import Image from "next/image";
 import ContactForm from "../../components/contactform";
 import Seo from "@/app/components/Seo";
+import BreadCrumbs from '../../components/BreadCrumbs'
 import Script from "next/script";
 const schemaData = {
     "@context": "https://schema.org",
@@ -164,7 +165,7 @@ export default function Page() {
                 <div className="block md:hidden">
                     <Image
                         src="/images/culture/AdobeStock_1016285553.webp"
-                         style={{ objectFit: "cover", objectPosition: "0% 20%" }}
+                        style={{ objectFit: "cover", objectPosition: "0% 20%" }}
                         alt="mobile banner"
                         fill
                         priority
@@ -186,9 +187,11 @@ export default function Page() {
                 </div>
             </section>
             {/* our value section */}
-            <section className="xl:py-16 py-10">
+            <section>
                 <div className="custom-container">
-                    <div className=" mx-auto">
+                    {/* breadcrumb */}
+                    <BreadCrumbs currPage="Our Values" subPath=" " />
+                    <div className="xl:py-16 py-10 mx-auto">
                         <h1 className="4xl:text-[60px] xl:text-[40px] md:text-[35px] text-[26px]">Our Value System.</h1>
                         <p className="mt-3 4xl:text-[35px] xl:text-[28px] text-[20px] ">Every day, every one of us work with our core values.</p>
                         <div className="flex flex-col md:flex-row mb-8 mt-16 lg:gap-52 gap-10 md:gap-28">

@@ -86,7 +86,7 @@ export default function page({ url }) {
             "alt": "Business leader on a path symbolizing enterprise growth and digital transformation",
             "description": "ERP modernization has been on boardroom agendas for years, yet success stories are still far fewer than expected. Leaders know transformation is necessary, but the path often turns bumpy."
         },
-          {
+        {
             "id": 71,
             "image": "/images/blog/from-project-partner/thumb.webp",
             "category": "SAP Consulting",
