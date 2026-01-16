@@ -7,6 +7,8 @@ import LearnMore from "@/app/components/learnMore";
 import Link from "next/link";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
+import BreadCrumbs from '@/app/components/BreadCrumbs'
+
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -355,12 +357,15 @@ export default function Page() {
                     </div>
                 </div>
             </section>
+            <div className="custom-container">
+                <BreadCrumbs currPage="Pharma & Biotech" />
+            </div>
             {/* page description */}
             <section className="xl:mt-16 mt-8 custom-container">
                 <div className="grid lg:grid-cols-12 grid-cols-1">
                     <div className="lg:col-span-10 col-span-12">
-                        <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]   text-[16px] mt-5 font-medium lg:font-normal">The pharmaceutical and biotech industries are at the forefront of global healthcare, yet they face increasing pressure to innovate faster, remain compliant, and stay patient-centric. Amidst growing competition, changing regulations, and the need for accelerated R&D, technology and AI-driven solutions are becoming pivotal to success.</p>
-                        <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  text-[16px] mt-5 font-medium lg:font-normal"> With certified expertise in Salesforce Life Sciences Cloud and SAP S/4 HANA for Pharma, and offices in India, United States, Canada, and Singapore, Rialtes delivers global best practices with local regulatory alignment.</p>
+                        <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] text-[16px] mt-5 font-medium lg:font-normal">The pharmaceutical and biotech industries are at the forefront of global healthcare, yet they face increasing pressure to innovate faster, remain compliant, and stay patient-centric. Amidst growing competition, changing regulations, and the need for accelerated R&D, technology and AI-driven solutions are becoming pivotal to success.</p>
+                        <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] text-[16px] mt-5 font-medium lg:font-normal"> With certified expertise in Salesforce Life Sciences Cloud and SAP S/4 HANA for Pharma, and offices in India, United States, Canada, and Singapore, Rialtes delivers global best practices with local regulatory alignment.</p>
                     </div>
                     <div className="lg:col-span-2 col-span-12">
                     </div>

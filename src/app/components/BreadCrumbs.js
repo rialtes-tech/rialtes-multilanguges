@@ -10,7 +10,13 @@ export default function Breadcrumb({ currPage, subPath }) {
     console.log(segments, segments.length);
 
     const EXISTING_ROUTES = {
-        "about-us": "/about-us"
+        "about-us": "/about-us",
+        "industry": "/industry",
+        "life-sciences": "/industry/life-sciences-digital-transformation",
+        "": "",
+        "": "",
+        "": "",
+        "": ""
     };
 
     let manualPath;
@@ -39,7 +45,7 @@ export default function Breadcrumb({ currPage, subPath }) {
 
     return (
         <div className="mt-[40px]">
-            <p className="4xl:text-[22px] xl:text-[18px] text-[16px] flex flex-wrap gap-1">
+            <p className="4xl:text-[20px] xl:text-[17px] text-[14px] flex flex-wrap gap-1">
                 <Link
                     href="/"
                     className="cursor-pointer hover:text-[#0C8AED]"
@@ -54,7 +60,8 @@ export default function Breadcrumb({ currPage, subPath }) {
                                     href={item.href}
                                     className="cursor-pointer hover:text-[#0C8AED]"
                                 >
-                                    {item.label}
+                                    {item.label} 
+                                    {!subPath && " /"}
                                 </Link>
                             ) : (
                                 <span className="cursor-default">

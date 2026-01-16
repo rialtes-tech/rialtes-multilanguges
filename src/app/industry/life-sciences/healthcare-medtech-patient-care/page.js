@@ -3,7 +3,7 @@ import UnorderedList from "@/app/components/unorderedList";
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel';
-import ServicesBlogs from "@/app/components/servicesBlogs";
+import BreadCrumbs from '@/app/components/BreadCrumbs'
 import { useState } from "react";
 import LearnMore from "@/app/components/learnMore";
 import CaseStudyIndivisual from '../../../components/caseStudyIndivisual';
@@ -271,7 +271,6 @@ const GrowServices = () => {
 };
 
 export default function Page() {
-  const [slides, setSlides] = useState([]);
 
   return (
     <div className="min-h-screen bg-white">
@@ -324,8 +323,9 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section className=" mt-[70px] custom-container">
-        <div className="pb-5 bg-white">
+      <section className="custom-container">
+        <BreadCrumbs currPage="Healthcare"/>
+        <div className="pb-5 bg-white mt-[70px] ">
           <div className=" mx-auto ">
             <div className="flex flex-col xl:flex-row py-6 xl:gap-20 gap-5">
               <div className="flex flex-col w-full 4xl:w-[50%] xl:w-[38%] xl:mr-4 xl:mb-0 ">

@@ -324,7 +324,7 @@ export default function page() {
                 </div>
             </section>
             {/* page description section */}
-            <section className="custom-container mt-4">
+            <section className="custom-container">
                 <BreadCrumbs currPage="Life Sciences" />
 
                 <div className="xl:mt-[119px] mt-[44px]">

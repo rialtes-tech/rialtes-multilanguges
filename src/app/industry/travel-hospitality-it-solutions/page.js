@@ -5,6 +5,8 @@ import Seo from "@/app/components/Seo";
 import Image from "next/image";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
+import BreadCrumbs from '@/app/components/BreadCrumbs'
+
 export default function Page() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -226,6 +228,10 @@ export default function Page() {
                         </div>
                     </div>
                 </section>
+                {/* breadcrumb */}
+                <div className="custom-container">
+                    <BreadCrumbs currPage="Travel & Hospitality" />
+                </div>
                 {/* page description section */}
                 <section className="custom-container xl:mt-[135px] mt-[42px]">
                     <div className="grid grid-cols-1 xl:grid-cols-12 w-full xl:gap-[47px] gap-y-[32px] md:w-[80%] xl:w-full">
