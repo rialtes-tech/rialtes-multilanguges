@@ -7,6 +7,8 @@ import Image from "next/image";
 import Link from "next/link";
 import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
+import BreadCrumbs from '@/app/components/BreadCrumbs'
+
 export default function DemandPlusSection() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -274,8 +276,10 @@ export default function DemandPlusSection() {
                 </div>
             </section>
             <section
-                className="custom-container xl:!pr-0">
-                <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-24 mt-10">
+                className="custom-container xl:!pr-0 mt-4">
+                <BreadCrumbs currPage="Kinaxis RapidResponse" subPath="Supply Chain Management"/>
+
+                <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-20 mt-10">
                     <div className="xl:col-span-8 xl:pr-0 ">
                         <h2 className="leading-tight md:text-[42px] 4xl:text-[60px] xl:text-[40px] text-[26px]">Agility, Accuracy, and Resilience in Supply Chain — Powered by Kinaxis and Rialtes</h2>
                         <p className="mt-12">In today’s volatile and complex supply chain landscape, businesses need real-time visibility, agile planning, and predictive insights to stay competitive. Rialtes’ DemandPlus Services, built around Kinaxis RapidResponse, deliver end-to-end supply chain transformation, enabling companies to plan, monitor, and respond to supply chain dynamics in real-time. </p>

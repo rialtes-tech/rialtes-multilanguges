@@ -2,6 +2,7 @@
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import LearnMore from "@/app/components/learnMore";
+import BreadCrumbs from '../../../components/BreadCrumbs'
 import Link from "next/link";
 import Seo from "@/app/components/Seo";
 import UnorderedList from "@/app/components/unorderedList";
@@ -21,7 +22,7 @@ const schemaData = {
         "logo": "https://www.rialtes.com/images/homepage/logo.svg",
         "sameAs": [
             "https://www.linkedin.com/company/rialtes-technologies-llc/",
-            "https://www.youtube.com/@rialtes" 
+            "https://www.youtube.com/@rialtes"
         ]
     },
     "areaServed": [
@@ -706,6 +707,9 @@ export default function page() {
                         </div>
                     </div>
                 </div>
+            </section>
+            <section className="custom-container">
+                <BreadCrumbs currPage="SAP Ariba" />
             </section>
             {/* page information */}
             <section className="custom-container mt-[51px] lg:mt-[85px] px-[2rem]">

@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Seo from "@/app/components/Seo";
 import ContactForm from "../../../components/contactform";
+import BreadCrumbs from '../../../components/BreadCrumbs'
 import LearnMore from "../../../components/learnMore";
 import UnorderedList from "@/app/components/unorderedList";
 const schemaData = {
@@ -269,8 +270,9 @@ export default function Page() {
                 </div>
             </section>
             {/* page description */}
-            <section className="mt-20 custom-container">
-                <div className="grid xl:grid-cols-12 grid-cols-1">
+            <section className="custom-container mt-4">
+                <BreadCrumbs currPage="SAP Managed Services" />
+                <div className="grid xl:grid-cols-12 grid-cols-1 mt-20">
                     <div className="xl:col-span-10 col-span-12">
                         <h1 className="leading-tight 4xl:text-[56px] text-[26px] xl:text-[50px]">
                             Reimagine SAP Support with Rialtes Managed Services
@@ -331,7 +333,7 @@ export default function Page() {
                             <h3 className="xl:text-[28px] text-[18px] xl:font-bold font-medium xl:pr-20 xl:pt-10 2xl:pt-20 pt-10">Hybrid Delivery Model (Onsite + Offshore)</h3>
                             <UnorderedList arrName={["Strategic blend of onsite expertise and offshore delivery for cost-effective yet personalized support.", "Local leadership and customer-facing consultants backed by offshore SAP CoE teams for scalability."]} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3 xl:pr-20" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                             <div className="xl:absolute bottom-[-26px] xl:block hidden">
-                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                             </div>
                         </div>
                         <div className="xl:col-span-1 col-span-12">
@@ -342,7 +344,7 @@ export default function Page() {
                             <h3 className="xl:text-[28px] text-[18px] font-bold xl:pt-20 pt-10">Fully Offshore Model</h3>
                             <UnorderedList arrName={["100% remote delivery from our global SAP Centers of Excellence in India and Singapore for optimized costs and continuous delivery.", "Best suited for steady-state AMS (Application Management Services), developments, and enhancements."]} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
                             <div className="absolute mt-[28px] xl:hidden block">
-                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                             </div>
                         </div>
                     </div>
@@ -653,7 +655,7 @@ export default function Page() {
                         </p>
                         <UnorderedList arrName={intelligentData} ulClassName="list-disc xl:space-y-5 xl:text-[20px] text-[16px] pl-5 marker:font-bold marker:text-2xl leading-tight font-light" liClassName="first:mt-5" />
                         <div className="4xl:mt-[36px] 2xl:mt-[48px] xl:mt-[40px] mt-[29px] absolute">
-                        <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                         </div>
                     </div>
                 </div>
@@ -770,7 +772,7 @@ export default function Page() {
                             {sapTransformationSteps.slice(3).map(({ step, title, description, plOverride }, index) => (
                                 <div key={step} className="flex w-full gap-x-4 items-start min-h-[100px]">
                                     <div className="w-[70px] h-[70px] flex-shrink-0 bg-[#006FBE] text-white font-bold flex items-center justify-center text-4xl">
-                                        {step} 
+                                        {step}
                                     </div>
                                     <div className="flex flex-col xl:items-center xl:flex-row xl:gap-10 justify-center w-full">
                                         <p className="font-bold 4xl:text-[22px] xl:text-[20px] text-[18px] text-black">{title}</p>

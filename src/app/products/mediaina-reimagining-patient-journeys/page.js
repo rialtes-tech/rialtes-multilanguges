@@ -3,6 +3,7 @@ import Image from "next/image";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import Script from "next/script";
+import BreadCrumbs from '@/app/components/BreadCrumbs'
 import ContactForm from "@/app/components/contactform";
 const schemaData = {
     "@context": "https://schema.org",
@@ -247,9 +248,11 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-            <section className="xl:pt-10">
+            <section>
                 <div className="custom-container">
-                    <div>
+                    <BreadCrumbs currPage="MediAIna" />
+
+                    <div className="xl:pt-10">
                         <div className="xl:grid xl:grid-cols-12 grid-cols-1 xl:mt-10  xl:gap-16 4xl:gap-10  flex flex-col-reverse">
                             <div className="xl:col-span-8 col-span-12">
                                 <p className="leading-tight font-normal 4xl:pr-20">

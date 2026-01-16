@@ -1,11 +1,13 @@
 "use client";
 import Image from "next/image";
-import ContactForm from "../../../components/contactform";
+import ContactForm from "@/app/components/contactform";
 import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
 import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
+import BreadCrumbs from '@/app/components/BreadCrumbs'
+
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -317,8 +319,10 @@ export default function page() {
                 </div>
             </section>
             {/* page description section */}
-            <section className="mt-16 custom-container">
-                <div className="grid xl:grid-cols-12 grid-cols-1">
+            <section className="mt-5 custom-container">
+                <BreadCrumbs currPage="Salesforce Life Sciences Cloud" subPath="Line of Business" />
+
+                <div className="grid xl:grid-cols-12 grid-cols-1 mt-16">
                     <div className="xl:col-span-8 2xl:col-span-7 4xl:col-span-9 col-span-12 xl:pr-16">
                         <h1 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
                             Salesforce Life Sciences Cloud Services for Smarter, Compliant Innovation with AI

@@ -6,6 +6,8 @@ import ContactForm from "@/app/components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
+import BreadCrumbs from '../../../components/BreadCrumbs'
+
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -976,8 +978,9 @@ export default function () {
                 </div>
             </section>
             {/* future proof section */}
-            <section className="custom-container xl:mt-[124px] mt-[53px] xl:mb-[0px] mb-[52px]">
-                <div className="grid xl:grid-cols-12 2xl:gap-[60px] xl:gap-[46px] gap-y-[39px]">
+            <section className="custom-container mt-5">
+                <BreadCrumbs currPage="SAP Datasphere" subPath="Data & AI" />
+                <div className="grid xl:grid-cols-12 2xl:gap-[60px] xl:gap-[46px] gap-y-[39px] xl:mt-[104px] mt-[53px] xl:mb-[0px] mb-[52px]">
                     <div className="4xl:col-span-7 xl:col-span-6 col-span-12">
                         <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] font-Light leading-tight xl:w-[100%] lg:w-[80%]">Future-Proof Your Business with Intelligent Data Consolidation, AI Insights, and Seamless Integration</h2>
                     </div>

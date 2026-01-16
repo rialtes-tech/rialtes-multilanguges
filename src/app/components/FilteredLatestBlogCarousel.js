@@ -9,15 +9,16 @@ export default function page({ url }) {
     const carouselRef = useRef(null);
     const [isLastSlide, setIsLastSlide] = useState(false);
     const latestBlogs = [
-         {      "id": 71,
-            "image": "/images/blog/from-project-partner/thumb.webp",
-            "category": "SAP Consulting",
-            "industry": " Life Sciences",
-            "date": "Jan. 02, 2026",
-            "url": "/from-project-partner-to-strategic-sap-consulting-ally/",
-            "title": "From Project Partner to Strategic Ally: Scaling SAP Consulting Engagements",
-            "alt": "Doctor analyzing patient diagnostics on multiple screens displaying brain scans, skeletal images, and real-time vital signs",
-            "description": "Enterprise SAP programs rarely end with one deployment. Once the core landscape is live, the real journey begins: expansion across business units. "
+        {
+            "id": 73,
+            "image": "/images/blog/digital-connectivity-bridge-network-integration-thumb.webp",
+            "category": "SAP Ariba",
+            "industry": "Generic",
+            "date": "Jan. 12, 2026",
+            "url": "/sapbuyplus-sap-ariba-connected-procurement/",
+            "title": "SAPBuy+: The Missing Link in Ariba Procurement",
+            "alt": "Digital bridge with network connections linking smartphone to cloud representing SAP Ariba procurement integration system",
+            "description": "Procurement has undergone more significant changes in the last five years than it did in the previous twenty. "
         },
         {
             "id": 72,
@@ -73,6 +74,17 @@ export default function page({ url }) {
             "title": "Why ERP Transformation Challenges Are Forcing Enterprises to Rethink Their Strategy",
             "alt": "Business leader on a path symbolizing enterprise growth and digital transformation",
             "description": "ERP modernization has been on boardroom agendas for years, yet success stories are still far fewer than expected. Leaders know transformation is necessary, but the path often turns bumpy."
+        },
+        {
+            "id": 71,
+            "image": "/images/blog/from-project-partner/thumb.webp",
+            "category": "SAP Consulting",
+            "industry": " Life Sciences",
+            "date": "Jan. 02, 2026",
+            "url": "/from-project-partner-to-strategic-sap-consulting-ally/",
+            "title": "From Project Partner to Strategic Ally: Scaling SAP Consulting Engagements",
+            "alt": "Doctor analyzing patient diagnostics on multiple screens displaying brain scans, skeletal images, and real-time vital signs",
+            "description": "Enterprise SAP programs rarely end with one deployment. Once the core landscape is live, the real journey begins: expansion across business units. "
         },
         {
             "id": 67,

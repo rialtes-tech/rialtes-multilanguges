@@ -4,6 +4,8 @@ import LearnMore from "@/app/components/learnMore";
 import UnorderedList from "@/app/components/unorderedList";
 import ContactForm from "@/app/components/contactform";
 import Seo from "@/app/components/Seo";
+import BreadCrumbs from '@/app/components/BreadCrumbs'
+
 import Script from "next/script";
 const schemaData = {
     "@context": "https://schema.org",
@@ -446,6 +448,9 @@ export default function page() {
                         </div>
                     </div>
                 </div>
+            </section>
+            <section className="custom-container mt-4">
+                <BreadCrumbs currPage="Salesforce Automotive Cloud" subPath="Line of Business" />
             </section>
             {/* page description section */}
             <section className="custom-container xl:mt-[105px] mt-[55px] xl:mb-[114px] mb-[42px]">

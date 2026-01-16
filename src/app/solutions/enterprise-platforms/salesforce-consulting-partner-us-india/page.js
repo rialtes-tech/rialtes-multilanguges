@@ -7,6 +7,7 @@ import InsightsCarousel from '../../../components/servicesInsightsCarousel';
 import FeaturedCarousel from '../../../components/servicesFeaturedCarousel';
 import Link from "next/link";
 import LearnMore from "@/app/components/learnMore";
+import BreadCrumbs from '../../../components/BreadCrumbs'
 import React from "react";
 import Script from "next/script";
 export default function SalesForceConsulting() {
@@ -116,7 +117,7 @@ export default function SalesForceConsulting() {
             title: 'Lightning Services',
             description: 'Dedicated app developers are at your disposal for the development of an app closely knit for enhanced customer experience.'
         },
-        { 
+        {
             id: 2,
             imageUrl: '/images/salesforce-consulting-services/inte.svg',
             title: 'Integration Services',
@@ -248,11 +249,11 @@ export default function SalesForceConsulting() {
             />
 
 
-            <div className='relative group overflow-hidden h-[300px] md:h-[400px] 2xl:h-[500px] 4xl:h-[740px] '>
+            <div className='relative group overflow-hidden md:h-[400px] 2xl:h-[500px] 4xl:h-[740px] '>
                 <Image
                     src="/images/salesforce-consulting-services/banner.webp"
                     alt="Salesforce Consulting Team"
-                    className="transform transition-transform duration-500 group-hover:scale-110 xl:h-full h-[250px] md:h-[350px] lg:h-[450px]"
+                    className="transform transition-transform duration-500 group-hover:scale-110 xl:h-full h-[300px] md:h-[350px] lg:h-[450px]"
                     width={0}
                     height={0}
                     sizes="100vw"
@@ -277,7 +278,11 @@ export default function SalesForceConsulting() {
                 </div>
             </div>
 
-            <div className="grid lg:grid-cols-10 xl:gap-16 gap-5 px-6 custom-container  lg:mt-16">
+            <div className="custom-container">
+                <BreadCrumbs currPage="Salesforce Consulting" />
+            </div>
+            <div className="grid lg:grid-cols-10 xl:gap-16 gap-5 px-6 custom-container mt-10 lg:mt-16">
+
                 <div className="lg:col-span-6 4xl:col-span-6 2xl:col-span-5 ">
                     <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
                         Retaining Your Clients Or Aiming For Repeats: Make It Viable With Salesforce Consulting
@@ -393,7 +398,7 @@ export default function SalesForceConsulting() {
                         <div className="col-span-1 lg:col-span-6 grid grid-cols-1 md:grid-cols-2 lg:flex lg:flex-row gap-10 lg:gap-20">
                             {growthData.map((item, index) => (
                                 <div key={index}>
-                                      <div className="absolute inset-0 bg-white/5 rounded pointer-events-none" aria-hidden="true" />
+                                    <div className="absolute inset-0 bg-white/5 rounded pointer-events-none" aria-hidden="true" />
 
                                     <div className="px-2 bg-[#EDEDED] py-1 rounded text-[#0092E0] font-bold 4xl:text-[70px] xl:text-[40px] text-[23px]">
                                         {item.percentage}

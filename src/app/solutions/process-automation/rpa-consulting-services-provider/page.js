@@ -5,6 +5,8 @@ import Seo from "@/app/components/Seo";
 import Image from "next/image";
 import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
+import BreadCrumbs from '../../../components/BreadCrumbs'
+
 const featureBoxes = [
     {
         title: "Automation Strategy & License Advisory",
@@ -281,7 +283,9 @@ export default function DemandPlusSection() {
                 </div>
             </section>
             {/* page description */}
-            <section className="custom-container xl:!pr-0">
+            <section className="custom-container xl:!pr-0 mt-5">
+                <BreadCrumbs currPage="UiPath" />
+
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-24 mt-10 items-center">
                     <div className="col-span-2 mt-10 xl:mt-20 order-1 xl:order-2">
                         <Image

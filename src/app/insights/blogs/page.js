@@ -66,10 +66,21 @@ const allCategories = [
 ];
 
 const latestBlogs = [
+   {
+    "id": 74,
+    "image": "/images/blog/digital-connectivity-bridge-network-integration-thumb.webp",
+    "category": "SAP Ariba",
+    "industry": "Generic",
+    "date": "Jan. 12, 2026",
+    "url": "/sapbuyplus-sap-ariba-connected-procurement/",
+    "title": "SAPBuy+: The Missing Link in Ariba Procurement",
+    "alt": "Digital bridge with network connections linking smartphone to cloud representing SAP Ariba procurement integration system",
+    "description": "Procurement has undergone more significant changes in the last five years than it did in the previous twenty. "
+  },
  
-  
+ 
   {
-    "id": 72,
+    "id": 73,
     "image": "/images/blog/data-analysis-business-strategy-thumbnail.webp",
     "category": "SAP Consulting",
     "industry": "Generic",
@@ -80,7 +91,7 @@ const latestBlogs = [
     "description": "Enterprise SAP programs don’t fail because technology isn’t available; they fail when governance breaks down, when ownership blurs, and when decisions lack accountability. Large transformation programs involve multi-year roadmaps, cross-functional impact, and the kind of complexity where assumptions compound into risk quickly."
   },
   {
-    "id": 71,
+    "id": 72,
     "image": "/images/blog/fragmented-customer-journeys-feature-thumb.webp",
     "category": "Salesforce Marketing Cloud",
     "industry": "Generic",
@@ -90,8 +101,8 @@ const latestBlogs = [
     "alt": "Hexagonal tiles with human icons on a blue background representing fragmented customer journeys",
     "description": "Personalized marketing has been the promise for over a decade. Yet despite better tools, more data, and smarter platforms, customer engagement continues to fall short. "
   },
- {
-    "id": 70,
+  {
+    "id": 71,
     "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
     "category": "Salesforce Life Sciences Cloud",
     "industry": " Life Sciences",
@@ -102,7 +113,7 @@ const latestBlogs = [
     "description": "For years, most life sciences organizations treated CRM as a sales enablement tool — a place to track accounts, schedule visits, manage samples, and record touchpoints. "
   },
   {
-    "id": 69,
+    "id": 70,
     "image": "/images/blog/voygernext/voyager-thumb.webp",
     "category": "Grow with SAP",
     "industry": "Generic",
@@ -113,7 +124,7 @@ const latestBlogs = [
     "description": "According to McKinsey, more than 70 percent of organizations have already experimented with GenAI, and one in three expects AI to reshape core operations within the next three years."
   },
   {
-    "id": 68,
+    "id": 69,
     "image": "/images/blog/enterprise-growth-strategy-thumbnail.webp",
     "category": "Rise with SAP",
     "industry": "Generic",
@@ -124,7 +135,7 @@ const latestBlogs = [
     "description": "ERP modernization has been on boardroom agendas for years, yet success stories are still far fewer than expected. Leaders know transformation is necessary, but the path often turns bumpy."
   },
    {
-    "id": 73,
+    "id": 68,
     "image": "/images/blog/from-project-partner/thumb.webp",
     "category": "SAP Consulting",
     "industry": " Life Sciences",

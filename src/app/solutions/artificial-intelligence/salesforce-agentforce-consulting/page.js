@@ -4,107 +4,108 @@ import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import HealthcareStats from "@/app/components/HealthcareStats";
 import LearnMoreButton from "@/app/components/learnMore";
+import BreadCrumbs from '../../../components/BreadCrumbs'
 import ContactForm from "@/app/components/contactform";
 const schemaData = {
     "@context": "https://schema.org",
-  "@type": "Service",
-  "serviceType": "Salesforce Agentforce Consulting",
-  "name": "Agentforce Consulting Services | Rialtes",
-  "url": "https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"
-  },
-  "provider": {
-    "@type": "Organization",
-    "name": "Rialtes Technologies",
-    "url": "https://www.rialtes.com",
-    "logo": "https://www.rialtes.com/images/homepage/logo.svg",
-    "sameAs": [
-      "https://www.linkedin.com/company/rialtes-technologies-llc",
-      "https://x.com/rialtestech",
-      "https://www.instagram.com/rialtes_technologies/"   
-]
-  },
-  "areaServed": [
-    { "@type": "Country", "name": "United States" },
-    { "@type": "Country", "name": "Canada" },
-    { "@type": "Country", "name": "Singapore" },
-    { "@type": "Country", "name": "India" }
-  ],
-  "description": "Rialtes' Agentforce Consulting services accelerate adoption of Salesforce Agentforce and conversational AI across Sales, Service, Marketing and Industry Clouds. We deliver rapid AI-readiness assessments, low-code Agent Builder implementations, Einstein GPT automation, AgentChat (WhatsApp + Salesforce) integrations, governance and monitoring, pre-built industry actions, and managed services to drive measurable customer success.",
-"hasOfferCatalog": {
-    "@type": "OfferCatalog",
-    "name": "Agentforce Consulting Offerings",
-    "itemListElement": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "AI-Readiness Assessment",
-          "description": "Rapid, industry-tailored assessments to define Agentforce use cases, data readiness, guardrails and ROI targets."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Agentforce Implementation & Agent Builder",
-          "description": "Low-code Agent Builder implementations including Prompt Builder, Model Builder and Atlas reasoning-engine integration."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Conversational AI & Einstein GPT Automation",
-          "description": "Deploy conversational agents and Einstein GPT automations for sales, service and field teams to automate routine tasks."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "AgentChat — WhatsApp for Salesforce",
-          "description": "WhatsApp messaging embedded inside Salesforce with auto-responses, case creation, AI chatbots and marketing notifications."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Governance, Monitoring & Performance Intelligence",
-          "description": "Enterprise-grade governance, real-time agent monitoring, performance benchmarking and compliance controls for Agentforce 3.0."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Industry Actions & Pre-built Bots",
-          "description": "Pre-built industry actions (patient scheduling, claims processing, proposal generation, service scheduling) for accelerated time-to-value."
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Managed Services & Ongoing Enablement",
-          "description": "End-to-end managed services including onboarding workshops, user enablement, monitoring and continuous optimization."
-        }
-      }
-    ]
-  },
-  "audience": {
-    "@type": "Audience",
-    "audienceType": [
-      "CIO",
-      "CTO",
-      "CMO",
-      "Head of Customer Experience",
-      "IT Head"
-    ]
-  }
+    "@type": "Service",
+    "serviceType": "Salesforce Agentforce Consulting",
+    "name": "Agentforce Consulting Services | Rialtes",
+    "url": "https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"
+    },
+    "provider": {
+        "@type": "Organization",
+        "name": "Rialtes Technologies",
+        "url": "https://www.rialtes.com",
+        "logo": "https://www.rialtes.com/images/homepage/logo.svg",
+        "sameAs": [
+            "https://www.linkedin.com/company/rialtes-technologies-llc",
+            "https://x.com/rialtestech",
+            "https://www.instagram.com/rialtes_technologies/"
+        ]
+    },
+    "areaServed": [
+        { "@type": "Country", "name": "United States" },
+        { "@type": "Country", "name": "Canada" },
+        { "@type": "Country", "name": "Singapore" },
+        { "@type": "Country", "name": "India" }
+    ],
+    "description": "Rialtes' Agentforce Consulting services accelerate adoption of Salesforce Agentforce and conversational AI across Sales, Service, Marketing and Industry Clouds. We deliver rapid AI-readiness assessments, low-code Agent Builder implementations, Einstein GPT automation, AgentChat (WhatsApp + Salesforce) integrations, governance and monitoring, pre-built industry actions, and managed services to drive measurable customer success.",
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Agentforce Consulting Offerings",
+        "itemListElement": [
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "AI-Readiness Assessment",
+                    "description": "Rapid, industry-tailored assessments to define Agentforce use cases, data readiness, guardrails and ROI targets."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Agentforce Implementation & Agent Builder",
+                    "description": "Low-code Agent Builder implementations including Prompt Builder, Model Builder and Atlas reasoning-engine integration."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Conversational AI & Einstein GPT Automation",
+                    "description": "Deploy conversational agents and Einstein GPT automations for sales, service and field teams to automate routine tasks."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "AgentChat — WhatsApp for Salesforce",
+                    "description": "WhatsApp messaging embedded inside Salesforce with auto-responses, case creation, AI chatbots and marketing notifications."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Governance, Monitoring & Performance Intelligence",
+                    "description": "Enterprise-grade governance, real-time agent monitoring, performance benchmarking and compliance controls for Agentforce 3.0."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Industry Actions & Pre-built Bots",
+                    "description": "Pre-built industry actions (patient scheduling, claims processing, proposal generation, service scheduling) for accelerated time-to-value."
+                }
+            },
+            {
+                "@type": "Offer",
+                "itemOffered": {
+                    "@type": "Service",
+                    "name": "Managed Services & Ongoing Enablement",
+                    "description": "End-to-end managed services including onboarding workshops, user enablement, monitoring and continuous optimization."
+                }
+            }
+        ]
+    },
+    "audience": {
+        "@type": "Audience",
+        "audienceType": [
+            "CIO",
+            "CTO",
+            "CMO",
+            "Head of Customer Experience",
+            "IT Head"
+        ]
+    }
 }
 const AIBusinessBanner = () => {
     return (
@@ -139,8 +140,6 @@ const AIBusinessBanner = () => {
 
     );
 };
-
-
 const AgentforceBanner = () => {
     return (
         <section className="relative w-full custom-container max-md:px-0">
@@ -235,7 +234,6 @@ const AgentforcePromo = () => {
         </section>
     );
 }
-
 const IndustryActionsBanner = () => {
     return (
         <section className="relative bg-white">
@@ -302,7 +300,6 @@ const IndustryActionsBanner = () => {
 
     );
 }
-
 const AgentforceIndustryGrid = () => {
     const items = [
         {
@@ -397,7 +394,6 @@ const AgentforceIndustryGrid = () => {
         </section>
     );
 }
-
 const SalesforceAgentPromo = () => {
     return (
         <section className="bg-white py-12">
@@ -444,7 +440,6 @@ const SalesforceAgentPromo = () => {
 
     );
 }
-
 const AgentChatPromo = () => {
     return (
         <section className="bg-[#184671] text-white pt-12">
@@ -495,7 +490,6 @@ const AgentChatPromo = () => {
 
     );
 }
-
 const AgentforceHero = () => {
     return (
         <section className="relative w-full h-auto">
@@ -559,8 +553,6 @@ const AgentforceHero = () => {
         </section>
     );
 }
-
-
 export default function page() {
     return (
         <section>
@@ -614,8 +606,9 @@ export default function page() {
                 </div>
             </section>
             {/* page information */}
-            <section className="custom-container 4xl:mt-20 xl:mt-10 mt-10">
-                <div className="grid xl:grid-cols-12">
+            <section className="custom-container">
+                <BreadCrumbs currPage="Agentforce" />
+                <div className="grid xl:grid-cols-12 4xl:mt-[60px] mt-8">
                     <div className="4xl:col-span-9 2xl:col-span-8 xl:col-span-9">
                         <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] leading-tight mt-5 md:text-[28px] text-[26px] xl:pr-20 4xl:pr-0 2xl:pr-0">Salesforce Agentforce: What You Need to Know</h2>
                         <p className="leading-tight font-normal 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]  text-[16px] mt-10 max-[430px]:pr-10">

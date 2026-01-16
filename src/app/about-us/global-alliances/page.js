@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Seo from "../../components/Seo";
 import Script from "next/script";
+import BreadCrumbs from '../../components/BreadCrumbs'
 export default function Contact() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -230,7 +231,7 @@ export default function Contact() {
                         fill
                         priority
                         className="transform transition-transform duration-500 group-hover:scale-110 "
-                       style={{ objectFit: "cover" }}
+                        style={{ objectFit: "cover" }}
 
                     />
                 </div>
@@ -240,7 +241,7 @@ export default function Contact() {
                         src="/images/partners/partner 1.webp"
                         alt="mobile banner"
                         fill
-                         style={{ objectFit: "cover", objectPosition: "70% 50%" }}
+                        style={{ objectFit: "cover", objectPosition: "70% 50%" }}
 
                         priority
                     />
@@ -262,6 +263,8 @@ export default function Contact() {
             </section>
             {/* page description */}
             <section className="custom-container">
+                <BreadCrumbs currPage="Global Alliances" subPath=" " />
+
                 <div className="grid lg:grid-cols-12 xl:grid-cols-12 mt-16 mb-16">
                     <div className="lg:col-span-6 xl:col-span-6">
                         <h2 className="xl:w-[60%]  w-full 4xl:text-[60px] xl:text-[40px] text-[26px]  leading-tight">Our Strategic Partners</h2>

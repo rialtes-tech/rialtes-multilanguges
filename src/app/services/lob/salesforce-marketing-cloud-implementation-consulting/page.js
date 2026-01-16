@@ -5,6 +5,8 @@ import Seo from "@/app/components/Seo";
 import LearnMore from "@/app/components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
+import BreadCrumbs from '@/app/components/BreadCrumbs'
+
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -347,8 +349,10 @@ export default function Page() {
                 </div>
             </section>
             {/* page description */}
-            <section className="mt-16 custom-container">
-                <div className="grid xl:grid-cols-12 grid-cols-1">
+            <section className="mt-5 custom-container">
+                <BreadCrumbs currPage="Salesforce Marketing Cloud" subPath="Line of Business" />
+
+                <div className="grid xl:grid-cols-12 grid-cols-1 mt-16">
                     <div className="4xl:col-span-10 xl:col-span-8 col-span-12">
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:mb-8 pr-[2rem] xl:pr-0 4xl:pr-0">
                             Deliver Hyper-Personalized, Data-Driven Experiences with Advantage+
