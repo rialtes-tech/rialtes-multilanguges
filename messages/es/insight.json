@@ -180,6 +180,7 @@
       "Grow with SAP",
        "Salesforce Life Sciences Cloud",
        "Kinaxis RapidResponse",
+       "Salesforce FSC",
       "Otros"
     ],
     "slides": [
@@ -230,7 +231,18 @@
     ],
     "latestBlogs": [
       {
-            "id": 74,
+  "id": 76,
+  "image": "/images/blog/smart-city-digital-network-iot-technology-thumb.webp",
+  "category": "Salesforce FSC",
+  "industry": "Finance",
+  "date": "Jan. 14, 2026",
+  "url": "/ai-powered-banking-salesforce-fsc-rialfinanceplus/",
+  "title": "Cómo Salesforce Financial Services Cloud impulsado por IA está transformando la banca moderna",
+  "alt": "Ciudad digital futurista con flujos de datos brillantes y conexiones de red representando tecnología de ciudad inteligente IoT",
+  "description": "Los servicios financieros están cambiando más rápido de lo que la mayoría de las instituciones pueden rediseñar sus modelos operativos. Según Accenture, casi el 73 % de los clientes bancarios ahora esperan el mismo nivel de personalización"
+},
+      {
+            "id": 75,
             "image": "/images/blog/automated-warehouse-conveyor-system-logistics-thumbnail.webp",
             "category": "Kinaxis RapidResponse",
             "industry": "Generic",
@@ -241,7 +253,7 @@
            "description": "Las cadenas de suministro ya no se rompen. Se doblan, se recuperan y se vuelven a poner a prueba casi de inmediato. La demanda aumenta sin previo aviso. Los proveedores incumplen compromisos."
         }, 
       {
-        "id": 75,
+        "id": 74,
         "image": "/images/blog/fragmented-customer-journeys-feature-thumb.webp",
         "category": "Salesforce Marketing Cloud",
         "industry": "Genérico",
@@ -253,7 +265,7 @@
       },
      
       {
-        "id": 72,
+        "id": 73,
         "image": "/images/blog/data-analysis-business-strategy-thumbnail.webp",
         "category": "Consultoría SAP",
         "industry": "Genérico",
@@ -264,7 +276,7 @@
         "description": "Los programas SAP empresariales no fracasan porque la tecnología no esté disponible; fracasan cuando la gobernanza se debilita, cuando la responsabilidad se diluye y cuando las decisiones carecen de rendición de cuentas. Los grandes programas de transformación implican hojas de ruta de varios años, impacto multifuncional y un nivel de complejidad en el que las suposiciones se convierten rápidamente en riesgos."
       },
       {
-        "id": 71,
+        "id": 72,
         "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
         "category": "Salesforce Life Sciences Cloud",
         "industry": "Ciencias de la vida",
@@ -275,7 +287,7 @@
         "description": "Durante años, la mayoría de las organizaciones de ciencias de la vida trataron el CRM como una herramienta de habilitación de ventas: un lugar para realizar el seguimiento de cuentas, programar visitas, gestionar muestras y registrar puntos de contacto."
       },
       {
-        "id": 70,
+        "id": 71,
         "image": "/images/blog/voygernext/voyager-thumb.webp",
         "category": "Grow con SAP",
         "industry": "Genérico",
@@ -286,7 +298,7 @@
         "description": "Según McKinsey, más del 70 % de las organizaciones ya han experimentado con GenAI, y una de cada tres espera que la IA transforme las operaciones centrales en los próximos tres años."
       },
       {
-        "id": 69,
+        "id": 70,
         "image": "/images/blog/enterprise-growth-strategy-thumbnail.webp",
         "category": "Rise with SAP",
         "industry": "Generic",
@@ -297,7 +309,7 @@
         "description": "La modernización del ERP ha estado en la agenda de los consejos directivos durante años, pero los casos de éxito siguen siendo mucho menos frecuentes de lo esperado. Los líderes saben que la transformación es necesaria, pero el camino suele volverse accidentado."
       },
        {
-        "id": 72,
+        "id": 69,
         "image": "/images/blog/from-project-partner/thumb.webp",
         "category": "Consultoría SAP",
         "industry": "Ciencias de la Vida",
