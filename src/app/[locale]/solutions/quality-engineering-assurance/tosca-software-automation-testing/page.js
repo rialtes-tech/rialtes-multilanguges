@@ -10,12 +10,13 @@ import enContent from '../../../../../../messages/en/solutions.json';
 import esContent from '../../../../../../messages/es/solutions.json';
 import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 export default function DemandPlusSection() {
   const t = useTranslations("tosca");
   const locale = useLocale();
   const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { whychooseData, endToEndData, qTestData, liveCompareData, neoLoadData, expertsList, seamlessData,schemaData } = homepageContent.tosca;
+  const { whychooseData, endToEndData, qTestData, liveCompareData, neoLoadData, expertsList, seamlessData, schemaData } = homepageContent.tosca;
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -66,6 +67,10 @@ export default function DemandPlusSection() {
             <div className="xl:col-span-7 col-span-12"></div>
           </div>
         </div>
+      </section>
+      {/* breadcrumb */}
+      <section className="custom-container">
+        <BreadCrumbs />
       </section>
       {/* page description */}
       <section className="custom-container xl:!pr-0">
@@ -264,7 +269,7 @@ export default function DemandPlusSection() {
         <div className={`bg-[#073259] p-8 relative
          ${locale === "es"
             ? "4xl:mt-[440px] xl:mt-[330px] 2xl:mt-[300px] md:mt-[38rem] lg:mt-[32rem]  sm:mt-[37rem] max-[350px]:mt-[900px] max-[390px]:mt-[850px] max-[375px]:mt-[870px] max-sm:mt-[780px]"
-            
+
             : locale === "fr"
               ? "4xl:mt-[420px] xl:mt-[330px] 2xl:mt-[280px] md:mt-[38rem] lg:mt-[32rem]  sm:mt-[37rem] max-[350px]:mt-[900px] max-[390px]:mt-[835px] max-[375px]:mt-[850px] max-sm:mt-[755px]"
               : "4xl:mt-[420px] xl:mt-[310px] 2xl:mt-[290px] md:mt-[32rem] lg:mt-[31rem]  sm:mt-[32rem] max-[350px]:mt-[900px] max-[390px]:mt-[780px] max-[375px]:mt-[810px] max-sm:mt-[710px]"
@@ -314,7 +319,7 @@ export default function DemandPlusSection() {
               liClassName="4xl:text-[20px] text-[16px]"
             />
             <div className="xl:hidden block mt-5">
-              <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale}/>
+              <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale} />
             </div>
           </div>
         </div>
@@ -334,7 +339,7 @@ export default function DemandPlusSection() {
         </div>
         <div className="xl:col-span-1"></div>
         <div className="xl:col-span-2 xl:block hidden">
-          <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale}/>
+          <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale} />
         </div>
       </div>
       {/* neo load section */}
@@ -397,7 +402,7 @@ export default function DemandPlusSection() {
                 liClassName=" 4xl:text-[20px]  text-[16px]"
               />
               <div className="xl:hidden block mt-10">
-                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale}/>
+                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale} />
               </div>
               <div className="xl:hidden block bg-[#073259] p-8  mt-[40px]">
                 <p className="4xl:text-[24px] xl:text-[16px] text-[18px] text-white leading-tight font-normal">

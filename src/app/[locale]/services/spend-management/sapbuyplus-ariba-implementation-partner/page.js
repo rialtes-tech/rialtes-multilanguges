@@ -9,6 +9,7 @@ import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
 import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 import Script from "next/script";
 
 export default function page() {
@@ -495,6 +496,10 @@ export default function page() {
                         </div>
                     </div>
                 </div>
+            </section>
+            {/* breadcrumb */}
+            <section className="custom-container">
+                <BreadCrumbs />
             </section>
             {/* page information */}
             <section className="custom-container mt-[51px] lg:mt-[85px] px-[2rem]">

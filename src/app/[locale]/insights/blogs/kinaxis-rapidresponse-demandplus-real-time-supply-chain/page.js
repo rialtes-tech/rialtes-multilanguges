@@ -15,18 +15,19 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import { FaChevronRight } from "react-icons/fa";
 import { FaChevronDown } from "react-icons/fa";
 
+
 export default function Page() {
-     const fullUrl = "https://www.rialtes.com/insights/blogs/kinaxis-rapidresponse-demandplus-real-time-supply-chain"
-        const currUrl = useUrl()
-        const t = useTranslations("kinaxisBlog");
-        const locale = useLocale();
-        const blogsContent = changeLocalization(locale, {
-            en: enContent,
-            es: esContent,
-            fr: frContent,
-        });
-    
-        const { schemaData,blogMainData ,whyData ,realData, planData,visibilityData ,DemandData ,DemandplusData,DeliversData,benefitsData ,businessData,faqData} = blogsContent.kinaxisBlog
+  const fullUrl = "https://www.rialtes.com/insights/blogs/kinaxis-rapidresponse-demandplus-real-time-supply-chain"
+  const currUrl = useUrl()
+  const t = useTranslations("kinaxisBlog");
+  const locale = useLocale();
+  const blogsContent = changeLocalization(locale, {
+    en: enContent,
+    es: esContent,
+    fr: frContent,
+  });
+
+  const { schemaData, blogMainData, whyData, realData, planData, visibilityData, DemandData, DemandplusData, DeliversData, benefitsData, businessData, faqData } = blogsContent.kinaxisBlog
 
 
   return (
@@ -34,7 +35,7 @@ export default function Page() {
       <Seo
         title="DemandPlus with Kinaxis RapidResponse: Resilient Supply Chains"
         description="DemandPlus is our end-to-end service suite built around Kinaxis RapidResponse to help organizations achieve connected, intelligent, and resilient supply chains."
-         canonical={`https://www.rialtes.com/${locale}/insights/blogs/kinaxis-rapidresponse-demandplus-real-time-supply-chain/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/kinaxis-rapidresponse-demandplus-real-time-supply-chain/`}
       />
       <Script
         id="schema-kinaxis"
@@ -69,7 +70,7 @@ export default function Page() {
         <div className="grid lg:grid-cols-12 grid-cols-12">
           <div className="4xl:col-span-10 xl:col-span-10 lg:col-span-11 col-span-12">
             {/* date and icons */}
-             <BlogSocialIcons fullUrl={fullUrl} topic={t('blogCategory')} date="13 January 2026" />
+            <BlogSocialIcons fullUrl={fullUrl} topic={t('blogCategory')} date="13 January 2026" />
 
             {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">
@@ -115,14 +116,14 @@ export default function Page() {
                         </p>
                         <div className="grid grid-cols-2 border  overflow-hidden gap-1">
                           <div className="bg-[#C9C9C9] p-4 font-semibold 4xl:text-[24px] 2xl:text-[19px] md:text-[18px] text-[16px]">
-                           {t('old')}
+                            {t('old')}
                           </div>
                           <div className="bg-[#E2E2E2] p-4 font-semibold 4xl:text-[24px] 2xl:text-[19px] md:text-[18px] text-[16px]">
                             {t('realTitle')}
                           </div>
 
                           <div className="bg-[#B5E0DA] p-4 font-semibold 4xl:text-[24px] 2xl:text-[19px] md:text-[18px] text-[16px]">
-                           {t('batchTitle')}
+                            {t('batchTitle')}
                           </div>
                           <div className="bg-[#C6F5EE] p-4 font-semibold 4xl:text-[24px] 2xl:text-[19px] md:text-[18px] text-[16px]">
                             {t('continue')}
@@ -132,14 +133,14 @@ export default function Page() {
                             {t('data')}
                           </div>
                           <div className="bg-[#AEE8FD] p-4 font-semibold 4xl:text-[24px] 2xl:text-[19px] md:text-[18px] text-[16px]">
-                           {t('eco')}
+                            {t('eco')}
                           </div>
 
                           <div className="bg-[#9FA3E2] p-4 font-semibold 4xl:text-[24px] 2xl:text-[19px] md:text-[18px] text-[16px]">
-                           {t('reactive')}
+                            {t('reactive')}
                           </div>
                           <div className="bg-[#BFC3FE] p-4 font-semibold 4xl:text-[24px] 2xl:text-[19px] md:text-[18px] text-[16px]">
-                           {t('pro')}
+                            {t('pro')}
                           </div>
                         </div>
                       </div>
@@ -208,7 +209,7 @@ export default function Page() {
                       <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                         {data.desc2}
                       </p>
-                       <p className="md:mt-8 mt-5 4xl:text-[24px] 2xl:text-[19px] text-[18px] font-bold">
+                      <p className="md:mt-8 mt-5 4xl:text-[24px] 2xl:text-[19px] text-[18px] font-bold">
                         {data.desc4}
                       </p>
                       <div className="mt-8 w-full">
@@ -220,7 +221,7 @@ export default function Page() {
                               className="flex items-center relative"
                             >
                               <div
-                              style={{ backgroundColor: step.bg }}
+                                style={{ backgroundColor: step.bg }}
                                 className="px-6 py-3 font-bold 4xl:text-[22px] 2xl:text-[19px] lg:text-[16px]  min-w-[160px] text-start"
                               >
                                 {step.text}
@@ -308,10 +309,10 @@ export default function Page() {
                       <h2 className="mb-[22px] xl:mb-[30px] font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                         {data.title}
                       </h2>
-                         <p
-                      className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
-                      dangerouslySetInnerHTML={{ __html: data.desc }}
-                    />
+                      <p
+                        className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                        dangerouslySetInnerHTML={{ __html: data.desc }}
+                      />
                       <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                         {data.desc1}
                       </p>
@@ -442,7 +443,7 @@ export default function Page() {
                         arrName={data.list}
                         ulClassName="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[36px] lg:pl-[56px] font-medium space-y-2"
                       />
-                       <p
+                      <p
                         className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                         dangerouslySetInnerHTML={{ __html: data.desc1 }}
                       />
@@ -465,7 +466,7 @@ export default function Page() {
                         arrName={data.list}
                         ulClassName="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[36px] lg:pl-[56px] font-medium space-y-2"
                       />
-                       <p
+                      <p
                         className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                         dangerouslySetInnerHTML={{ __html: data.desc1 }}
                       />
@@ -488,10 +489,10 @@ export default function Page() {
         </div>
       </section>
 
-     {/* blog carousel */}
-               <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
-                   <FilteredBlogCarousel url={currUrl} />
-               </section>
+      {/* blog carousel */}
+      <section className="custom-container lg:pr-0 xl:my-[80px] md:my-[60px] my-[40px]">
+        <FilteredBlogCarousel url={currUrl} />
+      </section>
     </section>
   );
 }

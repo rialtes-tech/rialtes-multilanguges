@@ -10,6 +10,8 @@ import esContent from '../../../../../../messages/es/services.json';
 import frContent from '../../../../../../messages/fr/services.json';
 import { useLocale, useTranslations } from "next-intl";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+
 export default function Page() {
   const t = useTranslations('successPlus')
   const locale = useLocale();
@@ -70,6 +72,10 @@ export default function Page() {
             </div>
           </div>
         </div>
+      </section>
+      {/* breadcrumb */}
+      <section className="custom-container">
+        <BreadCrumbs />
       </section>
       {/* page description */}
       <section className="custom-container xl:mt-[78px] mt-[51px]">

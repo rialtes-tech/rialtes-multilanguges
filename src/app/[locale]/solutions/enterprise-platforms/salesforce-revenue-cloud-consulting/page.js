@@ -11,6 +11,7 @@ import enContent from "../../../../../../messages/en/solutions.json";
 import esContent from "../../../../../../messages/es/solutions.json";
 import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 export default function HealthCloud() {
   const t = useTranslations("revenueCloud");
@@ -75,6 +76,10 @@ export default function HealthCloud() {
             <div className="col-span-12 lg:col-span-3 xl:col-span-5"></div>
           </div>
         </div>
+      </section>
+      {/* breadcrumb */}
+      <section className="custom-container">
+        <BreadCrumbs />
       </section>
       {/* page description */}
       <section className="custom-container">
