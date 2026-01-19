@@ -10,12 +10,13 @@ import esContent from '../../../../../../messages/es/solutions.json';
 import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 export default function page() {
     const t = useTranslations('sapCpi')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { thoughtLeadershipData, endToEndData, specializedData, integrationData, commonSectionsData, whyRialtesData,schemaData } = content.sapCpi;
+    const { thoughtLeadershipData, endToEndData, specializedData, integrationData, commonSectionsData, whyRialtesData, schemaData } = content.sapCpi;
     return (
         <section className="min-h-screen">
             <Seo
@@ -67,6 +68,10 @@ export default function page() {
                     </div>
                 </div>
             </section>
+            {/* breadcrumb */}
+            <section className="custom-container">
+                <BreadCrumbs />
+            </section>
             {/* page description */}
             <section className="custom-container xl:mt-[131px] mt-[50px]">
                 <div className="grid lg:grid-cols-12 grid-cols-1 xl:gap-[40px] lg:gap-[20px] gap-y-[25px]">
@@ -83,7 +88,7 @@ export default function page() {
                         </div>
                     </div>
                     <div className="lg:col-span-7 xl:col-span-6 4xl:col-span-5 col-span-12">
-                        <p className="md:text-[18px] 4xl:text-[22px] text-[16px]"  dangerouslySetInnerHTML={{ __html: t('pageDesc') }}/>
+                        <p className="md:text-[18px] 4xl:text-[22px] text-[16px]" dangerouslySetInnerHTML={{ __html: t('pageDesc') }} />
                     </div>
                 </div>
             </section>
@@ -168,7 +173,7 @@ export default function page() {
                             })
                         }
                         <div className="absolute max-md:left-0 md:right-0 bottom-[-100px]">
-                            <LearnMore btnName={t('learnMore')}/>
+                            <LearnMore btnName={t('learnMore')} />
                         </div>
                     </div>
                 </div>
@@ -208,7 +213,7 @@ export default function page() {
                                             </div>
                                         </div>
                                         <div className="xl:mt-[61px] mt-[44px]">
-                                            <LearnMore btnName={t('learnMore')}/>
+                                            <LearnMore btnName={t('learnMore')} />
                                         </div>
                                     </div>
                                     <div className="lg:order-2 order-1">
@@ -282,7 +287,7 @@ export default function page() {
                                 </p>
                                 <UnorderedList arrName={integrationData} ulClassName="list-disc xl:mt-[44px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="text-[16px] md:text-[18px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] leading-tight" />
                                 <div className="absolute md:mt-[40px] mt-[60px]">
-                                    <LearnMore btnName={t('learnMore')}/>
+                                    <LearnMore btnName={t('learnMore')} />
                                 </div>
                             </div>
                         </div>
@@ -311,7 +316,7 @@ export default function page() {
                                                 </p>
                                                 <UnorderedList arrName={data.dataList} ulClassName="list-disc xl:mt-[34px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px] sm:w-[80%] md:w-full" liClassName="text-[16px] md:text-[18px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] leading-tight" />
                                                 <div className="md:mt-[83px] mt-[25px]">
-                                                    <LearnMore btnName={t('learnMore')}/>
+                                                    <LearnMore btnName={t('learnMore')} />
                                                 </div>
                                             </div>
                                             {/* image section */}
@@ -397,7 +402,7 @@ export default function page() {
                                                 </p>
                                                 <UnorderedList arrName={data.dataList} ulClassName="list-disc xl:mt-[34px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px] sm:w-[80%] md:w-[90%] lg:w-full" liClassName="text-[16px] md:text-[18px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] leading-tight" />
                                                 <div className="lg:mt-[60px] mt-[33px]">
-                                                    <LearnMore btnName={t('learnMore')}/>
+                                                    <LearnMore btnName={t('learnMore')} />
                                                 </div>
                                             </div>
                                         </div>
@@ -440,7 +445,7 @@ export default function page() {
                                 </h2>
                                 <UnorderedList arrName={whyRialtesData} ulClassName="list-disc xl:mt-[60px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="text-[16px] md:text-[18px] 2xl:text-[18px] xl:text-[18px] 4xl:text-[20px] leading-tight" />
                                 <div className="absolute xl:mt-[40px] lg:mt-[20px] sm:mt-[10px] mt-[20px]">
-                                    <LearnMore btnName={t('learnMore')}/>
+                                    <LearnMore btnName={t('learnMore')} />
                                 </div>
                             </div>
                         </div>

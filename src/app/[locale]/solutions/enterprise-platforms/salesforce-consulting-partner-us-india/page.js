@@ -14,6 +14,8 @@ import enContent from "../../../../../../messages/en/solutions.json";
 import esContent from "../../../../../../messages/es/solutions.json";
 import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+
 
 export default function SalesForceConsulting() {
   const t = useTranslations("salesForceConsulting");
@@ -67,6 +69,10 @@ export default function SalesForceConsulting() {
         </div>
       </div>
 
+      {/* breadcrumb */}
+      <section className="custom-container">
+        <BreadCrumbs />
+      </section>
       <div className="grid lg:grid-cols-10 xl:gap-16 gap-5 px-6 custom-container mt-10 md:mt-16">
         <div className="lg:col-span-6 4xl:col-span-6 2xl:col-span-5 ">
           <h2 className="leading-tight 4xl:text-[60px] 2xl:text-[40px] xl:text-[40px] md:text-[30px] text-[26px]">
@@ -79,7 +85,7 @@ export default function SalesForceConsulting() {
             {t("clientsDesc")}
           </p>
         </div>
-    </div>
+      </div>
 
       {/* section crm consulting */}
       <section className="mt-16 px-6 custom-container">

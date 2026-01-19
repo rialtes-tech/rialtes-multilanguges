@@ -13,12 +13,14 @@ import esContent from '../../../../../../messages/es/solutions.json';
 import frContent from '../../../../../../messages/fr/solutions.json';
 import LearnMore from "@/app/[locale]/components/learnMore";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+
 
 export default function Page() {
     const t = useTranslations('sapConsulting')
     const locale = useLocale();
-    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent }); 
-    const { solutionSuccess,schemaData } = content.sapConsulting;
+    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+    const { solutionSuccess, schemaData } = content.sapConsulting;
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -80,6 +82,10 @@ export default function Page() {
                     </div>
                 </div>
             </section>
+            {/* breadcrumb */}
+            <div className="custom-container">
+                <BreadCrumbs />
+            </div>
             {/* leverage sap section */}
             <section className="w-full custom-container xl:mt-[124px] mt-[53px] xl:mb-[0px] mb-[52px]">
                 <div className="grid md:grid-cols-2 xl:gap-[40px] gap-[39px]">
