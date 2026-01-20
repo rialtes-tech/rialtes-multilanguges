@@ -72,6 +72,7 @@ const categoryData = [
       "Salesforce Data Cloud",
       "Salesforce Life Sciences Cloud",
       "Salesforce Marketing Cloud",
+      "Salesforce FSC"
     ],
   },
   {
@@ -99,17 +100,28 @@ const categoryData = [
 
 const latestBlogs = [
   {
-    "id": 75,
-    "image": "/images/blog/automated-warehouse-conveyor-system-logistics-thumbnail.webp",
-    "category": "Kinaxis RapidResponse",
-    "industry": "Generic",
-    "date": "Jan. 13, 2026",
-    "url": "/kinaxis-rapidresponse-demandplus-real-time-supply-chain/",
-    "title": "Building a Real-Time, Resilient Supply Chain with Rialtes Demand+",
-    "alt": "Automated warehouse with colorful light trails showing high-speed conveyor systems and efficient inventory movement in motion",
-    "description": "Supply chains don’t break anymore. They bend, snap back, and get tested again almost immediately. Demand spikes without warning. Suppliers miss commitments."
-  },
+             "id": 76,
+            "image": "/images/blog/smart-city-digital-network-iot-technology-thumb.webp",
+            "category": "Salesforce FSC",
+            "industry": "Finance",
+            "date": "Jan. 14, 2026",
+            "url": "/ai-powered-banking-salesforce-fsc-rialfinanceplus/",
+            "title": "How AI-Powered Salesforce Financial Services Cloud Is Transforming Modern Banking",
+            "alt":"Futuristic digital city with glowing data streams and network connections representing smart city technology and urban IoT",
+            "description": "Financial services are changing faster than most institutions can redesign their operating models. According to Accenture, nearly 73% of banking customers now expect the same"
+        },
   {
+             "id": 75,
+            "image": "/images/blog/automated-warehouse-conveyor-system-logistics-thumbnail.webp",
+            "category": "Kinaxis RapidResponse",
+            "industry": "Generic",
+            "date": "Jan. 13, 2026",
+            "url": "/kinaxis-rapidresponse-demandplus-real-time-supply-chain/",
+            "title": "Building a Real-Time, Resilient Supply Chain with Rialtes Demand+",
+            "alt": "Automated warehouse with colorful light trails showing high-speed conveyor systems and efficient inventory movement in motion",
+            "description": "Supply chains don’t break anymore. They bend, snap back, and get tested again almost immediately. Demand spikes without warning. Suppliers miss commitments."
+        },
+   {
     "id": 74,
     "image": "/images/blog/digital-connectivity-bridge-network-integration-thumb.webp",
     "category": "SAP Ariba",
