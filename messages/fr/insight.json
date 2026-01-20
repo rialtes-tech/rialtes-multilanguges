@@ -179,6 +179,7 @@
       "Grow with SAP",
        "Salesforce Life Sciences Cloud",
        "Kinaxis RapidResponse",
+       "Salesforce FSC",
       "Autres"
     ],
     "slides": [
@@ -228,8 +229,19 @@
       }
     ],
     "latestBlogs": [
+      {
+  "id": 76,
+  "image": "/images/blog/smart-city-digital-network-iot-technology-thumb.webp",
+  "category": "Salesforce FSC",
+  "industry": "Finance",
+  "date": "Jan. 14, 2026",
+  "url": "/ai-powered-banking-salesforce-fsc-rialfinanceplus/",
+  "title": "Comment Salesforce Financial Services Cloud, alimenté par l’IA, transforme la banque moderne",
+  "alt": "Ville numérique futuriste avec flux de données lumineux et connexions réseau représentant technologie ville intelligente IoT",
+  "description": "Les services financiers évoluent plus rapidement que la capacité de la plupart des institutions à repenser leurs modèles opérationnels. Selon Accenture, près de 73 % des clients bancaires attendent désormais le même niveau de personnalisation"
+},
     {
-            "id": 74,
+            "id": 75,
             "image": "/images/blog/automated-warehouse-conveyor-system-logistics-thumbnail.webp",
             "category": "Kinaxis RapidResponse",
             "industry": "Generic",
@@ -240,7 +252,7 @@
            "description": "Les chaînes d’approvisionnement ne se brisent plus. Elles se plient, rebondissent et sont testées à nouveau presque immédiatement. La demande augmente sans avertissement. Les fournisseurs ne respectent pas leurs engagements."
         }, 
       {
-        "id": 72,
+        "id": 74,
         "image": "/images/blog/data-analysis-business-strategy-thumbnail.webp",
         "category": "Conseil SAP",
         "industry": "Générique",
@@ -251,7 +263,7 @@
         "description": "Les programmes SAP d’entreprise n’échouent pas parce que la technologie fait défaut ; ils échouent lorsque la gouvernance se dégrade, que la responsabilité devient floue et que les décisions manquent de redevabilité. Les grands programmes de transformation impliquent des feuilles de route pluriannuelles, des impacts transverses et un niveau de complexité où les hypothèses se transforment rapidement en risques."
       },
       {
-        "id": 75,
+        "id": 73,
         "image": "/images/blog/fragmented-customer-journeys-feature-thumb.webp",
         "category": "Salesforce Marketing Cloud",
         "industry": "Générique",
@@ -262,7 +274,7 @@
         "description": "Le marketing personnalisé est une promesse depuis plus de dix ans. Pourtant, malgré de meilleurs outils, davantage de données et des plateformes plus intelligentes, l’engagement client continue de décevoir."
       },
       {
-        "id": 71,
+        "id": 72,
         "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
         "category": "Salesforce Life Sciences Cloud",
         "industry": "Sciences de la vie",
@@ -273,7 +285,7 @@
         "description": "Pendant des années, la plupart des organisations des sciences de la vie ont considéré le CRM comme un outil d’aide à la vente — un espace pour suivre les comptes, planifier les visites, gérer les échantillons et enregistrer les points de contact."
       },
       {
-        "id": 70,
+        "id": 71,
         "image": "/images/blog/voygernext/voyager-thumb.webp",
         "category": "GROW avec SAP",
         "industry": "Générique",
@@ -284,7 +296,7 @@
         "description": "Selon McKinsey, plus de 70 % des organisations ont déjà expérimenté la GenAI, et une sur trois s’attend à ce que l’IA transforme les opérations clés au cours des trois prochaines années."
       },
       {
-        "id": 69,
+        "id": 70,
         "image": "/images/blog/enterprise-growth-strategy-thumbnail.webp",
         "category": "Rise with SAP",
         "industry": "Generic",
@@ -295,7 +307,7 @@
         "description": "La modernisation des ERP figure depuis des années à l’agenda des conseils d’administration, pourtant les réussites restent bien moins nombreuses que prévu. Les dirigeants savent que la transformation est nécessaire, mais le parcours devient souvent semé d’embûches."
       },
         {
-        "id": 72,
+        "id": 69,
         "image": "/images/blog/from-project-partner/thumb.webp",
         "category": "Conseil SAP",
         "industry": "Sciences de la vie",

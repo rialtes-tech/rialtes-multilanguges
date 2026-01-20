@@ -10,18 +10,20 @@ import enContent from '../../../../../../messages/en/solutions.json';
 import esContent from '../../../../../../messages/es/solutions.json';
 import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+
 
 export default function DataCloud() {
   const t = useTranslations('salesforceDataCloud')
   const locale = useLocale();
   const cloudContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { featureBoxes, stats, services,schemaData } = cloudContent.salesforceDataCloud;
+  const { featureBoxes, stats, services, schemaData } = cloudContent.salesforceDataCloud;
   const [hoveredBlog, setHoveredBlog] = useState(null);
   const handleMouseEnter = (blogName) => {
     return () => {
       setHoveredBlog(blogName);
     };
-  }; 
+  };
   const handleMouseLeave = () => {
     return () => {
       setHoveredBlog(null);
@@ -97,6 +99,7 @@ export default function DataCloud() {
       </section>
       {/* page description */}
       <section className="custom-container">
+        <BreadCrumbs/>
         <section className="pt-16 bg-white">
           <div className="mx-auto">
             <h2 className="text-[#000000] 4xl:text-[60px] xl:text-[40px] text-[26px] mb-8">
@@ -151,7 +154,7 @@ export default function DataCloud() {
               {t('unitedTitle')}
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-16 xl:mt-[64px] mt-[46px]">
-              {stats.map((stat, index) => ( 
+              {stats.map((stat, index) => (
                 <div key={index} className="text-left">
                   <div className="mb-4">
                     <span className="text-4xl md:text-5xl font-bold text-[#0092E0]">

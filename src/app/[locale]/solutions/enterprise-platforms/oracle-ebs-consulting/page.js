@@ -9,14 +9,16 @@ import enContent from '../../../../../../messages/en/solutions.json';
 import esContent from '../../../../../../messages/es/solutions.json';
 import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
-export default function Page() { 
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+
+export default function Page() {
   const t = useTranslations('oracle')
   const locale = useLocale();
   const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { data, InventoryData, oracleFeatures, ebsListItems, keyCapabilitiesData, businessBenefitsData, howWeTransformData, outcomeData, endToEndData, realWorldData ,schemaData,
+  const { data, InventoryData, oracleFeatures, ebsListItems, keyCapabilitiesData, businessBenefitsData, howWeTransformData, outcomeData, endToEndData, realWorldData, schemaData,
     aiDrivenData, ebsData
   } = homepageContent.oracle;
-  return ( 
+  return (
     <div className="min-h-screen bg-white">
       <Seo
         title={t('seoTitle')}
@@ -64,6 +66,10 @@ export default function Page() {
             </h2>
           </div>
         </div>
+      </section>
+      {/* breadcrumb */}
+      <section className="custom-container">
+        <BreadCrumbs />
       </section>
       {/* Empower your enterprise with Rialtes section */}
       <section className="xl:py-20 pt-10 pb-5">
@@ -240,7 +246,7 @@ export default function Page() {
                     fill
                     className="object-cover"
                     priority
-                    sizes="100vw" 
+                    sizes="100vw"
                   />
                 </div>
                 <div className="max-sm:px-[36px]">
