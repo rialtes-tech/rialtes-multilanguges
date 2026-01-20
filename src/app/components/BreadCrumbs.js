@@ -7,16 +7,11 @@ export default function Breadcrumb({ currPage, subPath }) {
     const pathname = usePathname();
     const cleanPath = pathname.replace(/\/$/, "");
     const segments = cleanPath.split("/").filter(Boolean);
-    console.log(segments, segments.length);
 
     const EXISTING_ROUTES = {
         "about-us": "/about-us",
         "industry": "/industry",
-        "life-sciences": "/industry/life-sciences-digital-transformation",
-        "": "",
-        "": "",
-        "": "",
-        "": ""
+        "life-sciences": "/industry/life-sciences-digital-transformation"
     };
 
     let manualPath;
