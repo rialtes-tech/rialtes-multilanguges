@@ -10,13 +10,14 @@ import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
 import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 
 export default function Page() {
     const t = useTranslations('advantagePlus')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { latestServices, moreSalesforce, deepData1, deepData2, marketingFeatures, aiMarketingData, agentChatData, yourGrowthData,schemaData } = content.advantagePlus;
+    const { latestServices, moreSalesforce, deepData1, deepData2, marketingFeatures, aiMarketingData, agentChatData, yourGrowthData, schemaData } = content.advantagePlus;
     const ServicesCard = ({ services }) => (
         <div className="flex flex-col border border-[#707070] p-6 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
             <div className="flex-grow flex flex-col">
@@ -122,10 +123,14 @@ export default function Page() {
                     </div>
                 </div>
             </section>
+            {/* breadcrumb */}
+            <section className="custom-container">
+                <BreadCrumbs />
+            </section>
             {/* page description */}
             <section className="mt-16 custom-container">
                 <div className="grid xl:grid-cols-12 grid-cols-1">
-                      <div className="4xl:col-span-10 xl:col-span-8 col-span-12">
+                    <div className="4xl:col-span-10 xl:col-span-8 col-span-12">
                         <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] xl:mb-8 pr-[2rem] xl:pr-0 4xl:pr-0">
                             {t('pageDescTitle')}
                         </h2>
@@ -178,7 +183,7 @@ export default function Page() {
                                 {t('deepTitle')}     </h2>
 
                             <p className="mt-4 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] 4xl:pr-[40rem] 2xl:pr-[32rem] xl:pr-[25rem]">
-                                {t('deepDesc')}    
+                                {t('deepDesc')}
                             </p>
                         </div>
 

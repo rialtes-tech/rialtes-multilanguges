@@ -6,14 +6,15 @@ import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../messages/en/aboutus.json';
 import esContent from '../../../../../messages/es/aboutus.json'
 import frContent from '../../../../../messages/fr/aboutus.json'
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 export default function Contact() {
     const t = useTranslations('globalAlliance')
     const locale = useLocale();
     const globalAllianceContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { approachData,schemaData } = globalAllianceContent.globalAlliance;
+    const { approachData, schemaData } = globalAllianceContent.globalAlliance;
 
-   
+
     const keyPartners = [
         { src: "/images/partners/salesforce-logo.webp", alt: "salesforce logo" },
         { src: "/images/partners/SAP-logo.webp", alt: "SAP logo" },
@@ -180,6 +181,10 @@ export default function Contact() {
                         </div>
                     </div>
                 </div>
+            </section>
+            {/* breadcrumb */}
+            <section className="custom-container">
+                <BreadCrumbs />
             </section>
             {/* page description */}
             <section className="custom-container">

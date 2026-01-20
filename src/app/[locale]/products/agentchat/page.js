@@ -9,12 +9,13 @@ import esContent from '../../../../../messages/es/products.json';
 import frContent from '../../../../../messages/fr/products.json';
 import { changeLocalization } from "../../components/changeLocalization";
 import Script from "next/script";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 export default function Page() {
     const t = useTranslations("agentChat");
     const locale = useLocale();
     const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { features, tableData,schemaData } = homepageContent.agentChat;
+    const { features, tableData, schemaData } = homepageContent.agentChat;
 
 
     return (
@@ -83,6 +84,10 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
+                {/* breadcrumb */}
+                <section className="custom-container">
+                    <BreadCrumbs />
+                </section>
                 <div className="custom-container grid lg:grid-cols-12 grid-cols-1  lg:gap-[60px] xl:gap-[80px] mt-[100px] xl:mt-[100px] 4xl:mt-[150px]">
                     <div className="lg:col-span-5 col-span-12 ">
                         <h2 className="leading-tight text-[26px] pb-4 lg:text-[28px] xl:text-[30px] 2xl:text-[36px] 4xl:text-[40px] ">{t('engageHeader')}</h2>

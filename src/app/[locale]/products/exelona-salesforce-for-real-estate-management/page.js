@@ -10,12 +10,13 @@ import enContent from '../../../../../messages/en/products.json';
 import esContent from '../../../../../messages/es/products.json';
 import frContent from '../../../../../messages/fr/products.json';
 import { changeLocalization } from "../../components/changeLocalization";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 export default function Page() {
     const t = useTranslations("exelona");
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { features, properties, assetMarketingData, aiEnabledData, excelPersonaData, excelPayData, agentChatData, builtData, buildSalesforceData , schemaData} = content.exelona;
+    const { features, properties, assetMarketingData, aiEnabledData, excelPersonaData, excelPayData, agentChatData, builtData, buildSalesforceData, schemaData } = content.exelona;
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -67,11 +68,14 @@ export default function Page() {
                     />
                 </div>
 
-
                 {/* Content */}
                 <div className="relative z-20 custom-container 4xl:mt-[22rem] 2xl:mt-[20rem] xl:mt-[18rem] mt-[200px] 4xl:pr-0">
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-2">
                         <div className="xl:col-span-12 col-span-12 pr-5 text-white">
+                            {/* breadcrumb */}
+                            <section className="py-2">
+                                <BreadCrumbs />
+                            </section>
                             <h1 className="leading-tight break-words text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] 4xl:pr-0 md:pr-40 pr-10">
                                 <span className="text-white text-[28px] xl:text-[60px] 2xl:text-[80px] 4xl:text-[105px] mb-2 break-words">
                                     {t('headerTitle')}

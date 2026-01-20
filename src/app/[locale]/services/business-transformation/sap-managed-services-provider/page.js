@@ -9,12 +9,13 @@ import enContent from '../../../../../../messages/en/services.json';
 import esContent from '../../../../../../messages/es/services.json';
 import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 export default function Page() {
     const t = useTranslations('sapDigitalDesk')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { schemaData , sapCertificationData, sapCertificationData2, sapFeatureGrid, futureData, revolutionizeData, unleashData, seamlessData
+    const { schemaData, sapCertificationData, sapCertificationData2, sapFeatureGrid, futureData, revolutionizeData, unleashData, seamlessData
         , codeData, intelligentData, winningSectionData, sapAribaData, sapDatasphereData, sapTransformationSteps, superchargeData, btpData
         , migrateData1, migrateData2, whyPartnerData, rialtesTwentyData1, rialtesTwentyData2, onsiteDeliveryData, onsiteDeliveryData2, projectPartnershipData } = content.sapDigitalDesk;
     return (
@@ -43,7 +44,7 @@ export default function Page() {
                 <div className="md:hidden block">
                     <Image
                         src="/images/sap/sap-digital-desk/mobile/sap-digital-desk-investment-expertise-mobile.webp"
-                     alt={t("bannerAlt")}
+                        alt={t("bannerAlt")}
                         fill
                         style={{ objectFit: "cover" }}
                         priority
@@ -68,6 +69,10 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
+            </section>
+            {/* breadcrumb */}
+            <section className="custom-container">
+                <BreadCrumbs />
             </section>
             {/* page description */}
             <section className="mt-20 custom-container">
@@ -132,7 +137,7 @@ export default function Page() {
                             <h3 className="4xl:text-[28px] xl:text-[24px] md:text-[20px] text-[18px] xl:font-bold font-medium xl:pr-20 xl:pt-20 pt-10">{t('hybridTitle')}</h3>
                             <UnorderedList arrName={rialtesTwentyData2} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3 xl:pr-20" liClassName="text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]" />
                             <div className="xl:absolute bottom-[-26px] xl:block hidden">
-                                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale}/>
+                                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale} />
                             </div>
                         </div>
                         <div className="xl:col-span-1 col-span-12">
@@ -143,7 +148,7 @@ export default function Page() {
                             <h3 className="4xl:text-[28px] xl:text-[24px] md:text-[20px] text-[18px] font-bold xl:pt-20 pt-10">{t('onsiteDeliveryTitle2')}</h3>
                             <UnorderedList arrName={onsiteDeliveryData2} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3" liClassName="text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]" />
                             <div className="absolute mt-[28px] xl:hidden block">
-                                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale}/>
+                                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale} />
                             </div>
                         </div>
                     </div>
@@ -175,7 +180,7 @@ export default function Page() {
                         <p className="mt-10 4xl:pr-40 pb-10 font-medium text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]">
                             {t('projectPartnershipDesc2')}
                         </p>
-                        <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
+                        <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                     </div>
                 </div>
             </section>
@@ -273,7 +278,7 @@ export default function Page() {
                         <p className="mt-5 font-normal text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]">{t('futureProofDesc')}</p>
                         <UnorderedList arrName={futureData} ulClassName="list-disc 4xl:space-y-3 xl:space-y-2 marker:font-bold marker:text-2xl pl-5 4xl:mt-10 mt-3 4xl:pr-24" liClassName="text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]" />
                         <div className="4xl:mt-10 xl:mt-2">
-                            <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
+                            <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                         </div>
                     </div>
                 </div>
@@ -354,7 +359,7 @@ export default function Page() {
                         </p>
                         <UnorderedList arrName={unleashData} ulClassName="list-disc 4xl:space-y-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pr-5 xl:pr-0" liClassName="first:mt-3" />
                         <div className="absolute 4xl:mt-10 mt-2">
-                            <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
+                            <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                         </div>
                     </div>
                 </div>
@@ -448,12 +453,12 @@ export default function Page() {
                     <div className={`col-span-5  order-2 xl:order-1  bg-[#073259] xl:pb-0 pb-20 p-8 text-white xl:mt-24 z-[9] mx-[35px] xl:mx-0 mt-[-115px] xl:!pr-0 xl:pl-[80px]"
                     
                                   ${locale === "es"
-                                    ? "xl:h-[690px] 2xl:h-[650px] 4xl:h-[718px]"
-                                    : locale === "fr"
-                                        ? "xl:h-[640px] 2xl:h-[650px] 4xl:h-[650px]"
-                                        : "xl:h-[640px] 2xl:h-[600px] 4xl:h-[650px]"
-                                }`}
-                    
+                            ? "xl:h-[690px] 2xl:h-[650px] 4xl:h-[718px]"
+                            : locale === "fr"
+                                ? "xl:h-[640px] 2xl:h-[650px] 4xl:h-[650px]"
+                                : "xl:h-[640px] 2xl:h-[600px] 4xl:h-[650px]"
+                        }`}
+
                     >
                         <h2 className="leading-tight xl:mt-10 4xl:text-[56px] text-[26px] md:text-[30px] xl:text-[40px]">{t('intelligentTitle')}</h2>
                         <h3 className="mt-5 4xl:text-[36px] xl:text-[30px] md:text-[20px] text-[18px] leading-tight font-semibold xl:pr-10">
@@ -464,7 +469,7 @@ export default function Page() {
                         </p>
                         <UnorderedList arrName={intelligentData} ulClassName="list-disc xl:space-y-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight font-light" liClassName="first:mt-5" />
                         <div className="4xl:mt-[36px] 2xl:mt-[48px] xl:mt-[40px] mt-[29px] absolute">
-                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale}/>
+                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale} />
                         </div>
                     </div>
                 </div>
@@ -508,7 +513,7 @@ export default function Page() {
                                 </p>
                                 <UnorderedList arrName={winningSectionData} ulClassName="list-disc 4xl:space-y-5 xl:space-y-3 pl-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]  mt-5 " liClassName="" />
                                 <div className="xl:bottom-0 absolute">
-                                    <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale}/>
+                                    <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale} />
                                 </div>
                             </div>
                         </div>
@@ -581,7 +586,7 @@ export default function Page() {
                             {sapTransformationSteps.slice(3).map(({ step, title, description, plOverride }, index) => (
                                 <div key={step} className="flex w-full gap-x-4 items-start min-h-[100px]">
                                     <div className="w-[70px] h-[70px] flex-shrink-0 bg-[#006FBE] text-white font-bold flex items-center justify-center text-4xl">
-                                        {step} 
+                                        {step}
                                     </div>
                                     <div className="flex flex-col xl:items-center xl:flex-row xl:gap-10 justify-center w-full">
                                         <p className="font-bold 4xl:text-[22px] xl:text-[20px] text-[18px] text-black">{title}</p>
@@ -591,7 +596,7 @@ export default function Page() {
                             ))}
                         </div>
                         <div className="bg-[#163055] xl:mb-[-60px] col-span-10 z-[20] p-8 xl:text-[26px] text-[20px] text-white mt-16 leading-tight font-normal">
-                            {t('sapSignavioBlueBox')}    
+                            {t('sapSignavioBlueBox')}
                         </div>
                     </div>
                 </div>
@@ -674,7 +679,7 @@ export default function Page() {
                         </p>
                         <UnorderedList arrName={btpData} ulClassName="list-disc 4xl:space-y-5 marker:font-bold marker:text-2xl pl-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] 4xl:mt-10 mt-3 xl:pr-10" liClassName="" />
                         <div className="mt-5 relative">
-                            <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale}/>
+                            <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} btnName={t('learnMoreBtn')} locale={locale} />
                         </div>
                     </div>
                 </div>
