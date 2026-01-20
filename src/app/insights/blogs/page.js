@@ -1232,16 +1232,23 @@ const BlogList = () => {
               </svg>
             </button>
             {showOptionsCategory && (
-              <div className="absolute z-30 bg-white border border-[#707070] w-[200px] md:w-[335px] right-0 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">
+              <div className="absolute z-30 bg-white border border-[#707070] w-[200px] md:w-[347px] right-0 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">
                 <ul className="py-3">
                   {categoryData.map((item, index) => {
                     const hasItems = Array.isArray(item.items) && item.items.length > 0;
 
                     return (
-                      <div key={index} className="border-b border-gray-300">
+                      <div key={index}>
                         <button
-                          onClick={() => hasItems && toggleAccordion(index)}
-                          className={`w-full flex justify-between py-4 text-left ${hasItems ? "cursor-pointer" : "cursor-default"
+                          onClick={() => {
+                            if (hasItems) {
+                              toggleAccordion(index);
+                            } else {
+                              filterBlogsByCategory(item.category);
+                            }
+                          }}
+
+                          className={`w-full flex justify-between cursor-pointer py-2 text-left ${hasItems ? "cursor-pointer" : "cursor-default"
                             }`}
                         >
                           <h3 className="4xl:text-[20px] xl:text-[18px] text-[16px] text-gray-800 pl-6">
@@ -1250,7 +1257,7 @@ const BlogList = () => {
 
                           {/* Arrow ONLY if items exist */}
                           {hasItems && (
-                            <span className="text-black pr-10">
+                            <span className="pr-6">
                               {openIndex === index ? (
                                 <svg
                                   className="w-6 h-6"
@@ -1286,12 +1293,13 @@ const BlogList = () => {
 
                         {/* Accordion content ONLY if items exist */}
                         {hasItems && openIndex === index && (
-                          <div className="pb-4 px-6 space-y-2 text-black">
+                          <div className="pb-4 px-6 space-y-2">
                             <ul className="space-y-1">
                               {item.items.map((subItem, i) => (
                                 <li
                                   key={i}
-                                  className="4xl:text-[20px] xl:text-[18px] text-[16px] py-2"
+                                  onClick={() => filterBlogsByCategory(subItem)}
+                                  className="4xl:text-[20px] xl:text-[18px] text-[16px] py-1 cursor-pointer"
                                 >
                                   {subItem}
                                 </li>
