@@ -10,6 +10,17 @@ export default function page({ url }) {
     const [isLastSlide, setIsLastSlide] = useState(false);
     const latestBlogs = [
         {
+             "id": 76,
+            "image": "/images/blog/smart-city-digital-network-iot-technology-thumb.webp",
+            "category": "Salesforce FSC",
+            "industry": "Finance",
+            "date": "Jan. 14, 2026",
+            "url": "/ai-powered-banking-salesforce-fsc-rialfinanceplus/",
+            "title": "How AI-Powered Salesforce Financial Services Cloud Is Transforming Modern Banking",
+            "alt":"Futuristic digital city with glowing data streams and network connections representing smart city technology and urban IoT",
+            "description": "Financial services are changing faster than most institutions can redesign their operating models. According to Accenture, nearly 73% of banking customers now expect the same"
+        },
+        {
             "id": 74,
             "image": "/images/blog/automated-warehouse-conveyor-system-logistics-thumbnail.webp",
             "category": "Kinaxis RapidResponse",
