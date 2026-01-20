@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1039" height="209" viewBox="0 0 1039 209">
+  <g id="Group_1129" data-name="Group 1129" transform="translate(-280 -3916)">
+    <path id="Rectangle_1780" data-name="Rectangle 1780" d="M1,1V208H1038V1H1M0,0H1039V209H0Z" transform="translate(280 3916)" fill="#0a6bb8"/>
+    <circle id="Ellipse_2483" data-name="Ellipse 2483" cx="24" cy="24" r="24" transform="translate(475 3999)" fill="#0a6bb8"/>
+    <circle id="Ellipse_2499" data-name="Ellipse 2499" cx="24" cy="24" r="24" transform="translate(747 3999)" fill="#0a6bb8"/>
+    <circle id="Ellipse_2500" data-name="Ellipse 2500" cx="24" cy="24" r="24" transform="translate(1026 3999)" fill="#0a6bb8"/>
+    <path id="Union_24" data-name="Union 24" d="M-22425.008,16816.5h12a2.5,2.5,0,0,1,2.5,2.5V16831a2.5,2.5,0,0,1-2.5,2.5,2.5,2.5,0,0,1-2.5-2.5v-9.494h-9.5a2.5,2.5,0,0,1-2.5-2.5A2.5,2.5,0,0,1-22425.008,16816.5Z" transform="translate(28245.688 7978.545) rotate(45)" fill="#fff"/>
+    <path id="Union_34" data-name="Union 34" d="M-22425.008,16816.5h12a2.5,2.5,0,0,1,2.5,2.5V16831a2.5,2.5,0,0,1-2.5,2.5,2.5,2.5,0,0,1-2.5-2.5v-9.494h-9.5a2.5,2.5,0,0,1-2.5-2.5A2.5,2.5,0,0,1-22425.008,16816.5Z" transform="translate(28517.688 7978.545) rotate(45)" fill="#fff"/>
+    <path id="Union_35" data-name="Union 35" d="M-22425.008,16816.5h12a2.5,2.5,0,0,1,2.5,2.5V16831a2.5,2.5,0,0,1-2.5,2.5,2.5,2.5,0,0,1-2.5-2.5v-9.494h-9.5a2.5,2.5,0,0,1-2.5-2.5A2.5,2.5,0,0,1-22425.008,16816.5Z" transform="translate(28796.688 7978.545) rotate(45)" fill="#fff"/>
+    <text id="Step_1" data-name="Step 1" transform="translate(325 3961)" fill="#0a6bb8" font-size="26" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="25">Step 1</tspan></text>
+    <text id="Step_2" data-name="Step 2" transform="translate(556 3961)" fill="#0a6bb8" font-size="26" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="25">Step 2</tspan></text>
+    <text id="Step_3" data-name="Step 3" transform="translate(832 3961)" fill="#0a6bb8" font-size="26" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="25">Step 3</tspan></text>
+    <text id="Step_4" data-name="Step 4" transform="translate(1108 3961)" fill="#0a6bb8" font-size="26" font-family="Montserrat-Medium, Montserrat" font-weight="500"><tspan x="0" y="25">Step 4</tspan></text>
+    <text id="Legacy_CRM" data-name="Legacy CRM" transform="translate(325 4016)" font-size="26" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="25">Legacy </tspan><tspan x="0" y="55">CRM</tspan></text>
+    <text id="Connected_data" data-name="Connected data" transform="translate(556 4016)" font-size="26" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="25">Connected </tspan><tspan x="0" y="55">data</tspan></text>
+    <text id="AI-enabled_workflows" data-name="AI-enabled workflows" transform="translate(832 4016)" font-size="26" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="25">AI-enabled </tspan><tspan x="0" y="55">workflows</tspan></text>
+    <text id="Intelligent_enterprise" data-name="Intelligent enterprise" transform="translate(1108 4016)" font-size="26" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="25">Intelligent </tspan><tspan x="0" y="55">enterprise</tspan></text>
+  </g>
+</svg>
