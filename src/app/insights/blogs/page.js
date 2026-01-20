@@ -40,33 +40,63 @@ const allIndustries = [
   "Retail",
   "Generic"
 ];
-const allCategories = [
-  "All",
-  "Agentic AI",
-  "Exelona",
-  "Integration",
-  "MediAIna",
-  "Salesforce Agentforce",
-  "Salesforce Consulting",
-  "Salesforce Data Cloud",
-  "SAP Ariba",
-  "SAP BDC",
-  "SAP Consulting",
-  "SAP CPI",
-  "SAP GTS",
-  "SAP Joule",
-  "SAP Signavio",
-  "SAP SuccessFactors",
-  "Managed Services",
-  "Salesforce Automotive Cloud",
-  "Rise with SAP",
-  "Salesforce Marketing Cloud",
-  "Grow with SAP",
-  "Salesforce Life Sciences Cloud",
-  "Kinaxis RapidResponse",
-  "Salesforce FSC",
-  "Others"
+const categoryData = [
+  {
+    category: "All",
+  },
+  {
+    category: "Agentic AI",
+  },
+  {
+    category: "Integration",
+  },
+  {
+    category: "Managed Services",
+  },
+  {
+    category: "Kinaxis RapidResponse",
+  },
+  {
+    category: "Products",
+    items: [
+      "Exelona",
+      "MediAIna",
+    ],
+  },
+  {
+    category: "Salesforce",
+    items: [
+      "Salesforce Agentforce",
+      "Salesforce Automotive Cloud",
+      "Salesforce Consulting",
+      "Salesforce Data Cloud",
+      "Salesforce Life Sciences Cloud",
+      "Salesforce Marketing Cloud",
+      "Salesforce FSC"
+    ],
+  },
+  {
+    category: "SAP",
+    items: [
+      "Rise with SAP",
+      "Grow with SAP",
+      "SAP Ariba",
+      "SAP BDC",
+      "SAP Consulting",
+      "SAP CPI",
+      "SAP GTS",
+      "SAP Joule",
+      "SAP Signavio",
+      "SAP SuccessFactors",
+    ],
+  },
+  {
+    category: "Others",
+  },
 ];
+
+
+
 
 const latestBlogs = [
   {
@@ -157,7 +187,7 @@ const latestBlogs = [
     "alt": "Business leader on a path symbolizing enterprise growth and digital transformation",
     "description": "ERP modernization has been on boardroom agendas for years, yet success stories are still far fewer than expected. Leaders know transformation is necessary, but the path often turns bumpy."
   },
-   {
+  {
     "id": 68,
     "image": "/images/blog/from-project-partner/thumb.webp",
     "category": "SAP Consulting",
@@ -888,6 +918,7 @@ const latestBlogs = [
 
 ];
 const FeaturedCarousel = () => {
+
   const slides = [
     {
       id: 1,
@@ -1090,6 +1121,12 @@ const BlogCard = ({ blog }) => (
 );
 
 const BlogList = () => {
+  const [openIndex, setOpenIndex] = useState(null);
+
+  const toggleAccordion = (index) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
+
   const [visibleBlogs, setVisibleBlogs] = useState(6);
   const [showOptionsIndustry, setShowOptionsIndustry] = useState(false);
   const [showOptionsCategory, setShowOptionsCategory] = useState(false);
@@ -1195,16 +1232,80 @@ const BlogList = () => {
               </svg>
             </button>
             {showOptionsCategory && (
-              <div className='absolute z-30 bg-white border border-[#707070] w-[200px] md:w-[250px] right-0 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight'>
+              <div className="absolute z-30 bg-white border border-[#707070] w-[200px] md:w-[335px] right-0 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">
                 <ul className="py-3">
-                  {
-                    allCategories.map((data, ind) => (
-                      <li className='py-2 px-3 cursor-pointer' key={ind} onClick={() => filterBlogsByCategory(data)}>{data}</li>
-                    ))
-                  }
+                  {categoryData.map((item, index) => {
+                    const hasItems = Array.isArray(item.items) && item.items.length > 0;
+
+                    return (
+                      <div key={index} className="border-b border-gray-300">
+                        <button
+                          onClick={() => hasItems && toggleAccordion(index)}
+                          className={`w-full flex justify-between py-4 text-left ${hasItems ? "cursor-pointer" : "cursor-default"
+                            }`}
+                        >
+                          <h3 className="4xl:text-[20px] xl:text-[18px] text-[16px] text-gray-800 pl-6">
+                            {item.category}
+                          </h3>
+
+                          {/* Arrow ONLY if items exist */}
+                          {hasItems && (
+                            <span className="text-black pr-10">
+                              {openIndex === index ? (
+                                <svg
+                                  className="w-6 h-6"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
+                                    d="M5 15l7-7 7 7"
+                                  />
+                                </svg>
+                              ) : (
+                                <svg
+                                  className="w-6 h-6"
+                                  fill="none"
+                                  stroke="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    strokeLinecap="round"
+                                    strokeLinejoin="round"
+                                    strokeWidth="2"
+                                    d="M19 9l-7 7-7-7"
+                                  />
+                                </svg>
+                              )}
+                            </span>
+                          )}
+                        </button>
+
+                        {/* Accordion content ONLY if items exist */}
+                        {hasItems && openIndex === index && (
+                          <div className="pb-4 px-6 space-y-2 text-black">
+                            <ul className="space-y-1">
+                              {item.items.map((subItem, i) => (
+                                <li
+                                  key={i}
+                                  className="4xl:text-[20px] xl:text-[18px] text-[16px] py-2"
+                                >
+                                  {subItem}
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
                 </ul>
               </div>
             )}
+
           </div>
         </div>
       </div>
