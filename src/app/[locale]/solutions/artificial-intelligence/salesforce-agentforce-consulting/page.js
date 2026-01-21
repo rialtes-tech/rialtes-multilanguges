@@ -11,6 +11,7 @@ import esContent from '../../../../../../messages/es/solutions.json';
 import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "../../../components/changeLocalization.js";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 
 export default function page() {
@@ -339,12 +340,6 @@ export default function page() {
                     </div>
                     <div>
                         <h3 className="4xl:text-[24px] xl:text-[20px] md:text-[20px] text-[18px] font-semibold mb-2 leading-tight">{t('agentchatMoment')}</h3>
-                        {/* <ul className="list-disc xl:list-inside list-outside pl-5 xl:pl-0 space-y-5 4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] mt-6 leading-tight">
-                            <li>Instant WhatsApp messaging embedded inside Salesforce.</li>
-                            <li>Auto-responses, case creation, and service cloud integration.</li>
-                            <li>Pre-built AI chatbots for Agentforce and Service Cloud.</li>
-                            <li>Personalized notifications and marketing campaigns.</li>
-                        </ul> */}
                         <UnorderedList arrName={agentchatList} ulClassName="list-disc  list-outside pl-5 xl:pl-4 space-y-5 4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] mt-6 leading-tight" liClassName="" />
 
                         <p className="4xl:text-[20px] md:text-[18px] xl:text-[16px] text-[16px] mt-10">
@@ -479,6 +474,10 @@ export default function page() {
                         </div>
                     </div>
                 </div>
+            </section>
+            {/* breadcrumb */}
+            <section className="custom-container">
+                <BreadCrumbs />
             </section>
             {/* page information */}
             <section className="custom-container 4xl:mt-20 xl:mt-10 mt-10">
