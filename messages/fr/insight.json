@@ -157,31 +157,48 @@
       "Commerce de détail",
       "Générique"
     ],
-    "categories": [
-      "Tous",
-      "IA Agentique",
-      "Exelona",
-      "Intégration",
-      "MediAIna",
-      "Salesforce Agentforce",
-      "Conseil Salesforce",
-      "Salesforce Data Cloud",
-      "SAP Ariba",
-      "SAP BDC",
-      "Conseil SAP",
-      "SAP CPI",
-      "SAP GTS",
-      "SAP Joule",
-      "SAP Signavio",
-      "SAP SuccessFactors",
-      "Services Gérés",
-      "Rise with SAP",
-      "Grow with SAP",
-       "Salesforce Life Sciences Cloud",
-       "Kinaxis RapidResponse",
-       "Salesforce FSC",
-      "Autres"
-    ],
+  "categoryData": [
+    { "category": "Tous" },
+    { "category": "IA Agentique" },
+    { "category": "Intégration" },
+    { "category": "Services Managés" },
+    { "category": "Kinaxis RapidResponse" },
+    {
+      "category": "Produits",
+      "items": [
+        "Exelona",
+        "MediAIna"
+      ]
+    },
+    {
+      "category": "Salesforce",
+      "items": [
+        "Salesforce Agentforce",
+        "Salesforce Automotive Cloud",
+        "Conseil Salesforce",
+        "Salesforce Data Cloud",
+        "Salesforce Life Sciences Cloud",
+        "Salesforce Marketing Cloud",
+        "Salesforce FSC"
+      ]
+    },
+    {
+      "category": "SAP",
+      "items": [
+        "Rise with SAP",
+        "Grow with SAP",
+        "SAP Ariba",
+        "SAP BDC",
+        "Conseil SAP",
+        "SAP CPI",
+        "SAP GTS",
+        "SAP Joule",
+        "SAP Signavio",
+        "SAP SuccessFactors"
+      ]
+    },
+    { "category": "Autres" }
+  ],
     "slides": [
       {
         "id": 1,
@@ -230,7 +247,7 @@
     ],
     "latestBlogs": [
       {
-  "id": 76,
+  "id": 77,
   "image": "/images/blog/smart-city-digital-network-iot-technology-thumb.webp",
   "category": "Salesforce FSC",
   "industry": "Finance",
@@ -241,7 +258,7 @@
   "description": "Les services financiers évoluent plus rapidement que la capacité de la plupart des institutions à repenser leurs modèles opérationnels. Selon Accenture, près de 73 % des clients bancaires attendent désormais le même niveau de personnalisation"
 },
     {
-            "id": 75,
+            "id": 76,
             "image": "/images/blog/automated-warehouse-conveyor-system-logistics-thumbnail.webp",
             "category": "Kinaxis RapidResponse",
             "industry": "Generic",
@@ -251,6 +268,17 @@
             "alt": "Entrepôt automatisé avec traînées lumineuses colorées montrant systèmes convoyeurs rapides et mouvement inventaire efficace",
            "description": "Les chaînes d’approvisionnement ne se brisent plus. Elles se plient, rebondissent et sont testées à nouveau presque immédiatement. La demande augmente sans avertissement. Les fournisseurs ne respectent pas leurs engagements."
         }, 
+        {
+          "id": 75,
+        "image": "/images/blog/digital-connectivity-bridge-network-integration-thumb.webp",
+        "category": "SAP Ariba",
+        "industry": "Générique",
+        "date": "Jan. 12, 2026",
+        "url": "/sapbuyplus-sap-ariba-connected-procurement/",
+        "title": "SAPBuy+ : Le chaînon manquant de l’approvisionnement Ariba",
+        "alt": "Pont numérique avec connexions réseau reliant smartphone au cloud représentant système d'intégration achats SAP Ariba",
+        "description": "Les achats ont connu plus de changements significatifs au cours des cinq dernières années que durant les vingt précédentes."
+      },
       {
         "id": 74,
         "image": "/images/blog/data-analysis-business-strategy-thumbnail.webp",
