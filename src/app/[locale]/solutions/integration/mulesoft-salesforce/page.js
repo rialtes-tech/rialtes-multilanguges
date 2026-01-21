@@ -13,11 +13,13 @@ import enContent from "../../../../../../messages/en/solutions.json";
 import esContent from "../../../../../../messages/es/solutions.json";
 import frContent from "../../../../../../messages/fr/solutions.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+
 const page = () => {
   const t = useTranslations("mulesoft");
   const locale = useLocale();
   const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { pointsData, serveData, driveData ,schemaData} = homepageContent.mulesoft;
+  const { pointsData, serveData, driveData, schemaData } = homepageContent.mulesoft;
 
   return (
     <>
@@ -79,25 +81,10 @@ const page = () => {
             />
           </div>
         </div>
-        {/* <div className="relative h-full custom-container flex items-center text-[#ffffff]">
-
-        <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
-          <div className="col-span-12">
-            <h1 className="text-[18px] lg:text-[24px] font-bold">
-              MuleSoft Integration Solutions
-            </h1>
-            <h2 className="text-[26px] leading-tight lg:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px]">
-              Connecting Digital <br /> Businesses using the <br /> MuleSoft Platform
-            </h2>
-            
-          </div>
-          <div className="col-span-12 lg:col-span-3 xl:col-span-5">
-            
-          </div>
-        </div>
-        
-     
-      </div> */}
+      </section>
+      {/* breadcrumb */}
+      <section className="custom-container">
+        <BreadCrumbs />
       </section>
       {/* page description */}
       <div className="lg:py-28 py-14 custom-container">
@@ -138,7 +125,7 @@ const page = () => {
           </div>
         </div>
         <div className="mt-6 custom-container">
-          <LearnMore btnName={t('learnMore')}  locale={locale} />
+          <LearnMore btnName={t('learnMore')} locale={locale} />
         </div>
       </section>
       {/* serve section */}

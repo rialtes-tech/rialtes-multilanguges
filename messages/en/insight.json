@@ -248,6 +248,9 @@
       "SAP SuccessFactors",
       "Managed Services",
       "Salesforce Automotive Cloud",
+       "Salesforce Life Sciences Cloud",
+       "Kinaxis RapidResponse",
+       "Salesforce FSC",
       "Others"
     ],
     "slides": [
@@ -297,7 +300,29 @@
       }
     ],
     "latestBlogs": [
+       {
+             "id": 77,
+            "image": "/images/blog/smart-city-digital-network-iot-technology-thumb.webp",
+            "category": "Salesforce FSC",
+            "industry": "Finance",
+            "date": "Jan. 14, 2026",
+            "url": "/ai-powered-banking-salesforce-fsc-rialfinanceplus/",
+            "title": "How AI-Powered Salesforce Financial Services Cloud Is Transforming Modern Banking",
+            "alt":"Futuristic digital city with glowing data streams and network connections representing smart city technology and urban IoT",
+            "description": "Financial services are changing faster than most institutions can redesign their operating models. According to Accenture, nearly 73% of banking customers now expect the same"
+        },
       {
+            "id": 76,
+            "image": "/images/blog/automated-warehouse-conveyor-system-logistics-thumbnail.webp",
+            "category": "Kinaxis RapidResponse",
+            "industry": "Generic",
+            "date": "Jan. 13, 2026",
+            "url": "/kinaxis-rapidresponse-demandplus-real-time-supply-chain/",
+            "title": "Building a Real-Time, Resilient Supply Chain with Rialtes Demand+",
+            "alt": "Automated warehouse with colorful light trails showing high-speed conveyor systems and efficient inventory movement in motion",
+            "description": "Supply chains don’t break anymore. They bend, snap back, and get tested again almost immediately. Demand spikes without warning. Suppliers miss commitments."
+        }, 
+     {
         "id": 75,
         "image": "/images/blog/digital-connectivity-bridge-network-integration-thumb.webp",
         "category": "SAP Ariba",
@@ -309,7 +334,7 @@
         "description": "Procurement has undergone more significant changes in the last five years than it did in the previous twenty. "
       },
       {
-        "id": 73,
+        "id": 74,
         "image": "/images/blog/data-analysis-business-strategy-thumbnail.webp",
         "category": "SAP Consulting",
         "industry": "Generic",
@@ -320,7 +345,7 @@
         "description": "Enterprise SAP programs don’t fail because technology isn’t available; they fail when governance breaks down, when ownership blurs, and when decisions lack accountability. Large transformation programs involve multi-year roadmaps, cross-functional impact, and the kind of complexity where assumptions compound into risk quickly."
       },
       {
-        "id": 72,
+        "id": 73,
         "image": "/images/blog/fragmented-customer-journeys-feature-thumb.webp",
         "category": "Salesforce Marketing Cloud",
         "industry": "Generic",
@@ -331,7 +356,7 @@
         "description": "Personalized marketing has been the promise for over a decade. Yet despite better tools, more data, and smarter platforms, customer engagement continues to fall short. "
       },
       {
-        "id": 71,
+        "id": 72,
         "image": "/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-thumbnail.webp",
         "category": "Salesforce Life Sciences Cloud",
         "industry": " Life Sciences",
@@ -342,7 +367,7 @@
         "description": "For years, most life sciences organizations treated CRM as a sales enablement tool — a place to track accounts, schedule visits, manage samples, and record touchpoints. "
       },
       {
-        "id": 70,
+        "id": 71,
         "image": "/images/blog/voygernext/voyager-thumb.webp",
         "category": "Grow with SAP",
         "industry": "Generic",
@@ -353,7 +378,7 @@
         "description": "According to McKinsey, more than 70 percent of organizations have already experimented with GenAI, and one in three expects AI to reshape core operations within the next three years."
       },
       {
-        "id": 69,
+        "id": 70,
         "image": "/images/blog/enterprise-growth-strategy-thumbnail.webp",
         "category": "Rise with SAP",
         "industry": "Generic",
@@ -364,7 +389,7 @@
         "description": "ERP modernization has been on boardroom agendas for years, yet success stories are still far fewer than expected. Leaders know transformation is necessary, but the path often turns bumpy."
       },
       {
-        "id": 68,
+         "id": 69,
         "image": "/images/blog/from-project-partner/thumb.webp",
         "category": "SAP Consulting",
         "industry": " Life Sciences",
@@ -375,7 +400,7 @@
         "description": "Enterprise SAP programs rarely end with one deployment. Once the core landscape is live, the real journey begins: expansion across business units. "
       },
       {
-        "id": 67,
+        "id": 68,
         "image": "/images/blog/strategic-partnership-digital-connection-thumbnail.webp",
         "category": "SAP Consulting",
         "industry": "Generic",
@@ -386,7 +411,7 @@
         "description": "Trust is the filter that determines who even makes it onto the shortlist. In enterprise SAP programs, credibility is not a soft factor. It directly impacts risk, governance, and long-term value.With this blog, we focus on how enterprises assess trust and credibility in SAP consulting companies during the pre-selection stage, before formal evaluation and contracting begin."
       },
       {
-        "id": 66,
+        "id": 67,
         "image": "/images/blog/business-growth-journey-thumbnail.webp",
         "category": "Salesforce Consulting",
         "industry": "Generic",
@@ -397,7 +422,7 @@
         "description": "Salesforce has established itself as the enterprise CRM of record. But for many companies, it still falls short of becoming a true growth engine. The gap rarely comes down to features. It comes down to strategy."
       },
       {
-        "id": 68,
+        "id": 66,
         "image": "/images/blog/salesforce-consulting-cluster-2.2_blog-thumb.webp",
         "category": "Salesforce Consulting",
         "industry": "Generic",

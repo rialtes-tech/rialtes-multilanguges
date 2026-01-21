@@ -11838,5 +11838,429 @@
         "bannerAlt" : "Pont numérique bleu lumineux avec nœuds réseau connectant appareils représentant connectivité cloud et intégration données",
         "procurementImageAlt" : "Flèches progression flux de travail achats montrant plateforme forte, adoption faible, flux fragmentés, valeur manquée",
          "categoryTitle" : "SAP Ariba"
+    },
+    "kinaxisBlog":{
+        "schemaData": {},
+        "blogCategory": "Kinaxis RapidResponse",
+  "bannerTitle": "Construire une chaîne d'approvisionnement en temps réel et résiliente avec Rialtes Demand+",
+  "oldPlan": "Planification traditionnelle vs planification en temps réel",
+  "old": "Ancien",
+  "realTitle": "Temps réel",
+  "batchTitle": "Cycles par lots",
+  "continue": "Prise de décision continue",
+  "data": "Données cloisonnées",
+  "eco": "Écosystème connecté",
+  "reactive": "Gestion réactive des crises",
+  "pro": "Résilience proactive",
+  "demandTitle": "Le modèle de livraison Demand+",
+  "faqTitle": "FAQ : Transformez votre chaîne d'approvisionnement avec Rialtes « Demand+ »",
+  "bannerAlt":"Entrepôt automatisé avec traînées lumineuses colorées montrant systèmes convoyeurs rapides et mouvement inventaire efficace",
+    "blogMainData": [
+    "Les chaînes d’approvisionnement ne se cassent plus. Elles se plient, rebondissent et sont testées à nouveau presque immédiatement. La demande augmente sans avertissement. Les fournisseurs ne respectent pas leurs engagements. Les coûts de transport fluctuent du jour au lendemain. Et les équipes de planification sont censées réagir en quelques heures, pas en semaines. Selon une <a href='https://www.mckinsey.com/capabilities/operations/our-insights/boosting-supply-chain-resilience' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>enquête McKinsey 2023 sur la chaîne d'approvisionnement</a>, 73 % des dirigeants mondiaux ont connu des perturbations importantes au cours des deux dernières années, et près de la moitié déclarent que leurs systèmes de planification actuels manquent encore d’agilité pour répondre en temps réel. Dans le même temps, Gartner rapporte que seulement 22 % des organisations ont atteint une véritable visibilité de bout en bout de la chaîne d’approvisionnement, laissant la plupart des dirigeants prendre des décisions à fort impact avec des informations partielles. <br /> Source :",
+    "C’est l’écart dangereux d’aujourd’hui : ce qui se passe sur le terrain par rapport à ce que voient les dirigeants. Et c’est pourquoi la résilience ne repose plus sur des feuilles de calcul plus rapides ou des cycles par lots plus serrés. Elle repose sur une planification simultanée en temps réel qui connecte la demande, l’offre, les stocks et la capacité dans un seul modèle vivant."
+  ],
+
+  "whyData": [
+    {
+      "title": "Pourquoi la planification traditionnelle de la chaîne d’approvisionnement ne peut plus suivre",
+      "desc": "La plupart des environnements de planification ont été conçus pour la stabilité. Cycles S&OP mensuels. Revues hebdomadaires de la demande. Traitements par lots pendant la nuit. Cela fonctionnait lorsque les perturbations étaient l’exception.",
+      "desc1": "Aujourd’hui, les perturbations sont la norme.",
+      "desc2": "Défis courants que nous observons dans les entreprises :",
+      "list": [
+        "Plans de demande désalignés par rapport aux réalités de l’offre",
+        "Tampons de stock masquant des problèmes plus profonds",
+        "Visibilité retardée sur les contraintes des fournisseurs",
+        "Planification manuelle de scénarios qui prend des jours",
+        "Équipes qui réagissent au lieu d’anticiper"
+      ],
+      "desc3": "Le problème n’est pas un manque d’effort, mais un manque de simultanéité."
     }
-} 
+  ],
+
+  "realData": [
+    {
+      "title": "Ce que signifie réellement une planification résiliente en temps réel",
+      "desc": "La résilience ne signifie pas éviter les perturbations. Elle signifie absorber les chocs et s’adapter plus rapidement que leur propagation.",
+      "desc1": "Dans une chaîne d’approvisionnement moderne, cela nécessite que trois capacités travaillent ensemble :",
+      "list": [
+        {
+          "title": "Visibilité en temps réel",
+          "desc": "sur la demande, l’offre, les stocks et la capacité"
+        },
+        {
+          "title": "Planification simultanée",
+          "desc": "afin que chaque changement se propage instantanément à travers le réseau"
+        },
+        {
+          "title": "Simulation rapide de scénarios",
+          "desc": "pour tester les réponses avant leur exécution"
+        }
+      ],
+      "desc2": "C’est la base de Kinaxis RapidResponse et le cœur de DemandPlus."
+    }
+  ],
+  "planData": [
+    {
+      "title": "La puissance de la planification simultanée avec Kinaxis RapidResponse",
+      "desc": "Contrairement aux outils de planification traditionnels qui exécutent des processus séquentiels, Kinaxis RapidResponse fonctionne sur un modèle de données unique en mémoire.",
+      "desc1": "Cela signifie :",
+      "list": [
+        "Un changement de la demande met à jour instantanément l’offre",
+        "Un retard fournisseur recalcule les plans de production en quelques secondes",
+        "Une contrainte de capacité redéfinit automatiquement les priorités de livraison",
+        "Un nouveau scénario de prévision montre l’impact sur les revenus, les niveaux de service et la marge"
+      ],
+      "desc2": "Les équipes de planification cessent d’attendre des rapports. Elles commencent à travailler avec la vérité en temps réel.",
+      "desc3": "C’est ainsi que les organisations passent de réactions tardives à des actions anticipées.",
+      "desc4": "La planification simultanée en action",
+      "steps": [
+        { "text": "Changement de la demande", "bg": "#E3F8FF" },
+        { "text": "Recalcul de l’offre", "bg": "#FAF1D2" },
+        { "text": "Ajustement des stocks", "bg": "#E3F8FF" },
+        { "text": "Impact financier visible", "bg": "#FAF1D2" },
+        { "text": "Tout en temps réel", "bg": "#E3F8FF" }
+      ]
+    }
+  ],
+
+  "visibilityData": [
+    {
+      "title": "Pourquoi la résilience commence par la visibilité",
+      "desc": "Vous ne pouvez pas réparer ce que vous ne pouvez pas voir. La plupart des perturbations s’aggravent parce que les signaux sont enfouis dans des systèmes qui ne communiquent pas entre eux. Au moment où la direction s’en rend compte, le coût est déjà engagé.",
+      "desc1": "DemandPlus connecte :",
+      "list": [
+        "Planification de la demande",
+        "Planification de l’offre",
+        "Optimisation des stocks",
+        "Gestion des capacités",
+        "S&OP et IBP",
+        "Modélisation de l’impact financier"
+      ],
+      "desc2": "Dans un seul environnement synchronisé.",
+      "desc3": "Les dirigeants obtiennent des réponses instantanées à des questions telles que :",
+      "listTwo": [
+        "Que se passe-t-il si ce fournisseur manque une livraison ?",
+        "Pouvons-nous réallouer les stocks sans nuire aux niveaux de service ?",
+        "Quels clients devons-nous prioriser si l’offre se resserre ?",
+        "Comment cette décision affecte-t-elle la marge du prochain trimestre ?"
+      ],
+      "desc4": "C’est une résilience fondée sur la clarté, et non sur les suppositions."
+    }
+  ],
+  "DemandData": [
+    {
+      "title": "Présentation de Rialtes Demand+ : la planification en temps réel en action",
+      "desc": "Rialtes DemandPlus est notre suite de services de bout en bout, construite autour de <a href='https://www.rialtes.com/fr/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Kinaxis RapidResponse</a>, pour aider les organisations à atteindre des chaînes d’approvisionnement connectées, intelligentes et résilientes.",
+      "desc1": "En tant que partenaire certifié Kinaxis et SAP avec des bureaux aux États-Unis, au Canada, en Inde et à Singapour, et une équipe d’experts Kinaxis hautement certifiés, nous aidons les entreprises à transformer RapidResponse en un avantage stratégique — et pas seulement en un outil de plus.",
+      "desc2": "Demand+ ne se limite pas au déploiement de logiciels. Il s’agit de changer la façon dont les décisions de planification sont prises."
+    }
+  ],
+
+  "DemandplusData": [
+    {
+      "title": "Ce que Demand+ offre",
+      "desc": "Notre cadre Demand+ réunit la stratégie, la technologie et l’exécution dans un modèle de transformation cohérent.",
+      "list": [
+        {
+          "title": "Conseil sur les licences Kinaxis et évaluation de la valeur",
+          "desc": "Nous aidons les organisations à définir le périmètre, la feuille de route et le ROI appropriés avant le début de la mise en œuvre."
+        },
+        {
+          "title": "Architecture et conception de solutions",
+          "desc": "Les modèles de planification sont construits autour de vos contraintes métier réelles — et non sur des modèles génériques."
+        },
+        {
+          "title": "Mise en œuvre rapide et configuration des processus",
+          "desc": "Déploiement accéléré avec des workflows de bonnes pratiques pour la demande, l’offre, les stocks et le S&OP."
+        },
+        {
+          "title": "Assurance qualité, tests et formation des utilisateurs",
+          "desc": "Garantir que les planificateurs fassent confiance au système — car l’adoption est essentielle."
+        },
+        {
+          "title": "Intégration avec SAP S/4HANA, Oracle EBS et systèmes non SAP",
+          "desc": "DemandPlus connecte RapidResponse à votre ERP et à votre écosystème afin que les données circulent sans friction."
+        },
+        {
+          "title": "Support post-mise en production et optimisation continue",
+          "desc": "La résilience s’améliore avec le temps. Nous restons engagés pour faire évoluer les processus, pas seulement pour maintenir les systèmes."
+        }
+      ],
+      "model": {
+        "label": "Modèle de transformation marketing Advantage+",
+        "steps": ["Stratégie", "Construire", "Créer", "Tester", "Connecter", "Optimiser"]
+      },
+      "steps": [
+        "Évaluer",
+        "Concevoir",
+        "Mettre en œuvre",
+        "Intégrer",
+        "Activer",
+        "Optimiser"
+      ]
+    }
+  ],
+  "DeliversData": [
+    {
+      "title": "Comment Demand+ permet une réponse plus rapide aux perturbations",
+      "desc": "Examinons des scénarios du monde réel.",
+      "list": [
+        {
+          "title": "Scénario 1 : Pic soudain de la demande",
+          "desc": "Une promotion génère des commandes inattendues. Avec une planification par lots, les équipes réagissent plusieurs jours plus tard. Avec RapidResponse, les changements de la demande déclenchent des recalculs instantanés de l’offre et des stocks. Les planificateurs rééquilibrent la production et l’exécution le jour même."
+        },
+        {
+          "title": "Scénario 2 : Retard d’un fournisseur",
+          "desc": "Un composant critique est retardé de deux semaines. RapidResponse montre immédiatement l’impact en aval sur les niveaux de service, les revenus et la marge. Les équipes simulent des alternatives et s’engagent sur la meilleure option avant que la perturbation ne se propage."
+        },
+        {
+          "title": "Scénario 3 : Contrainte de capacité",
+          "desc": "Une ligne de production est arrêtée. Au lieu de feuilles de calcul manuelles, les planificateurs voient les arbitrages en temps réel entre les usines, les SKU et les clients."
+        }
+      ]
+    }
+  ],
+
+  "benefitsData": [
+    {
+      "title": "Qui bénéficie le plus de DemandPlus",
+      "desc": "<a href='https://www.rialtes.com/fr/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>DemandPlus</a> est idéal pour les organisations qui évoluent dans des environnements complexes et en évolution rapide :",
+      "list": [
+        "Entreprises de fabrication et de distribution",
+        "Chaînes d’approvisionnement des sciences de la vie et des technologies médicales",
+        "Réseaux de biens de consommation et de commerce de détail",
+        "Entreprises automobiles et industrielles",
+        "Entreprises de haute technologie et d’électronique"
+      ],
+      "desc1": "Si la volatilité fait partie de votre réalité, la planification en temps réel devrait en faire partie aussi."
+    }
+  ],
+
+  "businessData": [
+    {
+      "title": "Résultats métiers qui comptent pour les dirigeants",
+      "desc": "Lorsque la résilience en temps réel devient la norme, l’impact est tangible :",
+      "list": [
+        "Réponse plus rapide aux changements de la demande et de l’offre",
+        "Niveaux de service plus élevés avec moins de stocks",
+        "Réduction des coûts d’urgence et de gestion de crise",
+        "Meilleur alignement entre la planification et la finance",
+        "Confiance accrue dans les décisions S&OP et IBP",
+        "Une chaîne d’approvisionnement qui s’adapte au lieu d’absorber des pertes"
+      ],
+      "desc1": "C’est ainsi que la planification passe du soutien opérationnel à un avantage stratégique. Avec Rialtes Demand+ et Kinaxis RapidResponse, la planification en temps réel devient votre avantage, transformant l’incertitude en avantage concurrentiel."
+    }
+  ],
+
+  "faqData": [
+    {
+      "question": "Qu’est-ce que Demand+ de Rialtes ?",
+      "answer": "Demand+ est le cadre de services de bout en bout de Rialtes, construit autour de Kinaxis RapidResponse pour permettre une planification de la chaîne d’approvisionnement en temps réel, simultanée et résiliente."
+    },
+    {
+      "question": "Comment Kinaxis RapidResponse prend-il en charge la planification en temps réel ?",
+      "answer": "Il utilise un modèle de données unique en mémoire qui met à jour simultanément la demande, l’offre, les stocks et la capacité, permettant une analyse instantanée des scénarios et une prise de décision rapide."
+    },
+    {
+      "question": "Pourquoi la planification simultanée est-elle importante pour la résilience ?",
+      "answer": "Parce que les perturbations affectent l’ensemble de la chaîne d’approvisionnement en même temps. La planification séquentielle retarde la réponse, tandis que la planification simultanée permet une action immédiate et coordonnée."
+    },
+    {
+      "question": "DemandPlus s’intègre-t-il avec SAP et Oracle ?",
+      "answer": "Oui. DemandPlus intègre Kinaxis RapidResponse avec SAP S/4HANA, Oracle EBS et des systèmes non SAP pour un flux de données fluide."
+    },
+    {
+      "question": "Qu’est-ce qui fait de Rialtes un partenaire Kinaxis solide ?",
+      "answer": "Des experts Kinaxis certifiés, une capacité de livraison mondiale et un cadre Demand+ éprouvé qui se concentre sur les résultats, pas seulement sur la mise en œuvre."
+    }
+  ]
+    },
+     "rialfinanceBlog":{
+   "blogCategory": "Salesforce FSC",
+  "headerAlt": "Cómo Salesforce Financial Services Cloud impulsado por IA está transformando la banca moderna",
+  "faqTitle": "Preguntas frecuentes: Transformación de los servicios financieros impulsada por IA",
+  "bannerAlt": "Ville numérique futuriste avec flux de données lumineux et connexions réseau représentant technologie ville intelligente IoT",
+  "clientDiagram": "Diagramme Client 360 montrant vue client complète avec comptes, événements vie, transactions, préférences, risque, engagement",
+  "crmAlt": "Processus d'évolution CRM en quatre étapes: CRM hérité, Données connectées, Workflows IA, Entreprise intelligente",
+  "schemaData" : {},
+  "blogMainData": [
+    "Les services financiers évoluent plus rapidement que la capacité de la plupart des institutions à repenser leurs modèles opérationnels. <a href='https://www.accenture.com/us-en/insights/banking/banking-consumer-study' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Selon Accenture</a>, près de 73 % des clients bancaires attendent désormais le même niveau de personnalisation et de simplicité numérique que celui offert par les applications grand public, mais seule une minorité estime que leur banque y répond réellement. Ajoutez à cela une pression réglementaire croissante et des marges en baisse, et l’écart devient encore plus évident : les institutions doivent aller plus vite, agir plus intelligemment et rester conformes en même temps.",
+    "Les CRM traditionnels n’ont pas été conçus pour cette réalité. Ils ont été pensés pour enregistrer les interactions, pas pour guider les décisions en temps réel. C’est pourquoi les banques, les prêteurs et les sociétés de gestion de patrimoine tournés vers l’avenir dépassent le simple CRM pour adopter Salesforce Financial Services Cloud (FSC) alimenté par l’IA — une plateforme conçue pour connecter les données, l’intelligence et l’action.",
+    "Et c’est précisément là qu’interviennent les services RialFinance+ de Rialtes, aidant les institutions financières à moderniser l’engagement, les opérations et la conformité grâce à un écosystème unique, connecté et intelligent, prêt pour les attentes d’aujourd’hui et les exigences de demain."
+  ],
+
+  "whyData": [
+    {
+      "title": "Pourquoi les CRM traditionnels sont insuffisants dans les services financiers",
+      "desc": "La plupart des CRM fonctionnent encore comme des classeurs numériques. Ils stockent des données, mais ne les interprètent pas. Ils enregistrent les interactions, mais n’anticipent pas les besoins.",
+      "desc1": "Pour les institutions financières, cela crée de véritables problèmes.",
+      "desc2": "L’impact se fait sentir partout :",
+      "list": [
+        "Les conseillers passent plus de temps à chercher qu’à conseiller",
+        "L’onboarding prend des semaines au lieu de quelques jours",
+        "La vente croisée semble forcée, pas pertinente",
+        "La conformité est réactive, pas intégrée",
+        "Les parcours clients restent fragmentés entre produits et canaux"
+      ],
+      "desc3": "Ce que cela signifie réellement : une perte de confiance, de revenus et d’élan.",
+      "desc4": "Salesforce Financial Services Cloud change cette équation en combinant des modèles de données sectoriels, l’automatisation et l’IA dans un système conçu spécifiquement pour la banque, le crédit et la gestion de patrimoine."
+    }
+  ],
+
+  "buildingData": [
+    {
+      "title": "Construire un véritable Client 360 pour les institutions financières",
+      "desc": "Tout le monde parle de Client 360. Peu y parviennent réellement.",
+      "desc1": "Dans la plupart des banques et institutions financières, les données clients sont stockées partout : systèmes bancaires centraux, plateformes de prêts, CRM, outils marketing et centres de support. Chaque équipe ne voit qu’une partie de l’histoire.",
+      "desc2": "Salesforce FSC change cela en créant un profil financier unique qui rassemble :",
+      "list": [
+        "Comptes et actifs",
+        "Hiérarchies de ménages et de relations",
+        "Événements de vie et objectifs financiers",
+        "Historique des services et données d’interaction",
+        "Dossiers de conformité et préférences"
+      ]
+    }
+  ],
+
+  "powerData": [
+    {
+      "title": "La puissance de l’IA + Salesforce FSC dans la banque moderne",
+      "desc": "L’IA ne remplace pas les chargés de relation. Elle les rend plus performants. Intégrée à Salesforce FSC, l’IA transforme la plateforme d’un système d’enregistrement en un système d’intelligence.",
+      "desc1": "Ce que l’IA apporte :",
+      "list": [
+        "Des insights prédictifs qui identifient les besoins des clients avant qu’ils n’apparaissent",
+        "Des recommandations de meilleure action suivante pour les conseillers",
+        "Des workflows automatisés pour l’onboarding et le service",
+        "Des contrôles de risque et de conformité en temps réel",
+        "Un engagement personnalisé à grande échelle"
+      ],
+      "desc2": "Au lieu de réagir aux événements, les équipes commencent à façonner les résultats.",
+      "desc3": "C’est la différence entre une transformation numérique et un véritable changement opérationnel."
+    }
+  ],
+
+  "scaleData": [
+    {
+      "title": "Onboarding intelligent et conseil à grande échelle",
+      "desc": "L’onboarding est le premier véritable test de confiance. Et c’est souvent là que les institutions perdent leur élan. Des processus lourds en papier, des vérifications manuelles, des validations déconnectées — tout cela ralentit ce qui devrait être un moment de confiance.",
+      "desc1": "Avec Salesforce FSC activé par l’IA, l’onboarding devient :",
+      "list": [
+        "Guidé numériquement",
+        "Conforme aux politiques",
+        "Automatiquement acheminé",
+        "Validé en temps réel pour la conformité"
+      ],
+      "desc2": "Les documents sont vérifiés plus rapidement. Les contrôles de risque se font en parallèle. Les conseillers se concentrent sur la relation plutôt que sur la paperasse.",
+      "desc3": "La même intelligence s’étend aux services de conseil.",
+      "desc4": "L’IA aide à identifier les lacunes de portefeuille, les déclencheurs liés aux étapes de vie et les opportunités de vente croisée basées sur le comportement, et non sur des suppositions. Cela transforme le conseil en une expérience continue et personnalisée plutôt qu’en une discussion annuelle."
+    }
+  ],
+   "frictionData": [
+    {
+      "title": "Une automatisation prête pour la conformité, sans friction",
+      "desc": "Dans les services financiers, l’automatisation ne fonctionne que si elle respecte la réglementation. C’est là que de nombreuses plateformes échouent. Elles automatisent les tâches, mais laissent la conformité comme une couche séparée. Le résultat : des reprises, des audits et une exposition accrue aux risques.",
+      "desc1": "Salesforce FSC adopte une approche différente. La conformité devient une partie intégrante du workflow lui-même.",
+      "whatTitle": "À quoi cela ressemble en pratique",
+      "list": [
+        "Processus KYC et AML automatisés intégrés à l’onboarding",
+        "Pistes d’audit générées par défaut",
+        "Approbations basées sur des politiques pour les transactions sensibles",
+        "Surveillance en temps réel des exceptions et des risques",
+        "Gouvernance des données alignée sur les exigences réglementaires"
+      ],
+      "desc2": "Lorsque l’IA est ajoutée par-dessus, les institutions obtiennent des signaux de risque prédictifs au lieu de simples rapports historiques. Ainsi, la conformité cesse d’être un goulot d’étranglement et devient une force intégrée."
+    }
+  ],
+
+  "rialData": [
+    {
+      "title": "Pourquoi RialFinance+ est différent",
+      "desc": "La technologie seule ne transforme pas les services financiers. L’exécution, oui.",
+      "desc1": "C’est pourquoi <a href='https://https://www.rialtes.com/fr/services/lob/salesforce-fsc-consulting-rialfinanceplus/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Rialtes a créé RialFinance+</a> comme une approche complète de services managés pour Salesforce Financial Services Cloud. Au lieu d’assembler conseil, implémentation, IA et support auprès de différents fournisseurs, RialFinance+ réunit tout dans un modèle unique et responsable.",
+      "desc2": "Ce que propose RialFinance+",
+      "list": [
+        {
+          "title": "Conseil stratégique",
+          "desc": "Nous alignons vos objectifs métiers avec une feuille de route FSC évolutive, fondée sur de vrais besoins opérationnels, et pas seulement sur des fonctionnalités."
+        },
+        {
+          "title": "Conception et architecture des systèmes",
+          "desc": "Nous concevons des environnements FSC qui soutiennent les modèles bancaires, de crédit et de gestion de patrimoine dès le premier jour."
+        },
+        {
+          "title": "Implémentation certifiée",
+          "desc": "Nos équipes configurent Salesforce FSC selon les meilleures pratiques du secteur, garantissant une adoption plus rapide et moins de surprises."
+        },
+        {
+          "title": "Intégrations IA",
+          "desc": "Des insights prédictifs à l’automatisation intelligente, nous intégrons l’IA là où elle crée une valeur mesurable."
+        },
+        {
+          "title": "Assurance qualité et gouvernance",
+          "desc": "Nous validons la performance, la sécurité et la conformité avant la mise en production et au-delà."
+        },
+        {
+          "title": "Services managés continus",
+          "desc": "L’optimisation ne s’arrête pas au lancement. Nous affinons en continu les workflows, l’analytique et les modèles d’engagement à mesure que votre activité évolue."
+        }
+      ],
+      "desc3": "Ce que cela signifie réellement est simple : vous obtenez un partenaire axé sur les résultats, et pas seulement sur les déploiements."
+    }
+  ],
+
+  "servicesData": [
+    {
+      "title": "Un impact métier réel dans l’ensemble des services financiers",
+      "desc": "Lorsque Salesforce FSC alimenté par l’IA est mis en œuvre de la bonne manière, les résultats se manifestent rapidement.",
+      "desc1": "Les banques constatent un onboarding plus rapide et une activation des comptes plus élevée.",
+      "desc2": "Les prêteurs bénéficient d’un meilleur contrôle des risques et d’approbations plus fluides.",
+      "desc3": "Les sociétés de gestion de patrimoine observent une productivité accrue des conseillers et des relations clients plus profondes.",
+      "desc4": "Globalement, les institutions obtiennent :",
+      "list": [
+        "Un délai de création de valeur plus court pour les initiatives numériques",
+        "Un engagement plus élevé sur tous les canaux",
+        "Une confiance accrue en matière de conformité",
+        "Moins de friction opérationnelle",
+        "Une plateforme qui évolue avec les nouveaux produits et réglementations"
+      ],
+      "desc5": "Ce n’est pas une transformation en théorie. C’est une transformation en pratique."
+    }
+  ],
+
+  "futureData": [
+    {
+      "title": "L’avenir des services financiers est intelligent, connecté et digne de confiance",
+      "desc": [
+        "Les clients ne se soucient pas du nombre de systèmes que vous utilisez. Ils se soucient de se sentir compris. Les régulateurs ne se soucient pas de la complexité de vos opérations. Ils se soucient de leur niveau de contrôle. Les conseillers ne se soucient pas de la puissance de votre CRM. Ils se soucient de son utilité au moment qui compte vraiment.",
+        "Salesforce Financial Services Cloud alimenté par l’IA répond à ces trois exigences. Mais la technologie seule ne crée pas la transformation.",
+        "C’est là qu’intervient Rialtes. Grâce à RialFinance+, nous aidons les institutions financières à transformer Salesforce FSC en une plateforme connectée, conforme et orientée par les insights, qui change la manière dont les équipes interagissent avec les clients, gèrent les risques et prennent des décisions."
+      ]
+    }
+  ],
+
+  "faqData": [
+    {
+      "question": "Qu’est-ce qui distingue Salesforce Financial Services Cloud d’un CRM traditionnel ?",
+      "answer": "Salesforce FSC est conçu spécifiquement pour les services financiers, avec des modèles de données sectoriels, des workflows prêts pour la conformité et des hiérarchies relationnelles que les CRM génériques n’offrent pas. Lorsqu’il est combiné à l’IA, il devient une plateforme d’aide à la décision, et pas seulement un système de suivi."
+    },
+    {
+      "question": "Comment l’IA améliore-t-elle l’engagement client dans la banque et la gestion de patrimoine ?",
+      "answer": "L’IA analyse les comportements, les événements de vie et les schémas d’interaction afin de recommander la meilleure action suivante, des offres personnalisées et des opportunités de service proactif, aidant ainsi les conseillers à rester pertinents sans être intrusifs."
+    },
+    {
+      "question": "Le FSC alimenté par l’IA peut-il prendre en charge la conformité réglementaire ?",
+      "answer": "Oui. FSC intègre la conformité directement dans les workflows, tandis que l’IA ajoute une surveillance prédictive des risques, une documentation automatisée et une gestion des exceptions en temps réel."
+    },
+    {
+      "question": "Qu’est-ce que RialFinance+ et en quoi est-il différent des services d’implémentation standards ?",
+      "answer": "RialFinance+ est un modèle complet de services managés qui combine conseil, implémentation, intégration de l’IA, QA et optimisation continue dans une approche unifiée, garantissant une valeur à long terme et pas seulement une mise en production réussie."
+    },
+    {
+      "question": "Quelles institutions financières bénéficient le plus de RialFinance+ ?",
+      "answer": "Les banques, prêteurs, coopératives de crédit et sociétés de gestion de patrimoine qui cherchent à moderniser l’engagement, rationaliser les opérations et faire évoluer la personnalisation sans compromettre la conformité."
+    }
+  ]
+}
+
+}

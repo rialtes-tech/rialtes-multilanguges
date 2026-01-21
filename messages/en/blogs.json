@@ -16297,5 +16297,588 @@
         "bannerAlt": "Glowing blue digital bridge with network nodes connecting devices representing cloud connectivity and data integration",
         "procurementImageAlt": "Procurement workflow progression arrows showing strong platform, weak adoption, fragmented workflows, and missed value stages",
         "faqTitle" : "FAQs: SAPBuy+ for SAP Ariba Implementation and Migration"
+    },
+    "kinaxisBlog":{
+        "blogCategory":"Kinaxis RapidResponse",
+        "bannerTitle":"Building a Real-Time, Resilient Supply Chain with Rialtes Demand+",
+        "oldPlan":"Old Planning vs Real-Time Planning",
+        "old":"Old",
+        "realTitle": "Real-Time",
+        "batchTitle": "Batch cycles",
+        "continue": "Continuous decisioning",
+        "data": "Siloed data",
+        "eco": "Connected ecosystem",
+        "reactive": "Reactive firefighting",
+        "pro": "Proactive resilience",
+        "demandTitle": "The Demand+ Delivery Model",
+        "faqTitle": "FAQs: Transform Your Supply Chain with Rialtes ‘Demand+’",
+       "bannerAlt":"Automated warehouse with colorful light trails showing high-speed conveyor systems and efficient inventory movement in motion",
+         "schemaData" : {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "Kinaxis RapidResponse & DemandPlus for Real-Time Supply Chain Resilience | Rialtes",
+  "description": "It’s built on real-time, concurrent planning that connects demand, supply, inventory, and capacity in one living model.",
+  "image": "https://www.rialtes.com/images/blog/automated-warehouse-conveyor-system-logistics.webp",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/en/insights/blogs/kinaxis-rapidresponse-demandplus-real-time-supply-chain/"
+  },
+  "datePublished": "2026-01-13",
+  "mainEntity": {
+    "@type": "FAQPage",
+    "name": "Rialtes Demand+ and Kinaxis RapidResponse FAQs",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is Demand+ by Rialtes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Demand+ is Rialtes’ end-to-end service framework built around Kinaxis RapidResponse to enable real-time, concurrent, and resilient supply chain planning."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does Kinaxis RapidResponse support real-time planning?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It uses a single, in-memory data model that updates demand, supply, inventory, and capacity simultaneously, allowing instant scenario analysis and decision-making."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is concurrent planning important for resilience?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Because disruptions affect the entire supply chain at once. Sequential planning delays response, while concurrent planning enables immediate, coordinated action."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does DemandPlus integrate with SAP and Oracle?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. DemandPlus integrates Kinaxis RapidResponse with SAP S/4HANA, Oracle EBS, and non-SAP systems for seamless data flow."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What makes Rialtes a strong Kinaxis partner?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Certified Kinaxis experts, global delivery capability, and a proven Demand+ framework that focuses on outcomes, not just implementation."
+        }
+      }
+    ]
+  }
+},
+  "blogMainData" :[
+    "Supply chains don’t break anymore. They bend, snap back, and get tested again almost immediately. Demand spikes without warning. Suppliers miss commitments. Transportation costs swing overnight. And planning teams are expected to respond in hours, not weeks. According to a <a href='https://www.mckinsey.com/capabilities/operations/our-insights/boosting-supply-chain-resilience' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>2023 McKinsey supply chain survey</a>, 73 percent of global executives experienced significant disruptions in the past two years, and nearly half say their current planning systems still lack the agility to respond in real time. At the same time, Gartner reports that only 22 percent of organizations have achieved true end-to-end supply chain visibility, leaving most leaders making high-impact decisions with partial information. <br /> Source:",
+    "That’s the dangerous gap today: what’s happening on the ground versus what leaders see. And it’s why resilience is no longer built on faster spreadsheets or tighter batch cycles. It’s built on real-time, concurrent planning that connects demand, supply, inventory, and capacity in one living model."
+  ],
+  "whyData" :[
+    {
+      "title": "Why Traditional Supply Chain Planning Can’t Keep Up",
+      "desc": "Most planning environments were designed for stability. Monthly S&OP cycles. Weekly demand reviews. Overnight batch runs. That worked when disruption was the exception.",
+      "desc1": "Now disruption is the norm.",
+      "desc2": "Common challenges we see across enterprises:",
+      "list": [
+        "Demand plans out of sync with supply realities",
+        "Inventory buffers masking deeper issues",
+        "Delayed visibility into supplier constraints",
+        "Manual scenario planning that takes days",
+        "Teams reacting instead of anticipating"
+      ],
+      "desc3":
+        "The problem isn’t a lack of effort but a lack of concurrency."
+    }
+  ],
+  "realData" : [
+    {
+      "title": "What Real-Time, Resilient Planning Really Means",
+      "desc": "Resilience doesn’t mean avoiding disruption. It means absorbing shocks and adapting faster than the impact spreads.",
+      "desc1":
+        "In a modern supply chain, that requires three capabilities work together:",
+      "list": [
+        {
+          "title": "Real-time visibility",
+          "desc": "across demand, supply, inventory, and capacity"
+        },
+        {
+          "title": "Concurrent planning",
+          "desc": "so every change ripples instantly across the network"
+        },
+        {
+          "title": "Rapid scenario simulation",
+          "desc": "to test responses before executing them"
+        }
+      ],
+      "desc2":
+        "This is the foundation of Kinaxis RapidResponse and the core of DemandPlus."
+    }
+  ],
+   "planData" :[
+    {
+      "title": "The Power of Concurrent Planning with Kinaxis RapidResponse",
+      "desc": "Unlike traditional planning tools that run sequential processes, Kinaxis RapidResponse operates on a single, in-memory data model.",
+      "desc1": "That means:",
+      "list": [
+        "A change in demand updates supply instantly",
+        "A supplier delay recalculates production plans in seconds",
+        "A capacity constraint reshapes fulfillment priorities automatically",
+        "A new forecast scenario shows impact across revenue, service levels, and margin"
+      ],
+      "desc2":
+        "Planning teams stop waiting for reports. They start working with live truth.",
+      "desc3":
+        "This is how organizations move from reacting late to acting early.",
+        "desc4":"Concurrent Planning in Action",
+      "steps": [
+        { "text": "Demand change", "bg": "#E3F8FF" },
+        { "text": "Supply recalculates", "bg": "#FAF1D2" },
+        { "text": "Inventory adjusts", "bg": "#E3F8FF" },
+        { "text": "Financial impact visible", "bg": "#FAF1D2" },
+        { "text": "All in real time", "bg": "#E3F8FF" }
+      ]
+    }
+  ],
+ "visibilityData" : [
+    {
+      "title": "Why Resilience Starts with Visibility",
+      "desc": "You can’t fix what you can’t see. Most disruptions escalate because signals are buried in systems that don’t talk to each other. By the time leadership notices, the cost is already locked in.",
+      "desc1": "DemandPlus connects:",
+      "list": [
+        "Demand planning",
+        "Supply planning",
+        "Inventory optimization",
+        "Capacity management",
+        "S&OP and IBP",
+        "Financial impact modeling"
+      ],
+      "desc2": "Into one synchronized environment.",
+      "desc3": "Leaders gain instant answers to questions like:",
+      "listTwo": [
+        "What happens if this supplier misses a shipment?",
+        "Can we reallocate inventory without hurting service levels?",
+        "Which customers should we prioritize if supply tightens?",
+        "How does this decision affect the margin next quarter?"
+      ],
+      "desc4": "This is resilience built on clarity, not guesswork."
+    }
+  ],
+   "DemandData" : [
+    {
+      "title": "Introducing Rialtes Demand+: Real-Time Planning in Action",
+      "desc": "Rialtes DemandPlus is our end-to-end service suite built around <a href='https://www.rialtes.com/en/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Kinaxis RapidResponse</a> to help organizations achieve connected, intelligent, and resilient supply chains.",
+      "desc1":
+        "As a certified Kinaxis and SAP partner with offices in the United States, Canada, India, and Singapore, and a team of highly certified Kinaxis experts, we help enterprises turn RapidResponse into a strategic advantage — not just another tool.",
+      "desc2":
+        "Demand+ isn’t just about deploying software. It’s about changing how planning decisions are made."
+    }
+  ],
+  "DemandplusData" :[
+    {
+      "title": "What Demand+ Delivers",
+      "desc": "Our Demand+ framework brings together strategy, technology, and execution into one cohesive transformation model.",
+      "list": [
+        {
+          "title": "Kinaxis License Advisory & Value Assessment",
+          "desc": "We help organizations define the right scope, roadmap, and ROI before implementation begins."
+        },
+        {
+          "title": "Solution Architecture & Design",
+          "desc": "Planning models are built around your real business constraints — not generic templates."
+        },
+        {
+          "title": "Rapid Implementation & Process Configuration",
+          "desc": "Accelerated deployment with best-practice workflows for demand, supply, inventory, and S&OP."
+        },
+        {
+          "title": "Quality Assurance, Testing & User Training",
+          "desc": "Ensuring planners trust the system — because adoption is everything."
+        },
+        {
+          "title": "Integration with SAP S/4HANA, Oracle EBS & Non-SAP Systems",
+          "desc": "DemandPlus connects RapidResponse with your ERP and ecosystem so data flows without friction."
+        },
+        {
+          "title": "Post-Go-Live Support & Continuous Optimization",
+          "desc": "Resilience improves over time. We stay engaged to evolve processes, not just maintain systems."
+        }
+      ],
+      "model": {
+        "label": "Advantage+ Marketing Transformation Model",
+        "steps": ["Strategy", "Build", "Create", "Test", "Connect", "Optimize"]
+      },
+      "steps": [
+        "Assess",
+        "Design",
+        "Implement",
+        "Integrate",
+        "Enable",
+        "Optimize"
+      ]
+    }
+  ],
+  "DeliversData" : [
+    {
+      "title": "How Demand+ Enables Faster Response to Disruption",
+      "desc": "Let’s look at real-world scenarios.",
+      "list": [
+        {
+          "title": "Scenario 1: Sudden Demand Spike",
+          "desc": "A promotion drives unexpected orders. With batch planning, teams react days later. With RapidResponse, demand changes trigger instant supply and inventory recalculations. Planners rebalance production and fulfillment in the same day."
+        },
+        {
+          "title": "Scenario 2: Supplier Delay",
+          "desc": "A critical component is delayed by two weeks. RapidResponse immediately shows downstream impact on service levels, revenue, and margin. Teams simulate alternatives and commit to the best option before the disruption cascades."
+        },
+        {
+          "title": "Scenario 3: Capacity Constraint",
+          "desc": "A manufacturing line goes down. Instead of manual spreadsheets, planners see real-time trade-offs across plants, SKUs, and customers"
+        }
+      ]
+    }
+  ],
+  "benefitsData" : [
+    {
+      "title": "Who Benefits Most from DemandPlus",
+      "desc": "<a href='https://www.rialtes.com/en/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>DemandPlus</a> is ideal for organizations that operate in complex, fast-moving environments:",
+      "list": [
+        "Manufacturing and distribution enterprises",
+        "Life sciences and medtech supply chains",
+        "Consumer goods and retail networks",
+        "Automotive and industrial companies",
+        "High-tech and electronics firms"
+      ],
+      "desc1":
+        "If volatility is part of your reality, real-time planning should be too."
+    }
+  ],
+  "businessData" : [
+    {
+      "title": "Business Outcomes Leaders Care About",
+      "desc": "When real-time resilience becomes the norm, the impact is tangible:",
+      "list": [
+        "Faster response to demand and supply changes",
+        "Higher service levels with lower inventory",
+        "Reduced expediting and firefighting costs",
+        "Better alignment between planning and finance",
+        "Stronger confidence in S&OP and IBP decisions",
+        "A supply chain that adapts instead of absorbing losses"
+      ],
+      "desc1":
+        "This is how planning moves from operational support to strategic advantage. With Rialtes Demand+ and Kinaxis RapidResponse, real-time planning becomes your advantage, turning uncertainty into a competitive edge"
+    }
+  ],
+  "faqData" : [
+    {
+      "question": "What is Demand+ by Rialtes?",
+      "answer":
+        "Demand+ is Rialtes’ end-to-end service framework built around Kinaxis RapidResponse to enable real-time, concurrent, and resilient supply chain planning."
+    },
+    {
+      "question": "How does Kinaxis RapidResponse support real-time planning?",
+      "answer":
+        "It uses a single, in-memory data model that updates demand, supply, inventory, and capacity simultaneously, allowing instant scenario analysis and decision-making."
+    },
+    {
+      "question": "Why is concurrent planning important for resilience?",
+      "answer":
+        "Because disruptions affect the entire supply chain at once. Sequential planning delays response, while concurrent planning enables immediate, coordinated action."
+    },
+    {
+      "question": "Does DemandPlus integrate with SAP and Oracle?",
+      "answer":
+        "Yes. DemandPlus integrates Kinaxis RapidResponse with SAP S/4HANA, Oracle EBS, and non-SAP systems for seamless data flow."
+    },
+    {
+      "question": "What makes Rialtes a strong Kinaxis partner?",
+      "answer":
+        "Certified Kinaxis experts, global delivery capability, and a proven Demand+ framework that focuses on outcomes, not just implementation."
+    }
+  ]
+
+    },
+    "rialfinanceBlog":{
+    "blogCategory":"Salesforce FSC",
+    "headerAlt":"How AI-Powered Salesforce Financial Services Cloud Is Transforming Modern Banking",
+    "faqTitle":"FAQs: AI-Driven Financial Services Transformation",
+    "bannerAlt":"Futuristic digital city with glowing data streams and network connections representing smart city technology and urban IoT",
+    "clientDiagram":"Client 360 diagram showing comprehensive customer view with accounts, life events, transactions, preferences, risk, engagement",
+    "crmAlt":"Four-step CRM evolution process: Legacy CRM, Connected data, AI-enabled workflows, to Intelligent enterprise transformation",
+  "schemaData" : {
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "RialFinancePlus and the Rise of AI-Powered Banking",
+  "description": "Through RialFinance+, we help financial institutions turn Salesforce FSC into a connected, compliant, and insight-driven platform that changes how teams engage clients, manage risk, and make decisions.",
+  "image": "https://www.rialtes.com/image/blogs/smart-city-digital-network-iot-technology-banner",
+  "author": {
+    "@type": "Organization",
+    "name": "Rialtes"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Rialtes",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://www.rialtes.com/en/insights/blogs/ai-powered-banking-salesforce-fsc-rialfinanceplus/"
+  },
+  "datePublished": "2026-01-14",
+  "mainEntity": {
+    "@type": "FAQPage",
+    "name": "AI-Driven Financial Services Transformation FAQs",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What makes Salesforce Financial Services Cloud different from traditional CRM?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Salesforce FSC is built specifically for financial services, with industry data models, compliance-ready workflows, and relationship hierarchies that generic CRMs lack. When combined with AI, it becomes a decision-support platform, not just a tracking system."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does AI improve client engagement in banking and wealth management?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "AI analyzes behavior, life events, and interaction patterns to recommend next-best actions, personalized offers, and proactive service opportunities, helping advisors stay relevant without being intrusive."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can AI-powered FSC support regulatory compliance?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. FSC embeds compliance into workflows, while AI adds predictive risk monitoring, automated documentation, and real-time exception handling."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is RialFinance+ and how is it different from standard implementation services?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "RialFinance+ is a full managed services model that combines advisory, implementation, AI integration, QA, and continuous optimization into one unified approach, ensuring long-term value, not just a successful go-live."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Which financial institutions benefit most from RialFinance+?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Banks, lenders, credit unions, and wealth management firms are looking to modernize engagement, streamline operations, and scale personalization without compromising compliance."
+        }
+      }
+    ]
+  }
+},
+  "blogMainData" : [
+    "Financial services are changing faster than most institutions can redesign their operating models. <a href='https://www.accenture.com/us-en/insights/banking/banking-consumer-study' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>According to Accenture</a>, nearly 73% of banking customers now expect the same level of personalization and digital ease they get from consumer apps, yet only a fraction believes their bank delivers it. Add rising regulatory pressure and shrinking margins, and the gap becomes even clearer: institutions are being asked to move faster, act smarter, and stay compliant at the same time.",
+    "Traditional CRM wasn’t built for this reality. It was designed to log interactions, not to guide decisions in real time. That’s why forward-thinking banks, lenders, and wealth firms are moving beyond basic CRM into AI-powered Salesforce Financial Services Cloud (FSC) — a platform built to connect data, intelligence, and action.",
+    "And this is exactly where Rialtes’ RialFinance+ services step in, helping financial institutions modernize engagement, operations, and compliance through one connected, intelligent ecosystem that’s ready for today’s expectations and tomorrow’s demands."
+  ],
+  "whyData" : [
+    {
+      "title": "Why Traditional CRM Falls Short in Financial Services",
+      "desc": "Most CRMs still behave like digital filing cabinets. They store data, but they don’t interpret it. They log interactions, but they don’t anticipate needs.",
+      "desc1": "For financial institutions, that creates real problems.",
+      "desc2": "The impact shows up everywhere",
+      "list": [
+        "Advisors spend more time searching than advising",
+        "Onboarding takes weeks instead of days",
+        "Cross-sell feels forced, not relevant",
+        "Compliance is reactive, not embedded",
+        "Customer journeys stay fragmented across products and channels"
+      ],
+      "desc3":
+        "What this really means is lost trust, lost revenue, and lost momentum.",
+      "desc4":
+        "Salesforce Financial Services Cloud changes that equation by combining industry data models, automation, and AI into a system designed specifically for banking, lending, and wealth management."
+    }
+  ],
+  "buildingData" : [
+    {
+      "title": "Building a True Client 360 for Financial Institutions",
+      "desc": "Everyone talks about Client 360. Few achieve it",
+      "desc1":
+        "In most banks and financial institutions, customer data is stored everywhere. Core banking systems, loan platforms, CRM, marketing tools, and support desks. Each team sees only part of the story.",
+      "desc2":
+        "Salesforce FSC changes this by creating a single financial profile that brings together:",
+      "list": [
+        "Accounts and holdings",
+        "Household and relationship hierarchies",
+        "Life events and financial goals",
+        "Service history and interaction data",
+        "Compliance records and preferences"
+      ]
+    }
+  ],
+   "powerData" : [
+    {
+      "title": "The Power of AI + Salesforce FSC in Modern Banking ",
+      "desc": "AI doesn’t replace relationship managers. It makes them sharper. When embedded into Salesforce FSC, AI transforms the platform from a system of record to a system of intelligence.",
+      "desc1": "What AI brings to the table ",
+      "list": [
+        "Predictive insights that flag client needs before they surface",
+        "Next-best-action recommendations for advisors",
+        "Automated workflows for onboarding and servicing",
+        "Real-time risk and compliance checks",
+        "Personalized engagement at scale"
+      ],
+      "desc2": "Instead of reacting to events, teams start shaping outcomes.",
+      "desc3":
+        "That’s the difference between digital transformation and real operational change."
+    }
+  ],
+   "scaleData" : [
+    {
+      "title": "Intelligent Onboarding and Advisory at Scale",
+      "desc": "Onboarding is the first real test of trust. And it’s often where institutions lose momentum. Paper-heavy processes, manual checks, disconnected approvals. All of it slows down what should be a confidence-building moment.",
+      "desc1": "With AI-enabled Salesforce FSC, onboarding becomes:",
+      "list": [
+        "Digitally guided",
+        "Policy-aware",
+        "Automatically routed",
+        "Compliance-validated in real time"
+      ],
+      "desc2":
+        "Documents are verified faster. Risk checks happen in parallel. Advisors focus on relationship building instead of paperwork.",
+      "desc3": "The same intelligence carries into advisory services.",
+      "desc4":
+        "AI helps surface portfolio gaps, life-stage triggers, and cross-sell opportunities based on behavior, not assumptions. That turns advisory into a continuous, personalized experience instead of a once-a-year conversation."
+    }
+  ],
+  "frictionData" : [
+    {
+      "title": "Compliance-Ready Automation Without the Friction ",
+      "desc": "In financial services, automation only works if it respects regulation. That’s where many platforms fall short. They automate tasks but leave compliance as a separate layer. The result is rework, audits, and risk exposure.",
+      "desc1":
+        "Salesforce FSC approaches this differently. Compliance becomes part of the workflow itself.",
+      "whatTitle": "What that looks like in practice",
+      "list": [
+        "Automated KYC and AML processes embedded in onboarding",
+        "Audit trails generated by default",
+        "Policy-driven approvals for sensitive transactions",
+        "Real-time monitoring for exceptions and risks",
+        "Data governance aligned with regulatory requirements"
+      ],
+      "desc2":
+        "When AI is layered on top, institutions gain predictive risk signals instead of just historical reports. So compliance stops being a bottleneck and becomes a built-in strength."
+    }
+  ],
+  "rialData" : [
+    {
+      "title": "Why RialFinance+ Is Different ",
+      "desc": "Technology alone doesn’t transform financial services. Execution does.",
+      "desc1":
+        "That’s why <a href='https://https://www.rialtes.com/en/services/lob/salesforce-fsc-consulting-rialfinanceplus/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Rialtes created RialFinance+</a> as a complete, managed services approach to Salesforce Financial Services Cloud. Instead of piecing together advisory, implementation, AI, and support from different vendors, RialFinance+ brings everything into one accountable model.",
+      "desc2": "What RialFinance+ delivers",
+      "list": [
+        {
+          "title": "Strategic advisory",
+          "desc": "We align your business goals with a scalable FSC roadmap, grounded in real operational needs, not just features."
+        },
+        {
+          "title": "System design and architecture",
+          "desc": "We design FSC environments that support banking, lending, and wealth models from day one."
+        },
+        {
+          "title": "Certified implementation",
+          "desc": "Our teams configure Salesforce FSC with industry best practices, ensuring faster adoption and fewer surprises."
+        },
+        {
+          "title": "AI integrations ",
+          "desc": "From predictive insights to intelligent automation, we embed AI where it creates measurable value."
+        },
+        {
+          "title": "Quality assurance and governance ",
+          "desc": "We validate performance, security, and compliance before go-live and beyond."
+        },
+        {
+          "title": "Ongoing managed services ",
+          "desc": "Optimization doesn’t stop at launch. We continuously refine workflows, analytics, and engagement models as your business evolves."
+        }
+      ],
+      "desc3":
+        "What this really means is simple. You get a partner focused on outcomes, not just deployments."
+    }
+  ],
+   "servicesData" :[
+    {
+      "title": "Real Business Impact Across Financial Services ",
+      "desc": "When AI-powered Salesforce FSC is implemented the right way, results show up fast.",
+      "desc1": "Banks see faster onboarding and higher account activation.",
+      "desc2": "Lenders see better risk control and smoother approvals.",
+      "desc3":
+        "Wealth firms see stronger advisor productivity and deeper client relationships.",
+      "desc4": "Across the board, institutions gain:",
+      "list": [
+        "Shorter time-to-value from digital initiatives",
+        "Higher engagement across channels",
+        "Improved compliance confidence",
+        "Lower operational friction",
+        "A platform that scales with new products and regulations"
+      ],
+      "desc5":
+        "That’s not transformation in theory. That’s transformation in practice."
+    }
+  ],
+  "futureData" : [
+    {
+      "title":
+        "The Future of Financial Services Is Intelligent, Connected, and Trusted",
+      "desc": [
+        "Customers don’t care how many systems you run. They care about how understood they feel. Regulators don’t care how complex your operations are. They care about how controlled they are. Advisors don’t care how powerful your CRM is. They care about how useful it is in the moment that matters.",
+        "AI-powered Salesforce Financial Services Cloud delivers on all three fronts. But technology alone doesn’t transform happen.",
+        "That’s where Rialtes comes in. Through RialFinance+, we help financial institutions turn Salesforce FSC into a connected, compliant, and insight-driven platform that changes how teams engage clients, manage risk, and make decisions."
+      ]
+    }
+  ],
+  "faqData" : [
+    {
+      "question":
+        "What makes Salesforce Financial Services Cloud different from traditional CRM? ",
+      "answer":
+        "Salesforce FSC is built specifically for financial services, with industry data models, compliance-ready workflows, and relationship hierarchies that generic CRMs lack. When combined with AI, it becomes a decision-support platform, not just a tracking system."
+    },
+    {
+      "question":
+        "How does AI improve client engagement in banking and wealth management?",
+      "answer":
+        "AI analyzes behavior, life events, and interaction patterns to recommend next-best actions, personalized offers, and proactive service opportunities, helping advisors stay relevant without being intrusive."
+    },
+    {
+      "question": "Can AI-powered FSC support regulatory compliance?",
+      "answer":
+        "Yes. FSC embeds compliance into workflows, while AI adds predictive risk monitoring, automated documentation, and real-time exception handling."
+    },
+    {
+      "question":
+        "What is RialFinance+ and how is it different from standard implementation services?",
+      "answer":
+        "RialFinance+ is a full managed services model that combines advisory, implementation, AI integration, QA, and continuous optimization into one unified approach, ensuring long-term value, not just a successful go-live."
+    },
+    {
+      "question": "Which financial institutions benefit most from RialFinance+?",
+      "answer":
+        "Banks, lenders, credit unions, and wealth management firms are looking to modernize engagement, streamline operations, and scale personalization without compromising compliance."
+    }
+  ]
     }
 }

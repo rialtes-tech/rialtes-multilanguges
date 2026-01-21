@@ -1,0 +1,33 @@
+{
+    "breadcrumbs": {
+        "home": "Home",
+        "about-us": "Sobre nosotros",
+        "industry": "Industria",
+        "life-sciences": "Ciencias de la vida",
+        "solutions": "Soluciones",
+        "data-ai": "Datos e IA",
+        "enterprise-platforms": "Plataformas empresariales",
+        "integration": "Integración",
+        "artificial-intelligence": "Inteligencia artificial",
+        "process-automation": "Automatización de procesos",
+        "quality-engineering-assurance": "Ingeniería y aseguramiento de la calidad",
+        "salesforce-data-cloud-consulting": "Salesforce Data Cloud",
+        "sap-datasphere-implementation-consulting": "SAP Datasphere",
+        "sap-business-data-cloud-bdc-consulting": "SAP Business Data Cloud",
+        "sap-consulting-implementation-partners": "Consultoría SAP",
+        "salesforce-agentforce-consulting": "Agentforce",
+        "salesforce-consulting-partner-us-india": "Consultoría Salesforce",
+        "successplus-successfactors-implementation-partner": "SAP SuccessFactors",
+        "hxm-transformation": "Gestión de la experiencia humana",
+        "spend-management": "Gestión del gasto",
+        "sapbuyplus-ariba-implementation-partner": "SAP Ariba",
+        "salesforce-revenue-cloud-consulting": "Salesforce Revenue Cloud",
+        "oracle-ebs-consulting": "Oracle EBS",
+        "demandplus-kinaxis-rapidresponse-services": "Kinaxis RapidResponse",
+        "intelligent-scm": "Gestión de la cadena de suministro",
+        "mulesoft-salesforce": "MuleSoft",
+        "sap-cloud-platform-integration-consulting": "Integración de la plataforma en la nube de SAP",
+        "rpa-consulting-services-provider": "UiPath",
+        "tosca-software-automation-testing": "Tricentis Tosca"
+    }
+}

@@ -177,6 +177,9 @@
       "Services Gérés",
       "Rise with SAP",
       "Grow with SAP",
+       "Salesforce Life Sciences Cloud",
+       "Kinaxis RapidResponse",
+       "Salesforce FSC",
       "Autres"
     ],
     "slides": [
@@ -227,7 +230,29 @@
     ],
     "latestBlogs": [
       {
-        "id": 75,
+  "id": 77,
+  "image": "/images/blog/smart-city-digital-network-iot-technology-thumb.webp",
+  "category": "Salesforce FSC",
+  "industry": "Finance",
+  "date": "Jan. 14, 2026",
+  "url": "/ai-powered-banking-salesforce-fsc-rialfinanceplus/",
+  "title": "Comment Salesforce Financial Services Cloud, alimenté par l’IA, transforme la banque moderne",
+  "alt": "Ville numérique futuriste avec flux de données lumineux et connexions réseau représentant technologie ville intelligente IoT",
+  "description": "Les services financiers évoluent plus rapidement que la capacité de la plupart des institutions à repenser leurs modèles opérationnels. Selon Accenture, près de 73 % des clients bancaires attendent désormais le même niveau de personnalisation"
+},
+    {
+            "id": 76,
+            "image": "/images/blog/automated-warehouse-conveyor-system-logistics-thumbnail.webp",
+            "category": "Kinaxis RapidResponse",
+            "industry": "Generic",
+            "date": "Jan. 13, 2026",
+            "url": "/kinaxis-rapidresponse-demandplus-real-time-supply-chain/",
+            "title": "Construire une chaîne d'approvisionnement en temps réel et résiliente avec Rialtes Demand+",
+            "alt": "Entrepôt automatisé avec traînées lumineuses colorées montrant systèmes convoyeurs rapides et mouvement inventaire efficace",
+           "description": "Les chaînes d’approvisionnement ne se brisent plus. Elles se plient, rebondissent et sont testées à nouveau presque immédiatement. La demande augmente sans avertissement. Les fournisseurs ne respectent pas leurs engagements."
+        }, 
+        {
+          "id": 75,
         "image": "/images/blog/digital-connectivity-bridge-network-integration-thumb.webp",
         "category": "SAP Ariba",
         "industry": "Générique",
@@ -292,7 +317,7 @@
         "alt": "Dirigeant d’entreprise sur un chemin symbolisant la croissance de l’entreprise et la transformation numérique",
         "description": "La modernisation des ERP figure depuis des années à l’agenda des conseils d’administration, pourtant les réussites restent bien moins nombreuses que prévu. Les dirigeants savent que la transformation est nécessaire, mais le parcours devient souvent semé d’embûches."
       },
-      {
+        {
         "id": 69,
         "image": "/images/blog/from-project-partner/thumb.webp",
         "category": "Conseil SAP",

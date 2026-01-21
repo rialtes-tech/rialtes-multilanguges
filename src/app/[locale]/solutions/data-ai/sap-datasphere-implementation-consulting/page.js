@@ -10,13 +10,15 @@ import esContent from '../../../../../../messages/es/solutions.json';
 import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import { useLocale, useTranslations } from "next-intl";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+
 
 export default function () {
     const t = useTranslations('datasphere')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { whyrialtessectiondata, industryAcceleratorsData, buildIntelligentData, intelligentData, aiPoweredData, educationSectionData, omniSectionData, aiReadyData
-        , sapHanaData, sapAribaData, sapSuccessData, salesforcesapData, advancedData, aiPoweredUseData, globalPresenceData,schemaData
+        , sapHanaData, sapAribaData, sapSuccessData, salesforcesapData, advancedData, aiPoweredUseData, globalPresenceData, schemaData
     } = content.datasphere;
     const WhyRialtesSection = () => {
         return (
@@ -479,7 +481,7 @@ export default function () {
                                 <h3 className="text-[#FFFFFF] font-semibold 4xl:text-[42px] xl:text-[38px] text-[20px] leading-tight mt-[27px] xl:mt-[31px] xl:w-[90%] w-[80%]">
                                     {t('endToEndSubTitle2')}
                                 </h3>
-                            </div> 
+                            </div>
                             <div className="flex flex-col">
                                 <UnorderedList arrName={sapAribaData} ulClassName="list-disc pl-[22px] 2xl:w-[86%] w-[90%] md:mt-[0] mt-[21px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[#FFFFFF] xl:text-[16px] 2xl:text-[18px] md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-normal" />
                                 <div className="xl:mt-[49px] mt-[34px] xl:ml-1 ">
@@ -856,6 +858,10 @@ export default function () {
                     </div>
                 </div>
             </section>
+            {/* breadcrumb */}
+            <section className="custom-container">
+                <BreadCrumbs />
+            </section>
             {/* future proof section */}
             <section className="custom-container xl:mt-[124px] mt-[53px] xl:mb-[0px] mb-[52px]">
                 <div className="grid xl:grid-cols-12 2xl:gap-[60px] xl:gap-[46px] gap-y-[39px]">
@@ -893,7 +899,7 @@ export default function () {
             {/* advanced data visualization */}
             <AdvancedDataSection />
             {/* ai powered section */}
-            <AIPoweredUseSection /> 
+            <AIPoweredUseSection />
             {/* Global Presence Section */}
             <GlobalPresenceSection />
             {/* Contact Form */}

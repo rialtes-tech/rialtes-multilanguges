@@ -11,13 +11,14 @@ import enContent from '../../../../../../messages/en/solutions.json';
 import esContent from '../../../../../../messages/es/solutions.json';
 import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 
 export default function Page() {
   const t = useTranslations("sapBdc");
   const locale = useLocale();
   const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { listItems, fabricList, dataItems,schemaData, partnerList, exploreData, migrateData, connectSapData, ourSapData, whyClientsData } = homepageContent.sapBdc;
+  const { listItems, fabricList, dataItems, schemaData, partnerList, exploreData, migrateData, connectSapData, ourSapData, whyClientsData } = homepageContent.sapBdc;
 
   return (
     <div className="min-h-screen bg-white">
@@ -66,6 +67,10 @@ export default function Page() {
             </h1>
           </div>
         </div>
+      </section>
+      {/* breadcrumb */}
+      <section className="custom-container">
+        <BreadCrumbs />
       </section>
       {/* page description */}
       <section className="mt-16">

@@ -25,7 +25,7 @@
     "seoDescription": "Unlock success with Rialtes’ IT services and IT consulting. Powered by AI innovation, we drive efficiency, elevate performance, and fuel sustainable growth.",
     "beyondTitle": "Beyond Business: A Commitment to Change",
     "innovatingData": "Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact",
-    "successStoriesTitle": "Success Stories", 
+    "successStoriesTitle": "Success Stories",
     "successStoriesDesc": "Discover how we’ve harnessed the disruptive power of cutting-edge AI to help companies anticipate and act with insight and speed with IT consulting services.",
     "industryExpertiesTitle": "Industry Expertise & Solutions",
     "industryExpertiesDesc": "We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.",
@@ -42,37 +42,64 @@
         "alt": "Abstract blue glowing network visualization with flowing data streams and digital nodes",
         "description": "SAP PI PO to SAP CPI Migration: A Complete Guide",
         "image": "/images/homepage/insights5.webp",
-        "link": "/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide"
-      }, 
+        "link": "/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide",
+        "title": "Blogs"
+      },
+ {
+        "title": "Case Studies",
+        "description": "Transforming O2C and P2P Processes with SAP ERP Cloud Solutions",
+        "image": "/images/homepage/prp-processes.webp",
+        "link": "/insights/case-studies/sap-erp-cloud-solutions-automotive-case-study",
+        "alt": ""
+      },
       {
         "alt": "Female healthcare worker in blue scrubs wearing face mask holding digital tablet",
         "description": "AI in Patient Engagement: How AI Agents Support MedTech in Remote Monitoring",
         "image": "/images/homepage/insights4.webp",
-        "link": "/insights/blogs/ai-patient-engagement-medtech-remote-care"
+        "link": "/insights/blogs/ai-patient-engagement-medtech-remote-care",
+        "title": "Blogs"
+      },
+       {
+        "title": "Case Studies",
+        "description": "Transforming Student Success with Salesforce Education Cloud and Edu+",
+        "image": "/images/homepage/transforming-student.webp",
+        "link": "/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus",
+        "alt": ""
       },
       {
         "alt": "Blue digital wave pattern blending water splashes with mesh grid technology backdrop",
         "description": "How to Build and Deploy Your First AI Agent with Agentforce (Step-by-Step Guide)",
         "image": "/images/homepage/insights3.webp",
-        "link": "/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce"
+        "link": "/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce",
+        "title": "Blogs"
+      },
+       {
+        "title": "Case Studies",
+        "description": "Leading Automotive Manufacturer Achieved 35% Higher Customer Satisfaction Score with AutoSense",
+        "image": "/images/homepage/leading-automotive.webp",
+        "link": "/insights/case-studies/leading-automotive-manufacturer-achieved-35percent-higher-customer-satisfaction-score-with-autosense",
+        "alt": ""
       },
       {
         "alt": "Glowing blue robotic hand with illuminated LED fingers on touchscreen surface",
         "description": "What Makes SAP Consulting Companies Trustworthy for Enterprise Engagements ",
         "image": "/images/homepage/insights1.webp",
-        "link": "/insights/blogs/what-makes-sap-consulting-companies-trustworthy"
+        "link": "/insights/blogs/what-makes-sap-consulting-companies-trustworthy",
+        "title": "Blogs"
       },
       {
         "alt": "Overhead view of person's hand using silver laptop on blue gradient background",
         "description": "Salesforce Consulting Playbook: Strategies to Drive Growth and Efficiency",
         "image": "/images/homepage/insights2.webp",
-        "link": "/insights/blogs/salesforce-consulting-playbook-enterprise-growth"
+        "link": "/insights/blogs/salesforce-consulting-playbook-enterprise-growth",
+        "title": "Blogs"
       },
       {
         "alt": "Cute white and blue AI robot with glowing features next to smartphone chatbot interface",
         "description": "Integration Partners for Salesforce: Cutting Complexity, Increasing ROI",
         "image": "/images/homepage/insights6.webp",
-        "link": "/insights/blogs/salesforce-integration-partners-for-enterprises-to-scale"
+        "link": "/insights/blogs/salesforce-integration-partners-for-enterprises-to-scale",
+        "title": "Blogs"
       }
     ],
     "slidesData": [
