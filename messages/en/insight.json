@@ -331,7 +331,7 @@
     ],
     "latestBlogs": [
        {
-             "id": 76,
+             "id": 77,
             "image": "/images/blog/smart-city-digital-network-iot-technology-thumb.webp",
             "category": "Salesforce FSC",
             "industry": "Finance",
@@ -342,7 +342,7 @@
             "description": "Financial services are changing faster than most institutions can redesign their operating models. According to Accenture, nearly 73% of banking customers now expect the same"
         },
       {
-            "id": 75,
+            "id": 76,
             "image": "/images/blog/automated-warehouse-conveyor-system-logistics-thumbnail.webp",
             "category": "Kinaxis RapidResponse",
             "industry": "Generic",
@@ -352,7 +352,17 @@
             "alt": "Automated warehouse with colorful light trails showing high-speed conveyor systems and efficient inventory movement in motion",
             "description": "Supply chains don’t break anymore. They bend, snap back, and get tested again almost immediately. Demand spikes without warning. Suppliers miss commitments."
         }, 
-    
+     {
+        "id": 75,
+        "image": "/images/blog/digital-connectivity-bridge-network-integration-thumb.webp",
+        "category": "SAP Ariba",
+        "industry": "Generic",
+        "date": "Jan. 12, 2026",
+        "url": "/sapbuyplus-sap-ariba-connected-procurement/",
+        "title": "SAPBuy+: The Missing Link in Ariba Procurement",
+        "alt": "Digital bridge with network connections linking smartphone to cloud representing SAP Ariba procurement integration system",
+        "description": "Procurement has undergone more significant changes in the last five years than it did in the previous twenty. "
+      },
       {
         "id": 74,
         "image": "/images/blog/data-analysis-business-strategy-thumbnail.webp",
