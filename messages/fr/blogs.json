@@ -11828,5 +11828,193 @@
       "answer": "Des experts Kinaxis certifiés, une capacité de livraison mondiale et un cadre Demand+ éprouvé qui se concentre sur les résultats, pas seulement sur la mise en œuvre."
     }
   ]
+    },
+     "rialfinanceBlog":{
+   "blogCategory": "Salesforce FSC",
+  "headerAlt": "Cómo Salesforce Financial Services Cloud impulsado por IA está transformando la banca moderna",
+  "faqTitle": "Preguntas frecuentes: Transformación de los servicios financieros impulsada por IA",
+  "bannerAlt": "Ville numérique futuriste avec flux de données lumineux et connexions réseau représentant technologie ville intelligente IoT",
+  "clientDiagram": "Diagramme Client 360 montrant vue client complète avec comptes, événements vie, transactions, préférences, risque, engagement",
+  "crmAlt": "Processus d'évolution CRM en quatre étapes: CRM hérité, Données connectées, Workflows IA, Entreprise intelligente",
+  "schemaData" : {},
+  "blogMainData": [
+    "Les services financiers évoluent plus rapidement que la capacité de la plupart des institutions à repenser leurs modèles opérationnels. <a href='https://www.accenture.com/us-en/insights/banking/banking-consumer-study' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Selon Accenture</a>, près de 73 % des clients bancaires attendent désormais le même niveau de personnalisation et de simplicité numérique que celui offert par les applications grand public, mais seule une minorité estime que leur banque y répond réellement. Ajoutez à cela une pression réglementaire croissante et des marges en baisse, et l’écart devient encore plus évident : les institutions doivent aller plus vite, agir plus intelligemment et rester conformes en même temps.",
+    "Les CRM traditionnels n’ont pas été conçus pour cette réalité. Ils ont été pensés pour enregistrer les interactions, pas pour guider les décisions en temps réel. C’est pourquoi les banques, les prêteurs et les sociétés de gestion de patrimoine tournés vers l’avenir dépassent le simple CRM pour adopter Salesforce Financial Services Cloud (FSC) alimenté par l’IA — une plateforme conçue pour connecter les données, l’intelligence et l’action.",
+    "Et c’est précisément là qu’interviennent les services RialFinance+ de Rialtes, aidant les institutions financières à moderniser l’engagement, les opérations et la conformité grâce à un écosystème unique, connecté et intelligent, prêt pour les attentes d’aujourd’hui et les exigences de demain."
+  ],
+
+  "whyData": [
+    {
+      "title": "Pourquoi les CRM traditionnels sont insuffisants dans les services financiers",
+      "desc": "La plupart des CRM fonctionnent encore comme des classeurs numériques. Ils stockent des données, mais ne les interprètent pas. Ils enregistrent les interactions, mais n’anticipent pas les besoins.",
+      "desc1": "Pour les institutions financières, cela crée de véritables problèmes.",
+      "desc2": "L’impact se fait sentir partout :",
+      "list": [
+        "Les conseillers passent plus de temps à chercher qu’à conseiller",
+        "L’onboarding prend des semaines au lieu de quelques jours",
+        "La vente croisée semble forcée, pas pertinente",
+        "La conformité est réactive, pas intégrée",
+        "Les parcours clients restent fragmentés entre produits et canaux"
+      ],
+      "desc3": "Ce que cela signifie réellement : une perte de confiance, de revenus et d’élan.",
+      "desc4": "Salesforce Financial Services Cloud change cette équation en combinant des modèles de données sectoriels, l’automatisation et l’IA dans un système conçu spécifiquement pour la banque, le crédit et la gestion de patrimoine."
     }
+  ],
+
+  "buildingData": [
+    {
+      "title": "Construire un véritable Client 360 pour les institutions financières",
+      "desc": "Tout le monde parle de Client 360. Peu y parviennent réellement.",
+      "desc1": "Dans la plupart des banques et institutions financières, les données clients sont stockées partout : systèmes bancaires centraux, plateformes de prêts, CRM, outils marketing et centres de support. Chaque équipe ne voit qu’une partie de l’histoire.",
+      "desc2": "Salesforce FSC change cela en créant un profil financier unique qui rassemble :",
+      "list": [
+        "Comptes et actifs",
+        "Hiérarchies de ménages et de relations",
+        "Événements de vie et objectifs financiers",
+        "Historique des services et données d’interaction",
+        "Dossiers de conformité et préférences"
+      ]
+    }
+  ],
+
+  "powerData": [
+    {
+      "title": "La puissance de l’IA + Salesforce FSC dans la banque moderne",
+      "desc": "L’IA ne remplace pas les chargés de relation. Elle les rend plus performants. Intégrée à Salesforce FSC, l’IA transforme la plateforme d’un système d’enregistrement en un système d’intelligence.",
+      "desc1": "Ce que l’IA apporte :",
+      "list": [
+        "Des insights prédictifs qui identifient les besoins des clients avant qu’ils n’apparaissent",
+        "Des recommandations de meilleure action suivante pour les conseillers",
+        "Des workflows automatisés pour l’onboarding et le service",
+        "Des contrôles de risque et de conformité en temps réel",
+        "Un engagement personnalisé à grande échelle"
+      ],
+      "desc2": "Au lieu de réagir aux événements, les équipes commencent à façonner les résultats.",
+      "desc3": "C’est la différence entre une transformation numérique et un véritable changement opérationnel."
+    }
+  ],
+
+  "scaleData": [
+    {
+      "title": "Onboarding intelligent et conseil à grande échelle",
+      "desc": "L’onboarding est le premier véritable test de confiance. Et c’est souvent là que les institutions perdent leur élan. Des processus lourds en papier, des vérifications manuelles, des validations déconnectées — tout cela ralentit ce qui devrait être un moment de confiance.",
+      "desc1": "Avec Salesforce FSC activé par l’IA, l’onboarding devient :",
+      "list": [
+        "Guidé numériquement",
+        "Conforme aux politiques",
+        "Automatiquement acheminé",
+        "Validé en temps réel pour la conformité"
+      ],
+      "desc2": "Les documents sont vérifiés plus rapidement. Les contrôles de risque se font en parallèle. Les conseillers se concentrent sur la relation plutôt que sur la paperasse.",
+      "desc3": "La même intelligence s’étend aux services de conseil.",
+      "desc4": "L’IA aide à identifier les lacunes de portefeuille, les déclencheurs liés aux étapes de vie et les opportunités de vente croisée basées sur le comportement, et non sur des suppositions. Cela transforme le conseil en une expérience continue et personnalisée plutôt qu’en une discussion annuelle."
+    }
+  ],
+   "frictionData": [
+    {
+      "title": "Une automatisation prête pour la conformité, sans friction",
+      "desc": "Dans les services financiers, l’automatisation ne fonctionne que si elle respecte la réglementation. C’est là que de nombreuses plateformes échouent. Elles automatisent les tâches, mais laissent la conformité comme une couche séparée. Le résultat : des reprises, des audits et une exposition accrue aux risques.",
+      "desc1": "Salesforce FSC adopte une approche différente. La conformité devient une partie intégrante du workflow lui-même.",
+      "whatTitle": "À quoi cela ressemble en pratique",
+      "list": [
+        "Processus KYC et AML automatisés intégrés à l’onboarding",
+        "Pistes d’audit générées par défaut",
+        "Approbations basées sur des politiques pour les transactions sensibles",
+        "Surveillance en temps réel des exceptions et des risques",
+        "Gouvernance des données alignée sur les exigences réglementaires"
+      ],
+      "desc2": "Lorsque l’IA est ajoutée par-dessus, les institutions obtiennent des signaux de risque prédictifs au lieu de simples rapports historiques. Ainsi, la conformité cesse d’être un goulot d’étranglement et devient une force intégrée."
+    }
+  ],
+
+  "rialData": [
+    {
+      "title": "Pourquoi RialFinance+ est différent",
+      "desc": "La technologie seule ne transforme pas les services financiers. L’exécution, oui.",
+      "desc1": "C’est pourquoi <a href='https://https://www.rialtes.com/fr/services/lob/salesforce-fsc-consulting-rialfinanceplus/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Rialtes a créé RialFinance+</a> comme une approche complète de services managés pour Salesforce Financial Services Cloud. Au lieu d’assembler conseil, implémentation, IA et support auprès de différents fournisseurs, RialFinance+ réunit tout dans un modèle unique et responsable.",
+      "desc2": "Ce que propose RialFinance+",
+      "list": [
+        {
+          "title": "Conseil stratégique",
+          "desc": "Nous alignons vos objectifs métiers avec une feuille de route FSC évolutive, fondée sur de vrais besoins opérationnels, et pas seulement sur des fonctionnalités."
+        },
+        {
+          "title": "Conception et architecture des systèmes",
+          "desc": "Nous concevons des environnements FSC qui soutiennent les modèles bancaires, de crédit et de gestion de patrimoine dès le premier jour."
+        },
+        {
+          "title": "Implémentation certifiée",
+          "desc": "Nos équipes configurent Salesforce FSC selon les meilleures pratiques du secteur, garantissant une adoption plus rapide et moins de surprises."
+        },
+        {
+          "title": "Intégrations IA",
+          "desc": "Des insights prédictifs à l’automatisation intelligente, nous intégrons l’IA là où elle crée une valeur mesurable."
+        },
+        {
+          "title": "Assurance qualité et gouvernance",
+          "desc": "Nous validons la performance, la sécurité et la conformité avant la mise en production et au-delà."
+        },
+        {
+          "title": "Services managés continus",
+          "desc": "L’optimisation ne s’arrête pas au lancement. Nous affinons en continu les workflows, l’analytique et les modèles d’engagement à mesure que votre activité évolue."
+        }
+      ],
+      "desc3": "Ce que cela signifie réellement est simple : vous obtenez un partenaire axé sur les résultats, et pas seulement sur les déploiements."
+    }
+  ],
+
+  "servicesData": [
+    {
+      "title": "Un impact métier réel dans l’ensemble des services financiers",
+      "desc": "Lorsque Salesforce FSC alimenté par l’IA est mis en œuvre de la bonne manière, les résultats se manifestent rapidement.",
+      "desc1": "Les banques constatent un onboarding plus rapide et une activation des comptes plus élevée.",
+      "desc2": "Les prêteurs bénéficient d’un meilleur contrôle des risques et d’approbations plus fluides.",
+      "desc3": "Les sociétés de gestion de patrimoine observent une productivité accrue des conseillers et des relations clients plus profondes.",
+      "desc4": "Globalement, les institutions obtiennent :",
+      "list": [
+        "Un délai de création de valeur plus court pour les initiatives numériques",
+        "Un engagement plus élevé sur tous les canaux",
+        "Une confiance accrue en matière de conformité",
+        "Moins de friction opérationnelle",
+        "Une plateforme qui évolue avec les nouveaux produits et réglementations"
+      ],
+      "desc5": "Ce n’est pas une transformation en théorie. C’est une transformation en pratique."
+    }
+  ],
+
+  "futureData": [
+    {
+      "title": "L’avenir des services financiers est intelligent, connecté et digne de confiance",
+      "desc": [
+        "Les clients ne se soucient pas du nombre de systèmes que vous utilisez. Ils se soucient de se sentir compris. Les régulateurs ne se soucient pas de la complexité de vos opérations. Ils se soucient de leur niveau de contrôle. Les conseillers ne se soucient pas de la puissance de votre CRM. Ils se soucient de son utilité au moment qui compte vraiment.",
+        "Salesforce Financial Services Cloud alimenté par l’IA répond à ces trois exigences. Mais la technologie seule ne crée pas la transformation.",
+        "C’est là qu’intervient Rialtes. Grâce à RialFinance+, nous aidons les institutions financières à transformer Salesforce FSC en une plateforme connectée, conforme et orientée par les insights, qui change la manière dont les équipes interagissent avec les clients, gèrent les risques et prennent des décisions."
+      ]
+    }
+  ],
+
+  "faqData": [
+    {
+      "question": "Qu’est-ce qui distingue Salesforce Financial Services Cloud d’un CRM traditionnel ?",
+      "answer": "Salesforce FSC est conçu spécifiquement pour les services financiers, avec des modèles de données sectoriels, des workflows prêts pour la conformité et des hiérarchies relationnelles que les CRM génériques n’offrent pas. Lorsqu’il est combiné à l’IA, il devient une plateforme d’aide à la décision, et pas seulement un système de suivi."
+    },
+    {
+      "question": "Comment l’IA améliore-t-elle l’engagement client dans la banque et la gestion de patrimoine ?",
+      "answer": "L’IA analyse les comportements, les événements de vie et les schémas d’interaction afin de recommander la meilleure action suivante, des offres personnalisées et des opportunités de service proactif, aidant ainsi les conseillers à rester pertinents sans être intrusifs."
+    },
+    {
+      "question": "Le FSC alimenté par l’IA peut-il prendre en charge la conformité réglementaire ?",
+      "answer": "Oui. FSC intègre la conformité directement dans les workflows, tandis que l’IA ajoute une surveillance prédictive des risques, une documentation automatisée et une gestion des exceptions en temps réel."
+    },
+    {
+      "question": "Qu’est-ce que RialFinance+ et en quoi est-il différent des services d’implémentation standards ?",
+      "answer": "RialFinance+ est un modèle complet de services managés qui combine conseil, implémentation, intégration de l’IA, QA et optimisation continue dans une approche unifiée, garantissant une valeur à long terme et pas seulement une mise en production réussie."
+    },
+    {
+      "question": "Quelles institutions financières bénéficient le plus de RialFinance+ ?",
+      "answer": "Les banques, prêteurs, coopératives de crédit et sociétés de gestion de patrimoine qui cherchent à moderniser l’engagement, rationaliser les opérations et faire évoluer la personnalisation sans compromettre la conformité."
+    }
+  ]
+}
+
 }
