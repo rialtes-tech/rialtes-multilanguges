@@ -11,13 +11,15 @@ import esContent from '../../../../../../messages/es/services.json';
 import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import { useActiveLocale } from "@/app/[locale]/components/activeLanguages";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+
 export default function page() {
-  
+
     const t = useTranslations('rialFinance')
     const locale = useLocale();
     const { frActive, esActive, enActive } = useActiveLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { startWithData, exelonaData, agentChat, agentforceData, salesforceData, howWeDeliverData, whyRialtesData, deepDiveData,schemaData } = content.rialFinance
+    const { startWithData, exelonaData, agentChat, agentforceData, salesforceData, howWeDeliverData, whyRialtesData, deepDiveData, schemaData } = content.rialFinance
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -70,6 +72,10 @@ export default function page() {
                         </div>
                     </div>
                 </div>
+            </section>
+            {/* breadcrumb */}
+            <section className="custom-container">
+                <BreadCrumbs />
             </section>
             {/* page description section */}
             <section className="custom-container xl:mt-[99px] mt-[50px]">
@@ -124,7 +130,7 @@ export default function page() {
                             </p>
                             <UnorderedList arrName={startWithData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[25px] mt-[17px] pl-[20px]" liClassName="text-[16px] md:text-[18px] 4xl:text-[22px] leading-tight font-normal" />
                             <div className="xl:mt-[62px] mt-[46px]">
-                                <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
+                                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                             </div>
                         </div>
                     </div>
@@ -197,13 +203,13 @@ export default function page() {
                                                     width={0}
                                                     height={0}
                                                     className="w-full h-full object-cover"
-                                                    priority 
+                                                    priority
                                                 />
                                             </div>
                                         </div>
                                     </div>
                                     <div className="xl:mt-5 4xl:mt-5 2xl:mt-5  mt-[27px]">
-                                        <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
+                                        <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                                     </div>
                                 </div>
                             )
@@ -252,7 +258,7 @@ export default function page() {
                         <div className="md:col-span-6 col-span-12">
                             <UnorderedList arrName={exelonaData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc pl-[20px] w-[90%] md:w-full" liClassName="text-[16px] md:text-[18px] 4xl:text-[22px] leading-tight font-normal" />
                             <div className="xl:mt-[75px] mt-[55px]">
-                                <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" locale={locale}/>
+                                <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" locale={locale} />
                             </div>
                         </div>
                     </div>
@@ -302,7 +308,7 @@ export default function page() {
                             {t('agentChatDesc2')}
                         </p>
                         <div className="xl:mt-[55px] mt-[37px]">
-                            <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" locale={locale}/>
+                            <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" locale={locale} />
                         </div>
                     </div>
                 </div>
@@ -326,7 +332,7 @@ export default function page() {
                             {t('agentForceDesc2')}
                         </p>
                         <div className="xl:mt-[55px] mt-[37px]">
-                            <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" locale={locale}/>
+                            <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" locale={locale} />
                         </div>
                     </div>
                     <div className="md:order-2 order-1">
@@ -401,7 +407,7 @@ export default function page() {
                             ))}
                         </ul>
                         <div className="xl:mt-[71px] mt-[37px]">
-                            <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" locale={locale}/>
+                            <LearnMore btnName={t('learnMoreBtn')} bgcolor="#006FBE" bordercolor="#006FBE" locale={locale} />
                         </div>
                         <div className="md:hidden mt-[40px]">
                             <p className="xl:py-[31px] xl:px-[38px] py-[24px] px-[34px] bg-[#073259] text-[#ffffff] font-normal w-fit 4xl:text-[24px] xl:text-[20px] text-[16px]">{t('salesforceBlueBox')}</p>
@@ -423,7 +429,7 @@ export default function page() {
                             </h3>
                             <UnorderedList arrName={howWeDeliverData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[33px] mt-[17px] pl-[20px] w-[86%] md:w-full 4xl:w-[90%]" liClassName="text-[16px] md:text-[18px] 4xl:text-[22px] leading-tight font-normal" />
                             <div className="xl:mt-[40px] mt-[10px] absolute">
-                                <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
+                                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                             </div>
                         </div>
                     </div>
@@ -492,7 +498,7 @@ export default function page() {
                             </h3>
                             <UnorderedList arrName={whyRialtesData} ulClassName="xl:space-y-[27px] space-y-[19px] list-disc xl:mt-[39px] mt-[16px] pl-[20px] w-[86%] md:w-full" liClassName="text-[16px] md:text-[18px] 4xl:text-[22px] leading-tight font-normal" />
                             <div className="4xl:mt-[53px] mt-[34px]">
-                                <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
+                                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                             </div>
                         </div>
                     </div>

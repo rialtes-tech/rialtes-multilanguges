@@ -10,13 +10,14 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import LearnMore from "@/app/[locale]/components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 
 export default function page() {
   const t = useTranslations('retailPlus')
   const locale = useLocale();
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { retailServices, retailVerticals, salesforceSolutions, whyChooseData, rialChat,schemaData } = content.retailPlus;
+  const { retailServices, retailVerticals, salesforceSolutions, whyChooseData, rialChat, schemaData } = content.retailPlus;
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -64,6 +65,10 @@ export default function page() {
           </div>
         </div>
       </section>
+      {/* breadcrumb */}
+      <section className="custom-container">
+        <BreadCrumbs />
+      </section>
       <section className="mt-16 custom-container">
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-10 col-span-12 ">
@@ -81,77 +86,77 @@ export default function page() {
         </div>
       </section>
       {/* comprehensive section */}
-    <section className="relative mt-10 xl:mt-20">
-  {/* Background wrapper */}
-  <div className="absolute inset-0">
-    {/* Desktop Image */}
-    <div className="hidden xl:block h-full w-full">
-      <Image
-        src="/images/industry/retail/women-small-business-owners-pottery-shop.webp"
-        alt={t("comprehensiveAlt")}
-        fill
-        priority
-        sizes="100vw"
-        className="object-cover object-center md:object-[50%_35%]"
-      />
-    </div>
-    <div className="block xl:hidden h-full w-full">
-      <Image
-        src="/images/industry/retail/women-small-business-owners-pottery-shop-mobile.webp"
-        alt={t("comprehensiveAlt")}
-        fill
-        priority
-        sizes="100vw"
-        className="object-cover object-top"
-      />
-    </div>
+      <section className="relative mt-10 xl:mt-20">
+        {/* Background wrapper */}
+        <div className="absolute inset-0">
+          {/* Desktop Image */}
+          <div className="hidden xl:block h-full w-full">
+            <Image
+              src="/images/industry/retail/women-small-business-owners-pottery-shop.webp"
+              alt={t("comprehensiveAlt")}
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover object-center md:object-[50%_35%]"
+            />
+          </div>
+          <div className="block xl:hidden h-full w-full">
+            <Image
+              src="/images/industry/retail/women-small-business-owners-pottery-shop-mobile.webp"
+              alt={t("comprehensiveAlt")}
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover object-top"
+            />
+          </div>
 
-    {/* Optional overlay */}
-    {/* <div className="absolute inset-0 bg-black/40"></div> */}
-  </div>
+          {/* Optional overlay */}
+          {/* <div className="absolute inset-0 bg-black/40"></div> */}
+        </div>
 
-  {/* Content */}
-  <div
-    className="
+        {/* Content */}
+        <div
+          className="
       relative custom-container flex items-end justify-start
       min-h-[120vh]
       md:min-h-[100vh]
       xl:min-h-[90vh]
       max-md:px-0
     "
-  >
-    <div className="relative bg-black/60 text-white z-10 max-w-3xl p-6 md:p-10 xl:p-12 px-10 xl:px-16 pt-20 pb-20 xl:pb-[85px]">
-      <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">
-        {t("comprehensiveTitle")}
-      </h2>
+        >
+          <div className="relative bg-black/60 text-white z-10 max-w-3xl p-6 md:p-10 xl:p-12 px-10 xl:px-16 pt-20 pb-20 xl:pb-[85px]">
+            <h2 className="leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]">
+              {t("comprehensiveTitle")}
+            </h2>
 
-      <h3 className="mt-4 text-[22px] md:text-[26px] xl:text-[30px] 4xl:text-[36px] font-semibold">
-        {t("comprehensiveSubTitle")}
-      </h3>
+            <h3 className="mt-4 text-[22px] md:text-[26px] xl:text-[30px] 4xl:text-[36px] font-semibold">
+              {t("comprehensiveSubTitle")}
+            </h3>
 
-      <h3 className="mt-5 text-[18px] md:text-[20px] 4xl:text-[30px]">
-        {t("keyTitle")}
-      </h3>
+            <h3 className="mt-5 text-[18px] md:text-[20px] 4xl:text-[30px]">
+              {t("keyTitle")}
+            </h3>
 
-      <ul className="list-disc leading-tight marker:font-bold marker:text-2xl pl-5 mt-3 space-y-2 md:space-y-8 xl:space-y-3 4xl:space-y-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] 4xl:mt-10 4xl:pr-16">
-        {retailServices.map((service, index) => (
-          <li key={index}>
-            <span className="font-bold">{service.title} </span>
-            {service.description}
-          </li>
-        ))}
-      </ul>
+            <ul className="list-disc leading-tight marker:font-bold marker:text-2xl pl-5 mt-3 space-y-2 md:space-y-8 xl:space-y-3 4xl:space-y-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] 4xl:mt-10 4xl:pr-16">
+              {retailServices.map((service, index) => (
+                <li key={index}>
+                  <span className="font-bold">{service.title} </span>
+                  {service.description}
+                </li>
+              ))}
+            </ul>
 
-      <div className="absolute mt-[25px] md:mt-0 xl:mt-[35px]">
-        <LearnMore
-          bgcolor="#006FBE"
-          btnName={t("learnMoreBtn")}
-          locale={locale}
-        />
-      </div>
-    </div>
-  </div>
-</section>
+            <div className="absolute mt-[25px] md:mt-0 xl:mt-[35px]">
+              <LearnMore
+                bgcolor="#006FBE"
+                btnName={t("learnMoreBtn")}
+                locale={locale}
+              />
+            </div>
+          </div>
+        </div>
+      </section>
 
 
 
@@ -264,7 +269,7 @@ export default function page() {
                 {t('specializedDesc')}
               </p>
               <div className="md:bottom-0  absolute bottom-[-25px]">
-                <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
               </div>
             </div>
           </div>
@@ -281,7 +286,7 @@ export default function page() {
               width={0}
               height={0}
               sizes="100vw"
-              style={{ objectFit: "cover"}}
+              style={{ objectFit: "cover" }}
               priority
             />
           </div>
@@ -301,7 +306,7 @@ export default function page() {
               {t('aiDrivenDesc')}
             </p>
             <div className="absolute bottom-0">
-              <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')} locale={locale}/>
+              <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" btnName={t('learnMoreBtn')} locale={locale} />
             </div>
           </div>
         </div>

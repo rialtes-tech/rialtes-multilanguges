@@ -157,31 +157,48 @@
       "Commerce de détail",
       "Générique"
     ],
-    "categories": [
-      "Tous",
-      "IA Agentique",
-      "Exelona",
-      "Intégration",
-      "MediAIna",
-      "Salesforce Agentforce",
-      "Conseil Salesforce",
-      "Salesforce Data Cloud",
-      "SAP Ariba",
-      "SAP BDC",
-      "Conseil SAP",
-      "SAP CPI",
-      "SAP GTS",
-      "SAP Joule",
-      "SAP Signavio",
-      "SAP SuccessFactors",
-      "Services Gérés",
-      "Rise with SAP",
-      "Grow with SAP",
-       "Salesforce Life Sciences Cloud",
-       "Kinaxis RapidResponse",
-       "Salesforce FSC",
-      "Autres"
-    ],
+  "categoryData": [
+    { "category": "Tous" },
+    { "category": "IA Agentique" },
+    { "category": "Intégration" },
+    { "category": "Services Managés" },
+    { "category": "Kinaxis RapidResponse" },
+    {
+      "category": "Produits",
+      "items": [
+        "Exelona",
+        "MediAIna"
+      ]
+    },
+    {
+      "category": "Salesforce",
+      "items": [
+        "Salesforce Agentforce",
+        "Salesforce Automotive Cloud",
+        "Conseil Salesforce",
+        "Salesforce Data Cloud",
+        "Salesforce Life Sciences Cloud",
+        "Salesforce Marketing Cloud",
+        "Salesforce FSC"
+      ]
+    },
+    {
+      "category": "SAP",
+      "items": [
+        "Rise with SAP",
+        "Grow with SAP",
+        "SAP Ariba",
+        "SAP BDC",
+        "Conseil SAP",
+        "SAP CPI",
+        "SAP GTS",
+        "SAP Joule",
+        "SAP Signavio",
+        "SAP SuccessFactors"
+      ]
+    },
+    { "category": "Autres" }
+  ],
     "slides": [
       {
         "id": 1,

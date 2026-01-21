@@ -8,13 +8,14 @@ import enContent from '../../../../messages/en/aboutus.json';
 import esContent from '../../../../messages/es/aboutus.json';
 import frContent from '../../../../messages/fr/aboutus.json'
 import { changeLocalization } from "../components/changeLocalization";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 
 export default function About() {
     const t = useTranslations('aboutUs')
     const locale = useLocale();
     const aboutUsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { latestServices, brandStories, corePrinciples, missionCards ,schemaData} = aboutUsContent.aboutUs;
+    const { latestServices, brandStories, corePrinciples, missionCards, schemaData } = aboutUsContent.aboutUs;
 
     const ServicesCard = ({ services }) => (
         <div className="border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF] flex flex-col min-h-[400px]">
@@ -47,7 +48,7 @@ export default function About() {
     return (
         <div className="min-h-screen">
             <Seo
-              title={t('seoTitle')}
+                title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
                 canonical={`https://www.rialtes.com/${locale}/about-us/`}
@@ -78,8 +79,11 @@ export default function About() {
                     </div>
                 </div>
             </section>
+
             {/* Mission & Vision Section */}
-            <div className="mt-40 custom-container">
+            <div className="mt-40 custom-container pt-1">
+                {/* breadcrumb */}
+                <BreadCrumbs />
                 <h1 className="py-14 leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]  xl:w-[76%] 4xl:w-[100%]">
                     {t('worldTitle')}
                 </h1>
@@ -107,7 +111,7 @@ export default function About() {
                     <div className="mx-auto">
                         <h3 className="text-[#000000] mb-8 font-semibold w-full 4xl:text-[43px] 2xl:text-[36px] xl:text-[28px] text-[23px] leading-tight">
                             {t('overTitle')}</h3>
-                       <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mt-16 mb-8 place-items-baseline">
+                        <div className="grid grid-cols-1 md:grid-cols-4 gap-10 mt-16 mb-8 place-items-baseline">
                             {corePrinciples.map((item, index) => (
                                 <div
                                     key={index}
@@ -157,11 +161,11 @@ export default function About() {
                                         </p>
                                         <div className={`absolute  w-12 border-t border-gray-400
                                           ${locale === "es"
-                                    ? "bottom-[1.5rem]"
-                                    : locale === "fr"
-                                        ? "bottom-[0.5rem] xl:bottom-[1.5rem]"
-                                        : "bottom-[1.5rem]"
-                                }`}
+                                                ? "bottom-[1.5rem]"
+                                                : locale === "fr"
+                                                    ? "bottom-[0.5rem] xl:bottom-[1.5rem]"
+                                                    : "bottom-[1.5rem]"
+                                            }`}
                                         ></div>
                                     </div>
                                 </div>
@@ -184,11 +188,11 @@ export default function About() {
                     <div className="flex justify-end">
                         <div className={`relative p-10 4xl:w-[720px]  xl:w-[535px]
                           ${locale === "es"
+                                ? "4xl:h-[620px] xl:h-[550px] max-md:h-[750px] 2xl:h-[560px]"
+                                : locale === "fr"
                                     ? "4xl:h-[620px] xl:h-[550px] max-md:h-[750px] 2xl:h-[560px]"
-                                    : locale === "fr"
-                                        ? "4xl:h-[620px] xl:h-[550px] max-md:h-[750px] 2xl:h-[560px]"
-                                        : "4xl:h-[620px] xl:h-[500px] max-md:h-[750px]"
-                                }`}
+                                    : "4xl:h-[620px] xl:h-[500px] max-md:h-[750px]"
+                            }`}
                         >
                             <div className="absolute inset-0 bg-[#016FBE] mix-blend-multiply"></div>
                             <div className="relative bg-opacity-80 text-white z-10  rounded-lg">

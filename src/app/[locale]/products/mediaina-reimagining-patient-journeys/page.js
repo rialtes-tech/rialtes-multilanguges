@@ -10,12 +10,13 @@ import esContent from '../../../../../messages/es/products.json';
 import frContent from '../../../../../messages/fr/products.json';
 import { changeLocalization } from "../../components/changeLocalization";
 import LearnMore from "../../components/learnMore";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 export default function Page() {
     const t = useTranslations("mediaina");
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { rialtesBenefits, commonData,schemaData } = content.mediaina
+    const { rialtesBenefits, commonData, schemaData } = content.mediaina
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -62,6 +63,10 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
+            </section>
+            {/* breadcrumb */}
+            <section className="custom-container">
+                <BreadCrumbs />
             </section>
             {/* page description section */}
             <section className="xl:pt-10">
@@ -143,10 +148,10 @@ export default function Page() {
                             <section className="custom-container xl:pl-0 max-xl:px-0 relative lg:!pr-[0px] xl:!pr-[80px] 4xl:!pr-[140px] mt-[103px] xl:mt-[21px]" key={ind}>
                                 <div className="grid xl:grid-cols-12 grid-cols-1 relative xl:gap-[40px] items-stretch">
                                     <div className={`4xl:col-span-9 xl:col-span-8 col-span-1 xl:pt-[81px] md:pt-[360px] max-[400px]:pt-[180px] pt-[220px] sm:pt-[240px] custom-container xl:!pr-[20px] xl:order-1 order-2 xl:mt-0 max-[400px]:mt-[-140px] mt-[-180px] sm:mt-[-200px] md:mt-[-300px] relative z-10 xl:mb-[60px] 2xl:mb-[100px] 4xl:mb-[80px] ${locale === "es"
-                                            ? "4xl:pb-[120px] 2xl:pb-[120px] xl:pb-[80px]"
-                                            : locale === "fr"
-                                                ? "4xl:pb-[100px] 2xl:pb-[120px] xl:pb-[80px]"
-                                                : ""
+                                        ? "4xl:pb-[120px] 2xl:pb-[120px] xl:pb-[80px]"
+                                        : locale === "fr"
+                                            ? "4xl:pb-[100px] 2xl:pb-[120px] xl:pb-[80px]"
+                                            : ""
                                         }`}
                                         style={{
                                             backgroundColor: data.bgColor ? data.bgColor : 'transparent'
@@ -236,7 +241,7 @@ export default function Page() {
                                         </div>
                                     </div>
 
-                                    <div className={`4xl:col-span-9 xl:col-span-8 col-span-1 xl:pt-[81px] md:pt-[360px] max-[400px]:pt-[180px] pt-[220px] sm:pt-[240px] custom-container xl:order-2 order-2 xl:mt-0 max-[400px]:mt-[-140px] mt-[-180px] sm:mt-[-200px] md:mt-[-300px] relative z-10 xl:mb-[60px] 2xl:mb-[100px] 4xl:mb-[80px] xl:pl-[120px] 4xl:pl-[220px] xl:!pr-[60px] 4xl:!pr-[140px]`} style={{ backgroundColor: data.bgColor ? data.bgColor : 'transparent'}}>
+                                    <div className={`4xl:col-span-9 xl:col-span-8 col-span-1 xl:pt-[81px] md:pt-[360px] max-[400px]:pt-[180px] pt-[220px] sm:pt-[240px] custom-container xl:order-2 order-2 xl:mt-0 max-[400px]:mt-[-140px] mt-[-180px] sm:mt-[-200px] md:mt-[-300px] relative z-10 xl:mb-[60px] 2xl:mb-[100px] 4xl:mb-[80px] xl:pl-[120px] 4xl:pl-[220px] xl:!pr-[60px] 4xl:!pr-[140px]`} style={{ backgroundColor: data.bgColor ? data.bgColor : 'transparent' }}>
                                         <h2 className={`4xl:text-[58px] xl:text-[40px] 2xl:text-[48px] text-[26px] leading-tight max-lg:w-[90%] ${ind == 9 ? "4xl:w-[90%]" : "4xl:w-[80%]"}`}>
                                             {data.title}
                                         </h2>
@@ -247,7 +252,7 @@ export default function Page() {
                                         <div className="grid xl:grid-cols-2 grid-cols-1 mt-[31px] xl:mt-[63px] xl:gap-[40px] gap-y-[36px] max-xl:mb-[36px] 4xl:w-[90%]">
                                             <div>
                                                 <h3 className="text-[#006FBE] font-bold 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight">
-                                                   {t('benefitsTitle')}
+                                                    {t('benefitsTitle')}
                                                 </h3>
                                                 <UnorderedList
                                                     arrName={data.benefitList}
@@ -268,7 +273,7 @@ export default function Page() {
                                         </div>
                                         <div className="mt-auto xl:mt-[65px] items-end">
                                             <div>
-                                                <LearnMore bgcolor="#073259" bordercolor="#073259" btnName={t('learnMoreBtn')} locale={locale}/>
+                                                <LearnMore bgcolor="#073259" bordercolor="#073259" btnName={t('learnMoreBtn')} locale={locale} />
                                             </div>
                                         </div>
                                     </div>

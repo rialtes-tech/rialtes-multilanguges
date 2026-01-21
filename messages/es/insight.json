@@ -157,32 +157,51 @@
       "Comercio minorista",
       "Genérico"
     ],
-    "categories": [
-      "Todo",
-      "IA Agéntica",
-      "Exelona",
-      "Integración",
-      "MediAIna",
-      "Salesforce Agentforce",
-      "Consultoría de Salesforce",
-      "Salesforce Data Cloud",
-      "SAP Ariba",
-      "SAP BDC",
-      "Consultoría SAP",
-      "SAP CPI",
-      "SAP GTS",
-      "SAP Joule",
-      "SAP Signavio",
-      "SAP SuccessFactors",
-      "Servicios Gestionados",
-      "Salesforce Automotive Cloud",
-      "Rise with SAP",
-      "Grow with SAP",
-       "Salesforce Life Sciences Cloud",
-       "Kinaxis RapidResponse",
-       "Salesforce FSC",
-      "Otros"
-    ],
+    
+  "categoryData": [
+    { "category": "Todos" },
+    { "category": "IA Agéntica" },
+    { "category": "Integración" },
+    { "category": "Servicios Gestionados" },
+    { "category": "Kinaxis RapidResponse" },
+    {
+      "category": "Productos",
+      "items": [
+        "Exelona",
+        "MediAIna"
+      ]
+    },
+    {
+      "category": "Salesforce",
+      "items": [
+        "Salesforce Agentforce",
+        "Salesforce Automotive Cloud",
+        "Consultoría Salesforce",
+        "Salesforce Data Cloud",
+        "Salesforce Life Sciences Cloud",
+        "Salesforce Marketing Cloud",
+        "Salesforce FSC"
+      ]
+    },
+    {
+      "category": "SAP",
+      "items": [
+        "Rise with SAP",
+        "Grow with SAP",
+        "SAP Ariba",
+        "SAP BDC",
+        "Consultoría SAP",
+        "SAP CPI",
+        "SAP GTS",
+        "SAP Joule",
+        "SAP Signavio",
+        "SAP SuccessFactors"
+      ]
+    },
+    { "category": "Otros" }
+  ],
+
+   
     "slides": [
       {
         "id": 1,

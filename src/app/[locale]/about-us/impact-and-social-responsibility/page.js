@@ -9,13 +9,14 @@ import enContent from '../../../../../messages/en/aboutus.json';
 import esContent from '../../../../../messages/es/aboutus.json'
 import frContent from '../../../../../messages/fr/aboutus.json'
 import { changeLocalization } from "../../components/changeLocalization";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 export default function Page() {
   const t = useTranslations('impact')
   const { frActive, esActive } = useActiveLocale();
-    const locale = useLocale();
-    const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-     const {schemaData} = content.impact;
+  const locale = useLocale();
+  const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+  const { schemaData } = content.impact;
 
   return (
     <div className="min-h-screen bg-white">
@@ -67,6 +68,10 @@ export default function Page() {
             </div>
           </div>
         </div>
+      </section>
+      {/* breadcrumb */}
+      <section className="custom-container">
+        <BreadCrumbs />
       </section>
       {/* page description */}
       <section className="custom-container">
