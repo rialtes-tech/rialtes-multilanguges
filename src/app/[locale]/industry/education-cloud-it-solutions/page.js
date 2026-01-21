@@ -11,13 +11,13 @@ import enContent from '../../../../../messages/en/industry.json';
 import esContent from '../../../../../messages/es/industry.json';
 import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
-
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 export default function Page() {
   const t = useTranslations("education");
   const locale = useLocale();
   const realContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { latestServices2, keyIndustryData, approachData, studentLeadData, selectionData, studentData, hyperData, lifelongData, selfData, s4HanaData, dynamicData, unifiedData, empoweringData, educationSolutions,schemaData } = realContent.education;
+  const { latestServices2, keyIndustryData, approachData, studentLeadData, selectionData, studentData, hyperData, lifelongData, selfData, s4HanaData, dynamicData, unifiedData, empoweringData, educationSolutions, schemaData } = realContent.education;
 
   const Services2 = () => {
     return (
@@ -36,7 +36,7 @@ export default function Page() {
             <ServicesCard key={services.id} services={services} />
           ))}
         </div>
-         <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+        <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
       </div>
     );
   };
@@ -106,6 +106,10 @@ export default function Page() {
             <div className="xl:col-span-5 col-span-12"></div>
           </div>
         </div>
+      </section>
+      {/* breadcrumb */}
+      <section className="custom-container">
+        <BreadCrumbs />
       </section>
       {/* page description */}
       <section className="xl:mt-16 mt-8 custom-container">
@@ -301,7 +305,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                <LearnMore btnName={t('learnMoreBtn')}  locale={locale}/>
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
               </div>
             </div>
           </div>
@@ -329,7 +333,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                 <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
               </div>
             </div>
           </div>
@@ -365,7 +369,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
               </div>
             </div>
           </div>
@@ -396,7 +400,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                 <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
               </div>
             </div>
           </div>
@@ -432,7 +436,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                 <LearnMore btnName={t('learnMoreBtn')}   locale={locale}/>
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
               </div>
             </div>
           </div>
@@ -463,7 +467,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                 <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
               </div>
             </div>
           </div>
@@ -500,7 +504,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                 <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
               </div>
             </div>
           </div>

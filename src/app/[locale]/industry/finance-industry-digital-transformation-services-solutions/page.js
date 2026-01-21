@@ -10,13 +10,14 @@ import enContent from '../../../../../messages/en/industry.json';
 import esContent from '../../../../../messages/es/industry.json';
 import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 
 export default function Page() {
   const t = useTranslations('finance')
-      const locale = useLocale();
-      const financeContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-      const {challenges,thougthLeadershipData,salesforceData,sapHanaData,aiData,exelonaData,agentchatData,drivenData,whyChooseData,schemaData} = financeContent.finance;
+  const locale = useLocale();
+  const financeContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
+  const { challenges, thougthLeadershipData, salesforceData, sapHanaData, aiData, exelonaData, agentchatData, drivenData, whyChooseData, schemaData } = financeContent.finance;
 
   return (
     <div className="min-h-screen bg-white">
@@ -58,21 +59,25 @@ export default function Page() {
         <div className="absolute inset-0 flex items-center">
           <div className="2xl:mr-[33%] xl:mr-[30%]  custom-container  text-white xl:mt-0">
             <h1 className="text-[18px] md:text-[24px] font-bold  lg:w-auto leading-tight">
-             {t('financeTitle')}
+              {t('financeTitle')}
             </h1>
             <h2 className="text-[26px]  xl:text-[40px] xl:w-[67%] 4xl:w-[100%] 4xl:text-[60px] leading-tight  mt-[11.5px] md:mt-[28.5px]">
-             {t('financeDesc')}
+              {t('financeDesc')}
             </h2>
           </div>
         </div>
       </section>
+      {/* breadcrumb */}
+      <section className="custom-container">
+        <BreadCrumbs />
+      </section>
       {/* page description */}
       <section className="custom-container xl:py-[97] py-[60px]">
         <h2 className="text-[26px] leading-tight xl:text-[40px] md:text-[30px]  4xl:text-[56px] lg:w-[80%] xl:w-[80%] 4xl:w-[76%]">
-         {t('digitalTitle')}
+          {t('digitalTitle')}
         </h2>
         <p className="4xl:text-[22px] xl:text-[18px] md:text-[18px] text-[16px] leading-tight lg:w-[80%] 4xl:w-[70%] w-[95%] font-normal mt-8">
-         {t('digitalDesc')}
+          {t('digitalDesc')}
         </p>
       </section>
       {/* Thought Leadership section */}
@@ -105,15 +110,15 @@ export default function Page() {
         </div>
         <div className="relative 4xl:mx-[280px] 2xl:mx-[140px] md:mx-[80px]  left-0 right-0 bg-[#006FBE]  text-white p-[35px] xl:p-16 max-md:mx-[36px] max-xl:mt-[-100px] xl:mt-[-150px]">
           <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px]">
-           {t('thoughtTitle')}
+            {t('thoughtTitle')}
           </h2>
           <div className="grid lg:grid-cols-12 grid-cols-1 md:grid-cols-2 lg:mt-[27px] mt-[20px] md:gap-10 lg:gap-15 ">
             <div className="lg:col-span-6 col-span-12 md:col-span-1 ">
               <h3 className="4xl:text-[30px] xl:text-[26px] md:text-[24px] text-[22px] font-medium leading-tight">
-               {t('thoughtSubTitle')}
+                {t('thoughtSubTitle')}
               </h3>
               <p className="text-[16px] xl:text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight xl:my-[27px] my-[20px]">
-               {t('thoughtSubTitleOne')}
+                {t('thoughtSubTitleOne')}
               </p>
             </div>
             <div className="lg:col-span-6 col-span-12 md:col-span-1">
@@ -133,7 +138,7 @@ export default function Page() {
       <section className="custom-container relative grid grid-cols-12 gap-5 xl:pt-[89px] pt-[73px]">
         <div className="4xl:col-span-10 2xl:col-span-8 xl:col-span-9 col-span-12">
           <h2 className="leading-tight 4xl:text-[58px] md:text-[30px]  xl:text-[40px] text-[26px]">
-           {t('topTitle')}
+            {t('topTitle')}
           </h2>
           <div className="grid md:grid-cols-2 xl:grid-cols-2 xl:gap-14 gap-20 mb-20 mt-20 grid-cols-1 items-stretch">
             {challenges.map((item, i) => (
@@ -172,10 +177,10 @@ export default function Page() {
                 style={{ backgroundColor: "#EFEFEF" }}
               ></div>
               <h2 className="leading-tight 4xl:text-[58px] xl:text-[40px] md:text-[30px]  text-[26px] md:w-[65%] w-full">
-              {t('deepTitle')}
+                {t('deepTitle')}
               </h2>
               <h3 className="leading-tight 4xl:text-[42px] xl:text-[36px] md:text-[26px] text-[22px] xl:mt-[37px] mt-[17px] ">
-              {t('deepSubtitle')}
+                {t('deepSubtitle')}
               </h3>
               <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[70px] 4xl:gap-[127px] gap-y-[22px] xl:mt-9 mt-7 ml-1">
                 <div className="md:col-span-5 col-span-12">
@@ -195,17 +200,17 @@ export default function Page() {
                     />
                   </div>
                   <h3 className="xl:mt-9 mt-7 leading-tight 4xl:text-[30px] xl:text-[24px] md:text-[22px] text-[20px] text-[#006FBE]">
-                   {t('salesforceTitle')}
+                    {t('salesforceTitle')}
                   </h3>
                   <p className="text-[16px] xl:text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight xl:mt-9 mt-7">
-                   {t('salesforceDesc')}
+                    {t('salesforceDesc')}
                   </p>
                   <UnorderedList
                     arrName={salesforceData}
                     ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[16px] md:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pt-4"
                     liClassName=""
                   />
-                  <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
+                  <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                 </div>
                 <div className="md:col-span-5 col-span-12 xl:mt-[100px] mt-0">
                   <div className="">
@@ -224,10 +229,10 @@ export default function Page() {
                     />
                   </div>
                   <h3 className="xl:mt-9 mt-7 leading-tight 4xl:text-[30px] xl:text-[24px] md:text-[22px] text-[20px] text-[#006FBE]">
-                   {t('sapTitle')}
+                    {t('sapTitle')}
                   </h3>
                   <p className="text-[16px] xl:text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight xl:mt-9 mt-7">
-                   {t('sapDesc')}
+                    {t('sapDesc')}
                   </p>
                   <UnorderedList
                     arrName={sapHanaData}
@@ -239,7 +244,7 @@ export default function Page() {
               </div>
               <div className="relative bottom-[-55px]">
                 <p className="xl:w-[80%] 4xl:text-[26px] xl:text-[22px] md:text-[20px] text-[18px] xl:mt-[28px] mt-[10px] w-fit bg-[#0E3157] p-[24px] max-sm:ml-[-36px] text-white leading-tight">
-                 {t('sapDescOne')}
+                  {t('sapDescOne')}
                 </p>
               </div>
             </div>
@@ -274,10 +279,10 @@ export default function Page() {
         <div className="grid  md:grid-cols-12 xl:gap-14 gap-1">
           <div className=" md:col-span-6 mt-9 sm:mr-0 md:mr-[60px] 4xl:mr-[1px] 2xl:mr-[66px]">
             <h2 className="leading-tight 4xl:text-[58px] xl:text-[40px] md:text-[30px]  text-[26px] pb-4">
-             {t('futureTitle')}
+              {t('futureTitle')}
             </h2>
             <p className="text-[16px] xl:text-[16px] md:text-[18px] 4xl:text-[20px] xl:mt-9 leading-tight ">
-             {t('futureDesc')}
+              {t('futureDesc')}
             </p>
           </div>
           <div className="md:col-span-6 xl:ml-[70px] xl:my-9 my-5 ">
@@ -287,7 +292,7 @@ export default function Page() {
               liClassName=""
             />
             <div className="mt-10">
-             <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
+              <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
             </div>
           </div>
         </div>
@@ -340,13 +345,13 @@ export default function Page() {
               </div>
               <div className="relative z-10 lg:px-[54px] 4xl:pt-[50px] 2xl:pt-[50px] xl:pt-[30px] px-[36px] pt-[40px] max-md:bg-[#606060]">
                 <h2 className="mb-4 leading-tight 2xl:text-[50px] xl:text-[40px] md:text-[30px]  text-[26px]">
-                 {t('exelonaTitle')}
+                  {t('exelonaTitle')}
                 </h2>
                 <h3 className="mb-4 leading-tight 4xl:text-[36px] xl:text-[30px] md:text-[26px] text-[22px]">
-                {t('exelonaSubtitle')} 
+                  {t('exelonaSubtitle')}
                 </h3>
                 <p className="mb-4 leading-tight 4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px]">
-                 {t('exelonaDesc')}
+                  {t('exelonaDesc')}
                 </p>
                 <UnorderedList
                   arrName={exelonaData}
@@ -355,28 +360,28 @@ export default function Page() {
                 />
                 {/* Desktop  */}
                 <p className="4xl:text-[26px] xl:text-[22px] md:text-[20px] text-[18px]  bg-[#006FBE] p-[24px] text-white leading-tight block md:hidden">
-                {t('exelonaDescOne')}
+                  {t('exelonaDescOne')}
                 </p>
               </div>
               {/* Mobile */}
               <p className={` max-md:m-[29px] bg-[#006FBE] p-[24px] text-white leading-tight hidden md:block relative
                 ${locale === "es"
-                                    ? "mt-[25px] 4xl:text-[26px] xl:text-[19px] 2xl:text-[20px] text-[18px] md:text-[20px]"
-                                    : locale === "fr"
-                                        ? "mt-[25px] 4xl:text-[26px] xl:text-[22px] md:text-[20px] text-[18px]"
-                                        : "mt-[25px] 4xl:text-[26px] xl:text-[22px] md:text-[20px] text-[18px]"
-                                }`}
+                  ? "mt-[25px] 4xl:text-[26px] xl:text-[19px] 2xl:text-[20px] text-[18px] md:text-[20px]"
+                  : locale === "fr"
+                    ? "mt-[25px] 4xl:text-[26px] xl:text-[22px] md:text-[20px] text-[18px]"
+                    : "mt-[25px] 4xl:text-[26px] xl:text-[22px] md:text-[20px] text-[18px]"
+                }`}
 
-              
-              
+
+
               >
-              {t('exelonaDescOne')}
+                {t('exelonaDescOne')}
               </p>
             </div>
           </div>
         </div>
         <div className="max-md:mt-[5px] md:bottom-[28px] max-md:m-[29px] absolute md:left-1/2">
-         <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
+          <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
         </div>
       </section>
       {/* AgentChat section */}
@@ -407,18 +412,18 @@ export default function Page() {
           <div className="grid  md:grid-cols-12 xl:gap-14 gap-1">
             <div className=" md:col-span-6  sm:mr-0 md:mr-[60px]">
               <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] pb-4 font-light">
-               {t('agentChatTitle')} 
+                {t('agentChatTitle')}
               </h2>
               <h3 className="leading-tight 4xl:text-[36px] xl:text-[30px] md:text-[20px] font-semibold text-[18px] pb-4">
-              {t('agentChatSubtitle')}
+                {t('agentChatSubtitle')}
               </h3>
               <p className="text-[16px] xl:text-[16px] md:text-[18px] 4xl:text-[20px] xl:mt-9 mt-7 leading-tight">
-               {t('agentChatDesc')}
+                {t('agentChatDesc')}
               </p>
             </div>
             <div className="md:col-span-6 xl:my-9 my-7 ">
               <h3 className="leading-tight 4xl:text-[28px] xl:text-[22px] md:text-[20px] font-semibold text-[18px] pb-4">
-             {t('agentChatSubtitle')}
+                {t('agentChatSubtitle')}
               </h3>
               <UnorderedList
                 arrName={agentchatData}
@@ -426,11 +431,11 @@ export default function Page() {
                 liClassName=""
               />
               <p className="text-[16px] xl:text-[16px] md:text-[18px] 4xl:text-[20px] xl:mt-9 mt-7 max-md:mb-7 lg:mb-0 leading-tight">
-              {t('agentChatDescOne')}
+                {t('agentChatDescOne')}
               </p>
               <div className="absolute bottom-0 ">
-               
-                 <LearnMore btnName={t('learnMoreBtn')} locale={locale} bgcolor={"#006FBE"}/>
+
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} bgcolor={"#006FBE"} />
               </div>
             </div>
           </div>
@@ -439,7 +444,7 @@ export default function Page() {
       {/* data driven section */}
       <section className="pt-[61px] xl:pt-[163px] custom-container xl:pr-0 max-md:px-0">
         <h2 className="leading-tight xl:w-[65%] 2xl:w-[58%] 4xl:w-[70%] 4xl:text-[60px] xl:text-[40px] text-[26px] md:text-[30px]  pb-4 font-light hidden xl:block  ">
-          {t('dataTitle')} 
+          {t('dataTitle')}
         </h2>
         <div className="grid grid-cols-1 xl:grid-cols-12 gap-8 items-center ">
           <div className="order-1 xl:order-2 w-full h-full xl:col-span-7 ">
@@ -461,7 +466,7 @@ export default function Page() {
           </div>
           <div className="order-2 xl:order-1 xl:col-span-5 max-md:px-[37px] ">
             <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[30px]  text-[26px] pb-4 font-light  xl:hidden block ">
-               {t('dataTitle')}
+              {t('dataTitle')}
             </h2>
 
             <h3 className="leading-tight 4xl:text-[28px] xl:text-[24px] md:text-[20px] font-semibold text-[18px] pb-4">
@@ -480,7 +485,7 @@ export default function Page() {
                 {t('dataDescOne')}
               </p>
               <div className="lg:mt-[45px]">
-                 <LearnMore btnName={t('learnMoreBtn')} bgcolor={"#006FBE"} locale={locale}/>
+                <LearnMore btnName={t('learnMoreBtn')} bgcolor={"#006FBE"} locale={locale} />
               </div>
             </div>
           </div>
@@ -490,10 +495,10 @@ export default function Page() {
       <section className="md:pt-[105] pt-[52px]">
         <div className="bg-[#E6F7FF] custom-container">
           <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[30px]  text-[26px]  md:pt-[84px] pt-[50px] leading-tight">
-            {t('unmatchedTitle')} 
+            {t('unmatchedTitle')}
           </h2>
           <h3 className="4xl:text-[36px] xl:text-[30px] md:text-[20px] text-[18px] md:py-7 py-5 font-semibold leading-tight">
-            {t('unmatchedSubTitle')} 
+            {t('unmatchedSubTitle')}
           </h3>
           <p className="4xl:text-[22px] xl:text-[18px] md:text-[18px] text-[16px] w-full xl:w-[50%] leading-tight ">
             {t('unmatchedDesc')}
@@ -514,7 +519,7 @@ export default function Page() {
                     {t('unmatchedDescOne')}
                   </p>
                   <p className="mt-5  4xl:text-[22px] xl:text-[18px] md:text-[18px] text-[16px] leading-tight ">
-                    {t('unmatchedDescTwo')} 
+                    {t('unmatchedDescTwo')}
                   </p>
                 </div>
                 <div className="grid flex-start items-center">
@@ -559,23 +564,23 @@ export default function Page() {
                     className="4xl:w-[150px] 4xl:h-[150px] xl:w-[120px] xl:h-[120px] w-[100px] h-[100px]"
                   />
                   <p className="mt-5 text-[#006FBE] font-bold 4xl:text-[28px] xl:text-[24px] md:text-[22px] text-[20px] leading-tight ">
-                   {t('supportTitle')}
+                    {t('supportTitle')}
                   </p>
 
                   <p className="mt-5 4xl:text-[22px] xl:text-[18px] md:text-[18px] text-[16px] leading-tight  ">
-                   {t('supportDesc')}
+                    {t('supportDesc')}
                   </p>
                 </div>
               </div>
               <div className=" flex xl:justify-end lg:justify-start">
                 <p className="4xl:text-[26px] xl:text-[22px] md:text-[20px] text-[18px] xl:mt-[60px] mt-[26px] w-fit bg-[#0E3157] p-[24px] text-white leading-tight ">
-                   {t('supportDescOne')}
+                  {t('supportDescOne')}
                 </p>
               </div>
 
               <div className="mt-[29px] xl-mt-[50px] flex xl:justify-end lg:justify-start">
-              
-                 <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
+
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
               </div>
             </div>
           </div>
@@ -618,7 +623,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="absolute bottom-0">
-              <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
               </div>
             </div>
           </div>

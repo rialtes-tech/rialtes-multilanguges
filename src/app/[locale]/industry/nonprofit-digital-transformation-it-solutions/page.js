@@ -10,12 +10,13 @@ import enContent from '../../../../../messages/en/industry.json';
 import esContent from '../../../../../messages/es/industry.json';
 import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+
 export default function retailPage() {
-  
     const t = useTranslations('nonProfit')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { whyChooseData, thoughtLeadershipData, preDeliveredData, commonSectionData,schemaData } = content.nonProfit
+    const { whyChooseData, thoughtLeadershipData, preDeliveredData, commonSectionData, schemaData } = content.nonProfit
     return (
         <section className="min-h-screen">
             <Seo
@@ -69,6 +70,10 @@ export default function retailPage() {
                         </div>
                     </div>
                 </div>
+            </section>
+            {/* breadcrumb */}
+            <section className="custom-container">
+                <BreadCrumbs />
             </section>
             {/* page description section */}
             <section className="custom-container xl:mt-[99px] mt-[50px]">
@@ -314,7 +319,7 @@ export default function retailPage() {
                                 {t('seamlessCard5Desc')}
                             </p>
                             <div className="md:mt-auto mt-[30px]">
-                                <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
+                                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                             </div>
                         </div>
                     </div>

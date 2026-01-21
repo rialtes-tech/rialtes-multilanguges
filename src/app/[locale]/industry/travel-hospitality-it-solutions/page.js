@@ -11,8 +11,9 @@ import esContent from '../../../../../messages/es/industry.json';
 import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
 import { useActiveLocale } from "../../components/activeLanguages";
-export default function Page() {
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
+export default function Page() {
     const t = useTranslations('travelIndustry')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
@@ -73,6 +74,10 @@ export default function Page() {
                         </div>
                     </div>
                 </section>
+                {/* breadcrumb */}
+                <section className="custom-container">
+                    <BreadCrumbs />
+                </section>
                 {/* page description section */}
                 <section className="custom-container xl:mt-[135px] mt-[42px]">
                     <div className="grid grid-cols-1 xl:grid-cols-12 w-full 4xl:gap-[47px] gap-y-[32px] md:w-[80%] xl:w-full">
@@ -128,7 +133,7 @@ export default function Page() {
                             </div>
                         </div>
                         <div className="xl:mt-[49px] mt-[42px] md:pl-[60px]">
-                            <LearnMore btnName={t('learnMoreBtn')}   locale={locale} />
+                            <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                         </div>
                     </div>
                 </section>
@@ -156,7 +161,7 @@ export default function Page() {
                                 </p>
                                 <UnorderedList arrName={industryData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[48px] mt-[38px] pl-[20px]" liClassName="text-[16px] md:text-[18px] xl:text-[20px] leading-tight font-light" />
                                 <div className="absolute bottom-[-20px] xl:pl-[61px] lg:pl-[26px]">
-                                    <LearnMore btnName={t('learnMoreBtn')}  locale={locale}  bgcolor="#006FBE" />
+                                    <LearnMore btnName={t('learnMoreBtn')} locale={locale} bgcolor="#006FBE" />
                                 </div>
                             </div>
                         </div>
@@ -193,7 +198,7 @@ export default function Page() {
                                             <UnorderedList arrName={industryData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[48px] mt-[38px] pl-[20px]" liClassName="xl:text-[16px] 4xl:text-[20px] text-[16px] leading-tight font-light" />
                                         </div>
                                         <div className="absolute bottom-[-20px] xl:pl-[61px] lg:pl-[26px]">
-                                            <LearnMore btnName={t('learnMoreBtn')}  locale={locale}  bgcolor="#006FBE" />
+                                            <LearnMore btnName={t('learnMoreBtn')} locale={locale} bgcolor="#006FBE" />
                                         </div>
                                     </div>
                                 </div>
@@ -288,7 +293,7 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="absolute md:left-1/2 bottom-[-26px] max-md:ml-[36px] md:ml-[40px] lg:ml-[36px]">
-                        <LearnMore btnName={t('learnMoreBtn')}  locale={locale}  />
+                        <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                     </div>
                 </section>
                 {/* optimize section */}
@@ -338,7 +343,7 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="absolute md:left-1/2 md:bottom-[-26px] bottom-[60px]  max-md:ml-[36px]">
-                        <LearnMore btnName={t('learnMoreBtn')}  locale={locale}  />
+                        <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                     </div>
                 </section>
                 {/* driving repeat section */}
@@ -357,7 +362,7 @@ export default function Page() {
                                 </p>
                                 <UnorderedList arrName={futureReadyData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[37px] mt-[38px] pl-[20px] lg:w-[90%]" liClassName="xl:text-[16px] 4xl:text-[20px] text-[16px] md:text-[18px] leading-tight font-normal" />
                                 <div className="mt-[44px]">
-                                    <LearnMore btnName={t('learnMoreBtn')}  locale={locale}  />
+                                    <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                                 </div>
                             </div>
                         </div>
@@ -544,7 +549,7 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="xl:mt-[20px] mt-[36px] max-md:ml-[36px]">
-                        <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+                        <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                     </div>
                 </section>
                 {/* quick commerce section */}
@@ -562,7 +567,7 @@ export default function Page() {
                             </p>
                             <UnorderedList arrName={quickCommereceData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[26px] pl-[20px]" liClassName="xl:text-[16px] 4xl:text-[20px] text-[16px] md:text-[18px] leading-tight font-normal" />
                             <div className="xl:mt-[120px] mt-[36px]">
-                                <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+                                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                             </div>
                         </div>
                         <div className="order-1 lg:col-span-7 col-span-12">
@@ -609,7 +614,7 @@ export default function Page() {
                             </p>
                             <UnorderedList arrName={smarterServiceData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[22px] pl-[20px] xl:w-[80%] 4xl:w-full" liClassName="xl:text-[16px] 4xl:text-[20px] md:text-[18px] text-[16px] leading-tight font-normal" />
                             <div className="lg:mt-auto lg:pt-[26px] mt-[26px]">
-                                <LearnMore btnName={t('learnMoreBtn')}  locale={locale}  />
+                                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                             </div>
                         </div>
                         <div className="md:order-2 order-1 2xl:col-span-5 lg:col-span-5 md:col-span-6 col-span-12">

@@ -12,14 +12,14 @@ import esContent from '../../../../../../messages/es/industry.json';
 import frContent from '../../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../../components/changeLocalization";
 import { useActiveLocale } from "@/app/[locale]/components/activeLanguages";
-
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 export default function Page() {
     const t = useTranslations('medicalDevices')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { frActive, esActive } = useActiveLocale();
-    const { thoughLeadershipData, whyPartnerData, challenges, salesforceLifeData, sapData, keyAiData, benefitsofAi, patientData, integratedData, mobileData, remoteDeviceData, salesforceAgentData, realTimeData,schemaData } = content.medicalDevices
+    const { thoughLeadershipData, whyPartnerData, challenges, salesforceLifeData, sapData, keyAiData, benefitsofAi, patientData, integratedData, mobileData, remoteDeviceData, salesforceAgentData, realTimeData, schemaData } = content.medicalDevices
     const CriticalChallengesSection = () => {
         return (
             <section className="sm:mt-[120px] mt-[100px]">
@@ -123,6 +123,10 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
+            </section>
+            {/* breadcrumb */}
+            <section className="custom-container">
+                <BreadCrumbs />
             </section>
             {/* page description */}
             <section className="xl:mt-10 mt-4 custom-container">
@@ -257,7 +261,7 @@ export default function Page() {
                         </div>
                     </div>
                     <button className="bg-white hover:bg-[#ffffff]  hover:text-[#134874] border-[1px] 4xl:text-[20px] xl:text-[16px] border-[solid] border-[#134874] my-[60px] font-semibold text-black py-3 px-8 transition duration-300 order-4 text-[16px] md:text-[18px]">
-                        <Link   href={`/${locale}/contact-us`}>{t('learnMoreTitle')} </Link>
+                        <Link href={`/${locale}/contact-us`}>{t('learnMoreTitle')} </Link>
                     </button>
                 </div>
             </section>
@@ -266,7 +270,7 @@ export default function Page() {
                 <div className="grid xl:grid-cols-12 grid-cols-1">
                     <div className="3xl:col-span-8 lg:col-span-10 col-span-12">
                         <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px]">
-                         {t("aiPoweredTitle1")}
+                            {t("aiPoweredTitle1")}
                         </h2>
                         <h3 className="4xl:text-[40px] xl:text-[30px] md:text-[26px] text-[22px] font-bold xl:mt-[35px] mt-[22px] leading-tight">{t('aiPoweredTitle')}</h3>
                     </div>
@@ -518,7 +522,7 @@ export default function Page() {
                             <div className="mt-5">
                                 <button className="bg-white 4xl:text-[20px] xl:text-[16px] border-[1px] hover:text-[#134874] font-semibold text-black py-3 px-8 transition duration-300 order-4 mt-6" aria-label="real time know more button text-[16px] md:text-[18px]">
                                     <Link href={`/${locale}/products/agentchat`}>{t('knowMoreBtn')}</Link>
-                                   
+
                                 </button>
                             </div>
                         </div>

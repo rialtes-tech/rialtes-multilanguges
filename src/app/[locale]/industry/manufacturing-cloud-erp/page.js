@@ -9,6 +9,7 @@ import enContent from '../../../../../messages/en/industry.json';
 import esContent from '../../../../../messages/es/industry.json';
 import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 export default function Page() {
   const t = useTranslations('manufacturing')
@@ -66,12 +67,15 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* breadcrumb */}
+      <section className="custom-container">
+        <BreadCrumbs />
+      </section>
       {/* page description */}
       <section className="xl:mt-16 mt-8 custom-container">
         <div className="grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-7 col-span-12">
-            <p className="mt-10  leading-tight xl:pr-20 pr-10 4xl:text-[20px] xl:text-[18px]  text-[16px]
- ">{t('drivingDesc')}</p>
+            <p className="mt-10  leading-tight xl:pr-20 pr-10 4xl:text-[20px] xl:text-[18px]  text-[16px]">{t('drivingDesc')}</p>
           </div>
           <div className="xl:col-span-5 col-span-12">
           </div>
@@ -162,7 +166,7 @@ export default function Page() {
  ">{t('endSubTitle')}</p>
               <p className="xl:mt-5 font-light 4xl:text-[20px] xl:text-[18px]  text-[16px]">{t('endDesc')}</p>
               <div className="mt-5">
-                <LearnMore btnName={t('learnMoreBtn')} bgcolor={"#006FBE"} bordercolor={"#006FBE"}  locale={locale} />
+                <LearnMore btnName={t('learnMoreBtn')} bgcolor={"#006FBE"} bordercolor={"#006FBE"} locale={locale} />
               </div>
             </div>
           </div>
@@ -187,7 +191,7 @@ export default function Page() {
             <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">{t('preSubtitle')}</h3>
             <p className="mt-5 xl:mb-10 mb-5 font-normal 4xl:pr-20 pr-5 leading-tight 4xl:text-[20px] xl:text-[18px]  text-[16px]">{t('preDesc')}</p>
             <div className="xl:bottom-0">
-              <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+              <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
             </div>
           </div>
         </div>
@@ -217,7 +221,7 @@ export default function Page() {
             <p className="mt-5 xl:mb-10 font-normal 4xl:pr-24 pr-5 leading-tight xl:pr-10 4xl:text-[20px] xl:text-[18px]  text-[16px] ">
               {t('discreteDesc')}</p>
             <div className="xl:bottom-0">
-              <LearnMore btnName={t('learnMoreBtn')}   locale={locale}/>
+              <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
             </div>
           </div>
         </div>
@@ -280,7 +284,7 @@ export default function Page() {
                 {t('repetitiveDesc')}
               </p>
               <div>
-                <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
               </div>
             </div>
           </div>
@@ -379,7 +383,7 @@ export default function Page() {
                 }`}
 
               >
-                <LearnMore btnName={t('learnMoreBtn')}  locale={locale}/>
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
               </div>
             </div>
           </div>
@@ -461,7 +465,7 @@ export default function Page() {
               {t('shapingDesc')}
             </p>
             <div className="mt-5 absolute  xl:relative">
-              <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+              <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
             </div>
           </div>
           <div className="xl:col-span-8 col-span-12 xl:block hidden xl:ml-[-300px]">
@@ -511,7 +515,7 @@ export default function Page() {
               {t('sapDesc')}
             </p>
             <div className="mt-5">
-              <LearnMore btnName={t('learnMoreBtn')} bgcolor={"#006FBE"} bordercolor={"#006FBE"}   locale={locale}/>
+              <LearnMore btnName={t('learnMoreBtn')} bgcolor={"#006FBE"} bordercolor={"#006FBE"} locale={locale} />
             </div>
           </div>
         </div>
@@ -552,7 +556,7 @@ export default function Page() {
           </div>
 
           <div className="-bottom-6 absolute">
-            <LearnMore btnName={t('learnMoreBtn')} bgcolor={"#006FBE"} bordercolor={"#006FBE"}  locale={locale} />
+            <LearnMore btnName={t('learnMoreBtn')} bgcolor={"#006FBE"} bordercolor={"#006FBE"} locale={locale} />
           </div>
         </div>
       </section>

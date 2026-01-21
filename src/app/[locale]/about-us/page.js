@@ -83,7 +83,7 @@ export default function About() {
             {/* Mission & Vision Section */}
             <div className="mt-40 custom-container pt-1">
                 {/* breadcrumb */}
-                <BreadCrumbs />
+                <BreadCrumbs/>
                 <h1 className="py-14 leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]  xl:w-[76%] 4xl:w-[100%]">
                     {t('worldTitle')}
                 </h1>

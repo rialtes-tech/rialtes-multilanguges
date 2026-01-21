@@ -9,6 +9,8 @@ import enContent from '../../../../../messages/en/industry.json';
 import esContent from '../../../../../messages/es/industry.json';
 import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+
 export default function retailPage() {
     const t = useTranslations('retailIndustry')
     const locale = useLocale();
@@ -66,6 +68,10 @@ export default function retailPage() {
                         </div>
                     </div>
                 </div>
+            </section>
+            {/* breadcrumb */}
+            <section className="custom-container">
+                <BreadCrumbs />
             </section>
             {/* page description section */}
             <section className="custom-container xl:mt-[135px] mt-[42px]">
