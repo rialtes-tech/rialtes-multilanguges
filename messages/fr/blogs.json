@@ -10777,7 +10777,8 @@
         "schemaData": {}
     },
     "salesforceMarketingCloud": {
-         "schemaData": {},
+        "schemaData": {},
+          "faqTitle": "FAQ : parcours client fragmenté",
         "salesforcemarketingTitle": "Que sont les parcours clients fragmentés et pourquoi sont-ils importants ?",
         "mainData": [
             "Le marketing personnalisé est une promesse depuis plus de dix ans. Pourtant, malgré de meilleurs outils, davantage de données et des plateformes plus intelligentes, l’engagement client continue de décevoir. Les e-mails restent non ouverts. Les notifications push semblent non pertinentes. Les parcours se brisent en cours de route. Les campagnes sont lancées à temps, mais n’arrivent pas à créer de lien.",
@@ -11592,6 +11593,251 @@
         "tableTitle2": "Confiance des entreprises",
         "tableTitle3": "Accès et rôle",
         "faqTitle": "FAQ : Gouvernance et responsabilité en conseil SAP"
+    },
+    "sapAriba": {
+        "sapAribaTitle": "SAPBuy+ : Le chaînon manquant de l’approvisionnement Ariba",
+        "mainData": [
+            "Les achats ont connu plus de changements significatifs au cours des cinq dernières années que durant les vingt précédentes. Autrefois fonction de back-office axée sur le contrôle des coûts, ils sont désormais un moteur stratégique de résilience, de gestion des risques et d’innovation fournisseurs. Pourtant, de nombreuses entreprises peinent encore à exploiter pleinement la valeur de SAP Ariba.",
+            "La plateforme est puissante. Cependant, les résultats sont souvent en deçà des attentes. Pourquoi ? Parce que la technologie seule ne crée pas des achats connectés. L’exécution, oui.",
+            "L’intégration déconnectée des fournisseurs, la sous-utilisation des capacités du réseau Ariba, une adoption lente et des couches d’intelligence limitées continuent de freiner les organisations. Cet écart entre le potentiel de la plateforme et la performance réelle est précisément là où SAPBuy+ intervient. SAPBuy+ est conçu pour transformer SAP Ariba d’un système transactionnel en un écosystème d’achats connecté qui réunit fournisseurs, acheteurs et intelligence en temps réel."
+        ],
+        "procurementData": [
+            {
+                "title": "Pourquoi les achats restent fragmentés — même avec SAP Ariba",
+                "desc": [
+                    "La plupart des entreprises utilisent déjà SAP Ariba. Pourtant, beaucoup rencontrent encore :"
+                ],
+                "list": [
+                    "Une faible adoption des fournisseurs sur le réseau Ariba",
+                    "Des interventions manuelles dans les processus de sourcing et de contractualisation",
+                    "Une visibilité limitée des risques fournisseurs",
+                    "Des cycles lents dans le processus procure-to-pay",
+                    "Une conformité reposant sur les personnes plutôt que sur les systèmes",
+                    "Une collaboration qui se déroule en dehors de la plateforme"
+                ],
+                "desc2": "En résumé, les outils existent. La connexion fait défaut.",
+                "descc": "Les achats modernes exigent plus que de l’automatisation. Ils nécessitent une orchestration entre fournisseurs, équipes internes, données et signaux de risque.",
+                "desc3": "Le fossé des achats"
+            }
+        ],
+        "sapbuyplusData": [
+            {
+                "title": "Qu’est-ce que SAPBuy+ ? Un cadre d’achats connectés",
+                "desc": [
+                    "SAPBuy+ est la suite complète de services de Rialtes, conçue autour de SAP Ariba pour offrir une transformation de bout en bout des achats, ainsi que l’implémentation du système."
+                ],
+                "descc": "Elle combine :",
+                "list": [
+                    "Conseil stratégique",
+                    "Implémentation et migration SAP Ariba",
+                    "Activation des fournisseurs sur le réseau Ariba",
+                    "Intégration avec les ERP et les systèmes tiers",
+                    "Outils d’engagement pilotés par l’IA comme AgentChat",
+                    "Optimisation continue et suivi de la valeur"
+                ],
+                "desc2": "Plutôt que de gérer les achats via des processus déconnectés, SAPBuy+ aide les entreprises à créer une expérience d’achats unique et connectée, du sourcing au règlement."
+            }
+        ],
+        "supplierCollaboration": [
+            {
+                "title": "Collaboration fournisseurs : là où commence réellement la transformation des achats",
+                "desc3": [
+                    "La technologie peut automatiser les flux de travail.",
+                    "Seule la collaboration transforme les résultats."
+                ],
+                "desc": [
+                    "SAP Ariba propose déjà l’un des plus grands écosystèmes numériques de fournisseurs au monde via le réseau Ariba. Pourtant, de nombreuses organisations le sous-exploitent, limitant les interactions aux bons de commande et aux factures.",
+                    "SAPBuy+ change cette dynamique."
+                ],
+                "descc": "À quoi ressemble une collaboration fournisseurs connectée",
+                "list": [
+                    "Intégration numérique au lieu d’une création manuelle des fournisseurs",
+                    "Communication centralisée au lieu de chaînes d’e-mails",
+                    "Visibilité partagée sur les commandes, les livraisons et les paiements",
+                    "Résolution plus rapide des litiges",
+                    "Documentation de conformité standardisée",
+                    "Suivi des performances en temps réel"
+                ],
+                "desc2": "Lorsque les fournisseurs deviennent des partenaires sur une même plateforme, les achats passent du contrôle à la co-création."
+            }
+        ],
+        "aribaNetwork": [
+            {
+                "title": "L’avantage du réseau Ariba",
+                "desc": [
+                    "Le réseau Ariba est bien plus qu’un simple hub transactionnel. C’est un réseau d’affaires — mais uniquement lorsqu’il est correctement activé.",
+                    "Grâce à SAPBuy+, Rialtes aide les entreprises à exploiter pleinement la valeur du réseau en :"
+                ],
+                "list": [
+                    "Pilotant des programmes d’intégration des fournisseurs",
+                    "Concevant des parcours d’expérience fournisseur",
+                    "Automatisant les flux de commandes, ASN, factures et paiements",
+                    "Intégrant la conformité à chaque étape",
+                    "Mettant en place des portails libre-service pour les fournisseurs",
+                    "Améliorant la précision des données et les temps de cycle"
+                ],
+                "descc": "Les résultats sont mesurables :",
+                "list2": [
+                    "Cycles de sourcing plus rapides",
+                    "Taux d’exception des factures réduits",
+                    "Dépenses contractuelles plus élevées",
+                    "Réduction des frictions opérationnelles",
+                    "Relations fournisseurs renforcées"
+                ],
+                "desc2": "Les achats cessent d’être réactifs et deviennent prévisiblement efficaces."
+            }
+        ],
+        "automationIntelligence": [
+            {
+                "title": "De l’automatisation à l’intelligence : l’IA dans les achats connectés",
+                "desc": "Les achats modernes ne se résument pas à la vitesse. Ils reposent sur l’analyse. C’est là que des outils d’IA comme <a href='https://www.rialtes.com/fr/products/agentchat/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>AgentChat</a> font évoluer SAP Ariba d’un système d’enregistrement vers un système d’engagement.",
+                "desc2": "Comment l’IA transforme l’expérience d’achat",
+                "descc": "Avec AgentChat intégré à l’écosystème achats, les équipes bénéficient de :",
+                "list": [
+                    "Un accès conversationnel aux données achats",
+                    "Des réponses instantanées sur le statut des commandes, contrats et fournisseurs",
+                    "Un support automatisé pour les fournisseurs et les utilisateurs internes",
+                    "Des alertes de risque basées sur les comportements et les modèles de données",
+                    "Une résolution plus rapide des exceptions"
+                ],
+                "desc4": "Flux de l’IA dans les achats",
+                "model": {
+                    "label": "Ariba + AgentChat = assistant achats toujours actif",
+                    "steps": [
+                        "Données",
+                        "Intelligence",
+                        "Action"
+                    ]
+                },
+                "desc3": "Au lieu de rechercher l’information, les équipes se concentrent sur la prise de décision.",
+                "desc6": "Avec AgentChat intégré à l’écosystème achats, les équipes bénéficient de :"
+            }
+        ],
+        "traditionalAriba": [
+            {
+                "title": "Pourquoi SAPBuy+ réussit là où les projets Ariba traditionnels échouent",
+                "desc": [
+                    "De nombreux programmes Ariba stagnent car ils se concentrent uniquement sur le déploiement. SAPBuy+ met l’accent sur l’adoption, l’intégration et la création de valeur.",
+                    "Voici ce qui fait la différence :"
+                ],
+                "list": [
+                    {
+                        "title": "Le conseil d’abord, la technologie ensuite",
+                        "desc": "Nous commençons par vos objectifs achats — maîtrise des coûts, réduction des risques, innovation fournisseurs — et concevons Ariba en fonction des résultats."
+                    },
+                    {
+                        "title": "Implémentation avec une approche de cœur propre",
+                        "desc": "Les processus standardisés remplacent la complexité sur mesure, facilitant les mises à jour et l’évolution."
+                    },
+                    {
+                        "title": "L’activation des fournisseurs comme pilier central",
+                        "desc": "Ce n’est ni une réflexion tardive ni une option. L’adoption est intégrée dès le premier jour."
+                    },
+                    {
+                        "title": "Intégration sans friction",
+                        "desc": "SAPBuy+ connecte Ariba à SAP S/4HANA, ECC, aux systèmes financiers et aux applications tierces afin d’éliminer les silos de données."
+                    },
+                    {
+                        "title": "Optimisation continue",
+                        "desc": "La phase post-démarrage est celle où la transformation s’accélère, et non celle où elle s’arrête."
+                    }
+                ],
+                "desc2": "Le modèle de livraison SAPBuy+",
+                "model": {
+                    "steps": [
+                        "Évaluer",
+                        "Concevoir",
+                        "Activer",
+                        "Intégrer",
+                        "Automatiser",
+                        "Optimiser"
+                    ]
+                }
+            }
+        ],
+        "businessOutcomes": [
+            {
+                "title": "Des résultats métiers qui comptent vraiment",
+                "desc": [
+                    "Les achats connectés génèrent un impact visible sur le bilan et les opérations quotidiennes :"
+                ],
+                "list": [
+                    "Cycles de sourcing et de contractualisation plus rapides",
+                    "Réduction des coûts opérationnels des achats",
+                    "Adoption et satisfaction accrues des fournisseurs",
+                    "Meilleure conformité et préparation aux audits",
+                    "Réduction de l’exposition aux risques d’approvisionnement",
+                    "Visibilité des dépenses en temps réel",
+                    "Aide à la décision pilotée par l’IA"
+                ],
+                "desc2": "Les achats deviennent un levier de croissance, et non un frein."
+            }
+        ],
+        "sapbuyplus": [
+            {
+                "title": "Qui devrait envisager SAPBuy+",
+                "desc": [
+                    "SAPBuy+ est idéal pour :"
+                ],
+                "list": [
+                    "Les entreprises modernisant leurs achats avec SAP Ariba",
+                    "Les organisations migrant depuis des systèmes SRM hérités",
+                    "Les entreprises confrontées à une faible adoption fournisseurs",
+                    "Les groupes internationaux recherchant des processus standardisés",
+                    "Les équipes souhaitant introduire l’IA dans les opérations achats"
+                ],
+                "desc2": "Si les achats sont stratégiques pour votre entreprise, SAPBuy+ les rend évolutifs."
+            }
+        ],
+        "sapAribaTransformation": [
+            {
+                "title": "Comment Rialtes déploie la transformation SAP Ariba à grande échelle",
+                "desc": [
+                    "Chez Rialtes, nous aidons les organisations à redéfinir l’efficacité des achats avec SAP Ariba — la solution cloud leader pour le sourcing stratégique, la gestion des contrats, la collaboration fournisseurs et l’automatisation du procure-to-pay.",
+                    "En tant que <a href='https://partnerfinder.sap.com/profile/0002050236' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>partenaire SAP certifié</a> avec une présence mondiale aux États-Unis, au Canada, en Inde et à Singapour, nous fournissons des solutions SAP Ariba de bout en bout couvrant :"
+                ],
+                "list": [
+                    "Conseil et création de feuilles de route",
+                    "Implémentation et migration",
+                    "Activation du réseau Ariba",
+                    "Intégration ERP et écosystème",
+                    "Engagement piloté par l’IA avec AgentChat",
+                    "Support continu et optimisation"
+                ],
+                "desc2": "Notre <a href='https://www.rialtes.com/fr/services/spend-management/sapbuyplus-ariba-implementation-partner/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>suite de services SAPBuy+</a> permet aux entreprises d’atteindre une véritable transformation des achats tout en maximisant le ROI de leurs investissements SAP.",
+                "desc3": "SAP Ariba fournit la plateforme.",
+                "desc4": "SAPBuy+ la fait fonctionner selon les exigences des achats modernes."
+            }
+        ],
+        "faqData": [
+            {
+                "question": "Qu’est-ce que SAPBuy+ ?",
+                "answer": "SAPBuy+ est le cadre complet de services de Rialtes pour les implémentations et transformations SAP Ariba, couvrant le conseil, le déploiement, l’intégration, l’activation des fournisseurs, les outils d’IA et l’optimisation continue."
+            },
+            {
+                "question": "Comment SAPBuy+ améliore-t-il l’adoption de SAP Ariba ?",
+                "answer": "En mettant l’accent sur l’activation des fournisseurs, l’expérience utilisateur, la standardisation des processus et les flux de travail réels, et pas uniquement sur la configuration du système."
+            },
+            {
+                "question": "Quel rôle joue le réseau Ariba dans les achats connectés ?",
+                "answer": "Le réseau Ariba permet une collaboration numérique entre acheteurs et fournisseurs, en automatisant les transactions, en améliorant la visibilité et en renforçant la conformité."
+            },
+            {
+                "question": "Comment AgentChat améliore-t-il les achats ?",
+                "answer": "AgentChat intègre l’IA conversationnelle dans les achats, permettant un support instantané, des informations en temps réel et une gestion proactive des risques."
+            },
+            {
+                "question": "Pourquoi choisir Rialtes comme partenaire SAP Ariba ?",
+                "answer": "Rialtes combine une expertise SAP certifiée, une capacité de livraison mondiale et un cadre SAPBuy+ éprouvé pour offrir une transformation des achats qui va au-delà de la technologie."
+            }
+        ],
+         "faqTitle": "FAQ : SAPBuy+ pour l’implémentation et la migration de SAP Ariba",
+        "schemaData" : {},
+        "seoTitle": "SAPBuy+ : Déployer SAP Ariba pour les achats modernes | Rialtes",
+        "seoDescription": "SAPBuy+ est la suite complète de services de Rialtes, conçue autour de SAP Ariba pour offrir une transformation de bout en bout des achats, ainsi que l’implémentation du système.",
+        "bannerAlt" : "Pont numérique bleu lumineux avec nœuds réseau connectant appareils représentant connectivité cloud et intégration données",
+        "procurementImageAlt" : "Flèches progression flux de travail achats montrant plateforme forte, adoption faible, flux fragmentés, valeur manquée",
+         "categoryTitle" : "SAP Ariba"
     },
     "kinaxisBlog":{
         "schemaData": {},
