@@ -229,15 +229,46 @@
       "Retail",
       "Generic"
     ],
-    "categories": [
-      "All",
-      "Agentic AI",
+    "categoryData": [
+  {
+    "category": "All"
+  },
+  {
+    "category": "Agentic AI"
+  },
+  {
+    "category": "Integration"
+  },
+  {
+    "category": "Managed Services"
+  },
+  {
+    "category": "Kinaxis RapidResponse"
+  },
+  {
+    "category": "Products",
+    "items": [
       "Exelona",
-      "Integration",
-      "MediAIna",
+      "MediAIna"
+    ]
+  },
+  {
+    "category": "Salesforce",
+    "items": [
       "Salesforce Agentforce",
+      "Salesforce Automotive Cloud",
       "Salesforce Consulting",
       "Salesforce Data Cloud",
+      "Salesforce Life Sciences Cloud",
+      "Salesforce Marketing Cloud",
+      "Salesforce FSC"
+    ]
+  },
+  {
+    "category": "SAP",
+    "items": [
+      "Rise with SAP",
+      "Grow with SAP",
       "SAP Ariba",
       "SAP BDC",
       "SAP Consulting",
@@ -245,13 +276,13 @@
       "SAP GTS",
       "SAP Joule",
       "SAP Signavio",
-      "SAP SuccessFactors",
-      "Managed Services",
-      "Salesforce Automotive Cloud",
-       "Salesforce Life Sciences Cloud",
-       "Kinaxis RapidResponse",
-      "Others"
-    ],
+      "SAP SuccessFactors"
+    ]
+  },
+  {
+    "category": "Others"
+  }
+],
     "slides": [
       {
         "id": 1,
