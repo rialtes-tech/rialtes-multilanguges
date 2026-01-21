@@ -289,7 +289,7 @@ const latestBlogs = [
   {
     id: 59,
     image: "/images/blog/salesforce-managed-services-salesforceagent-plus-feature-thumb.webp",
-    category: "Managed Services ",
+    category: "Managed Services",
     industry: "Generic",
     date: "Dec. 02, 2025",
     alt: "Colorful fiber optic waves representing Salesforce managed services scaling revenue beyond CRM maintenance",
@@ -300,7 +300,7 @@ const latestBlogs = [
   {
     "id": 57,
     "image": "/images/blog/digital-data-interface-with-futuristic-touch-interaction-thumb.webp",
-    "category": "SAP SuccessFactor",
+    "category": "SAP SuccessFactors",
     "industry": "HRMS",
     "date": "Nov. 27, 2025",
     "url": "/sap-successfactors-services-hr-transformation/",
@@ -344,7 +344,7 @@ const latestBlogs = [
   {
     id: 55,
     image: "/images/blog/digital-network-touch-data-connection-visualization-thumb.webp",
-    category: "Integration",
+    category: "SAP Consulting",
     industry: "Generic",
     date: "Nov. 12, 2025",
     url: "/boost-enterprise-agility-with-sap-consulting-implementation-services/",
@@ -465,7 +465,7 @@ const latestBlogs = [
   {
     id: 44,
     image: "/images/blog/salesforce-consulting-cluster-thumb.webp",
-    category: "Life Sciences",
+    category: "Salesforce Consulting",
     industry: "Generic",
     date: "Oct. 06, 2025",
     url: '/salesforce-development-services-to-boost-crm-efficiency/',
