@@ -12,6 +12,7 @@ import esContent from '../../../../../../messages/es/services.json';
 import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import { useActiveLocale } from "@/app/[locale]/components/activeLanguages";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 
 const BulletList = ({ items }) => (
@@ -30,7 +31,7 @@ export default function Page() {
   const locale = useLocale();
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { frActive, esActive } = useActiveLocale();
-  const { greenfieldItemsLeft, greenfieldItemsRight, brownfieldItemsLeft, brownfieldItemsRight, sapTransformations, btpData, sapIntegrations, communicationBenefits, aiData, ourActivateData,schemaData } = content.riseWithSap;
+  const { greenfieldItemsLeft, greenfieldItemsRight, brownfieldItemsLeft, brownfieldItemsRight, sapTransformations, btpData, sapIntegrations, communicationBenefits, aiData, ourActivateData, schemaData } = content.riseWithSap;
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -87,6 +88,10 @@ export default function Page() {
             </div>
           </div>
         </div>
+      </section>
+      {/* breadcrumb */}
+      <section className="custom-container">
+        <BreadCrumbs />
       </section>
       {/* unlock section */}
       <section className="xl:mt-[78px] mt-[51px] custom-container">

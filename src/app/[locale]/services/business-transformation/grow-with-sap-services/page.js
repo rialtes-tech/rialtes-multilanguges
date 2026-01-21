@@ -11,6 +11,7 @@ import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import { useActiveLocale } from "@/app/[locale]/components/activeLanguages";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 
 export default function Page() {
@@ -18,7 +19,7 @@ export default function Page() {
   const locale = useLocale();
   const { frActive, esActive, enActive } = useActiveLocale();
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { services, cardsData, benefits, sapBenefits, rialtesSapData, sapIntegrationPoints, sapInnovationList, featureHighlights, futureProofingData, keyPhasesData,schemaData } = content.growWithSap;
+  const { services, cardsData, benefits, sapBenefits, rialtesSapData, sapIntegrationPoints, sapInnovationList, featureHighlights, futureProofingData, keyPhasesData, schemaData } = content.growWithSap;
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -83,7 +84,10 @@ export default function Page() {
           </div>
         </div>
       </section>
-
+      {/* breadcrumb */}
+      <section className="custom-container">
+        <BreadCrumbs />
+      </section>
       {/* page description section */}
       <section className="mt-16 custom-container">
         <div className="grid xl:grid-cols-12 grid-cols-1">
@@ -415,7 +419,7 @@ export default function Page() {
             <div className="xl:col-span-6 col-span-12 text-black mt-8 xl:mt-0">
               <h2 className="leading-tight 4xl:text-[56px] text-[26px] md:text-[30px] xl:text-[40px]">{t('futureProofingTitle')} </h2>
               <p className="mt-5 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight">{t('futureProofingDesc')} </p>
-              <UnorderedList arrName={futureProofingData} ulClassName="list-disc xl:space-y-5 marker:text-[#036CBC] marker:font-bold marker:text-2xl pl-5  font-semibold mt-10" liClassName="text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]"/>
+              <UnorderedList arrName={futureProofingData} ulClassName="list-disc xl:space-y-5 marker:text-[#036CBC] marker:font-bold marker:text-2xl pl-5  font-semibold mt-10" liClassName="text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px]" />
             </div>
           </div>
         </div>

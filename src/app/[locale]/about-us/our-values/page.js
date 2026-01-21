@@ -8,12 +8,13 @@ import { useLocale, useTranslations } from "next-intl";
 import enContent from '../../../../../messages/en/aboutus.json';
 import esContent from '../../../../../messages/es/aboutus.json';
 import frContent from '../../../../../messages/fr/aboutus.json';
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 export default function Page() {
     const t = useTranslations('ourValue')
     const locale = useLocale();
     const ourValueContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { growLatestServices, principleItems,schemaData } = ourValueContent.ourValue;
+    const { growLatestServices, principleItems, schemaData } = ourValueContent.ourValue;
 
     const GrowServicesCard = ({ services }) => (
         <div className="w-full h-full">
@@ -108,7 +109,10 @@ export default function Page() {
                 </div>
             </section>
 
-
+            {/* breadcrumb */}
+            <section className="custom-container">
+                <BreadCrumbs />
+            </section>
             {/* our value section */}
             <section className="xl:py-16 py-10">
                 <div className="custom-container">

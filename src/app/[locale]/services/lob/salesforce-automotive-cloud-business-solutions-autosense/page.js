@@ -10,12 +10,13 @@ import esContent from '../../../../../../messages/es/services.json';
 import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import Script from "next/script";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 export default function page() {
     const t = useTranslations('autoSense')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { keyPillarsSectionData, chooseRialtesData, rialtesMakesWorkData, thoughtLeadershipData ,schemaData} = content.autoSense;
+    const { keyPillarsSectionData, chooseRialtesData, rialtesMakesWorkData, thoughtLeadershipData, schemaData } = content.autoSense;
     const KeyPillarsSectionDesign = () => {
         return (
             <section className="xl:mt-[95px] mt-[70px]">
@@ -39,13 +40,13 @@ export default function page() {
                                                 </h3>
                                                 <UnorderedList arrName={data.listItems} ulClassName="list-disc text-[#FFFFFF] xl:mt-[24px] xl:px-[24px] pb-0 px-[22px] xl:pl-[52px] pl-[16px] xl:w-[80%] pr-0" liClassName="xl:mt[24px] mt-[19px] text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight" />
                                                 <div className="xl:mt-[31px] xl:px-[30px]">
-                                                    <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
+                                                    <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                                                 </div>
                                             </div>
                                             <div className="order-1 md:order-none">
                                                 {/* Desktop Image */}
                                                 <Image
-                                                    src={data.imageUrl}                  
+                                                    src={data.imageUrl}
                                                     alt={data.imageAlt}
                                                     width={600}
                                                     height={100}
@@ -90,7 +91,7 @@ export default function page() {
                                                 </h3>
                                                 <UnorderedList arrName={data.listItems} ulClassName="list-disc text-[#FFFFFF] xl:mt-[24px] xl:px-[24px] pb-0 px-[22px] xl:pl-[52px] pl-[16px] xl:w-[90%] pr-0" liClassName="xl:mt[24px] mt-[19px] text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight" />
                                                 <div className="xl:mt-[31px] xl:px-[30px]">
-                                                    <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
+                                                    <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                                                 </div>
                                             </div>
                                         </>
@@ -125,7 +126,7 @@ export default function page() {
                     })}
                 </div>
                 <div className="xl:mt-[52px] mt-[32px]">
-                    <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
+                    <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                 </div>
             </section>
         );
@@ -205,7 +206,7 @@ export default function page() {
                         </div>
                     </div>
                     <div className="xl:mb-[34px] xl:mt-[78px] mt-[73px]">
-                        <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
+                        <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                     </div>
                 </div>
             </section>
@@ -213,12 +214,12 @@ export default function page() {
     };
     return (
         <div className="min-h-screen bg-white">
-          <Seo
-                    title={t('seoTitle')}
-                    description={t('seoDescription')}
-                    keywords="home, website, welcome"
-                    canonical={`https://www.rialtes.com/${locale}/services/lob/salesforce-automotive-cloud-business-solutions-autosense/`}
-                />
+            <Seo
+                title={t('seoTitle')}
+                description={t('seoDescription')}
+                keywords="home, website, welcome"
+                canonical={`https://www.rialtes.com/${locale}/services/lob/salesforce-automotive-cloud-business-solutions-autosense/`}
+            />
             <Script
                 id="schema-automotive-cloude"
                 type="application/ld+json"
@@ -256,6 +257,10 @@ export default function page() {
                         </div>
                     </div>
                 </div>
+            </section>
+            {/* breadcrumb */}
+            <section className="custom-container">
+                <BreadCrumbs />
             </section>
             {/* page description section */}
             <section className="custom-container xl:mt-[105px] mt-[55px] xl:mb-[114px] mb-[42px]">

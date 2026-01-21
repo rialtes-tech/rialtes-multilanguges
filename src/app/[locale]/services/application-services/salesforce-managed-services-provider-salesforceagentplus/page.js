@@ -9,12 +9,14 @@ import { changeLocalization } from "@/app/[locale]/components/changeLocalization
 import Image from "next/image";
 import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+
 export default function page() {
     const t = useTranslations("salesforceAgent");
     const locale = useLocale();
     const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { startYourAIData, salesforceagentData, unlockData, rialChatData, ourGlobalData, rialtesSalesforceData, ourSalesforceData, migrateData, certifiedData, whyChooseData,schemaData } = homepageContent.salesforceAgent;
-   
+    const { startYourAIData, salesforceagentData, unlockData, rialChatData, ourGlobalData, rialtesSalesforceData, ourSalesforceData, migrateData, certifiedData, whyChooseData, schemaData } = homepageContent.salesforceAgent;
+
 
     return (
         <section>
@@ -68,6 +70,10 @@ export default function page() {
                         </div>
                     </div>
                 </div>
+            </section>
+            {/* breadcrumb */}
+            <section className="custom-container">
+                <BreadCrumbs />
             </section>
             {/* page desc section */}
             <section className="custom-container xl:mt-[135px] mt-[42px]">
@@ -124,7 +130,7 @@ export default function page() {
                                         </p>
                                     </div>
                                     <div className="mt-auto lg:block hidden">
-                                        <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
+                                        <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                                     </div>
                                 </div>
                             </div>
@@ -146,7 +152,7 @@ export default function page() {
                                     {t('aiPara')}
                                 </p>
                                 <div className="mt-[48px] lg:hidden block">
-                                    <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
+                                    <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                                 </div>
                             </div>
                         </div>
@@ -216,7 +222,7 @@ export default function page() {
                             </p>
                         </div>
                         <div className="xl:mt-[53px] mt-[20px]">
-                            <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
+                            <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                         </div>
                     </div>
                 </div>
@@ -466,7 +472,7 @@ export default function page() {
                             </h2>
                             <UnorderedList arrName={certifiedData} ulClassName="list-disc xl:mt-[44px] mt-[28px] md:ml-[26px] ml-[20px]" liClassName="md:text-[18px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[34px] mt-[23px]" />
                             <div className="absolute xl:mt-[40px] mt-[30px]">
-                                <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
+                                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                             </div>
                         </div>
                     </div>

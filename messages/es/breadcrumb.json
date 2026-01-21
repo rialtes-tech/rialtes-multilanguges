@@ -28,6 +28,24 @@
         "mulesoft-salesforce": "MuleSoft",
         "sap-cloud-platform-integration-consulting": "Integración de la plataforma en la nube de SAP",
         "rpa-consulting-services-provider": "UiPath",
-        "tosca-software-automation-testing": "Tricentis Tosca"
+        "tosca-software-automation-testing": "Tricentis Tosca",
+        "agentchat": "AgentChat",
+        "mediaina-reimagining-patient-journeys": "MediAIna",
+        "exelona-salesforce-for-real-estate-management": "Exelona",
+        "products": "Productos",
+        "grow-with-sap-services": "Grow with SAP",
+        "business-transformation": "Transformación empresarial",
+        "rise-with-sap-services": "Rise with SAP",
+        "sap-managed-services-provider": "Servicios gestionados de SAP",
+        "retail-plus-business-consulting-omnichannel-solutions": "Retail",
+        "lob": "Línea de negocio",
+        "salesforce-automotive-cloud-business-solutions-autosense": "Salesforce Automotive Cloud",
+        "lifeaiplus-salesforce-life-sciences-cloud-consulting": "Salesforce Life Sciences Cloud",
+        "salesforce-marketing-cloud-implementation-consulting": "Salesforce Marketing Cloud",
+        "salesforce-fsc-consulting-rialfinanceplus": "Salesforce Financial Services Cloud",
+        "salesforce-managed-services-provider-salesforceagentplus": "Salesforce Managed Services",
+        "our-values": "Nuestros valores",
+        "impact-and-social-responsibility": "Responsabilidad social",
+        "global-alliances": "Alianzas globales"
     }
 }
