@@ -2,8 +2,9 @@
 import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-
+import { useLocale } from "next-intl";
 export default function Breadcrumb({ currPage, subPath }) {
+    const locale = useLocale()
     const t = useTranslations("breadcrumbs");
     const pathname = usePathname();
     const cleanPath = pathname.replace(/\/$/, "");
@@ -20,22 +21,27 @@ export default function Breadcrumb({ currPage, subPath }) {
         segments = segments.slice(1);
     }
 
-    const breadcrumbs = segments.slice(0).map((segment) => {
+
+    const breadcrumbs = segments.map((segment, index) => {
         const label = t.has(segment)
             ? t(segment)
             : segment.replace(/-/g, " ");
 
-        const href = EXISTING_ROUTES[segment] || null;
+        const isCurrent = index === segments.length - 1;
 
-        return { label, href };
+        return {
+            label,
+            href: isCurrent ? null : (EXISTING_ROUTES[segment] || `/${segments.slice(0, index + 1).join("/")}`),
+        };
     });
+
 
 
     return (
         <div className="mt-[40px]">
             <p className="4xl:text-[20px] xl:text-[17px] text-[14px] flex flex-wrap gap-1">
                 <Link
-                    href="/"
+                    href={`/${locale}`}
                     className="cursor-pointer hover:text-[#0C8AED]">
                     {t("home")}
                 </Link> {"/"}

@@ -48,13 +48,20 @@
         "our-values": "Our Values",
         "impact-and-social-responsibility": "Social Responsibility",
         "global-alliances": "Global Alliances",
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": "",
-        "": ""
+        "real-estate-property-management": "Real Estate",
+        "life-sciences-digital-transformation": "Life Sciences",
+        "healthcare-medtech-patient-care": "Healthcare",
+        "pharma-biotech-digital-transformation": "Pharma & Biotech",
+        "medical-devices-it-solutions": "Medical Devices",
+        "home-health-ai-tech-solutions": "Home Health",
+        "hitech-semiconductor-ai-it-solutions": "Semiconductor",
+        "manufacturing-cloud-erp": "Manufacturing",
+        "education-cloud-it-solutions": "Education",
+        "digital-transformation-in-automotive-industry": "Automotive",
+        "travel-hospitality-it-solutions": "Travel & Hospitality",
+        "retail-industry-digital-transformation": "Retail",
+        "nonprofit-digital-transformation-it-solutions": "Nonprofit",
+        "finance-industry-digital-transformation-services-solutions": "Finance",
+        "application-services":"Application Services"
     }
 }

@@ -12,14 +12,13 @@ import enContent from '../../../../../messages/en/industry.json';
 import esContent from '../../../../../messages/es/industry.json';
 import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
-
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 export default function Page() {
   const t = useTranslations("realEstate");
   const locale = useLocale();
   const realContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { growLatestServices, latestServices, slides, schemaData } = realContent.realEstate;
-
 
   const ServicesCard = ({ services }) => (
     <div className="h-full flex flex-col border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
@@ -127,6 +126,10 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/* breadcrumb */}
+      <section className="custom-container">
+        <BreadCrumbs />
+      </section>
       {/* page description */}
       <section className="custom-container">
         <div className="py-10 bg-white">
@@ -179,7 +182,7 @@ export default function Page() {
       <div className="custom-container">
         <section className="pb-16 bg-white">
           <Services />
-          <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+          <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
         </section>
       </div>
       <div className="bg-[#F5F5F5] py-6">
