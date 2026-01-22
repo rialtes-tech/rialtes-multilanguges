@@ -8,17 +8,18 @@ import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import { useLocale, useTranslations } from 'next-intl';
 import enContent from '../../../../../../messages/en/industry.json';
-import esContent from '../../../../../../messages/es/industry.json'; 
+import esContent from '../../../../../../messages/es/industry.json';
 import frContent from '../../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../../components/changeLocalization";
 import { useActiveLocale } from "@/app/[locale]/components/activeLanguages";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 export default function Page() {
     const t = useTranslations('pharmaBiotech')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { frActive, esActive, enActive } = useActiveLocale();
-    const { thoughtData, whyRialtesData, salesforceLifeData, sapData, keyAiImpact, benefitsOfAiData, patientData, remoteData, agentChatData, salesforceAgentData, strategicChallengeData,schemaData } = content.pharmaBiotech;
+    const { thoughtData, whyRialtesData, salesforceLifeData, sapData, keyAiImpact, benefitsOfAiData, patientData, remoteData, agentChatData, salesforceAgentData, strategicChallengeData, schemaData } = content.pharmaBiotech;
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -71,6 +72,10 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
+            </section>
+            {/* breadcrumb */}
+            <section className="custom-container">
+                <BreadCrumbs />
             </section>
             {/* page description */}
             <section className="xl:mt-16 mt-8 custom-container">
@@ -227,7 +232,7 @@ export default function Page() {
                         </div>
                     ))}
                     <div className="mt-[20px] lg:mt-[40px] max-md:px-[36px]">
-                        <LearnMore btnName={t('learnMoreBtn')}  locale={locale}/>
+                        <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                     </div>
                 </div>
             </>
@@ -340,7 +345,7 @@ export default function Page() {
                         <div className="lg:col-span-6 col-span-12 lg:mt-[93px] mt-[500px md:mt-[600px] sm:mt-[500px] mt-[480px] lg:ml-[61px] ml-[36px] lg:mb-[81px] mb-[40px]">
                             <h3 className="4xl:text-[40px] xl:text-[36px] md:text-[30px] text-[22px] font-bold lg:w-[680px] max-md:pr-[36px] leading-tight">{t('keyImpactTitle')}</h3>
                             <UnorderedList arrName={keyAiImpact} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] md:text-[18px] xl:text-[16px] lg:text-[16px] text-[16px] mt-5 lg:pr-4 pr-8" liClassName="" />
-                            <LearnMore btnName={t('learnMoreBtn') }  locale={locale} bgcolor="#ffffff" textColor="#134874" />
+                            <LearnMore btnName={t('learnMoreBtn')} locale={locale} bgcolor="#ffffff" textColor="#134874" />
 
                         </div>
                     </div>
@@ -376,7 +381,7 @@ export default function Page() {
                             <h3 className="4xl:text-[40px] xl:text-[36px] md:text-[30px] text-[22px] font-bold  lg:w-[680px] max-[415px]:pr-5 leading-tight">{t('benefitsTitle')}</h3>
                             <UnorderedList arrName={benefitsOfAiData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[18px] md:text-[18px] text-[16px] mt-5 xl:pr-20 pr-10" liClassName="" />
                             <div className="mt-5 xl:block hidden">
-                                <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+                                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                             </div>
                         </div>
                     </div>
@@ -444,7 +449,7 @@ export default function Page() {
                         <h3 className="4xl:text-[30px] xl:text-[26px] lg:text-[20px] text-[18px] font-bold xl:mt-10 mt-6">{t('keyFeatureTitle')}</h3>
                         <UnorderedList arrName={agentChatData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] xl:text-[16px] md:text-[18px] text-[16px] mt-5 font-bold leading-tight" liClassName="" />
                         <div className={`mt-6 xl:mb-[90px]`}>
-                            <LearnMore href='/products/agentchat' btnName={t('knowMoreBtn')}  locale={locale} />
+                            <LearnMore href='/products/agentchat' btnName={t('knowMoreBtn')} locale={locale} />
                         </div>
                     </div>
                 </div>

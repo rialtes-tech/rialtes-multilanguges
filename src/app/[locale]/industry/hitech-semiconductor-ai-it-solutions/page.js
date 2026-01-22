@@ -12,6 +12,7 @@ import esContent from "../../../../../messages/es/industry.json";
 import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
 import { useActiveLocale } from "../../components/activeLanguages";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 export default function Page() {
   const t = useTranslations("semiconductor");
@@ -85,6 +86,10 @@ export default function Page() {
             <div className="col-span-12 lg:col-span-3 xl:col-span-5"></div>
           </div>
         </div>
+      </section>
+      {/* breadcrumb */}
+      <section className="custom-container">
+        <BreadCrumbs />
       </section>
       {/* page description section */}
       <section className="custom-container xl:mt-[131px] mt-[62px]">
@@ -194,7 +199,7 @@ export default function Page() {
                 <div className={`h-[1px] w-full bg-[#707070] ${ind == 3 && "lg:bg-transparent"} ${ind == 4 && "bg-transparent"}`}></div>
                 {ind === 3 && (
                   <div className="hidden lg:block absolute lg:bottom-[60px]">
-                    <LearnMore btnName={t('learnMore')} locale={locale}/>
+                    <LearnMore btnName={t('learnMore')} locale={locale} />
                   </div>
                 )}
                 {ind === 4 && (
@@ -389,7 +394,7 @@ export default function Page() {
                 </div>
               </div>
               <div className="max-md:mt-[31px] mt-[40px]">
-                <LearnMore btnName={t('learnMore')} locale={locale}/>
+                <LearnMore btnName={t('learnMore')} locale={locale} />
               </div>
             </div>
           );
@@ -691,7 +696,7 @@ export default function Page() {
                     liClassName="text-[16px] xl:text-[18px] 4xl:text-[22px] leading-tight font-normal"
                   />
                   <div className="xl:mt-[97px] mt-[48] lg:float-end">
-                    <LearnMore btnName={t('learnMore')} locale={locale}/>
+                    <LearnMore btnName={t('learnMore')} locale={locale} />
                   </div>
                 </div>
               </div>

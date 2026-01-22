@@ -10,13 +10,13 @@ import enContent from '../../../../messages/en/industry.json';
 import esContent from '../../../../messages/es/industry.json';
 import frContent from '../../../../messages/fr/industry.json';
 import { changeLocalization } from "../components/changeLocalization";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 
 export default function Industry() {
   const t = useTranslations("industry");
   const locale = useLocale();
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { growLatestServices,schemaData } = content.industry;
-
+  const { growLatestServices, schemaData } = content.industry;
 
   const GrowServicesCard = ({ services }) => (
     <div className="w-full h-full flex flex-col">
@@ -107,6 +107,10 @@ export default function Industry() {
             </div>
           </div>
         </div>
+      </section>
+      {/* breadcrumb */}
+      <section className="custom-container">
+        <BreadCrumbs />
       </section>
       <section className="custom-container lg:mt-[111px] mt-[45px]">
         <div className="grid lg:grid-cols-12 grid-cols-1  gap-y-[20px]">

@@ -10,19 +10,18 @@ import { useLocale, useTranslations } from 'next-intl';
 import enContent from '../../../../../../messages/en/industry.json';
 import esContent from '../../../../../../messages/es/industry.json';
 import frContent from '../../../../../../messages/fr/industry.json';
-import { changeLocalization } from "../../../components/changeLocalization"; 
-import { useActiveLocale } from "@/app/[locale]/components/activeLanguages";
+import { changeLocalization } from "../../../components/changeLocalization";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+
 export default function Page() {
-   
     const t = useTranslations('homeHealth')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { frActive, esActive } = useActiveLocale();
-    const { addressingData, aiRovolutionizingData, capabilitiesData, agentChat, homeHealth, relatedData,schemaData } = content.homeHealth
+    const { addressingData, aiRovolutionizingData, capabilitiesData, agentChat, homeHealth, relatedData, schemaData } = content.homeHealth
     return (
         <section className="min-h-screen">
             <Seo
-                title={t('seoTitle')} 
+                title={t('seoTitle')}
                 description={t('seoDescription')}
                 canonical={`https://www.rialtes.com/${locale}/industry/life-sciences/home-health-ai-tech-solutions/`}
             />
@@ -69,6 +68,10 @@ export default function Page() {
                     </div>
                 </div>
             </section>
+            {/* breadcrumb */}
+            <section className="custom-container">
+                <BreadCrumbs />
+            </section>
             {/* page description section */}
             <div className="custom-container xl:mt-[124px] mt-[53px]">
                 <div className="grid lg:grid-cols-12 grid-cols-1 xl:gap-[30px] 4xl:gap-[40px] gap-y-[28px]">
@@ -106,7 +109,7 @@ export default function Page() {
                                 <div className={`lg:col-span-8 col-span-12 xl:pt-[51px] xl:pb-[93px] xl:px-[68px] pt-[29px] pb-[64px] px-[30px] relative  ${!isEven && "lg:order-1 order-2"}`} key="text">
                                     <h2 className="4xl:text-[30px] xl:text-[24px] text-[22px] leading-tight text-[#0A6BB8] font-semibold w-[90%] md:w-full">{data.title}</h2>
                                     <p className="text-[16px] 4xl:text-[22px] md:text-[18px] xl:text-[18px] font-normal xl:mt-[39px] mt-[19px] w-[90%] lg:w-[94%]">{data.desc}</p>
-                                    <div className="xl:mt-[40px] mt-[20px] absolute"><LearnMore btnName={t('learnMoreBtn')} locale={locale}/></div>
+                                    <div className="xl:mt-[40px] mt-[20px] absolute"><LearnMore btnName={t('learnMoreBtn')} locale={locale} /></div>
                                 </div>
                             </React.Fragment>
                         ];
