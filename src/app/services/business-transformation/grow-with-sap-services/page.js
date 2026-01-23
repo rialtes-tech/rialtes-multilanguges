@@ -6,6 +6,7 @@ import Link from "next/link";
 import UnorderedList from "@/app/components/unorderedList";
 import BreadCrumbs from '../../../components/BreadCrumbs'
 import Script from "next/script";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -246,6 +247,8 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/* Breadcrumb Schema */}
+      <BreadcrumbSchema currPage="Grow with SAP" />
       {/* hero section */}
       <section className="relative group overflow-hidden pb-20 h-[400px] md:h-[500px]  4xl:h-[650px] ">
         <div className="xl:block hidden">
@@ -299,6 +302,7 @@ export default function Page() {
 
       {/* page description section */}
       <section className="mt-5 custom-container">
+        {/* breadcrumb */}
         <BreadCrumbs currPage="Grow with SAP" />
 
         <div className="grid xl:grid-cols-12 grid-cols-1 mt-16 ">

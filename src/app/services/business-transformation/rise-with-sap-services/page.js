@@ -7,6 +7,7 @@ import Seo from "@/app/components/Seo";
 import Link from "next/link";
 import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -261,6 +262,8 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/* Breadcrumb Schema */}
+      <BreadcrumbSchema currPage="Rise with SAP" />
       {/* hero section */}
       <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px]  group  overflow-hidden">
         <div className="xl:block hidden ">
@@ -306,6 +309,7 @@ export default function Page() {
       </section>
       {/* unlock section */}
       <section className="custom-container mt-4">
+        {/* breadcrumb */}
         <BreadCrumbs currPage="Rise with SAP" />
 
         <h2 className="text-[26px] xl:mt-[78px] mt-[51px] md:text-[40px] font-light xl:text-[50px] 4xl:text-[60px] 2xl:text-[56px]  xl:w-[1000px] 4xl:w-[1222px] 2xl:w-[1100px]  md:w-[700px] leading-tight  ">
