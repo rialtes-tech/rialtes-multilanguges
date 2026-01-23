@@ -7,6 +7,7 @@ import Seo from "@/app/components/Seo";
 import BreadCrumbs from '@/app/components/BreadCrumbs'
 
 import Script from "next/script";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -417,6 +418,8 @@ export default function page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumbs schema*/}
+            <BreadcrumbSchema currPage="Salesforce Automotive Cloud" subPath="Line of Business" />
             {/* hero section */}
             <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px] ">
                 <div className="md:block hidden">
@@ -450,6 +453,7 @@ export default function page() {
                 </div>
             </section>
             <section className="custom-container mt-4">
+                {/* breadcrumbs */}
                 <BreadCrumbs currPage="Salesforce Automotive Cloud" subPath="Line of Business" />
             </section>
             {/* page description section */}
