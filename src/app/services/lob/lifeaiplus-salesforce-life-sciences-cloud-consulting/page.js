@@ -7,6 +7,7 @@ import LearnMore from "@/app/components/learnMore";
 import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
 import BreadCrumbs from '@/app/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -286,6 +287,8 @@ export default function page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* BreadcrumbSchema */}
+            <BreadcrumbSchema currPage="Salesforce Life Sciences Cloud" subPath="Line of Business" />
             {/* hero section */}
             <section className="relative h-[435px] 4xl:h-[650px] xl:h-[500px]">
                 <div className="xl:block hidden">
@@ -320,6 +323,7 @@ export default function page() {
             </section>
             {/* page description section */}
             <section className="mt-5 custom-container">
+                {/* breadcrumbs */}
                 <BreadCrumbs currPage="Salesforce Life Sciences Cloud" subPath="Line of Business" />
 
                 <div className="grid xl:grid-cols-12 grid-cols-1 mt-16">

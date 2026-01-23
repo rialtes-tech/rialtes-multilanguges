@@ -6,6 +6,7 @@ import LearnMore from "@/app/components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import BreadCrumbs from '@/app/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -308,6 +309,8 @@ export default function Page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* Breadcrumb Schema */}
+            <BreadcrumbSchema currPage="Salesforce Marketing Cloud" subPath="Line of Business" />
             {/* hero section */}
             <section className="relative group overflow-hidden  lg:pb-[10rem] xs:pb-40 xl:pb-[6rem] 2xl:pb-[10rem] 4xl:pb-[12rem] sm:pb-[12rem]  pb-20">
                 <div className="xl:block hidden pt-20">
@@ -350,6 +353,7 @@ export default function Page() {
             </section>
             {/* page description */}
             <section className="mt-5 custom-container">
+                {/* breadcrumbs */}
                 <BreadCrumbs currPage="Salesforce Marketing Cloud" subPath="Line of Business" />
 
                 <div className="grid xl:grid-cols-12 grid-cols-1 mt-16">

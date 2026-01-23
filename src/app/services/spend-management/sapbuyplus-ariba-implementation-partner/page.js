@@ -7,6 +7,7 @@ import Link from "next/link";
 import Seo from "@/app/components/Seo";
 import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -670,6 +671,8 @@ export default function page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* Breadcrumb Schema */}
+            <BreadcrumbSchema currPage="SAP Ariba" />
             {/* hero section */}
             <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
                 {/* Desktop Image */}
@@ -709,6 +712,7 @@ export default function page() {
                 </div>
             </section>
             <section className="custom-container">
+                {/* breadcrumb */}
                 <BreadCrumbs currPage="SAP Ariba" />
             </section>
             {/* page information */}

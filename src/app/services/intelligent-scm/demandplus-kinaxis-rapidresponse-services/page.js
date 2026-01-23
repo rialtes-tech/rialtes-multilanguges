@@ -8,6 +8,7 @@ import Link from "next/link";
 import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
 import BreadCrumbs from '@/app/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 
 export default function DemandPlusSection() {
     const schemaData = {
@@ -240,6 +241,8 @@ export default function DemandPlusSection() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* Breadcrumb Schema */}
+            <BreadcrumbSchema currPage="Kinaxis RapidResponse" subPath="Supply Chain Management" />
             {/* hero section */}
             <section className="relative group overflow-hidden h-[400px] md:h-[500px]  4xl:h-[650px] ">
                 <div className="xl:block hidden">
@@ -277,7 +280,8 @@ export default function DemandPlusSection() {
             </section>
             <section
                 className="custom-container xl:!pr-0 mt-4">
-                <BreadCrumbs currPage="Kinaxis RapidResponse" subPath="Supply Chain Management"/>
+                {/* breadcrumbs */}
+                <BreadCrumbs currPage="Kinaxis RapidResponse" subPath="Supply Chain Management" />
 
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-20 mt-10">
                     <div className="xl:col-span-8 xl:pr-0 ">

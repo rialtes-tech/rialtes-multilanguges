@@ -5,6 +5,7 @@ import Image from "next/image";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import BreadCrumbs from '@/app/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 
 export default function page() {
     const schemaData = {
@@ -277,6 +278,8 @@ export default function page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* Breadcrumb Schema */}
+            <BreadcrumbSchema currPage="Salesforce Managed Services" />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
                 <div className="hidden md:block">
@@ -319,7 +322,8 @@ export default function page() {
             </section>
             {/* page desc section */}
             <section className="custom-container mt-5">
-                <BreadCrumbs currPage="Salesforce Managed Services"/>
+                {/* breadcrumbs */}
+                <BreadCrumbs currPage="Salesforce Managed Services" />
 
                 <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px] xl:mt-[125px] mt-[42px]">
                     <div className="lg:col-span-6 xl:col-span-7 col-span-12">
@@ -528,7 +532,7 @@ export default function page() {
                         <div className="lg:col-span-3 col-span-12">
                             <div className="flex flex-row w-full lg:mt-[-10px] xl:mt-0">
                                 <div className="lg:ml-auto">
-                                    <LearnMore btnName="Know More" href="https://www.rialtes.com/products/agentchat/" arialabel="agent chat"/>
+                                    <LearnMore btnName="Know More" href="https://www.rialtes.com/products/agentchat/" arialabel="agent chat" />
                                 </div>
                             </div>
                         </div>

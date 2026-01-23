@@ -198,10 +198,7 @@ export default function DataCloud() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* breadcrumb schema */}
-      <BreadcrumbSchema
-        currPage="Salesforce Data Cloud"
-        subPath="Data & AI"
-      />
+      <BreadcrumbSchema currPage="Salesforce Data Cloud" subPath="Data & AI" />
       {/* hero section */}
       <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
         <div className="hidden md:block">
@@ -258,6 +255,7 @@ export default function DataCloud() {
       </section>
       {/* page description */}
       <section className="custom-container">
+        {/* breadcrumb */}
         <BreadCrumbs currPage="Salesforce Data Cloud" subPath="Data & AI" />
         <section className="pt-10 md:pt-16 bg-white">
           <div className="mx-auto">
