@@ -4,6 +4,7 @@ import ContactForm from "../components/contactform";
 import Seo from "../components/Seo";
 import Script from "next/script";
 import BreadCrumbs from '../components/BreadCrumbs'
+import BreadcrumbSchema from "../components/BreadcrumbSchema";
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -160,6 +161,10 @@ export default function About() {
                 type="application/ld+json"
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            />
+            {/* breadcrumb schema */}
+            <BreadcrumbSchema
+                currPage="About Us"
             />
             <section className="relative">
                 <div className="custom-container lg:!pr-0 overflow-hidden max-md:px-0 h-[350px] md:h-[500px]  4xl:h-[650px] ">

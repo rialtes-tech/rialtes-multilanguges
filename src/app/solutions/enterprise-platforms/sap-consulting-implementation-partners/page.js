@@ -8,6 +8,7 @@ import Seo from "@/app/components/Seo";
 import UnorderedList from "@/app/components/unorderedList";
 import BreadCrumbs from '../../../components/BreadCrumbs'
 import Script from "next/script";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -171,6 +172,8 @@ export default function Page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/*breadcrumb schema  */}
+            <BreadcrumbSchema currPage="SAP Consulting" />
             {/* hero section */}
             <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px] ">
                 {/* Desktop Image */}

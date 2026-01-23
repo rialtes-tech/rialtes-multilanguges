@@ -9,6 +9,7 @@ import UnorderedList from "@/app/components/unorderedList";
 import LearnMore from "@/app/components/learnMore";
 import BreadCrumbs from '../../../components/BreadCrumbs'
 import Script from "next/script";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -167,6 +168,8 @@ const page = () => (
       strategy="afterInteractive"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
     />
+    {/* Breadcrumb Schema */}
+    <BreadcrumbSchema currPage="MuleSoft" />
     {/* hero section */}
     <section className="relative group overflow-hidden h-[399px] lg:h-[670px] sm:h-[450px]">
       {/* Desktop Image */}
@@ -210,28 +213,10 @@ const page = () => (
           />
         </div>
       </div>
-      {/* <div className="relative h-full custom-container flex items-center text-[#ffffff]">
-
-        <div className="grid grid-cols-1 lg:grid-cols-12 w-full">
-          <div className="col-span-12">
-            <h1 className="text-[18px] lg:text-[24px] font-bold">
-              MuleSoft Integration Solutions
-            </h1>
-            <h2 className="text-[26px] leading-tight lg:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px]">
-              Connecting Digital <br /> Businesses using the <br /> MuleSoft Platform
-            </h2>
-            
-          </div>
-          <div className="col-span-12 lg:col-span-3 xl:col-span-5">
-            
-          </div>
-        </div>
-        
-     
-      </div> */}
     </section>
     {/* page description */}
     <div className="custom-container">
+      {/* breadcrumb */}
       <BreadCrumbs currPage="MuleSoft" />
       <div className="lg:py-24 py-12 flex items-start lg:gap-[100px] gap-[20px] max-md:flex-col">
         <h2 className="w-full md:max-w-[50%] 2xl:w-[40%] 4xl:w-[50%] max-w-full leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">

@@ -4,6 +4,7 @@ import ContactForm from "../../components/contactform";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import BreadCrumbs from '../../components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -38,6 +39,9 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/* breadcrumb schema */}
+      <BreadcrumbSchema currPage="Social Responsibility"/>
+
       {/** hero section * */}
       <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
         <div className="hidden md:block">
@@ -76,7 +80,8 @@ export default function Page() {
       </section>
       {/* page description */}
       <section className="custom-container">
-        <BreadCrumbs currPage="Social Responsibility" subPath=" "/>
+        {/* breadcrumb */}
+        <BreadCrumbs currPage="Social Responsibility" subPath=" " />
         <div className="xl:py-[80px] pt-14 pb-10 bg-white ">
           <div className=" xl:mb-0">
             <h2 className="text-black md:pb-0 font-bold 4xl:text-[43px]  xl:text-[35px] text-[22px] leading-tight ">

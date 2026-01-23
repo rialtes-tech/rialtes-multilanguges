@@ -7,6 +7,7 @@ import BreadCrumbs from '../../../components/BreadCrumbs'
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -190,6 +191,10 @@ export default function HealthCloud() {
                 type="application/ld+json"
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }} />
+                
+            {/* breadcrumb */}
+            <BreadcrumbSchema currPage="Salesforce Revenue Cloud" />
+
             <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
                 {/* Desktop Image */}
                 <div className="hidden md:block">
@@ -235,6 +240,7 @@ export default function HealthCloud() {
                 </div>
             </section>
             <section className="custom-container">
+                {/* breadcrumb */}
                 <BreadCrumbs currPage="Salesforce Revenue Cloud" />
                 <div className="py-8 bg-white">
                     <div className="2xl:pr-72 xl:pr-40 md:pr-20 4xl:pr-20">

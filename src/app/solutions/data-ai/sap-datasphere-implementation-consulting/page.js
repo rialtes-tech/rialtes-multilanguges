@@ -7,6 +7,7 @@ import LearnMore from "@/app/components/learnMore";
 import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
 import BreadCrumbs from '../../../components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -942,6 +943,8 @@ export default function () {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* Breadcrumb Schema */}
+            <BreadcrumbSchema currPage="SAP Datasphere" subPath="Data & AI" />
             {/* hero section */}
             <section className="relative group overflow-hidden   h-[350px] md:h-[500px]  4xl:h-[650px]     ">
                 <div className="hidden md:block">
@@ -979,6 +982,7 @@ export default function () {
             </section>
             {/* future proof section */}
             <section className="custom-container mt-5">
+                {/* breadcrumb */}
                 <BreadCrumbs currPage="SAP Datasphere" subPath="Data & AI" />
                 <div className="grid xl:grid-cols-12 2xl:gap-[60px] xl:gap-[46px] gap-y-[39px] xl:mt-[104px] mt-[53px] xl:mb-[0px] mb-[52px]">
                     <div className="4xl:col-span-7 xl:col-span-6 col-span-12">

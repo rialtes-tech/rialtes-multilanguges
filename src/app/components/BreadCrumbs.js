@@ -40,7 +40,7 @@ export default function Breadcrumb({ currPage, subPath }) {
 
     return (
         <div className="mt-[40px]">
-            <p className="4xl:text-[20px] xl:text-[17px] text-[14px] flex flex-wrap gap-1">
+            <p className="4xl:text-[20px] xl:text-[16px] text-[14px] flex flex-wrap gap-1">
                 <Link
                     href="/"
                     className="cursor-pointer hover:text-[#0C8AED]"
