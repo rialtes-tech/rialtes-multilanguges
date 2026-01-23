@@ -7,6 +7,7 @@ import LearnMore from "@/app/components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import BreadCrumbs from '@/app/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -199,6 +200,8 @@ export default function page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/* breadcrumbs */}
+      <BreadcrumbSchema currPage="Retail" subPath="Line of Business" />
       <section className="relative group overflow-hidden ">
         <div className="xl:block hidden">
           <Image
@@ -232,7 +235,8 @@ export default function page() {
         </div>
       </section>
       <section className="mt-5 custom-container">
-        <BreadCrumbs currPage="Retail" subPath="Line of Business"/>
+        {/* breadcrumbs */}
+        <BreadCrumbs currPage="Retail" subPath="Line of Business" />
 
         <div className="mt-16 grid xl:grid-cols-12 grid-cols-1">
           <div className="xl:col-span-10 col-span-12 ">

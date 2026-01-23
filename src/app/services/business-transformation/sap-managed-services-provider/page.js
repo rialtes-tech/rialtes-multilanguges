@@ -5,6 +5,8 @@ import ContactForm from "../../../components/contactform";
 import BreadCrumbs from '../../../components/BreadCrumbs'
 import LearnMore from "../../../components/learnMore";
 import UnorderedList from "@/app/components/unorderedList";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
+import Script from "next/script";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -231,10 +233,14 @@ export default function Page() {
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/services/business-transformation/sap-managed-services-provider/"
             />
-            <script
+            <Script
                 type="application/ld+json"
+                id="schema-sap-managed"
+                strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumb */}
+            <BreadcrumbSchema currPage="SAP Managed Services" />
             {/* hero section */}
             <section className="relative  xl:pb-40 md:pb-[10rem] pb-20 h-[350px] md:h-[500px]  4xl:h-[650px] ">
                 <div className="md:block hidden">
@@ -271,6 +277,7 @@ export default function Page() {
             </section>
             {/* page description */}
             <section className="custom-container mt-4">
+                {/* breadcrumb */}
                 <BreadCrumbs currPage="SAP Managed Services" />
                 <div className="grid xl:grid-cols-12 grid-cols-1 mt-20">
                     <div className="xl:col-span-10 col-span-12">

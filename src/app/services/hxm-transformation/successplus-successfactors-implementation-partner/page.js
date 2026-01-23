@@ -7,6 +7,7 @@ import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
 import BreadCrumbs from '../../../components/BreadCrumbs'
 import Link from "next/link";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -243,6 +244,8 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/* Breadcrumb Schema */}
+      <BreadcrumbSchema currPage="SAP SuccessFactors" subPath="Human Experience Management" />
       {/* hero section */}
       <section className="relative h-[470px] sm:h-[640px] lg:h-[650px] overflow-hidden">
         <div className="md:block hidden">
@@ -287,6 +290,7 @@ export default function Page() {
       </section>
       {/* page description */}
       <section className="custom-container mt-5">
+        {/* breadcrumbs */}
         <BreadCrumbs currPage="SAP SuccessFactors" subPath="Human Experience Management" />
 
         <h1 className="xl:mt-[78px] mt-[51px] xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] md:w-[80%] xl:w-[80%] 4xl:w-[94%] w-[96%]">
