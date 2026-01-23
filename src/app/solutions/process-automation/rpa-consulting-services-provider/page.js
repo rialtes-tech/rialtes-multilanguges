@@ -6,6 +6,7 @@ import Image from "next/image";
 import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
 import BreadCrumbs from '../../../components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 
 const featureBoxes = [
     {
@@ -245,6 +246,8 @@ export default function DemandPlusSection() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumb schema */}
+            <BreadcrumbSchema currPage="UiPath" />
             {/* hero section */}
             <section className="relative">
                 <div className="xl:block hidden">
@@ -284,6 +287,7 @@ export default function DemandPlusSection() {
             </section>
             {/* page description */}
             <section className="custom-container xl:!pr-0 mt-5">
+                {/* breadcrumb */}
                 <BreadCrumbs currPage="UiPath" />
 
                 <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-24 mt-10 items-center">

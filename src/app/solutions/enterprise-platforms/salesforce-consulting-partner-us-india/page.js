@@ -10,6 +10,7 @@ import LearnMore from "@/app/components/learnMore";
 import BreadCrumbs from '../../../components/BreadCrumbs'
 import React from "react";
 import Script from "next/script";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 export default function SalesForceConsulting() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -247,7 +248,8 @@ export default function SalesForceConsulting() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
-
+            {/* breadcrumb */}
+            <BreadcrumbSchema currPage="Salesforce Consulting" />
 
             <div className='relative group overflow-hidden md:h-[400px] 2xl:h-[500px] 4xl:h-[740px] '>
                 <Image
@@ -279,6 +281,7 @@ export default function SalesForceConsulting() {
             </div>
 
             <div className="custom-container">
+                {/* breadcrumb */}
                 <BreadCrumbs currPage="Salesforce Consulting" />
             </div>
             <div className="grid lg:grid-cols-10 xl:gap-16 gap-5 px-6 custom-container mt-10 lg:mt-16">

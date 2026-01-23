@@ -6,6 +6,7 @@ import HealthcareStats from "@/app/components/HealthcareStats";
 import LearnMoreButton from "@/app/components/learnMore";
 import BreadCrumbs from '../../../components/BreadCrumbs'
 import ContactForm from "@/app/components/contactform";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -561,12 +562,15 @@ export default function page() {
                 description="Agentforce Consulting Services by Rialtes combines AI and expertise to help businesses optimize workflows, scale smarter, and achieve lasting success."
                 keywords="home, website, welcome"
                 canonical="https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"
-            />            <Script
+            />
+            <Script
                 id="schema-sap-buy-plus"
                 type="application/ld+json"
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumb schema */}
+            <BreadcrumbSchema currPage="Agentforce" />
             {/* hero section */}
             <section className="relative group overflow-hidden h-[350px] md:h-[400px] 2xl:h-[600px] xl:h-[500px]  4xl:h-[650px]  ">
                 {/* Desktop Image */}
@@ -607,6 +611,7 @@ export default function page() {
             </section>
             {/* page information */}
             <section className="custom-container">
+                {/* breadcrumb */}
                 <BreadCrumbs currPage="Agentforce" />
                 <div className="grid xl:grid-cols-12 4xl:mt-[60px] mt-8">
                     <div className="4xl:col-span-9 2xl:col-span-8 xl:col-span-9">

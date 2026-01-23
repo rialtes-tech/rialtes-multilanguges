@@ -2,6 +2,7 @@ import Image from "next/image";
 import Seo from "../../components/Seo";
 import Script from "next/script";
 import BreadCrumbs from '../../components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 export default function Contact() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -222,6 +223,8 @@ export default function Contact() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumb schema */}
+            <BreadcrumbSchema currPage="Global Alliances"/>
             {/** hero section * */}
             <section className="relative group overflow-hidden h-[399px] 4xl:h-[650px] xl:h-[550px]">
                 <div className="hidden md:block">
@@ -263,6 +266,7 @@ export default function Contact() {
             </section>
             {/* page description */}
             <section className="custom-container">
+                {/* breadcrumb */}
                 <BreadCrumbs currPage="Global Alliances" subPath=" " />
 
                 <div className="grid lg:grid-cols-12 xl:grid-cols-12 mt-16 mb-16">

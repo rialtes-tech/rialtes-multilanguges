@@ -108,7 +108,7 @@ const Header = () => {
           label: 'Data & AI', href: '/',
           subLinks: [
             { label: 'Salesforce Data Cloud', href: '/solutions/data-ai/salesforce-data-cloud-consulting/' },
-            { label: 'Data-Sphere', href: '/solutions/data-ai/data-sphere/' },
+            { label: 'Datasphere', href: '/solutions/data-ai/sap-datasphere-implementation-consulting/' },
             { label: 'SAP Business Data Cloud', href: '/solutions/data-ai/sap-business-data-cloud-bdc-consulting/' },
 
 
