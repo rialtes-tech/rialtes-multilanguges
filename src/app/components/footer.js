@@ -85,7 +85,7 @@ const Footer = () => {
           <div className="lg:text-left">
             <p className="mt-4">
               <span className="text-lg lg:text-xl font-bold">Simplifying</span>{" "}
-              <span className="opacity-50 text-lg lg:text-xl">Problems</span>
+              <span className="opacity-50 text-lg lg:text-xl">Problem</span>
             </p>
             <p className="mt-4">
               <span className="text-lg lg:text-xl font-bold">Enabling</span>{" "}
