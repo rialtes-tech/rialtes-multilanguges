@@ -6,6 +6,7 @@ import Image from "next/image";
 import UnorderedList from "@/app/components/unorderedList";
 import BreadCrumbs from '../../../components/BreadCrumbs'
 import Script from "next/script";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 export default function DemandPlusSection() {
   const schemaData = {
     "@context": "https://schema.org",
@@ -182,6 +183,8 @@ export default function DemandPlusSection() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/* breadcrumb schema*/}
+      <BreadcrumbSchema currPage="Tricentis Tosca" subPath="Quality Engineering & Assurance" />
       {/* hero section */}
       <section className="relative">
         <div className="xl:block hidden">
@@ -224,7 +227,8 @@ export default function DemandPlusSection() {
       </section>
       {/* page description */}
       <section className="custom-container xl:!pr-0">
-        <BreadCrumbs currPage="Tricentis Tosca" subPath="Quality Engineering & Assurance"/>
+        {/* breadcrumb */}
+        <BreadCrumbs currPage="Tricentis Tosca" subPath="Quality Engineering & Assurance" />
         <div className="grid xl:grid-cols-12 grid-cols-1 xl:mt-24 mt-10">
           <div className="xl:col-span-9">
             <h2 className="leading-tight text-[26px] 4xl:text-[60px]  xl:text-[42px]">

@@ -7,6 +7,7 @@ import ContactForm from "../../../components/contactform";
 import Script from "next/script";
 import BreadCrumbs from '../../../components/BreadCrumbs'
 import UnorderedList from "@/app/components/unorderedList";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -161,6 +162,8 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/*breadcrumb schema */}
+      <BreadcrumbSchema currPage="SAP Business Data Cloud" subPath="Data & AI" />
       {/* hero section */}
       <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px] ">
         <div className="xl:block hidden">
@@ -199,7 +202,7 @@ export default function Page() {
       <>
         <section className="custom-container">
           {/*breadcrumb  */}
-          <BreadCrumbs currPage="SAP Business Data Cloud" subPath="Data & AI"/>
+          <BreadCrumbs currPage="SAP Business Data Cloud" subPath="Data & AI" />
           <h2 className="mt-16 4xl:w-[69%] 2xl:w-[46%] xl:w-[55%] leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
             Unify Your Enterprise Data From Finance to Frontline{" "}
           </h2>
