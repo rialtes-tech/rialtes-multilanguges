@@ -6,6 +6,7 @@ import Script from "next/script";
 import React from "react";
 import BreadCrumbs from '../../../components/BreadCrumbs'
 import UnorderedList from "@/app/components/unorderedList";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 export default function page() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -315,6 +316,8 @@ export default function page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumb schema */}
+            <BreadcrumbSchema currPage="SAP Cloud Platform Integration" />
             {/* herosection */}
             <section className="relative group overflow-hidden  h-[350px] md:h-[500px]  4xl:h-[650px] ">
                 {/* Desktop Image */}
@@ -355,6 +358,7 @@ export default function page() {
             </section>
             {/* page description */}
             <section className="custom-container">
+                {/* breadcrumb */}
                 <BreadCrumbs currPage="SAP Cloud Platform Integration" />
                 <div className="grid lg:grid-cols-12 grid-cols-1 xl:gap-[40px] lg:gap-[20px] gap-y-[25px] xl:mt-[101px] mt-[40px]">
                     <div className="lg:col-span-5 xl:col-span-6 4xl:col-span-7 col-span-12">

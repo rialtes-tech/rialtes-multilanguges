@@ -4,6 +4,7 @@ import ContactForm from "../../components/contactform";
 import Seo from "@/app/components/Seo";
 import BreadCrumbs from '../../components/BreadCrumbs'
 import Script from "next/script";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
@@ -148,6 +149,8 @@ export default function Page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            <BreadcrumbSchema currPage="Our Values"/>
+
             {/* hero section */}
             <section className="relative group overflow-hidden  h-[350px] md:h-[500px]  4xl:h-[650px]   ">
                 {/* Desktop Image */}
