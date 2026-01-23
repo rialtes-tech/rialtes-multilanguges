@@ -6,6 +6,7 @@ import ContactForm from "@/app/components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import BreadCrumbs from '@/app/components/BreadCrumbs'
 import UnorderedList from "@/app/components/unorderedList";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -326,6 +327,10 @@ export default function Page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumb schema */}
+      <BreadcrumbSchema
+        currPage="Exelona"
+      />
             {/* hero section */}
             <section className="relative overflow-hidden">
                 <div className="xl:absolute inset-0 z-0">
@@ -362,12 +367,10 @@ export default function Page() {
                         priority
                     />
                 </div>
-
-
                 {/* Content */}
                 <div className="relative z-20 text-white custom-container 4xl:mt-[22rem] 2xl:mt-[20rem] xl:mt-[18rem] mt-[200px] 4xl:pr-0">
+                     {/* breadcrumb */}
                     <BreadCrumbs currPage="Exelona" />
-
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 mt-5">
                         <div className="xl:col-span-12 col-span-12 pr-5 ">
                             <h1 className="leading-tight break-words 4xl:text-[60px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] 4xl:pr-0 md:pr-40 pr-10">

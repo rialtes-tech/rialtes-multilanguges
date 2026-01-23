@@ -5,6 +5,7 @@ import Seo from "@/app/components/Seo";
 import LearnMore from "../../components/learnMore";
 import Script from "next/script";
 import BreadCrumbs from '@/app/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -135,6 +136,10 @@ export default function Page() {
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+      {/* breadcrumb schema */}
+      <BreadcrumbSchema
+       currPage="Manufacturing"
       />
       {/* hero section */}
       <section className="relative pb-20">
