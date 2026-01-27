@@ -7,6 +7,7 @@ import LearnMore from "@/app/components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import BreadCrumbs from '@/app/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -282,6 +283,10 @@ export default function Page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumb schema */}
+      <BreadcrumbSchema
+       currPage="Medical Devices"
+      />
             {/* hero section */}
             <section className="relative h-[400px] lg:h-[650px]">
                 <div className="md:block hidden">

@@ -5,6 +5,7 @@ import Image from "next/image";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import BreadCrumbs from '@/app/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 
 export default function retailPage() {
     const schemaData = {
@@ -244,6 +245,10 @@ export default function retailPage() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+             {/* breadcrumb schema */}
+      <BreadcrumbSchema
+        currPage="Retail"
+      />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
                 {/* Desktop Image */}

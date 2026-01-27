@@ -9,6 +9,7 @@ import LearnMore from "@/app/components/learnMore";
 import CaseStudyIndivisual from '../../../components/caseStudyIndivisual';
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 const slidesCaseStudy = [
   {
     id: 1,
@@ -286,6 +287,10 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/* breadcrumb schema */}
+      <BreadcrumbSchema
+        currPage="Healthcare"
+      />
       <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
         <div className="hidden lg:block">
           <Image
@@ -324,6 +329,7 @@ export default function Page() {
         </div>
       </section>
       <section className="custom-container">
+         {/* breadcrumb */}
         <BreadCrumbs currPage="Healthcare"/>
         <div className="pb-5 bg-white mt-[70px] ">
           <div className=" mx-auto ">

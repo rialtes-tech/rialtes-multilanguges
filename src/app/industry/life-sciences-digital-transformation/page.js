@@ -5,6 +5,7 @@ import Image from "next/image";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import BreadCrumbs from '@/app/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 
 export default function page() {
     const schemaData = {
@@ -283,6 +284,10 @@ export default function page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumb schema */}
+      <BreadcrumbSchema
+       currPage="Life Sciences"
+      />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
                 <div className="hidden md:block">
@@ -325,6 +330,7 @@ export default function page() {
             </section>
             {/* page description section */}
             <section className="custom-container">
+                {/* breadcrumb */}
                 <BreadCrumbs currPage="Life Sciences" />
 
                 <div className="xl:mt-[119px] mt-[44px]">

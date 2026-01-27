@@ -7,6 +7,7 @@ import LearnMore from "../../components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import BreadCrumbs from '@/app/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 
 const schemaData = {
   "@context": "https://schema.org",
@@ -251,6 +252,10 @@ export default function Page() {
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+      {/* breadcrumb schema */}
+      <BreadcrumbSchema
+        currPage="Education"
       />
       {/* hero section */}
       <section className="relative group overflow-hidden xl:pb-40 pb-10 h-[350px] md:h-[530px]  4xl:h-[650px] ">

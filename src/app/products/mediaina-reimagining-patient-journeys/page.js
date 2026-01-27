@@ -5,6 +5,7 @@ import Link from "next/link";
 import Script from "next/script";
 import BreadCrumbs from '@/app/components/BreadCrumbs'
 import ContactForm from "@/app/components/contactform";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 const schemaData = {
     "@context": "https://schema.org",
 
@@ -215,6 +216,10 @@ export default function Page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumb schema */}
+      <BreadcrumbSchema
+        currPage="MediAIna"
+      />
             {/* hero section */}
             <section className="relative group overflow-hidden pb-20 md:pb-48 xl:pb-20 4xl:pb-20">
                 <div className="xl:block hidden">
@@ -250,6 +255,7 @@ export default function Page() {
             </section>
             <section>
                 <div className="custom-container">
+                     {/* breadcrumb */}
                     <BreadCrumbs currPage="MediAIna" />
 
                     <div className="xl:pt-10">
