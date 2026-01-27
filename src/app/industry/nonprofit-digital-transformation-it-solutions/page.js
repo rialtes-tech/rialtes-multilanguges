@@ -6,6 +6,7 @@ import Script from "next/script";
 import React from "react";
 import UnorderedList from "@/app/components/unorderedList";
 import BreadCrumbs from '@/app/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 
 export default function retailPage() {
     const schemaData = {
@@ -260,6 +261,10 @@ export default function retailPage() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+             {/* breadcrumb schema */}
+      <BreadcrumbSchema
+        currPage="Nonprofit"
+      />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[420px] lg:h-[550px] 4xl:h-[650px]">
                 {/* Desktop Image */}

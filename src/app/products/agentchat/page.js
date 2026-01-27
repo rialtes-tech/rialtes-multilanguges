@@ -5,6 +5,7 @@ import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import BreadCrumbs from '../../components/BreadCrumbs'
 import Script from "next/script";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -132,6 +133,10 @@ export default function Page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumb schema */}
+                  <BreadcrumbSchema
+                    currPage="AgentChat"
+                  />
             {/* hero section */}
             <div className="relative bg-[#E8E8E8] pb-20 ">
                 <div className="relative  custom-container xl:!pr-0 max-xl:pr-0">
@@ -184,6 +189,7 @@ export default function Page() {
                         </div>
                     </div>
                 </div>
+                 {/* breadcrumb */}
                 <div className="custom-container py-5">
                     <BreadCrumbs currPage="AgentChat"/>
                 </div>

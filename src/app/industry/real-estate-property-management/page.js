@@ -318,6 +318,7 @@ export default function Page() {
       </section>
       {/* page description */}
       <section className="custom-container">
+         {/* breadcrumb */}
         <BreadCrumbs currPage="Real Estate" />
 
         <div className="py-10 bg-white">

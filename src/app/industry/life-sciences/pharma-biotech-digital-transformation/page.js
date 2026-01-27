@@ -8,6 +8,7 @@ import Link from "next/link";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import BreadCrumbs from '@/app/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -317,6 +318,10 @@ export default function Page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumb schema */}
+      <BreadcrumbSchema
+        currPage="Pharma & Biotech"
+      />
             {/* hero section */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[650px]">
                 <div className="hidden md:block">
@@ -358,6 +363,7 @@ export default function Page() {
                 </div>
             </section>
             <div className="custom-container">
+                 {/* breadcrumb */}
                 <BreadCrumbs currPage="Pharma & Biotech" />
             </div>
             {/* page description */}
