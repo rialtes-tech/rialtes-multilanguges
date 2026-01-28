@@ -9,6 +9,17 @@ export default function page({ url }) {
     const carouselRef = useRef(null);
     const [isLastSlide, setIsLastSlide] = useState(false);
     const latestBlogs = [
+         {
+             "id": 77,
+            "image": "/images/blog/woman-using-tablet-digital-overlay-technology-thumb.webp",
+            "category": "Agentic AI",
+            "industry": "Retail",
+            "date": "Jan. 15, 2026",
+            "url": "/retailplus-ai-powered-omnichannel-retail/",
+            "title": "How AI Improves Omnichannel Retail Experiences",
+            "alt":"Woman using tablet with digital overlay at night representing AI-powered omnichannel retail customer experience technology",
+            "description": "Retail has entered a new reality. Customers don’t think in channels anymore. They move from app to store to website to social in a single buying journey, and they expect every interaction to feel connected, relevant, and effortless."
+        },
         {
              "id": 76,
             "image": "/images/blog/smart-city-digital-network-iot-technology-thumb.webp",
