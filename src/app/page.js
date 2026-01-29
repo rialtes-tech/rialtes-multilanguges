@@ -238,7 +238,7 @@ const Home = () => {
                                         src={s.image}
                                         alt={s.title}
                                         fill
-                                        priority={i === 0}
+                                        priority
                                         className='max-lg:object-cover max-lg:object-[14%_20%]'
                                     />
                                 </div>
@@ -248,7 +248,7 @@ const Home = () => {
                                         src={s.imageMobile}
                                         alt={s.title}
                                         fill
-                                        priority={i === 0}
+                                        priority
                                         className='min-[400px]:object-cover'
                                     />
                                 </div>
