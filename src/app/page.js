@@ -278,7 +278,7 @@ const Home = () => {
                     alt='Success Stories'
                     className='object-contain w-full h-full transform group-hover:scale-110 group-hover:origin-center transition-transform duration-500'
                     src='/images/homepage/innovative2.webp'
-                    fetchPriority='high'
+            
                 />
                 <div
                     ref={refs[7]}
@@ -381,7 +381,6 @@ const Home = () => {
                                 alt={carouselData[activeIndexInsights].title}
                                 className="w-full h-full object-cover"
                                 priority
-                                fetchPriority='high'
                                 width={500}
                                 height={500}
                             />
@@ -394,7 +393,6 @@ const Home = () => {
                                 className="w-full md:h-[900px] sm:h-[500px] h-[435px] object-cover"
                                 style={{ objectPosition: "35% 20%" }}
                                 priority
-                                fetchPriority='high'
                                 width={500}
                                 height={500}
                             />
@@ -492,8 +490,7 @@ const Home = () => {
                         width={0}
                         height={0}
                         sizes="100vw"
-                        loading="lazy"
-                        fetchPriority='high'
+                        priority
                     />
                 </div>
             </section>

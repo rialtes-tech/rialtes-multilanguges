@@ -7,11 +7,13 @@ import "./globals.css";
 import Head from "next/head";
 import Loader from "./Loader";
 import CookieConsentWrapper from "./components/cookieConsentWrapper";
+import Script from "next/script";
 const montserrat = Montserrat({
   subsets: ["latin"],
   display: "swap",
   weight: ["300", "400", "500", "600", "700"],
   variable: "--font-montserrat",
+  preload: true,
 });
 
 export default function RootLayout({ children }) {
@@ -49,7 +51,7 @@ export default function RootLayout({ children }) {
     <html lang="en" className={montserrat.variable}>
       <Head>
         {/* GTM Head Snippet: Include GTM script that loads async */}
-        <script
+        <Script
           dangerouslySetInnerHTML={{
             __html: `
               (function(w,d,s,l,i){
