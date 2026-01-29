@@ -249,7 +249,7 @@ const Home = () => {
                                         alt={s.title}
                                         fill
                                         priority
-                                         sizes="(max-width: 768px) 100vw, 50vw"
+                                        sizes="(max-width: 768px) 100vw, 50vw"
                                     />
                                 </div>
                             </div>
@@ -278,7 +278,7 @@ const Home = () => {
                     alt='Success Stories'
                     className='object-contain w-full h-full transform group-hover:scale-110 group-hover:origin-center transition-transform duration-500'
                     src='/images/homepage/innovative2.webp'
-            
+
                 />
                 <div
                     ref={refs[7]}
@@ -314,32 +314,40 @@ const Home = () => {
                 </div>
                 <div className='grid xl:grid-cols-4 md:grid-cols-2 mt-16 gap-10 xl:gap-0'>
                     {successStoryData.map((success, index) => {
-                        // const isLight = success.theme === "light";
                         return (
                             <React.Fragment key={index}>
                                 <Link href={success.url}>
-                                    <div className="relative  xl:h-[486px] h-[391px] w-[97%] overflow-hidden group shadow-lg">
-                                        <div
-                                            className="absolute inset-0 transform scale-[1] w-full origin-bottom-left transition-transform duration-300 ease-in-out group-hover:scale-[1.9]"
-                                            style={{
-                                                backgroundImage: `url(${success.imageUrl})`,
-                                                backgroundSize: 'cover',
-                                                backgroundPosition: 'left center',
-                                            }}></div>
-                                        <div className="absolute inset-0 hover:text-white bg-black bg-opacity-10 group-hover:bg-opacity-50 transition duration-700"></div>
-                                        <div className={`relative  z-10 p-6 text-white`}>
-                                            <p className="mb-5 text-[18px] ">{success.title}</p>
-                                            <h3 className="font-medium leading-tight text-[24px] xl:text-[30px] pr-10 xl:pr-5">
+                                    <div className="relative xl:h-[486px] h-[391px] w-[97%] overflow-hidden group shadow-lg">
 
+                                        <div className="absolute inset-0 transform scale-[1] w-full origin-bottom-left transition-transform duration-300 ease-in-out group-hover:scale-[1.9]">
+                                            <Image
+                                                src={success.imageUrl}
+                                                alt={success.title}
+                                                fill
+                                                sizes="(min-width: 1280px) 486px, 391px"
+                                                className="object-cover"
+                                            />
+                                        </div>
+
+                                        {/* Overlay (unchanged) */}
+                                        <div className="absolute inset-0 hover:text-white bg-black bg-opacity-10 group-hover:bg-opacity-50 transition duration-700"></div>
+
+                                        {/* Content (unchanged) */}
+                                        <div className="relative z-10 p-6 text-white">
+                                            <p className="mb-5 text-[18px]">{success.title}</p>
+                                            <h3 className="font-medium leading-tight text-[24px] xl:text-[30px] pr-10 xl:pr-5">
                                                 {success.description}
                                             </h3>
                                         </div>
+
                                     </div>
+
                                     {(index + 1) % 4 === 0 && (
                                         <div className="w-full xl:col-span-4 xl:mt-10"></div>
                                     )}
                                 </Link>
                             </React.Fragment>
+
                         );
                     })}
                 </div>

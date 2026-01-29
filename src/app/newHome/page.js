@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import '../../app/newHome/demo.css';
 import MyComponent from './demo';
+import Image from 'next/image';
 const AutoTimerSlider = () => {
 
     return (
@@ -10,93 +11,135 @@ const AutoTimerSlider = () => {
             <div className="carousel mt-[48px] z-0 lg:h-[1000px] md:h-[950px] h-[851px]">
                 <div className="list">
 
-                    {/* <div className="item"
-                        style={{ backgroundImage: `url("/images/homepage/industry1.webp")` }}>
-                        <div className="content">
-                            <div className="title">LIFE SCIENCE</div>
-                            <div className="des xl:pr-5 pr-32 xl:mt-8 mt-5">Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software,</div>
-                            <button className='!border-[1px] know-more !border-white xl:p-4 p-3 xl:text-[20px] !text-[16px] mt-10'>Know More → </button>
+                    <div className="item relative overflow-hidden">
+                        <Image
+                            src="/images/homepage/industry2.webp"
+                            alt="Manufacturing Industry"
+                            fill
+                            priority
+                            sizes="100vw"
+                            className="object-cover -z-10"
+                        />
 
-                        </div>
-                    </div> */}
-
-                    <div className="item"
-                        style={{ backgroundImage: `url("/images/homepage/industry2.webp")` }}>
-                        <div className="content">
+                        <div className="content relative z-10">
                             <div className="title font-semibold">MANUFACTURING</div>
-                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">Streamline customer relationships, sales processes, and supply chain management in manufacturing companies.</div>
-                            <Link href="/industry/manufacturing-cloud-erp" aria-label='Manufacturing'>
-                                <button className='!border-[1px] know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
+                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">
+                                Streamline customer relationships, sales processes, and supply chain management in manufacturing companies.
+                            </div>
+                            <Link href="/industry/manufacturing-cloud-erp" aria-label="Manufacturing">
+                                <button className="!border-[1px] know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10">
+                                    Know More →
+                                </button>
                             </Link>
                         </div>
                     </div>
 
-                    <div className="item"
-                        style={{ backgroundImage: `url("/images/homepage/industry3.webp")` }}>
-                        <div className="content">
+                    <div className="item relative overflow-hidden">
+                        <Image
+                            src="/images/homepage/industry3.webp"
+                            alt="Real Estate"
+                            fill
+                            sizes="100vw"
+                            priority
+                            className="object-cover -z-10"
+                        />
+                        <div className="content relative z-10">
                             <div className="title font-semibold">REAL ESTATE</div>
-                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">Helping realtors, property owners, and brokers strengthen relationships and revenue by helping them navigate through client details, properties.</div>
-                            <Link href='/industry/real-estate-property-management' aria-label='Real Estate'>
-                                <button className='!border-[1px] know-more  !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
+                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">
+                                Helping realtors, property owners, and brokers strengthen relationships and revenue by helping them navigate through client details, properties.
+                            </div>
+                            <Link href="/industry/real-estate-property-management" aria-label="Real Estate">
+                                <button className="!border-[1px] know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10">
+                                    Know More →
+                                </button>
                             </Link>
                         </div>
                     </div>
 
-                    <div className="item"
-                        style={{ backgroundImage: `url("/images/homepage/industry4.webp")` }}>
-                        <div className="content">
+                    <div className="item relative overflow-hidden">
+                        <Image
+                            src="/images/homepage/industry4.webp"
+                            alt="Semiconductor"
+                            fill
+                            sizes="100vw"
+                            className="object-cover -z-10"
+                        />
+                        <div className="content relative z-10">
                             <div className="title font-semibold">Semiconductor</div>
-                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">Our services consulting covers the complete range of technologies and methodologies necessary for manufacturing, integrating, and maintaining complex products across platforms.</div>
-                            <Link href="/industry/hitech-semiconductor-ai-it-solutions" aria-label='Semiconductor'>
-                                <button className='!border-[1px]  know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
+                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">
+                                Our services consulting covers the complete range of technologies and methodologies necessary for manufacturing, integrating, and maintaining complex products across platforms.
+                            </div>
+                            <Link href="/industry/hitech-semiconductor-ai-it-solutions" aria-label="Semiconductor">
+                                <button className="!border-[1px] know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10">
+                                    Know More →
+                                </button>
                             </Link>
                         </div>
                     </div>
 
- 
-                    <div className="item"
-                        style={{ backgroundImage: `url("/images/homepage/automotive-industry.webp")` }}>
-                        <div className="content">
+                    <div className="item relative overflow-hidden">
+                        <Image
+                            src="/images/homepage/automotive-industry.webp"
+                            alt="Automotive"
+                            fill
+                            sizes="100vw"
+                            className="object-cover -z-10"
+                        />
+                        <div className="content relative z-10">
                             <div className="title font-semibold">AUTOMOTIVE</div>
-                            <div className="des pr-5 xl:mt-8 mt-5">The automotive industry is shifting to customer-first. Rialtes delivers integrated solutions for seamless omnichannel experiences, from lead capture to warranty service.</div>
-                            <Link href="/industry/digital-transformation-in-automotive-industry" aria-label='Semiconductor'>
-
-                                <button className='!border-[1px] know-more  !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
+                            <div className="des pr-5 xl:mt-8 mt-5">
+                                The automotive industry is shifting to customer-first. Rialtes delivers integrated solutions for seamless omnichannel experiences, from lead capture to warranty service.
+                            </div>
+                            <Link href="/industry/digital-transformation-in-automotive-industry" aria-label="Automotive">
+                                <button className="!border-[1px] know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10">
+                                    Know More →
+                                </button>
                             </Link>
                         </div>
                     </div>
-                    <div className="item"
-                        style={{ backgroundImage: `url("/images/homepage/industry11.webp")` }}>
-                        <div className="content">
+
+                    <div className="item relative overflow-hidden">
+                        <Image
+                            src="/images/homepage/industry11.webp"
+                            alt="Healthcare"
+                            fill
+                            sizes="100vw"
+                            className="object-cover -z-10"
+                        />
+                        <div className="content relative z-10">
                             <div className="title font-semibold">Healthcare</div>
-                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software and patient engagement solutions to facilitate exceptional patient care.</div>
-                            <Link href="/industry/life-sciences/healthcare-medtech-patient-care" aria-label='Semiconductor'>
-                                <button className='!border-[1px] know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
+                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">
+                                Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software and patient engagement solutions to facilitate exceptional patient care.
+                            </div>
+                            <Link href="/industry/life-sciences/healthcare-medtech-patient-care" aria-label="Healthcare">
+                                <button className="!border-[1px] know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10">
+                                    Know More →
+                                </button>
                             </Link>
                         </div>
                     </div>
 
-                    <div className="item"
-                        style={{ backgroundImage: `url("/images/industry/travel-transporation/retail+.webp")` }}>
-                        <div className="content">
+                    <div className="item relative overflow-hidden">
+                        <Image
+                            src="/images/industry/travel-transporation/retail+.webp"
+                            alt="Retail"
+                            fill
+                            sizes="100vw"
+                            className="object-cover -z-10"
+                        />
+                        <div className="content relative z-10">
                             <div className="title font-semibold">Retail</div>
-                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">Navigate retail challenges with confidence. Rialtes Retail+ combines strategic insight with robust execution, enabling B2B and B2C retailers to modernize, personalize, and grow. From planning to post-launch support, we drive transformation every step of the way.</div>
-                            <Link href="/industry/retail-industry-digital-transformation" aria-label='Semiconductor'>
-                                <button className='!border-[1px] know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
+                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">
+                                Navigate retail challenges with confidence. Rialtes Retail+ combines strategic insight with robust execution, enabling B2B and B2C retailers to modernize, personalize, and grow. From planning to post-launch support, we drive transformation every step of the way.
+                            </div>
+                            <Link href="/industry/retail-industry-digital-transformation" aria-label="Retail">
+                                <button className="!border-[1px] know-more !border-white p-4 xl:text-[20px] text-[16px] mt-10">
+                                    Know More →
+                                </button>
                             </Link>
                         </div>
                     </div>
 
-                    {/* <div className="item"
-                        style={{ backgroundImage: `url("/images/industry/travel-transporation/TTH.webp")`, backgroundPosition: "35% 10%" }}>
-                        <div className="content travelContent">
-                            <div className="title travelTitle font-semibold !text-[#000000]">Travel and Hospitality</div>
-                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium text-[#000000]">Rialtes enables TTH companies to elevate every journey—from check-in to checkout, booking to delivery. With our expertise in AI, cloud, and enterprise platforms, we help you modernize operations, personalize experiences, and maximize business impact.</div>
-                            <Link href="/industry/travel-hospitality-it-solutions">
-                                <button className='!border-[1px] know-more !border-black text-[#000000] p-4 xl:text-[20px] text-[16px] mt-10'>Know More → </button>
-                            </Link>
-                        </div>
-                    </div> */}
 
                 </div>
 
