@@ -11,6 +11,7 @@ import esContent from '../../../../../messages/es/products.json';
 import frContent from '../../../../../messages/fr/products.json';
 import { changeLocalization } from "../../components/changeLocalization";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "../../components/BreadcrumbSchema";
 
 export default function Page() {
     const t = useTranslations("exelona");
@@ -31,6 +32,8 @@ export default function Page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumbs schema */}
+            <BreadcrumbSchema />
             {/* hero section */}
             <section className="relative overflow-hidden">
                 <div className="xl:absolute inset-0 z-0">

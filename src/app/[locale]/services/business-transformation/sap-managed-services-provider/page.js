@@ -10,6 +10,8 @@ import esContent from '../../../../../../messages/es/services.json';
 import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/[locale]/components/BreadcrumbSchema";
+import Script from "next/script";
 
 export default function Page() {
     const t = useTranslations('sapDigitalDesk')
@@ -26,10 +28,14 @@ export default function Page() {
                 keywords="home, website, welcome"
                 canonical={`https://www.rialtes.com/${locale}/services/business-transformation/sap-managed-services-provider/`}
             />
-            <script
+            <Script
+                id="schema-sapManaged"
                 type="application/ld+json"
+                strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumbs schema */}
+            <BreadcrumbSchema />
             {/* hero section */}
             <section className="relative  xl:pb-40 md:pb-[10rem] pb-20 h-[350px] md:h-[500px]  4xl:h-[650px] ">
                 <div className="md:block hidden">

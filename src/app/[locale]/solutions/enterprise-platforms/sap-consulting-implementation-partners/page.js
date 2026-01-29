@@ -14,6 +14,7 @@ import frContent from '../../../../../../messages/fr/solutions.json';
 import LearnMore from "@/app/[locale]/components/learnMore";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/[locale]/components/BreadcrumbSchema";
 
 
 export default function Page() {
@@ -35,6 +36,8 @@ export default function Page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumbs schema */}
+            <BreadcrumbSchema />
             {/* hero section */}
             <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px] ">
                 {/* Desktop Image */}
