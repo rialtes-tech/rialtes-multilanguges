@@ -6,6 +6,7 @@ import ContactForm from "../components/contactform";
 import Seo from "../components/Seo";
 import Script from "next/script";
 import BreadCrumbs from '@/app/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 
 export default function Industry() {
   const schemaData = {
@@ -265,6 +266,11 @@ export default function Industry() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+
+       {/* breadcrumb schema */}
+            <BreadcrumbSchema
+              currPage="Industry"
+            />
       {/* herosection */}
       <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px] ">
         <div className="hidden md:block">
@@ -303,6 +309,7 @@ export default function Industry() {
         </div>
       </section>
       <section className="custom-container mt-5">
+         {/* breadcrumb */}
         <BreadCrumbs currPage="Industry" />
 
         <div className="grid lg:grid-cols-12 grid-cols-1  gap-y-[20px] lg:mt-[111px] mt-[45px]">
