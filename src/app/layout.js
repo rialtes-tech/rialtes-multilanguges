@@ -67,6 +67,13 @@ export default function RootLayout({ children }) {
         />
         <link rel="icon" href="/Rialtes Symbol.jpg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+          rel="preload"
+          href="/fonts/Montserrat-Regular.woff2"
+          as="font"
+          type="font/woff2"
+          crossOrigin="anonymous"
+        />
       </Head>
 
       <body className="font-sans bg-[#ffffff] relative">
@@ -87,7 +94,7 @@ export default function RootLayout({ children }) {
           </header>
           <main className="xl:mt-[100px] lg:mt-[98px] md:mt-[100px] mt-[80px]">
             {children}
-             <CookieConsentWrapper />
+            <CookieConsentWrapper />
           </main>
           <footer className="text-white bottom-0 left-0 w-full z-10 shadow-md relative">
             <Footer />
