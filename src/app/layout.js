@@ -52,6 +52,7 @@ export default function RootLayout({ children }) {
       <Head>
         {/* GTM Head Snippet: Include GTM script that loads async */}
         <Script
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{
             __html: `
               (function(w,d,s,l,i){

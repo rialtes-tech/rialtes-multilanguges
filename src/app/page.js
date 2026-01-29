@@ -249,7 +249,7 @@ const Home = () => {
                                         alt={s.title}
                                         fill
                                         priority
-                                        className='min-[400px]:object-cover'
+                                         sizes="(max-width: 768px) 100vw, 50vw"
                                     />
                                 </div>
                             </div>
