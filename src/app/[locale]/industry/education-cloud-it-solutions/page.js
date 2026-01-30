@@ -12,6 +12,7 @@ import esContent from '../../../../../messages/es/industry.json';
 import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "../../components/BreadcrumbSchema";
 
 export default function Page() {
   const t = useTranslations("education");
@@ -67,6 +68,8 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/* breadcrumbs schema */}
+      <BreadcrumbSchema />
       {/* hero section */}
       <section className="relative group overflow-hidden xl:pb-40 2xl:pb-20 pb-10 h-[400px] md:h-[530px]  4xl:h-[650px] 2xl:h-[500px] xl:h-[550px]">
         <div className="md:block hidden">

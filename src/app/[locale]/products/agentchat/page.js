@@ -10,6 +10,7 @@ import frContent from '../../../../../messages/fr/products.json';
 import { changeLocalization } from "../../components/changeLocalization";
 import Script from "next/script";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "../../components/BreadcrumbSchema";
 
 export default function Page() {
     const t = useTranslations("agentChat");
@@ -32,6 +33,8 @@ export default function Page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumbs schema */}
+            <BreadcrumbSchema />
             {/* hero section */}
             <div className="relative bg-[#E8E8E8] pb-20 ">
                 <div className="relative  custom-container xl:!pr-0 max-xl:pr-0">
