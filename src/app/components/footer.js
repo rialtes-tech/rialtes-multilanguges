@@ -68,7 +68,17 @@ const Footer = () => {
   }, []);
   return (
     <footer
-      className={`text-[#ffffff] bg-cover max-md:absolute bg-center bg-no-repeat flex flex-col custom-container lg:pt-[66px] pb-[40px] bg-[url("/images/homepage/footer-Bg.webp")]`}>
+      className={`text-[#ffffff] bg-cover max-md:absolute bg-center bg-no-repeat flex flex-col custom-container lg:pt-[66px] pb-[40px] relative`}>
+      <div className="absolute inset-0 -z-10">
+        <Image
+          src="/images/homepage/footer-Bg.webp"
+          alt="Footer Background"
+          layout="fill"
+          objectFit="cover"
+          objectPosition="center"
+          priority
+        />
+      </div>
       <div className={`flex flex-col md:flex-row border-b border-gray-300 justify-start md:justify-between gap-[41px] md:gap-10 pb-10 mt-4 w-full mx-auto`}>
 
         {/* Logo and Tagline */}
