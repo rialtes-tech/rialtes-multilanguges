@@ -68,13 +68,7 @@ export default function RootLayout({ children }) {
         />
         <link rel="icon" href="/Rialtes Symbol.jpg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-          rel="preload"
-          href="/fonts/Montserrat-Regular.woff2"
-          as="font"
-          type="font/woff2"
-          crossOrigin="anonymous"
-        />
+       
       </Head>
 
       <body className="font-sans bg-[#ffffff] relative">
