@@ -238,8 +238,9 @@ const Home = () => {
                                         src={s.image}
                                         alt={s.title}
                                         fill
-                                        priority
+                                        priority={i === 0}
                                         className='max-lg:object-cover max-lg:object-[14%_20%]'
+                                        loading={i === 0 ? "eager" : "lazy"}
                                     />
                                 </div>
                                 {/* Mobile */}
@@ -248,8 +249,9 @@ const Home = () => {
                                         src={s.imageMobile}
                                         alt={s.title}
                                         fill
-                                        priority
+                                        priority={i === 0}
                                         sizes="(max-width: 768px) 100vw, 50vw"
+                                        loading={i === 0 ? "eager" : "lazy"}
                                     />
                                 </div>
                             </div>
