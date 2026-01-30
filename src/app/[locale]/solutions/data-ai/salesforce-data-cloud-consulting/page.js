@@ -11,6 +11,7 @@ import esContent from '../../../../../../messages/es/solutions.json';
 import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/[locale]/components/BreadcrumbSchema";
 
 
 export default function DataCloud() {
@@ -43,6 +44,8 @@ export default function DataCloud() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/* breadcrumbs schema */}
+      <BreadcrumbSchema />
       {/* hero section */}
       <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
         <div className="hidden md:block">
@@ -99,7 +102,7 @@ export default function DataCloud() {
       </section>
       {/* page description */}
       <section className="custom-container">
-        <BreadCrumbs/>
+        <BreadCrumbs />
         <section className="pt-16 bg-white">
           <div className="mx-auto">
             <h2 className="text-[#000000] 4xl:text-[60px] xl:text-[40px] text-[26px] mb-8">

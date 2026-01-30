@@ -9,6 +9,7 @@ import esContent from '../../../../messages/es/aboutus.json';
 import frContent from '../../../../messages/fr/aboutus.json'
 import { changeLocalization } from "../components/changeLocalization";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "../components/BreadcrumbSchema";
 
 
 export default function About() {
@@ -59,6 +60,8 @@ export default function About() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumbs schema */}
+            <BreadcrumbSchema />
             <section className="relative">
                 <div className="custom-container lg:!pr-0 overflow-hidden max-md:px-0 h-[350px] md:h-[500px]  4xl:h-[650px] ">
                     {/* Image Element */}
@@ -83,7 +86,7 @@ export default function About() {
             {/* Mission & Vision Section */}
             <div className="mt-40 custom-container pt-1">
                 {/* breadcrumb */}
-                <BreadCrumbs/>
+                <BreadCrumbs />
                 <h1 className="py-14 leading-tight text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px]  xl:w-[76%] 4xl:w-[100%]">
                     {t('worldTitle')}
                 </h1>

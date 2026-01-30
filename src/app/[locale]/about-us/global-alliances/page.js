@@ -7,6 +7,7 @@ import enContent from '../../../../../messages/en/aboutus.json';
 import esContent from '../../../../../messages/es/aboutus.json'
 import frContent from '../../../../../messages/fr/aboutus.json'
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "../../components/BreadcrumbSchema";
 
 export default function Contact() {
     const t = useTranslations('globalAlliance')
@@ -143,6 +144,8 @@ export default function Contact() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumbs schema */}
+            <BreadcrumbSchema />
             {/** hero section * */}
             <section className="relative group overflow-hidden h-[399px] 4xl:h-[650px] xl:h-[550px]">
                 <div className="hidden md:block">

@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useLocale } from "next-intl";
-export default function Breadcrumb({ currPage, subPath }) {
+export default function Breadcrumb({ subPath }) {
     const locale = useLocale()
     const t = useTranslations("breadcrumbs");
     const pathname = usePathname();

@@ -13,6 +13,7 @@ import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
 import { useActiveLocale } from "../../components/activeLanguages";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "../../components/BreadcrumbSchema";
 
 export default function Page() {
   const t = useTranslations("semiconductor");
@@ -48,6 +49,8 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/* breadcrumbs schema */}
+      <BreadcrumbSchema />
       {/* herosection */}
       <section className="relative group overflow-hidden h-[350px] md:h-[500px] 4xl:h-[650px]">
         <div className="hidden md:block">

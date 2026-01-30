@@ -12,6 +12,7 @@ import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "../../../components/changeLocalization.js";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/[locale]/components/BreadcrumbSchema";
 
 
 export default function page() {
@@ -437,6 +438,8 @@ export default function page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumbs schema */}
+            <BreadcrumbSchema />
             {/* hero section */}
             <section className="relative group overflow-hidden h-[350px] md:h-[500px] 4xl:h-[650px]  ">
                 {/* Desktop Image */}
