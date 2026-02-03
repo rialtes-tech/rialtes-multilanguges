@@ -114,10 +114,12 @@ const AIBusinessBanner = () => {
             <div className="flex flex-col xl:flex-row">
                 {/* Left: Image */}
                 <div className="relative xl:w-[52%] h-full  xl:ml-[20px]">
-                    <img
+                    <Image
                         src="/images/salesforce-consulting-services/manage-customer.webp"
                         alt="AI in business"
                         className="object-cover w-full h-full"
+                        width={1200}
+                        height={630}
                     />
                 </div>
 
@@ -146,17 +148,21 @@ const AgentforceBanner = () => {
         <section className="relative w-full custom-container max-md:px-0">
             {/* Background Image */}
             <div className="hidden xl:block">
-                <img
+                <Image
                     src="/images/salesforce-consulting-services/leaverage-cutting-desktop.webp" // Replace with your actual image path
                     alt="Agentforce technology"
                     className="absolute inset-0  z-0 w-full 4xl:h-[1029px] 2xl:h-[913px] xl:h-[933px]"
+                     width={1200}
+                     height={630}
                 />
             </div>
             <div className="block xl:hidden">
-                <img
+                <Image
                     src="/images/salesforce-consulting-services/leaverage-cuttung-mobile.webp" // Replace with your actual image path
                     alt="Agentforce technology"
                     className="0 w-full"
+                     width={1200}
+                    height={630}
                 />
             </div>
 
@@ -242,17 +248,21 @@ const IndustryActionsBanner = () => {
                 {/* Image section */}
                 <div className="xl:order-2 order-1 xl:col-span-5 col-span-12">
                     <div className="absolute z-10 md:z-0 xl:ml-[-775px] xl:block hidden">
-                        <img
+                        <Image
                             src="/images/salesforce-consulting-services/prebuilt-desktop.webp"
                             alt="Smiling man with laptop"
                             className="object-cover w-full h-full"
+                            width={1200}
+                            height={630}
                         />
                     </div>
                     <div className="xl:hidden block">
-                        <img
+                        <Image
                             src="/images/salesforce-consulting-services/prebuilt-mobile.webp"
                             alt="Smiling man with laptop"
                             className="object-cover w-full h-full"
+                            width={1200}    
+                            height={630}
                         />
                     </div>
                 </div>
@@ -401,10 +411,12 @@ const SalesforceAgentPromo = () => {
             <div className="grid grid-cols-1 xl:grid-cols-12 xl:gap-16 gap-10">
                 {/* Image Section */}
                 <div className="order-1 xl:order-2 xl:col-span-7">
-                    <img
+                    <Image
                         src="/images/salesforce-consulting-services/salesforce-agentplus-desktop.webp"
                         alt="Finger interacting with digital interface"
                         className="w-full h-full object-cover"
+                        width={1200}
+                        height={630}
                     />
                 </div>
 
@@ -446,17 +458,21 @@ const AgentChatPromo = () => {
         <section className="bg-[#184671] text-white pt-12">
             <div className="w-full mb-10 custom-container mt-[-200px]">
                 <div className="xl:block hidden">
-                    <img
+                    <Image
                         src="/images/salesforce-consulting-services/agentforce-agentchat-desktop.webp"
                         alt="Person using laptop and phone"
                         className="w-full h-auto object-cover"
+                        height={630}
+                        width={1200}
                     />
                 </div>
                 <div className="xl:hidden block">
-                    <img
+                    <Image
                         src="/images/salesforce-consulting-services/agentchat-mobile-agentforce.jpg"
                         alt="Person using laptop and phone"
                         className="w-full h-auto object-cover"
+                        height={630}
+                        width={1200}
                     />
                 </div>
 
@@ -496,18 +512,22 @@ const AgentforceHero = () => {
         <section className="relative w-full h-auto">
             {/* Background Image */}
             <div className="absolute inset-0 -z-10 xl:block hidden">
-                <img
+                <Image
                     src="/images/salesforce-consulting-services/your-stategic-partner.webp"
                     alt="Abstract digital waveforms"
                     className="w-full h-full object-cover"
+                    height={630}
+                    width={1200}
                 />
                 <div className="absolute inset-0" /> {/* Optional dark overlay */}
             </div>
             <div className="absolute inset-0 -z-10 xl:hidden block">
-                <img
+                <Image
                     src="/images/salesforce-consulting-services/your-stategic-partner-mobile.webp"
                     alt="Abstract digital waveforms"
                     className="w-full h-full object-cover"
+                    height={630}
+                    width={1200}
                 />
                 <div className="absolute inset-0" /> {/* Optional dark overlay */}
             </div>
@@ -649,17 +669,22 @@ export default function page() {
 
             <section className="custom-container xl:px-0 4xl:mt-28 2xl:mt-28 xl:mt-20 max-md:px-0 mt-20">
                 <div className="xl:block hidden">
-                    <img
+                    <Image
                         src="/images/salesforce-consulting-services/industry-specific.webp"
                         alt="Smiling man with laptop"
                         className="object-cover w-full h-full"
+                        width={1200}
+                        height={630}
+
                     />
                 </div>
                 <div className="xl:hidden block">
-                    <img
+                    <Image
                         src="/images/salesforce-consulting-services/industry-spacific-mobile.webp"
                         alt="Smiling man with laptop"
                         className="object-cover w-full h-full"
+                        width={1200}
+                        height={630}
                     />
                 </div>
 

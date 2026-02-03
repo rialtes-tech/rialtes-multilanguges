@@ -328,6 +328,7 @@ const Home = () => {
                                                 fill
                                                 sizes="(min-width: 1280px) 486px, 391px"
                                                 className="object-cover"
+                                                priority
                                             />
                                         </div>
 
@@ -497,8 +498,8 @@ const Home = () => {
                         className="w-full h-auto xl:mt-[140px]"
                         src="/images/homepage/Group 508.webp"
                         alt="life at rialtes"
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                         sizes="100vw"
                         priority
                     />

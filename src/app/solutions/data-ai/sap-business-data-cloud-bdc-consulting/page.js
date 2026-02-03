@@ -239,15 +239,15 @@ export default function Page() {
                 src="/images/sap-bdc-services/Unified-web.webp"
                 alt="Open data foundation image"
                 className="w-full h-full object-cover hidden lg:block "
-                width={0}
-                height={0}
+                width={1200}
+                height={630}
                 style={{ objectPosition: "75% 20%" }}
               />
               <Image
                 src="/images/sap-bdc-services/Unified-mobile.webp"
                 alt="Open data foundation image"
-                width={0}
-                height={0}
+                width={375}
+                height={250}
                 className="block lg:hidden w-full h-full object-cover px-0"
               />
             </div>
@@ -283,8 +283,8 @@ export default function Page() {
                 className="w-full h-full object-cover"
                 src="/images/sap-bdc-services/SAP-data-web.webp"
                 alt="Sap data fabric image"
-                width={0}
-                height={0}
+                width={1200}
+                height={630}
                 priority
               />
             </div>
@@ -293,8 +293,8 @@ export default function Page() {
               <Image
                 src="/images/sap-bdc-services/SAP-data-mobile.webp"
                 alt="sap data fabric image"
-                width={0}
-                height={0}
+                width={375}
+                height={250}
                 className="w-full h-full object-cover"
               />
             </div>
@@ -379,16 +379,16 @@ export default function Page() {
             <Image
               src="/images/sap-bdc-services/Your-Trusted-SAP-web.webp"
               alt="Your Trusted SAP image"
-              width={0}
-              height={0}
+              width={1200}
+              height={630}
               className="w-full hidden md:block h-full"
               style={{ objectPosition: "75% 20%" }}
             />
             <Image
               src="/images/sap-bdc-services/your-trusted-sap-mobile.webp"
               alt="Your Trusted SAP image"
-              width={0}
-              height={0}
+              width={375}
+              height={250}
               className="w-full block md:hidden h-auto"
             />
           </div>
@@ -486,8 +486,8 @@ export default function Page() {
                   src="/images/sap-bdc-services/web.webp"
                   alt="Migrate from SAP image"
                   className="w-full h-full"
-                  width={0}
-                  height={0}
+                  width={1200}
+                  height={630}
                   style={{ objectFit: "cover", objectPosition: "25% 20%" }}
                   priority
                 />
@@ -497,8 +497,8 @@ export default function Page() {
                 <Image
                   src="/images/sap-bdc-services/web.webp"
                   alt="Migrate from SAP image"
-                  width={0}
-                  height={0}
+                  width={375}
+                  height={250}
                   style={{ objectFit: "cover", objectPosition: "70% 20%" }}
                   priority
                   className="h-full w-full z-20"
@@ -609,8 +609,8 @@ export default function Page() {
                 <Image
                   src="/images/sap-bdc-services/clients-choose-rialtes-web.webp"
                   alt="Why Clients Choose Rialtes image"
-                  width={0}
-                  height={0}
+                  width={1200}
+                  height={630}
                   className="w-full h-[400px] 2xl:h-[90%] md:w-[60%]"
                   style={{ objectFit: "cover", objectPosition: "70% 20%" }}
                   priority
@@ -635,8 +635,8 @@ export default function Page() {
                   src="/images/sap-bdc-services/clients-choose-rialtes-web.webp"
                   alt="Why Clients Choose Rialtes image"
                   className="w-full h-full "
-                  width={0}
-                  height={0}
+                  width={1200}
+                  height={630}
                   style={{ objectFit: "cover", objectPosition: "25% 20%" }}
                   priority
                 />

@@ -173,8 +173,9 @@ export default function About() {
                         src="/images/about-us/header-logo.webp"
                         alt="About Us"
                         className="w-full h-[400px] xl:h-[650px] object-cover xl:object-right"
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={650}
+                        priority
                     />
                     {/* Content Box */}
                     <div className="flex bg-[#01335B] xl:flex-row flex-col  xl:gap-7 gap-5 xl:p-14 p-7 text-white absolute max-md:left-[9%] xl:w-[63%]  w-[82%] bottom-[-140px] xl:bottom-[-150px] xl:h-[270px] 4xl:h-[340px] justify-center xl:items-center">

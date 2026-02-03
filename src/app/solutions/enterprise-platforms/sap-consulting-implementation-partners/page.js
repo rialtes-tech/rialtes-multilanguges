@@ -211,8 +211,8 @@ export default function Page() {
                             <Image
                                 src="/images/sap-consulting/SAP-partner-logo.webp"
                                 alt="SAP Partner Logo"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 priority
                                 className="mt-5 w-[25%] sm:w-[16%] md:w-[14%] lg:w-[16%]"
                             />
@@ -246,7 +246,7 @@ export default function Page() {
                                         src={product.imageUrl}
                                         alt="Salesforce Consulting Team"
                                         className="transform w-full h-full transition-transform duration-500 group-hover:scale-110"
-                                        height={0} width={0}
+                                        height={1200} width={630}
                                         priority />
                                 </div>
                                 <div className="p-8">

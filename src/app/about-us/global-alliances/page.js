@@ -150,8 +150,8 @@ export default function Contact() {
                     src={data.src}
                     alt={data.alt}
                     className="h-full"
-                    width={0}
-                    height={0}
+                    width={1200}
+                    height={630}
                     sizes="100vw"
                     style={{
                         width: "100%",
