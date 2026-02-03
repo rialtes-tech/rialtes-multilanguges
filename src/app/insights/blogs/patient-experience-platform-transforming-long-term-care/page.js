@@ -255,8 +255,8 @@ export default function Page() {
                         src="/images/blog/patient-experience-platform-mediAIna-transforming-long-term-care-mobile.webp"
                         alt="Patient viewing digital health data on a tablet with icons for diagnosis, treatment, and long-term care"
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>

@@ -403,8 +403,8 @@ export default function Page() {
                         src="/images/blog/woman-using-tablet-digital-overlay-technology-mobile.webp"
                         alt="Woman using glowing tablet at night with futuristic digital data overlay and bokeh lights representing connected technology"
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>

@@ -347,8 +347,8 @@ export default function retailPage() {
                                 <Image
                                     src="/images/industry/non-profit-industry/thought-leadership-desk.webp"
                                     alt="thought-leadership desktop img"
-                                    width={0}
-                                    height={0}
+                                    width={1200}
+                                    height={630}
                                     className="w-full h-full object-cover"
                                     priority
                                 />
@@ -357,8 +357,8 @@ export default function retailPage() {
                                 <Image
                                     src="/images/industry/non-profit-industry/Mobile/thought-leadership-mob.webp"
                                     alt="thought-leadership mob img"
-                                    width={0}
-                                    height={0}
+                                    width={375}
+                                    height={250}
                                     className="w-full h-full object-cover"
                                     priority
                                 />
@@ -451,8 +451,8 @@ export default function retailPage() {
                                                     <Image
                                                         src={data.deskImg}
                                                         alt="desktop img"
-                                                        width={0}
-                                                        height={0}
+                                                        width={1200}
+                                                        height={630}
                                                         className={`w-full h-full object-cover absolute mt-[80px] ${ind == 2 && "md:mt-[50px] lg:mt-[30px]"}`}
                                                         priority
                                                     />
@@ -461,8 +461,8 @@ export default function retailPage() {
                                                     <Image
                                                         src={data.mobImg}
                                                         alt="mob img"
-                                                        width={0}
-                                                        height={0}
+                                                        width={375}
+                                                        height={250}
                                                         className="w-full h-full object-cover"
                                                         priority
                                                     />
@@ -581,8 +581,8 @@ export default function retailPage() {
                             <Image
                                 src="/images/industry/non-profit-industry/donor-volunteer-desk-img.webp"
                                 alt="donor-volunteer desktop img"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 className=" w-full h-full object-cover"
                                 priority
                             />
@@ -591,8 +591,8 @@ export default function retailPage() {
                             <Image
                                 src="/images/industry/non-profit-industry/Mobile/donor-volunteer-mob-img.webp"
                                 alt="donor-volunteer mob img"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 className="w-full h-full object-cover"
                                 priority
                             />
@@ -613,8 +613,8 @@ export default function retailPage() {
                             <Image
                                 src="/images/industry/non-profit-industry/agentforce-desk-img.webp"
                                 alt="agentforce desktop img"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 className=" w-full h-full object-cover"
                                 priority
                             />
@@ -623,8 +623,8 @@ export default function retailPage() {
                             <Image
                                 src="/images/industry/non-profit-industry/Mobile/agentforce-mob-img.webp"
                                 alt="agentforce mob img"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 className="w-full h-full object-cover"
                                 priority
                             />
@@ -645,8 +645,8 @@ export default function retailPage() {
                             <Image
                                 src="/images/industry/non-profit-industry/data-cloud-desk-img.webp"
                                 alt="data-cloud desktop img"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 className=" w-full h-full object-cover"
                                 priority
                             />
@@ -655,8 +655,8 @@ export default function retailPage() {
                             <Image
                                 src="/images/industry/non-profit-industry/Mobile/data-cloud-mob-img.webp"
                                 alt="data-cloud mob img"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 className="w-full h-full object-cover"
                                 priority
                             />
@@ -700,8 +700,8 @@ export default function retailPage() {
                             <Image
                                 src="/images/industry/non-profit-industry/why-choose-desk-img.webp"
                                 alt="why-choose desktop img"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 className="w-full h-full object-cover"
                                 priority
                             />
@@ -710,8 +710,8 @@ export default function retailPage() {
                             <Image
                                 src="/images/industry/non-profit-industry/Mobile/why-choose-mob-img.webp"
                                 alt="why-choose mob img"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 className="w-full h-full object-cover"
                                 priority
                             />

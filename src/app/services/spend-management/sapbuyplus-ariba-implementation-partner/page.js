@@ -252,8 +252,8 @@ const SapAribaModulesSection = () => {
                     <Image
                         src="/images/sap-buy/sap-ariba-modules-img.webp"
                         alt="sap-ariba-modules-img"
-                        width={0}
-                        height={0}
+                        width={800}
+                        height={600}
                         className="w-full hidden md:block h-full object-cover object-[25%_20%]"
                         priority
                     />

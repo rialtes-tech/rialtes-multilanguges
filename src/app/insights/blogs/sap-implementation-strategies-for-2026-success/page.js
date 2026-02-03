@@ -296,8 +296,8 @@ export default function Page() {
                         src="/images/blog/futuristic-data-analytics-visualization-mobile.webp"
                         alt="Conceptual illustration of a smart city connected through cloud computing and data networks"
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>
@@ -423,15 +423,15 @@ export default function Page() {
                                     )
                                 })
                             }
-
+ 
                         </div>
                         <div className="xl:block hidden mt-14">
                             <Image
                                 src="/images/blog/5-pillars-of-SAP-implementation-strategy.svg"
                                 alt="5 Pillars of SAP Implementation Strategy"
                                 priority
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 className="w-full h-auto"
                             />
                         </div>
@@ -440,8 +440,8 @@ export default function Page() {
                                 src="/images/blog/5-pillars-of-SAP-implementation-strategy-mobile.svg"
                                 alt="5 Pillars of SAP Implementation Strategy Mobile"
                                 priority
-                                width={1200}
-                                height={800}
+                                width={375}
+                                height={250}
                             />
                         </div>
 

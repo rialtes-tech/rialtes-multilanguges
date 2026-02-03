@@ -229,8 +229,8 @@ export default function HealthCloud() {
                             <Image
                                 src="/images/salesforce-consulting-services/salesforce-partner.webp"
                                 alt="SAP Partner Logo"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={600}
                                 priority
                                 className="mt-5 w-[120px] md:w-[150px] lg:w-[190px] xl:w-[180px] 2xl:w-[240px] 4xl:w-[300px]" />
                         </div>

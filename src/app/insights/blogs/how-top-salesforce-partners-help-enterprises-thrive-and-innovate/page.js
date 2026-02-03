@@ -318,8 +318,8 @@ export default function Page() {
                         src="/images/blog/salesforce-consulting-mobile-banner.webp"
                         alt="Abstract banner showing enterprise growth and digital transformation powered by Salesforce solutions"
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>
@@ -378,12 +378,13 @@ export default function Page() {
                                             return (
 
                                                 <div key={ind} className="px-4 py-4">
-                                                    <div className=" w-32 h-32 relative mb-4">
+                                                    <div className="w-32 h-32 relative mb-4">
                                                         <Image
                                                             src={data.image}
                                                             alt={data.badge}
                                                             layout="fill"
-                                                            objectFit="contain"
+                                                             objectFit="contain"
+                                                            
                                                         />
                                                     </div>
                                                     <h3 className="4xl:text-[22px] 2xl:text-[18px] xl:text-[18px] md:text-[18px] text-[18px] font-bold md:mt-6 mt-4">{data.title}</h3>

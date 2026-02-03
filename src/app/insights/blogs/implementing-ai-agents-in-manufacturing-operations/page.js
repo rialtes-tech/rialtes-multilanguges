@@ -187,8 +187,8 @@ export default function Page() {
                         src="/images/blog/ai-agents-in-manufacturing-mobile.webp"
                         alt="Smart factory floor with robotic arms and an AI interface enabling predictive automation and efficient production."
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         style={{ objectFit: "cover", objectPosition: "90% 20%" }}
                         className="w-full h-full"
                     />

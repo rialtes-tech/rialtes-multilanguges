@@ -330,8 +330,8 @@ export default function Page() {
                         src="/images/blog/salesforce-consulting-cluster-feature-thumb.webp"
                         alt="Salesforce CRM dashboard showing analytics, user activity metrics, and automated workflow insights"
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>

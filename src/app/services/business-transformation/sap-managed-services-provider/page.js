@@ -369,7 +369,7 @@ export default function Page() {
                             priority
                             className="w-full xl:h-full h-[458px] object-cover"
                             width={0}
-                            height={0}
+                            height={0} 
                             sizes="100vw"
                         />
                     </div>
@@ -803,10 +803,13 @@ export default function Page() {
                                 media="(min-width: 1280px)"
                                 srcSet="/images/sap/sap-digital-desk/desktop/supercharge.webp"
                             />
-                            <img
+                            <Image
                                 src="/images/sap/sap-digital-desk/desktop/supercharge.webp"
                                 alt="supercharge"
                                 className="w-full h-[500px] xl:h-[720px] 2xl:h-[820px] 4xl:h-[800px]"
+                                priority
+                                width={1200}
+                                height={800}
                             />
                         </picture>
                     </div>

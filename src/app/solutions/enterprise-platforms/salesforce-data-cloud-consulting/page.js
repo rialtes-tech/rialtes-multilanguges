@@ -170,7 +170,7 @@ export default function SalesForceConsulting() {
                         objectFit: "cover",
                     }}
                     priority
-                />
+                /> 
                 <div className="absolute px-6 xl:pl-[280px] lg:pr-0 md:px-[100px]  top-[5%] lg:text-start lg:top-[35%] md:top-[30%] text-black">
                     <h4 className="font-bold">Salesforce</h4>
                     <h2 className="xl:w-[60%] w-full">Transform how you engage with your clients</h2>
@@ -183,7 +183,7 @@ export default function SalesForceConsulting() {
                         height={0}
                         sizes="100vw"
                         priority
-                    />
+                    /> 
 
                 </div>
 

@@ -328,8 +328,8 @@ export default function Page() {
                   className="xl:w-[138px] xl:h-[138px] w-[75px] h-[75px]"
                   src={service.img}
                   alt={service.text}
-                  width={0}
-                  height={0}
+                  width={375}
+                  height={250}
                   sizes="100vw"
                   priority
                 />
@@ -500,8 +500,8 @@ export default function Page() {
             <Image
               src="/images/services/rise-with-sap/SAP Signavio.webp"
               alt="SAP Signavio"
-              width={0}
-              height={0}
+              width={375}
+              height={250}
               priority
               className="xl:w-[355px] w-[322px] h-full shadow-lg"
             />

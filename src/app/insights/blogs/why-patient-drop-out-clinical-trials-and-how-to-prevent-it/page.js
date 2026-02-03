@@ -278,8 +278,8 @@ export default function Page() {
                         src="/images/blog/patient-consultation-genomics-mobile.webp"
                         alt="Nurse showing medical information to a patient with a headscarf beside a digital DNA graphic."
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>
@@ -418,7 +418,7 @@ export default function Page() {
                                                             src={elem.img}
                                                             alt={elem.alt}
                                                             width={0}
-                                                            height={0}
+                                                             height={0}
                                                             className="w-[100px] h-[100px]"
                                                             priority
                                                         />

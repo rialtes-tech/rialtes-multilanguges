@@ -309,8 +309,8 @@ export default function Page() {
                         src="/images/blog/enterprise-growth-strategy-mobile.webp"
                         alt="Business leader on a path symbolizing enterprise growth and digital transformation"
                         priority
-                        height={0}
-                        width={0}
+                        height={375}
+                        width={250} 
                         className="w-full h-auto object-cover"
                     />
                 </div>
@@ -371,8 +371,8 @@ export default function Page() {
                                                     src="/images/blog/legacy-erp-reality-check.webp"
                                                     alt="Legacy ERP challenges including slow upgrades, costly integrations, and data silos"
                                                     className="xl:w-[700px] w-full h-full"
-                                                    height={0}
-                                                    width={0}
+                                                    width={1200}
+                                                    height={630}
                                                     priority
                                                 />
                                             </div>
@@ -516,8 +516,8 @@ export default function Page() {
                                                     src="/images/blog/discover-define-deploy.webp"
                                                     alt="Process flow showing discover, define, deploy, automate, optimize, and innovate stages"
                                                     className="w-full h-full"
-                                                    height={0}
-                                                    width={0}
+                                                    height={1200}
+                                                    width={630}
                                                     priority
                                                 />
                                             </div>

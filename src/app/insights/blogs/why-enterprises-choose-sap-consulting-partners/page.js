@@ -283,8 +283,8 @@ export default function Page() {
                         src="/images/blog/digital-transformation-journey-ai-mobile.webp"
                         alt="Abstract image of a person walking on a digital path surrounded by silhouettes made of data points"
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>

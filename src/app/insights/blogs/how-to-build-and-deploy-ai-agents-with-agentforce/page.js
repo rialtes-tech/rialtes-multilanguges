@@ -308,8 +308,8 @@ export default function Page() {
                         src="/images/blog/first-ai-agent-mob-banner.webp"
                         alt="Man interacting with glowing AI data visualization wave representing digital transformation and machine learning."
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover lg:object-[50%_30%]"
                     />
                 </div>

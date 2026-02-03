@@ -143,12 +143,12 @@ const ThoughtLeadershipSection = () => {
                     src="/images/industry/auto-industry/Mobile/thought-leadership-mob-img.webp"
                     alt="thought-leadership-mob-img"
                     className="w-full h-auto"
-                    width={0}
-                    height={0}
+                    width={1200}
+                    height={800}
                     priority
                 />
                 <div className="border-none px-[30px] pt-[42px] z-10  xl:pb-[144px] pb-[57px]" style={{
-                    background: "#073259",
+                    background: "#073259"
                 }}>
                     <h2 className="text-[#FFFFFF] text-[26px] leading-[32px]">
                         Thought Leadership
@@ -172,8 +172,8 @@ const ThoughtLeadershipSection = () => {
                     src="/images/industry/auto-industry/thought-leadership-img.webp"
                     alt="thought-leadership-img"
                     className="w-full h-full object-cover"
-                    width={0}
-                    height={0}
+                    width={1200}
+                    height={630}
                     priority
                 />
                 <div className="absolute inset-0">
@@ -312,8 +312,8 @@ const EndToEndAutomativeSection = () => {
                                 src={section.imgUrlMobile}
                                 alt={section.title}
                                 className="block lg:hidden mb-4 h-auto w-full"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                             {/* Desktop Image */}
@@ -321,8 +321,8 @@ const EndToEndAutomativeSection = () => {
                                 src={section.imgUrlDesktop}
                                 alt={section.title}
                                 className="hidden lg:block mb-4 h-auto w-full"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 priority
                             />
                             <h4 className="mt-[29px] xl:mt-[63px] 4xl:text-[36px] 2xl:text-[32px] xl:text-[28px] lg:text-[28px] md:text-[28px] xl:font-semibold font-medium text-[20px] leading-tight">{section.title}</h4>
@@ -365,8 +365,8 @@ const ComprehensiveCustomerSection = () => {
                 src="/images/industry/auto-industry/Mobile/comprehensive-customer-mob-img.webp"
                 alt="Customer Journey Mobile"
                 className="block md:hidden w-full h-full object-cover"
-                width={0}
-                height={0}
+                width={275}
+                height={250}
                 priority
             />
             {/* Desktop Image */}
@@ -375,8 +375,8 @@ const ComprehensiveCustomerSection = () => {
                     src="/images/industry/auto-industry/comprehensive-customer-img.webp"
                     alt="Customer Journey Desktop"
                     className="hidden md:block w-full h-full object-cover"
-                    width={0}
-                    height={0}
+                    width={1200}
+                    height={630}
                     priority
                 />
             </div>
@@ -464,8 +464,8 @@ const RevolutionizingServiceSection = () => {
                     src="/images/industry/auto-industry/Mobile/revolutionizing-service-mob-img.webp"
                     alt="revolutionizing-service-img"
                     className="block md:hidden w-full"
-                    width={0}
-                    height={0}
+                    width={375}
+                    height={250}
                     priority
                 />
                 {/* Desktop Image */}
@@ -473,8 +473,8 @@ const RevolutionizingServiceSection = () => {
                     src="/images/industry/auto-industry/revolutionizing-service-img.webp"
                     alt="revolutionizing-service-img"
                     className="hidden md:block w-full h-full object-cover"
-                    width={0}
-                    height={0}
+                    width={1200}
+                    height={630}
                     priority
                 />
             </div>
@@ -532,8 +532,8 @@ const EnablingDynamicSection = () => {
                             src="/images/industry/auto-industry/Mobile/enabling-dynamic-mob-img.webp"
                             alt="enabling-dynamic-img-mobile"
                             className="h-auto w-full max-w-full object-cover"
-                            width={0}
-                            height={0}
+                            width={375}
+                            height={250}
                             priority
                         />
                     </div>
@@ -544,8 +544,8 @@ const EnablingDynamicSection = () => {
                             alt="enabling-dynamic-img-desktop"
                             className="w-full object-cover h-full"
                             style={{ objectPosition: '40% 20%' }}
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                             priority
                         />
                     </div>
@@ -587,8 +587,8 @@ const DealerBuyerSection = () => {
                             src="/images/industry/auto-industry/Mobile/dealer-buyer-mob-img.webp"
                             alt="dealer-buyer-mob-img"
                             className="block md:hidden h-full w-full object-cover"
-                            width={0}
-                            height={0}
+                            width={375}
+                            height={250}
                             priority
                         />
                     </div>
@@ -597,8 +597,8 @@ const DealerBuyerSection = () => {
                         src="/images/industry/auto-industry/dealer-buyer-img.webp"
                         alt="dealer-buyer-img"
                         className="hidden md:block w-full h-[80%] lg:h-[90%] object-cover"
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                         priority
                     />
                 </div>
@@ -641,8 +641,8 @@ const EmpoweringDealersSection = () => {
                             src="/images/industry/auto-industry/Mobile/empowering-dealers-mob-img.webp"
                             alt="empowering-dealers-mob-img"
                             className="h-auto w-full object-cover"
-                            width={0}
-                            height={0}
+                            width={375}
+                            height={250}
                             priority
                         />
                     </div>
@@ -652,8 +652,8 @@ const EmpoweringDealersSection = () => {
                             src="/images/industry/auto-industry/empowering-dealers-img.webp"
                             alt="empowering-dealers-img"
                             className="w-full object-cover h-full"
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                             priority
                         />
                     </div>
@@ -695,8 +695,8 @@ const UnlockingDataSection = () => {
                             src="/images/industry/auto-industry/Mobile/unlocking-data-mob-img.webp"
                             alt="unlocking-data-mob-img"
                             className="block md:hidden h-full w-full object-cover"
-                            width={0}
-                            height={0}
+                            width={375}
+                            height={250}
                             priority
                         />
                     </div>
@@ -705,8 +705,8 @@ const UnlockingDataSection = () => {
                         src="/images/industry/auto-industry/unlocking-data-img.webp"
                         alt="unlocking-data-img"
                         className="hidden md:block w-full h-[80%] lg:h-[90%] object-cover"
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                         priority
                     />
                 </div>
@@ -748,8 +748,8 @@ const IntegratingAutomativeSection = () => {
                         src="/images/industry/auto-industry/Mobile/integrating-automative-mob-img.webp"
                         alt="integrating-automative-mob-img"
                         className="w-full h-full object-cover sm:object-[35%_50%]"
-                        width={0}
-                        height={0}
+                        width={375}
+                        height={250}
                         priority
                     />
                 </div>
@@ -772,8 +772,8 @@ const IntegratingAutomativeSection = () => {
                     src="/images/industry/auto-industry/integrating-automative-img.webp"
                     alt="integrating-automative-img"
                     className="hidden md:block w-full h-full object-cover"
-                    width={0}
-                    height={0}
+                    width={1200}
+                    height={630}
                     priority
                 />
             </div>
@@ -819,8 +819,8 @@ const PartenringPowerSection = () => {
                         src="/images/industry/auto-industry/Mobile/partnering-power-mob-img.webp"
                         alt="partnering-power-mob-img"
                         className="w-full h-full"
-                        width={0}
-                        height={0}
+                        width={375}
+                        height={250}
                         priority
                     />
                 </div>
@@ -847,8 +847,8 @@ const PartenringPowerSection = () => {
                         src="/images/industry/auto-industry/partnering-power-img.webp"
                         alt="partnering-power-img"
                         className="w-full h-full object-cover"
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                         priority
                     />
                     <div className="absolute inset-0">

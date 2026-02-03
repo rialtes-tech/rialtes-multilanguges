@@ -354,8 +354,8 @@ export default function Page() {
               <Image
                 src="/images/services/rise-with-sap/why rialtes.webp"
                 alt="why rialtes"
-                width={0}
-                height={0}
+                width={1200}
+                height={630}
                 className=" transform transition-transform duration-500 group-hover:scale-110 w-[95%] md:w-[75%] lg:w-full xl:w-full mt-[-90px] h-full lg:mt-[-80px] xl:mt-[-70px] object-cover"
                 sizes="100vw"
                 priority
@@ -502,8 +502,8 @@ export default function Page() {
                 <Image
                   src="/images/services/rise-with-sap/SAP Signavio.webp"
                   alt="SAP Signavio Logo"
-                  width={0}
-                  height={0}
+                  width={375}
+                  height={250}
                   className="lg:w-full md:w-[50%] w-full h-full object-scale-down"
                   priority
                 />

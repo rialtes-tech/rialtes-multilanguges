@@ -279,8 +279,8 @@ export default function Page() {
                         src="/images/blog/digital-network-touch-data-connection-visualization-mobile.webp"
                         alt="Business hand touching glowing digital network with radiating light beams and data particles on dark background"
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>

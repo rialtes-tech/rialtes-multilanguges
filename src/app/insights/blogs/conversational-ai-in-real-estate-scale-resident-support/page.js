@@ -334,8 +334,8 @@ export default function Page() {
                         src="/images/blog/conversational-ai-in-real-estate-mobile.webp"
                         alt="Digital illustration of person interacting with virtual chatbot interface representing conversational AI in real estate"
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>

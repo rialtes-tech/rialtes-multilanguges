@@ -516,8 +516,8 @@ export default function Page() {
               <Image
                 src="/images/industry/semi-conductor/thought-desk.webp"
                 alt="thought desktop image"
-                height={0}
-                width={0}
+                height={630}
+                width={1200}
                 priority
                 className="lg:h-[600px] xl:h-[800px] w-full object-cover"
               />
@@ -528,8 +528,8 @@ export default function Page() {
               <Image
                 src="/images/industry/semi-conductor/Mobile/thought-mob.webp"
                 alt="thought mobile image"
-                height={0}
-                width={0}
+                height={250}
+                width={375}
                 priority
                 className="h-full w-full object-cover"
               />
@@ -614,8 +614,8 @@ export default function Page() {
               <Image
                 src="/images/industry/semi-conductor/semiconductor-foundry-desk.webp"
                 alt="Semiconductor image"
-                height={0}
-                width={0}
+                height={630}
+                width={1200}
                 priority
                 className="h-full w-full object-cover"
               />
@@ -625,8 +625,8 @@ export default function Page() {
               <Image
                 src="/images/industry/semi-conductor/Mobile/semiconductor-foundry-mob.webp"
                 alt="Semiconductor image"
-                height={0}
-                width={0}
+                height={250}
+                width={375}
                 priority
                 className="h-full w-full sm:h-[600px] md:h-full object-cover"
               />
@@ -679,8 +679,8 @@ export default function Page() {
               <Image
                 src="/images/industry/semi-conductor/deep-industry-desk.webp"
                 alt="deep-industry desktop image"
-                height={0}
-                width={0}
+                height={630}
+                width={1200}
                 priority
                 className="h-full md:h-[600px] lg:h-full w-full object-cover"
               />
@@ -690,8 +690,8 @@ export default function Page() {
               <Image
                 src="/images/industry/semi-conductor/Mobile/deep-industry-mob.webp"
                 alt="deep-industry mobile image"
-                height={0}
-                width={0}
+                height={250}
+                width={375}
                 priority
                 className="h-full w-full object-cover"
               />
@@ -731,8 +731,8 @@ export default function Page() {
                       <Image
                         src={data.mobImg}
                         alt="mobile image"
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         priority
                         className="h-full sm:h-[400px] sm:w-[90%] w-full object-cover"
                       />
@@ -753,8 +753,8 @@ export default function Page() {
                     <Image
                       src={data.deskImg}
                       alt="desktop image"
-                      height={0}
-                      width={0}
+                      height={630}
+                      width={1200}
                       priority
                       className="h-full md:h-[600px] lg:h-full w-full max-2xl:object-cover object-[25%_20%]"
                     />
@@ -775,8 +775,8 @@ export default function Page() {
           <Image
             src="/images/industry/semi-conductor/Mobile/ai-driven-mob.webp"
             alt="AI-Driven mobile image"
-            height={0}
-            width={0}
+            height={250}
+            width={375}
             priority
             className="h-full w-full object-cover"
           />
@@ -785,8 +785,8 @@ export default function Page() {
           <Image
             src="/images/industry/semi-conductor/ai-driven-desk.webp"
             alt="AI-Driven desktop image"
-            height={0}
-            width={0}
+            height={630}
+            width={1200}
             priority
             className="h-full h w-full object-cover"
           />
@@ -821,8 +821,8 @@ export default function Page() {
                         <Image
                           src={data.mobImg}
                           alt="Key Areas mobile image"
-                          height={0}
-                          width={0}
+                          height={250}
+                          width={375}
                           priority
                           className="h-full w-full object-cover"
                         />
@@ -831,8 +831,8 @@ export default function Page() {
                         <Image
                           src={data.deskImg}
                           alt="Key Areas desktop image"
-                          height={0}
-                          width={0}
+                          height={630}
+                          width={1200}
                           priority
                           className="h-[370px] h w-full object-cover"
                         />
@@ -860,8 +860,8 @@ export default function Page() {
                   <Image
                     src="/images/industry/semi-conductor/Mobile/ai-enabled-mob.webp"
                     alt="mobile image"
-                    height={0}
-                    width={0}
+                    height={250}
+                    width={375}
                     priority
                     className="h-full w-full object-cover"
                   />
@@ -871,8 +871,8 @@ export default function Page() {
                   <Image
                     src="/images/industry/semi-conductor/ai-enabled-desk.webp"
                     alt="desktop image"
-                    height={0}
-                    width={0}
+                    height={630}
+                    width={1200}
                     priority
                     className="h-[370px] w-full object-cover"
                   />
@@ -991,8 +991,8 @@ export default function Page() {
             <Image
               src="/images/industry/semi-conductor/Mobile/end-mob.webp"
               alt="mobile image"
-              height={0}
-              width={0}
+              height={250}
+              width={375}
               priority
               className="h-full w-full object-cover"
             />
@@ -1001,8 +1001,8 @@ export default function Page() {
             <Image
               src="/images/industry/semi-conductor/end-desk.webp"
               alt="desktop image"
-              height={0}
-              width={0}
+              height={630}
+              width={1200}
               priority
               className="h-full w-full object-cover relative"
             />
@@ -1057,8 +1057,8 @@ export default function Page() {
               <Image
                 src="/images/industry/semi-conductor/Mobile/why-rialtes-mob.webp"
                 alt="mobile image"
-                height={0}
-                width={0}
+                height={250}
+                width={375}
                 priority
                 className="h-full w-full object-cover"
               />
@@ -1067,8 +1067,8 @@ export default function Page() {
               <Image
                 src="/images/industry/semi-conductor/why-rialtes-desk.webp"
                 alt="desktop image"
-                height={0}
-                width={0}
+                height={630}
+                width={1200}
                 priority
                 className="h-full w-full object-cover relative"
               />
@@ -1111,8 +1111,8 @@ export default function Page() {
                       <Image
                         src={data.mobImg}
                         alt="Key Reasons mobile image"
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         priority
                         className="h-full w-full object-cover"
                       />
@@ -1121,8 +1121,8 @@ export default function Page() {
                       <Image
                         src={data.deskImg}
                         alt="Key Reasons desktop image"
-                        height={0}
-                        width={0}
+                        height={630}
+                        width={1200}
                         priority
                         className="h-full md:h-[600px] lg:h-full w-full object-cover object-[35%_40%] relative"
                       />
@@ -1162,8 +1162,8 @@ export default function Page() {
           <Image
             src="/images/industry/semi-conductor/Mobile/rialtes-mob.webp"
             alt="Rialtes mobile image"
-            height={0}
-            width={0}
+            height={250}
+            width={375}
             priority
             className="h-full w-full object-cover"
           />
@@ -1172,8 +1172,8 @@ export default function Page() {
           <Image
             src="/images/industry/semi-conductor/rialtes-desk.webp"
             alt="Rialtes desktop image"
-            height={0}
-            width={0}
+            height={630}
+            width={1200}
             priority
             className="h-full w-full object-cover relative"
           />

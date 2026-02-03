@@ -255,7 +255,7 @@ export default function DemandPlusSection() {
                         src="/images/uipath/desktop/banner.webp"
                         alt="Tosca Banner desktop"
                         width={0}
-                        height={0}
+                        height={0} 
                         priority
                         sizes="100vw"
                         className="w-full"

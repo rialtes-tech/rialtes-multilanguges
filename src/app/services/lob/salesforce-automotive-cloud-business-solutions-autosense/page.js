@@ -263,7 +263,7 @@ const ChooseRialtes = () => {
                 {chooseRialtesData.map((item, ind) => {
                     return (
                         <div key={ind} className="xl:p-[47px] p-[42px] border-[1px] border-[#707070] hover:border-[#D9F2FF] hover:bg-[#D9F2FF] transition-colors duration-300">
-                            <img src={item.imageUrl} alt={`image-${ind}`} />
+                            <Image src={item.imageUrl} alt={`image-${ind}`} width={1200} height={700} priority />
                             <h3 className="xl:mt-[46px] mt-[33px] 4xl:text-[30px] xl:text-[23px] text-[20px] font-semibold leading-tight">{item.title}</h3>
                             <div>
                                 {item.listItems.map((listItem, index) => (
@@ -320,8 +320,8 @@ const RialtesMakesWork = () => {
                 {/* Left Column */}
                 {rialtesMakesWorkData[0] && (
                     <div className="rialtesmakecard-1">
-                        <img src={rialtesMakesWorkData[0].image} alt={rialtesMakesWorkData[0].title} className="w-full hidden md:block" />
-                        <img src={rialtesMakesWorkData[0].mobileImage} alt={rialtesMakesWorkData[0].title} className="w-full block md:hidden" />
+                        <Image src={rialtesMakesWorkData[0].image} alt={rialtesMakesWorkData[0].title} width={1200} height={700} priority className="w-full hidden md:block" />
+                        <Image src={rialtesMakesWorkData[0].mobileImage} alt={rialtesMakesWorkData[0].title} width={1200} height={700} priority className="w-full block md:hidden" />
                         <h4
                             className="xl:mt-[63px] mt-[33px] 4xl:text-[36px] xl:text-[28px] text-[20px] leading-tight  font-semibold ">
                             {rialtesMakesWorkData[0].title}
@@ -332,8 +332,8 @@ const RialtesMakesWork = () => {
                 {/* Right Column */}
                 {rialtesMakesWorkData[1] && (
                     <div className="rialtesmakecard-2 mt-[47px] md:mt-[160px] xl:mt-[230px]">
-                        <img src={rialtesMakesWorkData[1].image} alt={rialtesMakesWorkData[1].title} className="w-full hidden md:block" />
-                        <img src={rialtesMakesWorkData[1].mobileImage} alt={rialtesMakesWorkData[1].title} className="w-full block md:hidden" />
+                        <Image src={rialtesMakesWorkData[1].image} alt={rialtesMakesWorkData[1].title} width={1200} height={700} priority className="w-full hidden md:block" />
+                        <Image src={rialtesMakesWorkData[1].mobileImage} alt={rialtesMakesWorkData[1].title} width={1200} height={700} priority className="w-full block md:hidden" />
                         <h4 className="xl:mt-[63px] mt-[33px] 4xl:text-[36px] xl:text-[28px] text-[20px] leading-tight  font-semibold ">
                             {rialtesMakesWorkData[1].title}
                         </h4>
@@ -345,8 +345,8 @@ const RialtesMakesWork = () => {
                 {/* Left Column */}
                 {rialtesMakesWorkData[2] && (
                     <div className="rialtesmakecard-1">
-                        <img src={rialtesMakesWorkData[2].image} alt={rialtesMakesWorkData[2].title} className="w-full hidden md:block" />
-                        <img src={rialtesMakesWorkData[2].mobileImage} alt={rialtesMakesWorkData[2].title} className="w-full block md:hidden" />
+                        <Image src={rialtesMakesWorkData[2].image} alt={rialtesMakesWorkData[2].title} width={1200} height={700} priority className="w-full hidden md:block" />
+                        <Image src={rialtesMakesWorkData[2].mobileImage} alt={rialtesMakesWorkData[2].title} width={1200} height={700} priority className="w-full block md:hidden" />
                         <h4 className="xl:mt-[63px] mt-[33px] 4xl:text-[36px] xl:text-[28px] text-[20px] leading-tight font-semibold ">
                             {rialtesMakesWorkData[2].title}
                         </h4>
@@ -486,8 +486,8 @@ export default function page() {
                     <Image
                         src="/images/industry/auto-sense/partner-with-rialtes-img.webp"
                         alt="partner-with-rialtes-img"
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630} 
                         className="hidden lg:block w-full"
                         priority
                     />
@@ -495,8 +495,8 @@ export default function page() {
                     <Image
                         src="/images/industry/auto-sense/Mobile/partner-with-rialtes-img-mobile.webp"
                         alt="partner-with-rialtes-img-mobile"
-                        width={0}
-                        height={0}
+                        width={375}
+                        height={250}
                         className="block lg:hidden w-full"
                         priority
                     />

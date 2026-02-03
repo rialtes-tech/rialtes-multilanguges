@@ -392,7 +392,7 @@ export default function Page() {
                                 src="/images/services/lob/advantageplus/mobile/deep.webp"
                                 alt="Salesforce Marketing Cloud image"
                                 priority
-                                width={0}
+                                width={0} 
                                 height={0}
                                 className="w-full"
                                 sizes="100vw"

@@ -247,8 +247,8 @@ export default function Page() {
                         src="/images/blog/agentforce-ai-erp-mobile.webp"
                         alt="Agentforce AI integrating with ERP to automate tasks and improve operational efficiency"
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>

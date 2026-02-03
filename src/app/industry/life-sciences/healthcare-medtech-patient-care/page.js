@@ -308,7 +308,6 @@ export default function Page() {
             src="/images/healthcare/Healthcare-mobile.webp"
             alt="mobile banner"
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-
             fill
             priority
           />

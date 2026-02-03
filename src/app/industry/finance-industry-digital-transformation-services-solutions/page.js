@@ -262,8 +262,8 @@ export default function Page() {
             <Image
               src="/images/finance-img/thought-leadership.webp"
               alt="thought-leadership image"
-              width={0}
-              height={0}
+              width={1200}
+              height={630}
               className="h-full w-full"
               style={{ objectFit: "cover" }}
               priority
@@ -274,8 +274,8 @@ export default function Page() {
             <Image
               src="/images/finance-img/mobile/thought-leadership-mobile.webp"
               alt="thought-leadership image"
-              width={0}
-              height={0}
+              width={375}
+              height={250}
               className="h-full w-full"
               style={{ objectFit: "cover" }}
               priority
@@ -445,8 +445,8 @@ export default function Page() {
               alt="Revolutionizing the Future"
               className="w-full h-full block md:hidden"
               priority
-              width={0}
-              height={0}
+              width={1200}
+              height={630}
             />
 
             {/* Desktop Image */}
@@ -455,8 +455,8 @@ export default function Page() {
               alt="Revolutionizing the Future"
               className="w-full h-full hidden md:block"
               priority
-              width={0}
-              height={0}
+              width={375}
+              height={250}
             />
           </>
         </div>
@@ -494,8 +494,8 @@ export default function Page() {
             <Image
               src="/images/finance-img/Exelona-web.webp"
               alt="Exelona"
-              width={0}
-              height={0}
+              width={1200}
+              height={630}
               priority
               style={{ objectFit: "cover" }}
               className="z-0 h-full w-full"
@@ -574,8 +574,8 @@ export default function Page() {
               alt="AgentChat"
               className="w-full h-full block md:hidden"
               priority
-              width={0}
-              height={0}
+              width={375}
+              height={250}
             />
             {/* Desktop Image */}
             <Image
@@ -583,8 +583,8 @@ export default function Page() {
               alt="AgentChat"
               className="w-full h-full hidden md:block"
               priority
-              width={0}
-              height={0}
+              width={1200}
+              height={630}
             />
           </>
         </div>
@@ -633,17 +633,19 @@ export default function Page() {
             <Image
               src="/images/finance-img/zero-copy-architecture-web.webp"
               alt="Data-Driven-Insights-img"
-              width={0}
-              height={0}
+              width={1200}
+              height={630}
               className="w-full hidden md:block h-full"
               style={{ objectPosition: "75% 20%" }}
+              priority
             />
             <Image
               src="/images/finance-img/mobile/zero-copy-architecture-mobile.webp"
               alt="Data-Driven-Insights-img"
-              width={0}
-              height={0}
+              width={375}
+              height={250}
               className="w-full block md:hidden h-auto"
+              priority
             />
           </div>
           <div className="order-2 xl:order-1 xl:col-span-5 max-md:px-[37px] ">
@@ -779,8 +781,8 @@ export default function Page() {
               alt="Financial-Industry-img"
               className="mx-auto w-full object-cover"
               priority
-              width={0}
-              height={0}
+              width={1200}
+              height={630}
               sizes="100vw"
             />
           </div>
@@ -791,8 +793,8 @@ export default function Page() {
               alt="Financial-Industry-img"
               className="hidden md:block  object-cover w-full mx-auto"
               priority
-              width={0}
-              height={0}
+              width={1200}
+              height={630}
               style={{ objectPosition: "20% 20%" }}
             />
           </div>

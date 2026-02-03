@@ -351,8 +351,8 @@ export default function Page() {
             src="/images/blog/medical-diagnostic-imaging-analysis-multiple-screens-mobile-banner.webp"
             alt="Doctor analyzing patient diagnostics on multiple screens displaying brain scans, skeletal images, and real-time vital signs"
             priority
-            height={0}
-            width={0}
+            height={250}
+            width={375}
             className="w-full h-auto object-cover"
           />
         </div>
@@ -429,10 +429,12 @@ export default function Page() {
                               key={index}
                               className="flex flex-col md:items-start md:text-start items-center text-center"
                             >
-                              <img
+                              <Image
                                 src={item.icon}
                                 alt={item.alt}
                                 className="4xl:w-[120px] 4xl:h-[120px]  xl:w-[100px] xl:h-[100px] w-[90px] h-[90px] mb-6 "
+                              width={120}
+                              height={120}
                               />
                               <p className="font-semibold 4xl:text-[26px] xl:text-[19px] text-[18px]">
                                 {item.title}

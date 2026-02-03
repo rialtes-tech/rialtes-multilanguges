@@ -211,8 +211,8 @@ export default function Page() {
             alt="thought leadership image"
             priority
             sizes="100vw"
-            width={0}
-            height={0}
+            width={375}
+            height={275}
             className="w-full h-full"
             style={{ objectFit: "cover", objectPosition: "75% 60%" }}
           />
@@ -281,8 +281,8 @@ export default function Page() {
             alt="prebuilt image"
             priority
             className="w-full h-full"
-            width={0}
-            height={0}
+            width={1200}
+            height={650}
             sizes="100vw"
           />
         </div>
@@ -308,8 +308,8 @@ export default function Page() {
               alt=""
               priority
               className="w-full"
-              width={0}
-              height={0}
+              width={1200}
+              height={650}
               sizes="100vw"
             />
           </div>
@@ -372,8 +372,8 @@ export default function Page() {
               alt="Repetitive image"
               priority
               className="w-full h-full"
-              width={0}
-              height={0}
+              width={1200}
+              height={650}
               sizes="100vw"
             />
           </div>
@@ -402,8 +402,8 @@ export default function Page() {
               alt="robotics image"
               priority
               className="w-full"
-              width={0}
-              height={0}
+              width={1200}
+              height={650}
               sizes="100vw"
             />
             <div className="bg-[#CA7D12] p-10">
@@ -422,8 +422,8 @@ export default function Page() {
               alt="shop image"
               priority
               className="w-full"
-              width={0}
-              height={0}
+              width={1200}
+              height={650}
               sizes="100vw"
             />
             <div className="bg-[#0963C4] p-10">
@@ -446,8 +446,8 @@ export default function Page() {
             alt="data cloud image"
             className="w-full relative"
             priority
-            width={0}
-            height={0}
+            width={1200}
+            height={650}
             sizes="100vw"
           />
         </div>
@@ -457,8 +457,8 @@ export default function Page() {
             alt="data cloud image"
             className="w-full relative h-[668px]"
             priority
-            width={0}
-            height={0}
+            width={375}
+            height={668}
             sizes="100vw"
           />
         </div>
@@ -486,8 +486,8 @@ export default function Page() {
               alt="erp image"
               priority
               className="w-full  object-cover h-full"
-              width={0}
-              height={0}
+              width={1200}
+              height={650}
               sizes="100vw"
             />
           </div>
@@ -516,8 +516,8 @@ export default function Page() {
               alt="demand image"
               priority
               className="w-full h-full"
-              width={0}
-              height={0}
+              width={1200}
+              height={650}
               sizes="100vw"
             />
           </div>
@@ -532,8 +532,8 @@ export default function Page() {
               alt="ai manufacturing image"
               priority
               className="w-full h-[492px] "
-              width={0}
-              height={0}
+              width={375}
+              height={250}
               sizes="100vw"
             />
           </div>
@@ -553,8 +553,8 @@ export default function Page() {
               alt="ai image"
               priority
               className="w-full h-full"
-              width={0}
-              height={0}
+              width={1200}
+              height={650}
               sizes="100vw"
             />
           </div>
@@ -570,8 +570,8 @@ export default function Page() {
                 alt="power image"
                 priority
                 className="w-full h-full"
-                width={0}
-                height={0}
+                width={1200}
+                height={650}
                 sizes="100vw"
               />
             </div>
@@ -581,8 +581,8 @@ export default function Page() {
                 alt="power image"
                 priority
                 className="w-full h-full"
-                width={0}
-                height={0}
+                width={375}
+                height={250}
                 sizes="100vw"
               />
             </div>
@@ -607,8 +607,8 @@ export default function Page() {
             alt="fast facts image"
             priority
             className="w-full"
-            width={0}
-            height={0}
+            width={1200}
+            height={650}
             sizes="100vw"
           />
         </div>
@@ -618,8 +618,8 @@ export default function Page() {
             alt="fast facts image"
             priority
             className="w-full h-[1440px] md:h-[1024px]  "
-            width={0}
-            height={0}
+            width={375}
+            height={250}
             sizes="100vw"
           />
         </div>

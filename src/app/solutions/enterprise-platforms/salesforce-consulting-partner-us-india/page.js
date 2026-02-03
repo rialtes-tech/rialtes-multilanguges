@@ -312,7 +312,7 @@ export default function SalesForceConsulting() {
                                         src={sales.imageUrl}
                                         alt="Salesforce Consulting Team"
                                         className="w-20 h-20"
-                                        width={0}
+                                        width={0} 
                                         height={0}
                                         sizes="100vw"
                                         style={{

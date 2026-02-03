@@ -272,8 +272,8 @@ export default function Page() {
                         src="/images/blog/connected-care-ecosystem-mobile.webp"
                         alt="Network showing connected healthcare providers, pharma systems, and MedTech devices enabling unified patient care."
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>
