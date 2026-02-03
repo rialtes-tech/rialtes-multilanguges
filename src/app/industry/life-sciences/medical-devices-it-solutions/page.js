@@ -546,8 +546,8 @@ export default function Page() {
                                 src="/images/medical/Outcome Management .webp"
                                 alt="Outcome Management"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 priority
                             />
                         </div>
@@ -556,8 +556,8 @@ export default function Page() {
                                 src="/images/medical/Patient Trial & Outcome Management .webp"
                                 alt="Outcome Management"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 priority
                             />
                         </div>
@@ -587,8 +587,8 @@ export default function Page() {
                             src="/images/medical/SAP & Oracle ERP.webp"
                             alt="SAP & Oracle ERP image"
                             className="w-full h-full object-cover"
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                             priority
                         />
                     </div>
@@ -608,8 +608,8 @@ export default function Page() {
                                 src="/images/medical/Mobile Apps.webp"
                                 alt=" Mobile Apps img"
                                 priority
-                                height={0}
-                                width={0}
+                                height={250}
+                                width={1200}
                                 className="h-full w-full transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:brightness-90 group-hover:saturate-150"
                             />
                         </div>
@@ -624,8 +624,8 @@ export default function Page() {
                                 src="/images/medical/Remote Device Monitoring.webp"
                                 alt="Remote Device img"
                                 priority
-                                height={0}
-                                width={0}
+                                height={650}
+                                width={1200}
                                 className="h-full w-full transform transition-transform duration-500 group-hover:scale-110"
                             />
                         </div>
@@ -645,8 +645,8 @@ export default function Page() {
                                 src="/images/medical/Agentforce.webp"
                                 alt="salesforce agentforce img"
                                 priority
-                                height={0}
-                                width={0}
+                                height={650}
+                                width={1200}
                                 className="w-full h-full transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:brightness-90 group-hover:saturate-150"
                             />
                         </div>
@@ -655,8 +655,8 @@ export default function Page() {
                                 src="/images/medical/Agentforce (2).webp"
                                 alt="salesforce agentforce img"
                                 priority
-                                height={0}
-                                width={0}
+                                height={250}
+                                width={375}
                                 className="w-full h-full"
                             />
                         </div>
@@ -695,8 +695,8 @@ export default function Page() {
                                 src="/images/medical/AgentChat (2).webp"
                                 alt="real time communication img"
                                 priority
-                                height={0}
-                                width={0}
+                                height={650}
+                                width={1200}
                                 className="h-full w-full transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:brightness-90 group-hover:saturate-150"
                             />
                         </div>
@@ -705,8 +705,8 @@ export default function Page() {
                                 src="/images/medical/AgentChat (4).webp"
                                 alt="real time communication img"
                                 priority
-                                height={0}
-                                width={0}
+                                height={250}
+                                width={375}
                                 className="h-full w-full"
                             />
                         </div>

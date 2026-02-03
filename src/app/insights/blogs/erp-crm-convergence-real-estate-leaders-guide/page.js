@@ -338,8 +338,8 @@ export default function Page() {
                         src="/images/blog/crm-erp-convergence-for-real-estate-mobile.webp"
                         alt="Conceptual illustration of a smart city connected through cloud computing and data networks"
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>

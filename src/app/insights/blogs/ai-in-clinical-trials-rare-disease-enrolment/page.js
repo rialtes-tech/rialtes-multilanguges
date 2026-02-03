@@ -334,8 +334,8 @@ export default function Page() {
                         src="/images/blog/digital-touchscreen-technology-mobile.webp"
                         alt="Person interacting with digital touchscreen interface displaying AI and futuristic technology elements"
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>

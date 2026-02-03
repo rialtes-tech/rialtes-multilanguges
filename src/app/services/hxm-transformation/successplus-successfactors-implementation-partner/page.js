@@ -252,18 +252,22 @@ export default function Page() {
           <Image
             src="/images/services/success-plus/desktop-banner.webp"
             alt="SuccessFactor"
-            fill
             style={{ objectFit: "cover", objectPosition: "75% 20%" }}
             priority
+            width={630}
+            height={1200}
+            className="w-full"
           />
         </div>
         <div className="md:hidden block">
           <Image
             src="/images/services/success-plus/Mobile/mobile-banner.webp"
             alt="SuccessFactor"
-            fill
             style={{ objectFit: "cover", objectPosition: "75% 20%" }}
             priority
+            height={1200}
+            width={630}
+            className="w-full"
           />
         </div>
         <div
@@ -278,8 +282,8 @@ export default function Page() {
               <Image
                 src="/images/services/success-plus/sap-partner-logo.webp"
                 alt="SAP Partner Logo"
-                width={0}
-                height={0}
+                width={630}
+                height={1200}
                 sizes="100vw"
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                 priority
@@ -308,8 +312,8 @@ export default function Page() {
             <Image
               src="/images/services/success-plus/successfactor-logo-1.jpg"
               alt="SAP Partner Logo"
-              width={0}
-              height={0}
+              width={630}
+              height={1200}
               className="w-full h-full md:w-[50%] lg:w-full lg:h-full"
               priority
             />
@@ -342,8 +346,8 @@ export default function Page() {
             alt="key-services-desktop image"
             className="w-full h-full object-cover"
             priority
-            width={0}
-            height={0}
+            width={630}
+            height={1200}
           />
         </div>
         <div className="md:hidden block">
@@ -352,8 +356,8 @@ export default function Page() {
             alt="key-services-mobile image"
             className="w-full h-full object-cover"
             priority
-            width={0}
-            height={0}
+            width={630}
+            height={1200}
           />
         </div>
       </section>
@@ -376,8 +380,8 @@ export default function Page() {
                   alt="workday-desktop image"
                   className="w-full h-full object-contain"
                   priority
-                  width={0}
-                  height={0}
+                  width={630}
+                  height={1200}
                   sizes="(max-width: 768px) 100vw, 50vw"
                   quality={90}
                 />
@@ -388,8 +392,8 @@ export default function Page() {
                   alt="workday-mobile image"
                   className="w-full h-full object-cover"
                   priority
-                  width={0}
-                  height={0}
+                  width={630}
+                  height={1200}
                 />
               </div>
             </div>
@@ -428,8 +432,8 @@ export default function Page() {
                   alt="zoho-desktop image"
                   className="w-full h-full object-contain"
                   priority
-                  width={0}
-                  height={0}
+                  width={630}
+                  height={1200}
                   sizes="(max-width: 768px) 100vw, 50vw"
                   quality={90}
                 />
@@ -440,8 +444,8 @@ export default function Page() {
                   alt="zoho-mobile image"
                   className="w-full h-full object-cover"
                   priority
-                  width={0}
-                  height={0}
+                  width={630}
+                  height={1200}
                 />
               </div>
             </div>
@@ -476,8 +480,8 @@ export default function Page() {
                         alt={`${data.title} image`}
                         className="xl:w-[120px] xl:h-[120px] object-cover h-[75px] w-[75px]"
                         priority
-                        width={0}
-                        height={0}
+                        width={630}
+                        height={1200}
                       />
                     </div>
                     <h4 className="text-black leading-tight text-[20px] mt-[16px] xl:mt-[26px] w-[92%] xl:w-full font-semibold">
@@ -563,8 +567,8 @@ export default function Page() {
                   alt="successfactor-desktop image"
                   className="w-full h-full object-cover"
                   priority
-                  width={0}
-                  height={0}
+                  width={630}
+                  height={1200}
                 />
               </div>
               <div className="lg:hidden block">
@@ -573,8 +577,8 @@ export default function Page() {
                   alt="successfactor-mobile image"
                   className="w-full h-full object-cover"
                   priority
-                  width={0}
-                  height={0}
+                  width={375}
+                  height={600}
                 />
               </div>
             </div>
@@ -603,8 +607,8 @@ export default function Page() {
                   alt="sap-cpi-desktop image"
                   className="w-full h-full object-cover"
                   priority
-                  width={0}
-                  height={0}
+                  width={630}
+                  height={1200}
                 />
               </div>
               <div className="lg:hidden block">
@@ -613,8 +617,8 @@ export default function Page() {
                   alt="sap-cpi-mobile image"
                   className="w-full h-full object-cover"
                   priority
-                  width={0}
-                  height={0}
+                  width={375}
+                  height={600}
                 />
               </div>
             </div>
@@ -642,8 +646,8 @@ export default function Page() {
                   alt="sap-desktop image"
                   className="w-full h-full object-cover"
                   priority
-                  width={0}
-                  height={0}
+                  width={630}
+                  height={1200}
                 />
               </div>
               <div className="lg:hidden block">
@@ -652,8 +656,8 @@ export default function Page() {
                   alt="sap-mobile image"
                   className="w-full h-full object-cover"
                   priority
-                  width={0}
-                  height={0}
+                  width={375}
+                  height={600}
                 />
               </div>
             </div>
@@ -694,8 +698,8 @@ export default function Page() {
                   alt="extend-desktop image"
                   className="w-full h-full object-cover"
                   priority
-                  width={0}
-                  height={0}
+                  width={630}
+                  height={1200}
                 />
               </div>
               <div className="lg:hidden block">
@@ -704,8 +708,8 @@ export default function Page() {
                   alt="extend-mobile image"
                   className="w-full h-full object-cover"
                   priority
-                  width={0}
-                  height={0}
+                  width={375}
+                  height={600}
                 />
               </div>
             </div>
@@ -754,8 +758,8 @@ export default function Page() {
               alt="agentchat-desktop image"
               className="w-full h-full object-cover"
               priority
-              width={0}
-              height={0}
+              width={630}
+              height={1200}
             />
           </div>
           <div className="md:hidden block">
@@ -764,8 +768,8 @@ export default function Page() {
               alt="agentchat-mob image"
               className="w-full h-full object-cover"
               priority
-              width={0}
-              height={0}
+              width={375}
+              height={600}
             />
           </div>
           <div className="md:absolute top-0">
@@ -777,8 +781,8 @@ export default function Page() {
                   alt="whatsapp-icon image"
                   className="xl:w-[150px] xl:h-[150px] lg:w-[96px] lg:h-[96px] w-[80px] h-[80px] object-cover xl:mt-[50px] mt-[20px]"
                   priority
-                  width={0}
-                  height={0}
+                  width={150}
+                  height={150}
                 />
               </div>
             </div>

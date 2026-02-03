@@ -385,8 +385,8 @@ export default function Page() {
                         src="/images/blog/digital-connectivity-bridge-network-integration-mobile.webp"
                         alt="Glowing blue digital bridge with network nodes connecting devices representing cloud connectivity and data integration"
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>
@@ -446,7 +446,7 @@ export default function Page() {
                                             <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.descc}</p>
                                              <p className="mt-8 4xl:text-[20px] font-bold 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc3}</p>
 
-                                            <div className="w-full h-full my-5 xl:mt-8 md:mt-6">
+                                             <div className="w-full h-full my-5 xl:mt-8 md:mt-6">
                                                 <Image
                                                     src="/images/blog/procurement-workflow-progression-stages-diagram.svg"
                                                     alt="Procurement workflow progression arrows showing strong platform, weak adoption, fragmented workflows, and missed value stages"

@@ -298,8 +298,8 @@ export default function Page() {
                         src="/images/blog/salesforce-implementation-partners-strategies-mobile.webp"
                         alt="Team reviewing Salesforce implementation roadmap with cloud integration and workflow optimization visuals"
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>

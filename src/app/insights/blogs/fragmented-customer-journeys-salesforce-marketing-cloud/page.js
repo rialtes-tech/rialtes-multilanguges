@@ -352,8 +352,8 @@ export default function Page() {
                         src="/images/blog/fragmented-customer-journeys-mobile.webp"
                         alt="Red person icons on wooden hexagonal tiles representing organizational network structure and team collaboration hierarchy"
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>
@@ -509,7 +509,7 @@ export default function Page() {
                                             }
 
 
-                                            <div className="w-full h-full my-5 xl:mt-14 md:mt-10">
+                                             <div className="w-full h-full my-5 xl:mt-14 md:mt-10">
                                                 <Image
                                                     src="/images/blog/Group 1118.svg"
                                                     alt="Why personalization fails diagram showing progression from data silos to fragmented journeys, delayed insights, low engagement"

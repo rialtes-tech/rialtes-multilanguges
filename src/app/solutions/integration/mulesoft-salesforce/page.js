@@ -206,7 +206,7 @@ const page = () => (
             src="/images/salesforce-consulting-services/salesforce-partner.webp"
             className="sm:w-[22%] w-[37%]  h-full bg-transperent sm:mt-15  mt-8"
             alt="Leadership Team"
-            width={0}
+            width={0} 
             height={0}
             sizes="100vw"
             priority

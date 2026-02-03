@@ -275,7 +275,6 @@ export default function Page() {
             alt="Education banner"
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-
             priority
             className="transform transition-transform duration-500 group-hover:scale-110"
             sizes="100vw"
@@ -335,7 +334,6 @@ export default function Page() {
             alt="Thought Leadership image"
             fill
             style={{ objectFit: "cover", objectPosition: "35% 20%" }}
-
             priority
             sizes="100vw"
           />
@@ -348,9 +346,8 @@ export default function Page() {
             sizes="100vw"
             className="h-[343px] w-full"
             style={{ objectFit: "cover", objectPosition: "35% 5%" }}
-
-            width={0}
-            height={0}
+            width={1200}
+            height={630}
           />
         </div>
         <div className="relative xl:mt-16 mt-8 custom-container">
@@ -485,8 +482,8 @@ export default function Page() {
                   priority
                   className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="100vw"
-                  width={0}
-                  height={0}
+                  width={1200}
+                  height={630}
                 />
               </div>
             </div>
@@ -514,8 +511,8 @@ export default function Page() {
                   priority
                   className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="100vw"
-                  width={0}
-                  height={0}
+                  width={1200}
+                  height={630}
                 />
               </div>
             </div>
@@ -547,8 +544,8 @@ export default function Page() {
                   priority
                   className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="100vw"
-                  width={0}
-                  height={0}
+                  width={1200}
+                  height={630}
                 />
               </div>
             </div>
@@ -578,8 +575,8 @@ export default function Page() {
                   priority
                   className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="100vw"
-                  width={0}
-                  height={0}
+                  width={1200}
+                  height={630}
                 />
               </div>
             </div>
@@ -614,8 +611,8 @@ export default function Page() {
                   priority
                   className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="100vw"
-                  width={0}
-                  height={0}
+                  width={1200}
+                  height={630}
                 />
               </div>
             </div>
@@ -645,8 +642,8 @@ export default function Page() {
                   priority
                   className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="100vw"
-                  width={0}
-                  height={0}
+                  width={1200}
+                  height={630}
                 />
               </div>
             </div>
@@ -681,8 +678,8 @@ export default function Page() {
                   priority
                   className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
                   sizes="100vw"
-                  width={0}
-                  height={0}
+                  width={1200}
+                  height={630}
                 />
               </div>
             </div>
@@ -765,8 +762,8 @@ export default function Page() {
                     className="xl:w-[200px] xl:h-[200px] w-[156px] h-[156px]"
                     src="/images/education/Seamless Salesforce Integration.svg"
                     alt="Taking the lead"
-                    width={0}
-                    height={0}
+                    width={1200}
+                    height={630}
                     sizes="100vw"
                     priority
                   />
@@ -786,8 +783,8 @@ export default function Page() {
                     className="xl:w-[200px] xl:h-[200px] w-[156px] h-[156px]"
                     src="/images/education/AI-Powered Automation & Personalization.svg"
                     alt="Taking the lead"
-                    width={0}
-                    height={0}
+                    width={1200}
+                    height={630}
                     sizes="100vw"
                     priority
                   />
@@ -809,8 +806,8 @@ export default function Page() {
                     className="xl:w-[200px] xl:h-[200px] w-[156px] h-[156px]"
                     src="/images/education/Scalable & Efficient Communication.svg"
                     alt="Taking the lead"
-                    width={0}
-                    height={0}
+                    width={1200}
+                    height={630}
                     sizes="100vw"
                     priority
                   />
@@ -830,8 +827,8 @@ export default function Page() {
                     className="xl:w-[200px] xl:h-[200px] w-[156px] h-[156px]"
                     src="/images/education/Actionable Insights & Data Security.svg"
                     alt="Taking the lead"
-                    width={0}
-                    height={0}
+                    width={1200}
+                    height={630}
                     sizes="100vw"
                     priority
                   />
@@ -889,8 +886,8 @@ export default function Page() {
                     priority
                     sizes="100vw"
                     className="w-full h-full "
-                    width={0}
-                    height={0}
+                    width={1200}
+                    height={630}
 
                   />
                 </div>

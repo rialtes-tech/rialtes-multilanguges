@@ -250,8 +250,8 @@ export default function page() {
                         src="/images/blog/byond-robotics-mobile-banner.webp"
                         alt="Professional reviewing industrial digital twin 3D model on tablet for factory layout planning and manufacturing optimization"
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>

@@ -397,8 +397,8 @@ export default function Page() {
                         src="/images/blog/cloud-computing-digital-storage-mobile.webp"
                         alt="Hand holding a smartphone with a glowing cloud icon representing cloud computing and data storage"
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>

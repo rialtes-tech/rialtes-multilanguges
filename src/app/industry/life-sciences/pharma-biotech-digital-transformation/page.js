@@ -486,8 +486,8 @@ export default function Page() {
                                     src="/images/pharma/Life Sciences Cloud.webp"
                                     alt="life science image"
                                     priority
-                                    height={0}
-                                    width={0}
+                                    height={630}
+                                    width={1200}
                                     className="w-full h-full"
                                 />
                             </div>
@@ -502,8 +502,8 @@ export default function Page() {
                                     src="/images/pharma/sap-con.webp"
                                     alt="life science image"
                                     priority
-                                    height={0}
-                                    width={0}
+                                    height={650}
+                                    width={1200}
                                     className="w-full h-full"
                                 />
                             </div>
@@ -617,8 +617,8 @@ export default function Page() {
                                     src="/images/pharma/Patient-Centric Mobile Apps .webp"
                                     alt="Patient-Centric image"
                                     priority
-                                    height={0}
-                                    width={0}
+                                    height={630}
+                                    width={1200}
                                     className="xl:!h-[472px] xl:!w-[670px] !h-[252px] !w-[360px] transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:brightness-90 group-hover:saturate-150"
                                 />
                             </div>
@@ -634,8 +634,8 @@ export default function Page() {
                                     src="/images/pharma/Remote Monitoring.webp"
                                     alt="Remote Monitoring image"
                                     priority
-                                    height={0}
-                                    width={0}
+                                    height={650}
+                                    width={1200}
                                     className="xl:!h-[472px] xl:!w-[670px] !h-[252px] !w-[360px] transform transition-transform duration-500 group-hover:scale-110"
                                 />
                             </div>
@@ -656,8 +656,8 @@ export default function Page() {
                                 src="/images/pharma/AgentChat (1).webp"
                                 alt="agent chat image"
                                 priority
-                                height={0}
-                                width={0}
+                                height={630}
+                                width={1200}
                                 className="xl:!h-[791px] xl:!w-[670px] md:!h-[450px] md:!w-[450px] !h-[389px] !w-[360px] object-cover transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:brightness-90 group-hover:saturate-150"
                             />
                         </div>
@@ -690,8 +690,8 @@ export default function Page() {
                                 src="/images/pharma/Agentforce pharma.webp"
                                 alt="agentforce pharma image"
                                 priority
-                                height={0}
-                                width={0}
+                                height={630}
+                                width={1200}
                                 className="h-full w-full object-cover transition-all duration-700 ease-in-out group-hover:scale-105 group-hover:brightness-90 group-hover:saturate-150"
                             />
                         </div>
@@ -700,8 +700,8 @@ export default function Page() {
                                 src="/images/pharma/Agentforce (1).webp"
                                 alt="agentforce pharma image"
                                 priority
-                                height={0}
-                                width={0}
+                                height={250}
+                                width={375}
                                 className="h-[382px] w-[370px] md:h-[500px] md:w-[500px]"
                             />
                         </div>

@@ -338,8 +338,8 @@ export default function page() {
                                 <Image
                                     src="/images/services/rial-finance/start-with-desk.webp"
                                     alt="Start with Agentforce Adoption img"
-                                    width={0}
-                                    height={0}
+                                     width={1200}
+                                    height={630}
                                     className="w-full h-full object-cover xl:object-[75%_20%] 4xl:object-[25%_20%]"
                                     priority
                                 />
@@ -349,8 +349,8 @@ export default function page() {
                                 <Image
                                     src="/images/services/rial-finance/Mobile/start-with-mob.webp"
                                     alt="Start with Agentforce Adoption img"
-                                    width={0}
-                                    height={0}
+                                    width={375}
+                                    height={250}
                                     className="w-full h-full md:h-[600px] object-cover"
                                     priority
                                 />
@@ -425,8 +425,8 @@ export default function page() {
                                                 <Image
                                                     src={data.mobImg}
                                                     alt={`${data.title} image`}
-                                                    width={0}
-                                                    height={0}
+                                                    width={375}
+                                                    height={250}
                                                     className="w-full h-full object-cover"
                                                     priority
                                                 />
@@ -438,8 +438,8 @@ export default function page() {
                                                 <Image
                                                     src={data.deskImg}
                                                     alt="desktop img"
-                                                    width={0}
-                                                    height={0}
+                                                    width={1200}
+                                                    height={630}
                                                     className="w-full h-full object-cover"
                                                     priority
                                                 />
@@ -462,8 +462,8 @@ export default function page() {
                         <Image
                             src="/images/services/rial-finance/exelona-desk.webp"
                             alt="exelona img"
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                             className="w-full h-full object-cover"
                             priority
                         />
@@ -473,8 +473,8 @@ export default function page() {
                         <Image
                             src="/images/services/rial-finance/Mobile/exelona-mob.webp"
                             alt="exelona img"
-                            width={0}
-                            height={0}
+                            width={375}
+                            height={250}
                             className="w-full h-full md:h-[600px] object-cover"
                             priority
                         />
@@ -511,8 +511,8 @@ export default function page() {
                     <Image
                         src="/images/services/rial-finance/agentchat-desk.webp"
                         alt="AgentChat img"
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                         className="w-full h-full object-cover"
                         priority
                     />
@@ -522,8 +522,8 @@ export default function page() {
                     <Image
                         src="/images/services/rial-finance/Mobile/agentchat-mob.webp"
                         alt="AgentChat img"
-                        width={0}
-                        height={0}
+                        width={375}
+                        height={250}
                         className="w-full h-full md:h-[600px] object-cover"
                         priority
                     />
@@ -577,8 +577,8 @@ export default function page() {
                             <Image
                                 src="/images/services/rial-finance/agentforce-desk.webp"
                                 alt="agentforce img"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 className="w-full h-full object-cover"
                                 priority
                             />
@@ -588,8 +588,8 @@ export default function page() {
                             <Image
                                 src="/images/services/rial-finance/Mobile/agentforce-mob.webp"
                                 alt="agentforce img"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 className="w-full h-full md:h-[600px] object-cover"
                                 priority
                             />
@@ -605,8 +605,8 @@ export default function page() {
                             <Image
                                 src="/images/services/rial-finance/salesforce-desk.webp"
                                 alt="salesforce img"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 className="w-full h-full object-cover"
                                 priority
                             />
@@ -619,8 +619,8 @@ export default function page() {
                             <Image
                                 src="/images/services/rial-finance/Mobile/salesforce-mob.webp"
                                 alt="salesforce img"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 className="w-full h-full md:h-[600px] object-cover"
                                 priority
                             />
@@ -673,8 +673,8 @@ export default function page() {
                             <Image
                                 src="/images/services/rial-finance/how-we-deliver-desk.webp"
                                 alt="how-we-deliver img"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 className="w-full h-full object-cover"
                                 priority
                             />
@@ -684,8 +684,8 @@ export default function page() {
                             <Image
                                 src="/images/services/rial-finance/Mobile/how-we-deliver-mob.webp"
                                 alt="how-we-deliver img"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 className="w-full h-full md:h-[600px] object-cover"
                                 priority
                             />
@@ -701,8 +701,8 @@ export default function page() {
                             <Image
                                 src="/images/services/rial-finance/why-rialtes-desk.webp"
                                 alt="why-rialtes img"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 className="w-full h-full object-cover"
                                 priority
                             />
@@ -712,8 +712,8 @@ export default function page() {
                             <Image
                                 src="/images/services/rial-finance/Mobile/why-rialtes-mob.webp"
                                 alt="why-rialtes img"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 className="w-full h-full object-cover"
                                 priority
                             />

@@ -307,8 +307,8 @@ export default function Page() {
             src="/images/blog/smart-city-digital-network-iot-technology-mobile-banner.webp"
             alt="Futuristic digital city with glowing data streams and network connections representing smart city technology and urban IoT"
             priority
-            height={0}
-            width={0}
+            height={250}
+            width={375}
             className="w-full h-auto object-cover"
           />
         </div>
@@ -616,8 +616,8 @@ export default function Page() {
                <Image
                   src="/images/blog/crm-evolution-four-step-transformation-process.svg"
                   alt="Four-step CRM evolution process: Legacy CRM, Connected data, AI-enabled workflows, to Intelligent enterprise transformation"
-                  width={0}
-                  height={0}
+                  width={375}
+                  height={250}
                   className=" h-full w-full relative"
                 /></div>
               </div>

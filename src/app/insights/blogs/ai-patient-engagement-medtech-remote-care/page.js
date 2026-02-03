@@ -230,8 +230,8 @@ export default function Page() {
                         src="/images/blog/ai-in-patient-mobile-banner.webp"
                         alt="Digital medical innovation showing human anatomy and AI analysis through interactive 3D holographic interface."
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>

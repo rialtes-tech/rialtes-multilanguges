@@ -327,8 +327,8 @@ export default function retailPage() {
                                 src="/images/industry/retail-industry/mobile/new-reality-mob-img.webp"
                                 alt="new-reality mobile image"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -338,8 +338,8 @@ export default function retailPage() {
                                 src="/images/industry/retail-industry/new-reality-desk-img.webp"
                                 alt="new-reality mobile image"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 priority
                                 style={{ objectPosition: '80% 20%' }}
                             />
@@ -376,8 +376,8 @@ export default function retailPage() {
                                             src={data.imgUrl}
                                             alt="mobile image"
                                             className="lg:w-[138px] lg:h-[138px] w-[100px] h-[100px] object-cover"
-                                            width={0}
-                                            height={0}
+                                            width={375}
+                                            height={250}
                                             priority
                                         />
                                         <p className="text-[16px] 4xl:text-[22px] 2xl:text-[20px] xl:text-[18px]  leading-tight font-bold mt-[34px]">
@@ -434,8 +434,8 @@ export default function retailPage() {
                                                 src="/images/industry/retail-industry/mobile/fashion-mob-img.webp"
                                                 alt="fashion mobile image"
                                                 className="w-full h-full object-cover"
-                                                width={0}
-                                                height={0}
+                                                width={375}
+                                                height={250}
                                                 priority
                                             />
                                         </div>
@@ -445,8 +445,8 @@ export default function retailPage() {
                                                 src="/images/industry/retail-industry/fashion-desk-img.webp"
                                                 alt="fashion desktop image"
                                                 className="w-full h-full object-cover"
-                                                width={0}
-                                                height={0}
+                                                width={1200}
+                                                height={630}
                                                 priority
                                                 style={{ objectPosition: '30% 20%' }}
                                             />
@@ -468,8 +468,8 @@ export default function retailPage() {
                                 src="/images/industry/retail-industry/mobile/hyper-mob-img.webp"
                                 alt="hyper mobile image"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -479,8 +479,8 @@ export default function retailPage() {
                                 src="/images/industry/retail-industry/hyper-desk-img.webp"
                                 alt="hyper mobile image"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 style={{ objectPosition: '40% 20%' }}
                                 priority
                             />
@@ -517,8 +517,8 @@ export default function retailPage() {
                         src="/images/industry/retail-industry/real-time-desk-img.webp"
                         alt="Real-Time Inventory"
                         className="w-full h-full object-cover"
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                         style={{ objectPosition: "90% 20%" }}
                         priority
                     />
@@ -528,8 +528,8 @@ export default function retailPage() {
                         src="/images/industry/retail-industry/mobile/real-time-mob-img.webp"
                         alt="Real-Time Inventory Mobile"
                         className="w-full h-full object-cover"
-                        width={0}
-                        height={0}
+                        width={375}
+                        height={250}
                         priority
                     />
                 </div>
@@ -565,8 +565,8 @@ export default function retailPage() {
                                 src="/images/industry/retail-industry/mobile/loyalty-mob-img.webp"
                                 alt="loyalty mobile image"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -576,8 +576,8 @@ export default function retailPage() {
                                 src="/images/industry/retail-industry/loyalty-desk-img.webp"
                                 alt="loyalty mobile image"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 style={{ objectPosition: '50% 20%' }}
                                 priority
                             />
@@ -636,8 +636,8 @@ export default function retailPage() {
                                 src="/images/industry/retail-industry/mobile/frictionless-mob-img.webp"
                                 alt="frictionless mobile image"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -647,8 +647,8 @@ export default function retailPage() {
                                 src="/images/industry/retail-industry/frictionless-desk-img.webp"
                                 alt="frictionless mobile image"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 style={{ objectPosition: '80% 20%' }}
                                 priority
                             />
@@ -664,8 +664,8 @@ export default function retailPage() {
                         src="/images/industry/retail-industry/mobile/actionable-mob-img.webp"
                         alt="actionable mobile image"
                         className="w-full h-full object-cover"
-                        width={0}
-                        height={0}
+                        width={375}
+                        height={250}
                         priority
                     />
                 </div>
@@ -675,8 +675,8 @@ export default function retailPage() {
                         src="/images/industry/retail-industry/actionable-desk-img.webp"
                         alt="actionable mobile image"
                         className="w-full h-full object-cover"
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                         priority
                     />
                 </div>
@@ -736,8 +736,8 @@ export default function retailPage() {
                                 src="/images/industry/retail-industry/mobile/right-mob-img.webp"
                                 alt="right mobile image"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -747,8 +747,8 @@ export default function retailPage() {
                                 src="/images/industry/retail-industry/right-desk-img.webp"
                                 alt="right mobile image"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 style={{ objectPosition: '30% 20%' }}
                                 priority
                             />
@@ -766,8 +766,8 @@ export default function retailPage() {
                                 src="/images/industry/retail-industry/mobile/ai-powered-mob-img.webp"
                                 alt="ai-powered mobile image"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -777,8 +777,8 @@ export default function retailPage() {
                                 src="/images/industry/retail-industry/ai-powered-desk-img.webp"
                                 alt="ai-powered mobile image"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 style={{ objectPosition: '40% 20%' }}
                                 priority
                             />
@@ -886,8 +886,8 @@ export default function retailPage() {
                                             src={data.mobImgUrl}
                                             alt="AI-Powered mobile image"
                                             className="w-full h-full object-cover"
-                                            width={0}
-                                            height={0}
+                                            width={375}
+                                            height={250}
                                             style={{ objectPosition: "64% 20%" }}
                                             priority
                                         />
@@ -898,8 +898,8 @@ export default function retailPage() {
                                             src={data.deskImgUrl}
                                             alt="AI-Powered desktop image"
                                             className="w-full h-full object-cover"
-                                            width={0}
-                                            height={0}
+                                            width={1200}
+                                            height={630}
                                             style={{ objectPosition: "60% 20%" }}
                                             priority
                                         />

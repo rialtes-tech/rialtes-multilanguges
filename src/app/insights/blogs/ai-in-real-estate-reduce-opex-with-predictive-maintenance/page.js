@@ -344,8 +344,8 @@ export default function Page() {
                         src="/images/blog/ai-property-operations-predictive-maintenance-mobile.webp"
                         alt="Building illustration showing AI sensors predicting maintenance needs with real-time analytics."
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>

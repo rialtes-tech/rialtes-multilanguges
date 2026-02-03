@@ -345,8 +345,8 @@ export default function page() {
                         src="/images/services/salesforce-agentforce/Mobile/start-your-ai-mob-img.webp"
                         alt="start your AI image"
                         className="w-full h-full object-cover"
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                         priority
                     />
                 </div>
@@ -356,8 +356,8 @@ export default function page() {
                         src="/images/services/salesforce-agentforce/start-your-ai-desk-img.webp"
                         alt="start your AI image"
                         className="w-full h-full object-cover"
-                        width={0}
-                        height={0}
+                        width={375}
+                        height={250}
                         priority
                     />
                 </div>
@@ -439,8 +439,8 @@ export default function page() {
                                 src="/images/services/salesforce-agentforce/Mobile/unlock-mob-img.webp"
                                 alt="unlock ai image"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -450,8 +450,8 @@ export default function page() {
                                 src="/images/services/salesforce-agentforce/unlock-desk-img.webp"
                                 alt="unlock ai image"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 priority
                             />
                         </div>
@@ -482,8 +482,8 @@ export default function page() {
                         src="/images/services/salesforce-agentforce/Mobile/rial-chat-mob-img.webp"
                         alt="rial chat image"
                         className="w-full h-full object-cover"
-                        width={0}
-                        height={0}
+                        width={375}
+                        height={250}
                         priority
                     />
                 </div>
@@ -494,8 +494,8 @@ export default function page() {
                             src="/images/services/salesforce-agentforce/rial-chat-desk-img.webp"
                             alt="rial chat image"
                             className="w-full h-full object-cover"
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                             priority
                         />
                     </div>
@@ -559,8 +559,8 @@ export default function page() {
                                 src="/images/services/salesforce-agentforce/Mobile/rialtes-salesforce-mob-img.webp"
                                 alt="rialtes salesforce image"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -571,8 +571,8 @@ export default function page() {
                                 alt="rialtes salesforce image"
                                 className="w-full h-full object-cover"
                                 style={{ objectPosition: "95% 20%" }}
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 priority
                             />
                         </div>
@@ -666,8 +666,8 @@ export default function page() {
                                 src="/images/services/salesforce-agentforce/Mobile/migrate-mob-img.webp"
                                 alt="migrate salesforce image"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -677,8 +677,8 @@ export default function page() {
                                 src="/images/services/salesforce-agentforce/migrate-desk-img.webp"
                                 alt="migrate salesforce image"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 priority
                             />
                         </div>
@@ -694,8 +694,8 @@ export default function page() {
                                 src="/images/services/salesforce-agentforce/Mobile/certified-mob-img.webp"
                                 alt="certified salesforce image"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -706,8 +706,8 @@ export default function page() {
                                 alt="certified salesforce image"
                                 className="w-full h-full object-cover"
                                 style={{ objectPosition: "35% 20%" }}
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 priority
                             />
                         </div>
@@ -743,8 +743,8 @@ export default function page() {
                                             src={data.img}
                                             alt="Why Choose Rialtes? image"
                                             className="lg:w-[139px] lg:h-[139px] w-[100px] h-[100px]"
-                                            width={0}
-                                            height={0}
+                                            width={139}
+                                            height={139}
                                             priority
                                         />
                                     </div>

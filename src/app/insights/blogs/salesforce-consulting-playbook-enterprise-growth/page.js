@@ -306,8 +306,8 @@ export default function Page() {
                         src="/images/blog/business-growth-journey-mobile.webp"
                         alt="Abstract blue figure climbing geometric steps symbolizing business growth and strategic progress"
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>

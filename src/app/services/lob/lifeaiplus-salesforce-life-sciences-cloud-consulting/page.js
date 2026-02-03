@@ -382,8 +382,8 @@ export default function page() {
                             className="w-full h-full object-cover"
                             src="/images/services/lob/lifeai/why-partner-desktop.webp"
                             alt="Why Partner with Rialtes? image"
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                             sizes="100vw"
                             priority
                         />
@@ -407,8 +407,8 @@ export default function page() {
                             className="w-full xl:h-full h-[400px]"
                             src="/images/services/lob/lifeai/deep-desk.webp"
                             alt="Deep Expertise in Salesforce image"
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                             sizes="100vw"
                             priority
                         />
@@ -418,8 +418,8 @@ export default function page() {
                             className="w-full h-full object-cover"
                             src="/images/services/lob/lifeai/deep-mobile.webp"
                             alt="Deep Expertise in Salesforce image"
-                            width={0}
-                            height={0}
+                            width={375}
+                            height={250}
                             priority
                         />
                     </div>
@@ -458,8 +458,8 @@ export default function page() {
                             className="w-full"
                             src="/images/services/lob/lifeai/how-ri-desktop.webp"
                             alt="How Rialtes LifeAI+ image"
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                             sizes="100vw"
                             priority
                         />
@@ -499,8 +499,8 @@ export default function page() {
                         className="w-full"
                         src="/images/services/lob/lifeai/prio-desk.webp"
                         alt="Prior Authorization Management image"
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                         sizes="100vw"
                         priority
                     />
@@ -510,8 +510,8 @@ export default function page() {
                         className="w-full"
                         src="/images/services/lob/lifeai/prior-mobile.webp"
                         alt="Prior Authorization Management image"
-                        width={0}
-                        height={0}
+                        width={375}
+                        height={250}
                         sizes="100vw"
                         priority
                     />

@@ -341,8 +341,8 @@ export default function Page() {
             src="/images/blog/automated-warehouse-conveyor-system-logistics-mobile-banner.webp"
             alt="Automated warehouse with colorful light trails showing high-speed conveyor systems and efficient inventory movement in motion"
             priority
-            height={0}
-            width={0}
+            height={250}
+            width={375}
             className="w-full h-auto object-cover"
           />
         </div>

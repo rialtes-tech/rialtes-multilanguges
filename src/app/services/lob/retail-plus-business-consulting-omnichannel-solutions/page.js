@@ -271,7 +271,7 @@ export default function page() {
             fill
             priority
             sizes="100vw"
-            className="w-full h-full"
+            className="w-full h-full" 
           />
         </div>
 

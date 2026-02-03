@@ -287,8 +287,8 @@ export default function Page() {
                         src="/images/blog/strategic-partnership-digital-connection-mobile.webp"
                         alt="Two people shaking hands with glowing digital lines symbolizing partnership and collaboration."
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>

@@ -268,8 +268,8 @@ export default function Page() {
                         src="/images/blog/industry4-mobile-banner.webp"
                         alt="Advanced Industry 4.0 automation with robotic arm, digital data overlay, and futuristic manufacturing interface"
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>
@@ -355,7 +355,7 @@ export default function Page() {
                                     reactiveData.map((data, ind) => {
                                         return (
                                             <div key={ind}>
-                                                <img src={data.image} className="w-[80px] h-[80px] lg:w-[100px] lg:h-[100px]" />
+                                                <Image src={data.image} width={100} height={100} className="w-[80px] h-[80px] lg:w-[100px] lg:h-[100px]" />
                                                 <p className="mt-10 lg:mt-5 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px] font-bold">{data.title}</p>
                                                 <p className="mt-3 4xl:pr-20 pr-8 2xl:text-[18px] 4xl:text-[20px] xl:text-[17px] text-[16px]">{data.desc}</p>
                                             </div>

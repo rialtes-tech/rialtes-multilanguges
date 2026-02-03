@@ -339,8 +339,8 @@ export default function Page() {
                         src="/images/blog/digital-patient-journeys-mobile.webp"
                         alt="AI-enhanced patient journey timeline showing diagnosis, treatment steps, and continuous medical follow-up"
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>

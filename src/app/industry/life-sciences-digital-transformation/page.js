@@ -285,9 +285,9 @@ export default function page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* breadcrumb schema */}
-      <BreadcrumbSchema
-       currPage="Life Sciences"
-      />
+            <BreadcrumbSchema
+                currPage="Life Sciences"
+            />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
                 <div className="hidden md:block">
@@ -439,8 +439,8 @@ export default function page() {
                                         alt="thought leadership Mobile"
                                         className="object-cover h-full md:h-[400px] w-full md:w-[80%]"
                                         priority
-                                        width={0}
-                                        height={0}
+                                        width={1200}
+                                        height={630}
                                     />
                                 </div>
                                 <UnorderedList arrName={thoughLeadershipData} ulClassName="list-disc xl:mt-[35px] mt-[31px] ml-[20px] space-y-[19px] xl:space-y-[24px] 4xl:w-[80%]  lg:w-[90%] xl:w-full" liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
@@ -453,8 +453,8 @@ export default function page() {
                                         alt="thought leadership Desktop"
                                         className="w-full h-full object-cover"
                                         priority
-                                        width={0}
-                                        height={0}
+                                        width={1200}
+                                        height={630}
                                     />
                                 </div>
                             </div>
@@ -476,8 +476,8 @@ export default function page() {
                             alt="prebuilt Mobile"
                             className="w-full h-full object-cover md:hidden"
                             priority
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                         />
                         {/* Desktop Image */}
                         <Image
@@ -485,8 +485,8 @@ export default function page() {
                             alt="prebuilt Desktop"
                             className="w-full h-[800px] object-cover hidden md:block"
                             priority
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                         />
                     </div>
                 </div>
@@ -550,8 +550,8 @@ export default function page() {
                                                 alt="common section Desktop"
                                                 className="w-full h-full object-cover lg:h-[560px] xl:h-full"
                                                 priority
-                                                width={0}
-                                                height={0}
+                                                width={1200}
+                                                height={630}
                                             />
                                         </div>
                                         <div className="md:hidden block">
@@ -561,8 +561,8 @@ export default function page() {
                                                 alt="common section Mobile"
                                                 className="object-cover h-full w-full"
                                                 priority
-                                                width={0}
-                                                height={0}
+                                                width={1200}
+                                                height={630}
                                             />
                                         </div>
                                     </div>
@@ -577,8 +577,8 @@ export default function page() {
                                                 alt="common section Desktop"
                                                 className="w-full h-full object-cover lg:h-[560px] xl:h-full"
                                                 priority
-                                                width={0}
-                                                height={0}
+                                                width={1200}
+                                                height={630}
                                             />
                                         </div>
 
@@ -589,8 +589,8 @@ export default function page() {
                                                 alt="common section Mobile"
                                                 className="object-cover h-full w-full"
                                                 priority
-                                                width={0}
-                                                height={0}
+                                                width={1200}
+                                                height={630}
                                             />
                                         </div>
                                         <div className="absolute max-md:top-[100%] max-md:w-full md:bottom-[-50px] md:left-[26px] lg:left-[58px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px]">
@@ -627,8 +627,8 @@ export default function page() {
                                 alt="seamless section Desktop"
                                 className="w-full h-full object-cover"
                                 priority
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                             />
                         </div>
                         <div className="lg:hidden block">
@@ -638,8 +638,8 @@ export default function page() {
                                 alt="seamless section Mobile"
                                 className="object-cover h-full w-full md:h-[600px]"
                                 priority
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                             />
                         </div>
                         {/* blue card */}
@@ -697,8 +697,8 @@ export default function page() {
                                                 alt="Why Rialtes Desktop"
                                                 className="w-full h-full object-cover lg:h-[560px] xl:h-full md:object-[85%_25%] xl:object-[35%_25%]"
                                                 priority
-                                                width={0}
-                                                height={0}
+                                                width={1200}
+                                                height={630}
                                             />
                                         </div>
                                         <div className="md:hidden block">
@@ -708,8 +708,8 @@ export default function page() {
                                                 alt="Why Rialtes Mobile"
                                                 className="object-cover h-full w-full"
                                                 priority
-                                                width={0}
-                                                height={0}
+                                                width={1200}
+                                                height={630}
                                             />
                                         </div>
                                     </div>
@@ -724,8 +724,8 @@ export default function page() {
                                                 alt="Why Rialtes Desktop"
                                                 className="w-full h-full object-cover lg:h-[560px] xl:h-full"
                                                 priority
-                                                width={0}
-                                                height={0}
+                                                width={1200}
+                                                height={630}
                                             />
                                         </div>
                                         <div className="md:hidden block">
@@ -735,8 +735,8 @@ export default function page() {
                                                 alt="Why Rialtes Mobile"
                                                 className="object-cover h-full w-full"
                                                 priority
-                                                width={0}
-                                                height={0}
+                                                width={1200}
+                                                height={630}
                                             />
                                         </div>
                                         <div className="absolute max-md:top-[100%] md:bottom-[-50px] lg:left-[58px] md:left-[26px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px]">

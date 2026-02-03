@@ -272,8 +272,8 @@ export default function Page() {
                                         src="/images/industry/travel-transporation/end-to-end-desktop-img.webp"
                                         alt="end-to-end desktop image"
                                         className="h-full w-full"
-                                        width={0}
-                                        height={0}
+                                        width={1200}
+                                        height={630}
                                         style={{ objectFit: "cover", objectPosition: "75% 20%" }}
                                         priority
                                     />
@@ -306,8 +306,8 @@ export default function Page() {
                                 alt="industry-focused-mob-img"
                                 className="w-full h-auto"
                                 priority
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                             />
                             <div className="border-none px-[35px] pt-[42px] z-10  xl:pb-[144px] pb-[77px]" style={{
                                 background: "#073259",
@@ -331,8 +331,8 @@ export default function Page() {
                                 src="/images/industry/travel-transporation/industry-focused-desk-img.webp"
                                 alt="industry-focused mobile image"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 style={{ objectPosition: "35% 20%" }}
                                 priority
                             />
@@ -389,8 +389,8 @@ export default function Page() {
                                     src="/images/industry/travel-transporation/elavate-travel-desk-img.webp"
                                     alt="elavate-travel desktop image"
                                     className="w-full h-full"
-                                    width={0}
-                                    height={0}
+                                    width={1200}
+                                    height={630}
                                     style={{ objectFit: "cover", objectPosition: "45% 20%" }}
                                     priority
                                 />
@@ -400,8 +400,8 @@ export default function Page() {
                                 <Image
                                     src="/images/industry/travel-transporation/Mobile/elavate-travel-mob-img.webp"
                                     alt="elavate-travel mobile image"
-                                    width={0}
-                                    height={0}
+                                    width={375}
+                                    height={250}
                                     style={{ objectFit: "cover", objectPosition: "20% 20%" }}
                                     priority
                                     className="h-full w-full absolute top-[110px] z-20"
@@ -417,8 +417,8 @@ export default function Page() {
                         <Image
                             src="/images/industry/travel-transporation/personalized-img-desk1.webp"
                             alt="personalized desktop background"
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                             className="h-full w-full"
                             priority
                             style={{ objectFit: "cover" }}
@@ -431,8 +431,8 @@ export default function Page() {
                             alt="personalized mobile background"
                             className="h-full w-full"
                             priority
-                            width={0}
-                            height={0}
+                            width={375}
+                            height={250}
                             style={{ objectFit: "cover" }}
                         />
                     </div>
@@ -464,8 +464,8 @@ export default function Page() {
                                 src="/images/industry/travel-transporation/Mobile/optimize-asset-mob-img.webp"
                                 alt="mobile background"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -475,8 +475,8 @@ export default function Page() {
                                 src="/images/industry/travel-transporation/optimize-asset-desk-img.webp"
                                 alt="mobile background"
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 style={{ objectPosition: '25% 20%' }}
                                 priority
                             />
@@ -533,8 +533,8 @@ export default function Page() {
                                     src="/images/industry/travel-transporation/Mobile/driving-repeat-mob-img.webp"
                                     alt="driving-repeat mobile background"
                                     className="w-full h-full object-cover"
-                                    width={0}
-                                    height={0}
+                                    width={375}
+                                    height={250}
                                     priority
                                 />
                             </div>
@@ -545,8 +545,8 @@ export default function Page() {
                                     src="/images/industry/travel-transporation/driving-repeat-desk-img.webp"
                                     alt="driving-repeat mobile background"
                                     className="w-full h-[80%] py-auto object-cover"
-                                    width={0}
-                                    height={0}
+                                    width={1200}
+                                    height={630}
                                     style={{ objectPosition: '85% 20%' }}
                                     priority
                                 />
@@ -565,8 +565,8 @@ export default function Page() {
                                         src="/images/industry/travel-transporation/Mobile/flawless-backend-mob-img.webp"
                                         alt="flawless-backend mobile background"
                                         className="w-full h-full object-cover"
-                                        width={0}
-                                        height={0}
+                                        width={375}
+                                        height={250}
                                         priority
 
                                     />
@@ -577,8 +577,8 @@ export default function Page() {
                                         src="/images/industry/travel-transporation/flawless-backend-desk-img.webp"
                                         alt="flawless-backend mobile background"
                                         className="w-full h-full object-cover"
-                                        width={0}
-                                        height={0}
+                                        width={1200}
+                                        height={630}
                                         style={{ objectPosition: '25% 20%' }}
                                         priority
                                     />
@@ -631,8 +631,8 @@ export default function Page() {
                             src="/images/industry/travel-transporation/Mobile/right-technology-mob-img.webp"
                             alt="right-technology mobile background"
                             className="w-full h-full object-cover"
-                            width={0}
-                            height={0}
+                            width={375}
+                            height={250}
                             priority
                         />
                     </div>
@@ -642,8 +642,8 @@ export default function Page() {
                             src="/images/industry/travel-transporation/right-technology-desk-img.webp"
                             alt="right-technology mobile background"
                             className="w-full h-full object-cover"
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                             style={{ objectPosition: '25% 20%' }}
                             priority
                         />
@@ -689,8 +689,8 @@ export default function Page() {
                                     src="/images/industry/travel-transporation/Mobile/ai-powered-mob-img.webp"
                                     alt="mobile background"
                                     className="w-full h-full object-cover"
-                                    width={0}
-                                    height={0}
+                                    width={375}
+                                    height={250}
                                     priority
                                 />
                             </div>
@@ -700,8 +700,8 @@ export default function Page() {
                                     src="/images/industry/travel-transporation/ai-powered-desk-img.webp"
                                     alt="mobile background"
                                     className="w-full h-full object-cover"
-                                    width={0}
-                                    height={0}
+                                    width={1200}
+                                    height={630}
                                     priority
                                 />
                             </div>
@@ -736,8 +736,8 @@ export default function Page() {
                                     src="/images/industry/travel-transporation/Mobile/quick-commerce-mob-img.webp"
                                     alt="quick-commerce mobile background"
                                     className="w-full h-full object-cover"
-                                    width={0}
-                                    height={0}
+                                    width={375}
+                                    height={250}
                                     priority
                                 />
                             </div>
@@ -747,8 +747,8 @@ export default function Page() {
                                     src="/images/industry/travel-transporation/quick-commerce-desk-img.webp"
                                     alt="quick-commerce mobile background"
                                     className="w-full h-full object-cover"
-                                    width={0}
-                                    height={0}
+                                    width={1200}
+                                    height={630}
                                     priority
                                 />
                             </div>
@@ -784,8 +784,8 @@ export default function Page() {
                                     src="/images/industry/travel-transporation/Mobile/smarter-service-mob-img.webp"
                                     alt="smarter-service mobile background"
                                     className="w-full h-full object-cover"
-                                    width={0}
-                                    height={0}
+                                    width={375}
+                                    height={250}
                                     priority
                                 />
                             </div>
@@ -795,8 +795,8 @@ export default function Page() {
                                     src="/images/industry/travel-transporation/smarter-service-desk-img.webp"
                                     alt="smarter-service mobile background"
                                     className="w-full h-full object-cover"
-                                    width={0}
-                                    height={0}
+                                    width={1200}
+                                    height={630}
                                     priority
                                 />
                             </div>

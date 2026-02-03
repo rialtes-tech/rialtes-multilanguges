@@ -169,8 +169,8 @@ export default function Page() {
             src="/images/blog/agents-vs-copilots-vs-bots-comparison.webp"
             alt="Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
             priority
-            height={0}
-            width={0}
+            height={375}
+            width={200}
             className="w-full h-auto object-cover"
           />
         </div>
@@ -326,8 +326,8 @@ export default function Page() {
             src="/images/blog/agents-vs-bots-vs-copilot-comparison-explained.webp"
             alt="Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
             priority
-            height={0}
-            width={0}
+            width={1200}
+  height={630}
             className="w-full h-auto object-cover"
           />
         </div>
@@ -336,8 +336,8 @@ export default function Page() {
             src="/images/blog/infographic-mobile.webp"
             alt="Agents vs. Copilots vs. Bots: What’s the Difference and Why It Matters"
             priority
-            height={0}
-            width={0}
+             width={1200}
+  height={630}
             className="w-full h-auto object-cover"
           />
         </div>

@@ -263,8 +263,8 @@ export default function Page() {
             src="/images/blog/pharma-quality-control-mobile.webp"
             alt="Pharmaceutical quality control technician inspecting medicine bottles on automated production line"
             priority
-            height={0}
-            width={0}
+            height={250}
+            width={375}
             className="w-full h-auto object-cover"
           />
         </div>
@@ -310,8 +310,8 @@ export default function Page() {
                 <Image
                   src="/images/blog/india-pharma-global-impact.png"
                   alt="Infographic showing India supplies 20% global generic exports, 40% US generic demand, 25% UK medicines"
-                  width={0}
-                  height={0}
+                  width={1200}
+  height={630}
                   className="4xl:w-[80%] 2xl:w-[70%] xl:w-[72%] h-full w-full relative 4xl:right-[64px] 2xl:right-[42px] xl:right-[38px] lg:right-[55px]  md:w-[80%]"
                 />
               </div>
