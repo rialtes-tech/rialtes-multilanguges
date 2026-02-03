@@ -57,6 +57,9 @@ const categoryData = [
     category: "Kinaxis RapidResponse",
   },
   {
+    category: "SAP Datasphere"
+  },
+  {
     category: "Products",
     items: [
       "Exelona",
@@ -95,44 +98,52 @@ const categoryData = [
   },
 ];
 
-
-
-
 const latestBlogs = [
-   {
-             "id": 77,
-            "image": "/images/blog/woman-using-tablet-digital-overlay-technology-thumb.webp",
-            "category": "Agentic AI",
-            "industry": "Retail",
-            "date": "Jan. 15, 2026",
-            "url": "/retailplus-ai-powered-omnichannel-retail/",
-            "title": "How AI Improves Omnichannel Retail Experiences",
-            "alt":"Woman using tablet with digital overlay at night representing AI-powered omnichannel retail customer experience technology",
-            "description": "Retail has entered a new reality. Customers don’t think in channels anymore. They move from app to store to website to social in a single buying journey, and they expect every interaction to feel connected, relevant, and effortless."
-        },
   {
-             "id": 76,
-            "image": "/images/blog/smart-city-digital-network-iot-technology-thumb.webp",
-            "category": "Salesforce FSC",
-            "industry": "Finance",
-            "date": "Jan. 14, 2026",
-            "url": "/ai-powered-banking-salesforce-fsc-rialfinanceplus/",
-            "title": "How AI-Powered Salesforce Financial Services Cloud Is Transforming Modern Banking",
-            "alt":"Futuristic digital city with glowing data streams and network connections representing smart city technology and urban IoT",
-            "description": "Financial services are changing faster than most institutions can redesign their operating models. According to Accenture, nearly 73% of banking customers now expect the same"
-        },
+    "id": 78,
+    "image": "/images/blog/sap-datasphere-data-fabric-thumb.webp",
+    "category": "SAP Datasphere",
+    "industry": "Generic",
+    "date": "Feb. 03, 2026",
+    "url": "/what-is-sap-datasphere-why-enterprises-moving-to-it/",
+    "title": "What Is SAP Datasphere and Why Are Enterprises Moving to It?",
+    "alt": "Digital data streams and binary code representing cloud analytics and enterprise data fabric",
+    "description": "Executives don’t suffer from a lack of data.They suffer from a lack of trust, speed, and clarity This isn’t anecdotal. It’s measurable."
+  },
   {
-             "id": 75,
-            "image": "/images/blog/automated-warehouse-conveyor-system-logistics-thumbnail.webp",
-            "category": "Kinaxis RapidResponse",
-            "industry": "Generic",
-            "date": "Jan. 13, 2026",
-            "url": "/kinaxis-rapidresponse-demandplus-real-time-supply-chain/",
-            "title": "Building a Real-Time, Resilient Supply Chain with Rialtes Demand+",
-            "alt": "Automated warehouse with colorful light trails showing high-speed conveyor systems and efficient inventory movement in motion",
-            "description": "Supply chains don’t break anymore. They bend, snap back, and get tested again almost immediately. Demand spikes without warning. Suppliers miss commitments."
-        },
-   {
+    "id": 77,
+    "image": "/images/blog/woman-using-tablet-digital-overlay-technology-thumb.webp",
+    "category": "Agentic AI",
+    "industry": "Retail",
+    "date": "Jan. 15, 2026",
+    "url": "/retailplus-ai-powered-omnichannel-retail/",
+    "title": "How AI Improves Omnichannel Retail Experiences",
+    "alt": "Woman using tablet with digital overlay at night representing AI-powered omnichannel retail customer experience technology",
+    "description": "Retail has entered a new reality. Customers don’t think in channels anymore. They move from app to store to website to social in a single buying journey, and they expect every interaction to feel connected, relevant, and effortless."
+  },
+  {
+    "id": 76,
+    "image": "/images/blog/smart-city-digital-network-iot-technology-thumb.webp",
+    "category": "Salesforce FSC",
+    "industry": "Finance",
+    "date": "Jan. 14, 2026",
+    "url": "/ai-powered-banking-salesforce-fsc-rialfinanceplus/",
+    "title": "How AI-Powered Salesforce Financial Services Cloud Is Transforming Modern Banking",
+    "alt": "Futuristic digital city with glowing data streams and network connections representing smart city technology and urban IoT",
+    "description": "Financial services are changing faster than most institutions can redesign their operating models. According to Accenture, nearly 73% of banking customers now expect the same"
+  },
+  {
+    "id": 75,
+    "image": "/images/blog/automated-warehouse-conveyor-system-logistics-thumbnail.webp",
+    "category": "Kinaxis RapidResponse",
+    "industry": "Generic",
+    "date": "Jan. 13, 2026",
+    "url": "/kinaxis-rapidresponse-demandplus-real-time-supply-chain/",
+    "title": "Building a Real-Time, Resilient Supply Chain with Rialtes Demand+",
+    "alt": "Automated warehouse with colorful light trails showing high-speed conveyor systems and efficient inventory movement in motion",
+    "description": "Supply chains don’t break anymore. They bend, snap back, and get tested again almost immediately. Demand spikes without warning. Suppliers miss commitments."
+  },
+  {
     "id": 74,
     "image": "/images/blog/digital-connectivity-bridge-network-integration-thumb.webp",
     "category": "SAP Ariba",
