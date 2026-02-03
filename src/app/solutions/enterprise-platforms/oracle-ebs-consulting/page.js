@@ -330,8 +330,8 @@ export default function Page() {
                   alt="Empower your enterprise with Rialtes"
                   priority
                   className="w-[397px] h-[233] xl:mt-[-20px]"
-                  width={0}
-                  height={0}
+                  width={397}
+                  height={233}
                 />
               </div>
               <div className="xl:col-span-1 col-span-12"></div>
@@ -564,8 +564,8 @@ export default function Page() {
             <div className="xl:col-span-4 col-span-12">
               <Image
                 src="/images/oracle-ebs/supply chain.webp"
-                width={0}
-                height={0}
+                width={532}
+                height={850}
                 priority
                 sizes="100vw"
                 className="xl:h-[850px] h-[398px] md:h-[550px] w-full xl:w-[532px] xl:mt-[-80px] object-cover"
@@ -669,8 +669,8 @@ export default function Page() {
               alt=" Inventory Optimization & Enterprise Scheduling image"
               priority
               className="xl:w-[618px] xl:h-[640] h-[309] w-full object-cover"
-              width={0}
-              height={0}
+              width={618}
+              height={640}
               sizes="100vw"
             />
             <div className="xl:mt-[6rem] xl:pr-[25px]">
@@ -768,8 +768,8 @@ export default function Page() {
             alt=" AI & Data-Driven image"
             priority
             style={{ objectFit: "cover", objectPosition: "35% 0%" }}
-            width={0}
-            height={0}
+            width={300}
+            height={200}
             className="w-full md:h-[1400px]  h-[1350px]"
           />
         </div>

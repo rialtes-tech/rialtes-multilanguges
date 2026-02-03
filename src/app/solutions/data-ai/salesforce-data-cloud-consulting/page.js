@@ -359,8 +359,8 @@ export default function DataCloud() {
                     <Image
                       src={service.image}
                       alt={`${service.title} image`}
-                      width={0}
-                      height={0}
+                      width={1200}
+  height={630}
                       style={{
                         objectFit: "cover",
                       }}

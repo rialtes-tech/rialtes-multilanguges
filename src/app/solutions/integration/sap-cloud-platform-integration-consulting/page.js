@@ -399,8 +399,8 @@ export default function page() {
                     <Image
                         src="/images/solutions/sap-cpi/Mobile/thought-leadership-mob.webp"
                         alt="thought-leadership"
-                        width={0}
-                        height={0}
+                        width={300}
+                        height={200}
                         className="object-cover object-center w-full h-full"
                         priority
                     />
@@ -510,8 +510,8 @@ export default function page() {
                                             <Image
                                                 src={data.deskImg}
                                                 alt={`${data.title} image`}
-                                                width={0}
-                                                height={0}
+                                                width={1200}
+                                                height={630}
                                                 className="object-cover w-full h-full object-center lg:object-[20%_20%]"
                                                 priority
                                             />
@@ -521,8 +521,8 @@ export default function page() {
                                             <Image
                                                 src={data.mobImg}
                                                 alt={`${data.title} image`}
-                                                width={0}
-                                                height={0}
+                                                width={375}
+                                                height={250}
                                                 className="object-cover object-center w-full h-full md:w-[80%]"
                                                 priority
                                             />
@@ -553,8 +553,8 @@ export default function page() {
                             <Image
                                 src="/images/solutions/sap-cpi/Mobile/integration-mob.webp"
                                 alt="integration image"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 className="object-cover object-center w-full h-full"
                                 priority
                             />
@@ -623,8 +623,8 @@ export default function page() {
                                                     <Image
                                                         src={data.deskImg}
                                                         alt={`${data.title} image`}
-                                                        width={0}
-                                                        height={0}
+                                                        width={1200}
+                                                        height={630}
                                                         className="object-cover object-[55%_20%] h-full w-full"
                                                         priority
                                                     />
@@ -635,8 +635,8 @@ export default function page() {
                                                     <Image
                                                         src={data.mobImg}
                                                         alt={`${data.title} image`}
-                                                        width={0}
-                                                        height={0}
+                                                        width={375}
+                                                        height={250}
                                                         className="object-cover w-full h-full"
                                                         priority
                                                     />
@@ -660,8 +660,8 @@ export default function page() {
                                                     <Image
                                                         src={data.deskImg}
                                                         alt={`${data.title} image`}
-                                                        width={0}
-                                                        height={0}
+                                                        width={1200}
+                                                        height={630}
                                                         className="object-cover object-[55%_20%] w-full h-full"
                                                         priority
                                                     />
@@ -672,8 +672,8 @@ export default function page() {
                                                     <Image
                                                         src={data.mobImg}
                                                         alt={`${data.title} image`}
-                                                        width={0}
-                                                        height={0}
+                                                        width={375}
+                                                        height={250}
                                                         className="object-cover object-center w-full h-full"
                                                         priority
                                                     />
@@ -708,8 +708,8 @@ export default function page() {
                     <Image
                         src="/images/solutions/sap-cpi/why-rialtes-desk.webp"
                         alt="why-rialtes image"
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                         className="object-cover object-center w-full h-full"
                         priority
                     />
@@ -719,8 +719,8 @@ export default function page() {
                     <Image
                         src="/images/solutions/sap-cpi/Mobile/why-rialtes-mob.webp"
                         alt="why-rialtes image"
-                        width={0}
-                        height={0}
+                        width={375}
+                        height={250}
                         className="object-cover object-center w-full h-full"
                         priority
                     />

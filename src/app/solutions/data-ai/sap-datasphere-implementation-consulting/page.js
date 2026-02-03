@@ -107,8 +107,8 @@ const WhyRialtesSection = () => {
                     alt="why-rialtes-img-mobile"
                     className="w-full block md:hidden"
                     priority
-                    width={0}
-                    height={0}
+                    width={1200}
+                    height={630}
                 />
                 {/* Desktop Image */}
                 <div className="md:h-[600px] lg:h-[830px] xl:h-[860px] 2xl:h-[960px] w-full">
@@ -117,8 +117,8 @@ const WhyRialtesSection = () => {
                         alt="why-rialtes-img"
                         className="w-full hidden md:block h-full md:object-[75%_25%] xl:object-[45%_25%]"
                         priority
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                         style={{ objectFit: "cover" }}
                     />
                 </div>
@@ -182,8 +182,8 @@ const BuildIntelligentSection = () => {
                         alt="build-intelligent-mob-img"
                         className="w-full h-full block md:hidden"
                         priority
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                     />
                     {/* Desktop Image */}
                     <Image
@@ -191,8 +191,8 @@ const BuildIntelligentSection = () => {
                         alt="build-intelligent-desktop-img"
                         className="w-full h-full hidden md:block"
                         priority
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                     />
                 </div>
             </section>
@@ -239,8 +239,8 @@ const IndustryAcceleratorsSection = () => {
                         alt="industry-accelerators-mob-img"
                         className="w-full h-full block md:hidden"
                         priority
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                     />
                     <div className="h-full w-full">
                         <Image
@@ -248,8 +248,8 @@ const IndustryAcceleratorsSection = () => {
                             alt="industry-accelerators-desktop-img"
                             className="w-full h-full hidden md:block object-cover"
                             priority
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                         />
                     </div>
                 </div>
@@ -288,8 +288,8 @@ const IntelligentAutomativeSection = () => {
                 alt="intelligent-automative-img"
                 className="block md:hidden w-full max-[442px]:h-[1200px] h-[1000px]"
                 priority
-                width={0}
-                height={0}
+                width={1200}
+                height={630}
             />
             {/* Desktop Image */}
             <div className="md:h-[630px] lg:h-[630px] xl:h-[800px] 2xl:h-[860px]">
@@ -299,8 +299,8 @@ const IntelligentAutomativeSection = () => {
                     className="hidden md:block w-full h-full object-cover"
                     style={{ objectPosition: "75% 20%" }}
                     priority
-                    width={0}
-                    height={0}
+                    width={1200}
+                    height={630}
                 />
             </div>
             <div className="absolute inset-0 flex items-start justify-start md:mt-[64px] mt-[254px]">
@@ -340,8 +340,8 @@ const AIReadyManufacturingSection = () => {
                         alt="ai-ready-mob-img"
                         className="w-full h-full block md:hidden"
                         priority
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                     />
                     {/* Desktop Image */}
                     <Image
@@ -349,8 +349,8 @@ const AIReadyManufacturingSection = () => {
                         alt="ai-ready-img"
                         className="w-full h-full hidden md:block object-cover"
                         priority
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                     />
                 </div>
                 <div className="order-2 md:order-1 text-[#FFFFFF] custom-container lg:!pr-0 xl:pt-[88px] pt-[46px] pb-[120px] bg-[#64676C]">
@@ -399,8 +399,8 @@ const OmnichannelSmartEducationSection = () => {
                             alt="omnichannel-mob-img"
                             className="block xl:hidden h-auto mx-auto -mb-[247px] relative z-10 w-[80%]"
                             priority
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                         />
                         {/* Desktop Image */}
                         <div className="hidden xl:block w-[80%] mx-auto relative z-10 xl:-mb-[46%]">
@@ -409,8 +409,8 @@ const OmnichannelSmartEducationSection = () => {
                                 alt="omnichannel-img"
                                 className="w-full"
                                 priority
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                             />
                         </div>
                     </div>
@@ -436,8 +436,8 @@ const OmnichannelSmartEducationSection = () => {
                             alt="smart-education-mob-img"
                             className="block xl:hidden h-auto mx-auto -mb-[247px] relative z-10 w-[80%]"
                             priority
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                         />
                         {/* Desktop Image */}
                         <div className="hidden xl:block w-[80%] mx-auto relative z-10 xl:-mb-[46%]">
@@ -446,8 +446,8 @@ const OmnichannelSmartEducationSection = () => {
                                 alt="smart-education-img"
                                 className="w-full"
                                 priority
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                             />
                         </div>
                     </div>
@@ -488,8 +488,8 @@ const AiPoweredHRAnalyticsSection = () => {
                         alt="ai-powered-hr-analytics-mob-img"
                         className="block md:hidden h-full w-full mx-auto object-cover"
                         priority
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                     />
                     {/* Desktop Image */}
                     <div className="w-full h-full">
@@ -498,8 +498,8 @@ const AiPoweredHRAnalyticsSection = () => {
                             alt="ai-powered-hr-analytics-desktop-img"
                             className="hidden md:block w-full h-full object-cover"
                             priority
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                             style={{ objectPosition: "20% 20%" }}
                         />
                     </div>
@@ -545,8 +545,8 @@ const SapAribaSection = () => {
                         alt="sap-ariba-mob-img"
                         className="w-full h-full block md:hidden mt-[60px]"
                         priority
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                     />
                     {/* Desktop Image */}
                     <Image
@@ -554,8 +554,8 @@ const SapAribaSection = () => {
                         alt="sap-ariba-desktop-img"
                         className="w-full h-full hidden md:block md:mt-[84px]"
                         priority
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                     />
                 </div>
             </section>
@@ -598,8 +598,8 @@ const SapHanaSection = () => {
                             alt="sap-hana-mob-img"
                             className="w-full h-full block md:hidden"
                             priority
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                         />
                         {/* Desktop Image */}
                         <Image
@@ -607,8 +607,8 @@ const SapHanaSection = () => {
                             alt="sap-hana-desktop-img"
                             className="w-full h-full hidden md:block object-cover"
                             priority
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                         />
                     </div>
                     <div className="text-[#FFFFFF] xl:pl-[36px] mx-[35px] xl:pt-[57px] pt-[42px]">
@@ -644,8 +644,8 @@ const SapSucessFactorSection = () => {
                             alt="sap-success-factors-mob-img"
                             className="w-full h-full block md:hidden"
                             priority
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                         />
                         {/* Desktop Image */}
                         <Image
@@ -653,8 +653,8 @@ const SapSucessFactorSection = () => {
                             alt="sap-success-factors-desktop-img"
                             className="w-full h-full hidden md:block object-cover"
                             priority
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                         />
                     </div>
                     <div className="order-2 md:order-1 text-[#FFFFFF] xl:pl-[36px] mx-[35px] xl:pt-[57px] pt-[42px]">
@@ -690,8 +690,8 @@ const SalesforceSap = () => {
                             alt="salesforcesap-mob-img"
                             className="w-full h-full block md:hidden"
                             priority
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                         />
                         {/* Desktop Image */}
                         <Image
@@ -699,8 +699,8 @@ const SalesforceSap = () => {
                             alt="salesforcesap-desktop-img"
                             className="w-full h-full hidden md:block object-cover"
                             priority
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                         />
                     </div>
                     <div className="text-[#000000] xl:pl-[36px] mx-[35px] xl:pt-[57px] pt-[42px]">
@@ -737,8 +737,8 @@ const AdvancedDataSection = () => {
                                 alt="advanced-data-mob-img"
                                 className="w-full h-full block md:hidden"
                                 priority
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                             />
                             {/* Desktop Image */}
                             <Image
@@ -746,8 +746,8 @@ const AdvancedDataSection = () => {
                                 alt="advanced-data-desktop-img"
                                 className="w-full h-full hidden md:block object-cover"
                                 priority
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                             />
                         </div>
                         <div className="order-2 md:order-1 text-[#FFFFFF] xl:pl-[36px] mx-[35px] xl:pt-[57px] pt-[42px]">
@@ -792,8 +792,8 @@ const AIPoweredUseSection = () => {
                         alt="ai-powered-use-mob-img"
                         className="w-full h-[1000px] object-cover"
                         priority
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                     />
                     <div className="absolute bottom-[220px] max-[360px]:top-[25%] top-[38%] sm:top-[40%] left-0 right-0 inset-0 z-0"
                         style={{
@@ -827,8 +827,8 @@ const AIPoweredUseSection = () => {
                     alt="ai-powered-use-img"
                     className="hidden md:block w-full md:h-[700px] xl:h-[900px] object-cover"
                     priority
-                    width={0}
-                    height={0}
+                    width={1200}
+                    height={630}
                 />
                 <div className="hidden md:flex absolute inset-0 items-start justify-start custom-container">
                     <div className="relative">
@@ -886,8 +886,8 @@ const GlobalPresenceSection = () => {
                         alt="global-presence-mob-img"
                         className="block lg:hidden h-full mx-auto w-full"
                         priority
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                     />
                     {/* Desktop Image */}
                     <Image
@@ -895,8 +895,8 @@ const GlobalPresenceSection = () => {
                         alt="global-presence-img"
                         className="hidden lg:block w-full h-full object-cover"
                         priority
-                        width={0}
-                        height={0}
+                        width={1200}
+                        height={630}
                     />
                 </div>
                 <div
@@ -951,17 +951,20 @@ export default function () {
                     <Image
                         src="/images/solutions/data-sphere/data-sphere-banner.webp"
                         alt="desktop banner"
-                        fill
+                        width={1200}
+                        height={630}
                         style={{ objectFit: "cover", objectPosition: "55% 20%" }}
                         priority
-                        className="transform transition-transform duration-500 group-hover:scale-110" />
+                        className="transform transition-transform duration-500 group-hover:scale-110 w-full" />
+
                 </div>
                 {/* Mobile Image */}
                 <div className="block md:hidden">
                     <Image
                         src="/images/solutions/data-sphere/Mobile/data-sphere-mob-banner.webp"
                         alt="mobile banner"
-                        fill
+                        width={1200}
+                        height={630}
                         style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                         priority />
                 </div>
