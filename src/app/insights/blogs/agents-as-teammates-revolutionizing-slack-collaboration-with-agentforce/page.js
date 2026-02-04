@@ -47,7 +47,7 @@ export default function Page() {
       <Seo
         title="How to Enhance Slack Collaboration with Agentforce | Rialtes"
         description="Agentforce turns Slack into a smarter collaboration hub, combining real-time messaging with AI agents to streamline IT requests and enhance teamwork."
-        canonical="https://www.rialtes.com/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce/"
+        canonical="https://www.rialtes.com/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce"
       />
       <Script
         id="schema-agents-vs"

@@ -259,7 +259,7 @@ export default function Page() {
         description="Ready for S/4HANA Implementation? Rialtes’ Voyager+ and SAP Signavio make the journey smooth, transparent, and built for scalable enterprise success."
         keywords="Partners, website, welcome"
         canonical={
-          "https://www.rialtes.com/insights/blogs/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/"
+          "https://www.rialtes.com/insights/blogs/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation"
         }
       />
 

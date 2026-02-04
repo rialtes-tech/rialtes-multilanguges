@@ -39,7 +39,7 @@ export default function Page() {
             <Seo
                 title="Rialtes Opens Sales Office in Baddi, HP"
                 description="Rialtes opens a new office in Baddi, Himachal Pradesh, to enhance client service and deliver Salesforce and SAP solutions for the manufacturing industry."
-                canonical="https://www.rialtes.com/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh/"
+                canonical="https://www.rialtes.com/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh"
             />
 
             <Script

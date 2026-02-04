@@ -5,11 +5,11 @@ import Seo from "../components/Seo";
 export default function Page() {
     return (
         <div className="min-h-screen">
- <Seo
+            <Seo
                 title="Terms of Use | Rialtes"
                 description="Review the terms and conditions for using Rialtes’ website, services, and content. Understand your rights, responsibilities, and legal disclaimers."
                 keywords="Contact, website, welcome"
-                canonical={"https://www.rialtes.com/terms-of-use/"}
+                canonical={"https://www.rialtes.com/terms-of-use"}
             />
             <section
                 className="custom-container mb-[40px]"

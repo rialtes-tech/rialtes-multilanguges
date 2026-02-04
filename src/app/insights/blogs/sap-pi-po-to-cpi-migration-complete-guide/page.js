@@ -207,7 +207,7 @@ export default function Page() {
             <Seo
                 title="SAP PI PO to SAP CPI Migration: Everything You Need to Know"
                 description="Migrating from SAP PI PO to SAP CPI is not a simple upgrade; it’s a transformation toward a cloud-native, intelligent integration backbone."
-                canonical={"https://www.rialtes.com/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide/"}
+                canonical={"https://www.rialtes.com/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide"}
             />
 
             <Script

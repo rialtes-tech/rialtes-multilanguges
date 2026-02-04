@@ -205,7 +205,7 @@ export default function Page() {
                 description=" Discover how AI for patient engagement helps MedTech streamline monitoring, simplify workflows, and enhance patient-provider interactions with ease."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/ai-patient-engagement-medtech-remote-care/"
+                    "https://www.rialtes.com/insights/blogs/ai-patient-engagement-medtech-remote-care"
                 }
             />
 

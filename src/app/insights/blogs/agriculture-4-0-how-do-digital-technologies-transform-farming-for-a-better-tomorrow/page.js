@@ -44,7 +44,7 @@ export default function Page() {
       <Seo
         title="Salesforce for Agriculture: Digital Farming Revolution | Rialtes"
         description="Discover how Salesforce for agriculture powers digital farming, improving efficiency and driving innovation for a sustainable future in Agriculture 4.0."
-        canonical="https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/"
+        canonical="https://www.rialtes.com/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow"
         image="https://www.rialtes.com/images/blog/agriculture-4.0-digital-farming.webp"
       />
 

@@ -309,7 +309,7 @@ export default function Page() {
                 description="AI in clinical trials transforms rare disease enrolment through automated recruitment, digital-first workflows, and personalized patient engagement at scale."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment/"
+                    "https://www.rialtes.com/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment"
                 }
             />
 

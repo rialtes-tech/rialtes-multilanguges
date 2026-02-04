@@ -320,7 +320,7 @@ export default function Page() {
         title="Smart API Integrations for Real Estate Firms in 2026 | Rialtes"
         description="API integrations help real estate firms connect CRM, ERP, and finance systems, boosting automation, team productivity, and data-driven decision-making."
         canonical={
-          "https://www.rialtes.com/insights/blogs/smart-api-integrations-for-real-estate-2026/"}
+          "https://www.rialtes.com/insights/blogs/smart-api-integrations-for-real-estate-2026"}
       />
 
       <Script

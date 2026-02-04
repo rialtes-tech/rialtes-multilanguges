@@ -581,7 +581,7 @@ export default function page() {
                 title="Agentforce Consulting Services | Rialtes"
                 description="Agentforce Consulting Services by Rialtes combines AI and expertise to help businesses optimize workflows, scale smarter, and achieve lasting success."
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting/"
+                canonical="https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting"
             />
             <Script
                 id="schema-sap-buy-plus"

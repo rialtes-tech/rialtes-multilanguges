@@ -48,7 +48,7 @@ export default function Page() {
       <Seo
         title="Athenahealth Salesforce Integration: Elevate Patient Care | Rialtes"
         description="Integrating athenahealth with Salesforce is beneficial in many ways, providing a more comprehensive view of patient interactions and data across the healthcare journey."
-        canonical="https://www.rialtes.com/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration/"
+        canonical="https://www.rialtes.com/insights/blogs/automate-crucial-parts-of-your-healthcare-organization-with-athenahealth-and-salesforce-integration"
       />
 
       <Script

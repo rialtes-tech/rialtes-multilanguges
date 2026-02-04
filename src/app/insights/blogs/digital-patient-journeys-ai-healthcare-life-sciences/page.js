@@ -314,7 +314,7 @@ export default function Page() {
                 title="Digital Patient Journeys: The Future of AI Healthcare | Rialtes"
                 description=" The future of healthcare is digital patient journeys—AI-driven, predictive, and personalized pathways that empower patients and providers alike."
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/"
+                    "https://www.rialtes.com/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences"
                 }
             />
 

@@ -372,7 +372,7 @@ export default function Page() {
                 description="This blog breaks down what makes Salesforce partnerships successful, how they drive enterprise growth, and how the best partners deliver measurable value."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/partner-salesforce-right-way-for-growth/"
+                    "https://www.rialtes.com/insights/blogs/partner-salesforce-right-way-for-growth"
                 }
             />
 

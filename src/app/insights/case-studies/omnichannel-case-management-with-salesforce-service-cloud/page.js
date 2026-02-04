@@ -41,7 +41,7 @@ export default function Page() {
       <Seo
         title="Salesforce Service Cloud Case Study: Omnichannel Case Management"
         description="Discover a Salesforce Service Cloud success story—next-gen case management transformed with automation, faster service, and elevated customer support."
-        canonical="https://www.rialtes.com/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud/"
+        canonical="https://www.rialtes.com/insights/case-studies/omnichannel-case-management-with-salesforce-service-cloud"
       />
 
       <Script

@@ -41,7 +41,7 @@ export default function Page() {
             <Seo
                 title="Salesforce Sales Cloud Case Study: Front Load in Manufacturing"
                 description="Discover how front loading sales workflows using Salesforce Sales Cloud improved conversion speed and deal closures for a manufacturer."
-                canonical="https://www.rialtes.com/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/"
+                canonical="https://www.rialtes.com/insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company"
             />
 
 

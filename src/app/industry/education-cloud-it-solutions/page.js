@@ -245,7 +245,7 @@ export default function Page() {
       <Seo
         title="Salesforce Cloud IT Solutions for Education Industry | Rialtes"
         description="IT solutions for education using AI and Salesforce Cloud empower K–12 to higher ed to transform learning. Explore smarter outcomes with Rialtes today."
-        canonical="https://www.rialtes.com/industry/education-cloud-it-solutions/"
+        canonical="https://www.rialtes.com/industry/education-cloud-it-solutions"
       />
       <Script
         id="schema-education"

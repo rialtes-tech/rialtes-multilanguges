@@ -215,7 +215,7 @@ export default function Contact() {
                 title="Our Strategic Partners – Empowering Success with Rialtes"
                 description="Rialtes partners with top IT and SaaS companies to deliver innovative solutions. Explore our trusted network of collaborators driving business success."
                 keywords="Partners, website, welcome"
-                canonical={"https://www.rialtes.com/about-us/global-alliances/"}
+                canonical={"https://www.rialtes.com/about-us/global-alliances"}
             />
             <Script
                 id="schema-partners"

@@ -230,7 +230,7 @@ export default function Page() {
             <Seo
                 title="Enterprise Agentic AI: Reimagine Workflows Smarter | Rialtes"
                 description="Agentic AI is helping enterprises automate smarter. They act on intent, respond in real time, and learn as they go, turning tasks into intelligent workflows."
-                canonical={"https://www.rialtes.com/insights/blogs/reimagine-enterprise-using-agentic-ai-systems/"}
+                canonical={"https://www.rialtes.com/insights/blogs/reimagine-enterprise-using-agentic-ai-systems"}
             />
 
             <Script

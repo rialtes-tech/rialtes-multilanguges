@@ -233,7 +233,7 @@ export default function Page() {
                 description="Salesforce powers automotive innovation with the automotive digital twin and predictive maintenance, advancing data-centric operations and value creation."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/digital-twin-in-automotive-industry-salesforce-cloud/"
+                    "https://www.rialtes.com/insights/blogs/digital-twin-in-automotive-industry-salesforce-cloud"
                 }
             />
 

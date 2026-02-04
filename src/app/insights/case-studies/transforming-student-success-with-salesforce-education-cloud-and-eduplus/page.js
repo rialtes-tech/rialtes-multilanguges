@@ -93,7 +93,7 @@ export default function page() {
             <Seo
                 title="Salesforce Education Cloud Case Study | Rialtes"
                 description="See how Rialtes Edu+ on Salesforce Education Cloud boosted enrollment by 22% and improved student support with AI, automation, and connected experiences."
-                canonical="https://www.rialtes.com/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus/"
+                canonical="https://www.rialtes.com/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus"
             />
             <Script
                 id="schema-revolutionizing"

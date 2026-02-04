@@ -239,7 +239,7 @@ export default function Page() {
         title="Grow with SAP Solutions by a Trusted SAP Partner | Rialtes"
         description="Grow with SAP solutions that deliver measurable business success, powered by Rialtes—a trusted SAP partner driving enterprise-ready innovation and growth."
         keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/services/business-transformation/grow-with-sap-services/"
+        canonical="https://www.rialtes.com/services/business-transformation/grow-with-sap-services"
       />
       <Script
         id="schema-grow"

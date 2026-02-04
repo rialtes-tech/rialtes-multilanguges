@@ -40,7 +40,7 @@ export default function Page() {
       <Seo
         title="Salesforce DevOps Case Study: How to Front Load Delivery"
         description="Discover how front loading DevOps with Copado and Salesforce improved release speed and reduced manual errors for a tech-forward enterprise."
-        canonical="https://www.rialtes.com/insights/case-studies/streamlined-devops-using-copado-and-salesforce/"
+        canonical="https://www.rialtes.com/insights/case-studies/streamlined-devops-using-copado-and-salesforce"
       />
 
       <Script

@@ -317,7 +317,7 @@ export default function Page() {
       <Seo
         title="DemandPlus with Kinaxis RapidResponse: Resilient Supply Chains"
         description="DemandPlus is our end-to-end service suite built around Kinaxis RapidResponse to help organizations achieve connected, intelligent, and resilient supply chains."
-        canonical={"https://www.rialtes.com/insights/blogs/kinaxis-rapidresponse-demandplus-real-time-supply-chain/" }
+        canonical={"https://www.rialtes.com/insights/blogs/kinaxis-rapidresponse-demandplus-real-time-supply-chain" }
       />
       <Script
         id="schema-kinaxis"

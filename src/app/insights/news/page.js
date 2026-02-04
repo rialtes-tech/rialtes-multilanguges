@@ -127,7 +127,7 @@ export default function Page() {
       <Seo
         title="Rialtes News | PR Highlights and Industry Collaborations"
         description="From headline PR to powerful partnerships—explore how Rialtes leads industry change with innovation, tech moves, and smart collaborations."
-        canonical="https://www.rialtes.com/insights/news/"
+        canonical="https://www.rialtes.com/insights/news"
       />
       <Script
         id="schema-news-main"

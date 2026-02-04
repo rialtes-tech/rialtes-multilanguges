@@ -39,7 +39,7 @@ export default function Page() {
       <Seo
         title="Revolutionizing Automotive Dealer Management with AutoSense | Rialtes"
         description="Discover how Rialtes transformed automotive dealer management with AutoSense—modern UX, SAP & Salesforce integration, and real-time operations."
-        canonical="https://www.rialtes.com/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense/"
+        canonical="https://www.rialtes.com/insights/case-studies/revolutionizing-dealer-management-for-a-leading-automotive-manufacturer-with-autosense"
       />
 
 

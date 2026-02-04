@@ -663,7 +663,7 @@ export default function page() {
                 title="SAP Ariba Implementation Partner and Procurement Solutions | Rialtes"
                 description="As a leading Ariba implementation partner, Rialtes powers procurement transformation with SAPBuy+ and expert Ariba services tailored to modern supply chain needs."
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner/"
+                canonical="https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner"
             />
             <Script
                 id="schema-sap-buy-plus"

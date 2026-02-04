@@ -234,7 +234,7 @@ export default function Page() {
         title="Digital Innovation Unlocking Smarter Clinical Trial Management"
         description="Digital innovation is transforming the clinical research landscape as AI, automation, and connected ecosystems redefine execution of digital clinical trials."
         canonical={
-          "https://www.rialtes.com/insights/blogs/how-digital-innovation-transforms-clinical-trial-management/"
+          "https://www.rialtes.com/insights/blogs/how-digital-innovation-transforms-clinical-trial-management"
         }
       />
 

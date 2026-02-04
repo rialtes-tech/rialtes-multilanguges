@@ -279,7 +279,7 @@ export default function page() {
                 title="Salesforce Life Sciences Cloud Consulting Services | Rialtes"
                 description="LifeAI+ by Rialtes provides Salesforce Life Sciences cloud consulting to streamline healthcare operations, enhance compliance, and elevate patient care"
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/"
+                canonical="https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting"
             />
             <Script
                 id="schema-lifeaiplus"

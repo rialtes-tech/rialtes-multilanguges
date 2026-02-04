@@ -327,7 +327,7 @@ export default function Page() {
                 description="A fragmented customer journey occurs when interactions across channels, teams, and systems fail to connect into a single, coherent experience."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/fragmented-customer-journeys-salesforce-marketing-cloud/"
+                    "https://www.rialtes.com/insights/blogs/fragmented-customer-journeys-salesforce-marketing-cloud"
                 }
             />
 

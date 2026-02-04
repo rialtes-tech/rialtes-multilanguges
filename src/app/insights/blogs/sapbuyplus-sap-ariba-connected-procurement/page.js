@@ -360,7 +360,7 @@ export default function Page() {
                 description="SAPBuy+ is Rialtes’ comprehensive service suite built around SAP Ariba to deliver end-to-end procurement transformation along with system implementation."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/sapbuyplus-sap-ariba-connected-procurement/"
+                    "https://www.rialtes.com/insights/blogs/sapbuyplus-sap-ariba-connected-procurement"
                 }
             />
 

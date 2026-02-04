@@ -42,7 +42,7 @@ export default function Page() {
       <Seo
         title="Your Guide to SAP SuccessFactors for Remote Teams | Rialtes"
         description="Facing challenges managing remote teams? SAP SuccessFactors offers tools to boost engagement, track performance, and ensure seamless collaboration."
-        canonical="https://www.rialtes.com/insights/blogs/how-sap-successfactors-enhances-remote-work-management/"
+        canonical="https://www.rialtes.com/insights/blogs/how-sap-successfactors-enhances-remote-work-management"
       />
       <Script
         id="schema-how-sap"

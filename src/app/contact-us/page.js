@@ -222,7 +222,7 @@ const LocationPage = () => {
                 title="Contact Us – Expert IT Consulting for Your Business Growth | Rialtes"
                 description="Have a question or need IT consulting services? Contact Rialtes for expert advice on SaaS solutions and IT strategy that drive business success."
                 keywords="Contact, website, welcome"
-                canonical={"https://www.rialtes.com/contact-us/"}
+                canonical={"https://www.rialtes.com/contact-us"}
             />
             <Script
                 id="schema-contact-us"

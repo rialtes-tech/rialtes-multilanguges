@@ -175,7 +175,7 @@ export default function DemandPlusSection() {
         title="Tosca Software Automation Testing Services | Rialtes"
         description="Rialtes offers Tosca Software Automation Testing Services with AI, CI/CD, and risk-based testing for seamless transformation of SAP, Salesforce, and DevOps"
         keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/solutions/quality-engineering-assurance/tosca-software-automation-testing/"
+        canonical="https://www.rialtes.com/solutions/quality-engineering-assurance/tosca-software-automation-testing"
       />
       <Script
         id="schema-toska"

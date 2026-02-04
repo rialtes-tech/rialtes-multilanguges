@@ -262,7 +262,7 @@ export default function Page() {
                 title="SAP Accountability: The Real Measure of Consulting Trust | Rialtes"
                 description="Accountability enforces responsibility for outcomes, not just deliverables. A credible SAP partner steps forward during conflict, not sideways."
                 keywords="Partners, website, welcome"
-                canonical={"https://www.rialtes.com/insights/blogs/sap-consulting-trust-through-accountability/"}
+                canonical={"https://www.rialtes.com/insights/blogs/sap-consulting-trust-through-accountability"}
             />
 
             <Script

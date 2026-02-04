@@ -167,7 +167,7 @@ export default function page() {
             <Seo
                 title="SAP ERP Cloud Solutions for Automotive | A Case Study"
                 description="This automotive case study showcases how SAP ERP Cloud solutions have brought innovation to O2C and P2P, enhancing accuracy, inventory control, and speed."
-                canonical={`https://www.rialtes.com/insights/case-studies/sap-erp-cloud-solutions-automotive-case-study/`}
+                canonical={`https://www.rialtes.com/insights/case-studies/sap-erp-cloud-solutions-automotive-case-study`}
             />
             <Script
                 id="schema-revolutionizing"

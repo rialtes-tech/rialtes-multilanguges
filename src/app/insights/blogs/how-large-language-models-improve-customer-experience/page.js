@@ -176,7 +176,7 @@ export default function Page() {
                 description="LLMs, powered by generative AI, are redefining how businesses listen and respond. They go beyond automation, enable real conversation, and transform CX."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/how-large-language-models-improve-customer-experience/"
+                    "https://www.rialtes.com/insights/blogs/how-large-language-models-improve-customer-experience"
                 }
             />
 

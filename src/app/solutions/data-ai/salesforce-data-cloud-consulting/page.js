@@ -188,7 +188,7 @@ export default function DataCloud() {
         title="Salesforce Data Cloud Implementation and Consulting Services | Rialtes"
         description="Expert Salesforce Data Cloud implementation and consulting to fuel growth, boost decisions, accelerate innovation, and drive stronger outcomes with Rialtes."
         keywords="home, website, welcome"
-        canonical={"https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/"}
+        canonical={"https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting"}
       />
 
       <Script

@@ -503,7 +503,7 @@ export default function Page() {
     <div className="min-h-screen bg-white">
       <Seo title="Salesforce and SAP Wins | Case Studies That Inspire | Rialtes"
         description="Explore SAP and Salesforce case studies from Rialtes. See how global businesses drive AI-powered innovation, efficiency, and ROI through smart tech solutions."
-        canonical="https://www.rialtes.com/insights/case-studies/" />
+        canonical="https://www.rialtes.com/insights/case-studies" />
 
       <Script
         id="schema-case-study"

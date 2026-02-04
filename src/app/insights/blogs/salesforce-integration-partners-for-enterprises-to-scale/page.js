@@ -383,7 +383,7 @@ export default function Page() {
                 description="For enterprises focused on scale, automation, and AI readiness, integration is no longer a supporting activity. It’s foundational."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/salesforce-integration-partners-for-enterprises-to-scale/"
+                    "https://www.rialtes.com/insights/blogs/salesforce-integration-partners-for-enterprises-to-scale"
                 }
             />
 

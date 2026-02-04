@@ -253,7 +253,7 @@ export default function Page() {
                 description=" If your research team is still wondering why patients drop out of clinical trials, the reason often lies in gaps in experience, communication, or support."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/why-patient-drop-out-clinical-trials-and-how-to-prevent-it/"
+                    "https://www.rialtes.com/insights/blogs/why-patient-drop-out-clinical-trials-and-how-to-prevent-it"
                 }
             />
 

@@ -119,7 +119,7 @@ export default function Page() {
             <Seo
                 title="Agentforce for Manufacturing: AI Service Edge | Rialtes"
                 description="Want to scale smarter? Agentforce for Manufacturing brings AI copilots, predictive service, and self-service tools to elevate your support and sales ops."
-                canonical={" https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions/"}
+                canonical={" https://www.rialtes.com/insights/blogs/agentforce-for-manufacturing-exceed-customer-expectations-with-ai-powered-salesforce-solutions"}
             />
 
             <Script

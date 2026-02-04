@@ -247,7 +247,7 @@ export default function Page() {
                 description="Discover how a connected care ecosystem helps Pharma and MedTech with predictive alerts, chronic care, and remote monitoring for better outcomes."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/connected-care-ecosystem-pharma-medtech/"
+                    "https://www.rialtes.com/insights/blogs/connected-care-ecosystem-pharma-medtech"
                 }
             />
 

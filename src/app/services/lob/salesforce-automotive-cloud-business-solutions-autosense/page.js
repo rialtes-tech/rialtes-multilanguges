@@ -144,7 +144,7 @@ const KeyPillarsSectionDesign = () => {
                 title="Salesforce Automotive Cloud Solutions and Services | Rialtes AutoSense"
                 description="Salesforce automotive cloud by Rialtes AutoSense drives innovation and efficiency, helping automotive businesses deliver exceptional customer experiences."
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/services/lob/salesforce-automotive-cloud-business-solutions-autosense/"
+                canonical="https://www.rialtes.com/services/lob/salesforce-automotive-cloud-business-solutions-autosense"
             />
             <div className="custom-container">
                 <h2 className="text-[000000] 4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight font-bold">
