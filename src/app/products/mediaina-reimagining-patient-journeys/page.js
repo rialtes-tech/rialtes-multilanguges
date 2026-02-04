@@ -318,8 +318,8 @@ export default function Page() {
                                 alt="LifeAI Illustration"
                                 className="object-cover w-full h-full 4xl:h-[814px] 2xl:h-[800px] xl:h-[815px]"
                                 priority
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                             />
                         </div>
                         <div className="xl:hidden block">
@@ -328,8 +328,8 @@ export default function Page() {
                                 alt="LifeAI Illustration"
                                 className="object-cover w-full h-full"
                                 priority
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                             />
                         </div>
                     </div>
@@ -388,8 +388,8 @@ export default function Page() {
                                 src="/images/products/mediaina/desktop/patient-desktop.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[551px] xl:h-[550px] 2xl:h-[500px] 4xl:w-[600px] w-full object-cover"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 priority
                             />
                         </div>
@@ -398,8 +398,8 @@ export default function Page() {
                                 src="/images/products/mediaina/mobile/paitient-mobile.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -420,8 +420,8 @@ export default function Page() {
                                 src="/images/products/mediaina/desktop/candidate.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[615px] 4xl:w-[600px] 2xl:h-[550px] w-full object-cover relative"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 priority
                             />
                         </div>
@@ -430,8 +430,8 @@ export default function Page() {
                                 src="/images/products/mediaina/mobile/candidate.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover max-md:px-[35px] relative"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -533,8 +533,8 @@ export default function Page() {
                                 src="/images/products/mediaina/desktop/digital.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[651px] 2xl:h-[590px] xl:h-[600px] w-full object-cover"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 priority
                             />
                         </div>
@@ -543,8 +543,8 @@ export default function Page() {
                                 src="/images/products/mediaina/mobile/digital.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -563,8 +563,8 @@ export default function Page() {
                                 src="/images/products/mediaina/desktop/clinical.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[580px] xl:h-[600px] 2xl:h-[500px] w-full object-cover relative"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 priority
                             />
                         </div>
@@ -573,8 +573,8 @@ export default function Page() {
                                 src="/images/products/mediaina/mobile/clinical.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -677,8 +677,8 @@ export default function Page() {
                                 src="/images/products/mediaina/desktop/long.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[630px] w-full object-cover 2xl:h-[550px]"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 priority
                             />
                         </div>
@@ -687,8 +687,8 @@ export default function Page() {
                                 src="/images/products/mediaina/mobile/long.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -706,8 +706,8 @@ export default function Page() {
                                 src="/images/products/mediaina/desktop/body.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[580px] w-full object-cover relative"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 priority
                             />
                         </div>
@@ -716,8 +716,8 @@ export default function Page() {
                                 src="/images/products/mediaina/mobile/body.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -818,8 +818,8 @@ export default function Page() {
                                 src="/images/products/mediaina/desktop/conversational.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[650px] 2xl:h-[600px] w-full object-cover"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 priority
                             />
                         </div>
@@ -828,8 +828,8 @@ export default function Page() {
                                 src="/images/products/mediaina/mobile/conver.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -848,8 +848,8 @@ export default function Page() {
                                 src="/images/products/mediaina/desktop/unified.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[650px]  w-full object-cover relative"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 priority
                             />
                         </div>
@@ -858,8 +858,8 @@ export default function Page() {
                                 src="/images/products/mediaina/mobile/unified.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -962,8 +962,8 @@ export default function Page() {
                                 src="/images/products/mediaina/desktop/seamless.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[680px] 2xl:h-[550px] w-full object-cover"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 priority
                             />
                         </div>
@@ -972,8 +972,8 @@ export default function Page() {
                                 src="/images/products/mediaina/mobile/seamless.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -991,8 +991,8 @@ export default function Page() {
                                 src="/images/products/mediaina/desktop/real.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[650px] w-full object-cover relative"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 priority
                             />
                         </div>
@@ -1001,8 +1001,8 @@ export default function Page() {
                                 src="/images/products/mediaina/mobile/real.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -1099,8 +1099,8 @@ export default function Page() {
                                 src="/images/products/mediaina/desktop/order.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[580px] 2xl:h-[600px] xl:h-[600px] w-full object-cover"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={600}
                                 priority
                             />
                         </div>
@@ -1109,8 +1109,8 @@ export default function Page() {
                                 src="/images/products/mediaina/mobile/order.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -1128,8 +1128,8 @@ export default function Page() {
                                 src="/images/products/mediaina/desktop/trusted.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="4xl:h-[630px] w-full object-cover relative"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 priority
                             />
                         </div>
@@ -1138,8 +1138,8 @@ export default function Page() {
                                 src="/images/products/mediaina/mobile/trusted.webp"
                                 alt="enabling-dynamic-img-mobile"
                                 className="h-auto w-full max-w-full object-cover relative max-md:px-[35px]"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>

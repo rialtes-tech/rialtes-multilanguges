@@ -186,15 +186,15 @@ export default function page() {
                     />
                 </div>
                 <div className="xl:hidden block h-full">
-                    <Image
+                    <Image 
                         src="/images/case-studies/automotive-tire-factory-production-line-mobile.webp"
                         alt="Automotive tires moving on a production line in a modern manufacturing facility Mobile"
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-full object-cover"
                     />
-                </div>
+                </div> 
             </section>
 
             <section className="custom-container 4xl:mt-[80px] xl:mt-[60px] mt-[40px]">

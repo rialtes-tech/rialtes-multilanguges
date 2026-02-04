@@ -497,8 +497,8 @@ export default function Page() {
                         <Image
                             src="/images/products/exelona/desktop/asset-marketing.webp"
                             alt="Asset Marketing"
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630} 
                             className="object-cover h-full w-full xl:pt-[40px]"
                         />
                     </div>
@@ -534,10 +534,12 @@ export default function Page() {
                 <div className="custom-container mx-auto grid lg:grid-cols-12 gap-0 4xl:px-0 2xl:px-0 lg:px-0 max-lg:!px-0 lg:mt-[-80px] mt-[-20px]">
                     {/* Left Side - Image */}
                     <div className="lg:col-span-4 col-span-12 relative 4xl:my-16 2xl:my-14 lg:my-12 z-[9] 4xl:mr-[-140px] 2xl:m4-[100px] lg:mr-[-80px] mt-[-100px] ">
-                        <img
+                        <Image
                             src="/images/products/exelona/desktop/ai-enable.webp"
                             alt="AI Property Operations"
                             className="w-full h-full object-cover max-lg:px-[35px] md:h-[700px] lg:h-full"
+                            width={1200}
+                            height={700}
                         />
                     </div>
 
@@ -761,8 +763,8 @@ export default function Page() {
                                 alt="AI Property Operations"
                                 className="w-full h-full object-cover max-xl:px-[36px] sm:h-[700px] xl:h-full 4xl:h-[740px]"
                                 priority
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                             />
                         </div>
                     </div>
@@ -770,10 +772,13 @@ export default function Page() {
                 {/* agent chat section */}
                 <section className="custom-container mx-auto grid xl:grid-cols-12 gap-0 items-stretch 4xl:pl-[140px] 2xl:pl-[100px] xl:pl-[80px] 2xl:px-0 xl:px-0 max-xl:px-0 max-xl:bg-[#073259] max-xl:mt-[300px] xl:mt-20">
                     <div className="xl:col-span-3 col-span-12 relative 4xl:mt-16 2xl:mt-14 xl:mt-12 z-[9] 4xl:mr-[-140px] xl:mr-[-80px] mt-[-200px]">
-                        <img
+                        <Image
                             src="/images/products/exelona/desktop/agentchat.webp"
                             alt="AI Property Operations"
                             className="w-full h-full object-cover max-xl:px-[36px]"
+                            width={1200}
+                            height={630}
+                            priority
                         />
                     </div>
 

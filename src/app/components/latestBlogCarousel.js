@@ -315,8 +315,8 @@ export default function BlogsCarousel() {
                   <Image
                     src={slide.image}
                     alt={slide.title}
-                    width={0}
-                    height={0}
+                    width={400}
+                    height={300}
                     sizes="100vw"
                     style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                     priority

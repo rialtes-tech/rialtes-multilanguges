@@ -209,10 +209,11 @@ export default function Home() {
                     GROW with SAP: A Game Changer for Financial Services in Banking and Insurance
                 </h1>
                 <div className="relative h-[300px] md:h-[400px] w-full overflow-hidden">
-                    <img
+                    <Image
                         src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80"
                         alt="Digital Technology Banner"
                         className="w-full h-full object-cover"
+                        fill
                     />
                     <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 to-purple-900/70"></div>
                 </div>

@@ -69,9 +69,9 @@ export default function Page() {
                             src="/images/homepage/banner.webp"
                             alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
                             className="!w-full"
-                            width={0}
-                            height={0}
-                            priority
+                            width={375}
+                            height={250}
+                            priority 
                         />
                     </div>
 
