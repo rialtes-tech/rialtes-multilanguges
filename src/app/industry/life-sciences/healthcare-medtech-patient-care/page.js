@@ -279,7 +279,7 @@ export default function Page() {
         title="MedTech Healthcare Consulting and Patient Care Solutions | Rialtes"
         description="Rialtes delivers AI-powered MedTech healthcare consulting and patient care solutions to enhance clinical outcomes and streamline healthcare operations."
         keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/industry/life-sciences/healthcare-medtech-patient-care/"
+        canonical="https://www.rialtes.com/industry/life-sciences/healthcare-medtech-patient-care"
       />
       <Script
         id="schema-healthcare"

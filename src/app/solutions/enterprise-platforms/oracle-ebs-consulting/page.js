@@ -254,7 +254,7 @@ export default function Page() {
       <Seo
         title="Oracle EBS Consulting Services and Solutions | Rialtes"
         description="Oracle EBS Consulting Services and Solutions by Rialtes' OracleEBS+ deliver smarter ERP performance, increased agility, and innovation-driven business growth."
-        canonical="https://www.rialtes.com/solutions/enterprise-platforms/oracle-ebs-consulting/"
+        canonical="https://www.rialtes.com/solutions/enterprise-platforms/oracle-ebs-consulting"
       />
       <Script
         id="schema-oracle"

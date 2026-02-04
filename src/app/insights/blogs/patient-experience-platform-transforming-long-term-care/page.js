@@ -230,7 +230,7 @@ export default function Page() {
                 title="Patient Experience Platform Transforming Long-Term Care | Rialtes"
                 description="Discover how MediAIna, Rialtes’ patient experience platform, redefines healthcare journeys with digital engagement, AI insights, and chronic care support."
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/patient-experience-platform-transforming-long-term-care/"
+                    "https://www.rialtes.com/insights/blogs/patient-experience-platform-transforming-long-term-care"
                 }
             />
 

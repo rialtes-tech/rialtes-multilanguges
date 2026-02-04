@@ -254,7 +254,7 @@ export default function Page() {
         title="Rise with SAP Services from a Trusted Implementation Partner | Rialtes"
         description="Looking for a SAP Rise implementation partner you can trust? Rialtes’ Voyager+ delivers tailored rise with SAP services for smooth S/4HANA transformation."
         keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/services/business-transformation/rise-with-sap-services/"
+        canonical="https://www.rialtes.com/services/business-transformation/rise-with-sap-services"
       />
       <Script
         id="schema-rise"

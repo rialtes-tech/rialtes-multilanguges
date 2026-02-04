@@ -10,7 +10,7 @@ import UnorderedList from "@/app/components/unorderedList";
 import FAQAccordion from "@/app/components/faqAccordion";
 
 const schemaData = {
-   "@context": "https://schema.org",
+  "@context": "https://schema.org",
   "@type": "BlogPosting",
   "headline": "The Rise of Himachal in India’s Pharma Industry | Rialtes",
   "description": "Explore how Himachal Pradesh became a pharma manufacturing leader with SEZs, tax breaks, global supply links, and 600+ certified production units.",
@@ -239,7 +239,7 @@ export default function Page() {
         title="The Rise of Himachal in India’s Pharma Industry | Rialtes"
         description="Explore how Himachal Pradesh became a pharma manufacturing leader with SEZs, tax breaks, global supply links, and 600+ certified production units."
         canonical={
-          "https://www.rialtes.com/insights/blogs/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities/"
+          "https://www.rialtes.com/insights/blogs/himachal-pradesh-the-pharma-jewel-of-north-india-with-the-largest-pharma-manufacturing-facilities"
         }
       />
       <Script
@@ -311,7 +311,7 @@ export default function Page() {
                   src="/images/blog/india-pharma-global-impact.png"
                   alt="Infographic showing India supplies 20% global generic exports, 40% US generic demand, 25% UK medicines"
                   width={1200}
-  height={630}
+                  height={630}
                   className="4xl:w-[80%] 2xl:w-[70%] xl:w-[72%] h-full w-full relative 4xl:right-[64px] 2xl:right-[42px] xl:right-[38px] lg:right-[55px]  md:w-[80%]"
                 />
               </div>
@@ -449,7 +449,7 @@ export default function Page() {
                     </h2>
 
                     {item.data.map((paragraph, i) => (
-                      <p  
+                      <p
                         key={i}
                         className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
                         dangerouslySetInnerHTML={{ __html: paragraph }}

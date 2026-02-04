@@ -262,7 +262,7 @@ export default function page() {
             <Seo
                 title="Salesforce Financial Services Cloud Consulting | RialFinance+"
                 description="Rialtes RialFinance+ delivers Salesforce Financial Services Cloud (FSC) consulting with AI-led design, strategic advisory, implementation, and 24/7 support."
-                canonical="https://www.rialtes.com/services/lob/salesforce-fsc-consulting-rialfinanceplus/"
+                canonical="https://www.rialtes.com/services/lob/salesforce-fsc-consulting-rialfinanceplus"
             />
             <Script
                 id="schema-realfinance"

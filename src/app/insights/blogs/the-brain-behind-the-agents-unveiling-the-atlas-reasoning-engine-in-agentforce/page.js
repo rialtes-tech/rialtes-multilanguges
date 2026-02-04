@@ -275,7 +275,7 @@ export default function Page() {
         description="The Atlas Reasoning Engine is an AI system built into Agentforce that helps agents analyze complex situations, reason through them, and choose their next step."
         keywords="Partners, website, welcome"
         canonical={
-          "https://www.rialtes.com/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce/"
+          "https://www.rialtes.com/insights/blogs/the-brain-behind-the-agents-unveiling-the-atlas-reasoning-engine-in-agentforce"
         }
       />
 

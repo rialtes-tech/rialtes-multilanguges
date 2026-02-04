@@ -239,7 +239,7 @@ export default function Page() {
                 description="See how intelligent ecosystems enhance the clinical trial patient journey through connected tools, better engagement, and higher retention."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/reimagining-clinical-trial-patient-journey/"
+                    "https://www.rialtes.com/insights/blogs/reimagining-clinical-trial-patient-journey"
                 }
             />
 

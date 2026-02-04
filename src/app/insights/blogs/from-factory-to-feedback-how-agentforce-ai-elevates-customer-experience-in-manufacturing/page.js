@@ -150,7 +150,7 @@ export default function Page() {
             <Seo
                 title="Agentforce for Manufacturers: Smart AI for CX | Rialtes"
                 description="With AI-driven visibility and automation, Agentforce for manufacturers reimagines CX, creating smarter, proactive, and seamless customer journeys."
-                canonical={"https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing/"}
+                canonical={"https://www.rialtes.com/insights/blogs/from-factory-to-feedback-how-agentforce-ai-elevates-customer-experience-in-manufacturing"}
             />
 
             <Script

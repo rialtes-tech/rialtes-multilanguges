@@ -43,7 +43,7 @@ export default function Page() {
       <Seo
         title="SAP Joule AI: Powering the Future of Enterprise | Rialtes"
         description="SAP Joule AI transforms business operations by enabling faster decision-making, giving users instant answers without navigating complex dashboards."
-        canonical={"https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/"}
+        canonical={"https://www.rialtes.com/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule"}
       />
       <Script
         id="schema-redefining"

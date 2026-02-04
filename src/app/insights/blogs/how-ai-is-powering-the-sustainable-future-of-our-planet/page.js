@@ -155,7 +155,7 @@ export default function Page() {
             <Seo
                 title="How AI Can Enable a Sustainable Future for Our Planet | Rialtes"
                 description="AI is helping protect the planet and make sustainability scalable, from tracking deforestation to predicting energy demand and preserving biodiversity."
-                canonical={"https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet/"}
+                canonical={"https://www.rialtes.com/insights/blogs/how-ai-is-powering-the-sustainable-future-of-our-planet"}
             />
 
             <Script

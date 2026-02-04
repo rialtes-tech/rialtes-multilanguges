@@ -282,7 +282,7 @@ export default function Page() {
                 description="Ready to automate with AI? Use this step-by-step guide to build AI agents in Agentforce by Salesforce without coding or expensive systems."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/"
+                    "https://www.rialtes.com/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce"
                 }
             />
 

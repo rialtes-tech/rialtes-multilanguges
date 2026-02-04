@@ -282,7 +282,7 @@ export default function Page() {
                 title="Salesforce Consulting Playbook for Enterprise Growth | Rialtes"
                 description="As Salesforce ecosystems grow more complex, this consulting playbook shows enterprises how to drive clarity, efficiency, and ROI."
                 keywords="Partners, website, welcome"
-                canonical={`https://www.rialtes.com/insights/blogs/salesforce-consulting-playbook-enterprise-growth/`}
+                canonical={`https://www.rialtes.com/insights/blogs/salesforce-consulting-playbook-enterprise-growth`}
             />
 
             <Script

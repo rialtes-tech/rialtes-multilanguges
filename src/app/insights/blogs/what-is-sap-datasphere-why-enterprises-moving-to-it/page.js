@@ -281,7 +281,7 @@ export default function Page() {
                 title="SAP Datasphere: What It Is and Why It Matters Now | Rialtes"
                 description="SAP Datasphere is SAP’s next-generation data platform designed to unify enterprise data without breaking business logic across SAP and non-SAP systems."
                 keywords="Partners, website, welcome"
-                canonical={`https://www.rialtes.com/insights/blogs/what-is-sap-datasphere-why-enterprises-moving-to-it/`}
+                canonical={`https://www.rialtes.com/insights/blogs/what-is-sap-datasphere-why-enterprises-moving-to-it`}
             />
 
             <Script

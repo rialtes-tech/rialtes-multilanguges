@@ -258,7 +258,7 @@ export default function Industry() {
         title="Salesforce & SAP Solutions by Industry | Rialtes"
         description="Salesforce and SAP industry solutions that drive measurable outcomes, streamline operations, and unlock innovation in every sector we serve."
         keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/industry/"
+        canonical="https://www.rialtes.com/industry"
       />
       <Script
         id="schema-industry"

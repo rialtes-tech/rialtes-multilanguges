@@ -42,7 +42,7 @@ export default function Page() {
       <Seo
         title="Key Features That Make Agentforce a Game-Changer | Rialtes"
         description="Salesforce Agentforce features address CX gaps with intelligent routing, AI-led case resolution, and performance dashboards for better decisions."
-        canonical="https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should/"
+        canonical="https://www.rialtes.com/insights/blogs/salesforce-agentforce-top-features-youre-probably-not-using-but-should"
       />
 
       <Script

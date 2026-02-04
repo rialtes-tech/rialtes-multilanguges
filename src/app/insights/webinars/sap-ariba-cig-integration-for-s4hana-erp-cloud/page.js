@@ -73,7 +73,7 @@ export default function () {
             <Seo
                 title="SAP Ariba CIG Integration Webinar: S/4HANA Cloud Sync | Rialtes"
                 description="Discover how SAP Ariba CIG integration helps ERP and S/4HANA users streamline procurement with cloud-based automation and insights."
-                canonical="https://www.rialtes.com/insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud/"
+                canonical="https://www.rialtes.com/insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud"
             />
 
            <Script

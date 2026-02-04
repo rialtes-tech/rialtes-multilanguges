@@ -40,7 +40,7 @@ export default function Page() {
     <div className="min-h-screen bg-white">
       <Seo
         title="Rialtes Becomes Official Salesforce Reseller Partner"
-        canonical="https://www.rialtes.com/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner/"
+        canonical="https://www.rialtes.com/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner"
         description="Rialtes is now an official Salesforce Reseller Partner, offering complete Salesforce licensing, implementation, and managed services under one roof"
       />
     

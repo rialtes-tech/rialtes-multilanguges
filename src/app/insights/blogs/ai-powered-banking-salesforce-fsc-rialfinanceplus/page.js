@@ -10,80 +10,79 @@ import Link from "next/link";
 import UnorderedList from "@/app/components/unorderedList";
 
 export default function Page() {
-  const fullUrl =
-    "https://www.rialtes.com/insights/blogs/ai-powered-banking-salesforce-fsc-rialfinanceplus";
+  const fullUrl = "https://www.rialtes.com/insights/blogs/ai-powered-banking-salesforce-fsc-rialfinanceplus";
   const currUrl = useUrl();
 
   const schemaData = {
-  "@context": "https://schema.org",
-  "@type": "BlogPosting",
-  "headline": "RialFinancePlus and the Rise of AI-Powered Banking",
-  "description": "Through RialFinance+, we help financial institutions turn Salesforce FSC into a connected, compliant, and insight-driven platform that changes how teams engage clients, manage risk, and make decisions.",
-  "image": "https://www.rialtes.com/image/blogs/smart-city-digital-network-iot-technology-banner",
-  "author": {
-    "@type": "Organization",
-    "name": "Rialtes"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Rialtes",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://www.rialtes.com/insights/blogs/ai-powered-banking-salesforce-fsc-rialfinanceplus/"
-  },
-  "datePublished": "2026-01-14",
-  "mainEntity": {
-    "@type": "FAQPage",
-    "name": "AI-Driven Financial Services Transformation FAQs",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "What makes Salesforce Financial Services Cloud different from traditional CRM?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Salesforce FSC is built specifically for financial services, with industry data models, compliance-ready workflows, and relationship hierarchies that generic CRMs lack. When combined with AI, it becomes a decision-support platform, not just a tracking system."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "How does AI improve client engagement in banking and wealth management?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "AI analyzes behavior, life events, and interaction patterns to recommend next-best actions, personalized offers, and proactive service opportunities, helping advisors stay relevant without being intrusive."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Can AI-powered FSC support regulatory compliance?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes. FSC embeds compliance into workflows, while AI adds predictive risk monitoring, automated documentation, and real-time exception handling."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What is RialFinance+ and how is it different from standard implementation services?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "RialFinance+ is a full managed services model that combines advisory, implementation, AI integration, QA, and continuous optimization into one unified approach, ensuring long-term value, not just a successful go-live."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Which financial institutions benefit most from RialFinance+?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Banks, lenders, credit unions, and wealth management firms are looking to modernize engagement, streamline operations, and scale personalization without compromising compliance."
-        }
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "RialFinancePlus and the Rise of AI-Powered Banking",
+    "description": "Through RialFinance+, we help financial institutions turn Salesforce FSC into a connected, compliant, and insight-driven platform that changes how teams engage clients, manage risk, and make decisions.",
+    "image": "https://www.rialtes.com/image/blogs/smart-city-digital-network-iot-technology-banner",
+    "author": {
+      "@type": "Organization",
+      "name": "Rialtes"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Rialtes",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.rialtes.com/images/homepage/logo.svg"
       }
-    ]
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://www.rialtes.com/insights/blogs/ai-powered-banking-salesforce-fsc-rialfinanceplus/"
+    },
+    "datePublished": "2026-01-14",
+    "mainEntity": {
+      "@type": "FAQPage",
+      "name": "AI-Driven Financial Services Transformation FAQs",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What makes Salesforce Financial Services Cloud different from traditional CRM?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Salesforce FSC is built specifically for financial services, with industry data models, compliance-ready workflows, and relationship hierarchies that generic CRMs lack. When combined with AI, it becomes a decision-support platform, not just a tracking system."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does AI improve client engagement in banking and wealth management?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "AI analyzes behavior, life events, and interaction patterns to recommend next-best actions, personalized offers, and proactive service opportunities, helping advisors stay relevant without being intrusive."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can AI-powered FSC support regulatory compliance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. FSC embeds compliance into workflows, while AI adds predictive risk monitoring, automated documentation, and real-time exception handling."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is RialFinance+ and how is it different from standard implementation services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RialFinance+ is a full managed services model that combines advisory, implementation, AI integration, QA, and continuous optimization into one unified approach, ensuring long-term value, not just a successful go-live."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Which financial institutions benefit most from RialFinance+?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Banks, lenders, credit unions, and wealth management firms are looking to modernize engagement, streamline operations, and scale personalization without compromising compliance."
+          }
+        }
+      ]
+    }
   }
-}
   const blogMainData = [
     "Financial services are changing faster than most institutions can redesign their operating models. <a href='https://www.accenture.com/us-en/insights/banking/banking-consumer-study' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>According to Accenture</a>, nearly 73% of banking customers now expect the same level of personalization and digital ease they get from consumer apps, yet only a fraction believes their bank delivers it. Add rising regulatory pressure and shrinking margins, and the gap becomes even clearer: institutions are being asked to move faster, act smarter, and stay compliant at the same time.",
     "Traditional CRM wasn’t built for this reality. It was designed to log interactions, not to guide decisions in real time. That’s why forward-thinking banks, lenders, and wealth firms are moving beyond basic CRM into AI-powered Salesforce Financial Services Cloud (FSC) — a platform built to connect data, intelligence, and action.",
@@ -282,7 +281,7 @@ export default function Page() {
         title="How AI Is Redefining Banking with Salesforce FSC | RialFinancePlus"
         description="Through RialFinance+, financial institutions turn Salesforce FSC into a connected, compliant, insight-driven platform for intelligent engagement and risk control."
         canonical={
-          "https://www.rialtes.com/insights/blogs/ai-powered-banking-salesforce-fsc-rialfinanceplus/"
+          "https://www.rialtes.com/insights/blogs/ai-powered-banking-salesforce-fsc-rialfinanceplus"
         }
       />
       <Script
@@ -435,17 +434,17 @@ export default function Page() {
                         arrName={data.list}
                         ulClassName="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] list-disc pl-[36px] lg:pl-[56px] font-medium space-y-2"
                       />
-                      
-                     <div className=" flex justify-start">
-  <div className="relative w-[280px] sm:w-[220px] md:w-[360px] lg:w-[500px] aspect-square">
-    <Image
-      src="/images/blog/client-360-comprehensive-customer-view-diagram.webp"
-      alt="Client 360 diagram showing comprehensive customer view with accounts, life events, transactions, preferences, risk, engagement"
-      fill
-      className="object-contain"
-    />
-  </div>
-</div>
+
+                      <div className=" flex justify-start">
+                        <div className="relative w-[280px] sm:w-[220px] md:w-[360px] lg:w-[500px] aspect-square">
+                          <Image
+                            src="/images/blog/client-360-comprehensive-customer-view-diagram.webp"
+                            alt="Client 360 diagram showing comprehensive customer view with accounts, life events, transactions, preferences, risk, engagement"
+                            fill
+                            className="object-contain"
+                          />
+                        </div>
+                      </div>
 
                     </div>
                   );
@@ -525,10 +524,10 @@ export default function Page() {
                       <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                         {data.desc}
                       </p>
-                         <p
-                                className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5"
-                                dangerouslySetInnerHTML={{ __html: data.desc1 }}
-                              />
+                      <p
+                        className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] mt-5"
+                        dangerouslySetInnerHTML={{ __html: data.desc1 }}
+                      />
                       <h3 className="mt-5 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight font-bold">
                         {data.desc2}
                       </h3>
@@ -612,14 +611,14 @@ export default function Page() {
                     </div>
                   );
                 })}
-              <div className="lg:mt-8 mt-6">
-               <Image
-                  src="/images/blog/crm-evolution-four-step-transformation-process.svg"
-                  alt="Four-step CRM evolution process: Legacy CRM, Connected data, AI-enabled workflows, to Intelligent enterprise transformation"
-                  width={375}
-                  height={250}
-                  className=" h-full w-full relative"
-                /></div>
+                <div className="lg:mt-8 mt-6">
+                  <Image
+                    src="/images/blog/crm-evolution-four-step-transformation-process.svg"
+                    alt="Four-step CRM evolution process: Legacy CRM, Connected data, AI-enabled workflows, to Intelligent enterprise transformation"
+                    width={375}
+                    height={250}
+                    className=" h-full w-full relative"
+                  /></div>
               </div>
             </div>
           </div>

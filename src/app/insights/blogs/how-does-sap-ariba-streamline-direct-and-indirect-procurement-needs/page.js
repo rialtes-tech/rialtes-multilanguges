@@ -41,7 +41,7 @@ export default function Page() {
       <Seo
         title="SAP Ariba Procurement for Direct & Indirect Efficiency | Rialtes"
         description="SAP Ariba streamlines direct and indirect procurement by digitizing every step—from sourcing to payment—boosting savings, speed, and control."
-        canonical={"https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs/"}
+        canonical={"https://www.rialtes.com/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs"}
       />
 
       <Script

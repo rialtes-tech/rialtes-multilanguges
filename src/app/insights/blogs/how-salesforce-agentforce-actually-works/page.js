@@ -43,7 +43,7 @@ export default function Page() {
       <Seo
         title="How Does Salesforce Agentforce Work? | Rialtes"
         description="Discover how Salesforce Agentforce works to enhance customer engagement and streamline operations. Contact Rialtes today to embark on your AI journey!"
-        canonical="https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works/"
+        canonical="https://www.rialtes.com/insights/blogs/how-salesforce-agentforce-actually-works"
       />
 
       <Script

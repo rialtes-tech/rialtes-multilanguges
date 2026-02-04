@@ -160,7 +160,7 @@ const page = () => (
       title="MuleSoft Integration Consulting Solutions and Services | Rialtes"
       description="Our MuleSoft integration consulting solutions make digital services flow effortlessly by unleashing the full power of connected Salesforce systems."
       keywords="home, website, welcome"
-      canonical="https://www.rialtes.com/solutions/integration/mulesoft-salesforce/"
+      canonical="https://www.rialtes.com/solutions/integration/mulesoft-salesforce"
     />
     <Script
       id="schema-mulesoft"

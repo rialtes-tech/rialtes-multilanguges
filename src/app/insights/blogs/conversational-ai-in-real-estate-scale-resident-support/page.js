@@ -309,7 +309,7 @@ export default function Page() {
                 description="In real estate, conversational AI assistants handle tenant queries day and night, ensuring immediate responses and reducing after-hours workload."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/conversational-ai-in-real-estate-scale-resident-support/"
+                    "https://www.rialtes.com/insights/blogs/conversational-ai-in-real-estate-scale-resident-support"
                 }
             />
 

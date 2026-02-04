@@ -326,7 +326,7 @@ export default function Page() {
         title="Why CRM Is Now a Growth Driver in Life Sciences | Rialtes"
         description="Modern life sciences CRM goes beyond sales to drive growth through patient experience, intelligent insights, and compliance-ready workflows."
         canonical={
-          "https://www.rialtes.com/insights/blogs/crm-as-growth-engine-life-sciences/"
+          "https://www.rialtes.com/insights/blogs/crm-as-growth-engine-life-sciences"
         }
       />
       <Script

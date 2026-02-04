@@ -348,7 +348,7 @@ export default function Page() {
                 description="SalesforceAgent+ delivers AI-driven Managed Services for Salesforce designed to accelerate business outcomes, not just CRM maintenance."
                 keywords=""
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/scale-with-salesforce-managed-services-salesforceagentplus/"
+                    "https://www.rialtes.com/insights/blogs/scale-with-salesforce-managed-services-salesforceagentplus"
                 }
             />
 

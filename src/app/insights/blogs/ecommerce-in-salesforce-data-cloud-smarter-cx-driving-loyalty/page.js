@@ -226,7 +226,7 @@ export default function Page() {
                 description="Salesforce Data Cloud unifies customer data to power predictive insights, helping businesses drive ecommerce loyalty and real-time personalization."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty/"
+                    "https://www.rialtes.com/insights/blogs/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty"
                 }
             />
 

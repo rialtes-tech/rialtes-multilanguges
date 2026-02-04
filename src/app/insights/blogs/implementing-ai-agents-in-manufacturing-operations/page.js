@@ -162,7 +162,7 @@ export default function Page() {
                 description=" AI agents represent not just a new tool, but a fundamental shift in how work is performed, decisions are made, and problems are solved for manufacturers today."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations/"
+                    "https://www.rialtes.com/insights/blogs/implementing-ai-agents-in-manufacturing-operations"
                 }
             />
 

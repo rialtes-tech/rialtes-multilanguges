@@ -30,7 +30,7 @@ export default function Page() {
         description="Rialtes redefines corporate citizenship with sustainable AI, ESG innovation, talent upskilling, and social impact to build a smarter, inclusive future."
         keywords="home, website, welcome"
         canonical={
-          "https://www.rialtes.com/about-us/impact-and-social-responsibility/"
+          "https://www.rialtes.com/about-us/impact-and-social-responsibility"
         }
       />
       <Script

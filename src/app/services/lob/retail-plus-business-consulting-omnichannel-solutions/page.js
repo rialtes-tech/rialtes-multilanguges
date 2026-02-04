@@ -192,7 +192,7 @@ export default function page() {
         title="Retail Business Consulting Services and Omnichannel Solutions | Rialtes"
         description="Retail+ by Rialtes offers expert-led Retail Business Consulting Services and AI-powered Omnichannel Solutions. Start your retail transformation now."
         keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/services/lob/retail-plus-business-consulting-omnichannel-solutions/"
+        canonical="https://www.rialtes.com/services/lob/retail-plus-business-consulting-omnichannel-solutions"
       />
       <Script
         id="schema-retail-plus"

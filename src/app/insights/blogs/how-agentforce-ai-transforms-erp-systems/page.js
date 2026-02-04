@@ -222,7 +222,7 @@ export default function Page() {
                 description="By analyzing ERP and SCM data, Agentforce offers predictive insights that enhance decision-making and boost productivity across industries. Know more!"
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/how-agentforce-ai-transforms-erp-systems/"
+                    "https://www.rialtes.com/insights/blogs/how-agentforce-ai-transforms-erp-systems"
                 }
             />
 

@@ -310,7 +310,7 @@ export default function Page() {
             <Seo
                 title="Digital Transformation in Pharma and Life Sciences Industry | Rialtes"
                 description="Rialtes enables Digital Transformation in Pharma and Life Sciences Industry with SAP and Salesforce, delivering innovative and compliant solutions globally."
-                canonical="https://www.rialtes.com/industry/life-sciences/pharma-biotech-digital-transformation/"
+                canonical="https://www.rialtes.com/industry/life-sciences/pharma-biotech-digital-transformation"
             />
             <Script
                 id="schema-pharma"

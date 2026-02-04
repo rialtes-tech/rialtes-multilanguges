@@ -39,7 +39,7 @@ export default function Page() {
       <Seo
         title="SAP SuccessFactors Integration: Enhance HR and Payroll | Rialtes"
         description="SAP SuccessFactors integrations are a game-changer for HR and payroll operations—enhancing efficiency, accuracy, and compliance for global and local teams."
-        canonical={"https://www.rialtes.com/insights/blogs/how-sap-successfactors-integrations-enhance-hr-and-payroll-operations/"}
+        canonical={"https://www.rialtes.com/insights/blogs/how-sap-successfactors-integrations-enhance-hr-and-payroll-operations"}
       />
 
       <Script

@@ -253,7 +253,7 @@ export default function retailPage() {
             <Seo
                 title="Nonprofit Digital Transformation and IT Solutions | Rialtes"
                 description="Rialtes empowers nonprofits with smart IT solutions and digital transformation to streamline grants, donors, volunteers, and program operations seamlessly."
-                canonical="https://www.rialtes.com/industry/nonprofit-digital-transformation-it-solutions/"
+                canonical="https://www.rialtes.com/industry/nonprofit-digital-transformation-it-solutions"
             />
             <Script
                 id="schema-nonprofit"

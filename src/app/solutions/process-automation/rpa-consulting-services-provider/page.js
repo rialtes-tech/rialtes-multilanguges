@@ -238,7 +238,7 @@ export default function DemandPlusSection() {
                 title="RPA Consulting Services and Solutions with UiPath | Rialtes"
                 description="Looking for RPA consulting services providers? We help automate SAP and Salesforce workflows, cut costs, and boost efficiency using UiPath. Start today."
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/solutions/process-automation/rpa-consulting-services-provider/"
+                canonical="https://www.rialtes.com/solutions/process-automation/rpa-consulting-services-provider"
             />
             <Script
                 id="schema-rpa"

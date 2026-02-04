@@ -40,7 +40,7 @@ export default function Page() {
       <Seo
         title="Yardi Case Study: Reducing Downtime in Multifamily Real Estate"
         description="Discover how our Yardi Managed Services significantly reduced downtime, improved performance, and boosted operational efficiency for a real estate leader."
-        canonical="https://www.rialtes.com/insights/case-studies/yardi-managed-services/"
+        canonical="https://www.rialtes.com/insights/case-studies/yardi-managed-services"
       />
 
       <Script

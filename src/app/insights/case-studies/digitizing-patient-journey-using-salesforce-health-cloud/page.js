@@ -42,7 +42,7 @@ export default function Page() {
         title="Salesforce Health Cloud Case Study: Patient Journey Digitized"
         description="Discover how healthcare is transforming with a digital-first patient journey powered by Salesforce, enhancing care, access, and patient engagement.
 "
-        canonical="https://www.rialtes.com/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud/"
+        canonical="https://www.rialtes.com/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud"
       />
 
 

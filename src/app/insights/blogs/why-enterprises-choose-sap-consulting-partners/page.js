@@ -259,7 +259,7 @@ export default function Page() {
                 title="Why SAP Consulting Partners Matter for Enterprise Success | Rialtes"
                 description="SAP consulting partners help organizations move from isolated systems to unified, intelligent enterprises where every process runs with clarity."
                 keywords="Partners, website, welcome"
-                canonical={`https://www.rialtes.com/insights/blogs/why-enterprises-choose-sap-consulting-partners/`}
+                canonical={`https://www.rialtes.com/insights/blogs/why-enterprises-choose-sap-consulting-partners`}
             />
 
             <Script

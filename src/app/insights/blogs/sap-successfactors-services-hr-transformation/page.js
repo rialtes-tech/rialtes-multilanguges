@@ -280,7 +280,7 @@ export default function Page() {
                 description="SAP SuccessFactors is more than an HR system; it is a unified, AI-driven platform that connects every part of the employee lifecycle."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/sap-successfactors-services-hr-transformation/"
+                    "https://www.rialtes.com/insights/blogs/sap-successfactors-services-hr-transformation"
                 }
             />
 

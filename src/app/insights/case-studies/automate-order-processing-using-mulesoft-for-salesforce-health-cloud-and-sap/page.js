@@ -40,7 +40,7 @@ export default function Page() {
       <Seo
         title="MuleSoft Case Study: Order Processing Automation with Salesforce & SAP"
         description="Streamlined complex order flows using MuleSoft, Salesforce, and SAP APIs. Dive into this MuleSoft case study to see integration in action."
-        canonical="https://www.rialtes.com/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap/"
+        canonical="https://www.rialtes.com/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap"
       />
 
       <Script

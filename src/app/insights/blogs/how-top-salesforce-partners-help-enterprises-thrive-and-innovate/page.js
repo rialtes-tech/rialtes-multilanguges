@@ -293,7 +293,7 @@ export default function Page() {
                 description="Top Salesforce partners help enterprises thrive by aligning technology with business growth, accelerating innovation, and ensuring long-term value."
                 keywords=""
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate/"
+                    "https://www.rialtes.com/insights/blogs/how-top-salesforce-partners-help-enterprises-thrive-and-innovate"
                 }
             />
 

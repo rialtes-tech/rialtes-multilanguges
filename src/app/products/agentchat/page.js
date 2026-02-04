@@ -125,7 +125,7 @@ export default function Page() {
                 title="AgentChat: Salesforce WhatsApp Integration Made Easy | Rialtes"
                 description="AgentChat enables WhatsApp integration with Salesforce, reducing silos and enhancing team collaboration for stronger customer engagement and higher ROI."
                 keywords="Contact, website, welcome"
-                canonical="https://www.rialtes.com/products/agentchat/"
+                canonical="https://www.rialtes.com/products/agentchat"
             />
             <Script
                 id="schema-agentchat"

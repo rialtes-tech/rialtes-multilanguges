@@ -39,7 +39,7 @@ export default function Page() {
     <div className="min-h-screen bg-white">
       <Seo
         title="Salesforce Health Cloud Case Study: Prior Authorization Streamlined"
-        description="See how Salesforce Health Cloud sped up prior authorizations, streamlining workflows in complex healthcare environments for faster patient care." canonical="https://www.rialtes.com/insights/case-studies/salesforce-health-cloud-prior-authorization/"
+        description="See how Salesforce Health Cloud sped up prior authorizations, streamlining workflows in complex healthcare environments for faster patient care." canonical="https://www.rialtes.com/insights/case-studies/salesforce-health-cloud-prior-authorization"
       />
 
       <Script

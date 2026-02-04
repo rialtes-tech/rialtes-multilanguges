@@ -41,7 +41,7 @@ export default function Page() {
       <Seo
         title="SAP Fiori for Sales Order Prioritization in Manufacturing | Rialtes"
         description="Discover how a top roofing manufacturer used SAP Fiori for self-service sales order prioritization, cutting 150+ manual adjustments daily and boosting accuracy."
-        canonical="https://www.rialtes.com/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori/"
+        canonical="https://www.rialtes.com/insights/case-studies/empowering-a-leading-roofing-manufacturer-with-self-service-order-prioritization-using-sap-fiori"
       />
 
       <Script

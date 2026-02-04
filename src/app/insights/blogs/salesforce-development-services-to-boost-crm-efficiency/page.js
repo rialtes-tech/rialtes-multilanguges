@@ -305,7 +305,7 @@ export default function Page() {
                 title="Salesforce Development Services for Enterprise Success | Rialtes"
                 description="Explore why custom Salesforce development matters, how it boosts CRM efficiency, and why choosing the right partner makes all the difference"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/salesforce-development-services-to-boost-crm-efficiency/"
+                    "https://www.rialtes.com/insights/blogs/salesforce-development-services-to-boost-crm-efficiency"
                 }
             />
 

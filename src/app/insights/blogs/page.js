@@ -100,7 +100,7 @@ const categoryData = [
 
 const latestBlogs = [
   {
-    "id": 78,
+    "id": 79,
     "image": "/images/blog/sap-datasphere-data-fabric-thumb.webp",
     "category": "SAP Datasphere",
     "industry": "Generic",
@@ -109,6 +109,17 @@ const latestBlogs = [
     "title": "What Is SAP Datasphere and Why Are Enterprises Moving to It?",
     "alt": "Digital data streams and binary code representing cloud analytics and enterprise data fabric",
     "description": "Executives don’t suffer from a lack of data.They suffer from a lack of trust, speed, and clarity This isn’t anecdotal. It’s measurable."
+  },
+  {
+    "id": 78,
+    "image": "/images/blog/cloud-data-analytics-team-thumb.webp",
+    "category": "SAP CPI",
+    "industry": "Generic",
+    "date": "Feb. 02, 2026",
+    "url": "/sap-cpi-implementation-architecture-best-practices-use-cases/",
+    "title": "SAP CPI Implementation: Architecture, Best Practices, and Enterprise Use Cases",
+    "alt": "Team analyzing cloud data and digital dashboards to drive enterprise insights and decision making",
+    "description": "Digital transformation doesn’t fail because of weak applications. It fails because systems don’t talk to each other."
   },
   {
     "id": 77,
@@ -1386,7 +1397,7 @@ export default function Page() {
       <Seo
         title="Rialtes Blogs | Salesforce, SAP, AI, and Cloud Insights"
         description="Read expert blogs on Salesforce, SAP, cloud, and AI. Stay ahead with the latest innovation and digital transformation insights from Rialtes."
-        canonical="https://www.rialtes.com/insights/blogs/"
+        canonical="https://www.rialtes.com/insights/blogs"
       />
       <Script
         id="schema-blogs"
