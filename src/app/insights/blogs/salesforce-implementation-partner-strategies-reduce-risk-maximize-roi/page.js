@@ -273,7 +273,7 @@ export default function Page() {
                 title="Salesforce Partners Driving AI-Powered Enterprise Growth"
                 description="Best Salesforce implementation partners don’t stop at rollout, they guide enterprises with AI-driven insights, Agentforce automation, and Data Cloud solutions."
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi/"
+                    "https://www.rialtes.com/insights/blogs/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi"
                 }
             />
 

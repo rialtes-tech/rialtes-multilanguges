@@ -270,7 +270,7 @@ export default function page() {
             <Seo
                 title="Salesforce Managed Services Provider | Rialtes SalesforceAgent+"
                 description="Looking for a Salesforce managed services partner and provider? Rialtes drives innovation with SalesforceAgent+, making your platform smarter, faster, and AI-ready."
-                canonical="https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus/"
+                canonical="https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus"
             />
             <Script
                 id="schema-salesforceplus"

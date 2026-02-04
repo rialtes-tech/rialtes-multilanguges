@@ -240,7 +240,7 @@ export default function SalesForceConsulting() {
             <Seo
                 title="Top Salesforce Consulting and Implementation Partners | Rialtes"
                 description="Partner with Rialtes—your Salesforce consulting services partner in the US and India for AI-enabled Salesforce implementation and integration success."
-                canonical={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/"}
+                canonical={"https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india"}
             />
             <Script
                 id="schema-salesforce-consulting"

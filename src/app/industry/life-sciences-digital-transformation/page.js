@@ -276,7 +276,7 @@ export default function page() {
             <Seo
                 title="Life Sciences Digital Transformation with AI | Rialtes"
                 description=" Empowering digital transformation in life sciences with connected data, AI insights, and cloud solutions for Pharma, MedTech, public health, and providers."
-                canonical="https://www.rialtes.com/industry/life-sciences-digital-transformation/"
+                canonical="https://www.rialtes.com/industry/life-sciences-digital-transformation"
             />
             <Script
                 id="schema-life-science"

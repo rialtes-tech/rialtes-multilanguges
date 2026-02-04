@@ -43,7 +43,7 @@ export default function Page() {
       <Seo
         title="SuccessFactors Performance Management & Goal Management Tips | Rialtes"
         description="SuccessFactors performance management and goal management boost employee engagement and strategic alignment. Contact us today for expert guidance and support!"
-        canonical="https://www.rialtes.com/insights/blogs/sap-successfactors-performance-and-goal-management/"
+        canonical="https://www.rialtes.com/insights/blogs/sap-successfactors-performance-and-goal-management"
       />
 
       <Script

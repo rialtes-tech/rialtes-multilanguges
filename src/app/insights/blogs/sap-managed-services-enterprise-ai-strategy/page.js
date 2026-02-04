@@ -243,7 +243,7 @@ export default function Page() {
                 description="Learn how AI-powered innovations elevate SAP managed services so enterprises can optimize performance, automate tasks, and drive continuous transformation."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/sap-managed-services-enterprise-ai-strategy/"
+                    "https://www.rialtes.com/insights/blogs/sap-managed-services-enterprise-ai-strategy"
                 }
             />
 

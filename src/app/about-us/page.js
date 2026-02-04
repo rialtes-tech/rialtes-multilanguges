@@ -154,7 +154,7 @@ export default function About() {
                 title="About Us | Rialtes - AI-Powered Business Transformation"
                 description="Rialtes delivers intelligent automation and digital transformation solutions, empowering businesses and putting customers at the center of success."
                 keywords="home, website, welcome"
-                canonical={"https://www.rialtes.com/about-us/"}
+                canonical={"https://www.rialtes.com/about-us"}
             />
             <Script
                 id="schema-about"

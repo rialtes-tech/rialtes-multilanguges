@@ -284,7 +284,7 @@ export default function Page() {
                 description="Discover how RISE with SAP helps enterprises modernize ERP with speed, governance, and measurable outcomes to stay competitive in a digital-first era."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/rise-with-sap-erp-transformation-strategy/"
+                    "https://www.rialtes.com/insights/blogs/rise-with-sap-erp-transformation-strategy"
                 }
             />
 

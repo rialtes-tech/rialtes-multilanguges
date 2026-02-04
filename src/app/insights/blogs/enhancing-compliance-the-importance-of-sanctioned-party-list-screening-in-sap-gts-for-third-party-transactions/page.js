@@ -47,7 +47,7 @@ export default function Page() {
       <Seo
         title="How SAP GTS Sanctioned Party List Screening Ensures Compliance | Rialtes"
         description="Minimize risks with SAP Sanctioned Party List Screening by ensuring your business never deals with prohibited parties. Stay compliant and avoid legal penalties."
-        canonical="https://www.rialtes.com/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions/"
+        canonical="https://www.rialtes.com/insights/blogs/enhancing-compliance-the-importance-of-sanctioned-party-list-screening-in-sap-gts-for-third-party-transactions"
       />
 
       <Script

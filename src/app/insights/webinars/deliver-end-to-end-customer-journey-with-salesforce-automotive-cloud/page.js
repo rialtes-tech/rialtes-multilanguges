@@ -108,7 +108,7 @@ export default function () {
             <Seo
                 title="Salesforce Automotive Cloud Webinar: Transforming Customer Engagement"
                 description="Join our webinar to explore how Salesforce Automotive Cloud enhances customer journeys with unified data, AI-driven insights, and seamless automation."
-                canonical="https://www.rialtes.com/insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud/"
+                canonical="https://www.rialtes.com/insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud"
             />
             <Script
                 id="webinar-schema-deliver"

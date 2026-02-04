@@ -236,7 +236,7 @@ export default function Page() {
         title="SAP SuccessFactors Consulting and Implementation Partners | Rialtes"
         description="Success+ by Rialtes delivers AI-powered SuccessFactors consulting and implementation to modernize HCM and accelerate your HR transformation. Let’s begin!"
         keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner/"
+        canonical="https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner"
       />
       <Script
         id="schema-sucessfactor"

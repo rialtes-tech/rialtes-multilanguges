@@ -237,7 +237,7 @@ export default function retailPage() {
             <Seo
                 title="Digital Transformation in Retail Industry with SAP | Rialtes"
                 description="Drive retail industry digital transformation with SAP and Salesforce. Rialtes fuels innovation and growth with agile, intelligent, customer-first solutions."
-                canonical="https://www.rialtes.com/industry/retail-industry-digital-transformation/"
+                canonical="https://www.rialtes.com/industry/retail-industry-digital-transformation"
             />
             <Script
                 id="schema-retail"

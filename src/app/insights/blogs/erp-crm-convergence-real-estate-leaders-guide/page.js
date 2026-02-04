@@ -313,7 +313,7 @@ export default function Page() {
                 description="Unified ERP & CRM platforms help real estate enterprises cut system costs by up to 35% while improving cross-department visibility and efficiency."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/erp-crm-convergence-real-estate-leaders-guide/"
+                    "https://www.rialtes.com/insights/blogs/erp-crm-convergence-real-estate-leaders-guide"
                 }
             />
 

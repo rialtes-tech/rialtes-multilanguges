@@ -254,7 +254,7 @@ export default function Page() {
                 description="Our SAP consulting and implementation services are designed to help you reimagine operations, enhance agility, and unlock new growth potential."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/boost-enterprise-agility-with-sap-consulting-implementation-services/"
+                    "https://www.rialtes.com/insights/blogs/boost-enterprise-agility-with-sap-consulting-implementation-services"
                 }
             />
 

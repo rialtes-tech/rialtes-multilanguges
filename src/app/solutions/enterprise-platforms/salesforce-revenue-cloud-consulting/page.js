@@ -184,7 +184,7 @@ export default function HealthCloud() {
                 title="Salesforce Revenue Cloud Implementation Partner | Rialtes"
                 description="Rialtes, a trusted Salesforce Revenue Cloud implementation partner, offers tailored solutions to transform sales, billing, and revenue operations."
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting/"
+                canonical="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting"
             />
             <Script
                 id="schema-revenue-cloude"

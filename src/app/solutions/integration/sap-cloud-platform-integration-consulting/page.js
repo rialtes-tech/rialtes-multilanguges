@@ -308,7 +308,7 @@ export default function page() {
             <Seo
                 title="SAP Cloud Platform Integration (CPI) Consulting | Rialtes"
                 description="Smarter cloud integration with SAP CPI. Empower enterprise agility, drive innovation, and unlock speed with AI-powered automation and real-time insights."
-                canonical="https://www.rialtes.com/solutions/integration/sap-cloud-platform-integration-consulting/"
+                canonical="https://www.rialtes.com/solutions/integration/sap-cloud-platform-integration-consulting"
             />
             <Script
                 id="schema-sap-cloud"

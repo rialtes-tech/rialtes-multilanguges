@@ -250,7 +250,7 @@ export default function Page() {
                 description="With AI-enabled dashboards, automated billing, and predictive insights, property managers monitor SLA compliance and maintenance costs in real time."
                 keywords=""
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/tracking-service-level-agreements-without-losing-mind/"
+                    "https://www.rialtes.com/insights/blogs/tracking-service-level-agreements-without-losing-mind"
                 }
             />
 

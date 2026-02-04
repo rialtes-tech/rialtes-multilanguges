@@ -43,7 +43,7 @@ export default function Page() {
       <Seo
         title="Agentforce Testing Center: Test AI Agents Before Production"
         description="The Agentforce Testing Center is a powerful suite of tools that helps enterprises evaluate AI agents before they are deployed in production. Know more."
-        canonical="https://www.rialtes.com/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/"
+        canonical="https://www.rialtes.com/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data"
       />
 
       <Script

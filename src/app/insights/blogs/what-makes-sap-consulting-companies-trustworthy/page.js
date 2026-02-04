@@ -263,7 +263,7 @@ export default function Page() {
                 title="Building Credibility in SAP Consulting Companies | Rialtes"
                 description="Enterprises trust SAP consulting companies that demonstrate transparency, governance maturity, leadership accountability, and long-term orientation."
                 keywords="Partners, website, welcome"
-                canonical={`https://www.rialtes.com/insights/blogs/what-makes-sap-consulting-companies-trustworthy/`}
+                canonical={`https://www.rialtes.com/insights/blogs/what-makes-sap-consulting-companies-trustworthy`}
             />
 
             <Script

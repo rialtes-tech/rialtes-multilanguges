@@ -272,7 +272,7 @@ export default function Page() {
                 title=" Expert SAP Implementation Strategies for 2026 Success | Rialtes"
                 description="SAP implementation isn't a plug-and-play exercise; it demands a roadmap and strategy that balances technology, business goals, and people."
                 keywords="Partners, website, welcome"
-                canonical={`https://www.rialtes.com/insights/blogs/sap-implementation-strategies-for-2026-success/`}
+                canonical={`https://www.rialtes.com/insights/blogs/sap-implementation-strategies-for-2026-success`}
             />
 
             <Script

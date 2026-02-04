@@ -215,7 +215,7 @@ export default function Page() {
                 description="Discover how SAP Build helps manufacturers accelerate innovation, reduce downtime, and empower teams with low-code apps and automation."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/sap-build-for-manufacturing-4-0/"
+                    "https://www.rialtes.com/insights/blogs/sap-build-for-manufacturing-4-0"
                 }
             />
 

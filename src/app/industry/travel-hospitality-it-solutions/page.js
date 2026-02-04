@@ -184,7 +184,7 @@ export default function Page() {
                     title="Travel and Hospitality IT Solutions | SAP and Salesforce | Rialtes"
                     description="Reimagine travel and hospitality IT solutions with AI, SAP, and Salesforce to enable real-time booking, loyalty programs, personalization, and efficiency."
                     keywords="home, website, welcome"
-                    canonical="https://www.rialtes.com/industry/travel-hospitality-it-solutions/"
+                    canonical="https://www.rialtes.com/industry/travel-hospitality-it-solutions"
                 />
                 <Script
                     id="schema-travel"

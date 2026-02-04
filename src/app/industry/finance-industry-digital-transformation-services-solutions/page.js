@@ -188,7 +188,7 @@ export default function Page() {
         title="Digital Finance Transformation Services and Solutions | Rialtes"
         description="Rialtes delivers expert-led digital finance transformation consulting with proven SAP and Salesforce solutions tailored to financial institutions, globally."
         keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/industry/finance-industry-digital-transformation-services-solutions/"
+        canonical="https://www.rialtes.com/industry/finance-industry-digital-transformation-services-solutions"
       />
       <Script
         id="schema-finance"

@@ -378,7 +378,7 @@ export default function Page() {
                 description="RetailPlus by Rialtes connects strategy, systems, and scale to deliver AI-powered omnichannel retail that is no longer a differentiator, but the baseline."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/retailplus-ai-powered-omnichannel-retail/"
+                    "https://www.rialtes.com/insights/blogs/retailplus-ai-powered-omnichannel-retail"
                 }
             />
 

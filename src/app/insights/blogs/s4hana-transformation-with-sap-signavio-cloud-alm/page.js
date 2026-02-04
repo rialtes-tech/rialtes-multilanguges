@@ -220,7 +220,7 @@ export default function Page() {
             <Seo
                 title="How SAP Signavio and Cloud ALM Redefine S/4HANA Transformation"
                 description="Pairing SAP Signavio with SAP Cloud ALM creates a foundation of governance, traceability, and KPI-driven execution for successful S/4HANA transformation."
-                canonical={"https://www.rialtes.com/insights/blogs/s4hana-transformation-with-sap-signavio-cloud-alm/"} />
+                canonical={"https://www.rialtes.com/insights/blogs/s4hana-transformation-with-sap-signavio-cloud-alm"} />
 
             <Script
                 id="schema-copilots"

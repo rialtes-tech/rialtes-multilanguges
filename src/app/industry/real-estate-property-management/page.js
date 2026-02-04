@@ -269,7 +269,7 @@ export default function Page() {
         title="Revolutionizing Property Management for Real Estate Industry | Rialtes"
         description="The future of property management for real estate industry is here. Automate leasing, reduce vacancies, and improve ROI with purpose-built software."
         keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/industry/real-estate-property-management/"
+        canonical="https://www.rialtes.com/industry/real-estate-property-management"
       />
       <Script
         id="schema-real-estate"

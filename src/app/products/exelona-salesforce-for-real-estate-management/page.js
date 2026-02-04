@@ -319,7 +319,7 @@ export default function Page() {
                 title="Exelona™ – Salesforce for Real Estate Property Management | Rialtes"
                 description="Exelona leverages AI and Salesforce for Real Estate to streamline intelligent property management, driving automation, insights, and operational excellence."
                 keywords="home, website, welcome"
-                canonical="https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management/"
+                canonical="https://www.rialtes.com/products/exelona-salesforce-for-real-estate-management"
             />
             <Script
                 id="schema-grow"

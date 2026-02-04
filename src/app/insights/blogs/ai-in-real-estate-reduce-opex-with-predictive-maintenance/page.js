@@ -319,7 +319,7 @@ export default function Page() {
                 title="How AI in Real Estate Powers Predictive Maintenance | Rialtes"
                 description="AI-driven predictive maintenance is a game-changer, cutting downtime by as much as 30% and reducing Opex through proactive interventions. Discover how today."
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance/"
+                    "https://www.rialtes.com/insights/blogs/ai-in-real-estate-reduce-opex-with-predictive-maintenance"
                 }
             />
 

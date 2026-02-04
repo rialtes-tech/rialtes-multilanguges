@@ -129,7 +129,7 @@ export default function Page() {
       <Seo
         title="IT and Cloud ERP Solutions for Manufacturing Industry | Rialtes"
         description="Rialtes delivers expert IT and cloud ERP solutions for manufacturing businesses, helping drive efficiency, innovation, and digital transformation at scale."
-        canonical="https://www.rialtes.com/industry/manufacturing-cloud-erp/"
+        canonical="https://www.rialtes.com/industry/manufacturing-cloud-erp"
       />
       <Script
         id="schema-manufacturing"
