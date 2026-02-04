@@ -175,7 +175,7 @@ const Home = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const slides = useMemo(() => [
-        { link: "/solutions/integration/sap-cloud-platform-integration-consulting/", alt: "Migrating from SAP PI/PO to SAP CPI to enable secure, intelligent, and cloud-first enterprise integration", title: "SAP CPI", image: '/images/homepage/sap-pi-po-to-sap-cpi-migration.webp', imageMobile: '/images/homepage/sap-pi-po-to-sap-cpi-migration-mobile.webp' },
+        { link: "/solutions/integration/sap-cloud-platform-integration-consulting", alt: "Migrating from SAP PI/PO to SAP CPI to enable secure, intelligent, and cloud-first enterprise integration", title: "SAP CPI", image: '/images/homepage/sap-pi-po-to-sap-cpi-migration.webp', imageMobile: '/images/homepage/sap-pi-po-to-sap-cpi-migration-mobile.webp' },
         { link: "https://www.rialtes.com/products/agentchat", alt: "WhatsApp customer interactions embedded in Salesforce using AgentChat for secure and personalized messaging", image: '/images/homepage/whatsapp-salesforce-agentchat.webp', title: "Agentchat", imageMobile: '/images/homepage/whatsapp-salesforce-agentchat-mobile.webp' },
         { link: "/industry/education-cloud-it-solutions", alt: "Holistic education solutions modernizing academic operations and strengthening connections across institutions", image: '/images/homepage/holistic-education-solutions.webp', title: "Education", imageMobile: '/images/homepage/holistic-education-solutions-mobile.webp' },
     ], [])
