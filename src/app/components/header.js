@@ -66,7 +66,7 @@ const Header = () => {
     });
   };
 
-  const handleMouseLeaveCard = () => {
+  const handleMouseLeaveCard = () => { 
     setActiveCard(null);
   };
 
@@ -897,11 +897,11 @@ const Header = () => {
                                 onHover={() => { }} />
                             </div>
                             <div>
-                              <MenuItem className="font-bold text-[#2f78c4]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Advantage+" link="/services/lob/salesforce-marketing-cloud-implementation-consulting" onClick={(e) => handleLinkClick(e, "/services/lob/salesforce-marketing-cloud-implementation-consulting")}
+                              <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" aria-label="Let's begin exploring HiTech Semiconductor AI and IT solutions" label="Advantage+" link="/services/lob/salesforce-marketing-cloud-implementation-consulting" onClick={(e) => handleLinkClick(e, "/services/lob/salesforce-marketing-cloud-implementation-consulting")}
                                 onHover={() => { }} />
                             </div>
                             <div>
-                              <MenuItem className="font-bold text-[#2f78c4]" label="RialFinance+" link="/services/lob/salesforce-fsc-consulting-rialfinanceplus" onClick={(e) => handleLinkClick(e, "/services/lob/salesforce-fsc-consulting-rialfinanceplus")}
+                              <MenuItem className="font-bold text-[#2f78c4] 4xl:text-[18px] xl:text-[16px] text-[14px]" label="RialFinance+" link="/services/lob/salesforce-fsc-consulting-rialfinanceplus" onClick={(e) => handleLinkClick(e, "/services/lob/salesforce-fsc-consulting-rialfinanceplus")}
                                 onHover={() => { }} />
                             </div>
                           </div>
@@ -1303,13 +1303,13 @@ const Header = () => {
 
           <Link href='/' aria-label="Homepage">
             <Image
-              loading="lazy"
               className="cursor-pointer"
               alt="Rialtes Logo"
               height='150'
               width='100'
               src='/images/homepage/logo.svg'
               aria-label="logo2"
+              priority
             />
           </Link>
 
@@ -1371,7 +1371,7 @@ const Header = () => {
                 </div>
                 <div>
                   <Image
-                    loading="lazy"
+                   priority
                     className="cursor-pointer"
                     href='/'
                     alt="Rialtes Logo White"

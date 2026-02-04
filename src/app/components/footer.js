@@ -65,7 +65,7 @@ const Footer = () => {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, []); 
   return (
     <footer
       className={`text-[#ffffff] bg-cover max-md:absolute bg-center bg-no-repeat flex flex-col custom-container lg:pt-[66px] pb-[40px] relative`}>
@@ -89,8 +89,8 @@ const Footer = () => {
             src="/images/homepage/Rialtes Logo_white.webp"
             className="w-40 h-32"
             alt="Company Logo"
-            loading="lazy"
             href='/'
+            priority
           />
           <div className="lg:text-left">
             <p className="mt-4">
@@ -152,6 +152,7 @@ const Footer = () => {
                 src="/images/homepage/Asset5.svg"
                 height={100}
                 width={100}
+                priority
               />
             </Link>
             {/* <Link href="/facebook" title="Follow us on Facebook" className="mt-3">
@@ -170,6 +171,7 @@ const Footer = () => {
                 src="/images/homepage/Asset2.svg"
                 height={100}
                 width={100}
+                priority
               />
             </Link>
             <Link
@@ -183,6 +185,7 @@ const Footer = () => {
                 src="/images/homepage/Asset3.svg"
                 height={100}
                 width={100}
+                priority
               />
             </Link>
             <Link href="https://www.youtube.com/@rialtes" title="Follow us on YouTube" className="mt-3 md:mt-0">
@@ -192,6 +195,7 @@ const Footer = () => {
                 src="/images/homepage/Asset4.svg"
                 height={100}
                 width={100}
+                priority
               />
             </Link>
           </div>
@@ -211,6 +215,7 @@ const Footer = () => {
               alt="Up arrow"
               width={24}
               height={24}
+              priority
             />
           ) : (
             <Image
@@ -219,6 +224,7 @@ const Footer = () => {
               className="w-16"
               width={24}
               height={24}
+              priority
             />
           )}
         </div>

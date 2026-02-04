@@ -38,7 +38,6 @@ const Carousel = () => {
           quality={60}
           priority
           sizes="(max-width: 768px) 100vw, 50vw"
-          fetchPriority='high'
         />
         <div className="absolute top-1/2 left-0 transform -translate-y-1/2">
           <button

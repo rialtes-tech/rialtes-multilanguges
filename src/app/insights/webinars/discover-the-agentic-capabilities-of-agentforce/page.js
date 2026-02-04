@@ -122,8 +122,8 @@ export default function () {
                     src="/images/webinar/Webinar_15 May 25_webinar Banner.webp"
                     alt="Webinar Header"
                     priority
-                    width={0}
-                    height={0}
+                    width={1200}
+                    height={630}
                     className="w-full h-full"
                     sizes="100vw"
                 />
@@ -176,8 +176,8 @@ export default function () {
                                 alt="Discover the Agentic Capabilities of Agentforce"
                                 priority
                                 className="w-full h-auto"
-                                width={0}
-                                height={0}
+                                width={300}
+                                height={300}
                             />
                         </div>
                         <div className="xl:col-span-8 col-span-12 mt-5 xl:mt-0">

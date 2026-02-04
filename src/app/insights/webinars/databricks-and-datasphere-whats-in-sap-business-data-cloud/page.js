@@ -114,8 +114,8 @@ export default function () {
                     alt="Webinar Header"
                     priority
                     className="w-full h-full"
-                    width={0}
-                    height={0}
+                    width={1600}
+                    height={630}
                 />
             </section>
             <div className="grid xl:grid-cols-12 grid-cols-1 custom-container">
@@ -167,8 +167,8 @@ export default function () {
                                 alt="Databricks and Datasphere — What’s in SAP Business Data Cloud?"
                                 priority
                                 className="w-full h-auto"
-                                width={0}
-                                height={0}
+                                width={300}
+                                height={300}
                             />
                         </div>
                         <div className="xl:col-span-8 col-span-12 mt-5 xl:mt-0">

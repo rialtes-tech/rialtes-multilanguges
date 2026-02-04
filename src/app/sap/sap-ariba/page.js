@@ -179,7 +179,7 @@ export default function Page() {
                                         width={0}
                                         height={0}
                                         sizes="100vw"
-                                        style={{
+                                        style={{ 
                                             objectFit: "cover",
                                         }}
                                         priority

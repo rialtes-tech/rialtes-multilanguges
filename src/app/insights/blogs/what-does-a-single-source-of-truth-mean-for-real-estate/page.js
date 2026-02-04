@@ -316,8 +316,8 @@ export default function Page() {
                         src="/images/blog/exelona-cluster-mobile-banner.webp"
                         alt="Futuristic glass cityscape with pink and blue transparent buildings on reflective surface representing digital innovation"
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>
