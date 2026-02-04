@@ -61,8 +61,8 @@ export default function Page() {
               alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
               priority
               className="h-[650px] w-full"
-              width={0}
-              height={0}
+              width={1200}
+              height={630}
             />
 
 
@@ -73,8 +73,8 @@ export default function Page() {
               src="/images/news/ba-mobile.webp"
               alt="How to Integrate SAP SuccessFactors with Microsoft Office 365 for Enhanced Collaboration"
               className="!w-full"
-              width={0}
-              height={0}
+              width={375}
+              height={250}
               priority
             />
           </div>

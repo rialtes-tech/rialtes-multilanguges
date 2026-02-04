@@ -145,8 +145,8 @@ export default function Page() {
                             <Image
                                 src="/images/industry/real-estate/newAgentchat.webp"
                                 alt="agentchat banner"
-                                className=" w-full bg-cover xl:object-contain"
-                                width={0}
+                                className="w-full bg-cover xl:object-contain"
+                                 width={0}
                                 height={0}
                                 objectPosition="right"
                                 priority
@@ -178,7 +178,7 @@ export default function Page() {
                     <div className="relative">
                         <div className="absolute z-30 xl:right-16 right-0 md:right-10 mt-[-121px] xl:mt-[-180px] 4xl:mt-[-200px] ">
                             <Image
-                                className=" w-[137px] h-[180px] md:w-[220px] md:h-[170px] xl:w-[246px] xl:h-[249px] 4xl:w-[276px] 4xl:h-[249px] "
+                                className="w-[137px] h-[180px] md:w-[220px] md:h-[170px] xl:w-[246px] xl:h-[249px] 4xl:w-[276px] 4xl:h-[249px] "
                                 src='/images/industry/rialchat/AgentChat logo.svg'
                                 alt="AgentChat logo"
                                 width={0}

@@ -29,10 +29,13 @@ export default function ImageComponent({
             {!showRealImage ? (
                 // PLACEHOLDER IMAGE
                 <div className={`w-full h-full flex items-center justify-center ${loaderClass ? loaderClass : ""}`}>
-                    <img
+                    <Image
                         src="/images/common-img/loader.gif"
                         alt="Loading"
                         className="w-12 h-12 object-contain"
+                        width={48}
+                        height={48}
+                        priority
                     />
                 </div>
             ) : (
@@ -45,6 +48,7 @@ export default function ImageComponent({
                     sizes={sizes}
                     title={title}
                     style={style}
+                    priority
                     className={`transition-opacity duration-700 ease-in-out opacity-100 ${classes}`}
 
                 />
