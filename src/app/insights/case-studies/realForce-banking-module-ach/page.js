@@ -43,7 +43,7 @@ export default function Page() {
       <Seo
         title="Exelona Case Study: Front Load ACH and Journals"
         description="Learn how Rialtes helped front load ACH and journal entries using Exelona’s banking module to streamline finance ops and improve accuracy."
-        canonical="https://www.rialtes.com/insights/case-studies/realForce-banking-module-ach/"
+        canonical="https://www.rialtes.com/insights/case-studies/realForce-banking-module-ach"
       />
 
       <Script
