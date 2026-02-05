@@ -112,7 +112,7 @@ export default function Page() {
         "Digital transformation doesn’t fail because of weak applications. It fails because systems don’t talk to each other.",
         "As enterprises adopt cloud ERP, best-of-breed SaaS platforms, and industry-specific solutions, integration becomes the invisible backbone holding everything together. Orders, invoices, employee data, suppliers, customers, and partners all depend on reliable, secure, and scalable data movement.",
         "This is where SAP Cloud Platform Integration (SAP CPI) plays a big role. A well-designed SAP CPI implementation doesn’t just connect systems. It orchestrates processes, enforces security, enables automation, and creates the real-time visibility modern enterprises need.",
-        "At Rialtes, we help organizations design and implement enterprise-grade SAP CPI architectures that scale with growth, support complex landscapes, and turn integration from a bottleneck into a business accelerator."
+        "At Rialtes, we help organizations design and <a href='https://www.rialtes.com/solutions/integration/sap-cloud-platform-integration-consulting' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>implement enterprise-grade SAP CPI architectures</a> that scale with growth, support complex landscapes, and turn integration from a bottleneck into a business accelerator."
     ]
     const commonData = [
         {
@@ -325,7 +325,7 @@ export default function Page() {
                 "Performance and scalability planning",
                 "Post-go-live support and optimization"
             ],
-            "desc2": "With proven experience across SAP Ariba, S/4HANA, SuccessFactors, Salesforce, and complex hybrid landscapes, we help enterprises move faster without compromising stability."
+            "desc2": "With proven experience across <a href='https://www.rialtes.com/services/spend-management/sapbuyplus-ariba-implementation-partner' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>SAP Ariba</a>, <a href='https://www.rialtes.com/services/business-transformation/grow-with-sap-services' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>S/4HANA</a>, <a href='https://www.rialtes.com/services/hxm-transformation/successplus-successfactors-implementation-partner' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>SuccessFactors</a>, <a href='https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Salesforce</a>, and complex hybrid landscapes, we help enterprises move faster without compromising stability."
         }
     ]
     return (
