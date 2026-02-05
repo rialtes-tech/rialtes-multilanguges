@@ -10778,7 +10778,7 @@
     },
     "salesforceMarketingCloud": {
         "schemaData": {},
-          "faqTitle": "FAQ : parcours client fragmenté",
+        "faqTitle": "FAQ : parcours client fragmenté",
         "salesforcemarketingTitle": "Que sont les parcours clients fragmentés et pourquoi sont-ils importants ?",
         "mainData": [
             "Le marketing personnalisé est une promesse depuis plus de dix ans. Pourtant, malgré de meilleurs outils, davantage de données et des plateformes plus intelligentes, l’engagement client continue de décevoir. Les e-mails restent non ouverts. Les notifications push semblent non pertinentes. Les parcours se brisent en cours de route. Les campagnes sont lancées à temps, mais n’arrivent pas à créer de lien.",
@@ -11831,436 +11831,895 @@
                 "answer": "Rialtes combine une expertise SAP certifiée, une capacité de livraison mondiale et un cadre SAPBuy+ éprouvé pour offrir une transformation des achats qui va au-delà de la technologie."
             }
         ],
-         "faqTitle": "FAQ : SAPBuy+ pour l’implémentation et la migration de SAP Ariba",
-        "schemaData" : {},
+        "faqTitle": "FAQ : SAPBuy+ pour l’implémentation et la migration de SAP Ariba",
+        "schemaData": {},
         "seoTitle": "SAPBuy+ : Déployer SAP Ariba pour les achats modernes | Rialtes",
         "seoDescription": "SAPBuy+ est la suite complète de services de Rialtes, conçue autour de SAP Ariba pour offrir une transformation de bout en bout des achats, ainsi que l’implémentation du système.",
-        "bannerAlt" : "Pont numérique bleu lumineux avec nœuds réseau connectant appareils représentant connectivité cloud et intégration données",
-        "procurementImageAlt" : "Flèches progression flux de travail achats montrant plateforme forte, adoption faible, flux fragmentés, valeur manquée",
-         "categoryTitle" : "SAP Ariba"
+        "bannerAlt": "Pont numérique bleu lumineux avec nœuds réseau connectant appareils représentant connectivité cloud et intégration données",
+        "procurementImageAlt": "Flèches progression flux de travail achats montrant plateforme forte, adoption faible, flux fragmentés, valeur manquée",
+        "categoryTitle": "SAP Ariba"
     },
-    "kinaxisBlog":{
+    "kinaxisBlog": {
         "schemaData": {},
         "blogCategory": "Kinaxis RapidResponse",
-  "bannerTitle": "Construire une chaîne d'approvisionnement en temps réel et résiliente avec Rialtes Demand+",
-  "oldPlan": "Planification traditionnelle vs planification en temps réel",
-  "old": "Ancien",
-  "realTitle": "Temps réel",
-  "batchTitle": "Cycles par lots",
-  "continue": "Prise de décision continue",
-  "data": "Données cloisonnées",
-  "eco": "Écosystème connecté",
-  "reactive": "Gestion réactive des crises",
-  "pro": "Résilience proactive",
-  "demandTitle": "Le modèle de livraison Demand+",
-  "faqTitle": "FAQ : Transformez votre chaîne d'approvisionnement avec Rialtes « Demand+ »",
-  "bannerAlt":"Entrepôt automatisé avec traînées lumineuses colorées montrant systèmes convoyeurs rapides et mouvement inventaire efficace",
-    "blogMainData": [
-    "Les chaînes d’approvisionnement ne se cassent plus. Elles se plient, rebondissent et sont testées à nouveau presque immédiatement. La demande augmente sans avertissement. Les fournisseurs ne respectent pas leurs engagements. Les coûts de transport fluctuent du jour au lendemain. Et les équipes de planification sont censées réagir en quelques heures, pas en semaines. Selon une <a href='https://www.mckinsey.com/capabilities/operations/our-insights/boosting-supply-chain-resilience' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>enquête McKinsey 2023 sur la chaîne d'approvisionnement</a>, 73 % des dirigeants mondiaux ont connu des perturbations importantes au cours des deux dernières années, et près de la moitié déclarent que leurs systèmes de planification actuels manquent encore d’agilité pour répondre en temps réel. Dans le même temps, Gartner rapporte que seulement 22 % des organisations ont atteint une véritable visibilité de bout en bout de la chaîne d’approvisionnement, laissant la plupart des dirigeants prendre des décisions à fort impact avec des informations partielles. <br /> Source :",
-    "C’est l’écart dangereux d’aujourd’hui : ce qui se passe sur le terrain par rapport à ce que voient les dirigeants. Et c’est pourquoi la résilience ne repose plus sur des feuilles de calcul plus rapides ou des cycles par lots plus serrés. Elle repose sur une planification simultanée en temps réel qui connecte la demande, l’offre, les stocks et la capacité dans un seul modèle vivant."
-  ],
-
-  "whyData": [
-    {
-      "title": "Pourquoi la planification traditionnelle de la chaîne d’approvisionnement ne peut plus suivre",
-      "desc": "La plupart des environnements de planification ont été conçus pour la stabilité. Cycles S&OP mensuels. Revues hebdomadaires de la demande. Traitements par lots pendant la nuit. Cela fonctionnait lorsque les perturbations étaient l’exception.",
-      "desc1": "Aujourd’hui, les perturbations sont la norme.",
-      "desc2": "Défis courants que nous observons dans les entreprises :",
-      "list": [
-        "Plans de demande désalignés par rapport aux réalités de l’offre",
-        "Tampons de stock masquant des problèmes plus profonds",
-        "Visibilité retardée sur les contraintes des fournisseurs",
-        "Planification manuelle de scénarios qui prend des jours",
-        "Équipes qui réagissent au lieu d’anticiper"
-      ],
-      "desc3": "Le problème n’est pas un manque d’effort, mais un manque de simultanéité."
-    }
-  ],
-
-  "realData": [
-    {
-      "title": "Ce que signifie réellement une planification résiliente en temps réel",
-      "desc": "La résilience ne signifie pas éviter les perturbations. Elle signifie absorber les chocs et s’adapter plus rapidement que leur propagation.",
-      "desc1": "Dans une chaîne d’approvisionnement moderne, cela nécessite que trois capacités travaillent ensemble :",
-      "list": [
-        {
-          "title": "Visibilité en temps réel",
-          "desc": "sur la demande, l’offre, les stocks et la capacité"
-        },
-        {
-          "title": "Planification simultanée",
-          "desc": "afin que chaque changement se propage instantanément à travers le réseau"
-        },
-        {
-          "title": "Simulation rapide de scénarios",
-          "desc": "pour tester les réponses avant leur exécution"
-        }
-      ],
-      "desc2": "C’est la base de Kinaxis RapidResponse et le cœur de DemandPlus."
-    }
-  ],
-  "planData": [
-    {
-      "title": "La puissance de la planification simultanée avec Kinaxis RapidResponse",
-      "desc": "Contrairement aux outils de planification traditionnels qui exécutent des processus séquentiels, Kinaxis RapidResponse fonctionne sur un modèle de données unique en mémoire.",
-      "desc1": "Cela signifie :",
-      "list": [
-        "Un changement de la demande met à jour instantanément l’offre",
-        "Un retard fournisseur recalcule les plans de production en quelques secondes",
-        "Une contrainte de capacité redéfinit automatiquement les priorités de livraison",
-        "Un nouveau scénario de prévision montre l’impact sur les revenus, les niveaux de service et la marge"
-      ],
-      "desc2": "Les équipes de planification cessent d’attendre des rapports. Elles commencent à travailler avec la vérité en temps réel.",
-      "desc3": "C’est ainsi que les organisations passent de réactions tardives à des actions anticipées.",
-      "desc4": "La planification simultanée en action",
-      "steps": [
-        { "text": "Changement de la demande", "bg": "#E3F8FF" },
-        { "text": "Recalcul de l’offre", "bg": "#FAF1D2" },
-        { "text": "Ajustement des stocks", "bg": "#E3F8FF" },
-        { "text": "Impact financier visible", "bg": "#FAF1D2" },
-        { "text": "Tout en temps réel", "bg": "#E3F8FF" }
-      ]
-    }
-  ],
-
-  "visibilityData": [
-    {
-      "title": "Pourquoi la résilience commence par la visibilité",
-      "desc": "Vous ne pouvez pas réparer ce que vous ne pouvez pas voir. La plupart des perturbations s’aggravent parce que les signaux sont enfouis dans des systèmes qui ne communiquent pas entre eux. Au moment où la direction s’en rend compte, le coût est déjà engagé.",
-      "desc1": "DemandPlus connecte :",
-      "list": [
-        "Planification de la demande",
-        "Planification de l’offre",
-        "Optimisation des stocks",
-        "Gestion des capacités",
-        "S&OP et IBP",
-        "Modélisation de l’impact financier"
-      ],
-      "desc2": "Dans un seul environnement synchronisé.",
-      "desc3": "Les dirigeants obtiennent des réponses instantanées à des questions telles que :",
-      "listTwo": [
-        "Que se passe-t-il si ce fournisseur manque une livraison ?",
-        "Pouvons-nous réallouer les stocks sans nuire aux niveaux de service ?",
-        "Quels clients devons-nous prioriser si l’offre se resserre ?",
-        "Comment cette décision affecte-t-elle la marge du prochain trimestre ?"
-      ],
-      "desc4": "C’est une résilience fondée sur la clarté, et non sur les suppositions."
-    }
-  ],
-  "DemandData": [
-    {
-      "title": "Présentation de Rialtes Demand+ : la planification en temps réel en action",
-      "desc": "Rialtes DemandPlus est notre suite de services de bout en bout, construite autour de <a href='https://www.rialtes.com/fr/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Kinaxis RapidResponse</a>, pour aider les organisations à atteindre des chaînes d’approvisionnement connectées, intelligentes et résilientes.",
-      "desc1": "En tant que partenaire certifié Kinaxis et SAP avec des bureaux aux États-Unis, au Canada, en Inde et à Singapour, et une équipe d’experts Kinaxis hautement certifiés, nous aidons les entreprises à transformer RapidResponse en un avantage stratégique — et pas seulement en un outil de plus.",
-      "desc2": "Demand+ ne se limite pas au déploiement de logiciels. Il s’agit de changer la façon dont les décisions de planification sont prises."
-    }
-  ],
-
-  "DemandplusData": [
-    {
-      "title": "Ce que Demand+ offre",
-      "desc": "Notre cadre Demand+ réunit la stratégie, la technologie et l’exécution dans un modèle de transformation cohérent.",
-      "list": [
-        {
-          "title": "Conseil sur les licences Kinaxis et évaluation de la valeur",
-          "desc": "Nous aidons les organisations à définir le périmètre, la feuille de route et le ROI appropriés avant le début de la mise en œuvre."
-        },
-        {
-          "title": "Architecture et conception de solutions",
-          "desc": "Les modèles de planification sont construits autour de vos contraintes métier réelles — et non sur des modèles génériques."
-        },
-        {
-          "title": "Mise en œuvre rapide et configuration des processus",
-          "desc": "Déploiement accéléré avec des workflows de bonnes pratiques pour la demande, l’offre, les stocks et le S&OP."
-        },
-        {
-          "title": "Assurance qualité, tests et formation des utilisateurs",
-          "desc": "Garantir que les planificateurs fassent confiance au système — car l’adoption est essentielle."
-        },
-        {
-          "title": "Intégration avec SAP S/4HANA, Oracle EBS et systèmes non SAP",
-          "desc": "DemandPlus connecte RapidResponse à votre ERP et à votre écosystème afin que les données circulent sans friction."
-        },
-        {
-          "title": "Support post-mise en production et optimisation continue",
-          "desc": "La résilience s’améliore avec le temps. Nous restons engagés pour faire évoluer les processus, pas seulement pour maintenir les systèmes."
-        }
-      ],
-      "model": {
-        "label": "Modèle de transformation marketing Advantage+",
-        "steps": ["Stratégie", "Construire", "Créer", "Tester", "Connecter", "Optimiser"]
-      },
-      "steps": [
-        "Évaluer",
-        "Concevoir",
-        "Mettre en œuvre",
-        "Intégrer",
-        "Activer",
-        "Optimiser"
-      ]
-    }
-  ],
-  "DeliversData": [
-    {
-      "title": "Comment Demand+ permet une réponse plus rapide aux perturbations",
-      "desc": "Examinons des scénarios du monde réel.",
-      "list": [
-        {
-          "title": "Scénario 1 : Pic soudain de la demande",
-          "desc": "Une promotion génère des commandes inattendues. Avec une planification par lots, les équipes réagissent plusieurs jours plus tard. Avec RapidResponse, les changements de la demande déclenchent des recalculs instantanés de l’offre et des stocks. Les planificateurs rééquilibrent la production et l’exécution le jour même."
-        },
-        {
-          "title": "Scénario 2 : Retard d’un fournisseur",
-          "desc": "Un composant critique est retardé de deux semaines. RapidResponse montre immédiatement l’impact en aval sur les niveaux de service, les revenus et la marge. Les équipes simulent des alternatives et s’engagent sur la meilleure option avant que la perturbation ne se propage."
-        },
-        {
-          "title": "Scénario 3 : Contrainte de capacité",
-          "desc": "Une ligne de production est arrêtée. Au lieu de feuilles de calcul manuelles, les planificateurs voient les arbitrages en temps réel entre les usines, les SKU et les clients."
-        }
-      ]
-    }
-  ],
-
-  "benefitsData": [
-    {
-      "title": "Qui bénéficie le plus de DemandPlus",
-      "desc": "<a href='https://www.rialtes.com/fr/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>DemandPlus</a> est idéal pour les organisations qui évoluent dans des environnements complexes et en évolution rapide :",
-      "list": [
-        "Entreprises de fabrication et de distribution",
-        "Chaînes d’approvisionnement des sciences de la vie et des technologies médicales",
-        "Réseaux de biens de consommation et de commerce de détail",
-        "Entreprises automobiles et industrielles",
-        "Entreprises de haute technologie et d’électronique"
-      ],
-      "desc1": "Si la volatilité fait partie de votre réalité, la planification en temps réel devrait en faire partie aussi."
-    }
-  ],
-
-  "businessData": [
-    {
-      "title": "Résultats métiers qui comptent pour les dirigeants",
-      "desc": "Lorsque la résilience en temps réel devient la norme, l’impact est tangible :",
-      "list": [
-        "Réponse plus rapide aux changements de la demande et de l’offre",
-        "Niveaux de service plus élevés avec moins de stocks",
-        "Réduction des coûts d’urgence et de gestion de crise",
-        "Meilleur alignement entre la planification et la finance",
-        "Confiance accrue dans les décisions S&OP et IBP",
-        "Une chaîne d’approvisionnement qui s’adapte au lieu d’absorber des pertes"
-      ],
-      "desc1": "C’est ainsi que la planification passe du soutien opérationnel à un avantage stratégique. Avec Rialtes Demand+ et Kinaxis RapidResponse, la planification en temps réel devient votre avantage, transformant l’incertitude en avantage concurrentiel."
-    }
-  ],
-
-  "faqData": [
-    {
-      "question": "Qu’est-ce que Demand+ de Rialtes ?",
-      "answer": "Demand+ est le cadre de services de bout en bout de Rialtes, construit autour de Kinaxis RapidResponse pour permettre une planification de la chaîne d’approvisionnement en temps réel, simultanée et résiliente."
+        "bannerTitle": "Construire une chaîne d'approvisionnement en temps réel et résiliente avec Rialtes Demand+",
+        "oldPlan": "Planification traditionnelle vs planification en temps réel",
+        "old": "Ancien",
+        "realTitle": "Temps réel",
+        "batchTitle": "Cycles par lots",
+        "continue": "Prise de décision continue",
+        "data": "Données cloisonnées",
+        "eco": "Écosystème connecté",
+        "reactive": "Gestion réactive des crises",
+        "pro": "Résilience proactive",
+        "demandTitle": "Le modèle de livraison Demand+",
+        "faqTitle": "FAQ : Transformez votre chaîne d'approvisionnement avec Rialtes « Demand+ »",
+        "bannerAlt": "Entrepôt automatisé avec traînées lumineuses colorées montrant systèmes convoyeurs rapides et mouvement inventaire efficace",
+        "blogMainData": [
+            "Les chaînes d’approvisionnement ne se cassent plus. Elles se plient, rebondissent et sont testées à nouveau presque immédiatement. La demande augmente sans avertissement. Les fournisseurs ne respectent pas leurs engagements. Les coûts de transport fluctuent du jour au lendemain. Et les équipes de planification sont censées réagir en quelques heures, pas en semaines. Selon une <a href='https://www.mckinsey.com/capabilities/operations/our-insights/boosting-supply-chain-resilience' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>enquête McKinsey 2023 sur la chaîne d'approvisionnement</a>, 73 % des dirigeants mondiaux ont connu des perturbations importantes au cours des deux dernières années, et près de la moitié déclarent que leurs systèmes de planification actuels manquent encore d’agilité pour répondre en temps réel. Dans le même temps, Gartner rapporte que seulement 22 % des organisations ont atteint une véritable visibilité de bout en bout de la chaîne d’approvisionnement, laissant la plupart des dirigeants prendre des décisions à fort impact avec des informations partielles. <br /> Source :",
+            "C’est l’écart dangereux d’aujourd’hui : ce qui se passe sur le terrain par rapport à ce que voient les dirigeants. Et c’est pourquoi la résilience ne repose plus sur des feuilles de calcul plus rapides ou des cycles par lots plus serrés. Elle repose sur une planification simultanée en temps réel qui connecte la demande, l’offre, les stocks et la capacité dans un seul modèle vivant."
+        ],
+        "whyData": [
+            {
+                "title": "Pourquoi la planification traditionnelle de la chaîne d’approvisionnement ne peut plus suivre",
+                "desc": "La plupart des environnements de planification ont été conçus pour la stabilité. Cycles S&OP mensuels. Revues hebdomadaires de la demande. Traitements par lots pendant la nuit. Cela fonctionnait lorsque les perturbations étaient l’exception.",
+                "desc1": "Aujourd’hui, les perturbations sont la norme.",
+                "desc2": "Défis courants que nous observons dans les entreprises :",
+                "list": [
+                    "Plans de demande désalignés par rapport aux réalités de l’offre",
+                    "Tampons de stock masquant des problèmes plus profonds",
+                    "Visibilité retardée sur les contraintes des fournisseurs",
+                    "Planification manuelle de scénarios qui prend des jours",
+                    "Équipes qui réagissent au lieu d’anticiper"
+                ],
+                "desc3": "Le problème n’est pas un manque d’effort, mais un manque de simultanéité."
+            }
+        ],
+        "realData": [
+            {
+                "title": "Ce que signifie réellement une planification résiliente en temps réel",
+                "desc": "La résilience ne signifie pas éviter les perturbations. Elle signifie absorber les chocs et s’adapter plus rapidement que leur propagation.",
+                "desc1": "Dans une chaîne d’approvisionnement moderne, cela nécessite que trois capacités travaillent ensemble :",
+                "list": [
+                    {
+                        "title": "Visibilité en temps réel",
+                        "desc": "sur la demande, l’offre, les stocks et la capacité"
+                    },
+                    {
+                        "title": "Planification simultanée",
+                        "desc": "afin que chaque changement se propage instantanément à travers le réseau"
+                    },
+                    {
+                        "title": "Simulation rapide de scénarios",
+                        "desc": "pour tester les réponses avant leur exécution"
+                    }
+                ],
+                "desc2": "C’est la base de Kinaxis RapidResponse et le cœur de DemandPlus."
+            }
+        ],
+        "planData": [
+            {
+                "title": "La puissance de la planification simultanée avec Kinaxis RapidResponse",
+                "desc": "Contrairement aux outils de planification traditionnels qui exécutent des processus séquentiels, Kinaxis RapidResponse fonctionne sur un modèle de données unique en mémoire.",
+                "desc1": "Cela signifie :",
+                "list": [
+                    "Un changement de la demande met à jour instantanément l’offre",
+                    "Un retard fournisseur recalcule les plans de production en quelques secondes",
+                    "Une contrainte de capacité redéfinit automatiquement les priorités de livraison",
+                    "Un nouveau scénario de prévision montre l’impact sur les revenus, les niveaux de service et la marge"
+                ],
+                "desc2": "Les équipes de planification cessent d’attendre des rapports. Elles commencent à travailler avec la vérité en temps réel.",
+                "desc3": "C’est ainsi que les organisations passent de réactions tardives à des actions anticipées.",
+                "desc4": "La planification simultanée en action",
+                "steps": [
+                    {
+                        "text": "Changement de la demande",
+                        "bg": "#E3F8FF"
+                    },
+                    {
+                        "text": "Recalcul de l’offre",
+                        "bg": "#FAF1D2"
+                    },
+                    {
+                        "text": "Ajustement des stocks",
+                        "bg": "#E3F8FF"
+                    },
+                    {
+                        "text": "Impact financier visible",
+                        "bg": "#FAF1D2"
+                    },
+                    {
+                        "text": "Tout en temps réel",
+                        "bg": "#E3F8FF"
+                    }
+                ]
+            }
+        ],
+        "visibilityData": [
+            {
+                "title": "Pourquoi la résilience commence par la visibilité",
+                "desc": "Vous ne pouvez pas réparer ce que vous ne pouvez pas voir. La plupart des perturbations s’aggravent parce que les signaux sont enfouis dans des systèmes qui ne communiquent pas entre eux. Au moment où la direction s’en rend compte, le coût est déjà engagé.",
+                "desc1": "DemandPlus connecte :",
+                "list": [
+                    "Planification de la demande",
+                    "Planification de l’offre",
+                    "Optimisation des stocks",
+                    "Gestion des capacités",
+                    "S&OP et IBP",
+                    "Modélisation de l’impact financier"
+                ],
+                "desc2": "Dans un seul environnement synchronisé.",
+                "desc3": "Les dirigeants obtiennent des réponses instantanées à des questions telles que :",
+                "listTwo": [
+                    "Que se passe-t-il si ce fournisseur manque une livraison ?",
+                    "Pouvons-nous réallouer les stocks sans nuire aux niveaux de service ?",
+                    "Quels clients devons-nous prioriser si l’offre se resserre ?",
+                    "Comment cette décision affecte-t-elle la marge du prochain trimestre ?"
+                ],
+                "desc4": "C’est une résilience fondée sur la clarté, et non sur les suppositions."
+            }
+        ],
+        "DemandData": [
+            {
+                "title": "Présentation de Rialtes Demand+ : la planification en temps réel en action",
+                "desc": "Rialtes DemandPlus est notre suite de services de bout en bout, construite autour de <a href='https://www.rialtes.com/fr/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Kinaxis RapidResponse</a>, pour aider les organisations à atteindre des chaînes d’approvisionnement connectées, intelligentes et résilientes.",
+                "desc1": "En tant que partenaire certifié Kinaxis et SAP avec des bureaux aux États-Unis, au Canada, en Inde et à Singapour, et une équipe d’experts Kinaxis hautement certifiés, nous aidons les entreprises à transformer RapidResponse en un avantage stratégique — et pas seulement en un outil de plus.",
+                "desc2": "Demand+ ne se limite pas au déploiement de logiciels. Il s’agit de changer la façon dont les décisions de planification sont prises."
+            }
+        ],
+        "DemandplusData": [
+            {
+                "title": "Ce que Demand+ offre",
+                "desc": "Notre cadre Demand+ réunit la stratégie, la technologie et l’exécution dans un modèle de transformation cohérent.",
+                "list": [
+                    {
+                        "title": "Conseil sur les licences Kinaxis et évaluation de la valeur",
+                        "desc": "Nous aidons les organisations à définir le périmètre, la feuille de route et le ROI appropriés avant le début de la mise en œuvre."
+                    },
+                    {
+                        "title": "Architecture et conception de solutions",
+                        "desc": "Les modèles de planification sont construits autour de vos contraintes métier réelles — et non sur des modèles génériques."
+                    },
+                    {
+                        "title": "Mise en œuvre rapide et configuration des processus",
+                        "desc": "Déploiement accéléré avec des workflows de bonnes pratiques pour la demande, l’offre, les stocks et le S&OP."
+                    },
+                    {
+                        "title": "Assurance qualité, tests et formation des utilisateurs",
+                        "desc": "Garantir que les planificateurs fassent confiance au système — car l’adoption est essentielle."
+                    },
+                    {
+                        "title": "Intégration avec SAP S/4HANA, Oracle EBS et systèmes non SAP",
+                        "desc": "DemandPlus connecte RapidResponse à votre ERP et à votre écosystème afin que les données circulent sans friction."
+                    },
+                    {
+                        "title": "Support post-mise en production et optimisation continue",
+                        "desc": "La résilience s’améliore avec le temps. Nous restons engagés pour faire évoluer les processus, pas seulement pour maintenir les systèmes."
+                    }
+                ],
+                "model": {
+                    "label": "Modèle de transformation marketing Advantage+",
+                    "steps": [
+                        "Stratégie",
+                        "Construire",
+                        "Créer",
+                        "Tester",
+                        "Connecter",
+                        "Optimiser"
+                    ]
+                },
+                "steps": [
+                    "Évaluer",
+                    "Concevoir",
+                    "Mettre en œuvre",
+                    "Intégrer",
+                    "Activer",
+                    "Optimiser"
+                ]
+            }
+        ],
+        "DeliversData": [
+            {
+                "title": "Comment Demand+ permet une réponse plus rapide aux perturbations",
+                "desc": "Examinons des scénarios du monde réel.",
+                "list": [
+                    {
+                        "title": "Scénario 1 : Pic soudain de la demande",
+                        "desc": "Une promotion génère des commandes inattendues. Avec une planification par lots, les équipes réagissent plusieurs jours plus tard. Avec RapidResponse, les changements de la demande déclenchent des recalculs instantanés de l’offre et des stocks. Les planificateurs rééquilibrent la production et l’exécution le jour même."
+                    },
+                    {
+                        "title": "Scénario 2 : Retard d’un fournisseur",
+                        "desc": "Un composant critique est retardé de deux semaines. RapidResponse montre immédiatement l’impact en aval sur les niveaux de service, les revenus et la marge. Les équipes simulent des alternatives et s’engagent sur la meilleure option avant que la perturbation ne se propage."
+                    },
+                    {
+                        "title": "Scénario 3 : Contrainte de capacité",
+                        "desc": "Une ligne de production est arrêtée. Au lieu de feuilles de calcul manuelles, les planificateurs voient les arbitrages en temps réel entre les usines, les SKU et les clients."
+                    }
+                ]
+            }
+        ],
+        "benefitsData": [
+            {
+                "title": "Qui bénéficie le plus de DemandPlus",
+                "desc": "<a href='https://www.rialtes.com/fr/services/intelligent-scm/demandplus-kinaxis-rapidresponse-services/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>DemandPlus</a> est idéal pour les organisations qui évoluent dans des environnements complexes et en évolution rapide :",
+                "list": [
+                    "Entreprises de fabrication et de distribution",
+                    "Chaînes d’approvisionnement des sciences de la vie et des technologies médicales",
+                    "Réseaux de biens de consommation et de commerce de détail",
+                    "Entreprises automobiles et industrielles",
+                    "Entreprises de haute technologie et d’électronique"
+                ],
+                "desc1": "Si la volatilité fait partie de votre réalité, la planification en temps réel devrait en faire partie aussi."
+            }
+        ],
+        "businessData": [
+            {
+                "title": "Résultats métiers qui comptent pour les dirigeants",
+                "desc": "Lorsque la résilience en temps réel devient la norme, l’impact est tangible :",
+                "list": [
+                    "Réponse plus rapide aux changements de la demande et de l’offre",
+                    "Niveaux de service plus élevés avec moins de stocks",
+                    "Réduction des coûts d’urgence et de gestion de crise",
+                    "Meilleur alignement entre la planification et la finance",
+                    "Confiance accrue dans les décisions S&OP et IBP",
+                    "Une chaîne d’approvisionnement qui s’adapte au lieu d’absorber des pertes"
+                ],
+                "desc1": "C’est ainsi que la planification passe du soutien opérationnel à un avantage stratégique. Avec Rialtes Demand+ et Kinaxis RapidResponse, la planification en temps réel devient votre avantage, transformant l’incertitude en avantage concurrentiel."
+            }
+        ],
+        "faqData": [
+            {
+                "question": "Qu’est-ce que Demand+ de Rialtes ?",
+                "answer": "Demand+ est le cadre de services de bout en bout de Rialtes, construit autour de Kinaxis RapidResponse pour permettre une planification de la chaîne d’approvisionnement en temps réel, simultanée et résiliente."
+            },
+            {
+                "question": "Comment Kinaxis RapidResponse prend-il en charge la planification en temps réel ?",
+                "answer": "Il utilise un modèle de données unique en mémoire qui met à jour simultanément la demande, l’offre, les stocks et la capacité, permettant une analyse instantanée des scénarios et une prise de décision rapide."
+            },
+            {
+                "question": "Pourquoi la planification simultanée est-elle importante pour la résilience ?",
+                "answer": "Parce que les perturbations affectent l’ensemble de la chaîne d’approvisionnement en même temps. La planification séquentielle retarde la réponse, tandis que la planification simultanée permet une action immédiate et coordonnée."
+            },
+            {
+                "question": "DemandPlus s’intègre-t-il avec SAP et Oracle ?",
+                "answer": "Oui. DemandPlus intègre Kinaxis RapidResponse avec SAP S/4HANA, Oracle EBS et des systèmes non SAP pour un flux de données fluide."
+            },
+            {
+                "question": "Qu’est-ce qui fait de Rialtes un partenaire Kinaxis solide ?",
+                "answer": "Des experts Kinaxis certifiés, une capacité de livraison mondiale et un cadre Demand+ éprouvé qui se concentre sur les résultats, pas seulement sur la mise en œuvre."
+            }
+        ]
     },
-    {
-      "question": "Comment Kinaxis RapidResponse prend-il en charge la planification en temps réel ?",
-      "answer": "Il utilise un modèle de données unique en mémoire qui met à jour simultanément la demande, l’offre, les stocks et la capacité, permettant une analyse instantanée des scénarios et une prise de décision rapide."
+    "rialfinanceBlog": {
+        "blogCategory": "Salesforce FSC",
+        "headerAlt": "Cómo Salesforce Financial Services Cloud impulsado por IA está transformando la banca moderna",
+        "faqTitle": "Preguntas frecuentes: Transformación de los servicios financieros impulsada por IA",
+        "bannerAlt": "Ville numérique futuriste avec flux de données lumineux et connexions réseau représentant technologie ville intelligente IoT",
+        "clientDiagram": "Diagramme Client 360 montrant vue client complète avec comptes, événements vie, transactions, préférences, risque, engagement",
+        "crmAlt": "Processus d'évolution CRM en quatre étapes: CRM hérité, Données connectées, Workflows IA, Entreprise intelligente",
+        "schemaData": {},
+        "blogMainData": [
+            "Les services financiers évoluent plus rapidement que la capacité de la plupart des institutions à repenser leurs modèles opérationnels. <a href='https://www.accenture.com/us-en/insights/banking/banking-consumer-study' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Selon Accenture</a>, près de 73 % des clients bancaires attendent désormais le même niveau de personnalisation et de simplicité numérique que celui offert par les applications grand public, mais seule une minorité estime que leur banque y répond réellement. Ajoutez à cela une pression réglementaire croissante et des marges en baisse, et l’écart devient encore plus évident : les institutions doivent aller plus vite, agir plus intelligemment et rester conformes en même temps.",
+            "Les CRM traditionnels n’ont pas été conçus pour cette réalité. Ils ont été pensés pour enregistrer les interactions, pas pour guider les décisions en temps réel. C’est pourquoi les banques, les prêteurs et les sociétés de gestion de patrimoine tournés vers l’avenir dépassent le simple CRM pour adopter Salesforce Financial Services Cloud (FSC) alimenté par l’IA — une plateforme conçue pour connecter les données, l’intelligence et l’action.",
+            "Et c’est précisément là qu’interviennent les services RialFinance+ de Rialtes, aidant les institutions financières à moderniser l’engagement, les opérations et la conformité grâce à un écosystème unique, connecté et intelligent, prêt pour les attentes d’aujourd’hui et les exigences de demain."
+        ],
+        "whyData": [
+            {
+                "title": "Pourquoi les CRM traditionnels sont insuffisants dans les services financiers",
+                "desc": "La plupart des CRM fonctionnent encore comme des classeurs numériques. Ils stockent des données, mais ne les interprètent pas. Ils enregistrent les interactions, mais n’anticipent pas les besoins.",
+                "desc1": "Pour les institutions financières, cela crée de véritables problèmes.",
+                "desc2": "L’impact se fait sentir partout :",
+                "list": [
+                    "Les conseillers passent plus de temps à chercher qu’à conseiller",
+                    "L’onboarding prend des semaines au lieu de quelques jours",
+                    "La vente croisée semble forcée, pas pertinente",
+                    "La conformité est réactive, pas intégrée",
+                    "Les parcours clients restent fragmentés entre produits et canaux"
+                ],
+                "desc3": "Ce que cela signifie réellement : une perte de confiance, de revenus et d’élan.",
+                "desc4": "Salesforce Financial Services Cloud change cette équation en combinant des modèles de données sectoriels, l’automatisation et l’IA dans un système conçu spécifiquement pour la banque, le crédit et la gestion de patrimoine."
+            }
+        ],
+        "buildingData": [
+            {
+                "title": "Construire un véritable Client 360 pour les institutions financières",
+                "desc": "Tout le monde parle de Client 360. Peu y parviennent réellement.",
+                "desc1": "Dans la plupart des banques et institutions financières, les données clients sont stockées partout : systèmes bancaires centraux, plateformes de prêts, CRM, outils marketing et centres de support. Chaque équipe ne voit qu’une partie de l’histoire.",
+                "desc2": "Salesforce FSC change cela en créant un profil financier unique qui rassemble :",
+                "list": [
+                    "Comptes et actifs",
+                    "Hiérarchies de ménages et de relations",
+                    "Événements de vie et objectifs financiers",
+                    "Historique des services et données d’interaction",
+                    "Dossiers de conformité et préférences"
+                ]
+            }
+        ],
+        "powerData": [
+            {
+                "title": "La puissance de l’IA + Salesforce FSC dans la banque moderne",
+                "desc": "L’IA ne remplace pas les chargés de relation. Elle les rend plus performants. Intégrée à Salesforce FSC, l’IA transforme la plateforme d’un système d’enregistrement en un système d’intelligence.",
+                "desc1": "Ce que l’IA apporte :",
+                "list": [
+                    "Des insights prédictifs qui identifient les besoins des clients avant qu’ils n’apparaissent",
+                    "Des recommandations de meilleure action suivante pour les conseillers",
+                    "Des workflows automatisés pour l’onboarding et le service",
+                    "Des contrôles de risque et de conformité en temps réel",
+                    "Un engagement personnalisé à grande échelle"
+                ],
+                "desc2": "Au lieu de réagir aux événements, les équipes commencent à façonner les résultats.",
+                "desc3": "C’est la différence entre une transformation numérique et un véritable changement opérationnel."
+            }
+        ],
+        "scaleData": [
+            {
+                "title": "Onboarding intelligent et conseil à grande échelle",
+                "desc": "L’onboarding est le premier véritable test de confiance. Et c’est souvent là que les institutions perdent leur élan. Des processus lourds en papier, des vérifications manuelles, des validations déconnectées — tout cela ralentit ce qui devrait être un moment de confiance.",
+                "desc1": "Avec Salesforce FSC activé par l’IA, l’onboarding devient :",
+                "list": [
+                    "Guidé numériquement",
+                    "Conforme aux politiques",
+                    "Automatiquement acheminé",
+                    "Validé en temps réel pour la conformité"
+                ],
+                "desc2": "Les documents sont vérifiés plus rapidement. Les contrôles de risque se font en parallèle. Les conseillers se concentrent sur la relation plutôt que sur la paperasse.",
+                "desc3": "La même intelligence s’étend aux services de conseil.",
+                "desc4": "L’IA aide à identifier les lacunes de portefeuille, les déclencheurs liés aux étapes de vie et les opportunités de vente croisée basées sur le comportement, et non sur des suppositions. Cela transforme le conseil en une expérience continue et personnalisée plutôt qu’en une discussion annuelle."
+            }
+        ],
+        "frictionData": [
+            {
+                "title": "Une automatisation prête pour la conformité, sans friction",
+                "desc": "Dans les services financiers, l’automatisation ne fonctionne que si elle respecte la réglementation. C’est là que de nombreuses plateformes échouent. Elles automatisent les tâches, mais laissent la conformité comme une couche séparée. Le résultat : des reprises, des audits et une exposition accrue aux risques.",
+                "desc1": "Salesforce FSC adopte une approche différente. La conformité devient une partie intégrante du workflow lui-même.",
+                "whatTitle": "À quoi cela ressemble en pratique",
+                "list": [
+                    "Processus KYC et AML automatisés intégrés à l’onboarding",
+                    "Pistes d’audit générées par défaut",
+                    "Approbations basées sur des politiques pour les transactions sensibles",
+                    "Surveillance en temps réel des exceptions et des risques",
+                    "Gouvernance des données alignée sur les exigences réglementaires"
+                ],
+                "desc2": "Lorsque l’IA est ajoutée par-dessus, les institutions obtiennent des signaux de risque prédictifs au lieu de simples rapports historiques. Ainsi, la conformité cesse d’être un goulot d’étranglement et devient une force intégrée."
+            }
+        ],
+        "rialData": [
+            {
+                "title": "Pourquoi RialFinance+ est différent",
+                "desc": "La technologie seule ne transforme pas les services financiers. L’exécution, oui.",
+                "desc1": "C’est pourquoi <a href='https://https://www.rialtes.com/fr/services/lob/salesforce-fsc-consulting-rialfinanceplus/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Rialtes a créé RialFinance+</a> comme une approche complète de services managés pour Salesforce Financial Services Cloud. Au lieu d’assembler conseil, implémentation, IA et support auprès de différents fournisseurs, RialFinance+ réunit tout dans un modèle unique et responsable.",
+                "desc2": "Ce que propose RialFinance+",
+                "list": [
+                    {
+                        "title": "Conseil stratégique",
+                        "desc": "Nous alignons vos objectifs métiers avec une feuille de route FSC évolutive, fondée sur de vrais besoins opérationnels, et pas seulement sur des fonctionnalités."
+                    },
+                    {
+                        "title": "Conception et architecture des systèmes",
+                        "desc": "Nous concevons des environnements FSC qui soutiennent les modèles bancaires, de crédit et de gestion de patrimoine dès le premier jour."
+                    },
+                    {
+                        "title": "Implémentation certifiée",
+                        "desc": "Nos équipes configurent Salesforce FSC selon les meilleures pratiques du secteur, garantissant une adoption plus rapide et moins de surprises."
+                    },
+                    {
+                        "title": "Intégrations IA",
+                        "desc": "Des insights prédictifs à l’automatisation intelligente, nous intégrons l’IA là où elle crée une valeur mesurable."
+                    },
+                    {
+                        "title": "Assurance qualité et gouvernance",
+                        "desc": "Nous validons la performance, la sécurité et la conformité avant la mise en production et au-delà."
+                    },
+                    {
+                        "title": "Services managés continus",
+                        "desc": "L’optimisation ne s’arrête pas au lancement. Nous affinons en continu les workflows, l’analytique et les modèles d’engagement à mesure que votre activité évolue."
+                    }
+                ],
+                "desc3": "Ce que cela signifie réellement est simple : vous obtenez un partenaire axé sur les résultats, et pas seulement sur les déploiements."
+            }
+        ],
+        "servicesData": [
+            {
+                "title": "Un impact métier réel dans l’ensemble des services financiers",
+                "desc": "Lorsque Salesforce FSC alimenté par l’IA est mis en œuvre de la bonne manière, les résultats se manifestent rapidement.",
+                "desc1": "Les banques constatent un onboarding plus rapide et une activation des comptes plus élevée.",
+                "desc2": "Les prêteurs bénéficient d’un meilleur contrôle des risques et d’approbations plus fluides.",
+                "desc3": "Les sociétés de gestion de patrimoine observent une productivité accrue des conseillers et des relations clients plus profondes.",
+                "desc4": "Globalement, les institutions obtiennent :",
+                "list": [
+                    "Un délai de création de valeur plus court pour les initiatives numériques",
+                    "Un engagement plus élevé sur tous les canaux",
+                    "Une confiance accrue en matière de conformité",
+                    "Moins de friction opérationnelle",
+                    "Une plateforme qui évolue avec les nouveaux produits et réglementations"
+                ],
+                "desc5": "Ce n’est pas une transformation en théorie. C’est une transformation en pratique."
+            }
+        ],
+        "futureData": [
+            {
+                "title": "L’avenir des services financiers est intelligent, connecté et digne de confiance",
+                "desc": [
+                    "Les clients ne se soucient pas du nombre de systèmes que vous utilisez. Ils se soucient de se sentir compris. Les régulateurs ne se soucient pas de la complexité de vos opérations. Ils se soucient de leur niveau de contrôle. Les conseillers ne se soucient pas de la puissance de votre CRM. Ils se soucient de son utilité au moment qui compte vraiment.",
+                    "Salesforce Financial Services Cloud alimenté par l’IA répond à ces trois exigences. Mais la technologie seule ne crée pas la transformation.",
+                    "C’est là qu’intervient Rialtes. Grâce à RialFinance+, nous aidons les institutions financières à transformer Salesforce FSC en une plateforme connectée, conforme et orientée par les insights, qui change la manière dont les équipes interagissent avec les clients, gèrent les risques et prennent des décisions."
+                ]
+            }
+        ],
+        "faqData": [
+            {
+                "question": "Qu’est-ce qui distingue Salesforce Financial Services Cloud d’un CRM traditionnel ?",
+                "answer": "Salesforce FSC est conçu spécifiquement pour les services financiers, avec des modèles de données sectoriels, des workflows prêts pour la conformité et des hiérarchies relationnelles que les CRM génériques n’offrent pas. Lorsqu’il est combiné à l’IA, il devient une plateforme d’aide à la décision, et pas seulement un système de suivi."
+            },
+            {
+                "question": "Comment l’IA améliore-t-elle l’engagement client dans la banque et la gestion de patrimoine ?",
+                "answer": "L’IA analyse les comportements, les événements de vie et les schémas d’interaction afin de recommander la meilleure action suivante, des offres personnalisées et des opportunités de service proactif, aidant ainsi les conseillers à rester pertinents sans être intrusifs."
+            },
+            {
+                "question": "Le FSC alimenté par l’IA peut-il prendre en charge la conformité réglementaire ?",
+                "answer": "Oui. FSC intègre la conformité directement dans les workflows, tandis que l’IA ajoute une surveillance prédictive des risques, une documentation automatisée et une gestion des exceptions en temps réel."
+            },
+            {
+                "question": "Qu’est-ce que RialFinance+ et en quoi est-il différent des services d’implémentation standards ?",
+                "answer": "RialFinance+ est un modèle complet de services managés qui combine conseil, implémentation, intégration de l’IA, QA et optimisation continue dans une approche unifiée, garantissant une valeur à long terme et pas seulement une mise en production réussie."
+            },
+            {
+                "question": "Quelles institutions financières bénéficient le plus de RialFinance+ ?",
+                "answer": "Les banques, prêteurs, coopératives de crédit et sociétés de gestion de patrimoine qui cherchent à moderniser l’engagement, rationaliser les opérations et faire évoluer la personnalisation sans compromettre la conformité."
+            }
+        ]
     },
-    {
-      "question": "Pourquoi la planification simultanée est-elle importante pour la résilience ?",
-      "answer": "Parce que les perturbations affectent l’ensemble de la chaîne d’approvisionnement en même temps. La planification séquentielle retarde la réponse, tandis que la planification simultanée permet une action immédiate et coordonnée."
-    },
-    {
-      "question": "DemandPlus s’intègre-t-il avec SAP et Oracle ?",
-      "answer": "Oui. DemandPlus intègre Kinaxis RapidResponse avec SAP S/4HANA, Oracle EBS et des systèmes non SAP pour un flux de données fluide."
-    },
-    {
-      "question": "Qu’est-ce qui fait de Rialtes un partenaire Kinaxis solide ?",
-      "answer": "Des experts Kinaxis certifiés, une capacité de livraison mondiale et un cadre Demand+ éprouvé qui se concentre sur les résultats, pas seulement sur la mise en œuvre."
-    }
-  ]
-    },
-     "rialfinanceBlog":{
-   "blogCategory": "Salesforce FSC",
-  "headerAlt": "Cómo Salesforce Financial Services Cloud impulsado por IA está transformando la banca moderna",
-  "faqTitle": "Preguntas frecuentes: Transformación de los servicios financieros impulsada por IA",
-  "bannerAlt": "Ville numérique futuriste avec flux de données lumineux et connexions réseau représentant technologie ville intelligente IoT",
-  "clientDiagram": "Diagramme Client 360 montrant vue client complète avec comptes, événements vie, transactions, préférences, risque, engagement",
-  "crmAlt": "Processus d'évolution CRM en quatre étapes: CRM hérité, Données connectées, Workflows IA, Entreprise intelligente",
-  "schemaData" : {},
-  "blogMainData": [
-    "Les services financiers évoluent plus rapidement que la capacité de la plupart des institutions à repenser leurs modèles opérationnels. <a href='https://www.accenture.com/us-en/insights/banking/banking-consumer-study' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Selon Accenture</a>, près de 73 % des clients bancaires attendent désormais le même niveau de personnalisation et de simplicité numérique que celui offert par les applications grand public, mais seule une minorité estime que leur banque y répond réellement. Ajoutez à cela une pression réglementaire croissante et des marges en baisse, et l’écart devient encore plus évident : les institutions doivent aller plus vite, agir plus intelligemment et rester conformes en même temps.",
-    "Les CRM traditionnels n’ont pas été conçus pour cette réalité. Ils ont été pensés pour enregistrer les interactions, pas pour guider les décisions en temps réel. C’est pourquoi les banques, les prêteurs et les sociétés de gestion de patrimoine tournés vers l’avenir dépassent le simple CRM pour adopter Salesforce Financial Services Cloud (FSC) alimenté par l’IA — une plateforme conçue pour connecter les données, l’intelligence et l’action.",
-    "Et c’est précisément là qu’interviennent les services RialFinance+ de Rialtes, aidant les institutions financières à moderniser l’engagement, les opérations et la conformité grâce à un écosystème unique, connecté et intelligent, prêt pour les attentes d’aujourd’hui et les exigences de demain."
-  ],
-
-  "whyData": [
-    {
-      "title": "Pourquoi les CRM traditionnels sont insuffisants dans les services financiers",
-      "desc": "La plupart des CRM fonctionnent encore comme des classeurs numériques. Ils stockent des données, mais ne les interprètent pas. Ils enregistrent les interactions, mais n’anticipent pas les besoins.",
-      "desc1": "Pour les institutions financières, cela crée de véritables problèmes.",
-      "desc2": "L’impact se fait sentir partout :",
-      "list": [
-        "Les conseillers passent plus de temps à chercher qu’à conseiller",
-        "L’onboarding prend des semaines au lieu de quelques jours",
-        "La vente croisée semble forcée, pas pertinente",
-        "La conformité est réactive, pas intégrée",
-        "Les parcours clients restent fragmentés entre produits et canaux"
-      ],
-      "desc3": "Ce que cela signifie réellement : une perte de confiance, de revenus et d’élan.",
-      "desc4": "Salesforce Financial Services Cloud change cette équation en combinant des modèles de données sectoriels, l’automatisation et l’IA dans un système conçu spécifiquement pour la banque, le crédit et la gestion de patrimoine."
-    }
-  ],
-
-  "buildingData": [
-    {
-      "title": "Construire un véritable Client 360 pour les institutions financières",
-      "desc": "Tout le monde parle de Client 360. Peu y parviennent réellement.",
-      "desc1": "Dans la plupart des banques et institutions financières, les données clients sont stockées partout : systèmes bancaires centraux, plateformes de prêts, CRM, outils marketing et centres de support. Chaque équipe ne voit qu’une partie de l’histoire.",
-      "desc2": "Salesforce FSC change cela en créant un profil financier unique qui rassemble :",
-      "list": [
-        "Comptes et actifs",
-        "Hiérarchies de ménages et de relations",
-        "Événements de vie et objectifs financiers",
-        "Historique des services et données d’interaction",
-        "Dossiers de conformité et préférences"
-      ]
-    }
-  ],
-
-  "powerData": [
-    {
-      "title": "La puissance de l’IA + Salesforce FSC dans la banque moderne",
-      "desc": "L’IA ne remplace pas les chargés de relation. Elle les rend plus performants. Intégrée à Salesforce FSC, l’IA transforme la plateforme d’un système d’enregistrement en un système d’intelligence.",
-      "desc1": "Ce que l’IA apporte :",
-      "list": [
-        "Des insights prédictifs qui identifient les besoins des clients avant qu’ils n’apparaissent",
-        "Des recommandations de meilleure action suivante pour les conseillers",
-        "Des workflows automatisés pour l’onboarding et le service",
-        "Des contrôles de risque et de conformité en temps réel",
-        "Un engagement personnalisé à grande échelle"
-      ],
-      "desc2": "Au lieu de réagir aux événements, les équipes commencent à façonner les résultats.",
-      "desc3": "C’est la différence entre une transformation numérique et un véritable changement opérationnel."
-    }
-  ],
-
-  "scaleData": [
-    {
-      "title": "Onboarding intelligent et conseil à grande échelle",
-      "desc": "L’onboarding est le premier véritable test de confiance. Et c’est souvent là que les institutions perdent leur élan. Des processus lourds en papier, des vérifications manuelles, des validations déconnectées — tout cela ralentit ce qui devrait être un moment de confiance.",
-      "desc1": "Avec Salesforce FSC activé par l’IA, l’onboarding devient :",
-      "list": [
-        "Guidé numériquement",
-        "Conforme aux politiques",
-        "Automatiquement acheminé",
-        "Validé en temps réel pour la conformité"
-      ],
-      "desc2": "Les documents sont vérifiés plus rapidement. Les contrôles de risque se font en parallèle. Les conseillers se concentrent sur la relation plutôt que sur la paperasse.",
-      "desc3": "La même intelligence s’étend aux services de conseil.",
-      "desc4": "L’IA aide à identifier les lacunes de portefeuille, les déclencheurs liés aux étapes de vie et les opportunités de vente croisée basées sur le comportement, et non sur des suppositions. Cela transforme le conseil en une expérience continue et personnalisée plutôt qu’en une discussion annuelle."
-    }
-  ],
-   "frictionData": [
-    {
-      "title": "Une automatisation prête pour la conformité, sans friction",
-      "desc": "Dans les services financiers, l’automatisation ne fonctionne que si elle respecte la réglementation. C’est là que de nombreuses plateformes échouent. Elles automatisent les tâches, mais laissent la conformité comme une couche séparée. Le résultat : des reprises, des audits et une exposition accrue aux risques.",
-      "desc1": "Salesforce FSC adopte une approche différente. La conformité devient une partie intégrante du workflow lui-même.",
-      "whatTitle": "À quoi cela ressemble en pratique",
-      "list": [
-        "Processus KYC et AML automatisés intégrés à l’onboarding",
-        "Pistes d’audit générées par défaut",
-        "Approbations basées sur des politiques pour les transactions sensibles",
-        "Surveillance en temps réel des exceptions et des risques",
-        "Gouvernance des données alignée sur les exigences réglementaires"
-      ],
-      "desc2": "Lorsque l’IA est ajoutée par-dessus, les institutions obtiennent des signaux de risque prédictifs au lieu de simples rapports historiques. Ainsi, la conformité cesse d’être un goulot d’étranglement et devient une force intégrée."
-    }
-  ],
-
-  "rialData": [
-    {
-      "title": "Pourquoi RialFinance+ est différent",
-      "desc": "La technologie seule ne transforme pas les services financiers. L’exécution, oui.",
-      "desc1": "C’est pourquoi <a href='https://https://www.rialtes.com/fr/services/lob/salesforce-fsc-consulting-rialfinanceplus/' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Rialtes a créé RialFinance+</a> comme une approche complète de services managés pour Salesforce Financial Services Cloud. Au lieu d’assembler conseil, implémentation, IA et support auprès de différents fournisseurs, RialFinance+ réunit tout dans un modèle unique et responsable.",
-      "desc2": "Ce que propose RialFinance+",
-      "list": [
-        {
-          "title": "Conseil stratégique",
-          "desc": "Nous alignons vos objectifs métiers avec une feuille de route FSC évolutive, fondée sur de vrais besoins opérationnels, et pas seulement sur des fonctionnalités."
+    "sapDataEnterprise": {
+        "schemaData": {},
+        "mainData": [
+            "Les dirigeants ne souffrent pas d’un manque de données. <br> Ils souffrent d’un manque de confiance, de rapidité et de clarté",
+            "Ce n’est pas anecdotique. C’est mesurable.",
+            "Selon un rapport de recherche de Salesforce, près de 50 % des responsables data admettent avoir pris de mauvaises décisions commerciales à cause de <a href='https://www.techradar.com/pro/most-admins-say-they-need-a-major-overhaul-of-data-in-order-to-succeed-with-ai' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>données incomplètes ou fragmentées</a>, et 26 % des données d’entreprise sont considérées comme non fiables. De plus, 19 % restent cloisonnées et inutilisables, alors même que la plupart des dirigeants estiment que leurs informations les plus précieuses sont enfermées dans ces silos.",
+            "Ainsi, lorsque la Finance arrive en comité de direction avec un chiffre, les Opérations avec un autre, et les Ventes avec un troisième, le problème n’est pas l’alignement. Chaque vision est techniquement correcte dans son propre système. Ce qui manque, c’est une base commune et gouvernée qui relie ces vérités en une seule réalité métier.",
+            "À mesure que les entreprises se développent sur des environnements SAP, des plateformes cloud, des écosystèmes SaaS comme Salesforce et Oracle, ainsi que des réseaux de partenaires, les entrepôts de données traditionnels s’effondrent sous leur propre complexité. Ils dupliquent les données, fragilisent la gouvernance et créent des délais que les dirigeants modernes ne peuvent tout simplement plus se permettre.",
+            "C’est pourquoi les organisations repensent la manière dont les données sont unifiées, gouvernées et activées. Et c’est pour cette raison que SAP Datasphere est devenu central dans les stratégies modernes de données d’entreprise, non pas comme une couche de reporting supplémentaire, mais comme le tissu connecteur qui restaure la confiance, la rapidité et la clarté au niveau exécutif."
+        ],
+        "realBusinessData": [
+            {
+                "title": "Le véritable problème métier que SAP Datasphere résout",
+                "list": [
+                    {
+                        "title": "Aujourd’hui, la plupart des entreprises opèrent sur des systèmes SAP et non-SAP :",
+                        "descList": [
+                            "SAP S/4HANA pour les opérations cœur de métier",
+                            "SAP Ariba et SuccessFactors",
+                            "Salesforce pour l’engagement client",
+                            "Oracle, systèmes legacy et plateformes sectorielles"
+                        ]
+                    },
+                    {
+                        "title": "L’impact métier est bien réel :",
+                        "descList": [
+                            "Les dirigeants attendent des semaines pour obtenir des rapports consolidés",
+                            "Les analystes passent plus de temps à préparer les données qu’à les analyser",
+                            "Les initiatives d’IA stagnent à cause de définitions incohérentes",
+                            "La gouvernance devient une réflexion secondaire au lieu d’un garde-fou"
+                        ]
+                    }
+                ],
+                "subTitle": "SAP Datasphere traite ce problème à la racine.",
+                "desc": "Il ne se contente pas de déplacer les données. Il préserve le contexte métier, le sens et la responsabilité tout en rendant les données accessibles à l’échelle de l’entreprise."
+            }
+        ],
+        "commonData": [
+            {
+                "title": "Pourquoi les entrepôts de données legacy échouent aujourd’hui",
+                "desc": [
+                    "Les entrepôts de données traditionnels ont été conçus pour une autre époque. Une époque où les données étaient centralisées, structurées et relativement statiques.",
+                    "Ce modèle ne tient plus.",
+                    "Les approches legacy échouent parce qu’elles :"
+                ],
+                "list": [
+                    "Nécessitent une réplication lourde des données",
+                    "Suppriment la sémantique métier",
+                    "Créent des modèles rigides qui ne peuvent pas s’adapter rapidement",
+                    "Séparent la responsabilité IT de la compréhension métier"
+                ],
+                "desc2": [
+                    "À mesure que les volumes de données augmentent et que l’IA entre en jeu, ces limites deviennent des freins plutôt que des fondations.",
+                    "SAP Datasphere remplace la logique « copier et stocker » par une approche fédérée et orientée métier. Les données restent là où elles doivent être, mais deviennent accessibles, fiables et réutilisables entre les équipes. C’est ce changement qui pousse les entreprises à abandonner les architectures BI traditionnelles au profit de data fabrics modernes."
+                ]
+            },
+            {
+                "title": "Qu’est-ce que SAP Datasphere, concrètement ?",
+                "desc": [
+                    "<a href='https://www.sap.com/products/data-cloud/datasphere.html' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>SAP Datasphere</a> est la plateforme de données nouvelle génération de SAP, conçue pour unifier les données d’entreprise sans casser la logique métier.",
+                    "Au cœur de la solution, elle offre :"
+                ],
+                "list": [
+                    "Un data fabric métier couvrant les systèmes SAP et non-SAP",
+                    "Une cohérence sémantique entre la finance, la supply chain, les RH et les ventes",
+                    "Un accès aux données en temps réel sans réplication inutile",
+                    "Une gouvernance, une traçabilité et une sécurité intégrées"
+                ],
+                "desc2": [
+                    "Au lieu de forcer toutes les données dans un entrepôt unique, Datasphere crée une couche logique de données à laquelle les dirigeants peuvent faire confiance."
+                ]
+            },
+            {
+                "title": "Comment des données unifiées permettent des décisions exécutives plus rapides",
+                "desc": [
+                    "Lorsque les données sont unifiées au niveau sémantique, la prise de décision change fondamentalement.",
+                    "Les dirigeants disposent d’une seule version de la vérité, et non de multiples rapprochements. Une visibilité en temps réel plutôt que des instantanés retardés. Ils gagnent en confiance dans les analyses pilotées par l’IA, car les définitions sont cohérentes, et accélèrent les cycles stratégiques, car les insights sont immédiatement exploitables.",
+                    "Par exemple :"
+                ],
+                "list": [
+                    "Les CFO peuvent analyser les leviers de marge entre régions sans consolidation manuelle",
+                    "Les COO peuvent connecter en temps réel les données de demande, d’offre et de logistique",
+                    "Les DRH peuvent relier les tendances de la main-d’œuvre directement aux résultats business"
+                ],
+                "desc2": [
+                    "C’est à cela que ressemble le leadership piloté par la donnée dans la pratique."
+                ]
+            }
+        ],
+        "tableData": {
+            "headers": [
+                "BI traditionnel",
+                "SAP Datasphere"
+            ],
+            "rows": [
+                [
+                    "Extraction, transformation et chargement",
+                    "Accès fédéré avec sémantique partagée"
+                ],
+                [
+                    "Propriété centralisée",
+                    "Collaboration entre les métiers et l’IT"
+                ],
+                [
+                    "Modèles statiques",
+                    "Modèles flexibles et réutilisables"
+                ],
+                [
+                    "Rapports construits après coup",
+                    "Insights fournis en temps réel"
+                ]
+            ]
         },
-        {
-          "title": "Conception et architecture des systèmes",
-          "desc": "Nous concevons des environnements FSC qui soutiennent les modèles bancaires, de crédit et de gestion de patrimoine dès le premier jour."
-        },
-        {
-          "title": "Implémentation certifiée",
-          "desc": "Nos équipes configurent Salesforce FSC selon les meilleures pratiques du secteur, garantissant une adoption plus rapide et moins de surprises."
-        },
-        {
-          "title": "Intégrations IA",
-          "desc": "Des insights prédictifs à l’automatisation intelligente, nous intégrons l’IA là où elle crée une valeur mesurable."
-        },
-        {
-          "title": "Assurance qualité et gouvernance",
-          "desc": "Nous validons la performance, la sécurité et la conformité avant la mise en production et au-delà."
-        },
-        {
-          "title": "Services managés continus",
-          "desc": "L’optimisation ne s’arrête pas au lancement. Nous affinons en continu les workflows, l’analytique et les modèles d’engagement à mesure que votre activité évolue."
-        }
-      ],
-      "desc3": "Ce que cela signifie réellement est simple : vous obtenez un partenaire axé sur les résultats, et pas seulement sur les déploiements."
-    }
-  ],
-
-  "servicesData": [
-    {
-      "title": "Un impact métier réel dans l’ensemble des services financiers",
-      "desc": "Lorsque Salesforce FSC alimenté par l’IA est mis en œuvre de la bonne manière, les résultats se manifestent rapidement.",
-      "desc1": "Les banques constatent un onboarding plus rapide et une activation des comptes plus élevée.",
-      "desc2": "Les prêteurs bénéficient d’un meilleur contrôle des risques et d’approbations plus fluides.",
-      "desc3": "Les sociétés de gestion de patrimoine observent une productivité accrue des conseillers et des relations clients plus profondes.",
-      "desc4": "Globalement, les institutions obtiennent :",
-      "list": [
-        "Un délai de création de valeur plus court pour les initiatives numériques",
-        "Un engagement plus élevé sur tous les canaux",
-        "Une confiance accrue en matière de conformité",
-        "Moins de friction opérationnelle",
-        "Une plateforme qui évolue avec les nouveaux produits et réglementations"
-      ],
-      "desc5": "Ce n’est pas une transformation en théorie. C’est une transformation en pratique."
-    }
-  ],
-
-  "futureData": [
-    {
-      "title": "L’avenir des services financiers est intelligent, connecté et digne de confiance",
-      "desc": [
-        "Les clients ne se soucient pas du nombre de systèmes que vous utilisez. Ils se soucient de se sentir compris. Les régulateurs ne se soucient pas de la complexité de vos opérations. Ils se soucient de leur niveau de contrôle. Les conseillers ne se soucient pas de la puissance de votre CRM. Ils se soucient de son utilité au moment qui compte vraiment.",
-        "Salesforce Financial Services Cloud alimenté par l’IA répond à ces trois exigences. Mais la technologie seule ne crée pas la transformation.",
-        "C’est là qu’intervient Rialtes. Grâce à RialFinance+, nous aidons les institutions financières à transformer Salesforce FSC en une plateforme connectée, conforme et orientée par les insights, qui change la manière dont les équipes interagissent avec les clients, gèrent les risques et prennent des décisions."
-      ]
-    }
-  ],
-
-  "faqData": [
-    {
-      "question": "Qu’est-ce qui distingue Salesforce Financial Services Cloud d’un CRM traditionnel ?",
-      "answer": "Salesforce FSC est conçu spécifiquement pour les services financiers, avec des modèles de données sectoriels, des workflows prêts pour la conformité et des hiérarchies relationnelles que les CRM génériques n’offrent pas. Lorsqu’il est combiné à l’IA, il devient une plateforme d’aide à la décision, et pas seulement un système de suivi."
+        "whySap": [
+            {
+                "title": "Pourquoi SAP Datasphere est essentiel pour l’IA et l’analytique",
+                "list": [
+                    "L’IA échoue rarement à cause d’algorithmes faibles ou de modèles immatures. Elle échoue parce que les données sous-jacentes sont fragmentées, incohérentes et déconnectées du véritable sens métier. Lorsque les définitions diffèrent selon les systèmes et les équipes, même les modèles les plus avancés produisent des insights auxquels les dirigeants hésitent à faire confiance. SAP Datasphere répond à ce défi en unifiant les données d’entreprise tout en préservant le contexte sémantique dont dépendent les équipes finance, opérations, ventes et analytics. Il garantit que les modèles prédictifs sont entraînés sur des données fiables et gouvernées, et non sur des jeux de données assemblés.",
+                    "En permettant l’analytique en temps réel plutôt que des traitements batch différés, Datasphere aide les organisations à passer du reporting rétrospectif à des insights prospectifs. Il soutient également un partage contrôlé des données entre les équipes, en équilibrant accessibilité et gouvernance. Sans base de données unifiée, l’IA ne fait qu’accélérer la confusion. Avec SAP Datasphere, l’IA devient un moteur fiable d’intelligence, de clarté et de prise de décision éclairée."
+                ]
+            }
+        ],
+        "whatExecutiveData": [
+            {
+                "title": "Les questions que les dirigeants devraient se poser avant d’adopter SAP Datasphere",
+                "desc": "Avant d’aller plus loin, les équipes de direction devraient se demander :",
+                "list": [
+                    "Faisons-nous réellement confiance à nos définitions de données aujourd’hui ?",
+                    "Combien de temps faut-il pour obtenir des insights prêts pour les dirigeants ?",
+                    "Nos initiatives IA sont-elles limitées par la qualité des données ?",
+                    "Pouvons-nous gouverner les données sans ralentir l’innovation ?"
+                ],
+                "desc2": "SAP Datasphere répond à ces questions au niveau fondamental."
+            }
+        ],
+        "howRialtesData": [
+            {
+                "title": "Comment Rialtes aide les entreprises à créer de la valeur avec SAP Datasphere",
+                "desc": [
+                    "Les entreprises qui réussiront demain n’auront pas seulement plus de données. <br> Elles prendront de meilleures décisions, plus rapides et plus fiables.",
+                    "Nos services SAP Datasphere incluent :"
+                ],
+                "list": [
+                    {
+                        "title": "Stratégie data & conseil",
+                        "desc": "Aligner l’architecture data avec les priorités exécutives, les objectifs IA et les exigences de gouvernance."
+                    },
+                    {
+                        "title": "Conception & architecture",
+                        "desc": "Créer des modèles de données alignés sur les métiers qui préservent le sens entre les systèmes."
+                    },
+                    {
+                        "title": "Implémentation & intégration",
+                        "desc": "Connecter SAP S/4HANA, SuccessFactors, Ariba, Salesforce, Oracle et plus encore dans un data fabric unifié."
+                    },
+                    {
+                        "title": "Activation IA & analytique",
+                        "desc": "Préparer les données d’entreprise pour l’analytique prédictive, les modèles d’IA et les insights avancés."
+                    },
+                    {
+                        "title": "Optimisation post mise en production",
+                        "desc": "Améliorer en continu les performances, la gouvernance et la diffusion des insights."
+                    }
+                ],
+                "desc2": [
+                    "Avec des capacités de delivery globales aux États-Unis, au Canada, à Singapour et en Inde, Rialtes combine l’échelle d’une entreprise internationale avec la précision d’une exécution locale.",
+                    "SAP Datasphere fournit la base de cette transformation. Et avec le bon partenaire d’exécution, elle devient un catalyseur d’intelligence, d’agilité et de valeur à long terme. Chez Rialtes, <a href='https://www.rialtes.com/fr/solutions/data-ai/sap-datasphere-implementation-consulting' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>nous aidons les entreprises à faire de SAP Datasphere une plateforme stratégique de décision</a>, et non un simple outil data."
+                ]
+            }
+        ],
+        "faqdata": [
+            {
+                "question": "À quoi sert SAP Datasphere ?",
+                "answer": "SAP Datasphere est utilisé pour unifier les données d’entreprise sur des systèmes SAP et non-SAP tout en préservant le contexte métier et en permettant l’analytique en temps réel."
+            },
+            {
+                "question": "Quelle est la différence entre SAP Datasphere et SAP BW ?",
+                "answer": "Contrairement aux entrepôts de données traditionnels, SAP Datasphere permet un accès fédéré aux données, une cohérence sémantique et une intégration en temps réel sans réplication massive."
+            },
+            {
+                "question": "SAP Datasphere est-il réservé aux clients SAP ?",
+                "answer": "Non. SAP Datasphere s’intègre avec des systèmes SAP et non-SAP, y compris Salesforce, Oracle et des plateformes tierces."
+            },
+            {
+                "question": "Comment SAP Datasphere soutient-il l’IA ?",
+                "answer": "En garantissant des bases de données fiables, cohérentes et gouvernées sur lesquelles les modèles d’IA s’appuient pour produire des résultats précis."
+            },
+            {
+                "question": "Pourquoi travailler avec un partenaire comme Rialtes ?",
+                "answer": "Parce qu’une adoption réussie de Datasphere nécessite une stratégie, une architecture, une intégration et une gouvernance — pas seulement la mise en place de la plateforme."
+            }
+        ],
+        "seoTitle": "SAP Datasphere : ce que c’est et pourquoi c’est crucial aujourd’hui | Rialtes",
+        "seoDescription": "SAP Datasphere est la plateforme de données nouvelle génération de SAP, conçue pour unifier les données d’entreprise sans casser la logique métier sur les systèmes SAP et non-SAP.",
+        "bannerAlt": "Flux de données numériques et code binaire représentant l’analytique cloud et le data fabric d’entreprise",
+        "blogTitle": "Qu’est-ce que SAP Datasphere et pourquoi les entreprises s’y tournent-elles ?",
+        "sapTitle": "SAP Datasphere vs approches BI traditionnelles",
+        "sapDesc": "Datasphere fait évoluer la BI du reporting sur le passé vers l’orientation des décisions futures.",
+        "faqTitle": "FAQ : Guide de conseil Salesforce"
     },
-    {
-      "question": "Comment l’IA améliore-t-elle l’engagement client dans la banque et la gestion de patrimoine ?",
-      "answer": "L’IA analyse les comportements, les événements de vie et les schémas d’interaction afin de recommander la meilleure action suivante, des offres personnalisées et des opportunités de service proactif, aidant ainsi les conseillers à rester pertinents sans être intrusifs."
-    },
-    {
-      "question": "Le FSC alimenté par l’IA peut-il prendre en charge la conformité réglementaire ?",
-      "answer": "Oui. FSC intègre la conformité directement dans les workflows, tandis que l’IA ajoute une surveillance prédictive des risques, une documentation automatisée et une gestion des exceptions en temps réel."
-    },
-    {
-      "question": "Qu’est-ce que RialFinance+ et en quoi est-il différent des services d’implémentation standards ?",
-      "answer": "RialFinance+ est un modèle complet de services managés qui combine conseil, implémentation, intégration de l’IA, QA et optimisation continue dans une approche unifiée, garantissant une valeur à long terme et pas seulement une mise en production réussie."
-    },
-    {
-      "question": "Quelles institutions financières bénéficient le plus de RialFinance+ ?",
-      "answer": "Les banques, prêteurs, coopératives de crédit et sociétés de gestion de patrimoine qui cherchent à moderniser l’engagement, rationaliser les opérations et faire évoluer la personnalisation sans compromettre la conformité."
+    "sapCpiImplement": {
+        "faqdata": [
+            {
+                "question": "À quoi sert SAP CPI ?",
+                "answer": "SAP CPI est utilisé pour intégrer des applications SAP et non-SAP, automatiser les processus métier et permettre des échanges de données en temps réel à travers des environnements d’entreprise complexes."
+            },
+            {
+                "question": "En quoi SAP CPI est-il différent d’une intégration point à point ?",
+                "answer": "SAP CPI offre une gouvernance centralisée, de la scalabilité, de la sécurité et des modèles d’intégration réutilisables, contrairement aux intégrations point à point qui deviennent difficiles à gérer à mesure que les systèmes et les volumes augmentent."
+            },
+            {
+                "question": "SAP CPI est-il adapté aux grandes entreprises ?",
+                "answer": "Oui. SAP CPI est conçu pour des intégrations à l’échelle de l’entreprise, prenant en charge des volumes de transactions élevés, des exigences de sécurité complexes et des environnements hybrides combinant cloud et systèmes on-premise."
+            },
+            {
+                "question": "Combien de temps prend une implémentation SAP CPI ?",
+                "answer": "Les délais d’implémentation dépendent de la complexité des intégrations, du nombre de systèmes connectés et des cas d’usage. L’utilisation d’architectures modulaires et de bonnes pratiques éprouvées permet d’accélérer significativement la mise en œuvre."
+            },
+            {
+                "question": "SAP CPI peut-il s’intégrer avec des systèmes non-SAP ?",
+                "answer": "Absolument. SAP CPI prend en charge un large éventail d’adaptateurs et de protocoles, permettant une intégration fluide avec des systèmes non-SAP tels que Salesforce, Oracle, les plateformes legacy et d’autres applications tierces."
+            }
+        ],
+        "mainData": [
+            "La transformation digitale n’échoue pas à cause d’applications faibles. Elle échoue parce que les systèmes ne communiquent pas entre eux.",
+            "À mesure que les entreprises adoptent des ERP cloud, des plateformes SaaS best-of-breed et des solutions spécifiques à leur industrie, l’intégration devient la colonne vertébrale invisible qui maintient l’ensemble cohérent. Commandes, factures, données collaborateurs, fournisseurs, clients et partenaires dépendent tous d’un flux de données fiable, sécurisé et scalable.",
+            "C’est là que SAP Cloud Platform Integration (SAP CPI) joue un rôle clé. Une implémentation SAP CPI bien conçue ne se contente pas de connecter des systèmes. Elle orchestre les processus, applique la sécurité, permet l’automatisation et crée la visibilité en temps réel dont les entreprises modernes ont besoin.",
+            "Chez Rialtes, nous aidons les organisations à concevoir et <a href='https://www.rialtes.com/fr/solutions/integration/sap-cloud-platform-integration-consulting' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>implémenter des architectures SAP CPI de niveau entreprise</a> qui évoluent avec la croissance, prennent en charge des environnements complexes et transforment l’intégration d’un goulot d’étranglement en accélérateur business."
+        ],
+        "commonData": [
+            {
+                "title": "Pourquoi l’intégration est la colonne vertébrale de la transformation digitale",
+                "desc": "La plupart des entreprises opèrent aujourd’hui dans des environnements hybrides comprenant :",
+                "list": [
+                    "SAP S/4HANA ou ECC",
+                    "SAP Ariba et SuccessFactors",
+                    "Salesforce et autres plateformes CRM",
+                    "Systèmes legacy et applications tierces"
+                ],
+                "desc2": "Sans une couche d’intégration robuste, les organisations font face à :",
+                "list2": [
+                    "Des systèmes déconnectés et des silos de données",
+                    "Des échanges manuels et des saisies de données en double",
+                    "Une visibilité de bout en bout limitée",
+                    "Des interactions client et fournisseur lentes",
+                    "Un risque opérationnel et des taux d’erreur plus élevés"
+                ],
+                "desc3": "SAP CPI répond à ces enjeux en agissant comme un hub d’intégration centralisé, permettant des intégrations standardisées, sécurisées et réutilisables entre systèmes SAP et non-SAP."
+            },
+            {
+                "title": "Qu’est-ce que SAP CPI et où s’intègre-t-il",
+                "desc": "SAP CPI est une plateforme d’intégration cloud-native qui permet :",
+                "list": [
+                    "L’intégration application à application",
+                    "L’intégration des processus métier",
+                    "La connectivité basée sur les API",
+                    "Les intégrations événementielles et orientées messages"
+                ],
+                "desc2": "Elle prend en charge un large éventail de modèles d’intégration, notamment synchrones, asynchrones, batch et basés sur des événements.",
+                "list2": null,
+                "desc3": "Schéma d’architecture d’entreprise montrant SAP CPI au centre reliant des systèmes SAP et non-SAP."
+            }
+        ],
+        "sapArchitectData": [
+            {
+                "title": "Flux d’intégration (iFlows)",
+                "desc": "Les flux d’intégration définissent la manière dont les données circulent entre les systèmes émetteurs et récepteurs. <div class='mt-5'>Ils incluent :</div>",
+                "list": [
+                    "La logique de routage des messages",
+                    "Les étapes de transformation des données",
+                    "La gestion des erreurs",
+                    "La journalisation et le monitoring"
+                ],
+                "desc2": "Des iFlows bien conçus sont modulaires, réutilisables et facilement extensibles."
+            },
+            {
+                "title": "Adaptateurs",
+                "desc": "Les adaptateurs permettent la connectivité avec différents systèmes et protocoles, notamment :",
+                "list": [
+                    "OData, REST et SOAP",
+                    "IDoc et RFC",
+                    "SFTP et FTP",
+                    "JMS et AS2"
+                ],
+                "desc2": null
+            },
+            {
+                "title": "Traitement et transformation des messages",
+                "desc": "SAP CPI prend en charge le mapping des messages, XSLT et les scripts Groovy pour transformer les formats de données entre systèmes. La bonne pratique consiste à garder les transformations simples, bien documentées et gouvernées de manière centralisée.",
+                "list": null,
+                "desc2": null
+            },
+            {
+                "title": "Sécurité et connectivité",
+                "desc": "La sécurité est intégrée à CPI via :",
+                "list": [
+                    "OAuth, certificats et authentification basique",
+                    "Stockage sécurisé des identifiants",
+                    "Chiffrement TLS",
+                    "Contrôle d’accès basé sur les rôles"
+                ]
+            }
+        ],
+        "sapImplementationData": [
+            {
+                "title": "Bonnes pratiques pour l’implémentation SAP CPI",
+                "desc": "Une implémentation SAP CPI réussie repose autant sur la discipline que sur la technologie.",
+                "list": [
+                    {
+                        "title": "Concevoir pour la réutilisation et la scalabilité",
+                        "desc": "Évitez les intégrations point à point. Construisez des modèles de données canoniques et des templates d’iFlows réutilisables pour accompagner la croissance future."
+                    },
+                    {
+                        "title": "Standardiser la nomenclature et la documentation",
+                        "desc": "Des conventions de nommage claires pour les packages, iFlows et artefacts réduisent l’effort de maintenance et accélèrent le diagnostic."
+                    },
+                    {
+                        "title": "Mettre en place une gestion robuste des erreurs",
+                        "desc": "Chaque iFlow doit inclure :",
+                        "list": [
+                            "La gestion des erreurs techniques",
+                            "Des contrôles de validation métier",
+                            "Des alertes et notifications"
+                        ],
+                        "desc2": "Les erreurs doivent être exploitables, pas seulement journalisées."
+                    },
+                    {
+                        "title": "Sécurisé par défaut",
+                        "desc": "Utilisez des certificats et OAuth autant que possible.<br>Évitez le stockage en dur des identifiants et données sensibles."
+                    },
+                    {
+                        "title": "Anticiper le monitoring et l’exploitation",
+                        "desc": "Exploitez les tableaux de bord de monitoring CPI, les logs de messages et les alertes afin de garantir la stabilité des intégrations à mesure que les volumes augmentent."
+                    },
+                    {
+                        "title": "Concept prêt pour le visuel :",
+                        "desc": "Checklist de bonnes pratiques alignée sur les phases concevoir, construire, déployer et opérer."
+                    }
+                ]
+            }
+        ],
+        "deploymentData": [
+            {
+                "title": "Déploiement et gestion du cycle de vie",
+                "desc": "Une implémentation SAP CPI réussie ne s’arrête pas au go-live. Elle évolue avec l’entreprise. Les intégrations d’entreprise passent généralement par des environnements clairement définis afin de préserver la stabilité tout en permettant le changement :",
+                "list": [
+                    "<strong>Développement</strong>, où les flux d’intégration sont conçus, développés et enrichis",
+                    "<strong>Qualité / Test</strong>, où les scénarios sont validés, les cas limites identifiés et les performances vérifiées",
+                    "<strong>Production</strong>, où les intégrations fonctionnent à grande échelle et supportent des opérations critiques"
+                ],
+                "desc2": [
+                    "Chaque environnement a un rôle distinct, et le passage des changements entre eux nécessite de la rigueur. Sans une gestion solide des transports et du versioning, même de petites mises à jour peuvent provoquer des perturbations inattendues.",
+                    "Chez Rialtes, nous mettons en œuvre des pratiques structurées de gestion du cycle de vie qui réduisent les risques et renforcent la confiance :"
+                ],
+                "list2": [
+                    "Des pipelines de déploiement contrôlés avec une traçabilité complète",
+                    "Des artefacts d’intégration versionnés, garantissant des changements documentés, auditables et réversibles",
+                    "Des stratégies de tests automatisés validant les flux de messages, les mappings et la gestion des erreurs avant la mise en production",
+                    "Des procédures de rollback claires permettant de restaurer rapidement des versions stables en cas de problème"
+                ],
+                "desc3": "Cette approche permet d’améliorer continuellement les intégrations sans compromettre leur fiabilité. À mesure que les processus évoluent, que de nouveaux systèmes sont ajoutés ou que les volumes augmentent, SAP CPI reste stable, prévisible et prêt à monter en charge."
+            }
+        ],
+        "enterpriseData": [
+            {
+                "title": "Cas d’usage SAP CPI en entreprise",
+                "list": [
+                    {
+                        "title": "Intégration SAP S/4HANA",
+                        "list": [
+                            "Synchronisation des données de base en temps réel",
+                            "Intégration order-to-cash et procure-to-pay",
+                            "Comptabilisation financière et reporting"
+                        ]
+                    },
+                    {
+                        "title": "Intégration SAP Ariba",
+                        "list": [
+                            "Onboarding fournisseurs",
+                            "Commandes et factures",
+                            "Échange de données contrats et sourcing"
+                        ]
+                    },
+                    {
+                        "title": "Intégration SAP SuccessFactors",
+                        "list": [
+                            "Réplication des données collaborateurs",
+                            "Mises à jour de la structure organisationnelle",
+                            "Intégration avec la paie et des systèmes RH tiers"
+                        ]
+                    },
+                    {
+                        "title": "Intégration Salesforce",
+                        "list": [
+                            "Synchronisation clients et comptes",
+                            "Échange de données commandes et facturation",
+                            "Intégration des données de services et de tickets"
+                        ]
+                    },
+                    {
+                        "title": "Systèmes hybrides et tiers",
+                        "list": [
+                            "Oracle, Workday, ERP legacy",
+                            "Passerelles bancaires et de paiement",
+                            "Plateformes logistiques et partenaires"
+                        ]
+                    }
+                ],
+                "desc": "Ces intégrations permettent de véritables processus métier de bout en bout plutôt que des transactions déconnectées."
+            }
+        ],
+        "commonData2": [
+            {
+                "title": "L’intégration fait la différence entre le digital et le véritablement connecté",
+                "desc": [
+                    "La transformation digitale ne consiste pas à adopter plus de systèmes.<br>Il s’agit de les faire fonctionner ensemble intelligemment.",
+                    "Une implémentation SAP CPI bien exécutée fournit aux entreprises la colonne vertébrale d’intégration nécessaire pour faire évoluer l’automatisation, débloquer des insights en temps réel et offrir des expériences métier fluides.",
+                    "SAP CPI fournit les fondations pour :"
+                ],
+                "list": [
+                    "Des processus orientés événements",
+                    "Des pipelines de données en temps réel",
+                    "Des architectures pilotées par les API",
+                    "Des workflows intelligents"
+                ],
+                "desc2": "Sans une couche d’intégration solide, les initiatives d’automatisation stagnent et l’IA manque de données fiables."
+            },
+            {
+                "title": "Comment Rialtes délivre SAP CPI à l’échelle de l’entreprise",
+                "desc": [
+                    "Chez Rialtes, l’implémentation SAP CPI n’est pas traitée comme un simple sujet technique. Elle est considérée comme un socle stratégique.",
+                    "Notre approche comprend :"
+                ],
+                "list": [
+                    "Stratégie d’intégration et conception d’architecture",
+                    "Connectivité SAP et non-SAP de bout en bout",
+                    "Implémentation axée sur la sécurité",
+                    "Planification des performances et de la scalabilité",
+                    "Support et optimisation post go-live"
+                ],
+                "desc2": "Grâce à notre expérience éprouvée sur <a href='https://www.rialtes.com/fr/services/spend-management/sapbuyplus-ariba-implementation-partner' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>SAP Ariba</a>, <a href='https://www.rialtes.com/fr/services/business-transformation/grow-with-sap-services' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>S/4HANA</a>, <a href='https://www.rialtes.com/fr/services/hxm-transformation/successplus-successfactors-implementation-partner' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>SuccessFactors</a>, <a href='https://www.rialtes.com/fr/solutions/enterprise-platforms/salesforce-consulting-partner-us-india' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Salesforce</a> et des environnements hybrides complexes, nous aidons les entreprises à avancer plus vite sans compromettre la stabilité."
+            }
+        ],
+        "seoTitle": "Implémentation SAP CPI expliquée : de l’architecture aux cas d’usage | Rialtes",
+        "seoDescription": "Une implémentation SAP CPI bien exécutée offre aux entreprises la colonne vertébrale d’intégration nécessaire pour faire évoluer l’automatisation, débloquer des insights et proposer des expériences fluides.",
+        "bannerAlt": "Équipe analysant des données cloud et des tableaux de bord numériques pour piloter les décisions en entreprise",
+        "blogTitle": "Implémentation SAP CPI : architecture, bonnes pratiques et cas d’usage en entreprise",
+        "sapImg": "Équipe analysant des données cloud et des tableaux de bord numériques pour piloter les décisions en entreprise",
+        "sapTitle": "Architecture SAP CPI : composants clés",
+        "sapDesc": "Comprendre l’implémentation SAP CPI commence par la compréhension de son architecture.",
+        "sapDesc2": "La connectivité avec les systèmes on-premise est assurée via SAP Cloud Connector, garantissant une communication sécurisée sans exposer les réseaux internes.",
+        "faqTitle": "FAQ : Implémentation SAP CPI"
     }
-  ]
-}
-
 }

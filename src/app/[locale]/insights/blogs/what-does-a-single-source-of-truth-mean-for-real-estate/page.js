@@ -22,7 +22,7 @@ export default function Page() {
         es: esContent,
         fr: frContent,
     });
-    const { whatASingleSourceData, whyRealEstatedata, crmErpData, crmDataList2, theBusinessCase, aDayInLife, theRoleOfAI, steps, steps2, fromDataChaos, yourPathTitle, keyElemData, faqs, schemaData } = blogsContent.whatDoesASingle;
+    const { whatASingleSourceData, whyRealEstatedata, crmErpData, crmDataList2, theBusinessCase, aDayInLife, theRoleOfAI, fromDataChaos, yourPathTitle, keyElemData, faqs, schemaData } = blogsContent.whatDoesASingle;
     const fullUrl = "https://www.rialtes.com/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/";
 
     return (

@@ -230,59 +230,59 @@
       "Generic"
     ],
     "categoryData": [
-  {
-    "category": "All"
-  },
-  {
-    "category": "Agentic AI"
-  },
-  {
-    "category": "Integration"
-  },
-  {
-    "category": "Managed Services"
-  },
-  {
-    "category": "Kinaxis RapidResponse"
-  },
-  {
-    "category": "Products",
-    "items": [
-      "Exelona",
-      "MediAIna"
-    ]
-  },
-  {
-    "category": "Salesforce",
-    "items": [
-      "Salesforce Agentforce",
-      "Salesforce Automotive Cloud",
-      "Salesforce Consulting",
-      "Salesforce Data Cloud",
-      "Salesforce Life Sciences Cloud",
-      "Salesforce Marketing Cloud",
-      "Salesforce FSC"
-    ]
-  },
-  {
-    "category": "SAP",
-    "items": [
-      "Rise with SAP",
-      "Grow with SAP",
-      "SAP Ariba",
-      "SAP BDC",
-      "SAP Consulting",
-      "SAP CPI",
-      "SAP GTS",
-      "SAP Joule",
-      "SAP Signavio",
-      "SAP SuccessFactors"
-    ]
-  },
-  {
-    "category": "Others"
-  }
-],
+      {
+        "category": "All"
+      },
+      {
+        "category": "Agentic AI"
+      },
+      {
+        "category": "Integration"
+      },
+      {
+        "category": "Managed Services"
+      },
+      {
+        "category": "Kinaxis RapidResponse"
+      },
+      {
+        "category": "Products",
+        "items": [
+          "Exelona",
+          "MediAIna"
+        ]
+      },
+      {
+        "category": "Salesforce",
+        "items": [
+          "Salesforce Agentforce",
+          "Salesforce Automotive Cloud",
+          "Salesforce Consulting",
+          "Salesforce Data Cloud",
+          "Salesforce Life Sciences Cloud",
+          "Salesforce Marketing Cloud",
+          "Salesforce FSC"
+        ]
+      },
+      {
+        "category": "SAP",
+        "items": [
+          "Rise with SAP",
+          "Grow with SAP",
+          "SAP Ariba",
+          "SAP BDC",
+          "SAP Consulting",
+          "SAP CPI",
+          "SAP GTS",
+          "SAP Joule",
+          "SAP Signavio",
+          "SAP SuccessFactors"
+        ]
+      },
+      {
+        "category": "Others"
+      }
+    ],
     "slides": [
       {
         "id": 1,
@@ -330,29 +330,73 @@
       }
     ],
     "latestBlogs": [
-       {
-             "id": 77,
-            "image": "/images/blog/smart-city-digital-network-iot-technology-thumb.webp",
-            "category": "Salesforce FSC",
-            "industry": "Finance",
-            "date": "Jan. 14, 2026",
-            "url": "/ai-powered-banking-salesforce-fsc-rialfinanceplus/",
-            "title": "How AI-Powered Salesforce Financial Services Cloud Is Transforming Modern Banking",
-            "alt":"Futuristic digital city with glowing data streams and network connections representing smart city technology and urban IoT",
-            "description": "Financial services are changing faster than most institutions can redesign their operating models. According to Accenture, nearly 73% of banking customers now expect the same"
-        },
       {
-            "id": 76,
-            "image": "/images/blog/automated-warehouse-conveyor-system-logistics-thumbnail.webp",
-            "category": "Kinaxis RapidResponse",
-            "industry": "Generic",
-            "date": "Jan. 13, 2026",
-            "url": "/kinaxis-rapidresponse-demandplus-real-time-supply-chain/",
-            "title": "Building a Real-Time, Resilient Supply Chain with Rialtes Demand+",
-            "alt": "Automated warehouse with colorful light trails showing high-speed conveyor systems and efficient inventory movement in motion",
-            "description": "Supply chains don’t break anymore. They bend, snap back, and get tested again almost immediately. Demand spikes without warning. Suppliers miss commitments."
-        }, 
-     {
+        "id": 79,
+        "image": "/images/blog/sap-datasphere-data-fabric-thumb.webp",
+        "category": "SAP Datasphere",
+        "industry": "Generic",
+        "date": "Feb. 03, 2026",
+        "url": "/what-is-sap-datasphere-why-enterprises-moving-to-it/",
+        "title": "What Is SAP Datasphere and Why Are Enterprises Moving to It?",
+        "alt": "Digital data streams and binary code representing cloud analytics and enterprise data fabric",
+        "description": "Executives don’t suffer from a lack of data.They suffer from a lack of trust, speed, and clarity This isn’t anecdotal. It’s measurable."
+      },
+      {
+        "id": 78,
+        "image": "/images/blog/cloud-data-analytics-team-thumb.webp",
+        "category": "SAP CPI",
+        "industry": "Generic",
+        "date": "Feb. 02, 2026",
+        "url": "/sap-cpi-implementation-architecture-best-practices-use-cases/",
+        "title": "SAP CPI Implementation: Architecture, Best Practices, and Enterprise Use Cases",
+        "alt": "Team analyzing cloud data and digital dashboards to drive enterprise insights and decision making",
+        "description": "Digital transformation doesn’t fail because of weak applications. It fails because systems don’t talk to each other."
+      },
+      {
+        "id": 79,
+        "image": "/images/blog/sap-datasphere-data-fabric-thumb.webp",
+        "category": "SAP Datasphere",
+        "industry": "Genérico",
+        "date": "Feb. 03, 2026",
+        "url": "/what-is-sap-datasphere-why-enterprises-moving-to-it/",
+        "title": "¿Qué es SAP Datasphere y por qué las empresas están migrando a esta solución?",
+        "alt": "Flujos de datos digitales y código binario que representan analítica en la nube y un data fabric empresarial",
+        "description": "Los ejecutivos no sufren por falta de datos. Sufren por la falta de confianza, velocidad y claridad. Esto no es anecdótico: es medible."
+      },
+      {
+        "id": 78,
+        "image": "/images/blog/cloud-data-analytics-team-thumb.webp",
+        "category": "SAP CPI",
+        "industry": "Genérico",
+        "date": "Feb. 02, 2026",
+        "url": "/sap-cpi-implementation-architecture-best-practices-use-cases/",
+        "title": "Implementación de SAP CPI: arquitectura, mejores prácticas y casos de uso empresariales",
+        "alt": "Equipo analizando datos en la nube y paneles digitales para impulsar insights empresariales y la toma de decisiones",
+        "description": "La transformación digital no fracasa por aplicaciones débiles. Fracasa porque los sistemas no se comunican entre sí."
+      },
+      {
+        "id": 77,
+        "image": "/images/blog/smart-city-digital-network-iot-technology-thumb.webp",
+        "category": "Salesforce FSC",
+        "industry": "Finance",
+        "date": "Jan. 14, 2026",
+        "url": "/ai-powered-banking-salesforce-fsc-rialfinanceplus/",
+        "title": "How AI-Powered Salesforce Financial Services Cloud Is Transforming Modern Banking",
+        "alt": "Futuristic digital city with glowing data streams and network connections representing smart city technology and urban IoT",
+        "description": "Financial services are changing faster than most institutions can redesign their operating models. According to Accenture, nearly 73% of banking customers now expect the same"
+      },
+      {
+        "id": 76,
+        "image": "/images/blog/automated-warehouse-conveyor-system-logistics-thumbnail.webp",
+        "category": "Kinaxis RapidResponse",
+        "industry": "Generic",
+        "date": "Jan. 13, 2026",
+        "url": "/kinaxis-rapidresponse-demandplus-real-time-supply-chain/",
+        "title": "Building a Real-Time, Resilient Supply Chain with Rialtes Demand+",
+        "alt": "Automated warehouse with colorful light trails showing high-speed conveyor systems and efficient inventory movement in motion",
+        "description": "Supply chains don’t break anymore. They bend, snap back, and get tested again almost immediately. Demand spikes without warning. Suppliers miss commitments."
+      },
+      {
         "id": 75,
         "image": "/images/blog/digital-connectivity-bridge-network-integration-thumb.webp",
         "category": "SAP Ariba",
@@ -419,7 +463,7 @@
         "description": "ERP modernization has been on boardroom agendas for years, yet success stories are still far fewer than expected. Leaders know transformation is necessary, but the path often turns bumpy."
       },
       {
-         "id": 69,
+        "id": 69,
         "image": "/images/blog/from-project-partner/thumb.webp",
         "category": "SAP Consulting",
         "industry": " Life Sciences",
