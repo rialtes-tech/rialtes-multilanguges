@@ -20,7 +20,7 @@ export default function () {
                     < Seo
                         title={t('seoTitle')}
                         description={t('seoDescription')}
-                        canonical={`https://www.rialtes.com/${locale}/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes/`}
+                        canonical={`https://www.rialtes.com/${locale}/insights/webinars/voyage-with-sap-transformational-rise-with-sap-services-by-rialtes`}
                     />
 
                 }

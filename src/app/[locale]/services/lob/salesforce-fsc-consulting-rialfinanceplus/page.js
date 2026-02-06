@@ -26,7 +26,7 @@ export default function page() {
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical={`https://www.rialtes.com/${locale}/services/lob/salesforce-fsc-consulting-rialfinanceplus/`}
+                canonical={`https://www.rialtes.com/${locale}/services/lob/salesforce-fsc-consulting-rialfinanceplus`}
             />
             <Script
                 id="schema-realfinance"

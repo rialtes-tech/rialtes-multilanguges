@@ -26,7 +26,7 @@ export default function Page() {
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical={`https://www.rialtes.com/${locale}/industry/life-sciences/pharma-biotech-digital-transformation/`}
+                canonical={`https://www.rialtes.com/${locale}/industry/life-sciences/pharma-biotech-digital-transformation`}
             />
             <Script
                 id="schema-pharma"

@@ -84,7 +84,7 @@ export default function Page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/industry/real-estate-property-management/`}
+        canonical={`https://www.rialtes.com/${locale}/industry/real-estate-property-management`}
       />
       <Script
         id="schema-real-estate"

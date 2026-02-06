@@ -24,7 +24,7 @@ export default function DemandPlusSection() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/solutions/quality-engineering-assurance/tosca-software-automation-testing/`}
+        canonical={`https://www.rialtes.com/${locale}/solutions/quality-engineering-assurance/tosca-software-automation-testing`}
       />
       <Script
         id="schema-toska"

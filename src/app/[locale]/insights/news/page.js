@@ -95,7 +95,7 @@ export default function Page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="Rialtes news, Rialtes press releases, Rialtes media coverage, Rialtes events, Rialtes announcements, Salesforce news, SAP news, digital transformation news, AI in business news"
-        canonical={`https://www.rialtes.com/${locale}/insights/news/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/news`}
       />
       <Script
         id="schema-news-main"

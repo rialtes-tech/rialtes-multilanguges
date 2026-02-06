@@ -39,7 +39,7 @@ export default function Page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/services/business-transformation/rise-with-sap-services/`}
+        canonical={`https://www.rialtes.com/${locale}/services/business-transformation/rise-with-sap-services`}
       />
       <Script
         id="schema-rise"

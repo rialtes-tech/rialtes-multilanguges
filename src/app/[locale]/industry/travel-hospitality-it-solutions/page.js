@@ -30,7 +30,7 @@ export default function Page() {
                     title={t("seoTitle")}
                     description={t("seoDescription")}
                     keywords="home, website, welcome"
-                    canonical={`https://www.rialtes.com/${locale}/industry/travel-hospitality-it-solutions/`}
+                    canonical={`https://www.rialtes.com/${locale}/industry/travel-hospitality-it-solutions`}
                 />
                 <Script
                     id="schema-travel"

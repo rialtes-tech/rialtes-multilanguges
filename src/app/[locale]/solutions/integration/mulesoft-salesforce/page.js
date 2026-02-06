@@ -28,7 +28,7 @@ const page = () => {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/solutions/integration/mulesoft-salesforce/`}
+        canonical={`https://www.rialtes.com/${locale}/solutions/integration/mulesoft-salesforce`}
       />
       <Script
         id="schema-mulesoft"

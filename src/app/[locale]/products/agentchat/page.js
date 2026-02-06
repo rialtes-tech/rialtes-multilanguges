@@ -25,7 +25,7 @@ export default function Page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="Contact, website, welcome"
-                canonical={`https://www.rialtes.com/${locale}/products/agentchat/`}
+                canonical={`https://www.rialtes.com/${locale}/products/agentchat`}
             />
             <Script
                 id="schema-agentchat"

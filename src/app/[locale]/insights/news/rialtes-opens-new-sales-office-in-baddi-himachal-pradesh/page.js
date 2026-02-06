@@ -23,7 +23,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical={`https://www.rialtes.com/${locale}/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/news/rialtes-opens-new-sales-office-in-baddi-himachal-pradesh`}
       />
 
       <Script
