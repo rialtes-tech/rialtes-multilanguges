@@ -31,7 +31,7 @@ export default function Page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="Partners, website, welcome"
-                canonical={`https://www.rialtes.com/${locale}/insights/blogs/sap-implementation-strategies-for-2026-success/`}
+                canonical={`https://www.rialtes.com/${locale}/insights/blogs/sap-implementation-strategies-for-2026-success`}
             />
 
             <Script

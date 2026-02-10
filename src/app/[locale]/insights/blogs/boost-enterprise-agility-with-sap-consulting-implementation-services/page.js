@@ -28,7 +28,7 @@ export default function Page() {
                 description={t("seoDescription")}
                 keywords="Partners, website, welcome"
                 canonical={
-                    `https://www.rialtes.com/${locale}/insights/blogs/boost-enterprise-agility-with-sap-consulting-implementation-services/`
+                    `https://www.rialtes.com/${locale}/insights/blogs/boost-enterprise-agility-with-sap-consulting-implementation-services`
                 }
             />
 

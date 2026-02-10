@@ -30,7 +30,7 @@ export default function Page() {
       <Seo
         title={t("seoTitle")}
         description={t("seoDescription")}
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-salesforce-agentforce-actually-works/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-salesforce-agentforce-actually-works`}
       />
 
       <Script

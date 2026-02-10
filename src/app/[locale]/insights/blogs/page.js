@@ -423,7 +423,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs`}
       />
       <Script
         id="schema-blogs"

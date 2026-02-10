@@ -31,7 +31,7 @@ export default function Page() {
       <Seo
         title={t("seoTitle")}
         description={t("seoDescription")}
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/agriculture-4-0-how-do-digital-technologies-transform-farming-for-a-better-tomorrow`}
         image="https://www.rialtes.com/images/blog/agriculture-4.0-digital-farming.webp"
       />
 

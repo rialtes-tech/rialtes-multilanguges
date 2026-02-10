@@ -31,7 +31,7 @@ export default function Page() {
                 description={t('seoDescription')}
                 keywords="Partners, website, welcome"
                 canonical={
-                    `https://www.rialtes.com/${locale}/insights/blogs/digital-twin-in-automotive-industry-salesforce-cloud/`
+                    `https://www.rialtes.com/${locale}/insights/blogs/digital-twin-in-automotive-industry-salesforce-cloud`
                 }
             />
 

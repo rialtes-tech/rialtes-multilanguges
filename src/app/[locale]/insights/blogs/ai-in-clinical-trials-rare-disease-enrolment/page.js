@@ -32,7 +32,7 @@ export default function Page() {
                 description={t('seoDescription')}
                 keywords="Partners, website, welcome"
                 canonical={
-                    `https://www.rialtes.com/${locale}/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment/`
+                    `https://www.rialtes.com/${locale}/insights/blogs/ai-in-clinical-trials-rare-disease-enrolment`
                 }
             />
 

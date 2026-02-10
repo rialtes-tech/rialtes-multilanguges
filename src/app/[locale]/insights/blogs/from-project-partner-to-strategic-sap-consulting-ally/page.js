@@ -27,7 +27,7 @@ export default function Page() {
                 title="How Enterprises Scale SAP Consulting Partnerships | Rialtes"
                 description="Enterprises scale SAP relationships with partners who show ownership, governance discipline, and the ability to think beyond the current scope."
                 keywords="Partners, website, welcome"
-                canonical={`https://www.rialtes.com/insights/blogs/from-project-partner-to-strategic-sap-consulting-ally/`}
+                canonical={`https://www.rialtes.com/${locale}/insights/blogs/from-project-partner-to-strategic-sap-consulting-ally`}
             />
 
             <Script
