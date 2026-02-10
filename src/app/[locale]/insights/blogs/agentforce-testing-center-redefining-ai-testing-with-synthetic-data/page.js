@@ -25,7 +25,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/agentforce-testing-center-redefining-ai-testing-with-synthetic-data`}
       />
 
       <Script

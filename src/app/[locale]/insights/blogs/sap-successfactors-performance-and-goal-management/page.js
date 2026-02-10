@@ -25,7 +25,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/sap-successfactors-performance-and-goal-management/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/sap-successfactors-performance-and-goal-management`}
       />
 
       <Script

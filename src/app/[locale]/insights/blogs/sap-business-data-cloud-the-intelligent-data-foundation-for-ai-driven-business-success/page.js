@@ -30,7 +30,7 @@ export default function Page() {
       <Seo
         title={t("seoTitle")}
         description={t("seoDescription")}
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/sap-business-data-cloud-the-intelligent-data-foundation-for-ai-driven-business-success`}
       />
 
       <Script

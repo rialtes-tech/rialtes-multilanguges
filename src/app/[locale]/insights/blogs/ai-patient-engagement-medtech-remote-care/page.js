@@ -32,7 +32,7 @@ export default function Page() {
         title={t("seoTitle")}
         description={t("seoDescription")}
         keywords="Partners, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/ai-patient-engagement-medtech-remote-care/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/ai-patient-engagement-medtech-remote-care`}
       />
 
       <Script

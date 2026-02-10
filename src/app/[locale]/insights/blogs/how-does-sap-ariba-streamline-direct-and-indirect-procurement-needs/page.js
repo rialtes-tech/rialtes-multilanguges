@@ -31,7 +31,7 @@ export default function Page() {
       <Seo
         title={t("seoTitle")}
         description={t("seoDescription")}
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-does-sap-ariba-streamline-direct-and-indirect-procurement-needs`}
       />
       <Script
         id="schema-how-does"

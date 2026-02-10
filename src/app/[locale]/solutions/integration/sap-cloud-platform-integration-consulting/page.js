@@ -23,7 +23,7 @@ export default function page() {
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical={`https://www.rialtes.com/${locale}/solutions/integration/sap-cloud-platform-integration-consulting/`}
+                canonical={`https://www.rialtes.com/${locale}/solutions/integration/sap-cloud-platform-integration-consulting`}
             />
             <Script
                 id="schema-sap-cloud"

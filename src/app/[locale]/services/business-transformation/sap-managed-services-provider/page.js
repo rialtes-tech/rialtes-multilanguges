@@ -26,7 +26,7 @@ export default function Page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical={`https://www.rialtes.com/${locale}/services/business-transformation/sap-managed-services-provider/`}
+                canonical={`https://www.rialtes.com/${locale}/services/business-transformation/sap-managed-services-provider`}
             />
             <Script
                 id="schema-sapManaged"

@@ -212,7 +212,7 @@ const Home = () => {
                         <h2 className="leading-tight 4xl:text-[48px] xl:text-[42px] text-[32px] font-bold text-[#073259]">{t('insightTitle')} </h2>
                         <p className="mt-6 xl:mt-10 text-[16px] 2xl:w-[70%] 4xl:text-[20px] xl:text-[18px] md:text-[18px] sm:w-[70%] mb-10">{t('insightDesc')} </p>
                     </div>
-                    <div className="h-full"> 
+                    <div className="h-full">
                         <div className="xl:block hidden h-full">
                             <Image
                                 src={carouselData[activeIndexInsights].image}
@@ -221,7 +221,7 @@ const Home = () => {
                                 priority
                                 fetchPriority='high'
                                 width={500}
-                                height={500}    
+                                height={500}
                             />
                         </div>
 
@@ -253,7 +253,7 @@ const Home = () => {
 
                         <div className="text-white space-y-6 bg-[#184671] lg:pl-[65px] pl-[29px] pt-[35px] lg:pt-[78px] lg:mt-0">
                             <div className="xl:text-[26px] text-[16px]">
-                                {carouselData[activeIndexInsights].title} 
+                                {carouselData[activeIndexInsights].title}
                             </div>
 
                             <Link href={carouselData[activeIndexInsights].link}>

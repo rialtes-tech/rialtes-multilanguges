@@ -102,7 +102,7 @@ export default function About() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical={`https://www.rialtes.com/${locale}/insights/webinars/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/webinars`}
       />
       <Script
         id="webinar-schema"

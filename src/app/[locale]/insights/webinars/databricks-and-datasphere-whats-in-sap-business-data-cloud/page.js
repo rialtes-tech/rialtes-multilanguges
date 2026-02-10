@@ -21,7 +21,7 @@ export default function () {
                     <Seo
                         title={t('seoTitle')}
                         description={t('seoDescription')}
-                        canonical={`https://www.rialtes.com/${locale}/insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud/`}
+                        canonical={`https://www.rialtes.com/${locale}/insights/webinars/databricks-and-datasphere-whats-in-sap-business-data-cloud`}
                     />
                 }
                 schemaData={schemaData}

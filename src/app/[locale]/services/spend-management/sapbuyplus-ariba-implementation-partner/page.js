@@ -452,7 +452,7 @@ export default function page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical={`https://www.rialtes.com/${locale}/services/spend-management/sapbuyplus-ariba-implementation-partner/`}
+                canonical={`https://www.rialtes.com/${locale}/services/spend-management/sapbuyplus-ariba-implementation-partner`}
             />
             <Script
                 id="schema-sap-buy-plus"

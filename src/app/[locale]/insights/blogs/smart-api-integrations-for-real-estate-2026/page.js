@@ -26,7 +26,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/smart-api-integrations-for-real-estate-2026/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/smart-api-integrations-for-real-estate-2026`}
       />
 
       <Script

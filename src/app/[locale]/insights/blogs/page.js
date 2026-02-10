@@ -18,18 +18,18 @@ export default function Page() {
   const t = useTranslations('blogs')
   const locale = useLocale();
   const blogsContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { latestBlogs, industries, categories, slides, schemaData,categoryData } = blogsContent.blogs;
+  const { latestBlogs, industries, categories, slides, schemaData, categoryData } = blogsContent.blogs;
 
   const BlogCard = ({ blog }) => (
     <div className="border border-gray-300 hover:border-white w-full h-full flex flex-col group">
       <div className="h-[260px] 4xl:h-[300px] max-h-[300px]">
         <Link href={'/insights/blogs' + blog.url}>
-          <ImageComponent 
+          <ImageComponent
             imgPath={blog.image}
             alt={blog.alt}
             title={blog.title}
             width={0}
-            height={0} 
+            height={0}
             sizes="100vw"
             style={{ width: '100%', height: '100%', objectFit: 'cover' }}
             priority
@@ -53,11 +53,11 @@ export default function Page() {
     </div>
   );
   const BlogList = () => {
-     const [openIndex, setOpenIndex] = useState(null);
+    const [openIndex, setOpenIndex] = useState(null);
 
-  const toggleAccordion = (index) => {
-    setOpenIndex(openIndex === index ? null : index);
-  };
+    const toggleAccordion = (index) => {
+      setOpenIndex(openIndex === index ? null : index);
+    };
     const [visibleBlogs, setVisibleBlogs] = useState(6);
     const [showOptionsIndustry, setShowOptionsIndustry] = useState(false);
     const [showOptionsCategory, setShowOptionsCategory] = useState(false);
@@ -78,7 +78,7 @@ export default function Page() {
 
 
     const [selectedIndustry, setSelectedIndustry] = useState(t('all'));
- 
+
     const filterBlogsByIndustry = (industry) => {
       setSelectedIndustry(industry);
       setShowOptionsIndustry(false);
@@ -152,103 +152,103 @@ export default function Page() {
                 </div>
               )}
             </div>
-          <div className="relative" ref={categoryRef}>
-            <button className='relative border border-[#707070] py-4 px-6 w-fit text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsCategory}>
-              <span className="pr-5 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">{selectedCategory === 'All' ? 'Category' : selectedCategory}</span>
-              <svg
-                className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
-                fill='none'
-                stroke='currentColor'
-                viewBox='0 0 24 24'
-                xmlns='http://www.w3.org/2000/svg'
-              >
-                <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M19 9l-7 7-7-7'></path>
-              </svg>
-            </button>
-            {showOptionsCategory && (
-              <div className="absolute z-30 bg-white border border-[#707070] w-[200px] md:w-[347px] right-0 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">
-                <ul className="py-3">
-                  {categoryData.map((item, index) => {
-                    const hasItems = Array.isArray(item.items) && item.items.length > 0;
+            <div className="relative" ref={categoryRef}>
+              <button className='relative border border-[#707070] py-4 px-6 w-fit text-l hover:bg-[#EDEDED] focus:bg-[#EDEDED]' onClick={toggleOptionsCategory}>
+                <span className="pr-5 4xl:text-[20px] xl:text-[18px] text-[16px]  leading-tight">{selectedCategory === 'All' ? 'Category' : selectedCategory}</span>
+                <svg
+                  className='w-6 h-6 absolute right-2 top-1/2 transform -translate-y-1/2'
+                  fill='none'
+                  stroke='currentColor'
+                  viewBox='0 0 24 24'
+                  xmlns='http://www.w3.org/2000/svg'
+                >
+                  <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M19 9l-7 7-7-7'></path>
+                </svg>
+              </button>
+              {showOptionsCategory && (
+                <div className="absolute z-30 bg-white border border-[#707070] w-[200px] md:w-[347px] right-0 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">
+                  <ul className="py-3">
+                    {categoryData.map((item, index) => {
+                      const hasItems = Array.isArray(item.items) && item.items.length > 0;
 
-                    return (
-                      <div key={index}>
-                        <button
-                          onClick={() => {
-                            if (hasItems) {
-                              toggleAccordion(index);
-                            } else {
-                              filterBlogsByCategory(item.category);
-                            }
-                          }}
+                      return (
+                        <div key={index}>
+                          <button
+                            onClick={() => {
+                              if (hasItems) {
+                                toggleAccordion(index);
+                              } else {
+                                filterBlogsByCategory(item.category);
+                              }
+                            }}
 
-                          className={`w-full flex justify-between cursor-pointer py-2 text-left ${hasItems ? "cursor-pointer" : "cursor-default"
-                            }`}
-                        >
-                          <h3 className="4xl:text-[20px] xl:text-[18px] text-[16px] text-gray-800 pl-6">
-                            {item.category}
-                          </h3>
+                            className={`w-full flex justify-between cursor-pointer py-2 text-left ${hasItems ? "cursor-pointer" : "cursor-default"
+                              }`}
+                          >
+                            <h3 className="4xl:text-[20px] xl:text-[18px] text-[16px] text-gray-800 pl-6">
+                              {item.category}
+                            </h3>
 
-                          {/* Arrow ONLY if items exist */}
-                          {hasItems && (
-                            <span className="pr-6">
-                              {openIndex === index ? (
-                                <svg
-                                  className="w-6 h-6"
-                                  fill="none"
-                                  stroke="currentColor"
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth="2"
-                                    d="M5 15l7-7 7 7"
-                                  />
-                                </svg>
-                              ) : (
-                                <svg
-                                  className="w-6 h-6"
-                                  fill="none"
-                                  stroke="currentColor"
-                                  viewBox="0 0 24 24"
-                                >
-                                  <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth="2"
-                                    d="M19 9l-7 7-7-7"
-                                  />
-                                </svg>
-                              )}
-                            </span>
+                            {/* Arrow ONLY if items exist */}
+                            {hasItems && (
+                              <span className="pr-6">
+                                {openIndex === index ? (
+                                  <svg
+                                    className="w-6 h-6"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      strokeWidth="2"
+                                      d="M5 15l7-7 7 7"
+                                    />
+                                  </svg>
+                                ) : (
+                                  <svg
+                                    className="w-6 h-6"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      strokeWidth="2"
+                                      d="M19 9l-7 7-7-7"
+                                    />
+                                  </svg>
+                                )}
+                              </span>
+                            )}
+                          </button>
+
+                          {/* Accordion content ONLY if items exist */}
+                          {hasItems && openIndex === index && (
+                            <div className="pb-4 px-6 space-y-2">
+                              <ul className="space-y-1">
+                                {item.items.map((subItem, i) => (
+                                  <li
+                                    key={i}
+                                    onClick={() => filterBlogsByCategory(subItem)}
+                                    className="4xl:text-[20px] xl:text-[18px] text-[16px] py-1 cursor-pointer"
+                                  >
+                                    {subItem}
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
                           )}
-                        </button>
+                        </div>
+                      );
+                    })}
+                  </ul>
+                </div>
+              )}
 
-                        {/* Accordion content ONLY if items exist */}
-                        {hasItems && openIndex === index && (
-                          <div className="pb-4 px-6 space-y-2">
-                            <ul className="space-y-1">
-                              {item.items.map((subItem, i) => (
-                                <li
-                                  key={i}
-                                  onClick={() => filterBlogsByCategory(subItem)}
-                                  className="4xl:text-[20px] xl:text-[18px] text-[16px] py-1 cursor-pointer"
-                                >
-                                  {subItem}
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
-                        )}
-                      </div>
-                    );
-                  })}
-                </ul>
-              </div>
-            )}
-
-          </div>
+            </div>
           </div>
         </div>
         <div className='w-full'>
@@ -423,7 +423,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs`}
       />
       <Script
         id="schema-blogs"

@@ -44,7 +44,7 @@ export default function Page() {
         title={t("seoTitle")}
         description={t("seoDescription")}
         type="article"
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/sap-pi-po-to-cpi-migration-complete-guide`}
       />
 
       <Script

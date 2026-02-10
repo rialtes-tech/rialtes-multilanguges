@@ -26,7 +26,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical={`https://www.rialtes.com/${locale}/insights/case-studies/salesforce-health-cloud-prior-authorization/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/case-studies/salesforce-health-cloud-prior-authorization`}
       />
       <Script
         id="schema-salesforce-health"

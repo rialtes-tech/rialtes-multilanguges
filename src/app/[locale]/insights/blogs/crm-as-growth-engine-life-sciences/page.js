@@ -31,7 +31,7 @@ export default function Page() {
       <Seo
         title="Why CRM Is Now a Growth Driver in Life Sciences | Rialtes"
         description="Modern life sciences CRM goes beyond sales to drive growth through patient experience, intelligent insights, and compliance-ready workflows."
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/crm-as-growth-engine-life-sciences/`} 
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/crm-as-growth-engine-life-sciences`} 
       />
       <Script
         id="schema-copilots"

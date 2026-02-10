@@ -136,7 +136,7 @@ export default function Contact() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="Partners, website, welcome"
-                canonical={`https://www.rialtes.com/${locale}/about-us/global-alliances/`}
+                canonical={`https://www.rialtes.com/${locale}/about-us/global-alliances`}
             />
             <Script
                 id="schema-partners"

@@ -39,7 +39,7 @@ export default function Page() {
       <Seo
         title={t("seoTitle")}
         description={t("seoDescription")}
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/redefining-the-future-of-enterprise-ai-with-sap-joule`}
       />
       <Script
         id="schema-redefining"

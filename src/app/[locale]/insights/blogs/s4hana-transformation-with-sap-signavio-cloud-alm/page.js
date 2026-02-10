@@ -41,7 +41,7 @@ export default function Page() {
       <Seo
         title={t("seoTitle")}
         description={t("seoDescription")}
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/s4hana-transformation-with-sap-signavio-cloud-alm/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/s4hana-transformation-with-sap-signavio-cloud-alm`}
       />
 
       <Script

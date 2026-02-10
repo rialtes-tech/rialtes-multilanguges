@@ -31,7 +31,7 @@ export default function Page() {
         title={t("seoTitle")}
         description={t("seoDescription")}
         keywords="Partners, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/ecommerce-in-salesforce-data-cloud-smarter-cx-driving-loyalty`}
       />
 
       <Script

@@ -44,9 +44,7 @@ export default function Page() {
       <Seo
         title="How AI Is Redefining Banking with Salesforce FSC | RialFinancePlus"
         description="Through RialFinance+, financial institutions turn Salesforce FSC into a connected, compliant, insight-driven platform for intelligent engagement and risk control."
-        canonical={
-          "https://www.rialtes.com/insights/blogs/ai-powered-banking-salesforce-fsc-rialfinanceplus/"
-        }
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/ai-powered-banking-salesforce-fsc-rialfinanceplus`}
       />
       <Script
         id="schema-kinaxis"

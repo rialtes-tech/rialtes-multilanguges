@@ -82,7 +82,7 @@ export default function Page() {
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical={`https://www.rialtes.com/${locale}/industry/life-sciences/medical-devices-it-solutions/`}
+                canonical={`https://www.rialtes.com/${locale}/industry/life-sciences/medical-devices-it-solutions`}
             />
             <Script
                 id="schema-medical"

@@ -24,7 +24,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical={`https://www.rialtes.com/${locale}/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/news/rialtes-joins-elite-group-as-an-official-salesforce-reseller-partner`}
       />
 
       <Script

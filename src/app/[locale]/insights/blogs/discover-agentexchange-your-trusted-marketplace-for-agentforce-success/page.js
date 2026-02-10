@@ -26,7 +26,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/discover-agentexchange-your-trusted-marketplace-for-agentforce-success/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/discover-agentexchange-your-trusted-marketplace-for-agentforce-success`}
       />
 
       <Script

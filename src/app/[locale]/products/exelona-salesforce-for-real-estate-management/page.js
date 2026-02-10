@@ -24,7 +24,7 @@ export default function Page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical={`https://www.rialtes.com/${locale}/products/exelona-salesforce-for-real-estate-management/`}
+                canonical={`https://www.rialtes.com/${locale}/products/exelona-salesforce-for-real-estate-management`}
             />
             <Script
                 id="schema-grow"

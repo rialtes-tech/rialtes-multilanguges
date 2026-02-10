@@ -30,7 +30,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/agents-as-teammates-revolutionizing-slack-collaboration-with-agentforce`}
       />
       <Script
         id="schema-agents-vs"

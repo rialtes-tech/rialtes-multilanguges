@@ -64,7 +64,7 @@ export default function Industry() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/industry/"
+        canonical={`https://www.rialtes.com/${locale}/industry`}
       />
       <Script
         id="schema-industry"

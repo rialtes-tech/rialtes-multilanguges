@@ -18,7 +18,7 @@ export default function Page() {
               title={t('seoTitle')}
                description={t('seoDescription')}
                 keywords="Contact, website, welcome"
-                canonical={"https://www.rialtes.com/terms-of-use/"}
+                canonical={"https://www.rialtes.com/terms-of-use"}
             />
             <section className="custom-container pt-[40px] pb-[80px]">
                 <div className="grid lg:grid-cols-12">

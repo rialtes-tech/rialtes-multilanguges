@@ -21,7 +21,7 @@ export default function () {
                     <Seo
                         title={t('seoTitle')}
                         description={t('seoDescription')}
-                        canonical={`https://www.rialtes.com/${locale}/insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud/`}
+                        canonical={`https://www.rialtes.com/${locale}/insights/webinars/sap-ariba-cig-integration-for-s4hana-erp-cloud`}
                     />
                 }
                 schemaData={schemaData}

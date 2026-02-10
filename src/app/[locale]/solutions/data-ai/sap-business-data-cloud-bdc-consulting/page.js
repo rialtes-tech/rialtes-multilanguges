@@ -27,7 +27,7 @@ export default function Page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/solutions/data-ai/sap-business-data-cloud-bdc-consulting/`}
+        canonical={`https://www.rialtes.com/${locale}/solutions/data-ai/sap-business-data-cloud-bdc-consulting`}
       />
       <Script
         id="schema-sap-bdc"

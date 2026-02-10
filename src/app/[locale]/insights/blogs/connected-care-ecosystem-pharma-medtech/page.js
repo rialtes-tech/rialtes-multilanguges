@@ -27,7 +27,7 @@ export default function Page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="Partners, website, welcome"
-                canonical={`https://www.rialtes.com/${locale}/insights/blogs/connected-care-ecosystem-pharma-medtech/`}
+                canonical={`https://www.rialtes.com/${locale}/insights/blogs/connected-care-ecosystem-pharma-medtech`}
             />
 
             <Script

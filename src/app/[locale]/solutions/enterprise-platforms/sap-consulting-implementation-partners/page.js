@@ -28,7 +28,7 @@ export default function Page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical={`https://www.rialtes.com/${locale}/solutions/enterprise-platforms/sap-consulting-implementation-partners/`}
+                canonical={`https://www.rialtes.com/${locale}/solutions/enterprise-platforms/sap-consulting-implementation-partners`}
             />
             <Script
                 id="schema-sap-consulting"
