@@ -13,76 +13,6 @@ import esContent from "../../../../../../messages/es/blogs.json";
 import frContent from "../../../../../../messages/fr/blogs.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "BlogPosting",
-    "headline": "What Are Fragmented Customer Journeys in Salesforce Marketing Cloud?",
-    "description": "A fragmented customer journey occurs when interactions across channels, teams, and systems fail to connect into a single, coherent experience.",
-    "image": "https://www.rialtes.com/images/blogs/fragmented-customer-journeys.webp",
-    "author": {
-        "@type": "Organization",
-        "name": "Rialtes"
-    },
-    "publisher": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://www.rialtes.com/images/homepage/logo.svg"
-        }
-    },
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.rialtes.com/insights/blogs/fragmented-customer-journeys-salesforce-marketing-cloud/"
-    },
-    "datePublished": "2026-01-08",
-    "mainEntity": {
-        "@type": "FAQPage",
-        "name": "Fragmented Customer Journeys in Salesforce FAQs",
-        "mainEntity": [
-            {
-                "@type": "Question",
-                "name": "What are fragmented customer journeys?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "They occur when customer interactions across channels and systems are disconnected, leading to inconsistent and irrelevant experiences."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Why does personalized marketing fail at scale?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Because data is siloed, journeys are channel-driven, and systems lack real-time orchestration."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "How does Salesforce Marketing Cloud help fix fragmentation?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "It enables cross-channel journeys, real-time personalization, and automation — when integrated and implemented correctly."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "What is Advantage+ by Rialtes?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "A full-spectrum consulting and services framework that helps organizations adopt, integrate, and optimize Salesforce Marketing Cloud for scalable personalization."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Does Advantage+ support both B2B and B2C?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Yes. Advantage+ is designed for complex B2B journeys and high-volume B2C engagement."
-                }
-            }
-        ]
-    }
-}
 
 export default function Page() {
     const fullUrl = "https://www.rialtes.com/insights/blogs/fragmented-customer-journeys-salesforce-marketing-cloud";
@@ -95,7 +25,7 @@ export default function Page() {
         es: esContent,
         fr: frContent,
     });
-    const { mainData, fragmentedData, fragmentedJourney, personalizedMarketing, connectedJourney, advantageplus, solveFragmentation, benefits, faqData,schemaData } = blogsContent.salesforceMarketingCloud
+    const { mainData, fragmentedData, fragmentedJourney, personalizedMarketing, connectedJourney, advantageplus, solveFragmentation, benefits, faqData, schemaData } = blogsContent.salesforceMarketingCloud
 
 
     const ChevronRight = () => (
@@ -120,7 +50,7 @@ export default function Page() {
                 description={t("seoDescription")}
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/fragmented-customer-journeys-salesforce-marketing-cloud/"
+                    `https://www.rialtes.com/${locale}/insights/blogs/fragmented-customer-journeys-salesforce-marketing-cloud`
                 }
             />
 

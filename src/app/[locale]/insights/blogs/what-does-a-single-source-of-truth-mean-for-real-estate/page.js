@@ -22,7 +22,7 @@ export default function Page() {
         es: esContent,
         fr: frContent,
     });
-    const { whatASingleSourceData, whyRealEstatedata, crmErpData, crmDataList2, theBusinessCase, aDayInLife, theRoleOfAI, steps, steps2, fromDataChaos, yourPathTitle, keyElemData, faqs, schemaData } = blogsContent.whatDoesASingle;
+    const { whatASingleSourceData, whyRealEstatedata, crmErpData, crmDataList2, theBusinessCase, aDayInLife, theRoleOfAI, fromDataChaos, yourPathTitle, keyElemData, faqs, schemaData } = blogsContent.whatDoesASingle;
     const fullUrl = "https://www.rialtes.com/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/";
 
     return (
@@ -30,7 +30,7 @@ export default function Page() {
             <Seo
                 title="End Data Chaos: Single Source of Truth for Real Estate | Rialtes"
                 description="A Single Source of Truth transforms how real estate teams work, plan, and grow. It connects CRM and ERP systems, breaks down silos, and gives you clarity"
-                canonical={`https://www.rialtes.com/${locale}/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate/`}
+                canonical={`https://www.rialtes.com/${locale}/insights/blogs/what-does-a-single-source-of-truth-mean-for-real-estate`}
             />
 
             <Script

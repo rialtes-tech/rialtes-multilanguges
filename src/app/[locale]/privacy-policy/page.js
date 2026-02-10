@@ -29,7 +29,7 @@ export default function Page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="Contact, website, welcome"
-        canonical={"https://www.rialtes.com/privacy-policy/"}
+        canonical={"https://www.rialtes.com/privacy-policy"}
       />
       <Script
         id="schema-privacy"

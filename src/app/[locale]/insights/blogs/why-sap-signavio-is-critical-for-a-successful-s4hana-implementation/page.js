@@ -43,7 +43,7 @@ export default function Page() {
         title={t("seoTitle")}
         description={t("seoDescription")}
         keywords="Partners, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/why-sap-signavio-is-critical-for-a-successful-s4hana-implementation`}
       />
 
       <Script

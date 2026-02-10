@@ -25,7 +25,7 @@ export default function Page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/about-us/impact-and-social-responsibility/`}
+        canonical={`https://www.rialtes.com/${locale}/about-us/impact-and-social-responsibility`}
       />
       <Script
         id="schema-impact"

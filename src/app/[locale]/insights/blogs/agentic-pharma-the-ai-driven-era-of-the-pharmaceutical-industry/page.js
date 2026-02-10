@@ -29,7 +29,7 @@ export default function Page() {
       <Seo
         title={t("seoTitle")}
         description={t("seoDescription")}
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/agentic-pharma-the-ai-driven-era-of-the-pharmaceutical-industry`}
       />
       <Script
         id="schema-agentic-pharma"

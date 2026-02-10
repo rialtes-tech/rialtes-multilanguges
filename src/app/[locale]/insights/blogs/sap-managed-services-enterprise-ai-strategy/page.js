@@ -34,7 +34,7 @@ export default function Page() {
                 description={t('seoDescription')}
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/sap-managed-services-enterprise-ai-strategy/"
+                    `https://www.rialtes.com/${locale}/insights/blogs/sap-managed-services-enterprise-ai-strategy`
                 }
             />
 

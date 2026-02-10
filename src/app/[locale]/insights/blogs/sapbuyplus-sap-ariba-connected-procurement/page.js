@@ -50,7 +50,7 @@ export default function Page() {
                 description={t("seoDescription")}
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/sapbuyplus-sap-ariba-connected-procurement/"
+                    `https://www.rialtes.com/${locale}/insights/blogs/sapbuyplus-sap-ariba-connected-procurement`
                 }
             />
 
@@ -337,28 +337,28 @@ export default function Page() {
                                                             className="flex md:flex-col flex-row items-start md:items-start flex-1"
                                                         >
 
-                                                         
+
                                                             <div className="flex md:flex-row flex-col items-center md:w-full w-[40px] ">
 
-                                                             <div className="bg-[#006FBE] xl:p-[6px] p-[4px] rounded-full flex items-center justify-center z-10">
+                                                                <div className="bg-[#006FBE] xl:p-[6px] p-[4px] rounded-full flex items-center justify-center z-10">
                                                                     <span className="text-white flex items-center  transform rotate-90 md:rotate-0">
                                                                         <ChevronRight />
                                                                     </span>
                                                                 </div>
 
-                                                         
+
                                                                 {index !== data.model.steps.length - 1 && (
                                                                     <>
-                                                                       
+
                                                                         <div className="hidden md:block flex-1 h-[2px] bg-black"></div>
 
-                                                                      
+
                                                                         <div className="block md:hidden w-[2px] h-[26px] bg-black"></div>
                                                                     </>
                                                                 )}
                                                             </div>
 
-                                                      
+
                                                             <span
                                                                 className="md:mt-4 mt-1 ml-4 md:ml-0 font-bold 4xl:text-[24px]  2xl:text-[20px]  xl:text-[18px]    md:text-[18px]   text-[16px]"
                                                             >

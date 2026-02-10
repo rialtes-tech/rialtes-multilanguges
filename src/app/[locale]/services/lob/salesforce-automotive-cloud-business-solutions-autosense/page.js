@@ -219,7 +219,7 @@ export default function page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical={`https://www.rialtes.com/${locale}/services/lob/salesforce-automotive-cloud-business-solutions-autosense/`}
+                canonical={`https://www.rialtes.com/${locale}/services/lob/salesforce-automotive-cloud-business-solutions-autosense`}
             />
             <Script
                 id="schema-automotive-cloude"

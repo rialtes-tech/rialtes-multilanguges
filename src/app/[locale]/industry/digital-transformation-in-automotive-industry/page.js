@@ -708,7 +708,7 @@ export default function page() {
             <Seo
                 title={t("seoTitle")}
                 description={t("seoDescription")}
-                canonical={`https://www.rialtes.com/${locale}/industry/digital-transformation-in-automotive-industry/`}
+                canonical={`https://www.rialtes.com/${locale}/industry/digital-transformation-in-automotive-industry`}
             />
             <Script
                 id="schema-automotive"

@@ -24,7 +24,7 @@ export default function Page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical={`https://www.rialtes.com/${locale}/products/mediaina-reimagining-patient-journeys/`}
+                canonical={`https://www.rialtes.com/${locale}/products/mediaina-reimagining-patient-journeys`}
             />
             <Script
                 id="schema-grow"

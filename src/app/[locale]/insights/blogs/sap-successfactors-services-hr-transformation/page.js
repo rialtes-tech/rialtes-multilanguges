@@ -35,7 +35,7 @@ export default function Page() {
                 description={t('seoDescription')}
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/sap-successfactors-services-hr-transformation/"
+                    `https://www.rialtes.com/${locale}/insights/blogs/sap-successfactors-services-hr-transformation`
                 }
             />
 

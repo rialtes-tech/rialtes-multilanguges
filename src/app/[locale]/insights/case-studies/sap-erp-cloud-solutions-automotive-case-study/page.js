@@ -26,7 +26,7 @@ export default function page() {
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical={`https://www.rialtes.com/${locale}/insights/case-studies/sap-erp-cloud-solutions-automotive-case-study/`}
+                canonical={`https://www.rialtes.com/${locale}/insights/case-studies/sap-erp-cloud-solutions-automotive-case-study`}
             />
             <Script
                 id="schema-sapErp"

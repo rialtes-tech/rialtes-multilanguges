@@ -29,7 +29,7 @@ export default function Page() {
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical={`https://www.rialtes.com/${locale}/insights/blogs/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi/`}
+                canonical={`https://www.rialtes.com/${locale}/insights/blogs/salesforce-implementation-partner-strategies-reduce-risk-maximize-roi`}
             />
 
             <Script

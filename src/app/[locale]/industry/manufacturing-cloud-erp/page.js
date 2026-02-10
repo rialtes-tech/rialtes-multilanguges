@@ -22,7 +22,7 @@ export default function Page() {
       <Seo
         title={t("seoTitle")}
         description={t("seoDescription")}
-        canonical={`https://www.rialtes.com/${locale}/industry/manufacturing-cloud-erp/`}
+        canonical={`https://www.rialtes.com/${locale}/industry/manufacturing-cloud-erp`}
       />
       <Script
         id="schema-manufacturing"

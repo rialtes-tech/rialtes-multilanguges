@@ -27,7 +27,7 @@ export default function Page() {
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical={`https://www.rialtes.com/${locale}/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences/`}
+                canonical={`https://www.rialtes.com/${locale}/insights/blogs/digital-patient-journeys-ai-healthcare-life-sciences`}
             />
 
             <Script

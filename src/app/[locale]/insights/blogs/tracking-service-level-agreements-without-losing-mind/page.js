@@ -28,7 +28,7 @@ export default function Page() {
                 title={t("seoTitle")}
                 description={t("seoDescription")}
                 keywords="Partners, website, welcome"
-                canonical={`https://www.rialtes.com/${locale}/insights/blogs/tracking-service-level-agreements-without-losing-mind/`}
+                canonical={`https://www.rialtes.com/${locale}/insights/blogs/tracking-service-level-agreements-without-losing-mind`}
             />
 
             <Script

@@ -30,7 +30,7 @@ export default function Page() {
                 title="Grow with SAP: Modern ERP for an AI-First Tomorrow | Rialtes"
                 description="Grow with SAP gives you a clean, cloud-native ERP foundation so you can automate operations, connect data, and become truly AI-ready without legacy complexity."
                 keywords="Partners, website, welcome"
-                canonical={`https://www.rialtes.com/insights/blogs/grow-with-sap-ai-ready-cloud-erp/`}
+                canonical={`https://www.rialtes.com/${locale}/insights/blogs/grow-with-sap-ai-ready-cloud-erp`}
             />
 
             <Script

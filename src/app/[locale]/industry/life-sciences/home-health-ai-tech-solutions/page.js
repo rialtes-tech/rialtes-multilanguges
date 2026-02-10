@@ -24,7 +24,7 @@ export default function Page() {
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical={`https://www.rialtes.com/${locale}/industry/life-sciences/home-health-ai-tech-solutions/`}
+                canonical={`https://www.rialtes.com/${locale}/industry/life-sciences/home-health-ai-tech-solutions`}
             />
             <Script
                 id="schema-sap-bdc"

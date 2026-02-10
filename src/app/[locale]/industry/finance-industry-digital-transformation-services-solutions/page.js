@@ -1,3 +1,4 @@
+
 "use client";
 import Image from "next/image";
 import Seo from "@/app/[locale]/components/Seo";
@@ -26,7 +27,7 @@ export default function Page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical="https://www.rialtes.com/industry/finance-industry-digital-transformation-services-solutions/"
+        canonical="https://www.rialtes.com/industry/finance-industry-digital-transformation-services-solutions"
       />
       <Script
         id="schema-finance"
