@@ -259,17 +259,17 @@ export default function DataCloud() {
         <BreadCrumbs currPage="Salesforce Data Cloud" subPath="Data & AI" />
         <section className="pt-10 md:pt-16 bg-white">
           <div className="mx-auto">
-            <h2 className="text-[#000000] 4xl:text-[60px] xl:text-[40px] text-[26px] mb-8">
+            <h2 className="text-[#000000] 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] mb-8">
               What Is Salesforce Data Cloud?
             </h2>
-            <p className="md:max-w-xl xl:max-w-4xl mb-8 4xl:text-[22px] xl:text-[18px] text-[16px]">
+            <p className="md:max-w-xl xl:max-w-4xl mb-8 4xl:text-[22px] md:text-[18px] text-[16px]">
               Businesses are flooded with vast amounts of data from an
               increasing array of systems, sources, and platforms. The sheer
               scale and diversity of this data can be overwhelming, leaving
               organizations to manage and navigate through countless records
               daily.
             </p>
-            <p className="md:max-w-xl xl:max-w-4xl 4xl:text-[22px] xl:text-[18px] text-[16px]">
+            <p className="md:max-w-xl xl:max-w-4xl 4xl:text-[22px] md:text-[18px] text-[16px]">
               Salesforce Data Cloud is designed to assist businesses in
               consolidating customer data from various touchpoints. Combining
               data from multiple sources helps create a unified 360-degree view
@@ -282,7 +282,7 @@ export default function DataCloud() {
       {/* creating section */}
       <section className="custom-container">
         <section className="py-8 my-10">
-          <h2 className="text-[#000000] lg:w-[70%] xl:w-[76%] 4xl:w-[90%] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight">
+          <h2 className="text-[#000000] lg:w-[70%] xl:w-[76%] 4xl:w-[90%] 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight">
             Creating Personalized & Impactful Customer Experiences for Your
             Business
           </h2>
@@ -305,7 +305,7 @@ export default function DataCloud() {
                   </div>
                   <h3 className="text-[#1F3F69] mt-2 4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight">{feature.title}</h3>
                 </div>
-                <p className="text-[#000000] mt-2 4xl:text-[22px] xl:text-[18px] text-[16px]">{feature.description}</p>
+                <p className="text-[#000000] mt-2 4xl:text-[22px] md:text-[18px] text-[16px]">{feature.description}</p>
               </div>
             ))}
           </div>
@@ -328,7 +328,7 @@ export default function DataCloud() {
                       {stat.percentage}
                     </span>
                   </div>
-                  <p className="text-[#000000] 4xl:text-[22px] xl:text-[18px] text-[16px] lg:w-[70%] md:w-[90%] w-[90%]">{stat.description}</p>
+                  <p className="text-[#000000] 4xl:text-[22px] md:text-[18px] text-[16px] lg:w-[70%] md:w-[90%] w-[90%]">{stat.description}</p>
                 </div>
               ))}
             </div>
@@ -338,7 +338,7 @@ export default function DataCloud() {
       {/* Services Section */}
       <div className="custom-container">
         <section className="pb-12 pt-20">
-          <h2 className="text-left mb-10 leading-tight 4xl:text-[60px] xl:text-[40px] text-[26px] ">
+          <h2 className="text-left mb-10 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] ">
             Our Salesforce Data Cloud Services
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-20 xl:gap-12 xl:gap-y-[60px] mt-12">
@@ -360,7 +360,7 @@ export default function DataCloud() {
                       src={service.image}
                       alt={`${service.title} image`}
                       width={1200}
-  height={630}
+                      height={630}
                       style={{
                         objectFit: "cover",
                       }}
@@ -370,7 +370,7 @@ export default function DataCloud() {
                   </div>
                 </div>
                 <h3 className="h3-bold mb-3 4xl:text-[26px] xl:text-[22px] text-[18px] mt-6">{service.title}</h3>
-                <p className="text-[#000000] 4xl:text-[22px] xl:text-[18px] text-[16px] mb-6">{service.description}</p>
+                <p className="text-[#000000] 4xl:text-[22px] md:text-[18px] text-[16px] mb-6">{service.description}</p>
                 <div className="mt-auto">
                   <LearnMore />
                 </div>
@@ -381,7 +381,7 @@ export default function DataCloud() {
       </div>
       {/* Contact Form Section */}
       <div className="py-20 custom-container">
-        <ContactForm title="Take the next step to operational excellence with us." className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px] 4xl:w-[80%] xl:w-[70%]" />
+        <ContactForm title="Take the next step to operational excellence with us." className="leading-tight 4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] md:text-[32px] text-[26px] 4xl:w-[80%] xl:w-[70%]" />
       </div>
     </div>
   );

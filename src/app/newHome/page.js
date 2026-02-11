@@ -22,8 +22,8 @@ const AutoTimerSlider = () => {
                         />
 
                         <div className="content relative z-10">
-                            <div className="title font-semibold">MANUFACTURING</div>
-                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">
+                            <div className="title font-semibold 4xl:text-[24px] md:text-[20px] text-[18px]">MANUFACTURING</div>
+                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium 4xl:text-[24px] xl:text-[20px] md:text-[18px] text-[16px]">
                                 Streamline customer relationships, sales processes, and supply chain management in manufacturing companies.
                             </div>
                             <Link href="/industry/manufacturing-cloud-erp" aria-label="Manufacturing">
@@ -44,8 +44,8 @@ const AutoTimerSlider = () => {
                             className="object-cover -z-10"
                         />
                         <div className="content relative z-10">
-                            <div className="title font-semibold">REAL ESTATE</div>
-                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">
+                            <div className="title font-semibold 4xl:text-[24px] md:text-[20px] text-[18px]">REAL ESTATE</div>
+                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium 4xl:text-[24px] xl:text-[20px] md:text-[18px] text-[16px]">
                                 Helping realtors, property owners, and brokers strengthen relationships and revenue by helping them navigate through client details, properties.
                             </div>
                             <Link href="/industry/real-estate-property-management" aria-label="Real Estate">
@@ -65,8 +65,8 @@ const AutoTimerSlider = () => {
                             className="object-cover -z-10"
                         />
                         <div className="content relative z-10">
-                            <div className="title font-semibold">Semiconductor</div>
-                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">
+                            <div className="title font-semibold 4xl:text-[24px] md:text-[20px] text-[18px]">Semiconductor</div>
+                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium 4xl:text-[24px] xl:text-[20px] md:text-[18px] text-[16px]">
                                 Our services consulting covers the complete range of technologies and methodologies necessary for manufacturing, integrating, and maintaining complex products across platforms.
                             </div>
                             <Link href="/industry/hitech-semiconductor-ai-it-solutions" aria-label="Semiconductor">
@@ -86,8 +86,8 @@ const AutoTimerSlider = () => {
                             className="object-cover -z-10"
                         />
                         <div className="content relative z-10">
-                            <div className="title font-semibold">AUTOMOTIVE</div>
-                            <div className="des pr-5 xl:mt-8 mt-5">
+                            <div className="title font-semibold 4xl:text-[24px] md:text-[20px] text-[18px]">AUTOMOTIVE</div>
+                            <div className="des pr-5 xl:mt-8 mt-5 4xl:text-[24px] xl:text-[20px] md:text-[18px] text-[16px]">
                                 The automotive industry is shifting to customer-first. Rialtes delivers integrated solutions for seamless omnichannel experiences, from lead capture to warranty service.
                             </div>
                             <Link href="/industry/digital-transformation-in-automotive-industry" aria-label="Automotive">
@@ -107,8 +107,8 @@ const AutoTimerSlider = () => {
                             className="object-cover -z-10"
                         />
                         <div className="content relative z-10">
-                            <div className="title font-semibold">Healthcare</div>
-                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">
+                            <div className="title font-semibold 4xl:text-[24px] md:text-[20px] text-[18px]">Healthcare</div>
+                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium 4xl:text-[24px] xl:text-[20px] md:text-[18px] text-[16px]">
                                 Our Salesforce healthcare CRM integration can help medical service providers seamlessly integrate hospital software and patient engagement solutions to facilitate exceptional patient care.
                             </div>
                             <Link href="/industry/life-sciences/healthcare-medtech-patient-care" aria-label="Healthcare">
@@ -128,8 +128,8 @@ const AutoTimerSlider = () => {
                             className="object-cover -z-10"
                         />
                         <div className="content relative z-10">
-                            <div className="title font-semibold">Retail</div>
-                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium">
+                            <div className="title font-semibold 4xl:text-[24px] md:text-[20px] text-[18px]">Retail</div>
+                            <div className="des xl:pr-5 pr-10 xl:mt-8 mt-5 font-medium 4xl:text-[24px] xl:text-[20px] md:text-[18px] text-[16px]">
                                 Navigate retail challenges with confidence. Rialtes Retail+ combines strategic insight with robust execution, enabling B2B and B2C retailers to modernize, personalize, and grow. From planning to post-launch support, we drive transformation every step of the way.
                             </div>
                             <Link href="/industry/retail-industry-digital-transformation" aria-label="Retail">
@@ -169,7 +169,7 @@ const AutoTimerSlider = () => {
 
             </div>
             <div className="mt-[-10px] absolute  max-[350px]:left-[45%] left-1/2 transform -translate-x-1/2 lg:left-auto lg:transform-none lg:right-[200px]">
-                <Link href="/industry" className='bg-[#006FBE] xl:text-[20px] text-[14px] hover:bg-white hover:text-[#006FBE] border border-solid border-[#006FBE] font-semibold text-white xl:py-5 py-4 px-5 transition duration-300'>View All Industries</Link>
+                <Link href="/industry" className='bg-[#006FBE] 4xl:text-[24px] xl:text-[20px] md:text-[18px] text-[16px] hover:bg-white hover:text-[#006FBE] border border-solid border-[#006FBE] font-semibold text-white xl:py-5 py-4 px-5 transition duration-300'>View All Industries</Link>
             </div>
         </div>
 

@@ -216,13 +216,12 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
                             backgroundColor: isHovered ? "#ffffff" : (beginBtnBg || "#134874"),
                             color: isHovered ? "#134874" : "#ffffff",
                         }}
-                        className="border border-[#134874] max-lg:w-fit font-semibold py-3 px-8 transition duration-300"
-                    >
+                        className="border border-[#134874] max-lg:w-fit font-semibold py-3 px-8 transition duration-300 4xl:text-[20px] xl:text-[18px] text-[16px]">
                         Let's Begin
                     </button>
 
                 </div>
-                <div className="md:block hidden">Enter the result of the equation shown above (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</div>
+                <div className="md:block hidden 4xl:text-[20px] md:text-[18px] text-[16px]">Enter the result of the equation shown above (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</div>
 
 
                 <div>
