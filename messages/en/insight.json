@@ -353,28 +353,6 @@
         "description": "Digital transformation doesn’t fail because of weak applications. It fails because systems don’t talk to each other."
       },
       {
-        "id": 79,
-        "image": "/images/blog/sap-datasphere-data-fabric-thumb.webp",
-        "category": "SAP Datasphere",
-        "industry": "Genérico",
-        "date": "Feb. 03, 2026",
-        "url": "/what-is-sap-datasphere-why-enterprises-moving-to-it/",
-        "title": "¿Qué es SAP Datasphere y por qué las empresas están migrando a esta solución?",
-        "alt": "Flujos de datos digitales y código binario que representan analítica en la nube y un data fabric empresarial",
-        "description": "Los ejecutivos no sufren por falta de datos. Sufren por la falta de confianza, velocidad y claridad. Esto no es anecdótico: es medible."
-      },
-      {
-        "id": 78,
-        "image": "/images/blog/cloud-data-analytics-team-thumb.webp",
-        "category": "SAP CPI",
-        "industry": "Genérico",
-        "date": "Feb. 02, 2026",
-        "url": "/sap-cpi-implementation-architecture-best-practices-use-cases/",
-        "title": "Implementación de SAP CPI: arquitectura, mejores prácticas y casos de uso empresariales",
-        "alt": "Equipo analizando datos en la nube y paneles digitales para impulsar insights empresariales y la toma de decisiones",
-        "description": "La transformación digital no fracasa por aplicaciones débiles. Fracasa porque los sistemas no se comunican entre sí."
-      },
-      {
         "id": 77,
         "image": "/images/blog/smart-city-digital-network-iot-technology-thumb.webp",
         "category": "Salesforce FSC",
