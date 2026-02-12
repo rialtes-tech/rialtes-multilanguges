@@ -267,7 +267,7 @@ export default function SalesForceConsulting() {
                 />
                 <div className="absolute custom-container  top-[14%] lg:text-start lg:top-[25%] sm:top-[20%] text-black">
                     <h1 className="font-bold 4xl:text-[24px] xl:text-[20px] text-[18px]">Salesforce Consulting Services</h1>
-                    <h2 className="md:w-[46%]  lg:w-[37%]  xl:w-[48%] leading-tight  2xl:w-[41%] 4xl:w-[56%] 4xl:text-[60px] xl:text-[40px] text-[26px]">Transform how you engage with your clients</h2>
+                    <h2 className="md:w-[46%]  lg:w-[37%]  xl:w-[48%] leading-tight  2xl:w-[41%] 4xl:w-[56%] 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px]">Transform how you engage with your clients</h2>
                     <Image
                         src="/images/salesforce-consulting-services/salesforce-partner.webp"
                         className="w-[22%] h-full bg-transperent lg:mt-20 lg:m-0 mt-5"
@@ -287,13 +287,13 @@ export default function SalesForceConsulting() {
             <div className="grid lg:grid-cols-10 xl:gap-16 gap-5 px-6 custom-container mt-10 lg:mt-16">
 
                 <div className="lg:col-span-6 4xl:col-span-6 2xl:col-span-5 ">
-                    <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
+                    <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px]">
                         Retaining Your Clients Or Aiming For Repeats: Make It Viable With Salesforce Consulting
                     </h2>
                 </div>
 
                 <div className="lg:col-span-4">
-                    <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight xl:mr-[96px]">
+                    <p className="text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight xl:mr-[96px]">
                         Rialtes is a trusted partner in the Salesforce community. We know how to move beyond Salesforce basics, customizing and extending its capabilities with our Salesforce solutions. We have a resource-based dynamic system to set up cloud architecture seamlessly and automate your business processes.
                     </p>
                 </div>
@@ -302,7 +302,7 @@ export default function SalesForceConsulting() {
 
             {/* section crm consulting */}
             <section className="lg:mt-20 md:mt-10 px-6  custom-container ">
-                <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Our Salesforce CRM Consulting Services</h2>
+                <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] ">Our Salesforce CRM Consulting Services</h2>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-10 gap-5 mt-10">
                     {salesForce.map((sales) => {
                         return (
@@ -322,7 +322,7 @@ export default function SalesForceConsulting() {
                                     />
                                 </div>
                                 <h3 className="mt-5 4xl:text-[30px] xl:text-[22px] text-[20px] text-[#1F3F69] leading-tight font-bold">{sales.title}</h3>
-                                <p className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{sales.description}</p>
+                                <p className="mt-5 text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight">{sales.description}</p>
                             </div>
                         )
                     })}
@@ -332,8 +332,8 @@ export default function SalesForceConsulting() {
             {/* Salesforce product */}
 
             <section className="mt-20  px-6  custom-container">
-                <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Salesforce Products</h2>
-                <p className="lg:mt-3 mb-8 mt-3 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">Well, Salesforce consulting is just one part of an array of solutions.</p>
+                <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] ">Salesforce Products</h2>
+                <p className="lg:mt-3 mb-8 mt-3 text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight">Well, Salesforce consulting is just one part of an array of solutions.</p>
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-5 gap-5">
                     {salesForceProduct.map((product) => {
                         return (
@@ -350,8 +350,8 @@ export default function SalesForceConsulting() {
                                 </div>
                                 <div className="p-8">
                                     <h3 className="mt-5 leading-tight 4xl:text-[30px] xl:text-[22px] text-[20px] font-bold text-[#1F3F69]">{product.title}</h3>
-                                    <p className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{product.description}</p>
-                                    <ul className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+                                    <p className="mt-5 text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight">{product.description}</p>
+                                    <ul className="mt-5 text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight">
                                         {product?.productsDetails?.map((details, index) => {
                                             return (
                                                 <li
@@ -378,13 +378,13 @@ export default function SalesForceConsulting() {
 
             {/* your business */}
             <section className="mt-16 px-6 custom-container">
-                <h2 className="font-normal xl:w-[71%] 4xl:w-[93%] w-full leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Understanding and targeting the customers correctly for your business</h2>
+                <h2 className="font-normal xl:w-[71%] 4xl:w-[93%] w-full leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] ">Understanding and targeting the customers correctly for your business</h2>
                 <div className="grid lg:grid-cols-3 grid-cols-1 lg:mt-10 xl:gap-20 gap-5 pb-16 mt-4">
                     {businessDetails.map((bussiness) => {
                         return (
                             <div key={bussiness.id}>
                                 <h3 className="font-bold mt-3  4xl:text-[30px] xl:text-[22px] text-[20px] leading-tight">{bussiness.title}</h3>
-                                <p className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">{bussiness.description}</p>
+                                <p className="mt-5 text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight">{bussiness.description}</p>
                             </div>
                         )
                     })}
@@ -431,7 +431,7 @@ export default function SalesForceConsulting() {
             {/* different industries different mindset */}
             <section className=" custom-container lg:mt-20 mt-5 pb-20 lg:!pr-0">
                 <div>
-                    <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Different industries, different mindsets</h2>
+                    <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] ">Different industries, different mindsets</h2>
                     <CarouselComponent />
                 </div>
             </section>
@@ -453,15 +453,15 @@ export default function SalesForceConsulting() {
                     </div>
                 </div>
                 <div className='bg-[#0077CE] hidden xl:block absolute p-10 text-white lg:w-[28%] lg:right-[8rem] lg:top-[-3.5rem] top-[392px]'>
-                    <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Agentforce</h2>
-                    <p className='mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight'>Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.</p>
+                    <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] ">Agentforce</h2>
+                    <p className='mt-5 text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight'>Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.</p>
                     <Link href='/solutions/artificial-intelligence/salesforce-agentforce-consulting'>
                         <p className='mt-8'>Learn More <span> &#8594;</span></p>
                     </Link>
                 </div>
             </section>
             <section className="pb-20  custom-container  pt-10 mt-20">
-                <ContactForm className='xl:w-[85%] w-full leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]' title={'Take the next step to operational excellence with Salesforce Consulting.'} />
+                <ContactForm className='xl:w-[85%] w-full leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px]' title={'Take the next step to operational excellence with Salesforce Consulting.'} />
             </section>
         </div>
     )
