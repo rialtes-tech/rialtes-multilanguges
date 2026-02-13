@@ -131,14 +131,14 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
     if (!mounted) return null;
     return (
         <section className={(padding ? padding : '')}>
-            <div className={`font-light leading-tight${className}`}>
+            <div className={`font-light leading-tight ${className ? className : "4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px]"}`}>
                 {title ? title : 'Ready to take the next step? Let’s kick off your journey to operational excellence'}
             </div>
             {subtitle && (
                 <p className="mt-8 leading-tight 4xl:text-[20px] md:text-[18px] text-[16px] xl:w-[60%] font-regular">
                     {subtitle}
                 </p>
-            )} 
+            )}
             {subtitle1 && (
                 <p className="mt-4 4xl:text-[20px] md:text-[18px] text-[16px] xl:w-[60%] xl:mt-[24px] font-regular">
                     {subtitle1}

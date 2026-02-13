@@ -129,7 +129,7 @@ export default function servicesFeaturedCarousel() {
     <section className="relative pb-10">
       <div>
         <div className="flex flex-col justify-between">
-          <h2 className="text-black mb-[87px] 4xl:w-[62%] xl:w-[55%] w-[50%] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  max-md:text-[18px]">
+          <h2 className="text-black mb-[87px] 4xl:w-[62%] xl:w-[55%] w-[50%] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] max-md:text-[18px]">
             Get Inspired By Our Latest Customer Success Stories, Industry
             Insight, And More
           </h2>
@@ -184,7 +184,7 @@ export default function servicesFeaturedCarousel() {
                     <p className="pb-6 text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight">{slide.description}</p>
                     <Link tabIndex={-1}
                       href={slide.url}
-                      className="font-medium text-[#0092E0] xl:text-[24px] text-[16px]"
+                      className="font-medium text-[#0092E0] text-[16px] md:text-[18px] 4xl:text-[20px]"
                     >
                       Know More
                     </Link>
