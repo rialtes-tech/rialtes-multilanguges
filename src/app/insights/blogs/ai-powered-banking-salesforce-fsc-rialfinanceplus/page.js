@@ -13,7 +13,7 @@ export default function Page() {
   const fullUrl = "https://www.rialtes.com/insights/blogs/ai-powered-banking-salesforce-fsc-rialfinanceplus";
   const currUrl = useUrl();
 
-  const schemaData = {
+  const schemaData = { 
     "@context": "https://schema.org",
     "@type": "BlogPosting",
     "headline": "RialFinancePlus and the Rise of AI-Powered Banking",
