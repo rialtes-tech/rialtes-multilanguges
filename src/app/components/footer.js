@@ -94,16 +94,16 @@ const Footer = () => {
           />
           <div className="lg:text-left">
             <p className="mt-4">
-              <span className="text-lg lg:text-xl font-bold">Simplifying</span>{" "}
-              <span className="opacity-50 text-lg lg:text-xl">Problems</span>
+              <span className="4xl:text-[20px] xl:text-[18px] text-[16px] font-bold">Simplifying</span>{" "}
+              <span className="opacity-50 4xl:text-[20px] xl:text-[18px] text-[16px]">Problems</span>
             </p>
             <p className="mt-4">
-              <span className="text-lg lg:text-xl font-bold">Enabling</span>{" "}
-              <span className="opacity-50 text-lg lg:text-xl">Solutions</span>
+              <span className="4xl:text-[20px] xl:text-[18px] text-[16px] font-bold">Enabling</span>{" "}
+              <span className="opacity-50 4xl:text-[20px] xl:text-[18px] text-[16px]">Solutions</span>
             </p>
             <p className="mt-4">
-              <span className="text-lg lg:text-xl font-bold">Empowering</span>{" "}
-              <span className="opacity-50 text-lg lg:text-xl">Customers</span>
+              <span className="4xl:text-[20px] xl:text-[18px] text-[16px] font-bold">Empowering</span>{" "}
+              <span className="opacity-50 4xl:text-[20px] xl:text-[18px] text-[16px]">Customers</span>
             </p>
           </div>
         </div>
@@ -115,24 +115,24 @@ const Footer = () => {
           <div className="flex gap-[48px] md:gap- lg:gap-10  lg:justify-start md:mt-auto lg:mt-0">
 
             <div>
-              <p>
+              <p className="4xl:text-[20px] xl:text-[18px] text-[16px]">
                 <Link href="/about-us">About Us</Link>
               </p>
-              <p className="mt-3">
+              <p className="mt-3 4xl:text-[20px] xl:text-[18px] text-[16px]">
                 <Link href="/industry">Industries</Link>
               </p>
-              <p className="mt-3">
+              <p className="mt-3 4xl:text-[20px] xl:text-[18px] text-[16px]">
                 <Link href="/insights">Insights</Link>
               </p>
             </div>
             <div>
-              <p>
+              <p className="4xl:text-[20px] xl:text-[18px] text-[16px]">
                 <Link href="/terms-of-use">Terms of use</Link>
               </p>
-              <p className="mt-3">
+              <p className="mt-3 4xl:text-[20px] xl:text-[18px] text-[16px]">
                 <Link href="/privacy-policy">Privacy Notice</Link>
               </p>
-              <p className="mt-3">
+              <p className="mt-3 4xl:text-[20px] xl:text-[18px] text-[16px]">
                 <Link href="/contact-us">Contact Us</Link>
               </p>
               {/* <p className="mt-3"><Link href="/cookie">Cookie Notice</Link></p> */}
@@ -203,7 +203,7 @@ const Footer = () => {
       </div>
 
       {/* Copyright */}
-      <p className="mt-5 text-start">©2026 Rialtes, All rights reserved</p>
+      <p className="mt-5 text-start 4xl:text-[20px] xl:text-[18px] text-[16px]">©2026 Rialtes, All rights reserved</p>
 
       {/* Scroll to Top Button */}
       {isVisible && (

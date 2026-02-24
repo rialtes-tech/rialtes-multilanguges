@@ -107,7 +107,7 @@ export default function servicesExploreMoreCarousel() {
     <section className="relative sm:pb-10 pb-16">
       <div className=" mx-auto">
         <div className="flex flex-row justify-between md:mr-24 mr-0">
-          <h2 className="text-white mb-14 mr-20 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">Explore More</h2>
+          <h2 className="text-white mb-14 mr-20 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px]">Explore More</h2>
         </div>
         <Carousel
           swipeable={true}

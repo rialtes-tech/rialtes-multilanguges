@@ -125,10 +125,10 @@ const AIBusinessBanner = () => {
 
                 {/* Right: Blue Content Box */}
                 <div className="xl:w-[61%] bg-[#073259] max-md:mx-[35px] text-white p-6 pb-0  4xl:p-16 2xl:p-12 xl:p-10  xl:pb-0 flex flex-col  4xl:mt-[170px] 2xl:mt-[120px] xl:mt-[100px] absolute xl:left-[39%] top-[99%] xl:top-0 xl:h-[381px] 4xl:h-[553px] 2xl:h-[458px]">
-                    <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] leading-tight pt-8 xl:pt-0 md:text-[28px] text-[26px] 4xl:mb-10 xl:mb-5 mb-5 2xl:mb-10 4xl:pr-28 2xl:pr-24 xl:pr-20">
+                    <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight pt-8 xl:pt-0 4xl:mb-10 xl:mb-5 mb-5 2xl:mb-10 4xl:pr-28 2xl:pr-24 xl:pr-20">
                         Manage Customer Inquiries and Streamline Employee Tasks Around the Clock
                     </h2>
-                    <ul className="space-y-3 4xl:space-y-3 xl:space-y-1 2xl:space-y-3 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mb-6 list-disc list-outside pl-[25px]">
+                    <ul className="space-y-3 4xl:space-y-3 xl:space-y-1 2xl:space-y-3 4xl:text-[20px] md:text-[18px] text-[16px] mb-6 list-disc list-outside pl-[25px]">
                         <li>Autonomous operation within customized guardrails</li>
                         <li>Real-time data adaptation</li>
                         <li>Seamless integration with employees</li>
@@ -170,10 +170,10 @@ const AgentforceBanner = () => {
             {/* Overlay Content */}
             <div className="relative z-10 flex h-full ">
                 <div className="bg-opacity-90 text-white 4xl:max-w-[44rem] 2xl:max-w-[36rem] xl:max-w-[30rem] bg-black xl:bg-transparent max-md:px-[35px] md:px-[35px] xl:px-0">
-                    <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight mb-4 pt-12">
+                    <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight mb-4 pt-12">
                         Leverage cutting-edge technologies to deliver innovative solutions with Agentforce
                     </h2>
-                    <ul className="space-y-6 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mb-6 list-none pt-10">
+                    <ul className="space-y-6 4xl:text-[20px] md:text-[18px] text-[16px] mb-6 list-none pt-10">
                         <li className="border-b border-white pb-5">
                             <div className="font-bold">Agentforce Data Cloud</div>
                             <div className="mt-3">Unify and harmonize customer data across systems in real time.</div>
@@ -202,13 +202,13 @@ const AgentforcePromo = () => {
     return (
         <section>
             <div className="4xl:max-w-4xl 2xl:max-w-[45rem] xl:max-w-[40rem]">
-                <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight mb-4">
+                <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight mb-4">
                     Agentforce 3.0: The Next Leap in Salesforce AI
                 </h2>
                 <h3 className="4xl:text-[30px] 2xl:text-[24px] xl:text-[22px] text-[20px] font-semibold xl:mt-10 mt-6 leading-tight 4xl:pr-[12rem] 2xl:pr-20 xl:pr-18">
                     Agentforce 3.0 marks the newest evolution of Salesforce’s digital labor platform.
                 </h3>
-                <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]  text-[16px] mt-8">Since its debut in 2024, Agentforce has become central to Salesforce’s AI strategy. With 3.0, the platform now delivers:</p>
+                <p className="4xl:text-[20px] md:text-[18px] text-[16px] mt-8">Since its debut in 2024, Agentforce has become central to Salesforce’s AI strategy. With 3.0, the platform now delivers:</p>
             </div>
 
 
@@ -234,7 +234,7 @@ const AgentforcePromo = () => {
                         <h3 className="4xl:text-[26px] 2xl:text-[22px] xl:text-[20px]  text-[19px] font-semibold mb-2 text-[#0A6BB8] leading-tight pr-0 xl:pr-20">
                             {feature.title}
                         </h3>
-                        <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]  text-[16px] leading-tight mt-5 xl:pr-10">{feature.description}</p>
+                        <p className="4xl:text-[20px] md:text-[18px] text-[16px] leading-tight mt-5 xl:pr-10">{feature.description}</p>
                     </div>
                 ))}
             </div>
@@ -364,7 +364,7 @@ const AgentforceIndustryGrid = () => {
                             }`}
                     >
                         <h3 className="font-semibold 4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] text-[20px] mb-5 leading-tight">{item.title}</h3>
-                        <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]  text-[16px] leading-tight">
+                        <p className="4xl:text-[20px] md:text-[18px] text-[16px] leading-tight">
                             {item.desc}
                         </p>
                     </div>
@@ -383,7 +383,7 @@ const AgentforceIndustryGrid = () => {
                             }`}
                     >
                         <h3 className="font-semibold 4xl:text-[26px] 2xl:text-[22px] xl:text-[20px] mb-5 text-[20px] leading-tight">{item.title}</h3>
-                        <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]  text-[16px] leading-tight ">
+                        <p className="4xl:text-[20px] md:text-[18px] text-[16px] leading-tight ">
                             {item.desc}
                         </p>
                     </div>
@@ -392,7 +392,7 @@ const AgentforceIndustryGrid = () => {
             </div>
 
             <div className="grid grid-cols-1 lg:grid-cols-12 items-center xl:mt-8 mt-12">
-                <p className="lg:col-span-9 col-span-12 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] leading-tight mb-6 lg:mb-0 w-full">
+                <p className="lg:col-span-9 col-span-12 4xl:text-[20px] md:text-[18px] text-[16px] leading-tight mb-6 lg:mb-0 w-full">
                     Our Agentforce consultants work closely with your teams to align
                     technology with outcomes, making AI adoption practical, measurable, and
                     future-ready.
@@ -428,16 +428,16 @@ const SalesforceAgentPromo = () => {
                     <h3 className="4xl:text-[42px] 2xl:text-[40px] xl:text-[30px] text-[20px] font-semibold mb-4 leading-tight 4xl:mt-5 2xl:mt-10 mt-5 pr-20 xl:pr-0">
                         Agentforce Consulting Services with Rialtes
                     </h3>
-                    <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] leading-tight mb-6 xl:pr-10">
+                    <p className="4xl:text-[20px] md:text-[18px] text-[16px] leading-tight mb-6 xl:pr-10">
                         Agentforce is transforming how businesses interact with customers and automate operations — and Rialtes’ Agentforce consulting services help you accelerate that transformation effectively.
                     </p>
-                    <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] leading-tight mb-6">
+                    <p className="4xl:text-[20px] md:text-[18px] text-[16px] leading-tight mb-6">
                         Our certified Agentforce consultants bring deep expertise across industries to ensure your AI agents deliver real impact from day one.
                     </p>
-                    <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] leading-tight mb-6">
+                    <p className="4xl:text-[20px] md:text-[18px] text-[16px] leading-tight mb-6">
                         We make adoption simple and result-oriented with:
                     </p>
-                    <ul className="list-disc 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] leading-tight space-y-5 mb-6 font-medium list-outside pl-5 xl:pr-10 ">
+                    <ul className="list-disc 4xl:text-[20px] md:text-[18px] text-[16px] leading-tight space-y-5 mb-6 font-medium list-outside pl-5 xl:pr-10 ">
                         <li>Rapid AI-readiness assessments tailored to your industry.</li>
                         <li>Conversational AI deployment for Sales, Service, and Field teams.</li>
                         <li>Einstein GPT and AI automation for proactive customer support.</li>
@@ -487,13 +487,13 @@ const AgentChatPromo = () => {
                 </div>
                 <div>
                     <h3 className="4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[18px] font-semibold mb-2 leading-tight">Turn Every Chat into a Customer Moment.</h3>
-                    <ul className="list-disc xl:list-inside list-outside pl-5 xl:pl-0 space-y-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-6 leading-tight">
+                    <ul className="list-disc xl:list-inside list-outside pl-5 xl:pl-0 space-y-5 4xl:text-[20px] md:text-[18px] text-[16px] mt-6 leading-tight">
                         <li>Instant WhatsApp messaging embedded inside Salesforce.</li>
                         <li>Auto-responses, case creation, and service cloud integration.</li>
                         <li>Pre-built AI chatbots for Agentforce and Service Cloud.</li>
                         <li>Personalized notifications and marketing campaigns.</li>
                     </ul>
-                    <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mt-10">
+                    <p className="4xl:text-[20px] md:text-[18px] text-[16px] mt-10">
                         AgentChat is the ideal solution for managing customer service, sales inquiries, order updates,
                         and marketing outreach, all securely within Salesforce.
                     </p>
@@ -537,12 +537,12 @@ const AgentforceHero = () => {
                     <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] md:text-[28px] text-[26px] leading-tight mb-8">
                         Your Strategic Partner for Salesforce Agentforce Success
                     </h2>
-                    <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mb-6 leading-tight">
+                    <p className="4xl:text-[20px] md:text-[18px] text-[16px] mb-6 leading-tight">
                         As a Salesforce Crest Partner with deep industry expertise, we turn <br className="xl:block hidden"></br> the promise of intelligent automation into measurable results.
                     </p>
 
-                    <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mb-4 leading-tight">Here’s what sets us apart:</p>
-                    <ul className="space-y-8 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mb-6 leading-tight">
+                    <p className="4xl:text-[20px] md:text-[18px] text-[16px] mb-4 leading-tight">Here’s what sets us apart:</p>
+                    <ul className="space-y-8 4xl:text-[20px] md:text-[18px] text-[16px] mb-6 leading-tight">
                         <li>
                             <strong>Proven Salesforce Expertise</strong><br />
                             Decades of experience across Sales, Service, and Industry Clouds <br className="xl:block hidden"></br> means we align services and speed around real business impact, not <br className="xl:block hidden"></br> experimentation.
@@ -565,7 +565,7 @@ const AgentforceHero = () => {
                         </li>
                     </ul>
 
-                    <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] text-[16px] mb-6 leading-tight">
+                    <p className="4xl:text-[20px] md:text-[18px] text-[16px] mb-6 leading-tight">
                         Whether you are starting or optimizing your current solution, <br></br>our Agentforce consulting services provide the strategy, tools, <br></br>and support needed to scale AI confidently.
                     </p>
 
@@ -620,7 +620,7 @@ export default function page() {
                             <h1 className="font-bold  4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[20px]">
                                 Agentforce Consulting
                             </h1>
-                            <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] leading-tight mt-5 md:text-[30px] text-[26px] ">
+                            <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight mt-5">
                                 Humans + Agents Automate Routine Tasks to Drive Customer Success
                             </h2>
                         </div>
@@ -635,11 +635,11 @@ export default function page() {
                 <BreadCrumbs currPage="Agentforce" />
                 <div className="grid xl:grid-cols-12 4xl:mt-[60px] mt-8">
                     <div className="4xl:col-span-9 2xl:col-span-8 xl:col-span-9">
-                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] leading-tight mt-5 md:text-[28px] text-[26px] xl:pr-20 4xl:pr-0 2xl:pr-0">Salesforce Agentforce: What You Need to Know</h2>
-                        <p className="leading-tight font-normal 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]  text-[16px] mt-10 max-[430px]:pr-10">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight mt-5 xl:pr-20 4xl:pr-0 2xl:pr-0">Salesforce Agentforce: What You Need to Know</h2>
+                        <p className="leading-tight font-normal 4xl:text-[20px] md:text-[18px] text-[16px] mt-10 max-[430px]:pr-10">
                             Salesforce Agentforce is a robust platform that enables organizations to create, customize, and deploy autonomous AI agents across various business functions, including sales, marketing, customer service, and e-commerce.
                         </p>
-                        <p className="leading-tight font-normal mt-[19px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px]  text-[16px] 4xl:pr-8 max-[430px]:pr-10">
+                        <p className="leading-tight font-normal mt-[19px] 4xl:text-[20px] md:text-[18px] text-[16px] 4xl:pr-8 max-[430px]:pr-10">
                             Agentforce AI is designed to proactively handle tasks, functioning independently by gathering data, formulating action plans, and executing tasks without the need for human intervention. This empowers businesses by streamlining operations through AI-driven interactions. By integrating Salesforce’s CRM capabilities with specialized agent tools, Agentforce in Salesforce provides agents with real-time customer data, powerful collaboration features, and AI-powered insights.
                         </p>
 
@@ -649,7 +649,7 @@ export default function page() {
             <section className="custom-container 4xl:mt-20 xl:mt-10 mt-10 4xl:pr-[398px]">
                 <div className="grid xl:grid-cols-12">
                     <div className="4xl:col-span-8 2xl:col-span-7 xl:col-span-7">
-                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] leading-tight mt-5 md:text-[28px] text-[26px] xl:pr-20 4xl:pr-0 2xl:pr-0 pr-8">Build a Healthier Network with Agentforce</h2>
+                        <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight mt-5 xl:pr-20 4xl:pr-0 2xl:pr-0 pr-8">Build a Healthier Network with Agentforce</h2>
                     </div>
                 </div>
                 <HealthcareStats />

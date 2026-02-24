@@ -534,7 +534,11 @@ export default function Page() {
                                             data.list &&
                                             <UnorderedList arrName={data.list} ulClassName="mt-5 space-y-1 pl-[26px] lg:pl-[46px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium list-disc" />
                                         }
-                                        <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">{data.desc2 && data.desc2}</p>
+                                        <p
+                                            key={ind}
+                                            className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]"
+                                            dangerouslySetInnerHTML={{ __html: data.desc2 && data.desc2 }}
+                                        />
                                     </div>
                                 ))
                             }

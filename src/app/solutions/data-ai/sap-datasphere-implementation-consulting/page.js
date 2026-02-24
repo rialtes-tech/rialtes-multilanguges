@@ -127,7 +127,7 @@ const WhyRialtesSection = () => {
             <div className="w-full xl:absolute xl:top-0 xl:left-0 xl:bg-transparent bg-[#80857E] xl:pt-[150px] 2xl:pt-[154px] pt-[37px] xl:pb-[41px] z-[1]">
                 <div className="custom-container mx-auto grid xl:grid-cols-12 xl:gap-[20px] gap-[39px]">
                     <div className="xl:col-span-7">
-                        <h2 className="text-[#FFFFFF] 4xl:text-[60px] xl:text-[40px] text-[26px] font-Light leading-tight">
+                        <h2 className="text-[#FFFFFF] 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] font-Light leading-tight">
                             Why Rialtes?
                         </h2>
                         <h3 className="text-[#FFFFFF] 4xl:text-[42px] xl:text-[36px] text-[22px] font-semibold leading-tight xl:w-[100%] w-[90%] xl:mt-[38px] mt-[17px]">
@@ -153,7 +153,7 @@ const WhyRialtesSection = () => {
                         </div>
                         <div className="mt-[6px] md:mt-[40px] md:mb-[40px] xl:mt-[61px] xl:mb-[61px]">
                             <Link href="/contact-us">
-                                <button className="xl:bg-[#006FBE] bg-[#006FBE] xl:text-[20px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4">
+                                <button className="xl:bg-[#006FBE] bg-[#006FBE] 4xl:text-[20px] md:text-[18px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] font-semibold text-white py-3 px-8 transition duration-300 order-4">
                                     Learn More
                                 </button>
                             </Link>
@@ -198,7 +198,7 @@ const BuildIntelligentSection = () => {
             </section>
             <div className="custom-container max-md:px-0">
                 <div className="xl:pl-[94px] px-[35px] xl:mt-[-100px] mt-[-30px] xl:pt-[78px] pt-[38px] xl:pb-[0px] pb-[0px] bg-[#073259] relative">
-                    <h2 className="text-[#FFFFFF] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light xl:w-[70%]">
+                    <h2 className="text-[#FFFFFF] 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight font-light xl:w-[70%]">
                         Build an Intelligent Data Lake with SAP Datasphere
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:gap-[71px] gap-[20px] xl:mt-[53px] mt-[24px]">
@@ -210,14 +210,14 @@ const BuildIntelligentSection = () => {
                             <h3 className="text-[#FFFFFF] font-semibold 4xl:text-[36px] xl:text-[30px] text-[18px] leading-[22px] xl:leading-[44px] mt-[24px] xl:mt-[37px]">
                                 Unlock End-to-End Visibility and Actionable AI Insights
                             </h3>
-                            <p className="text-[#FFFFFF] font-light 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight mt-[24px] xl:mt-[37px] xl:w-[80%] w-[90%]">
+                            <p className="text-[#FFFFFF] font-light 4xl:text-[20px] md:text-[18px] text-[16px] leading-tight mt-[24px] xl:mt-[37px] xl:w-[80%] w-[90%]">
                                 Data consolidation shouldn’t be a bottleneck — it should be a growth catalyst. Rialtes uses SAP Datasphere to unify all your critical enterprise data into a powerful data lake, eliminating silos and enabling AI/ML insights at scale.
                             </p>
                         </div>
                         {/* Right Column */}
                         <div className="flex flex-col">
                             <p className="text-[#FFFFFF] font-semibold xl:text-[22px] text-[20px] leading-[24px] xl:leading-[27px] md:mt-0 mt-[26px]">Key Benefits:</p>
-                            <UnorderedList arrName={buildIntelligentData} ulClassName="list-disc pl-[22px] xl:w-[86%] w-[90%] xl:mt-[29px] mt-[26px]" liClassName="text-[#FFFFFF] mt-[19px] first:mt-0 xl:mt-[24px] 4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight font-light" />
+                            <UnorderedList arrName={buildIntelligentData} ulClassName="list-disc pl-[22px] xl:w-[86%] w-[90%] xl:mt-[29px] mt-[26px]" liClassName="text-[#FFFFFF] mt-[19px] first:mt-0 xl:mt-[24px] 4xl:text-[20px] md:text-[18px] text-[16px] xl:leading-tight font-light" />
                             <div className="2xl:mt-[104px] xl:mt-[144px] mt-[44px] xl:ml-1 ">
                                 <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                             </div>
@@ -254,7 +254,7 @@ const IndustryAcceleratorsSection = () => {
                     </div>
                 </div>
                 <div className="text-[#000000] xl:pl-[60px] mx-[35px] xl:pt-0 pt-[40px]">
-                    <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light">
+                    <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight font-light">
                         Industry-Accelerators
                     </h2>
                     <h3 className="font-semibold 4xl:text-[42px] xl:text-[38px] text-[22px] leading-tight mt-[29px] xl:mt-[29px]">
@@ -263,13 +263,13 @@ const IndustryAcceleratorsSection = () => {
                     <h3 className="font-semibold 4xl:text-[36px] xl:text-[30px] text-[18px] leading-tight mt-[22px] xl:mt-[29px] xl:w-[90%]">
                         Pre-Built Connectors & AI Models to Accelerate Your Transformation
                     </h3>
-                    <p className="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight mt-[22px] xl:mt-[45px] xl:w-[86%] font-light">
+                    <p className="4xl:text-[20px] md:text-[18px] text-[16px] leading-tight mt-[22px] xl:mt-[45px] xl:w-[86%] font-light">
                         Rialtes’ pre-delivered accelerators make AI data consolidation seamless and impactful. Designed specifically for Manufacturing, Semiconductor, Automotive, Retail, Education, and HR industries, these plug-and-play solutions help you gain immediate business value.
                     </p>
                     <h4 className="font-semibold 4xl:text-[22px] xl:text-[20px] text-[18px] leading-tight mt-[29px] xl:mt-[54px]">
                         Industry-Focused Capabilities:
                     </h4>
-                    <UnorderedList ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[28px] mt-[22px] 4xl:space-y-[24px] space-y-[19px]" arrName={industryAcceleratorsData} liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight font-light" />
+                    <UnorderedList ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[28px] mt-[22px] 4xl:space-y-[24px] space-y-[19px]" arrName={industryAcceleratorsData} liClassName="4xl:text-[20px] md:text-[18px] text-[16px] leading-tight font-light" />
                 </div>
             </div>
         </section>
@@ -305,13 +305,13 @@ const IntelligentAutomativeSection = () => {
             </div>
             <div className="absolute inset-0 flex items-start justify-start md:mt-[64px] mt-[254px]">
                 <div className="md:w-[86%] custom-container">
-                    <h2 className="text-[#FFFFFF] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light 4xl:w-[90%] xl:w-[80%] lg:w-[80%]">
+                    <h2 className="text-[#FFFFFF] 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight font-light 4xl:w-[90%] xl:w-[80%] lg:w-[80%]">
                         Intelligent Automotive Data Lakes — Transform Vehicle Data into AI-Driven Value
                     </h2>
                     <h3 className="text-[#FFFFFF] 4xl:text-[42px] xl:text-[38px] text-[22px] leading-tight font-semibold xl:mt-[45px] mt-[24px] xl:w-[80%] w-[90%]">
                         Drive the Future of Automotive with AI-Integrated Insights
                     </h3>
-                    <UnorderedList arrName={intelligentData} ulClassName="list-disc pl-[22px] lg:w-[70%] w-[90%] mt-[24px] xl:mt-[39px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[#FFFFFF] 4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight" />
+                    <UnorderedList arrName={intelligentData} ulClassName="list-disc pl-[22px] lg:w-[70%] w-[90%] mt-[24px] xl:mt-[39px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[#FFFFFF] 4xl:text-[20px] md:text-[18px] text-[16px] xl:leading-tight" />
                     <div className="xl:mt-[20px] mt-[54px]">
                         <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
                     </div>
@@ -354,7 +354,7 @@ const AIReadyManufacturingSection = () => {
                     />
                 </div>
                 <div className="order-2 md:order-1 text-[#FFFFFF] custom-container lg:!pr-0 xl:pt-[88px] pt-[46px] pb-[120px] bg-[#64676C]">
-                    <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light xl:w-full w-[80%]">
+                    <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight font-light xl:w-full w-[80%]">
                         AI-Ready Manufacturing & Semiconductor Data Lake
                     </h2>
                     <h3 className="font-semibold 4xl:text-[42px] xl:text-[36px] text-[22px] leading-tight mt-[19px] 4xl:mt-[45px] xl:mt-[40px] xl:w-full w-[80%]">
@@ -363,7 +363,7 @@ const AIReadyManufacturingSection = () => {
                     <h3 className="font-semibold 4xl:text-[36px] xl:text-[30px] text-[18px] leading-[22px] xl:leading-[44px] mt-[19px] 4xl:mt-[45px] xl:mt-[40px] xl:w-[80%]">
                         Optimize Production, Supply Chain, and Maintenance
                     </h3>
-                    <UnorderedList arrName={aiReadyData} ulClassName="list-disc pl-[22px] w-[80%] xl:mt-[39px] mt-[29px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-[24px] leading-[22px] font-light" />
+                    <UnorderedList arrName={aiReadyData} ulClassName="list-disc pl-[22px] w-[80%] xl:mt-[39px] mt-[29px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] md:text-[18px] text-[16px] xl:leading-[24px] leading-[22px] font-light" />
                 </div>
             </div>
             <div className="custom-container">
@@ -415,13 +415,13 @@ const OmnichannelSmartEducationSection = () => {
                         </div>
                     </div>
                     <div className="relative text-[#000000] bg-[#E0E0E0] xl:pt-[300px] 2xl:pt-[360px] pt-[305px] xl:pb-[145px] pb-[100px] px-[35px] xl:px-[70px] overflow-visible">
-                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light xl:w-[70%]">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight font-light xl:w-[70%]">
                             Omnichannel Retail Data Intelligence
                         </h2>
                         <h3 className="font-semibold 4xl:text-[42px] xl:text-[36px] text-[26px] leading-tight mt-[27px] xl:mt-[39px] xl:w-[90%] 2xl:w-[80%]">
                             Personalize, Optimize, and Win Customers
                         </h3>
-                        <UnorderedList arrName={omniSectionData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[47px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight font-light" />
+                        <UnorderedList arrName={omniSectionData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[47px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] md:text-[18px] text-[16px] xl:leading-tight font-light" />
                     </div>
                     <div className="bg-[#163055] mx-[35px] xl:mx-[70px] xl:mt-[-90px] mt-[-60px] relative z-20">
                         <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[22px] text-[20px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
@@ -452,7 +452,7 @@ const OmnichannelSmartEducationSection = () => {
                         </div>
                     </div>
                     <div className="relative text-[#000000] bg-[#7AB5BF] xl:pt-[300px] 2xl:pt-[360px] pt-[305px] xl:pb-[145px] pb-[100px] px-[35px] xl:pl-[70px] xl:pr-[40px] overflow-visible">
-                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light xl:w-[90%]">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight font-light xl:w-[90%]">
                             Smart Education Data Platforms
                         </h2>
                         <h3 className="font-semibold  4xl:text-[42px] xl:text-[36px] text-[26px] leading-tight mt-[27px] xl:mt-[36px] xl:w-[90%] 2xl:w-[80%]">
@@ -461,7 +461,7 @@ const OmnichannelSmartEducationSection = () => {
                         <h4 className="font-semibold xl:text-[36px] text-[20px] leading-tight mt-[23px] xl:mt-[36px] xl:w-[90%] 2xl:w-[80%]">
                             From Enrollment to Alumni — AI-Powered Student Journeys
                         </h4>
-                        <UnorderedList arrName={educationSectionData} ulClassName="list-disc pl-[22px] 2xl:w-[80%] xl:w-[90%] w-[90%] xl:mt-[49px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] xl:leading-tight font-light" />
+                        <UnorderedList arrName={educationSectionData} ulClassName="list-disc pl-[22px] 2xl:w-[80%] xl:w-[90%] w-[90%] xl:mt-[49px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] md:text-[18px] text-[16px] xl:leading-tight font-light" />
                     </div>
                     <div className="bg-[#163055] mx-[35px] xl:mx-[70px] xl:mt-[-90px] mt-[-60px] relative z-20">
                         <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[22px]  text-[20px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
@@ -506,7 +506,7 @@ const AiPoweredHRAnalyticsSection = () => {
                 </div>
                 <div>
                     <div className="relative text-[#FFFFFF] xl:pl-[72px] xl:ml-[-20%] xl:mt-[100px] mx-[0px] px-[35px] xl:pt-[76px] pt-[42px] bg-[#006FBE] xl:pb-[76px] pb-[142px] overflow-visible">
-                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light xl:w-[80%]">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight font-light xl:w-[80%]">
                             AI-Powered HR Analytics Hub
                         </h2>
                         <h3 className="font-semibold 4xl:text-[42px] xl:text-[36px] text-[26px] leading-tight mt-[27px] xl:mt-[36px] xl:w-[80%]">
@@ -515,7 +515,7 @@ const AiPoweredHRAnalyticsSection = () => {
                         <h4 className="font-semibold xl:text-[28px] 4xl:text-[36px] text-[20px] leading-tight mt-[23px] xl:mt-[36px] xl:w-full">
                             Smarter People Decisions with AI
                         </h4>
-                        <UnorderedList arrName={aiPoweredData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight font-light" />
+                        <UnorderedList arrName={aiPoweredData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[25px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] md:text-[18px] text-[16px] leading-tight font-light" />
                         <div className="bg-[#163055] w-[80%] absolute bottom-[-50px] xl:left-[0px] xl:w-[100%] xl:right-[-72px] xl:bottom-auto xl:top-full xl:mt-[0px] xl:transform-none">
                             <p className="text-[#FFFFFF] 4xl:text-[26px] xl:text-[22px] text-[20px] leading-tight xl:py-[37px] py-[27px] xl:px-[43px] px-[24px] font-light">
                                 Take HR to the next level with AI-powered talent management and compliance.
@@ -536,7 +536,7 @@ const SapAribaSection = () => {
     return (
         <>
             <section className="custom-container max-md:px-0 md:!pr-0 xl:mt-[240px] mt-[94px]">
-                <h2 className="text-[#000000] 4xl:text-[60px] xl:text-[40px] text-[26px] font-light px-[36px] md:px-0 leading-tight">
+                <h2 className="text-[#000000] 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] font-light px-[36px] md:px-0 leading-tight">
                     End-to-End Integration — <div className="sm:block hidden" /> Real-Time Data Unification
                 </h2>
                 <div>
@@ -563,7 +563,7 @@ const SapAribaSection = () => {
                 <div className=" xl:pl-[57px] px-[35px] xl:mt-[-16%] mt-[-30px] xl:pt-[70px] pt-[42px] xl:pb-[68px] pb-[49px] bg-[#3280A3] relative">
                     <div className="grid grid-cols-1 md:grid-cols-2 xl:gap-[20px] gap-[20px] xl:mt-[0px] mt-[24px]">
                         <div>
-                            <h2 className="text-[#FFFFFF] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light 2xl:w-[80%]">
+                            <h2 className="text-[#FFFFFF] 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight font-light 2xl:w-[80%]">
                                 SAP Ariba + SAP Datasphere
                             </h2>
                             <h3 className="text-[#FFFFFF] font-semibold 4xl:text-[42px] xl:text-[38px] text-[20px] leading-tight mt-[27px] xl:mt-[31px] xl:w-[90%] w-[80%]">
@@ -571,7 +571,7 @@ const SapAribaSection = () => {
                             </h3>
                         </div>
                         <div className="flex flex-col">
-                            <UnorderedList arrName={sapAribaData} ulClassName="list-disc pl-[22px] 2xl:w-[86%] w-[90%] md:mt-[0] mt-[21px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[#FFFFFF] xl:text-[24px] text-[16px] leading-tight font-normal" />
+                            <UnorderedList arrName={sapAribaData} ulClassName="list-disc pl-[22px] 2xl:w-[86%] w-[90%] md:mt-[0] mt-[21px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[#FFFFFF] 4xl:text-[20px] md:text-[18px] text-[16px] leading-tight font-normal" />
                             <div className="xl:mt-[49px] mt-[34px] xl:ml-1 ">
                                 <LearnMore />
                             </div>
@@ -612,13 +612,13 @@ const SapHanaSection = () => {
                         />
                     </div>
                     <div className="text-[#FFFFFF] xl:pl-[36px] mx-[35px] xl:pt-[57px] pt-[42px]">
-                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight font-light">
                             SAP S/4HANA + SAP Datasphere
                         </h2>
                         <h3 className="font-semibold 4xl:text-[42px] xl:text-[38px] text-[20px] leading-tight mt-[27px] xl:mt-[37px] xl:w-full">
                             Enterprise Data Mastery
                         </h3>
-                        <UnorderedList arrName={sapHanaData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[16px] xl:leading-tight font-light" />
+                        <UnorderedList arrName={sapHanaData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] md:text-[18px] text-[16px] xl:leading-tight font-light" />
                         <div className="xl:my-[62px] mt-[34px] mb-[49px]">
                             <LearnMore />
                         </div>
@@ -658,13 +658,13 @@ const SapSucessFactorSection = () => {
                         />
                     </div>
                     <div className="order-2 md:order-1 text-[#FFFFFF] xl:pl-[36px] mx-[35px] xl:pt-[57px] pt-[42px]">
-                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light">
+                        <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight font-light">
                             SAP SuccessFactors + SAP Datasphere
                         </h2>
                         <h3 className="font-semibold 4xl:text-[42px] xl:text-[38px] text-[20px] leading-tight mt-[27px] xl:mt-[37px] xl:w-full">
                             HR Data Reimagined
                         </h3>
-                        <UnorderedList arrName={sapSuccessData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[16px] leading-tight font-light" />
+                        <UnorderedList arrName={sapSuccessData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] md:text-[18px] text-[16px] leading-tight font-light" />
                         <div className="xl:my-[62px] mt-[34px] mb-[49px]">
                             <LearnMore />
                         </div>
@@ -710,7 +710,7 @@ const SalesforceSap = () => {
                         <h3 className="font-semibold 4xl:text-[42px] xl:text-[38px]  text-[20px] leading-tight mt-[27px] xl:mt-[37px] xl:w-full">
                             AI-Enhanced Customer 360
                         </h3>
-                        <UnorderedList arrName={salesforcesapData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[20px] text-[16px] xl:leading-tight font-light" />
+                        <UnorderedList arrName={salesforcesapData} ulClassName="list-disc pl-[22px] w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] md:text-[18px] text-[16px] xl:leading-tight font-light" />
                         <div className="xl:my-[62px] mt-[34px] mb-[49px]">
                             <LearnMore />
                         </div>
@@ -751,7 +751,7 @@ const AdvancedDataSection = () => {
                             />
                         </div>
                         <div className="order-2 md:order-1 text-[#FFFFFF] xl:pl-[36px] mx-[35px] xl:pt-[57px] pt-[42px]">
-                            <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight font-light">
+                            <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight font-light">
                                 Advanced Data Visualization
                             </h2>
                             <h3 className="font-semibold 4xl:text-[42px] xl:text-[38px] text-[20px] leading-tight mt-[19px] xl:mt-[37px] xl:w-[86%]">
@@ -760,7 +760,7 @@ const AdvancedDataSection = () => {
                             <h3 className="font-semibold 4xl:text-[36px] xl:text-[24px] text-[18px] leading-[22px] xl:leading-[44px] mt-[19px] xl:mt-[27px] xl:w-full">
                                 From Raw Data to Actionable Intelligence
                             </h3>
-                            <UnorderedList arrName={advancedData} ulClassName="list-disc pl-[22px] w-[80%] xl:w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="xl:text-[24px] text-[16px] xl:leading-tight font-light" />
+                            <UnorderedList arrName={advancedData} ulClassName="list-disc pl-[22px] w-[80%] xl:w-[90%] xl:mt-[49px] mt-[45px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] md:text-[18px] text-[16px] xl:leading-tight font-light" />
                             <div className="xl:my-[62px] mt-[34px] mb-[49px]">
                                 <LearnMore />
                             </div>
@@ -810,7 +810,7 @@ const AIPoweredUseSection = () => {
                             <h3 className="text-[20px] 4xl:text-[36px] xl:text-[24px] font-semibold mt-[19px] leading-tight w-[90%]">
                                 Accelerating Innovation
                             </h3>
-                            <UnorderedList arrName={aiPoweredData} ulClassName="list-disc pl-[22px] mt-[22px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-[19px]" />
+                            <UnorderedList arrName={aiPoweredData} ulClassName="list-disc pl-[22px] mt-[22px] 4xl:space-y-[24px] space-y-[19px]" liClassName="4xl:text-[20px] md:text-[18px] text-[16px] leading-[19px]" />
                             <div className="mt-[44px] absolute">
                                 <Link href="/contact-us">
                                     <button className="bg-[#006FBE] text-[16px] hover:bg-white hover:text-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
@@ -841,7 +841,7 @@ const AIPoweredUseSection = () => {
                             }}
                         />
                         <div className="relative z-10 xl:pt-[70px] pt-[57px] xl:pb-[80px] pb-[0px] px-[26px] md:px-[67px] text-white">
-                            <h2 className=" 4xl:text-[60px] xl:text-[40px] leading-tight font-light w-[70%]">
+                            <h2 className=" 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight font-light w-[70%]">
                                 AI-Powered Use Cases
                             </h2>
                             <h3 className=" 4xl:text-[42px] xl:text-[38px] text-[22px] font-semibold xl:mt-[38px] mt-[18px] leading-tight">
@@ -851,7 +851,7 @@ const AIPoweredUseSection = () => {
 
                             <div className="mt-[40px] absolute">
                                 <Link href="/contact-us">
-                                    <button className="bg-[#006FBE] xl:text-[20px] text-[16px] hover:bg-white hover:text-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
+                                    <button className="bg-[#006FBE] 4xl:text-[20px] md:text-[18px] text-[16px] hover:bg-white hover:text-[#134874] font-semibold text-white py-3 px-8 transition duration-300">
                                         Learn More
                                     </button>
                                 </Link>
@@ -903,7 +903,7 @@ const GlobalPresenceSection = () => {
                     className="px-[40px] lg:pl-[60px] lg:pr-[40px] xl:pl-[60px] 2xl:pl-[90px] xl:pr-[40px] py-[40px] lg:py-[44px] xl:py-[44px] 2xl:py-[74px] absolute lg:top-1/2 lg:left-[-80px] xl:left-[-120px] lg:transform lg:-translate-y-1/2 z-20 lg:w-[750px] xl:w-[800px] 2xl:w-[900px] 3xl:w-[960px] flex justify-center sm:mx-[52px] w-auto md:w-auto max-lg:mt-[-250px] max-md:mx-auto"
                     style={{ background: "rgba(7, 50, 89, 0.92)", }}>
                     <div className="z-30">
-                        <h2 className="text-[#FFFFFF] xl:text-[40px] 4xl:text-[60px] text-[26px] font-light leading-tight">
+                        <h2 className="text-[#FFFFFF] xl:text-[40px] 4xl:text-[60px] md:text-[32px] text-[26px] font-light leading-tight">
                             Global Presence, Certified Expertise, Agile Excellence
                         </h2>
                         <div className="grid md:grid-cols-2 md:gap-[40px] lg:gap-[10px] 2xl:gap-[40px]">
@@ -946,25 +946,22 @@ export default function () {
             {/* Breadcrumb Schema */}
             <BreadcrumbSchema currPage="SAP Datasphere" subPath="Data & AI" />
             {/* hero section */}
-            <section className="relative group overflow-hidden   h-[350px] md:h-[500px]  4xl:h-[650px]     ">
+            <section className="relative group overflow-hidden h-[399px] lg:h-[600px] 4xl:h-[650px] ">
                 <div className="hidden md:block">
                     <Image
                         src="/images/solutions/data-sphere/data-sphere-banner.webp"
                         alt="desktop banner"
-                        width={1200}
-                        height={630}
+                        fill
                         style={{ objectFit: "cover", objectPosition: "55% 20%" }}
                         priority
-                        className="transform transition-transform duration-500 group-hover:scale-110 w-full" />
-
+                        className="transform transition-transform duration-500 group-hover:scale-110" />
                 </div>
                 {/* Mobile Image */}
                 <div className="block md:hidden">
                     <Image
                         src="/images/solutions/data-sphere/Mobile/data-sphere-mob-banner.webp"
                         alt="mobile banner"
-                        width={1200}
-                        height={630}
+                        fill
                         style={{ objectFit: "cover", objectPosition: "35% 20%" }}
                         priority />
                 </div>
@@ -989,11 +986,11 @@ export default function () {
                 <BreadCrumbs currPage="SAP Datasphere" subPath="Data & AI" />
                 <div className="grid xl:grid-cols-12 2xl:gap-[60px] xl:gap-[46px] gap-y-[39px] xl:mt-[104px] mt-[53px] xl:mb-[0px] mb-[52px]">
                     <div className="4xl:col-span-7 xl:col-span-6 col-span-12">
-                        <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] font-Light leading-tight xl:w-[100%] lg:w-[80%]">Future-Proof Your Business with Intelligent Data Consolidation, AI Insights, and Seamless Integration</h2>
+                        <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] font-Light leading-tight xl:w-[100%] lg:w-[80%]">Future-Proof Your Business with Intelligent Data Consolidation, AI Insights, and Seamless Integration</h2>
                     </div>
                     <div className="4xl:col-span-5 xl:col-span-6 col-span-12">
-                        <p className="4xl:text-[22px] xl:text-[18px] text-[16px] font-normal leading-tight xl:w-full lg:w-[90%] w-[96%]">In today’s competitive landscape, data is the new currency. Yet, most organizations struggle with fragmented data spread across multiple systems like SAP, Salesforce, Oracle, and more. Rialtes, as a certified SAP partner, offers cutting-edge SAP Datasphere services to consolidate and harmonize your enterprise data, unlocking real-time AI-powered insights that drive value and innovation.</p>
-                        <p className="4xl:text-[22px] xl:text-[18px] text-[16px] font-normal leading-tight xl:w-full lg:w-[90%] w-[96%] xl:mt-[30px] mt-[19px]">With deep expertise in SAP Datasphere and AI-led data architecture, we turn your data sprawl into a powerful, unified asset — creating a future-ready, intelligent enterprise.</p>
+                        <p className="4xl:text-[22px] md:text-[18px] text-[16px] font-normal leading-tight xl:w-full lg:w-[90%] w-[96%]">In today’s competitive landscape, data is the new currency. Yet, most organizations struggle with fragmented data spread across multiple systems like SAP, Salesforce, Oracle, and more. Rialtes, as a certified SAP partner, offers cutting-edge SAP Datasphere services to consolidate and harmonize your enterprise data, unlocking real-time AI-powered insights that drive value and innovation.</p>
+                        <p className="4xl:text-[22px] md:text-[18px] text-[16px] font-normal leading-tight xl:w-full lg:w-[90%] w-[96%] xl:mt-[30px] mt-[19px]">With deep expertise in SAP Datasphere and AI-led data architecture, we turn your data sprawl into a powerful, unified asset — creating a future-ready, intelligent enterprise.</p>
                     </div>
                 </div>
             </section>
@@ -1027,7 +1024,7 @@ export default function () {
             <GlobalPresenceSection />
             {/* Contact Form */}
             <div className="custom-container text-[#000000] pb-10  max-[460px]:mt-[540px] mt-[400px] sm:mt-[460px] md:mt-[400px] lg:mt-[80px] xl:mt-[90px]">
-                <ContactForm title={'Ready to Transform Your Data Landscape?'} subtitle={"Rialtes is here to guide you on every step of your AI and data consolidation journey — from strategy to execution to AI insights that create real business value. "} subtitle1={"Contact us today for a personalized consultation and see how SAP Datasphere can redefine your enterprise!"} className={"xl:w-[70%] 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight mt-[52px] xl:mt-[89px]"} />
+                <ContactForm title={'Ready to Transform Your Data Landscape?'} subtitle={"Rialtes is here to guide you on every step of your AI and data consolidation journey — from strategy to execution to AI insights that create real business value. "} subtitle1={"Contact us today for a personalized consultation and see how SAP Datasphere can redefine your enterprise!"} className={"xl:w-[70%] 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight mt-[52px] xl:mt-[89px]"} />
             </div >
         </>
     )

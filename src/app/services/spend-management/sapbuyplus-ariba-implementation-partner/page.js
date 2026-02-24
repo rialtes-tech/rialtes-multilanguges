@@ -111,18 +111,18 @@ const WhyChooseRialtes = () => {
         bg-[url('/images/sap-buy/Mobile/why-choose-rialtes-mob-img.webp')] bg-cover bg-no-repeat lg:bg-[50%_20%] max-sm:bg-[20%_10%]">
             <div className="custom-container px-[2rem] md:px-auto mt-[110%] md:mt-[110%] max-[450px]:mt-[150%] max-[390px]:mt-[170%] max-[355px]:mt-[210%]  lg:mt-0">
                 <div className="max-lg:pt-[37px]">
-                    <h2 className="text-[26px] font-light 4xl:text-[60px] xl:text-[40px] leading-tight lg:w-[60%] xl:w-[50%] w-[86%]">
+                    <h2 className="text-[26px] font-light 4xl:text-[60px] xl:text-[40px] md:text-[32px] leading-tight lg:w-[60%] xl:w-[50%] w-[86%]">
                         Why Choose Rialtes for SAP ARIBA Implementation?
                     </h2>
                     <h3 className="mt-[21px] text-[22px]  font-semibold lg:mt-[35px] 4xl:text-[42px] xl:text-[38px] leading-tight lg:w-[50%] xl:w-[60%] 2xl:W-[50%]">SAPBuy+ — A Comprehensive Procurement Transformation Approach</h3>
-                    <p className="mt-[12px] text-[17px] font-medium lg:mt-[42px] 4xl:text-[22px] xl:text-[20px] leading-tight lg:w-[50%]">Our SAPBuy+ service suite integrates strategy, execution, and support, ensuring a seamless SAP ARIBA adoption for enterprises.</p>
+                    <p className="mt-[12px] text-[16px] font-medium lg:mt-[42px] 4xl:text-[20px] md:text-[18px] leading-tight lg:w-[50%]">Our SAPBuy+ service suite integrates strategy, execution, and support, ensuring a seamless SAP ARIBA adoption for enterprises.</p>
                     <div className="grid grid-cols-1 xl:grid-cols-3 md:grid-cols-2 lg:gap-[30px] gap-[26px] lg:mt-[26px] mt-[45px]">
                         {
                             whyChooseData.map((data, ind) => {
                                 return (
                                     <div key={ind} className="bg-[#FFFFFF] pt-[33px] px-[29px] pb-[43px] xl:pt-[42px] xl:pl-[32px] xl:pb-[56px] 4xl:pt-[52px] 4xl:pl-[42px] 4xl:pb-[66px]">
                                         <p className="text-[#0A6BB8] text-[20px] leading-tight font-semibold 4xl:text-[30px]  xl:text-[24px]">{data.title}</p>
-                                        <p className="text-[#000000] mt-[26px] text-[16pt] leading-tight font-light lg:mt-[32px] 4xl:text-[24px] xl:text-[20px] lg:w-[80%]">{data.desc}</p>
+                                        <p className="text-[#000000] mt-[26px] leading-tight font-light lg:mt-[32px] text-[16px] 4xl:text-[20px] md:text-[18px] lg:w-[80%]">{data.desc}</p>
                                     </div>
                                 )
                             })
@@ -185,12 +185,12 @@ const UnlockProcurementSection = () => {
                 <div className=" bg-[#006FBE]/90 text-[#FFFFFF] xl:z-50 lg:mx-[80px] xl:py-[64px] xl:px-[60px] md:py-[48px] md:px-[2rem] pt-[40px] pb-[59px] px-[2rem]">
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-[10px]">
                         <div className="lg:col-span-8 col-span-12">
-                            <h2 className="text-[26px] font-light 4xl:text-[60px] xl:text-[40px] leading-tight sm:w-full w-[90%] lg:w-[80%] xl:w-[90%] 2xl:w-[80%] 4xl:w-full">
+                            <h2 className="text-[26px] font-light 4xl:text-[60px] xl:text-[40px] md:text-[32px] leading-tight sm:w-full w-[90%] lg:w-[80%] xl:w-[90%] 2xl:w-[80%] 4xl:w-full">
                                 Unlock Procurement Efficiency with SAP ARIBA Implementation & Migration Services
                             </h2>
                         </div>
                         <div className="lg:col-span-4 col-span-12">
-                            <p className="text-[16px] font-light 4xl:text-[20px] xl:text-[18px] leading-tight lg:mt-[12px] mt-[24px] sm:w-full">
+                            <p className="text-[16px] font-light 4xl:text-[20px] md:text-[18px] leading-tight lg:mt-[12px] mt-[24px] sm:w-full">
                                 Organizations looking to modernize their procurement systems or migrate from legacy solutions can seamlessly transition to SAP ARIBA with Rialtes’ expert guidance.
                             </p>
                         </div>
@@ -203,8 +203,8 @@ const UnlockProcurementSection = () => {
                             <div>
                                 <ul className="list-disc pl-6 lg:mt-[25px] mt-[29px] sm:w-full w-[90%]  4xl:space-y-[24px] space-y-[19px]">
                                     {benefitsData.map((item, index) => (
-                                        <li key={index} className="text-[16px] font-light 4xl:text-[24px] 2xl:text-[24px] xl:text-[18px] leading-tight lg:mt-[25px]">
-                                            <span className="font-bold">{item.title}</span> {item.desc}
+                                        <li key={index} className="text-[16px] font-light 4xl:text-[24px] 2xl:text-[24px] md:text-[18px] leading-tight lg:mt-[25px]">
+                                            <span className="font-bold">{item.title}</span> <span className="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight">{item.desc}</span>
                                         </li>
                                     ))}
                                 </ul>
@@ -214,13 +214,13 @@ const UnlockProcurementSection = () => {
                             <h4 className="text-[20px] font-semibold 4xl:text-[36px] xl:text-[30px] leading-tight lg:w-[80%]">
                                 SAP ARIBA Migration Services
                             </h4>
-                            <p className="text-[16px] mt-[26px] font-light 4xl:text-[20px] xl:text-[18px] leading-tight lg:mt-[25px]">
+                            <p className="mt-[26px] font-light text-[16px]  4xl:text-[20px] md:text-[18px] leading-tight lg:mt-[25px]">
                                 For businesses already using SAP SRM, SAP ECC, or other legacy procurement systems, Rialtes offers end-to-end migration services, including:
                             </p>
                             <div>
                                 <ul className="list-disc pl-6 lg:mt-[25px] mt-[29px] sm:w-full w-[90%] 4xl:space-y-[24px] space-y-[19px]">
                                     {migrationData.map((item, index) => (
-                                        <li key={index} className="text-[16px] font-light 4xl:text-[24px] 2xl:text-[24px] xl:text-[18px] leading-tight lg:mt-[25px]">
+                                        <li key={index} className="text-[16px] font-light 4xl:text-[24px] 2xl:text-[24px] md:text-[18px] leading-tight lg:mt-[25px]">
                                             <span className="font-bold">{item.title}</span> {item.desc}
                                         </li>
                                     ))}
@@ -246,7 +246,7 @@ const SapAribaModulesSection = () => {
     ]
     return (
         <section className="custom-container max-md:px-0 lg:mt[95px] mt-[63px]">
-            <h2 className="text-[26px] leading-tight font-light 4xl:text-[60px] xl:text-[40px] w-[80%] md:block hidden">SAP ARIBA Modules & Rialtes Implementation Expertise</h2>
+            <h2 className="text-[26px] leading-tight font-light 4xl:text-[60px] xl:text-[40px] md:text-[32px] w-[80%] md:block hidden">SAP ARIBA Modules & Rialtes Implementation Expertise</h2>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center md:mt-[52px] lg:mt-[52px]">
                 <div className="order-1 lg:order-2 h-full w-full">
                     <Image
@@ -268,24 +268,24 @@ const SapAribaModulesSection = () => {
                     />
                 </div>
                 <div className="order-2 lg:order-1 md:px-[0] px-[2rem]">
-                    <h2 className="text-[26px] font-light 4xl:text-[60px] xl:text-[40px] leading-tight w-[90%] md:hidden block">SAP ARIBA Modules & Rialtes’ Implementation Expertise</h2>
+                    <h2 className="text-[26px] font-light 4xl:text-[60px] xl:text-[40px] md:text-[32px] leading-tight w-[90%] md:hidden block">SAP ARIBA Modules & Rialtes’ Implementation Expertise</h2>
                     <h4 className="text-[20px] leading-tight font-semibold 4xl:text-[36px] xl:text-[30px] mt-[26px] lg:w-[63%] xl:w-full">
                         SAP ARIBA for Direct Procurement – Integrated with SAP S/4HANA
                     </h4>
-                    <p className="text-[16px] leading-tight mt-[23px] font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[33px]">
+                    <p className="text-[16px] leading-tight mt-[23px] font-normal 4xl:text-[20px] md:text-[18px] lg:mt-[33px]">
                         Direct procurement involves raw materials, components, and production-related items. SAP ARIBA, integrated with SAP S/4HANA, ensures:
                     </p>
                     <div>
-                        <UnorderedList arrName={sapAribaDirectData} ulClassName="list-disc pl-6 lg:mt-[26px] mt-[26px] sm:w-full w-[90%]  4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[24px]" />
+                        <UnorderedList arrName={sapAribaDirectData} ulClassName="list-disc pl-6 lg:mt-[26px] mt-[26px] sm:w-full w-[90%]  4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-normal 4xl:text-[20px] md:text-[18px] lg:mt-[24px]" />
                     </div>
                     <h4 className="text-[20px] leading-tight font-semibold 4xl:text-[36px] xl:text-[30px] lg:mt-[64px] mt-[62px]">
                         SAP ARIBA for Indirect Procurement – Smarter, Policy-Driven Buying
                     </h4>
-                    <p className="text-[16px] leading-tight mt-[26px] font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[33px]">
+                    <p className="text-[16px] leading-tight mt-[26px] font-normal 4xl:text-[20px] md:text-[18px] lg:mt-[33px]">
                         Indirect procurement covers office supplies, professional services, IT resources, and facility management. With SAP ARIBA’s automated sourcing and contract management, businesses achieve:
                     </p>
                     <div>
-                        <UnorderedList arrName={sapAribaIndirectData} ulClassName="list-disc pl-6 lg:mt-[26px] mt-[29px] sm:w-full w-[90%] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[24px]" />
+                        <UnorderedList arrName={sapAribaIndirectData} ulClassName="list-disc pl-6 lg:mt-[26px] mt-[29px] sm:w-full w-[90%] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-normal 4xl:text-[20px] md:text-[18px] lg:mt-[24px]" />
                     </div>
                     <div className="lg:mt-[25px]">
                         <LearnMore />
@@ -325,16 +325,16 @@ const AribaBusinessNetworkSection = () => {
                     />
                 </div>
                 <div className="order-2 lg:order-2 md:px-[0] px-[2rem]">
-                    <h2 className="text-[26px] leading-tight font-light 4xl:text-[60px] xl:text-[40px]">
+                    <h2 className="text-[26px] leading-tight font-light 4xl:text-[60px] xl:text-[40px] md:text-[32px]">
                         SAP ARIBA Business Network
                     </h2>
                     <h4 className="text-[20px] leading-tight font-semibold 4xl:text-[42px] xl:text-[38px] lg:mt-[31px] mt-[26px] w-[70%]">
                         Global Supplier Collaboration
                     </h4>
-                    <p className="text-[16px] leading-tight mt-[23px] font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[31px]">
+                    <p className="text-[16px] leading-tight mt-[23px] font-normal 4xl:text-[20px] md:text-[18px] lg:mt-[31px]">
                         SAP ARIBA Business Network is the world’s largest digital marketplace for suppliers and buyers, facilitating:
                     </p>
-                    <UnorderedList arrName={sapAribaData} ulClassName="list-disc pl-6 lg:mt-[32px] mt-[26px] sm:w-full w-[90%] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-normal 4xl:text-[24px] xl:text-[18px] lg:mt-[24px] lg:w-[80%]" />
+                    <UnorderedList arrName={sapAribaData} ulClassName="list-disc pl-6 lg:mt-[32px] mt-[26px] sm:w-full w-[90%] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-normal 4xl:text-[24px] md:text-[18px] lg:mt-[24px] lg:w-[80%]" />
                 </div>
             </div>
         </section>
@@ -369,14 +369,14 @@ const SupplierProfileSection = () => {
                     />
                 </div>
                 <div className="order-2 xl:order-1 md:px-0 xl:col-span-5 lg:mt-[40px]">
-                    <h2 className="text-[26px] leading-tight font-light 4xl:text-[58px] xl:text-[40px]">
+                    <h2 className="text-[26px] leading-tight font-light 4xl:text-[58px] xl:text-[40px] md:text-[32px]">
                         Supplier Profile & Risk Management
                     </h2>
-                    <p className="text-[16px] leading-tight mt-[23px] font-normal 4xl:text-[20px] xl:text-[18px]  lg:mt-[33px]">
+                    <p className="text-[16px] leading-tight mt-[23px] font-normal 4xl:text-[20px] md:text-[18px]  lg:mt-[33px]">
                         A robust supplier management framework is critical for mitigating risks. Rialtes enables:
                     </p>
                     <div>
-                        <UnorderedList arrName={sapAribaDirectData} ulClassName="list-disc pl-6 lg:mt-[26px] mt-[26px] w-[90%] sm:w-[80%] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[24px]" />
+                        <UnorderedList arrName={sapAribaDirectData} ulClassName="list-disc pl-6 lg:mt-[26px] mt-[26px] w-[90%] sm:w-[80%] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-normal 4xl:text-[20px] md:text-[18px] lg:mt-[24px]" />
                     </div>
                     <div className="lg:mt-[76px]">
                         <LearnMore />
@@ -401,16 +401,16 @@ const AribaContract = () => {
                     <div className="md:hidden w-full h-[500px] bg-[url('/images/sap-buy/Mobile/ariba-contract-mob-img.webp')] bg-no-repeat bg-cover bg-center" />
                     <div className="hidden md:block" />
                     <div className="bg-[#363636] mx-[36px] md:mx-0 text-[#FFFFFF] lg:pt-[107px] lg:pb-[94px] lg:pl-[73px] lg:pr-[53px] pt-[46px] pb-[79px] px-[26px] mt-[-54%] md:mt-0 lg:ml-[32px]">
-                        <h2 className="text-[26px] leading-tight font-light 4xl:text-[60px] xl:text-[40px]">
+                        <h2 className="text-[26px] leading-tight font-light 4xl:text-[60px] xl:text-[40px] md:text-[32px]">
                             ARIBA Contract Management
                         </h2>
                         <h3 className="mt-[18px] text-[20px] leading-tight font-semibold lg:mt-[36px] 4xl:text-[30px] xl:text-[24px]">
                             Centralized & Compliant
                         </h3>
-                        <p className="mt-[15px] text-[16px] leading-tight font-light lg:mt-[39px] 4xl:text-[24px] xl:text-[24px]">
+                        <p className="mt-[15px] leading-tight font-light lg:mt-[39px] text-[16px] 4xl:text-[20px] md:text-[18px]">
                             SAP ARIBA simplifies contract lifecycle management with:
                         </p>
-                        <UnorderedList arrName={contractData} ulClassName="list-disc pl-6 lg:mt-[39px] mt-[24px] w-[90%] sm:w-[80%] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-normal 4xl:text-[20px] xl:text-[18px] lg:mt-[24px]" />
+                        <UnorderedList arrName={contractData} ulClassName="list-disc pl-6 lg:mt-[39px] mt-[24px] w-[90%] sm:w-[80%] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-normal 4xl:text-[20px] md:text-[18px] lg:mt-[24px]" />
                     </div>
                 </div>
             </div>
@@ -438,7 +438,7 @@ const ExploreRelatedSection = () => {
     ]
     return (
         <section className="custom-container lg:mt-[90px] mt-[58px] px-[2rem]">
-            <h2 className="text-[26px] leading-tight font-light 4xl:text-[60px] xl:text-[40px]">
+            <h2 className="text-[26px] leading-tight font-light 4xl:text-[60px] xl:text-[40px] md:text-[32px]">
                 Explore Related SAP Services
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 lg:mt-[53px] mt-[36px]">
@@ -456,14 +456,14 @@ const ExploreRelatedSection = () => {
                                     <h3 className="text-[24px] leading-tight font-semibold 4xl:text-[30px] xl:text-[24px]">
                                         {data.title}
                                     </h3>
-                                    <p className="mt-[14px] text-[16px] leading-tight font-light xl:mt-[29px] 4xl:text-[24px] xl:text-[20px]">
+                                    <p className="mt-[14px] leading-tight font-light xl:mt-[29px] 4xl:text-[20px] md:text-[18px] text-[16px]">
                                         {data.desc}
                                     </p>
                                 </div>
                                 <div className="mt-auto">
                                     <Link
                                         href={data.link}
-                                        className={`inline-block bg-[#006FBE] 4xl:text-[20px] xl:text-[18px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-["#134874"] font-semibold text-white py-3 px-8 transition duration-300 mt-6`}>
+                                        className={`inline-block bg-[#006FBE] 4xl:text-[20px] xl:text-[18px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-["#134874"] font-semibold text-white py-3 px-8 transition duration-300 mt-6 md:last:mt-0 lg:mt-6`}>
                                         Know More
                                     </Link>
                                 </div>
@@ -507,17 +507,17 @@ const SeamlessIntergrationsSection = () => {
             <div className="custom-container max-lg:px-0 relative">
                 <div className="bg-[#006FBE] max-lg:bg-[#006FBE]/70 max-lg:absolute max-lg:bottom-0 text-[#FFFFFF] z-20 xl:py-[64px] lg:px-[60px] md:py-[48px] lg:ml-auto pt-[42px] pb-[98px] px-[36px] lg:translate-y-[-40px] xl:w-[90%] lg:w-[80%] lg:mt-[-400px] 4xl:mt-[-500px] 5xl:mt-[-647px]">
                     <div className="lg:col-span-8 col-span-12">
-                        <h2 className="text-[26px] leading-tight font-light 4xl:text-[60px] xl:text-[40px] sm:w-full lg:w-[70%] xl:w-[90%]">
+                        <h2 className="text-[26px] md:text-[32px] leading-tight font-light 4xl:text-[60px] xl:text-[40px] sm:w-full lg:w-[70%] xl:w-[90%]">
                             Seamless Integrations Powered by SAP CPI & Rialtes BTP Competency
                         </h2>
                     </div>
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-[45px] lg:mt-[39px] mt-[20px]">
                         {seamlessData.map((data, ind) => (
                             <div className="lg:mt-[32px]" key={ind}>
-                                <p className="text-[#FFFFFF] text-[16px] leading-tight font-light 4xl:text-[24px] xl:text-[20px]">
+                                <p className="text-[#FFFFFF] leading-tight font-light text-[16px] 4xl:text-[20px] md:text-[18px]">
                                     {data.title}
                                 </p>
-                                <UnorderedList arrName={data?.list} ulClassName="pl-5 list-disc lg:mt-[39px] mt-[24px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-light 4xl:text-[20px] xl:text-[18px] lg:mt-[25px]" />
+                                <UnorderedList arrName={data?.list} ulClassName="pl-5 list-disc lg:mt-[39px] mt-[24px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-light 4xl:text-[20px] md:text-[18px] lg:mt-[25px]" />
                             </div>
                         ))}
                     </div>
@@ -538,16 +538,16 @@ const BuyingInvoicingSection = () => {
             <div className="flex flex-col-reverse xl:flex-row items-center xl:items-start xl:relative">
                 <div className="z-10 bg-[#073259] xl:w-[75%] w-full xl:my-auto relative">
                     <div className="custom-container px-[2rem] pb-[56px] lg:pt-[59px] lg:pr-[57px] lg:pb-[71px] buyingLeftDiv">
-                        <h2 className="text-[20px] leading-tight font-light 4xl:text-[60px] xl:text-[40px]">
+                        <h2 className="text-[20px] leading-tight font-light 4xl:text-[60px] xl:text-[40px] md:text-[32px]">
                             Buying & Invoicing (Procure-to-Pay)
                         </h2>
                         <h3 className="mt-[17px] text-[20px] leading-tight font-semibold lg:mt-[39px] 4xl:text-[42px] xl:text-[38px]">
                             Complete Automation
                         </h3>
-                        <p className="mt-[20px] text-[16px] leading-tight font-light lg:mt-[39px] 4xl:text-[20px] xl:text-[18px]">
+                        <p className="mt-[20px] text-[16px] leading-tight font-light lg:mt-[39px] 4xl:text-[20px] md:text-[18px]">
                             SAP ARIBA Buying & Invoicing module automates the full procure-to-pay cycle, offering:
                         </p>
-                        <UnorderedList arrName={buyingData} ulClassName="pl-5 list-disc lg:mt-[29px] mt-[34px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-light 4xl:text-[20px] xl:text-[18px] lg:mt-[25px]" />
+                        <UnorderedList arrName={buyingData} ulClassName="pl-5 list-disc lg:mt-[29px] mt-[34px] 4xl:space-y-[24px] space-y-[19px]" liClassName="text-[16px] leading-tight font-light 4xl:text-[20px] md:text-[18px] lg:mt-[25px]" />
                     </div>
                 </div>
                 <div className="xl:w-[70%] 3xl:h-full xl:h-[760px] w-full relative xl:-ml-[216px] mt-6 xl:mt-0">
@@ -618,13 +618,13 @@ const AgentChat = () => {
                 <div className="custom-container lg:pr-0 bg-[#184671] max-md:px-0">
                     <div className="grid xl:grid-cols-2 xl:gap-[26px] top-20% text-[#FFFFFF] pt-[42px] xl:pt-[170px] xl:pb-[129px] xl:mt-[-8%] z-[-2] lg:pr-[40px] xl:pr-[50px] 4xl:pr-[60px] max-md:px-[36px]">
                         <div>
-                            <h2 className="text-[26px] leading-tight font-light 4xl:text-[60px] xl:text-[40px]">Introducing AgentChat</h2>
+                            <h2 className="text-[26px] leading-tight font-light 4xl:text-[60px] xl:text-[40px] md:text-[32px]">Introducing AgentChat</h2>
                             <h3 className="text-[26px] leading-tight font-semibold xl:mt-[6px] 4xl:text-[40px] xl:text-[30px]">AI-Powered Supplier Engagement</h3>
-                            <p className="mt-[24px] text-[18px] leading-[22px] font-light xl:mt-[53px] 4xl:text-[22px] xl:text-[18px] lg:w-[80%]">Rialtes RialChat is a bi-directional WhatsApp conversational app, designed for seamless procurement collaboration.</p>
+                            <p className="mt-[24px] text-[18px] leading-[22px] font-light xl:mt-[53px] 4xl:text-[22px] md:text-[18px] lg:w-[80%]">Rialtes RialChat is a bi-directional WhatsApp conversational app, designed for seamless procurement collaboration.</p>
                             <div className="mt-[30px] xl:block hidden">
                                 <Link
                                     href="/products/agentchat"
-                                    className={`inline-block bg-[#006FBE] 4xl:text-[20px] xl:text-[18px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[#006FBE] font-semibold text-white py-3 px-8 transition duration-300 mt-6 cursor-pointer`} >
+                                    className={`inline-block bg-[#006FBE] 4xl:text-[20px] md:text-[18px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[#006FBE] font-semibold text-white py-3 px-8 transition duration-300 mt-6 cursor-pointer`} >
                                     Learn More
                                 </Link>
                             </div>
@@ -636,7 +636,7 @@ const AgentChat = () => {
                             <div>
                                 <ul className="list-disc pl-6 xl:mt-[41px] mt-[24px] sm:w-full w-[90%] 4xl:space-y-[24px] space-y-[19px]">
                                     {agentData.map((item, index) => (
-                                        <li key={index} className="text-[16px] leading-tight font-light 4xl:text-[20px] xl:text-[18px] xl:mt-[25px]">
+                                        <li key={index} className="text-[16px] leading-tight font-light 4xl:text-[20px] md:text-[18px] xl:mt-[25px]">
                                             <span className="font-bold">{item.title}</span> {item.desc}
                                         </li>
                                     ))}
@@ -645,7 +645,7 @@ const AgentChat = () => {
                             <div className="my-[46px] xl:hidden block">
                                 <Link
                                     href="/products/agentchat"
-                                    className={`inline-block bg-[#006FBE] 4xl:text-[20px] xl:text-[18px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[#006FBE] font-semibold text-white py-3 px-8 transition duration-300 mt-6 cursor-pointer`}>
+                                    className={`inline-block bg-[#006FBE] 4xl:text-[20px] md:text-[18px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[#006FBE] font-semibold text-white py-3 px-8 transition duration-300 mt-6 cursor-pointer`}>
                                     Learn More
                                 </Link>
                             </div>
@@ -717,10 +717,10 @@ export default function page() {
             </section>
             {/* page information */}
             <section className="custom-container mt-[51px] lg:mt-[85px] px-[2rem]">
-                <p className=" leading-tight font-normal w-[96%] 4xl:text-[22px] xl:text-[19px] text-[16px] xl:w-[90%] lg:w-[90%]">
+                <p className=" leading-tight font-normal w-[96%] text-[16px] 4xl:text-[20px] md:text-[18px] xl:w-[90%] lg:w-[90%]">
                     At Rialtes, we help organizations redefine procurement efficiency with SAP ARIBA, the industry’s leading cloud-based solution for strategic sourcing, contract management, supplier collaboration, and procure-to-pay automation. With SAP ARIBA, businesses can streamline procurement operations, reduce costs, ensure compliance, and drive supplier engagement on a global scale.
                 </p>
-                <p className="leading-tight font-normal w-[96%] mt-[19px] lg:mt-[30px] 4xl:text-[22px] xl:text-[19px] text-[16px] xl:w-[90%] lg:w-[90%]">
+                <p className="leading-tight font-normal w-[96%] mt-[19px] lg:mt-[30px] text-[16px] 4xl:text-[20px] md:text-[18px] xl:w-[90%] lg:w-[90%]">
                     As a certified SAP partner with a global presence in the United States, Canada, India, and Singapore, Rialtes delivers comprehensive SAP ARIBA solutions, covering advisory, implementation, integration, and continuous optimization. Our SAPBuy+ service suite ensures that enterprises achieve end-to-end procurement transformation while maximizing ROI on SAP investments.
                 </p>
             </section>
@@ -745,9 +745,9 @@ export default function page() {
             {/* agent chat */}
             <AgentChat />
             {/* Contact Form */}
-            <div className="custom-container pb-10 xl:mt-[109px] xl:mb-[166px] mt-[50px] mb-[45px]">
-                <ContactForm title='Ready to Elevate Your Procurement with SAP ARIBA?' subtitle='With Rialtes expertise in SAP ARIBA, you can streamline procurement, enhance supplier collaboration, and drive cost efficiencies.' subtitle1={"Talk to our experts today and unlock procurement transformation!"} className={"xl:w-[70%] xl:font-light 4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight"} />
-            </div >
+            <div className="custom-container pb-10 xl:mt-[109px] mt-[50px] mb-[45px]">
+                <ContactForm title='Ready to Elevate Your Procurement with SAP ARIBA?' subtitle='With Rialtes expertise in SAP ARIBA, you can streamline procurement, enhance supplier collaboration, and drive cost efficiencies.' subtitle1={"Talk to our experts today and unlock procurement transformation!"} className={"xl:w-[70%] xl:font-light 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight"} />
+            </div>
         </section>
     )
 }
