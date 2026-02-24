@@ -131,16 +131,16 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
     if (!mounted) return null;
     return (
         <section className={(padding ? padding : '')}>
-            <div className={`font-light 4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight${className}`}>
+            <div className={`font-light leading-tight ${className ? className : "4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px]"}`}>
                 {title ? title : 'Ready to take the next step? Let’s kick off your journey to operational excellence'}
             </div>
             {subtitle && (
-                <p className="mt-8 leading-tight 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] xl:w-[60%] font-regular">
+                <p className="mt-8 leading-tight 4xl:text-[20px] md:text-[18px] text-[16px] xl:w-[60%] font-regular">
                     {subtitle}
                 </p>
-            )} 
+            )}
             {subtitle1 && (
-                <p className="mt-4 4xl:text-[20px] 2xl:text-[18px] xl:text-[17px] text-[16px] xl:w-[60%] xl:mt-[24px] font-regular">
+                <p className="mt-4 4xl:text-[20px] md:text-[18px] text-[16px] xl:w-[60%] xl:mt-[24px] font-regular">
                     {subtitle1}
                 </p>
             )}
@@ -216,13 +216,12 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
                             backgroundColor: isHovered ? "#ffffff" : (beginBtnBg || "#134874"),
                             color: isHovered ? "#134874" : "#ffffff",
                         }}
-                        className="border border-[#134874] max-lg:w-fit font-semibold py-3 px-8 transition duration-300"
-                    >
+                        className="border border-[#134874] max-lg:w-fit font-semibold py-3 px-8 transition duration-300 4xl:text-[20px] xl:text-[18px] text-[16px]">
                         Let's Begin
                     </button>
 
                 </div>
-                <div className="md:block hidden">Enter the result of the equation shown above (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</div>
+                <div className="md:block hidden 4xl:text-[20px] md:text-[18px] text-[16px]">Enter the result of the equation shown above (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</div>
 
 
                 <div>

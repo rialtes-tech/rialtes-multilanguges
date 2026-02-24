@@ -265,7 +265,7 @@ export default function Page() {
       {/* breadcrumb */}
       <BreadcrumbSchema currPage="Oracle EBS" />
       {/* Header Section */}
-      <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px] ">
+      <section className="relative h-[350px] sm:h-[500px] md:h-[680px] lg:h-[700px] xl:h-[500px] 4xl:h-[650px] ">
         {/* Desktop Image */}
         <div className="xl:block hidden">
           <Image
@@ -285,7 +285,7 @@ export default function Page() {
             fill
             priority
             sizes="100vw"
-            className="object-cover"
+            className="object-cover object-top"
           />
         </div>
         {/* Text Content */}
@@ -313,7 +313,7 @@ export default function Page() {
             </h2>
             <div className="xl:grid xl:grid-cols-12 grid-cols-1 mb-8 xl:mt-10  xl:gap-16  flex flex-col-reverse">
               <div className="xl:col-span-7 col-span-12">
-                <p className="4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight ">
+                <p className="text-[16px] 4xl:text-[20px] md:text-[18px] leading-tight ">
                   As a certified Oracle and Kinaxis partner, Rialtes offers a
                   powerful combination of Oracle E-Business Suite (EBS) and
                   Kinaxis RapidResponse® services through our flagship “EBSPlus”
@@ -360,7 +360,7 @@ export default function Page() {
         <div className="custom-container">
           <div className=" flex flex-col text-white relative  xl:py-10 py-6">
             <div className="xl:mt-20 mt-8">
-              <h2 className="text-[26px] xl:text-[45px] 4xl:text-[60px] leading-tight">
+              <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight">
                 EBSPlus
               </h2>
               <div className="grid xl:grid-cols-12 grid-cols-1 items-center xl:mt-5 mt-3">
@@ -374,7 +374,7 @@ export default function Page() {
               </div>
               <div className="grid xl:grid-cols-12 grid-cols-1 items-center xl:mt-8 mt-5">
                 <div className="xl:col-span-6 col-span-12">
-                  <p className="text-[16px]  xl:text-[18px] 4xl:text-[22px] xl:mt-5 font-light xl:font-normal leading-tight">
+                  <p className="text-[16px] 4xl:text-[20px] md:text-[18px] xl:mt-5 font-light xl:font-normal leading-tight">
                     Rialtes’ EBSPlus is designed to simplify, modernize, and
                     optimize your Oracle EBS journey, delivering seamless
                     business and supply chain operations integrated with Kinaxis
@@ -421,7 +421,7 @@ export default function Page() {
               <h3 className="text-[22px] xl:text-[23px]  4xl:text-[24px] font-bold leading-tight">
                 {item.title}
               </h3>
-              <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] xl:text-lg mt-4 pr-5 xl:pr-10 leading-tight">
+              <p className="text-[16px] 4xl:text-[20px] md:text-[18px] xl:text-lg mt-4 pr-5 xl:pr-10 leading-tight">
                 {item.description}
               </p>
             </div>
@@ -452,10 +452,10 @@ export default function Page() {
         <div className="h-full relative custom-container">
           <div className="grid xl:grid-cols-12 grid-cols-12 items-center text-white">
             <div className="4xl:col-span-9 xl:col-span-8 col-span-12 text-white sm:backdrop-blur-md sm:p-5 xl:p-0 sm:bg-blue-800/30 xl:backdrop-blur-0 xl:bg-transparent">
-              <h2 className="xl:mt-32 mt-16 leading-tight 4xl:text-[60px] xl:text-[45px] md:text-[26px] ">
+              <h2 className="xl:mt-32 mt-16 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px]">
                 Deep Expertise in Oracle EBS & Cloud Infrastructure (OCI)
               </h2>
-              <p className="4xl:text-[22px] xl:text-[18px] text-[16px] mt-5 leading-tight ">
+              <p className="text-[16px] 4xl:text-[20px] md:text-[18px] mt-5 leading-tight ">
                 With highly certified Oracle EBS and OCI experts, Rialtes
                 ensures that your critical workloads and ERP operations are
                 secure, scalable, and cloud-ready. Our deep understanding of
@@ -503,10 +503,10 @@ export default function Page() {
             <div className="xl:col-span-6 col-span-12">
               <div className="pt-20 ">
                 <div className="max-sm:px-[36px]">
-                  <h2 className="pr-10 xl:pr-0 leading-tight 4xl:text-[60px] 2xl:text-[49px] xl:text-[45px] md:text-[26px] text-[22px]">
+                  <h2 className="pr-10 xl:pr-0 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px]">
                     Thought Leadership: Why Rialtes?
                   </h2>
-                  <p className="4xl:text-[22px] xl:text-[18px] text-[16px] mt-5 leading-tight xl:pr-14">
+                  <p className="text-[16px] 4xl:text-[20px] md:text-[18px] mt-5 leading-tight xl:pr-14">
                     Rialtes is not just a technology partner — we are business
                     transformation leaders. Our industry-driven accelerators,
                     AI-infused solutions, and agile methodologies ensure that
@@ -529,7 +529,7 @@ export default function Page() {
                   <h3 className="4xl:text-[30px] xl:text-[26px] text-[22px] font-bold mt-10 md:mt-16 xl:mt-8">
                     Our Thought Leadership Pillars:
                   </h3>
-                  <ul className="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight pl-5 marker:font-bold marker:text-2xl mt-4 4xl:w-[94%]">
+                  <ul className="list-disc xl:space-y-5 text-[16px] 4xl:text-[20px] md:text-[18px] leading-tight pl-5 marker:font-bold marker:text-2xl mt-4 4xl:w-[94%]">
                     {ebsListItems.map((item, index) => (
                       <li key={index} className={`${index === 0 ? "mt-5" : ""}`}>
                         {item.fullBold ? (
@@ -573,13 +573,13 @@ export default function Page() {
               />
             </div>
             <div className="xl:col-span-7 col-span-12">
-              <h2 className=" xl:mt-20 mt-16 leading-tight 4xl:text-[60px] xl:text-[44px] md:text-[26px]">
+              <h2 className="xl:mt-20 mt-16 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px]">
                 Supply Chain Planning
               </h2>
               <h2 className="4xl:text-[40px] xl:text-[28px] text-[22px] xl:font-bold font-medium mt-5 leading-tight">
                 Future-Proofing with Oracle EBS & Kinaxis
               </h2>
-              <p className="4xl:text-[22px] xl:text-[18px] text-[16px]  mt-5 leading-tight ">
+              <p className="text-[16px] 4xl:text-[20px] md:text-[18px]  mt-5 leading-tight ">
                 In today’s volatile markets, supply chain agility is
                 non-negotiable. Rialtes helps enterprises optimize and
                 future-proof their supply chains using Oracle EBS Supply Chain
@@ -591,13 +591,13 @@ export default function Page() {
                   <h3 className="text-[20px] xl:text-[24px] 4xl:text-[28px] leading-tight text-[#006CBC] font-bold">
                     Key Capabilities:
                   </h3>
-                  <UnorderedList arrName={keyCapabilitiesData} ulClassName="list-disc xl:space-y-5 pl-5 xl:mt-5 mt-3 marker:font-bold marker:text-2xl leading-tight" liClassName=" text-[16px] xl:text-[18px] 4xl:text-[20px]" />
+                  <UnorderedList arrName={keyCapabilitiesData} ulClassName="list-disc xl:space-y-5 pl-5 xl:mt-5 mt-3 marker:font-bold marker:text-2xl leading-tight" liClassName=" text-[16px] 4xl:text-[20px] md:text-[18px]" />
                 </div>
                 <div>
                   <h3 className="text-[20px] xl:text-[24px] 4xl:text-[28px] leading-tight text-[#006CBC] font-bold">
                     Business Benefits:
                   </h3>
-                  <UnorderedList arrName={businessBenefitsData} ulClassName="list-disc xl:space-y-5 xl:mt-5 mt-3 leading-tight pl-5 marker:font-bold marker:text-2xl" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px]" />
+                  <UnorderedList arrName={businessBenefitsData} ulClassName="list-disc xl:space-y-5 xl:mt-5 mt-3 leading-tight pl-5 marker:font-bold marker:text-2xl" liClassName="text-[16px] 4xl:text-[20px] md:text-[18px]" />
                 </div>
               </div>
             </div>
@@ -629,7 +629,7 @@ export default function Page() {
           />
         </div>
         <div className="relative xl:absolute 4xl:mx-[280px] 2xl:mx-[140px] xl:mx-[80px] xl:bottom-0 left-0 right-0 bg-[#005B9D] bg-opacity-90 text-white p-[35px] xl:p-16">
-          <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
+          <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px]">
             Sales and Operations Planning
           </h2>
           <h3 className="mt-2 text-[22px] xl:text-[30px] 4xl:text-[40px] font-bold">
@@ -637,7 +637,7 @@ export default function Page() {
           </h3>
           <div className="grid grid-cols-12 items-center">
             <div className="xl:col-span-7 col-span-12">
-              <p className="mt-5 4xl:text-[22px] xl:text-[18px] text-[16px]  leading-tight">
+              <p className="mt-5 text-[16px] 4xl:text-[20px] md:text-[18px]  leading-tight">
                 With Rialtes, Sales and Operations Planning (S&OP) becomes a
                 dynamic, collaborative process that adapts to market changes in
                 real-time.
@@ -649,13 +649,13 @@ export default function Page() {
               <h3 className="4xl:text-[30px] xl:text-[28px] text-[24px] font-medium leading-tight">
                 How We Transform S&OP:
               </h3>
-              <UnorderedList arrName={howWeTransformData} ulClassName="list-disc xl:space-y-5 xl:mt-5 mt-3 pl-5 marker:font-bold marker:text-2xl leading-tight" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+              <UnorderedList arrName={howWeTransformData} ulClassName="list-disc xl:space-y-5 xl:mt-5 mt-3 pl-5 marker:font-bold marker:text-2xl leading-tight" liClassName="text-[16px] 4xl:text-[20px] md:text-[18px]" />
             </div>
             <div className="xl:col-span-6 col-span-12 md:col-span-1 mt-10 xl:mt-0">
               <h3 className="4xl:text-[30px] xl:text-[28px] text-[24px] font-medium leading-tight">
                 The Outcome:
               </h3>
-              <UnorderedList arrName={outcomeData} ulClassName="list-disc xl:space-y-5 pl-5 xl:mt-5 mt-3 marker:font-bold marker:text-2xl leading-tight" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+              <UnorderedList arrName={outcomeData} ulClassName="list-disc xl:space-y-5 pl-5 xl:mt-5 mt-3 marker:font-bold marker:text-2xl leading-tight" liClassName="text-[16px] 4xl:text-[20px] md:text-[18px]" />
             </div>
           </div>
         </div>
@@ -674,7 +674,7 @@ export default function Page() {
               sizes="100vw"
             />
             <div className="xl:mt-[6rem] xl:pr-[25px]">
-              <h2 className="leading-tight mt-10 xl:mt-0 4xl:text-[60px] xl:text-[40px] md:text-[26px] ">
+              <h2 className="leading-tight mt-10 xl:mt-0 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] ">
                 Inventory Optimization & Enterprise Scheduling
               </h2>
               <h3 className="4xl:text-[40px] xl:text-[26px] text-[22px] mt-5 xl:font-bold font-medium  leading-tight">
@@ -682,7 +682,7 @@ export default function Page() {
               </h3>
               <div className="grid xl:grid-cols-12 grid-cols-1 items-center">
                 <div className="2xl:col-span-7 xl:col-span-11">
-                  <p className="4xl:text-[22px] xl:text-[18px] text-[16px] mt-5 leading-tight ">
+                  <p className="text-[16px] 4xl:text-[20px] md:text-[18px] mt-5 leading-tight ">
                     Optimizing inventory and managing complex production
                     schedules are critical for businesses with global operations
                     and dynamic supply chains. Rialtes leverages Oracle EBS
@@ -700,7 +700,7 @@ export default function Page() {
                 <h3 className="text-[#006CBC] font-bold leading-tight 4xl:text-[30px] xl:text-[23px] text-[20px]">
                   {block.title}
                 </h3>
-                <UnorderedList arrName={block?.points} ulClassName="list-disc xl:space-y-5 marker:text-[#036CBC] marker:font-bold marker:text-2xl pl-5 leading-tight" liClassName="text-[16px] xl:mt-4 mt-2 xl:text-[18px] 4xl:text-[20px]" />
+                <UnorderedList arrName={block?.points} ulClassName="list-disc xl:space-y-5 marker:text-[#036CBC] marker:font-bold marker:text-2xl pl-5 leading-tight" liClassName="xl:mt-4 mt-2 text-[16px] 4xl:text-[20px] md:text-[18px]" />
               </div>
             ))}
           </div>
@@ -735,19 +735,19 @@ export default function Page() {
               </div>
             </div>
             <div className="xl:col-span-5 col-span-12 order-2 xl:order-1 pb-20">
-              <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[26px] mt-10 xl:mt-0 leading-tight xl:pt-20 4xl:w-[95%] xl:w-[90%] md:w-[85%] w-full pr-10 xl:pr-0">
+              <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] mt-10 xl:mt-0 leading-tight xl:pt-20 4xl:w-[95%] xl:w-[90%] md:w-[85%] w-full pr-10 xl:pr-0">
                 End-to-End Scenario Planning
               </h2>
               <h3 className="4xl:text-[40px] xl:text-[30px] text-[22px] mt-5 xl:font-bold font-medium pr-10 xl:pr-0 leading-tight">
                 Make Every Business Decision Count
               </h3>
-              <p className="4xl:text-[22px] xl:text-[18px] text-[16px] mt-5 leading-tight ">
+              <p className="text-[16px] 4xl:text-[20px] md:text-[18px] mt-5 leading-tight ">
                 Rialtes enables enterprises to model, simulate, and evaluate
                 multiple business scenarios using Oracle EBS integrated with
                 Kinaxis, ensuring that every business decision is backed by data
                 and foresight.
               </p>
-              <UnorderedList arrName={endToEndData} ulClassName="mt-5 list-disc xl:space-y-5 pl-5 marker:font-bold marker:text-2xl leading-tight" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+              <UnorderedList arrName={endToEndData} ulClassName="mt-5 list-disc xl:space-y-5 pl-5 marker:font-bold marker:text-2xl leading-tight" liClassName="text-[16px] 4xl:text-[20px] md:text-[18px]" />
             </div>
           </div>
         </div>
@@ -764,24 +764,24 @@ export default function Page() {
         </div>
         <div className="lg:hidden block">
           <Image
-            src="/images/oracle-ebs/AI & Data-Driven-mobile.webp"
-            alt=" AI & Data-Driven image"
+            src="/images/oracle-ebs/ai-data-driven-mobile.webp"
+            alt=" AI & Data-Driven image mobile"
             priority
             style={{ objectFit: "cover", objectPosition: "35% 0%" }}
             width={300}
             height={200}
-            className="w-full md:h-[1400px]  h-[1350px]"
+            className="w-full md:h-[1400px] h-[1350px]"
           />
         </div>
         <div className="relative custom-container">
           <div className="flex flex-col justify-center text-white ">
             <div className="grid lg:grid-cols-12 grid-cols-1 md:grid-cols-2 items-center lg:mt-[40px] md:mt-0">
               <div className="lg:col-span-8 col-span-12 md:col-span-2 max-lg:absolute max-lg:mr-[36px] bottom-[54px] lg:mt-0">
-                <h2 className="pr-10 xl:pr-0 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
+                <h2 className="pr-10 xl:pr-0 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px]">
                   AI & Data-Driven <br />
                   <span className="block">Transformation for Oracle EBS</span>
                 </h2>
-                <p className="4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight mt-5  xl:pr-0">
+                <p className="text-[16px] 4xl:text-[20px] md:text-[18px] leading-tight mt-5  xl:pr-0">
                   AI is redefining how enterprises leverage Oracle EBS for
                   competitive advantage. Rialtes brings AI-driven insights
                   directly into your Oracle EBS workflows:
@@ -791,13 +791,13 @@ export default function Page() {
                     <h3 className="4xl:text-[30px] xl:text-[25px] text-[20px] leading-tight xl:font-bold font-medium mt-10 xl:mt-0 xl:pr-0 2xl:pr-10">
                       Real-World AI Applications in Oracle EBS:
                     </h3>
-                    <UnorderedList arrName={realWorldData} ulClassName="mt-5 list-disc xl:space-y-5 xl:font-medium font-light pl-5 marker:font-bold marker:text-2xl pr-5 xl:pr-16 leading-tight" liClassName=" 4xl:text-[20px] xl:text-[18px] text-[16px]" />
+                    <UnorderedList arrName={realWorldData} ulClassName="mt-5 list-disc xl:space-y-5 xl:font-medium font-light pl-5 marker:font-bold marker:text-2xl pr-5 xl:pr-16 leading-tight" liClassName=" text-[16px] 4xl:text-[20px] md:text-[18px]" />
                   </div>
                   <div className="md:mt-10 xl:mt-0">
                     <h3 className="4xl:text-[30px] xl:text-[25px] text-[20px] xl:font-bold font-medium pr-10 xl:pr-0">
                       Benefits of AI-Driven Oracle EBS:
                     </h3>
-                    <UnorderedList arrName={aiDrivenData} ulClassName="mt-5 list-disc xl:space-y-5 pl-5 xl:font-medium font-light marker:font-bold marker:text-2xl pr-8 xl:pr-10 leading-tight" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+                    <UnorderedList arrName={aiDrivenData} ulClassName="mt-5 list-disc xl:space-y-5 pl-5 xl:font-medium font-light marker:font-bold marker:text-2xl pr-8 xl:pr-10 leading-tight" liClassName="text-[16px] 4xl:text-[20px] md:text-[18px]" />
                   </div>
                 </div>
               </div>
@@ -844,7 +844,7 @@ export default function Page() {
         <ContactForm
           title={"Ready to Modernize Oracle EBS for Your Business?"}
           className={
-            "xl:max-w-[60rem] font-light pr-10 xl:pr-0 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]"
+            "xl:max-w-[60rem] font-light pr-10 xl:pr-0 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px]"
           }
         />
       </div>

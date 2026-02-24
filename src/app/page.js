@@ -107,8 +107,6 @@ const successStoryData = [
         title: 'Manufacturing',
         description: 'Streamlined DevOps using Copado and Salesforce',
         url: 'insights/case-studies/streamlined-devops-using-copado-and-salesforce'
-
-
     },
     {
         id: 2,
@@ -116,7 +114,6 @@ const successStoryData = [
         title: 'Healthcare',
         description: 'Salesforce Health Cloud, Prior Authorization',
         url: 'insights/case-studies/salesforce-health-cloud-prior-authorization'
-
     },
     {
         id: 3,
@@ -155,7 +152,6 @@ const successStoryData = [
         description: 'Automating ACH and Journal Entries with Our Exelona Banking Module',
         url: 'insights/case-studies/realForce-banking-module-ach',
         theme: "light",
-
     },
     {
         id: 8,
@@ -164,7 +160,6 @@ const successStoryData = [
         description: 'Digitizing patient journey using Salesforce health cloud',
         url: 'insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud',
         theme: "light",
-
     }
 
 ]
@@ -290,10 +285,10 @@ const Home = () => {
                 >
                     <div className='lg:col-span-4 col-span-12 lg:border-r-[2px] border-black-900'></div>
 
-                    <div className='lg:col-span-8 col-span-12 2xl:pl-[78px] lg:pl-[42px]'>
+                    <div className='lg:col-span-8 col-span-12 2xl:pl-[78px] xl:pl-[42px]'>
                         <h3 className="4xl:text-[110px] xl:text-[80px] md:text-[60px] sm:text-[46px] font-bold text-[33px] outline-text border-l-[2px] xl:border-none border-gay-300 ml-[34%] sm:ml-[35%] md:ml-[32%] pl-[20px] xl:pl-0 xl:ml-auto mt-[20px] leading-tight">with Impact</h3>
                         <h2 className='4xl:text-[32px] xl:text-[28px] text-[26px] text-[#0077CE] xl:mt-[30px] mt-[30px] font-bold leading-tight'>Beyond Business: A Commitment to Change</h2>
-                        <p className='xl:mt-[27px] mt-[16px] 4xl:text-[20px] xl:text-[18px] text-[16px] leading-tight'>Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact</p>
+                        <p className='xl:mt-[27px] mt-[16px] 4xl:text-[20px] md:text-[18px] text-[16px] leading-tight'>Rialtes is more than a technology leader — we are advocates for positive change. From sustainability initiatives to empowering underrepresented voices, we’re dedicated to making a meaningful impact</p>
                     </div>
 
                 </div>
@@ -310,7 +305,7 @@ const Home = () => {
                         <h2 className='4xl:text-[60px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] text-[26px]'>Success Stories</h2>
                     </div>
                     <div className='col-span-7'>
-                        <p className='mt-5 xl:mt-0 md:mt-5 lg:mt-mt-5 pr-8 xl:pr-0 lg:w-[80%]'>Discover how we’ve harnessed the disruptive power of cutting-edge AI to help companies anticipate and act with insight and speed with IT consulting services.</p>
+                        <p className='mt-5 xl:mt-0 md:mt-5 lg:mt-mt-5 pr-8 xl:pr-0 lg:w-[80%] text-[16px] md:text-[18px] 4xl:text-[20px]'>Discover how we’ve harnessed the disruptive power of cutting-edge AI to help companies anticipate and act with insight and speed with IT consulting services.</p>
                     </div>
                     <div className='col-span-3'></div>
                 </div>
@@ -365,7 +360,7 @@ const Home = () => {
                         <h2 className='4xl:text-[60px] 2xl:text-[48px] md:text-[32px] xl:text-[40px] text-[26px] leading-tight'>Industry Expertise & Solutions</h2>
                     </div>
                     <div className='col-span-6'>
-                        <p className='mt-5 xl:mt-0 sm:mt-5 lg:mt-5 4xl:text-[20px] xl:text-[18px] text-[16px]'>We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.</p>
+                        <p className='mt-5 xl:mt-0 sm:mt-5 lg:mt-5 4xl:text-[20px] md:text-[18px] text-[16px]'>We have domain expertise across various industries, enabling us to offer tailored IT consulting services to meet your specific industry needs. Transform your business with a quantifiable and pre-focussed system.</p>
                     </div>
                 </div>
                 <AutoTimerSlider />
@@ -483,7 +478,7 @@ const Home = () => {
                         </p>
                         <span></span>
 
-                        <p className="text-[14px] leading-[20px] xl:text-[16px] xl:leading-[26px] 4xl:text-[20px] 4xl:leading-[30px] font-medium xl:mt-[27px] mt-[19px] xl:w-[90%] lg:w-[70%] md:w-[80%] w-[90%] ">
+                        <p className="text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight font-medium xl:mt-[27px] mt-[19px] xl:w-[90%] lg:w-[70%] md:w-[80%] w-[90%] ">
                             Driven by innovation and fueled by human potential, our IT consulting company tackles the digital world’s toughest problems. Together, let’s simplify problems, enable solutions, and empower each other.
                         </p>
                     </div>
@@ -507,7 +502,7 @@ const Home = () => {
             </section>
 
             <section className='pb-20 mt-20 custom-container'>
-                <ContactForm className='xl:w-[80%] 4xl:w-full w-full 4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] md:text-[30px] text-[26px] leading-tight' title='Ready to take the next step? Let’s kick off your journey to operational excellence' />
+                <ContactForm className='xl:w-[80%] 4xl:w-full w-full 4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight' title='Ready to take the next step? Let’s kick off your journey to operational excellence' />
             </section>
         </div >
     )

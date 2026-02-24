@@ -347,7 +347,7 @@ export default function page() {
                             <h1 className="text-[18px] lg:text-[24px] font-bold max-sm:w-[56%] max-[390px]:w-[66%]">
                                 SAP Cloud Integration Services
                             </h1>
-                            <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px] max-sm:w-[60%]">
+                            <h2 className="text-[26px] leading-tight 2xl:text-[48px] md:text-[32px] xl:text-[40px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px] max-sm:w-[60%]">
                                 Empowering Intelligent, <br /> Connected Enterprises
                             </h2>
                         </div>
@@ -363,18 +363,18 @@ export default function page() {
                 <div className="grid lg:grid-cols-12 grid-cols-1 xl:gap-[40px] lg:gap-[20px] gap-y-[25px] xl:mt-[101px] mt-[40px]">
                     <div className="lg:col-span-5 xl:col-span-6 4xl:col-span-7 col-span-12">
                         <div className=" lg:block hidden">
-                            <h2 className="text-[26px] leading-tight 2xl:text-[48px] xl:text-[40px] 4xl:text-[60px]">
+                            <h2 className="text-[26px] leading-tight md:text-[32px] 2xl:text-[48px] xl:text-[40px] 4xl:text-[60px]">
                                 Seamless Integrations. <br /> Smarter Operations. <br /> Elevated Experiences.
                             </h2>
                         </div>
                         <div className="block lg:hidden">
-                            <h2 className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px]">
+                            <h2 className="text-[26px] leading-tight md:text-[32px] xl:text-[40px] 4xl:text-[60px]">
                                 Seamless Integrations. Smarter Operations. Elevated Experiences.
                             </h2>
                         </div>
                     </div>
                     <div className="lg:col-span-7 xl:col-span-6 4xl:col-span-5 col-span-12">
-                        <p className="4xl:text-[22px] 2xl:text-[20px] xl:text-[18px] text-[16px] leading-tight">
+                        <p className="4xl:text-[22px] 2xl:text-[20px] md:text-[18px] text-[16px] leading-tight">
                             At Rialtes, we specialize in leveraging the SAP Cloud Platform Integration (CPI) to deliver end-to-end, enterprise-grade integrations that connect SAP and non-SAP applications — transforming disconnected systems into streamlined, automated processes. <br /> <br /> Our experts bring a proven track record of successful integrations with SAP Ariba, SAP S/4HANA, SAP SuccessFactors, Salesforce, Oracle, and more, driving tangible outcomes for our clients.
                         </p>
                     </div>
@@ -409,17 +409,17 @@ export default function page() {
                     <div className="col-span-6 lg:col-span-7 xl:col-span-6 3xl:col-span-7 4xl:col-span-6"></div>
                     <div className="col-span-6 lg:col-span-5 xl:col-span-6 3xl:col-span-5 4xl:col-span-6">
                         <div className="md:bg-[#073259] md:mix-blend-hard-light bg-[#0A6BB8]/90 text-[#ffffff] xl:pt-[52px] pt-[29px] xl:pb-[40px] pb-[47px] xl:px-[63px] px-[23px]">
-                            <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light md:w-[50%]">
+                            <h2 className="text-[26px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] 4xl:text-[60px] leading-tight font-light md:w-[50%]">
                                 Thought Leadership
                             </h2>
-                            <h3 className="xl:text-[28px] 4xl:text-[36px] text-[20px] mt-[14px] xl:mt-[27px] leading-tight font-semibold">
+                            <h3 className="md:text-[28px] 4xl:text-[36px] text-[20px] mt-[14px] xl:mt-[27px] leading-tight font-semibold">
                                 Why Integration is the Backbone of Digital Transformation
                             </h3>
-                            <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[27px] mt-[14px] font-normal">
+                            <p className="md:text-[18px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[27px] mt-[14px] font-normal">
                                 In today’s hyper-connected business landscape, companies face mounting challenges:
                             </p>
-                            <UnorderedList arrName={thoughtLeadershipData} ulClassName="list-disc xl:mt-[27px] mt-[22px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight" />
-                            <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[33px] mt-[22px] font-normal">
+                            <UnorderedList arrName={thoughtLeadershipData} ulClassName="list-disc xl:mt-[27px] mt-[22px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
+                            <p className="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight xl:mt-[33px] mt-[22px] font-normal">
                                 Rialtes and SAP Cloud Integration enable enterprises to break silos, automate workflows, and unlock real-time intelligence to power modern, responsive businesses.
                             </p>
                         </div>
@@ -429,7 +429,7 @@ export default function page() {
             {/* end to end section */}
             <section className="xl:mt-[189px] mt-[90px] custom-container" >
                 <div className="lg:mr-[80px] sm:mr-[60px] md:mr-0 border border-[#707070] lg:pl-[46px] xl:pr-[60px] 4xl:pr-[100px] sm:px-[36px] px-[28px] xl:pb-[75px] pb-[80px]">
-                    <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light sm:w-[80%] md:w-[60%] lg:w-[50%] xl:w-[80%] bg-[#ffffff] mt-[-40px] xl:mt-[-50px]">
+                    <h2 className="text-[26px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] 4xl:text-[60px]  leading-tight font-light sm:w-[80%] md:w-[65%] lg:w-[50%] xl:w-[80%] bg-[#ffffff] mt-[-40px] xl:mt-[-50px]">
                         Rialtes End-to-End SAP Cloud Integration Services
                     </h2>
                     <div className="relative grid md:grid-cols-2 grid-cols-1 xl:mt-[62px] mt-[42px] gap-y-[48px] xl:gap-y-[89px] md:gap-[60px]">
@@ -446,7 +446,7 @@ export default function page() {
                                                 const isLastItem = ind === data.dataList.length - 1;
                                                 return (
                                                     <React.Fragment key={ind}>
-                                                        <li className="xl:text-[18px] 4xl:text-[24px] text-[16px] leading-tight">
+                                                        <li className="md:text-[18px] 4xl:text-[24px] text-[16px] leading-tight">
                                                             {item}
                                                         </li>
                                                         {!isLastItem && (
@@ -468,7 +468,7 @@ export default function page() {
             </section>
             {/* specialized SAP section */}
             <section className="custom-container xl:mt-[168px] mt-[89px]">
-                <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light sm:w-[70%] md:w-[50%] xl:w-[52%] 4xl:w-[70%]">
+                <h2 className="text-[26px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] 4xl:text-[60px] leading-tight font-light sm:w-[70%] md:w-[60%] xl:w-[52%] 4xl:w-[70%]">
                     Specialized SAP Cloud Integrations Rialtes Delivers
                 </h2>
                 <div className="xl:mt-[92px] mt-[43px] space-y-[97px] lg:space-y-[153px]">
@@ -483,7 +483,7 @@ export default function page() {
                                         <h4 className="xl:text-[28px] 4xl:text-[35px] text-[20px] leading-tight font-bold xl:mt-[48px] mt-[19px]">
                                             {data.subtitle}
                                         </h4>
-                                        <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[42px] mt-[19px] font-normal md:w-[80%] lg:w-full">
+                                        <p className="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight xl:mt-[42px] mt-[19px] font-normal md:w-[80%] lg:w-full">
                                             {data.desc}
                                         </p>
                                         <div className="grid lg:grid-cols-2 grid-cols-1 xl:mt-[56px] mt-[32px] md:gap-x-[20px] gap-y-[34px] ">
@@ -491,13 +491,13 @@ export default function page() {
                                                 <p className="xl:text-[26px] 4xl:text-[32px] text-[18px] leading-tight font-semibold">
                                                     Key Capabilities:
                                                 </p>
-                                                <UnorderedList arrName={data.keyData} ulClassName="list-disc xl:space-y-[24px] space-y-[19px] xl:mt-[19px] mt-[19px] pl-[18px]" liClassName="xl:text-[17px] text-[16px] leading-tight" />
+                                                <UnorderedList arrName={data.keyData} ulClassName="list-disc xl:space-y-[24px] space-y-[19px] xl:mt-[19px] mt-[19px] pl-[18px]" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
                                             </div>
                                             <div>
                                                 <p className="xl:text-[26px] 4xl:text-[32px] text-[18px] leading-tight font-semibold">
                                                     Business Benefits:
                                                 </p>
-                                                <UnorderedList arrName={data.businessData} ulClassName="list-disc xl:space-y-[24px] space-y-[19px] xl:mt-[19px] mt-[19px] pl-[18px]" liClassName="xl:text-[17px] text-[16px] leading-tight" />
+                                                <UnorderedList arrName={data.businessData} ulClassName="list-disc xl:space-y-[24px] space-y-[19px] xl:mt-[19px] mt-[19px] pl-[18px]" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
                                             </div>
                                         </div>
                                         <div className="xl:mt-[61px] mt-[44px]">
@@ -564,16 +564,16 @@ export default function page() {
                         <div className="col-span-6 xl:col-span-6"></div>
                         <div className="col-span-6 xl:col-span-6">
                             <div className="bg-[#ffffff]/20 md:bg-[#ffffff]/50 text-[#000000] px-[36px] lg:pt-[76px] pt-[45px] md:pb-[91px] pb-[109px] md:pl-[43px] md:pr-[63px]">
-                                <h2 className="xl:text-[38px] 4xl:text-[54px] text-[26px] leading-tight font-light">
+                                <h2 className="xl:text-[40px] 2xl:text-[48px] 4xl:text-[54px] md:text-[32px] text-[26px] leading-tight font-light">
                                     Integration with Oracle, Workday, and More
                                 </h2>
                                 <h3 className="xl:text-[26px] 4xl:text-[36px] text-[20px] mt-[19px] xl:mt-[34px] leading-tight font-semibold">
                                     Connected Enterprise Ecosystem
                                 </h3>
-                                <p className="xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[44px] mt-[19px] font-normal">
+                                <p className="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight xl:mt-[44px] mt-[19px] font-normal">
                                     We help you connect SAP to Oracle, Workday, and other cloud/on-prem platforms to create a frictionless and intelligent enterprise.
                                 </p>
-                                <UnorderedList arrName={integrationData} ulClassName="list-disc xl:mt-[44px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
+                                <UnorderedList arrName={integrationData} ulClassName="list-disc xl:mt-[44px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
                                 <div className="absolute md:mt-[40px] mt-[60px]">
                                     <LearnMore />
                                 </div>
@@ -593,16 +593,16 @@ export default function page() {
                                     evenSection ?
                                         <div className="grid md:grid-cols-12 grid-cols-1 md:gap-[40px] xl:gap-[60px] gap-y-[28px] sm:gap-y-0">
                                             <div className="md:col-span-5 col-span-12 md:order-1 order-2">
-                                                <h2 className="md:block hidden xl:text-[38px] 4xl:text-[54px] text-[26px] leading-tight font-light">
+                                                <h2 className="md:block hidden xl:text-[40px] 2xl:text-[48px] 4xl:text-[54px] md:text-[32px] text-[26px] leading-tight font-light">
                                                     {data.title}
                                                 </h2>
                                                 <h3 className="md:block hidden xl:text-[30px] 4xl:text-[40px] text-[20px] mt-[19px] xl:mt-[34px] leading-tight font-semibold">
                                                     {data?.subtitle}
                                                 </h3>
-                                                <p className={`xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight md:mt-[34px] max-[360px]:mt-[40px] ${data?.subtitle && "mt-[30px]  "} font-normal sm:w-[80%] md:w-full`}>
+                                                <p className={`md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight md:mt-[34px] max-[360px]:mt-[40px] ${data?.subtitle && "mt-[30px]  "} font-normal sm:w-[80%] md:w-full`}>
                                                     {data.desc}
                                                 </p>
-                                                <UnorderedList arrName={data.dataList} ulClassName="list-disc xl:mt-[34px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px] sm:w-[80%] md:w-full" liClassName="xl:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
+                                                <UnorderedList arrName={data.dataList} ulClassName="list-disc xl:mt-[34px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px] sm:w-[80%] md:w-full" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
                                                 <div className="md:mt-[83px] mt-[25px]">
                                                     <LearnMore />
                                                 </div>
@@ -680,16 +680,16 @@ export default function page() {
                                                 </div>
                                             </div>
                                             <div className="md:col-span-5 col-span-12 order-2">
-                                                <h2 className="md:block hidden xl:text-[38px] 4xl:text-[54px] text-[26px] leading-tight font-light">
+                                                <h2 className="md:block hidden xl:text-[38px] 2xl:text-[48px] 4xl:text-[54px] md:text-[32px] text-[26px] leading-tight font-light">
                                                     {data.title}
                                                 </h2>
                                                 <h3 className="md:block hidden xl:text-[30px] 4xl:text-[40px] text-[20px] mt-[19px] xl:mt-[34px] leading-tight font-semibold">
                                                     {data?.subtitle}
                                                 </h3>
-                                                <p className={`xl:text-[19px] 4xl:text-[22px] text-[16px] leading-tight font-normal sm:w-[80%] md:w-full ${data?.subtitle ? "mt-[30px]" : "mt-[20px]"} md:mt-[34px]`}>
+                                                <p className={`md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-normal sm:w-[80%] md:w-full ${data?.subtitle ? "mt-[30px]" : "mt-[20px]"} md:mt-[34px]`}>
                                                     {data.desc}
                                                 </p>
-                                                <UnorderedList arrName={data.dataList} ulClassName="list-disc xl:mt-[34px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px] sm:w-[80%] md:w-full" liClassName="xl:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
+                                                <UnorderedList arrName={data.dataList} ulClassName="list-disc xl:mt-[34px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px] sm:w-[80%] md:w-full" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
                                                 <div className="lg:mt-[60px] mt-[33px]">
                                                     <LearnMore />
                                                 </div>
@@ -729,10 +729,10 @@ export default function page() {
                     <div className="grid grid-cols-1 lg:grid-cols-12">
                         <div className="col-span-6 lg:col-span-6 3xl:col-span-5">
                             <div className="bg-[#006FBE] text-[#ffffff] lg:ml-[60px] xl:pt-[60px] xl:px-[50px] xl:pb-[90px] pt-[29px] lg:px-[36px] px-[24px] pb-[65px]">
-                                <h2 className="xl:text-[40px] 4xl:text-[60px] text-[26px] leading-tight font-light">
+                                <h2 className="text-[26px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] 4xl:text-[60px]  leading-tight font-light">
                                     Why Rialtes?
                                 </h2>
-                                <UnorderedList arrName={whyRialtesData} ulClassName="list-disc xl:mt-[60px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="xl:text-[19px] 4xl:text-[20px] text-[16px] leading-tight" />
+                                <UnorderedList arrName={whyRialtesData} ulClassName="list-disc xl:mt-[60px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
                                 <div className="absolute xl:mt-[40px] lg:mt-[20px] sm:mt-[10px] mt-[20px]">
                                     <LearnMore />
                                 </div>
@@ -744,7 +744,7 @@ export default function page() {
             </section>
             {/* Contact Form */}
             <div className="custom-container xl:mt-[224px] lg:mt-[164px] xl:mb-[104px] mt-[104px] mb-[45px]">
-                <ContactForm title={'Ready to Connect Your Enterprise with SAP Cloud Integration?'} subtitle="Partner with Rialtes to simplify integrations, accelerate digital transformation, and unlock real business value." subtitle1="Contact us today for a free consultation and explore how we can empower your connected enterprise!" className="text-[26px] leading-tight xl:text-[40px] 4xl:text-[60px] lg:w-[70%] 4xl:w-[80%]" />
+                <ContactForm title={'Ready to Connect Your Enterprise with SAP Cloud Integration?'} subtitle="Partner with Rialtes to simplify integrations, accelerate digital transformation, and unlock real business value." subtitle1="Contact us today for a free consultation and explore how we can empower your connected enterprise!" className="text-[26px] md:text-[32px] leading-tight xl:text-[40px] 2xl:text-[48px] 4xl:text-[60px] lg:w-[70%] 4xl:w-[80%]" />
             </div >
         </section >
     )

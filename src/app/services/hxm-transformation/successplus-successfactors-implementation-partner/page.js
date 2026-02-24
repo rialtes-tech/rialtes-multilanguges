@@ -247,16 +247,14 @@ export default function Page() {
       {/* Breadcrumb Schema */}
       <BreadcrumbSchema currPage="SAP SuccessFactors" subPath="Human Experience Management" />
       {/* hero section */}
-      <section className="relative h-[470px] sm:h-[640px] lg:h-[650px] overflow-hidden">
+      <section className="relative 4xl:h-[638px] xl:h-[500px] 2xl:h-[600px] h-[400px] md:h-[600px] overflow-hidden">
         <div className="md:block hidden">
           <Image
             src="/images/services/success-plus/desktop-banner.webp"
             alt="SuccessFactor"
             style={{ objectFit: "cover", objectPosition: "75% 20%" }}
             priority
-            width={630}
-            height={1200}
-            className="w-full"
+            fill
           />
         </div>
         <div className="md:hidden block">
@@ -265,9 +263,7 @@ export default function Page() {
             alt="SuccessFactor"
             style={{ objectFit: "cover", objectPosition: "75% 20%" }}
             priority
-            height={1200}
-            width={630}
-            className="w-full"
+            fill
           />
         </div>
         <div
@@ -297,12 +293,12 @@ export default function Page() {
         {/* breadcrumbs */}
         <BreadCrumbs currPage="SAP SuccessFactors" subPath="Human Experience Management" />
 
-        <h1 className="xl:mt-[78px] mt-[51px] xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] md:w-[80%] xl:w-[80%] 4xl:w-[94%] w-[96%]">
+        <h1 className="xl:mt-[78px] mt-[51px] xl:text-[40px] 4xl:text-[60px] md:text-[32px] text-[26px] leading-tight md:w-[80%] xl:w-[80%] 4xl:w-[94%] w-[96%]">
           End-to-End SuccessFactors Consulting Services for a Future-Ready Workforce
         </h1>
         <div className="grid lg:grid-cols-12 grid-cols-1 gap-[20px]">
           <div className="lg:col-span-8 col-span-12 order-2 lg:order-1">
-            <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] xl:mt-[43px] mt-[20px] font-normal 4xl:pr-16 w-[96%] xl:pr-16 2xl:pr-20">
+            <p className="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight xl:mt-[43px] mt-[20px] font-normal 4xl:pr-16 w-[96%] xl:pr-16 2xl:pr-20">
               At Rialtes, we believe HR is at the center of every organization’s success. Our ‘SuccessPlus’ suite of SAP SuccessFactors services is designed to help organizations transform their human capital management (HCM) strategies, streamline HR processes, and deliver an exceptional employee experience.
               <br /><br />
               As a certified SAP partner with global offices in India, the United States, Canada, and Singapore, Rialtes brings deep industry knowledge, SAP-certified experts, and real-world experience to design, implement, and optimize SAP SuccessFactors solutions tailored to your needs.
@@ -325,14 +321,14 @@ export default function Page() {
       <section className="custom-container xl:mt-[112px] lg:mt-[82px] mt-[34px]">
         <div className="grid xl:grid-cols-12 grid-cols-1 4xl:gap-[70px] gap-y-[20px]">
           <div className="xl:col-span-8 col-span-12">
-            <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[92%] xl:w-full">
+            <h2 className="xl:text-[40px] 4xl:text-[60px] md:text-[32px] text-[26px] leading-tight w-[92%] xl:w-full">
               What is Rialtes’ Success+?
               <br />
               <span className="xl:text-[34px] 4xl:text-[45px] leading-tight text-[22px] mt-4 font-semibold">A Full Lifecycle SAP <div className="4xl:mt-[-16px]" /> SuccessFactors Offering</span>
             </h2>
           </div>
           <div className="xl:col-span-4 col-span-12 md:w-[80%] w-[92%] xl:w-full">
-            <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-normal">
+            <p className="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-normal">
               Our SuccessPlus services combine license advisory, implementation, configuration, integration, quality assurance, and post-go-live support to deliver a holistic and seamless SAP SuccessFactors journey for your organization.
             </p>
           </div>
@@ -340,14 +336,13 @@ export default function Page() {
       </section>
       {/* success key image */}
       <section className="custom-container md:px-0 mt-[58px] md:mt-[90px] xl:mt-[173px]">
-        <div className="md:block hidden">
+        <div className="relative w-full md:h-[155px] lg:h-[380px] md:block hidden">
           <Image
             src="/images/services/success-plus/key-services-desk.webp"
-            alt="key-services-desktop image"
-            className="w-full h-full object-cover"
+            alt="Key services desktop"
+            fill
+            className="md:object-cover lg:object-contain w-full h-full"
             priority
-            width={630}
-            height={1200}
           />
         </div>
         <div className="md:hidden block">
@@ -366,10 +361,10 @@ export default function Page() {
         <div>
           <div className="grid 4xl:pr-[280px] lg:grid-cols-12 grid-cols-1 lg:gap-[20px] xl:gap-[60px] gap-y-[29px]">
             <div className="lg:col-span-7 3xl:col-span-8 col-span-12 lg:order-1 order-2">
-              <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] sm:w-[92%] xl:w-full">
+              <h2 className="xl:text-[40px] 4xl:text-[60px] md:text-[32px] text-[26px] leading-tight sm:w-[92%] xl:w-full">
                 Workday to SAP SuccessFactors <div className="block lg:hidden" /> Migration - <span className="xl:text-[34px] 4xl:text-[45px] leading-tight text-[22px] font-bold"> <div className="block lg:hidden" />Migrate with Confidence</span>
               </h2>
-              <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-medium xl:mt-[51px] mt-[17px] w-[96%] xl:w-[90%]">
+              <p className="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-medium xl:mt-[51px] mt-[17px] w-[96%] xl:w-[90%]">
                 Organizations seeking to move from Workday to SAP SuccessFactors can rely on Rialtes’ proven methodology to ensure a secure, compliant, and smooth transition.
               </p>
             </div>
@@ -403,13 +398,13 @@ export default function Page() {
               <h3 className="xl:text-[26px] 4xl:text-[30px] leading-tight text-[22px] w-[92%] xl:w-full">
                 Our Workday to SuccessFactors Migration Includes:
               </h3>
-              <UnorderedList arrName={ourWorkdayData} ulClassName="w-[92%] lg:w-full xl:mt-[39px] mt-[26px] xl:space-y-[27px] space-y-[19px] list-disc pl-[20px]" liClassName="xl:text-[19px] 4xl:text-[20px] leading-tight text-[16px] font-normal" />
+              <UnorderedList arrName={ourWorkdayData} ulClassName="w-[92%] lg:w-full xl:mt-[39px] mt-[26px] xl:space-y-[27px] space-y-[19px] list-disc pl-[20px]" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-normal" />
             </div>
             <div>
               <h3 className="xl:text-[26px] 4xl:text-[30px] leading-tight text-[22px] w-[92%] xl:w-full">
                 Key Benefits of Migrating from Workday to SuccessFactors:
               </h3>
-              <UnorderedList arrName={keyBenefitsData} ulClassName="w-[92%] lg:w-full xl:mt-[39px] mt-[26px] xl:space-y-[27px] space-y-[19px] list-disc pl-[20px]" liClassName="xl:text-[19px] 4xl:text-[20px] leading-tight text-[16px] font-normal" />
+              <UnorderedList arrName={keyBenefitsData} ulClassName="w-[92%] lg:w-full xl:mt-[39px] mt-[26px] xl:space-y-[27px] space-y-[19px] list-disc pl-[20px]" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-normal" />
             </div>
           </div>
         </div>
@@ -418,10 +413,10 @@ export default function Page() {
         <>
           <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[20px] xl:gap-[60px] gap-y-[39px] xl:mt-[90px] mt-[60px] 4xl:pr-[280px]">
             <div className="lg:col-span-7 3xl:col-span-8 col-span-12 lg:order-1 order-2">
-              <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] sm:w-[92%] xl:w-[92%]">
+              <h2 className="xl:text-[40px] 4xl:text-[60px] md:text-[32px] text-[26px] leading-tight sm:w-[92%] xl:w-[92%]">
                 ZOHO HR to SAP SuccessFactors <div className="block lg:hidden" /> Migration - <div className="xl:text-[34px] 4xl:text-[45px] leading-tight text-[22px] font-bold">Enterprise-Grade HR Transformation</div>
               </h2>
-              <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-medium xl:mt-[51px] mt-[17px] w-[94%] md:w-[80%] lg:w-full">
+              <p className="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-medium xl:mt-[51px] mt-[17px] w-[94%] md:w-[80%] lg:w-full">
                 Outgrowing ZOHO HR? Rialtes offers end-to-end migration from ZOHO HR to SAP SuccessFactors, enabling a shift to a global, enterprise-grade HR platform.
               </p>
             </div>
@@ -455,18 +450,18 @@ export default function Page() {
               <h3 className="xl:text-[26px] 4xl:text-[30px] leading-tight text-[22px] w-[90%] xl:w-full">
                 Our ZOHO to SuccessFactors Migration Includes:
               </h3>
-              <UnorderedList arrName={ourZohoData} ulClassName="w-[92%] lg:w-full xl:mt-[39px] mt-[26px] xl:space-y-[27px] space-y-[19px] list-disc pl-[20px]" liClassName="xl:text-[19px] 4xl:text-[20px] leading-tight text-[16px] font-normal" />
+              <UnorderedList arrName={ourZohoData} ulClassName="w-[92%] lg:w-full xl:mt-[39px] mt-[26px] xl:space-y-[27px] space-y-[19px] list-disc pl-[20px]" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-normal" />
             </div>
             <div>
               <h3 className="xl:text-[26px] 4xl:text-[30px] leading-tight text-[22px] w-[90%] xl:w-full">
                 Benefits of Migrating from ZOHO HR to SAP SuccessFactors:
               </h3>
-              <UnorderedList arrName={zohoBenefitsData} ulClassName="w-[92%] lg:w-full xl:mt-[39px] mt-[26px] xl:space-y-[27px] space-y-[19px] list-disc pl-[20px]" liClassName="xl:text-[19px] 4xl:text-[20px] leading-tight text-[16px] font-normal" />
+              <UnorderedList arrName={zohoBenefitsData} ulClassName="w-[92%] lg:w-full xl:mt-[39px] mt-[26px] xl:space-y-[27px] space-y-[19px] list-disc pl-[20px]" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-normal" />
             </div>
           </div>
         </>
         <div className="4xl:mr-[280px] xl:shadow-lg border-b-2 border-white xl:mt-[100px] mt-[63px] bg-[#FFFFFF] pt-[40px]  pl-[24px]  xl:py-[83px] md:px-[60px]">
-          <h2 className="text-black xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] sm:w-[92%] lg:w-[60%] xl:w-full">
+          <h2 className="text-black xl:text-[40px] 4xl:text-[60px] md:text-[32px] text-[26px] leading-tight sm:w-[92%] lg:w-[60%] xl:w-full">
             Benefits of Migrating to SAP SuccessFactors with Rialtes’ Success+
           </h2>
           <div className="grid xl:grid-cols-4 md:grid-cols-2 grid-cols-1 md:gap-[40px] 2xl:gap-[60px] gap-y-[26px] sm:w-[90%] lg:w-full">
@@ -501,14 +496,14 @@ export default function Page() {
           {/* <div className="grid xl:grid-cols-12 grid-cols-1 xl:gap-[60px] gap-y-[26px]">
   {/* Heading - First on mobile */}
           <div className="xl:col-span-8 col-span-12 order-1">
-            <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[92%] md:w-[76%] xl:w-[94%]">
+            <h2 className="xl:text-[40px] 4xl:text-[60px] md:text-[32px] text-[26px] leading-tight w-[92%] md:w-[76%] xl:w-[94%]">
               Process-Driven Success with SAP Signavio and SAP Activate Methodology
             </h2>
           </div>
 
           {/* Paragraph - Second on mobile */}
           <div className="xl:col-span-4 col-span-12 order-2">
-            <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-normal w-[96%] md:w-[80%] xl:w-full">
+            <p className="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-normal w-[96%] md:w-[80%] xl:w-full">
               Rialtes leverages SAP Signavio’s powerful process intelligence combined
               with SAP Activate Methodology to ensure smooth and efficient
               implementation of SAP SuccessFactors.
@@ -539,7 +534,7 @@ export default function Page() {
                   <h4 className="text-[#0C8AD4] xl:text-[27px] 4xl:text-[30px] leading-tight text-[24px] xl:mb-[28px] mb-[16px] flex">
                     <div className="xl:text-[60px] 4xl:text-[70px] leading-tight text-[50px] mr-[20px] font-extrabold">{data.id}</div> <div className="my-auto">{data.title}</div>
                   </h4>
-                  <UnorderedList arrName={data.list} ulClassName="w-[88%] lg:w-full 4xl:w-[96%] xl:space-y-[30px] space-y-[19px] list-disc pl-[20px]" liClassName="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-normal" />
+                  <UnorderedList arrName={data.list} ulClassName="w-[88%] lg:w-full 4xl:w-[96%] xl:space-y-[30px] space-y-[19px] list-disc pl-[20px]" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-normal" />
                 </div>
               )
             })
@@ -554,11 +549,11 @@ export default function Page() {
               <h2 className="xl:text-[30px] 4xl:text-[40px] leading-tight text-[22px] font-bold w-[90%] lg:w-full">
                 SAP SuccessFactors and SAP S/4HANA - <div className="font-normal">Better Together</div>
               </h2>
-              <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-normal w-[92%] md:w-[80%] lg:w-full xl:mt-[42px] mt-[26px]">
+              <p className="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-normal w-[92%] md:w-[80%] lg:w-full xl:mt-[42px] mt-[26px]">
                 SAP SuccessFactors natively integrates with SAP S/4HANA, enabling seamless HR processes that are tightly coupled with finance, procurement, and operations.
               </p>
               <h3 className="xl:mt-[31px] mt-[26px] xl:text-[25px] 4xl:text-[30px] leading-tight text-[21px] font-semibold">Key Integrated Processes:</h3>
-              <UnorderedList arrName={sapSuccessFactorData} ulClassName="4xl:mt-[38px] mt-[22px] w-[88%] lg:w-full 4xl:w-[96%] xl:space-y-[24px] space-y-[19px] list-disc pl-[20px]" liClassName="xl:text-[18px] 4xl:text-[20px] leading-tight text-[16px] font-semibold" />
+              <UnorderedList arrName={sapSuccessFactorData} ulClassName="4xl:mt-[38px] mt-[22px] w-[88%] lg:w-full 4xl:w-[96%] xl:space-y-[24px] space-y-[19px] list-disc pl-[20px]" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-semibold" />
             </div>
             <div className="lg:order-2 order-1 lg:col-span-7 4xl:col-span-6 max-lg:pt-[45px]">
               <div className="lg:block hidden h-full 4xl:h-[800px] xl:h-[710px] lg:h-[620px] w-full lg:mt-[-60px]">
@@ -594,11 +589,11 @@ export default function Page() {
               <h2 className="xl:text-[30px] 4xl:text-[40px] leading-tight text-[22px] font-bold w-[90%] lg:w-full">
                 SAP CPI - <div className="font-normal"> Integrating SAP SuccessFactors Across Ecosystems</div>
               </h2>
-              <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-normal w-[92%] md:w-[80%] lg:w-full xl:mt-[42px] mt-[26px]">
+              <p className="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-normal w-[92%] md:w-[80%] lg:w-full xl:mt-[42px] mt-[26px]">
                 With SAP Cloud Platform Integration (CPI), Rialtes ensures smooth and secure integration of SuccessFactors with:
               </p>
               <h3 className="xl:mt-[31px] mt-[26px] xl:text-[25px] 4xl:text-[30px] leading-tight text-[21px] font-semibold">Key Integrated Processes:</h3>
-              <UnorderedList arrName={sapCpiData} ulClassName="4xl:mt-[38px] mt-[22px] w-[88%] lg:w-full 4xl:w-[96%] xl:space-y-[24px] space-y-[19px] list-disc pl-[20px]" liClassName="xl:text-[18px] 4xl:text-[20px] leading-tight text-[16px] font-semibold" />
+              <UnorderedList arrName={sapCpiData} ulClassName="4xl:mt-[38px] mt-[22px] w-[88%] lg:w-full 4xl:w-[96%] xl:space-y-[24px] space-y-[19px] list-disc pl-[20px]" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-semibold" />
             </div>
             <div className="lg:order-1 order-1 lg:col-span-6 max-lg:pt-[45px]">
               <div className="lg:block hidden h-full 4xl:h-[800px] xl:h-[710px] lg:h-[620px] w-full lg:mt-[-60px]">
@@ -633,11 +628,11 @@ export default function Page() {
               <h2 className="xl:text-[30px] 4xl:text-[40px] leading-tight text-[22px] font-bold w-[90%] lg:w-full">
                 SAP Joule -<div className="font-normal"> AI-Powered HR Assistant for SuccessFactors Leverage AI with SAP Joule - Empowering the Future of HR</div>
               </h2>
-              <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-normal w-[92%] md:w-[80%] lg:w-full xl:mt-[42px] mt-[26px]">
+              <p className="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-normal w-[92%] md:w-[80%] lg:w-full xl:mt-[42px] mt-[26px]">
                 Rialtes enables organizations to adopt SAP Joule, the intelligent AI assistant for SAP SuccessFactors.
               </p>
               <h3 className="xl:mt-[31px] mt-[26px] xl:text-[25px] 4xl:text-[30px] leading-tight text-[21px] font-semibold">Capabilities of SAP Joule:</h3>
-              <UnorderedList arrName={sapJouleData} ulClassName="4xl:mt-[38px] mt-[22px] w-[94%] lg:w-full 4xl:w-[96%] xl:space-y-[24px] space-y-[19px] list-disc pl-[20px]" liClassName="xl:text-[18px] 4xl:text-[20px] leading-tight text-[16px] font-semibold" />
+              <UnorderedList arrName={sapJouleData} ulClassName="4xl:mt-[38px] mt-[22px] w-[94%] lg:w-full 4xl:w-[96%] xl:space-y-[24px] space-y-[19px] list-disc pl-[20px]" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-semibold" />
             </div>
             <div className="lg:order-2 order-1 lg:col-span-6 max-lg:pt-[45px]">
               <div className="lg:block hidden h-full w-full lg:mt-[-60px]">
@@ -679,11 +674,11 @@ export default function Page() {
               <h2 className="xl:text-[30px] 4xl:text-[40px] leading-tight text-[22px] font-bold w-[90%] lg:w-full">
                 Extend SAP SuccessFactors with SAP BTP - <div className="font-normal"> Rialtes’ Unmatched Expertise </div>
               </h2>
-              <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-normal w-[92%] md:w-[80%] lg:w-full xl:mt-[42px] mt-[26px]">
+              <p className="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-normal w-[92%] md:w-[80%] lg:w-full xl:mt-[42px] mt-[26px]">
                 Rialtes’ strong SAP Business Technology Platform (BTP) competency allows for custom extensions, advanced analytics, and integrations:
               </p>
               <h3 className="xl:mt-[31px] mt-[26px] xl:text-[25px] 4xl:text-[30px] leading-tight text-[21px] font-semibold">Key Integrated Processes:</h3>
-              <UnorderedList arrName={extendData} ulClassName="4xl:mt-[38px] mt-[22px] w-[88%] lg:w-full 4xl:w-[96%] xl:space-y-[24px] space-y-[19px] list-disc pl-[20px] lg:pb-[120px]" liClassName="xl:text-[18px] 4xl:text-[20px] leading-tight text-[16px] font-semibold" />
+              <UnorderedList arrName={extendData} ulClassName="4xl:mt-[38px] mt-[22px] w-[88%] lg:w-full 4xl:w-[96%] xl:space-y-[24px] space-y-[19px] list-disc pl-[20px] lg:pb-[120px]" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-semibold" />
               {/* blue box desktop*/}
               <div className="lg:absolute lg:mt-[-20px] lg:ml-[-20px] mt-[40px] lg:block hidden">
                 <div className="xl:py-[39px] xl:px-[54px] py-[27px] px-[36px] bg-[#068EDA] text-white lg:w-fit">
@@ -724,7 +719,7 @@ export default function Page() {
       </section>
       {/* related section */}
       <section className="custom-container xl:mt-[205px] lg:mt-[125px] mt-[44px]">
-        <h2 className="xl:text-[40px] 4xl:text-[60px] leading-tight text-[26px] w-[90%] lg:w-full">
+        <h2 className="xl:text-[40px] 4xl:text-[60px] md:text-[32px] text-[26px] leading-tight w-[90%] lg:w-full">
           Related SAP Solutions for End-to-End <div className="md:block hidden" /> Transformation
         </h2>
         <div className="grid md:grid-cols-2 grid-cols-1 sm:w-[76%] md:w-[84%] lg:w-[70%] md:gap-[34px] gap-y-[20px] xl:mt-[39px] mt-[22px]">
@@ -791,13 +786,13 @@ export default function Page() {
         <div className="custom-container xl:mt-[60px] mt-[66px]">
           <div className="grid lg:grid-cols-12 grid-cols-1 text-white lg:gap-[80px] gap-y-[28px]">
             <div className="lg:col-span-6 lg:w-[88%]">
-              <p className="xl:text-[19px] 4xl:text-[22px] leading-tight text-[16px] font-normal w-[90%] lg:w-full">
+              <p className="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-normal w-[90%] lg:w-full">
                 AgentChat is a bi-directional WhatsApp conversational app, natively built on Salesforce, and integrates with SAP SuccessFactors to drive better HR service delivery.
               </p>
             </div>
             <div className="lg:col-span-6">
               <h3 className="xl:text-[24px] 4xl:text-[30px] leading-tight text-[18px] font-semibold">Key Features:</h3>
-              <UnorderedList arrName={agentData} ulClassName="w-[92%] lg:w-full xl:mt-[37px] mt-[17px] xl:space-y-[27px] space-y-[19px] list-disc pl-[20px]" liClassName="xl:text-[19px] 4xl:text-[20px] leading-tight text-[16px] font-semibold" />
+              <UnorderedList arrName={agentData} ulClassName="w-[92%] lg:w-full xl:mt-[37px] mt-[17px] xl:space-y-[27px] space-y-[19px] list-disc pl-[20px]" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-semibold" />
             </div>
           </div>
           <div className="xl:mt-[64px] mt-[49px]">

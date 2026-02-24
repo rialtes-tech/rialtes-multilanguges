@@ -328,9 +328,7 @@ export default function Page() {
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
             {/* breadcrumb schema */}
-      <BreadcrumbSchema
-        currPage="Exelona"
-      />
+            <BreadcrumbSchema currPage="Exelona" />
             {/* hero section */}
             <section className="relative overflow-hidden">
                 <div className="xl:absolute inset-0 z-0">
@@ -369,7 +367,7 @@ export default function Page() {
                 </div>
                 {/* Content */}
                 <div className="relative z-20 text-white custom-container 4xl:mt-[22rem] 2xl:mt-[20rem] xl:mt-[18rem] mt-[200px] 4xl:pr-0">
-                     {/* breadcrumb */}
+                    {/* breadcrumb */}
                     <BreadCrumbs currPage="Exelona" />
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 mt-5">
                         <div className="xl:col-span-12 col-span-12 pr-5 ">
@@ -400,7 +398,7 @@ export default function Page() {
             <section>
                 <div className="grid grid-cols-12 bg-[#134874] custom-container 4xl:pr-0 2xl:pr-0 xl:pr-0">
                     <div className="xl:col-span-7 4xl:col-span-6 col-span-12 mt-10 4xl:pb-20 xl:pb-20 pb-10 4xl:pr-24 xl:pr-0 2xl:pr-0 pr-10">
-                        <p className="text-white font-light leading-tight">
+                        <p className="text-white font-light leading-tight md:text-[18px] 4xl:text-[20px] text-[16px]">
                             Welcome to Exelona, the intelligent real estate cloud platform that unifies
                             every step of the property lifecycle—from lead generation to financial
                             closeout. Built for property managers, developers, and portfolio owners,
@@ -445,8 +443,8 @@ export default function Page() {
                 <div className="relative custom-container 4xl:pb-0 text-white">
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 4xl:mt-32 xl:mt-20 mx-auto mt-20">
                         <div className="xl:col-span-12 col-span-12">
-                            <h2 className="4xl:text-[60px] 2xl:text-[48px] text-[26px] xl:text-[40px] leading-tight">Your Digital Real Estate Backbone</h2>
-                            <p className="leading-tight mt-[17px] xl:mt-[28px] xl:w-[80%] 2xl:w-full">Built for modern portfolios, Exelona empowers your teams with seamless collaboration, automation, and scale.</p>
+                            <h2 className="4xl:text-[60px] 2xl:text-[48px] text-[26px] xl:text-[40px] md:text-[32px] leading-tight">Your Digital Real Estate Backbone</h2>
+                            <p className="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight mt-[17px] xl:mt-[28px] xl:w-[80%] 2xl:w-full">Built for modern portfolios, Exelona empowers your teams with seamless collaboration, automation, and scale.</p>
                             <h3 className="4xl:text-[36px] xl:text-[30px] text-[18px] mt-[32px] xl:mt-[60px]">What Sets Exelona Apart</h3>
                         </div>
                     </div>
@@ -464,7 +462,7 @@ export default function Page() {
                                 <h3 className="font-bold 4xl:text-[23px] mt-5 text-[18px] leading-tight">
                                     {feature.title}
                                 </h3>
-                                <p className="text-gray-200 leading-tight mt-6 lg:mt-8 4xl:w-[90%] min-[400px]:w-[80%] sm:w-full">{feature.desc}</p>
+                                <p className="text-gray-200 leading-tight mt-6 lg:mt-8 4xl:w-[90%] min-[400px]:w-[80%] sm:w-full md:text-[18px] 4xl:text-[20px] text-[16px]">{feature.desc}</p>
                             </div>
                         ))}
                     </div>
@@ -479,14 +477,14 @@ export default function Page() {
                 <div className="grid xl:grid-cols-2 grid-cols-1 custom-container xl:pr-0">
                     {/* Left Content */}
                     <div className="text-white">
-                        <h2 className="min-[400px]:w-[80%] sm:w-full 4xl:text-[60px] 2x:text-[40px] xl:text-[40px] md:text-[30px] font-light leading-tight text-white mt-20">
+                        <h2 className="min-[400px]:w-[80%] sm:w-full 4xl:text-[60px] 2x:text-[40px] xl:text-[40px] md:text-[32px] font-light leading-tight text-white mt-20">
                             Asset Marketing –
                             Maximize Leasing Velocity  & Brand Performance
                         </h2>
                         <h3 className="mt-8 4xl:text-[40px] 2xl:text-[30px] xl:text-[28px] font-semibold text-white">
                             Market smarter. Lease faster.
                         </h3>
-                        <p className="mt-4 text-gray-200 leading-tight 4xl:w-[90%] min-[400px]:w-[90%] sm:w-full">
+                        <p className="mt-4 text-gray-200 leading-tight 4xl:w-[90%] min-[400px]:w-[90%] sm:w-full md:text-[18px] 4xl:text-[20px] text-[16px]">
                             Exelona’s Asset Marketing module transforms how you position,
                             promote, and lease your properties.
                         </p>
@@ -498,7 +496,7 @@ export default function Page() {
                             src="/images/products/exelona/desktop/asset-marketing.webp"
                             alt="Asset Marketing"
                             width={1200}
-                            height={630} 
+                            height={630}
                             className="object-cover h-full w-full xl:pt-[40px]"
                         />
                     </div>
@@ -510,7 +508,7 @@ export default function Page() {
                                 return (
                                     <div key={ind}>
                                         <h4 className="font-semibold text-white 4xl:text-[22px] text-[18px]">{data.title}</h4>
-                                        <UnorderedList arrName={data.list} ulClassName="mt-3 list-outside space-y-5 text-gray-200 list-disc 4xl:text-[20px] text-[16px] pl-[20px]" liClassName="" />
+                                        <UnorderedList arrName={data.list} ulClassName="mt-3 list-outside space-y-5 text-gray-200 list-disc md:text-[18px] 4xl:text-[20px] text-[16px] pl-[20px]" liClassName="" />
                                     </div>
                                 )
                             })
@@ -523,7 +521,7 @@ export default function Page() {
                             <LearnMore bgcolor="#0A6BB8" bordercolor="#0A6BB8" hoverTextColor="black" />
                         </div>
                         <div>
-                            <p className="bg-[#0A6BB8] text-white 4xl:text-[24px] xl:text-[20px] text-[18px] md:py-[12px] md:px-[32px] py-[14px] px-[20px] md:mt-[23px] min-[400px]:w-[90%] sm:w-fit">See how top portfolios grow occupancy with Asset Marketing</p>
+                            <p className="bg-[#0A6BB8] text-white md:text-[18px] 4xl:text-[20px] text-[16px] md:py-[12px] md:px-[32px] py-[14px] px-[20px] md:mt-[23px] min-[400px]:w-[90%] sm:w-fit">See how top portfolios grow occupancy with Asset Marketing</p>
                         </div>
                     </div>
                 </div>
@@ -547,7 +545,7 @@ export default function Page() {
                     <div className="lg:col-span-8 col-span-12 bg-[#C6E7FF] lg:relative 4xl:pl-[230px] 2xl:px-[140px] lg:pl-[130px] lg:pr-[100px] px-10 lg:pt-[78px] pt-[30px] !pb-0">
 
                         {/* Text content */}
-                        <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[48px] text-[26px] text-[#0A2E4D] leading-tight mb-4">
+                        <h2 className="text-[26px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] 4xl:text-[60px]  text-[#0A2E4D] leading-tight mb-4">
                             AI-Enabled Property
                             Operations – Run Smarter,
                             Respond Faster
@@ -556,7 +554,7 @@ export default function Page() {
                         <p className="font-semibold 4xl:text-[40px] mt-10 2xl:text-[30px] xl:text-[24px] text-[18px] text-black mb-2 leading-tight">
                             Operational excellence meets automation.
                         </p>
-                        <p className="text-gray-700 mb-6 max-w-2xl mt-6">
+                        <p className="text-gray-700 mb-6 max-w-2xl mt-6 md:text-[18px] 4xl:text-[20px] text-[16px]">
                             Exelona’s AI-enabled property operations give you full control over
                             daily operations with AI at the core.
                         </p>
@@ -568,7 +566,7 @@ export default function Page() {
                                     return (
                                         <div key={ind}>
                                             <h3 className="font-semibold text-[#0A6FBF] mb-3 text-[18px] xl:text-[20px] 4xl:text-[22px]">{data.title}</h3>
-                                            <UnorderedList arrName={data.list} ulClassName="space-y-[19px] xl:space-y-[24px] 4xl:text-[20px] text-[16px] list-outside list-disc xl:pb-16 2xl:pb-14 4xl:pb-0 pl-[22px]" liClassName="" />
+                                            <UnorderedList arrName={data.list} ulClassName="space-y-[19px] xl:space-y-[24px] md:text-[18px] 4xl:text-[20px] text-[16px] list-outside list-disc xl:pb-16 2xl:pb-14 4xl:pb-0 pl-[22px]" liClassName="" />
                                         </div>
                                     )
                                 })
@@ -579,7 +577,7 @@ export default function Page() {
                         <div className="mt-16 xl:mt-0 xl:flex gap-8 xl:gap-10 4xl:mt-[65px] items-end">
                             <LearnMore />
                             <div>
-                                <p className="bg-[#0A6BB8] mt-10 w-fit xl:mt-[20px] px-6 py-[14px] text-white text-left 4xl:text-[26px] text-[18px] xl:text-[16px]">
+                                <p className="bg-[#0A6BB8] mt-10 w-fit xl:mt-[20px] px-6 py-[14px] text-white text-left md:text-[18px] 4xl:text-[20px] text-[16px]">
                                     Automate and optimize property operations
                                 </p>
                             </div>
@@ -593,9 +591,9 @@ export default function Page() {
                 {/* property section */}
                 <section className="lg:pt-[170px] pt-[53px] lg:mt-[-80px] custom-container">
                     <>
-                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] text-[26px] font-light leading-tight">Property Financial Suite – <br></br>Real Estate Finance Reimagined</h2>
+                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] text-[26px] md:text-[32px] font-light leading-tight">Property Financial Suite – <br></br>Real Estate Finance Reimagined</h2>
                         <h3 className="xl:mt-[36px] mt-[14px] 4xl:text-[40px] 2xl:text-[30px] xl:text-[28px] font-semibold leading-tight">Own your financials from billing to balance sheets.</h3>
-                        <p className="xl:mt-[39px] mt-[16px]">Exelona’s financial modules deliver accuracy, automation, and clarity across your property finance stack.</p>
+                        <p className="xl:mt-[39px] mt-[16px] md:text-[18px] 4xl:text-[20px] text-[16px]">Exelona’s financial modules deliver accuracy, automation, and clarity across your property finance stack.</p>
                     </>
                     <div className="grid lg:grid-cols-2 4xl:gap-[140px] xl:gap-[60px] gap-10 xl:mt-[68px] lg:mt-[30px]">
                         {properties.map((feature, idx) => (
@@ -615,11 +613,11 @@ export default function Page() {
                                     <h3 className="font-semibold mb-4 text-white 4xl:text-[28px] text-[18px]">
                                         {feature.title}
                                     </h3>
-                                    <UnorderedList arrName={feature.points} ulClassName="list-disc pl-5 space-y-5 mb-4 text-white 4xl:text-[20px] text-[16px]" liClassName="" />
+                                    <UnorderedList arrName={feature.points} ulClassName="list-disc pl-5 space-y-5 mb-4 text-white md:text-[18px] 4xl:text-[20px] text-[16px]" liClassName="" />
                                     <h4 className="font-semibold text-white mt-10 4xl:text-[22px] text-[18px]">
                                         Outcomes
                                     </h4>
-                                    <UnorderedList arrName={feature.outcomes} ulClassName="list-disc pl-5 space-y-5 text-white mt-4 4xl:text-[20px] text-[16px] min-[400px]:w-[90%] sm:w-full" liClassName="" />
+                                    <UnorderedList arrName={feature.outcomes} ulClassName="list-disc pl-5 space-y-5 text-white mt-4 md:text-[18px] 4xl:text-[20px] text-[16px] min-[400px]:w-[90%] sm:w-full" liClassName="" />
                                 </div>
                             </div>
                         ))}
@@ -631,7 +629,7 @@ export default function Page() {
                             <LearnMore bgcolor="#073259" bordercolor="#073259" />
                         </>
                         <>
-                            <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-3 text-white text-left 4xl:text-[22px] text-[18px] xl:text-[16px] w-fit">
+                            <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-3 text-white text-left md:text-[18px] 4xl:text-[20px] text-[16px] w-fit">
                                 Streamline your real estate finance
                             </p>
                         </>
@@ -653,7 +651,7 @@ export default function Page() {
 
                     {/* Right Side - Content */}
                     <div className="4xl:px-16 text-white xl:col-span-8 col-span-12 2xl:px-14 xl:px-14">
-                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] text-[26px] font-light leading-tight mt-10 xl:mt-0 4xl:mt-0 2xl:mt-0">
+                        <h2 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] text-[26px] md:text-[32px] font-light leading-tight mt-10 xl:mt-0 4xl:mt-0 2xl:mt-0">
                             ExelPersona <span className="align-super inline-block ml-[-6px] md:ml-[-8px] w-4 h-4 xl:w-6 xl:h-6">
                                 <Image
                                     src="/images/products/exelona/desktop/trademark.png"
@@ -668,7 +666,7 @@ export default function Page() {
                         <h3 className="mt-8 4xl:text-[40px] 2xl:text-[30px] xl:text-[28px] text-[18px] font-semibold leading-tight 4xl:pr-64 2xl:pr-64 xl:pr-32 min-[400px]:w-[90%] sm:w-full">
                             Custom-branded portals. Multilingual access. Mobile-native by design.
                         </h3>
-                        <p className="mt-8 4xl:text-[20px] text-base 4xl:pr-[28rem] 2xl:pr-[20rem] xl:pr-[13rem] pr-10">
+                        <p className="mt-8 md:text-[18px] 4xl:text-[20px] text-[16px] text-base 4xl:pr-[28rem] 2xl:pr-[20rem] xl:pr-[13rem] pr-10">
                             ExelPersona is your fully customizable applicant and resident
                             portal, created to reflect your brand and deliver 24/7 self-service.
                         </p>
@@ -681,7 +679,7 @@ export default function Page() {
                                     return (
                                         <div key={ind}>
                                             <h4 className="4xl:text-[22px] text-[18px] font-semibold mb-3 xl:mb-[32px]">{data.title}</h4>
-                                            <UnorderedList arrName={data.list} ulClassName="space-y-5 text-gray-200 list-disc list-outside 4xl:text-[20px] text-[16px] pl-5 4xl:pr-20 2xl:pr-20" liClassName="" />
+                                            <UnorderedList arrName={data.list} ulClassName="space-y-5 text-gray-200 list-disc list-outside md:text-[18px] 4xl:text-[20px] text-[16px] pl-5 4xl:pr-20 2xl:pr-20" liClassName="" />
                                         </div>
                                     )
                                 })
@@ -693,7 +691,7 @@ export default function Page() {
                             <>
                                 <LearnMore bgcolor="#073259" bordercolor="#073259" />
                             </>
-                            <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-3 w-fit text-white text-left 4xl:text-[26px] text-[18px] xl:text-[16px] 4xl:w-[60%]">
+                            <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-3 w-fit text-white text-left md:text-[18px] 4xl:text-[20px] text-[16px] 4xl:w-[60%]">
                                 Design your branded resident experience with ExelPersona
                             </p>
                         </div>
@@ -708,7 +706,7 @@ export default function Page() {
                     2xl:pl-[135px] 2xl:pr-[510px] xl:pl-[80px] xl:pr-[435px] 
                     pl-10 order-last xl:order-first mt-[-230px] 4xl:mt-0 2xl:mt-0 xl:mt-0 max-xl:px-[35px]">
                             {/* Text content */}
-                            <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[48px] text-[26px] text-[#0A2E4D] leading-tight mb-4 pt-[17rem] xl:pt-14 4xl:pt-20 2xl:pt-16 3xl:w-[90%]">
+                            <h2 className="text-[26px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] 4xl:text-[60px] text-[#0A2E4D] leading-tight mb-4 pt-[17rem] xl:pt-14 4xl:pt-20 2xl:pt-16 3xl:w-[90%]">
                                 ExelPay<span className="align-super inline-block ml-[6px] w-4 h-4 xl:w-6 xl:h-6">
                                     <Image
                                         src="/images/products/exelona/desktop/black-trademark.png"
@@ -724,7 +722,7 @@ export default function Page() {
                             <p className="font-semibold 4xl:text-[40px] mt-10 2xl:text-[30px] xl:text-[24px] text-[18px] text-black mb-2 leading-tight 4xl:pr-[12rem]">
                                 Integrated payments that work how your residents pay.
                             </p>
-                            <p className="text-gray-700 mb-6 max-w-2xl mt-6">
+                            <p className="text-gray-700 mb-6 max-w-2xl mt-6 md:text-[18px] 4xl:text-[20px] text-[16px]">
                                 ExelPay is Exelona’s secure payment gateway for collecting rent,
                                 deposits, and fees with full reconciliation.
                             </p>
@@ -738,7 +736,7 @@ export default function Page() {
                                                 <h3 className="font-semibold text-[#000000] mb-3 4xl:mb-[] 4xl:text-[22px] text-[18px]">
                                                     {data.title}
                                                 </h3>
-                                                <UnorderedList arrName={data.list} ulClassName="4xl:space-y-5 space-y-3 xl:space-y-3 text-gray-800 4xl:text-[20px] text-[16px] list-disc pl-[20px]" liClassName="" />
+                                                <UnorderedList arrName={data.list} ulClassName="4xl:space-y-5 space-y-3 xl:space-y-3 text-gray-800 md:text-[18px] 4xl:text-[20px] text-[16px] list-disc pl-[20px]" liClassName="" />
                                             </div>
                                         )
                                     })
@@ -750,7 +748,7 @@ export default function Page() {
                                 <div className="xl:w-[200px]">
                                     <LearnMore bgcolor="#073259" bordercolor="#073259" />
                                 </div>
-                                <p className="bg-[#0A6BB8] w-fit mt-10 xl:mt-0 px-6 py-3 text-white text-left 4xl:text-[22px] text-[18px] xl:text-[18px]">
+                                <p className="bg-[#0A6BB8] w-fit mt-10 xl:mt-0 px-6 py-3 text-white text-left md:text-[18px] 4xl:text-[20px] text-[16px]">
                                     Power up your collections with ExelPay
                                 </p>
                             </div>
@@ -784,14 +782,14 @@ export default function Page() {
 
                     <div className="xl:col-span-9 4xl:mt-0 xl:mt-0 2xl:mt-0 xl:mb-20 col-span-12 bg-[#073259] text-white xl:relative 4xl:pl-[315px] 4xl:ml-[-100px] 4xl:pr-[150px] 2xl:px-[150px] xl:pl-[130px] xl:pr-[100px] px-10">
 
-                        <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[48px] text-[26px] leading-tight mb-4 pt-[49px] xl:pt-14 4xl:pt-20 2xl:pt-16 min-[400px]:w-[90%] sm:w-full">
+                        <h2 className="text-[26px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] 4xl:text-[60px]  leading-tight mb-4 pt-[49px] xl:pt-14 4xl:pt-20 2xl:pt-16 min-[400px]:w-[90%] sm:w-full">
                             AgentChat – Real-Time AI Assistant for Residents & Teams
                         </h2>
 
                         <p className="font-semibold 4xl:text-[40px] mt-10 2xl:text-[30px] xl:text-[24px] text-[18px] mb-2 leading-tight">
                             Scale your support without scaling your staff.
                         </p>
-                        <p className="mb-6 mt-6 leading-tight 4xl:pr-64 2xl:pr-64 xl:pr-32">
+                        <p className="mb-6 mt-6 leading-tight 4xl:pr-64 2xl:pr-64 xl:pr-32 md:text-[18px] 4xl:text-[20px] text-[16px]">
                             AgentChat is the conversational AI built into Exelona for residents, applicants, and property teams.
                         </p>
 
@@ -801,7 +799,7 @@ export default function Page() {
                                     return (
                                         <div key={ind}>
                                             <h3 className="font-bold mb-3 4xl:text-[22px] text-[18px]">{data.title}</h3>
-                                            <UnorderedList arrName={data.list} ulClassName="4xl:space-y-5 space-y-3 xl:space-y-3 4xl:text-[20px] text-[16px] list-outside list-disc xl:pb-16 2xl:pb-14 4xl:pb-0 pr-10 4xl:pl-[20px] 2xl:pl-[20px] xl:pl-[20px] pl-[15px]" liClassName="" />
+                                            <UnorderedList arrName={data.list} ulClassName="4xl:space-y-5 space-y-3 xl:space-y-3 md:text-[18px] 4xl:text-[20px] text-[16px] list-outside list-disc xl:pb-16 2xl:pb-14 4xl:pb-0 pr-10 4xl:pl-[20px] 2xl:pl-[20px] xl:pl-[20px] pl-[15px]" liClassName="" />
                                         </div>
                                     )
                                 })
@@ -814,7 +812,7 @@ export default function Page() {
                                 <LearnMore bgcolor="#134874" bordercolor="#134874" />
                             </>
                             <div>
-                                <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-[13px] text-white text-left 4xl:text-[26px] text-[18px] xl:text-[16px] w-fit">
+                                <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-[13px] text-white text-left md:text-[18px] 4xl:text-[20px] text-[16px] w-fit">
                                     Experience AI-powered property communication
                                 </p>
                             </div>
@@ -826,7 +824,7 @@ export default function Page() {
                 <section className="custom-container mt-20 xl:pb-[120px] pb-[90px]">
                     <div className="grid xl:grid-cols-12 grid-cols-1 gap-2 xl:gap-10 4xl:gap-[80px]">
                         <div className="xl:col-span-7 col-span-12">
-                            <h2 className="4xl:text-[60px] xl:text-[40px] 2xl:text-[48px] text-[26px]  leading-tight text-white font-light">
+                            <h2 className="text-[26px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] 4xl:text-[60px] leading-tight text-white font-light">
                                 Built for Scale.  Trusted by Real Estate Leaders.
                             </h2>
                         </div>
@@ -845,7 +843,7 @@ export default function Page() {
                             builtData.map((data, ind) => {
                                 return (
                                     <div className="bg-white py-[30px] px-[27px] xl:py-[46px] xl:px-[40px]" key={ind}>
-                                        <p className="leading-tight text-[16px] xl:text-[19px] 4xl:text-[20px]">{data}</p>
+                                        <p className="leading-tight md:text-[18px] 4xl:text-[20px] text-[16px]">{data}</p>
                                     </div>
                                 )
                             })
@@ -880,13 +878,13 @@ export default function Page() {
                         {/* Overlay only on this block */}
                         <div className="absolute inset-0 bg-[#068EDA] mix-blend-multiply"></div>
                         <div className="relative pt-[63px] xl:pt-[80px] text-white xl:px-[81px] px-[36px] md:w-[90%] lg:w-full">
-                            <h2 className="font-light 4xl:text-[60px] xl:text-[40px] text-[26px]">
+                            <h2 className="font-light 4xl:text-[60px] xl:text-[40px] text-[26px] md:text-[32px]">
                                 Built on Salesforce
                             </h2>
                             <h3 className="font-semibold 4xl:text-[40px] xl:text-[30px] text-[18px] xl:mt-[24px] mt-[22px]">
                                 Trusted Infrastructure for the Real Estate Enterprise
                             </h3>
-                            <p className="font-light 4xl:text-[20px] xl:text-[18px] text-[16px] xl:mt-[33px] mt-[22px]">
+                            <p className="font-light md:text-[18px] 4xl:text-[20px] text-[16px] xl:mt-[33px] mt-[22px]">
                                 Exelona<span className="align-super inline-block ml-[1px] w-3 h-3 xl:w-4 xl:h-4">
                                     <Image
                                         src="/images/products/exelona/desktop/trademark.png"
@@ -912,11 +910,11 @@ export default function Page() {
                                                     {data.list.map((elem, id) => (
                                                         <li key={id} className="mb-2">
                                                             {elem.title && (
-                                                                <p className="font-bold 4xl:text-[20px] xl:text-[18px] text-[16px]">
+                                                                <p className="font-bold md:text-[18px] 4xl:text-[20px] text-[16px]">
                                                                     {elem.title}
                                                                 </p>
                                                             )}
-                                                            <p className="font-light 4xl:text-[20px] xl:text-[18px] text-[16px]">
+                                                            <p className="font-light md:text-[18px] 4xl:text-[20px] text-[16px]">
                                                                 {elem.desc}
                                                             </p>
                                                         </li>
@@ -935,7 +933,7 @@ export default function Page() {
                                 <LearnMore bgcolor="#073259" bordercolor="#073259" />
                             </>
                             <>
-                                <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-3 text-white text-left 4xl:text-[26px] text-[18px] xl:text-[16px] min-[400px]:w-[96%] sm:w-fit">
+                                <p className="bg-[#0A6BB8] mt-10 xl:mt-0 px-6 py-3 text-white text-left md:text-[18px] 4xl:text-[20px] text-[16px] min-[400px]:w-[96%] sm:w-fit">
                                     Explore the power of Salesforce + Exelona
                                 </p>
                             </>
@@ -945,7 +943,7 @@ export default function Page() {
             </section>
 
             <section className="custom-container text-white bg-[#134874] py-16 max-md:mt-0">
-                <ContactForm title={'Ready to Transform Your Real Estate Business?'} subtitle={"Let’s build it, automate it, and grow it—with Exelona."} className={"leading-tight  xl:w-[70%] 4xl:text-[60px] xl:text-[40px]"} beginBtnBg="#006FBE" />
+                <ContactForm title={'Ready to Transform Your Real Estate Business?'} subtitle={"Let’s build it, automate it, and grow it—with Exelona."} className={"leading-tight  xl:w-[70%] text-[26px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] 4xl:text-[60px]"} beginBtnBg="#006FBE" />
 
                 <h3 className="font-semibold 4xl:text-[40px] xl:text-[30px] text-[18px] xl:mt-[91px] mt-[62px]">
                     Trusted Infrastructure for the Real Estate Enterprise

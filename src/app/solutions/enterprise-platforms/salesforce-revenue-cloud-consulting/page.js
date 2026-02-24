@@ -223,7 +223,7 @@ export default function HealthCloud() {
                             <h3 className="text-white text-[14px] md:text-[20px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] 4xl:text-[24px] font-bold">
                                 Salesforce Revenue Cloud
                             </h3>
-                            <h2 className="text-white   text-[24px]  md:text-[30px]  lg:text-[50px]  mt-[11.5px] md:mt-[10px] xl:text-[40px] 2xl:text-[50px] 4xl:text-[60px] w-[300px] md:w-[370px] lg:w-[600px] xl:w-[500px] 2xl:w-[650px] 4xl:w-[778px] leading-tight ">
+                            <h2 className="text-white 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] mt-[11.5px] md:mt-[10px] w-[300px] md:w-[370px] lg:w-[600px] xl:w-[500px] 2xl:w-[650px] 4xl:w-[778px] leading-tight ">
                                 Manage Revenue Streams and Customer Relationships in One Place
                             </h2>
                             <Image
@@ -246,7 +246,7 @@ export default function HealthCloud() {
                     <div className="2xl:pr-72 xl:pr-40 md:pr-20 4xl:pr-20">
                         <div className="flex flex-col lg:flex-row items-center py-6 ">
                             <div className="flex flex-col  xl:mb-0 mb-4 ">
-                                <h1 className=" md:pb-0 pb-4 2xl:text-[56px] xl:text-[52px] xl:w-[650px] 2xl:w-[700px]  4xl:text-[60px] 4xl:w-[740px] lg:text-[42px] lg:w-[520px] leading-tight text-[26px] md:text-[30px] ">Simplify your Company’s Revenue Generation with Revenue Cloud</h1>
+                                <h1 className=" md:pb-0 pb-4 xl:w-[650px] 2xl:w-[700px]  4xl:w-[740px] lg:w-[520px] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px]">Simplify your Company’s Revenue Generation with Revenue Cloud</h1>
                             </div>
                             <div className="flex flex-col w-full ">
                                 <p className="text-[#000000]  2xl:text-[18px] 2xl:w-[520px] 4xl:text-[20px] 4xl:w-[580px]  xl:text-[16px] xl:w-[460px] lg:text-[14px] lg:w-[400px] md:text-[18px] 4xl:pl-10 2xl:pl-8 xl:pl-8 lg:pl-6"> Leverage the expertise of our Salesforce professionals to implement a highly effective revenue management solution. The comprehensive suite of cloud-based software solutions is designed to help businesses optimize and streamline their entire revenue lifecycle.</p>
@@ -270,7 +270,7 @@ export default function HealthCloud() {
                 />
             </section>
             <section className="lg:mt-20 custom-container mt-10 pb-10">
-                <h2 className="text-[24px] md:text-[30px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] leading-tight   font-normal">Streamline your Quote-to-Cash Process</h2>
+                <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight font-normal">Streamline your Quote-to-Cash Process</h2>
                 <div className="grid lg:grid-cols-5 md:grid-cols-3 grid-cols-1 lg:mt-10 gap-5">
                     {salesForce.map((sales) => {
                         return (
@@ -295,7 +295,7 @@ export default function HealthCloud() {
                     })}
 
                 </div>
-                <h2 className="text-[24px] md:text-[30px] lg:text-[40px] xl:text-[46px] 2xl:text-[54px] 4xl:text-[60px] leading-tight  font-normal mt-20 lg:mt-40 2xl:w-[980px] 4xl:w-[1084px] xl:w-[860px] lg:w-[730px] ">Salesforce Revenue Cloud Services for Optimized Sales Pipeline</h2>
+                <h2 className="4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight  font-normal mt-20 lg:mt-40 2xl:w-[980px] 4xl:w-[1084px] xl:w-[860px] lg:w-[730px] ">Salesforce Revenue Cloud Services for Optimized Sales Pipeline</h2>
                 <div className="my-10">
                     <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:mt-10 gap-5">
                         {salesForce2.map((sales) => {
