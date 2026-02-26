@@ -549,7 +549,7 @@ export default function SalesForceConsulting() {
       <div className="grid lg:grid-cols-10 xl:gap-16 gap-5 px-6 custom-container mt-10 lg:mt-16">
         <div className="lg:col-span-6 4xl:col-span-9 2xl:col-span-5 ">
           <h2 className={` ${styles.heading2}`}>{autoSenseData.subHeader}</h2>
-        </div>
+        </div> 
       </div>
       <section className="custom-container xl:mt-10 mt-5">
         <div className="grid xl:grid-cols-12 grid-cols-1">
@@ -647,6 +647,7 @@ export default function SalesForceConsulting() {
                 <LearnMoreButton
                   bgcolor="#073259"
                   href="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india"
+                 btnName="Know More"
                 />
               </div>
             </div>
@@ -681,7 +682,7 @@ export default function SalesForceConsulting() {
               </div>
             ))}
             <div className="xl:relative 4xl:bottom-[-175px] 2xl:bottom-[-150px] xl:bottom-[-120px] xl:text-center">
-              <LearnMoreButton bgcolor="#073259" />
+              <LearnMoreButton bgcolor="#073259" btnName="Talk to Us" />
             </div>
           </div>
         </div>
@@ -742,6 +743,7 @@ export default function SalesForceConsulting() {
             <LearnMoreButton
               bgcolor="#073259"
               href="https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting"
+              btnName="Know More"
             />
           </div>
         </div>
@@ -788,6 +790,7 @@ export default function SalesForceConsulting() {
               <LearnMoreButton
                 bgcolor="#073259"
                 href="https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus"
+                btnName="Know More"
               />
             </div>
           </div>
@@ -846,6 +849,7 @@ export default function SalesForceConsulting() {
               <LearnMoreButton
                 bgcolor="#073259"
                 href="https://www.rialtes.com/services/lob/salesforce-automotive-cloud-business-solutions-autosense"
+                btnName="Know More"
               />
             </div>
           </div>
@@ -880,6 +884,7 @@ export default function SalesForceConsulting() {
               <LearnMoreButton
                 bgcolor="#073259"
                 href="https://www.rialtes.com/services/lob/salesforce-marketing-cloud-implementation-consulting"
+                btnName="Know More"
               />
             </div>
           </div>
@@ -933,6 +938,7 @@ export default function SalesForceConsulting() {
                 <LearnMoreButton
                   bgcolor="#073259"
                   href="https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting"
+                  btnName="Know More"
                 />
               </div>
             </div>
@@ -965,6 +971,7 @@ export default function SalesForceConsulting() {
                 <LearnMoreButton
                   bgcolor="#073259"
                   href="https://www.rialtes.com/services/lob/salesforce-fsc-consulting-rialfinanceplus"
+                  btnName="Know More"
                 />
               </div>
             </div>
@@ -1046,6 +1053,7 @@ export default function SalesForceConsulting() {
             <LearnMoreButton
               bgcolor="#134874"
               href="https://www.rialtes.com/products/agentchat"
+              btnName="Know More"
             />
           </div>
         </div>
@@ -1081,7 +1089,7 @@ export default function SalesForceConsulting() {
                   ulClassName={` ${styles.unorderedList}`}
                 />
                 <div className="mt-6 flex gap-4 flex-wrap">
-                  <LearnMoreButton bgcolor="#073259" href={section.href} />
+                  <LearnMoreButton bgcolor="#073259" href={section.href} btnName="Know More"/>
                 </div>
               </div>
             </section>
@@ -1139,6 +1147,7 @@ export default function SalesForceConsulting() {
               <LearnMoreButton
                 bgcolor="#073259"
                 href="https://www.rialtes.com/contact-us"
+                btnName="Know More"
               />
             </div>
           </div>

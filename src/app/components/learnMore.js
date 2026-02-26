@@ -14,6 +14,7 @@ export default function LearnMoreButton({
   return (
     <Link
       href={href}
+      btnName={btnName}
       aria-label={arialabel}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
