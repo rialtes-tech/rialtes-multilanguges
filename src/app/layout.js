@@ -49,8 +49,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en" className={montserrat.variable}>
-      <Head>
-        {/* GTM Head Snippet: Include GTM script that loads async */}
+      <head>
         <Script
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
@@ -68,11 +67,10 @@ export default function RootLayout({ children }) {
         />
         <link rel="icon" href="/Rialtes Symbol.jpg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-       
-      </Head>
+       <meta name="google-site-verification" content="xTXEeeTZwHXvyqDl1ZeYdUvjfm5R3Qrs6lzkTjulbOs" />
+      </head>
 
       <body className="font-sans bg-[#ffffff] relative">
-        {/* GTM noscript fallback */}
         <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-KM6HTT3"
@@ -81,8 +79,6 @@ export default function RootLayout({ children }) {
             style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
-
-        {/* Main page content always rendered */}
         <div className="w-full mx-auto max-w-[1920px]">
           <header>
             <Header />
