@@ -9,6 +9,7 @@ import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 import UnorderedList from "@/app/components/unorderedList";
 import LearnMoreButton from "@/app/components/learnMore";
 import styles from "../../../temp.module.css";
+import { useRef } from "react";
 
 export const agentChatData = {
   title: "Introducing AgentChat",
@@ -117,6 +118,7 @@ export default function SalesForceConsulting() {
   const datalifeAi = lifeAIPlusData;
   const dataRialFinance = rialFinancePlusData;
   const dataAgentChat = agentChatData;
+  const contactRef = useRef(null);
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -337,7 +339,7 @@ export default function SalesForceConsulting() {
           { label: "Learn More", type: "primary" },
           { label: "Visit Full Data Cloud Page", type: "secondary" },
         ],
-        href: "https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india",
+        href: "https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting",
       },
 
       {
@@ -486,6 +488,13 @@ export default function SalesForceConsulting() {
     },
   ];
 
+  const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
   return (
     <div>
       <Seo
@@ -549,7 +558,7 @@ export default function SalesForceConsulting() {
       <div className="grid lg:grid-cols-10 xl:gap-16 gap-5 px-6 custom-container mt-10 lg:mt-16">
         <div className="lg:col-span-6 4xl:col-span-9 2xl:col-span-5 ">
           <h2 className={` ${styles.heading2}`}>{autoSenseData.subHeader}</h2>
-        </div> 
+        </div>
       </div>
       <section className="custom-container xl:mt-10 mt-5">
         <div className="grid xl:grid-cols-12 grid-cols-1">
@@ -646,8 +655,8 @@ export default function SalesForceConsulting() {
               <div className="mt-8">
                 <LearnMoreButton
                   bgcolor="#073259"
-                  href="https://www.rialtes.com/solutions/enterprise-platforms/salesforce-consulting-partner-us-india"
-                 btnName="Know More"
+                  btnName="Talk to Us"
+                  onClick={handleScrollToContact}
                 />
               </div>
             </div>
@@ -681,9 +690,6 @@ export default function SalesForceConsulting() {
                 <p className={`${styles.paragraph20} mt-4`}>{service.desc}</p>
               </div>
             ))}
-            <div className="xl:relative 4xl:bottom-[-175px] 2xl:bottom-[-150px] xl:bottom-[-120px] xl:text-center">
-              <LearnMoreButton bgcolor="#073259" btnName="Talk to Us" />
-            </div>
           </div>
         </div>
       </section>
@@ -1089,7 +1095,11 @@ export default function SalesForceConsulting() {
                   ulClassName={` ${styles.unorderedList}`}
                 />
                 <div className="mt-6 flex gap-4 flex-wrap">
-                  <LearnMoreButton bgcolor="#073259" href={section.href} btnName="Know More"/>
+                  <LearnMoreButton
+                    bgcolor="#073259"
+                    href={section.href}
+                    btnName="Know More"
+                  />
                 </div>
               </div>
             </section>
@@ -1146,8 +1156,8 @@ export default function SalesForceConsulting() {
             <div className="xl:mt-12 xl:text-end">
               <LearnMoreButton
                 bgcolor="#073259"
-                href="https://www.rialtes.com/contact-us"
-                btnName="Know More"
+                btnName="Talk to Us"
+                onClick={handleScrollToContact}
               />
             </div>
           </div>
@@ -1173,7 +1183,10 @@ export default function SalesForceConsulting() {
           </div>
         </div>
       </div>
-      <section className="pb-20  custom-container  4xl:mt-20 2xl:mt-16 xl:mt-10">
+      <section
+        className="pb-20  custom-container  4xl:mt-20 2xl:mt-16 xl:mt-10 scroll-mt-28"
+        ref={contactRef}
+      >
         <ContactForm
           className={`${styles.heading2} xl:w-[85%] w-full`}
           title={"Let’s Elevate Salesforce Together."}
