@@ -143,7 +143,7 @@ const successStoryData = [
     title: "Manufacturing",
     description:
       "Streamlining Sales with Salesforce Sales Cloud for Manufacturing",
-    url: "insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company/",
+    url: "insights/case-studies/optimizing-sales-processes-with-salesforce-sales-cloud-for-a-manufacturing-company",
   },
   {
     id: 7,
@@ -263,7 +263,6 @@ const Home = () => {
                     alt={s.title}
                     fill
                     priority={i === 0}
-                    className="max-lg:object-cover max-lg:object-[14%_20%]"
                     loading={i === 0 ? "eager" : "lazy"}
                   />
                 </div>
@@ -274,7 +273,6 @@ const Home = () => {
                     alt={s.title}
                     fill
                     priority={i === 0}
-                    sizes="(max-width: 768px) 100vw, 50vw"
                     loading={i === 0 ? "eager" : "lazy"}
                   />
                 </div>
@@ -300,9 +298,9 @@ const Home = () => {
         <Image
           priority
           height="100"
-          width="280"
+          width="2000"
           alt="Success Stories"
-          className="object-contain w-full h-full transform group-hover:scale-110 group-hover:origin-center transition-transform duration-500"
+          className="object-contain w-full h-full"
           src="/images/homepage/innovative2.webp"
         />
         <div
@@ -420,7 +418,7 @@ const Home = () => {
           {/* mob section */}
           <div
             ref={refs[2]}
-            className={`transition-all duration-1000 ease-out transform xl:pl-[68px] block lg:hidden mb-[23px] w-[90%] ${inViews[2] ? "opacity-100 translate-y-0" : "opacity-0 translate-y-12"}`}
+            className={`transition-all duration-1000 ease-out transform xl:pl-[68px] block lg:hidden mb-[23px] w-[90%] ${inViews[2] ? "opacity-100 translate-y-0" : "translate-y-12"}`}
           >
             <h2 className="leading-tight 4xl:text-[48px] xl:text-[42px] text-[32px] font-bold text-[#073259]">
               Insights
