@@ -320,7 +320,7 @@ export default function SalesForceConsulting() {
           { label: "Learn More", type: "primary" },
           { label: "Visit Full LifeAI+ Page", type: "secondary" },
         ],
-        href: "https://www.rialtes.com/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting",
+        href: "https://www.rialtes.com/industry/life-sciences/healthcare-medtech-patient-care",
       },
       {
         title: "Salesforce Data Cloud",
@@ -747,7 +747,7 @@ export default function SalesForceConsulting() {
 
           <div className="flex xl:justify-end 4xl:pr-[50px] 2xl:pr-[300px] xl:pr-[150px] mt-10">
             <LearnMoreButton
-              bgcolor="#073259"
+              bgcolor="#006fbe"
               href="https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting"
               btnName="Know More"
             />
