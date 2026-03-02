@@ -397,8 +397,15 @@ export default function Page() {
                 </div>
             </section>
             {/* quick setup section */}
-            <div className="bg-[url('/images/industry/rialchat/quick-setup-img.png')] bg-cover bg-right overflow-hidden xl:h-[400px] 4xl:h-[520px] 2xl:h-[480px]">
-                <div className="mt-16 text-white custom-container xl:!pr-[142px] pt-6">
+            <div className="overflow-hidden xl:h-[400px] 4xl:h-[520px] 2xl:h-[480px] relative">
+                 <Image
+    src="/images/industry/rialchat/quick-setup-img.png"
+    alt="Quick Setup Background"
+    fill
+    className="object-cover object-right"
+    priority
+  />
+                <div className="mt-16 text-white custom-container xl:!pr-[142px] pt-6 relative z-10">
                     <h2 className="max-lg:pb-6 lg:text-[40px] xl:pb-10 text-[26px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] 4xl:text-[60px] leading-tight">Quick Setup. Maximum Impact.</h2>
                     <div className="flex flex-col xl:flex-row  4xl:gap-34px 2xl:gap-40 xl:gap-48">
                         <div className="relative">

@@ -143,7 +143,7 @@ const StrategicChallenge = () => {
                 "Fragmented systems for trial data and adverse event management.",
                 "Challenges in ensuring data accuracy for regulatory submissions."
             ],
-            imgDesktop: "/images/pharma/Accelerating Clinical Trials and R&D Innovation.webp",
+            imgDesktop: "/images/pharma/accelerating-clinical-desk.webp",
             imgMobile: "/images/pharma/Accelerating Clinical.webp"
         },
         {
@@ -171,7 +171,7 @@ const StrategicChallenge = () => {
                 "Lack of real-time visibility into inventory and shipments.",
                 "Inefficiencies in recall, complaint, and adverse event responses."
             ],
-            imgDesktop: "/images/pharma/Supply Chain, Manufacturing, and Serialization.webp",
+            imgDesktop: "/images/pharma/supply-chain.webp",
             imgMobile: "/images/pharma/Supply Chain (1).webp"
         }
     ];

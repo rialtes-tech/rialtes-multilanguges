@@ -99,7 +99,7 @@ const CriticalChallengesSection = () => {
             id: 1,
             title: "Regulatory Compliance & Quality Management",
             imageMobile: "/images/medical/Regulatory Compliance.webp",
-            imageDesktop: "/images/medical/Regulatory Compliance & Quality Management.webp",
+            imageDesktop: "/images/medical/regulatory-compliance-desktop.webp",
             points: [
                 "Navigating complex, evolving global regulations.",
                 "Difficulty in managing documentation, traceability, and audits.",
@@ -110,7 +110,7 @@ const CriticalChallengesSection = () => {
             id: 2,
             title: " Supply Chain Complexity & Order Fulfillment",
             imageMobile: "/images/medical/Supply Chain Complexity.webp",
-            imageDesktop: "/images/medical/Supply Chain Complexity & Order Fulfillment.webp",
+            imageDesktop: "/images/medical/supply-chain-desktop.webp",
             points: [
                 "Disconnected systems for inventory, manufacturing, and order management.",
                 "Struggles with tracking serialized medical devices across geographies.",
@@ -584,7 +584,7 @@ export default function Page() {
                 <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[60px]">
                     <div className="lg:col-span-6 col-span-12">
                         <Image
-                            src="/images/medical/SAP & Oracle ERP.webp"
+                            src="/images/medical/sap-oracle-erp.webp"
                             alt="SAP & Oracle ERP image"
                             className="w-full h-full object-cover"
                             width={1200}

@@ -405,10 +405,24 @@ export default function Page() {
                 </div>
             </section>
             {/* our capabilities section */}
-            <section className="relative xl:mt-[133px] mt-[70px] xl:pt-[141px] pt-[45px] bg-no-repeat bg-cover bg-center
-                    md:bg-[url('/images/home-health/our-capabilities-desk.webp')]
-                    bg-[url('/images/home-health/Mobile/our-capabilities-mob.webp')]">
-                <div className="custom-container text-[#ffffff]">
+            <section className="relative overflow-hidden xl:mt-[133px] mt-[70px] xl:pt-[141px] pt-[45px] bg-no-repeat bg-cover bg-center">
+                 <Image
+    src="/images/home-health/Mobile/our-capabilities-mob.webp"
+    alt="Our Capabilities Mobile Background"
+    fill
+    priority
+    className="object-cover object-center md:hidden"
+  />
+
+  {/* Desktop Background */}
+  <Image
+    src="/images/home-health/our-capabilities-desk.webp"
+    alt="Our Capabilities Desktop Background"
+    fill
+    priority
+    className="hidden md:block object-cover object-center"
+  />
+                <div className="custom-container text-[#ffffff] relative z-10">
                     <h2 className="4xl:text-[60px] xl:text-[40px] text-[26px] leading-tight">
                         Our Capabilities
                     </h2>

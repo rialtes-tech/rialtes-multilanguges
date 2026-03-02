@@ -600,9 +600,35 @@ export default function Page() {
                     </div>
                 </section>
                 {/* turn data section */}
-                <section className="relative bg-[url('/images/industry/travel-transporation/Mobile/turn-data-mob-bg.webp')] 
-                               md:bg-[url('/images/industry/travel-transporation/turn-data-desk-bg.webp')] bg-cover bg-center bg-no-repeat lg:mt-[76px] mt-[68px]">
-                    <div className="custom-container h-full flex items-center max-md:px-0">
+                <section className="relative
+                               lg:mt-[76px] mt-[68px]">
+                   
+                     <div className="absolute inset-0 z-0">
+    
+    {/* Mobile Background */}
+    <div className="block md:hidden relative w-full h-full">
+      <Image
+        src="/images/industry/travel-transporation/Mobile/turn-data-mob-bg.webp"
+        alt="Turn Data Background"
+        fill
+        className="object-cover object-center"
+        priority
+      />
+    </div>
+
+    {/* Desktop Background */}
+    <div className="hidden md:block relative w-full h-full">
+      <Image
+        src="/images/industry/travel-transporation/turn-data-desk-bg.webp"
+        alt="Turn Data Background"
+        fill
+        className="object-cover object-center"
+        priority
+      />
+    </div>
+
+  </div>
+                    <div className="relative z-10 custom-container h-full flex items-center max-md:px-0">
                         <div className="relative w-full max-md:mt-[162px]  max-md:mx-auto md:w-1/2 xl:w-1/2">
                             <div className="absolute inset-0 bg-[#363636] mix-blend-multiply z-0"></div>
                             <div className="relative z-10 text-white xl:pt-[49px] xl:pb-[77px] xl:px-[77px] pt-[55px] pb-[51px] px-[36px]">

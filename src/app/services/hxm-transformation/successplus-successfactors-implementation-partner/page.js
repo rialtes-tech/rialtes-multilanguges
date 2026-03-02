@@ -356,10 +356,35 @@ export default function Page() {
           />
         </div>
       </section>
-      {/* workday section */}
-      <section className="text-white custom-container 4xl:pr-0 4xl:mt-[183px] 2xl:mt-[140px] xl:mt-[100px] mt-[87px] pt-[50px] 4xl:pt-[148] 2xl:pt-[100px] xl:pt-[100px] md:bg-[url('/images/services/success-plus/workday-bg-desk.webp')] bg-[url('/images/services/success-plus/Mobile/workday-bg-mob.webp')] bg-cover">
-        <div>
-          <div className="grid 4xl:pr-[280px] lg:grid-cols-12 grid-cols-1 lg:gap-[20px] xl:gap-[60px] gap-y-[29px]">
+      <section className="relative text-white custom-container 4xl:pr-0 4xl:mt-[183px] 2xl:mt-[140px] xl:mt-[100px] mt-[87px] pt-[50px] 4xl:pt-[148] 2xl:pt-[100px] xl:pt-[100px]  overflow-hidden">
+         <div className="absolute inset-0 z-0">
+    
+    {/* Desktop */}
+    <div className="hidden md:block w-full h-full">
+      <Image
+        src="/images/services/success-plus/workday-bg-desk.webp"
+        alt="Workday background"
+        fill
+        priority
+        className="object-cover"
+        quality={90}
+      />
+    </div>
+
+    {/* Mobile */}
+    <div className="block md:hidden w-full h-full">
+      <Image
+        src="/images/services/success-plus/Mobile/workday-bg-mob.webp"
+        alt="Workday mobile background"
+        fill
+        priority
+        className="object-cover"
+        quality={90}
+      />
+    </div>
+
+  </div>
+          <div className="relative z-10 grid 4xl:pr-[280px] lg:grid-cols-12 grid-cols-1 lg:gap-[20px] xl:gap-[60px] gap-y-[29px]">
             <div className="lg:col-span-7 3xl:col-span-8 col-span-12 lg:order-1 order-2">
               <h2 className="xl:text-[40px] 4xl:text-[60px] md:text-[32px] text-[26px] leading-tight sm:w-[92%] xl:w-full">
                 Workday to SAP SuccessFactors <div className="block lg:hidden" /> Migration - <span className="xl:text-[34px] 4xl:text-[45px] leading-tight text-[22px] font-bold"> <div className="block lg:hidden" />Migrate with Confidence</span>
@@ -393,7 +418,7 @@ export default function Page() {
               </div>
             </div>
           </div>
-          <div className="relative grid lg:grid-cols-2 grid-cols-1 xl:mt-[58px] mt-[29px] lg:w-[90%] 4xl:w-[80%] gap-y-[56px] lg:gap-[60px] xl:mb-[80px] mb-[80px]">
+          <div className="relative  grid lg:grid-cols-2 grid-cols-1 xl:mt-[58px] mt-[29px] lg:w-[90%] 4xl:w-[80%] gap-y-[56px] lg:gap-[60px] xl:mb-[80px] mb-[80px]">
             <div>
               <h3 className="xl:text-[26px] 4xl:text-[30px] leading-tight text-[22px] w-[92%] xl:w-full">
                 Our Workday to SuccessFactors Migration Includes:
@@ -407,11 +432,10 @@ export default function Page() {
               <UnorderedList arrName={keyBenefitsData} ulClassName="w-[92%] lg:w-full xl:mt-[39px] mt-[26px] xl:space-y-[27px] space-y-[19px] list-disc pl-[20px]" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight font-normal" />
             </div>
           </div>
-        </div>
         <div className="w-full h-[1px] bg-gray-300"></div>
 
         <>
-          <div className="grid lg:grid-cols-12 grid-cols-1 lg:gap-[20px] xl:gap-[60px] gap-y-[39px] xl:mt-[90px] mt-[60px] 4xl:pr-[280px]">
+          <div className="relative z-10 grid lg:grid-cols-12 grid-cols-1 lg:gap-[20px] xl:gap-[60px] gap-y-[39px] xl:mt-[90px] mt-[60px] 4xl:pr-[280px]">
             <div className="lg:col-span-7 3xl:col-span-8 col-span-12 lg:order-1 order-2">
               <h2 className="xl:text-[40px] 4xl:text-[60px] md:text-[32px] text-[26px] leading-tight sm:w-[92%] xl:w-[92%]">
                 ZOHO HR to SAP SuccessFactors <div className="block lg:hidden" /> Migration - <div className="xl:text-[34px] 4xl:text-[45px] leading-tight text-[22px] font-bold">Enterprise-Grade HR Transformation</div>
@@ -460,7 +484,7 @@ export default function Page() {
             </div>
           </div>
         </>
-        <div className="4xl:mr-[280px] xl:shadow-lg border-b-2 border-white xl:mt-[100px] mt-[63px] bg-[#FFFFFF] pt-[40px]  pl-[24px]  xl:py-[83px] md:px-[60px]">
+        <div className="relative z-10 4xl:mr-[280px] xl:shadow-lg border-b-2 border-white xl:mt-[100px] mt-[63px] bg-[#FFFFFF] pt-[40px]  pl-[24px]  xl:py-[83px] md:px-[60px]">
           <h2 className="text-black xl:text-[40px] 4xl:text-[60px] md:text-[32px] text-[26px] leading-tight sm:w-[92%] lg:w-[60%] xl:w-full">
             Benefits of Migrating to SAP SuccessFactors with Rialtes’ Success+
           </h2>

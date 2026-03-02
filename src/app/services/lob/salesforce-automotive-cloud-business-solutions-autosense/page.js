@@ -379,8 +379,25 @@ const ThoughtLeadershipDesign = () => {
     ]
     return (
         <section
-            className='bg-[url("/images/industry/auto-sense/Mobile/thought-leadership-mob-img.webp")] md:bg-[url("/images/industry/auto-sense/thought-leadership-img.webp")] bg-center bg-no-repeat bg-cover xl:pt-[151px] xl:pb-[93px] py-[65px] xl:mt-[70px] mt-[57px] px-[30px] xl:px-2'>
-            <div className="custom-container max-lg:px-0">
+            className='relative overflow-hidden xl:pt-[151px] xl:pb-[93px] py-[65px] xl:mt-[70px] mt-[57px] px-[30px] xl:px-2'>
+                 <Image
+    src="/images/industry/auto-sense/Mobile/thought-leadership-mob-img.webp"
+    alt="Thought Leadership Mobile Background"
+    fill
+    priority
+    className="object-cover object-center md:hidden"
+  />
+
+  {/* Desktop Background */}
+  <Image
+    src="/images/industry/auto-sense/thought-leadership-img.webp"
+    alt="Thought Leadership Desktop Background"
+    fill
+    priority
+    className="hidden md:block object-cover object-center"
+  />
+
+            <div className="custom-container max-lg:px-0 relative z-10">
                 <div>
                     <h2 className="text-[#FFFFFF] leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]  w-[100%] xl:w-[55%] 4xl:w-[65%] ">
                         Thought Leadership Themes for Automotive Clients
