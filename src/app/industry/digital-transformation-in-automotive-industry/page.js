@@ -229,11 +229,26 @@ const PreDeliveredSection = () => {
         <section className="relative mt-[60px] md:mt-0 mb-20">
             <div className="
                             absolute inset-0 xl:w-[94%] mx-auto
-                            bg-[url('/images/industry/auto-industry/Mobile/predelivered-mob-img.webp')]
-                            md:bg-[url('/images/industry/auto-industry/Mobile/predelivered-mob-img.webp')]
-                            xl:bg-[url('/images/industry/auto-industry/predelivered-img.webp')]
-                            bg-no-repeat bg-cover
-                            z-0" style={{ backgroundSize: "100% 100%" }}></div>
+                           
+                            z-0">
+                                 <Image
+      src="/images/industry/auto-industry/Mobile/predelivered-mob-img.webp"
+      alt="Pre Delivered Automotive Mobile Background"
+      fill
+      priority
+      className="xl:hidden object-fill"
+    />
+
+    {/* Desktop (xl and above) */}
+    <Image
+      src="/images/industry/auto-industry/predelivered-img.webp"
+      alt="Pre Delivered Automotive Desktop Background"
+      fill
+      priority
+      className="hidden xl:block object-fill"
+    />
+
+                            </div>
             <div className="relative z-10 pt-[64px] xl:pt-[82px] max-[350px]:h-[1100px] h-[1050px] sm:h-[760px] md:h-full  ">
                 <div className="custom-container">
                     <h2 className="text-white 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px] leading-tight font-light lg:w-[58%] max-[380px]:text-[22px]">
@@ -431,8 +446,31 @@ const PersonalizingSection = () => {
     ];
     return (
         <section className="relative h-full xl:mt-[96px] mt-[91px] custom-container md:pr-0 max-md:px-0">
-            <div className="flex items-start justify-start xl:pt-[64px] pt-[38px] xl:pb-[104px] pb-[73px] bg-[url('/images/industry/auto-industry/Mobile/personalizing-mob-img.webp')]
-                        md:bg-[url('/images/industry/auto-industry/personalizing-img.webp')] bg-no-repeat bg-cover">
+             <div className="absolute inset-0 z-0">
+    {/* Mobile Image */}
+    <div className="block md:hidden relative w-full h-full">
+      <Image
+        src="/images/industry/auto-industry/Mobile/personalizing-mob-img.webp"
+        alt="Personalizing Automotive Experience"
+        fill
+        className="object-cover"
+        priority
+      />
+    </div>
+
+    {/* Desktop Image */}
+    <div className="hidden md:block relative w-full h-full">
+      <Image
+        src="/images/industry/auto-industry/personalizing-img.webp"
+        alt="Personalizing Automotive Experience"
+        fill
+        className="object-cover"
+        priority
+      />
+    </div>
+    </div>
+            <div className="relative z-10 flex items-start justify-start xl:pt-[64px] pt-[38px] xl:pb-[104px] pb-[73px] 
+">
                 <div className="relative md:pl-[76px] 2xl:w-[61%] xl:w-[81%] lg:w-[60%] md:w-[70%] sm:w-[80%] max-md:pl-[36px]">
                     <h2 className="text-[#FFFFFF] 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px] md:text-[29px] max-[400px]:text-[22px] leading-tight font-light  4xl:w-[732px] 2xl:w-[710px] xl:w-[500px] lg:w-[587px] md:w-[425px] w-[322px] max-[400px]:w-[260px]">
                         Personalizing the Automotive Experience
@@ -892,13 +930,38 @@ const RelatedSolutionsSection = () => {
     return (
         <section className="custom-container max-md:px-0">
             <div
-                className={`xl:pl-[61px] px-[35px] xl:mt-[94px] mt-[63px] xl:pt-[129px] pt-[49px] xl:pb-[160px] pb-[59px] 
-                    bg-[url('/images/industry/auto-industry/Mobile/related-solutions-mob-img.webp')] bg-cover bg-center
-                    md:bg-[url('/images/industry/auto-industry/related-solutions-img.webp')] md:bg-cover md:bg-center`}>
-                <h2 className="4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px]  max-[380px]:text-[22px] leading-tight font-light   text-[#FFFFFF]">
+                className={`relative xl:pl-[61px] px-[35px] xl:mt-[94px] mt-[63px] xl:pt-[129px] pt-[49px] xl:pb-[160px] pb-[59px] 
+                   `}>
+
+                         <div className="absolute inset-0 z-0">
+      
+      {/* Mobile Image */}
+      <div className="block md:hidden relative w-full h-full">
+        <Image
+          src="/images/industry/auto-industry/Mobile/related-solutions-mob-img.webp"
+          alt="Related Solutions Background"
+          fill
+          className="object-cover object-center"
+          priority
+        />
+      </div>
+
+      {/* Desktop Image */}
+      <div className="hidden md:block relative w-full h-full">
+        <Image
+          src="/images/industry/auto-industry/related-solutions-img.webp"
+          alt="Related Solutions Background"
+          fill
+          className="object-cover object-center"
+          priority
+        />
+      </div>
+    </div>
+
+                <h2 className="relative z-10 4xl:text-[60px] 2xl:text-[56px] xl:text-[40px] lg:text-[40px] text-[26px]  max-[380px]:text-[22px] leading-tight font-light   text-[#FFFFFF]">
                     Related Solutions
                 </h2>
-                <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:mt-[45px] mt-[33px] gap-[30px] lg:gap-0">
+                <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xl:mt-[45px] mt-[33px] gap-[30px] lg:gap-0">
                     {relatedSolutionsData.map((item, index) => {
                         // Border 
                         const borderRight = index < 2 ? 'xl:border-r-[2px] xl:border-[#FFFFFF]' : '';

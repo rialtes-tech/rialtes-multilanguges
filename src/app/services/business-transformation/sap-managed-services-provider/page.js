@@ -798,11 +798,7 @@ export default function Page() {
             <section className="relative custom-container xl:!pl-0 xl:!pr-[142px] mt-[5rem] xl:mt-0 max-md:px-0">
                 <div className="relative">
                     <div className="xl:block hidden">
-                        <picture>
-                            <source
-                                media="(min-width: 1280px)"
-                                srcSet="/images/sap/sap-digital-desk/desktop/supercharge.webp"
-                            />
+                           
                             <Image
                                 src="/images/sap/sap-digital-desk/desktop/supercharge.webp"
                                 alt="supercharge"
@@ -811,7 +807,6 @@ export default function Page() {
                                 width={1200}
                                 height={800}
                             />
-                        </picture>
                     </div>
                     <div className="xl:hidden block">
                         <Image
