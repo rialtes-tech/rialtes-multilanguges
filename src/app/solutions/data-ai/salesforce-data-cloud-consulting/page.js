@@ -1,95 +1,103 @@
 "use client";
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
-import BreadCrumbs from '../../../components/BreadCrumbs'
+import BreadCrumbs from "../../../components/BreadCrumbs";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Salesforce Data Cloud Consulting Services",
-  "url": "https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/",
-  "description": "Rialtes provides Salesforce Data Cloud Consulting services to help businesses unify data, drive real-time personalization, and activate AI-powered insights across marketing, commerce, and operations.",
-  "inLanguage": "en",
-  "publisher": {
+  name: "Salesforce Data Cloud Consulting Services",
+  url: "https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting/",
+  description:
+    "Rialtes provides Salesforce Data Cloud Consulting services to help businesses unify data, drive real-time personalization, and activate AI-powered insights across marketing, commerce, and operations.",
+  inLanguage: "en",
+  publisher: {
     "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com",
-    "logo": {
+    name: "Rialtes",
+    url: "https://www.rialtes.com",
+    logo: {
       "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
-    }
+      url: "https://www.rialtes.com/images/homepage/logo.svg",
+    },
   },
-  "mainEntity": {
+  mainEntity: {
     "@type": "Service",
-    "name": "Salesforce Data Cloud Consulting",
-    "serviceType": "Customer 360 Integration, AI Activation, Real-Time Personalization",
-    "provider": {
+    name: "Salesforce Data Cloud Consulting",
+    serviceType:
+      "Customer 360 Integration, AI Activation, Real-Time Personalization",
+    provider: {
       "@type": "Organization",
-      "name": "Rialtes",
-      "url": "https://www.rialtes.com"
+      name: "Rialtes",
+      url: "https://www.rialtes.com",
     },
-    "areaServed": [
-      { "@type": "Country", "name": "United States" },
-      { "@type": "Country", "name": "Canada" },
-      { "@type": "Country", "name": "India" },
-      { "@type": "Country", "name": "Singapore" }
+    areaServed: [
+      { "@type": "Country", name: "United States" },
+      { "@type": "Country", name: "Canada" },
+      { "@type": "Country", name: "India" },
+      { "@type": "Country", name: "Singapore" },
     ],
-    "audience": {
+    audience: {
       "@type": "Audience",
-      "audienceType": "CMOs, CIOs, Marketing Leaders, CRM Architects, Data Platform Owners"
+      audienceType:
+        "CMOs, CIOs, Marketing Leaders, CRM Architects, Data Platform Owners",
     },
-    "hasOfferCatalog": {
+    hasOfferCatalog: {
       "@type": "OfferCatalog",
-      "name": "Salesforce Data Cloud Services by Rialtes",
-      "itemListElement": [
+      name: "Salesforce Data Cloud Services by Rialtes",
+      itemListElement: [
         {
           "@type": "Offer",
-          "itemOffered": {
+          itemOffered: {
             "@type": "Service",
-            "name": "Salesforce Data Cloud Implementation",
-            "description": "Infrastructure setup, source configuration, and activation of real-time data orchestration features in Salesforce Data Cloud."
-          }
+            name: "Salesforce Data Cloud Implementation",
+            description:
+              "Infrastructure setup, source configuration, and activation of real-time data orchestration features in Salesforce Data Cloud.",
+          },
         },
         {
           "@type": "Offer",
-          "itemOffered": {
+          itemOffered: {
             "@type": "Service",
-            "name": "Data Cloud Consulting",
-            "description": "Tailored advisory services to help organizations architect personalized, privacy-compliant, and AI-powered data ecosystems."
-          }
+            name: "Data Cloud Consulting",
+            description:
+              "Tailored advisory services to help organizations architect personalized, privacy-compliant, and AI-powered data ecosystems.",
+          },
         },
         {
           "@type": "Offer",
-          "itemOffered": {
+          itemOffered: {
             "@type": "Service",
-            "name": "Salesforce Data Cloud Migration",
-            "description": "Seamless and secure migration from legacy data platforms to Salesforce Data Cloud with minimal disruption."
-          }
+            name: "Salesforce Data Cloud Migration",
+            description:
+              "Seamless and secure migration from legacy data platforms to Salesforce Data Cloud with minimal disruption.",
+          },
         },
         {
           "@type": "Offer",
-          "itemOffered": {
+          itemOffered: {
             "@type": "Service",
-            "name": "Managed Cloud Services",
-            "description": "Ongoing performance monitoring, governance, and optimization of public, private, and hybrid Salesforce Cloud environments."
-          }
+            name: "Managed Cloud Services",
+            description:
+              "Ongoing performance monitoring, governance, and optimization of public, private, and hybrid Salesforce Cloud environments.",
+          },
         },
         {
           "@type": "Offer",
-          "itemOffered": {
+          itemOffered: {
             "@type": "Service",
-            "name": "Private Cloud Services",
-            "description": "Deploy isolated private cloud infrastructure for enhanced compliance, control, and security of sensitive data workloads."
-          }
-        }
-      ]
-    }
-  }
-}
+            name: "Private Cloud Services",
+            description:
+              "Deploy isolated private cloud infrastructure for enhanced compliance, control, and security of sensitive data workloads.",
+          },
+        },
+      ],
+    },
+  },
+};
 const featureBoxes = [
   {
     icon: "/images/data-cloud/customer-360-view.svg",
@@ -172,6 +180,8 @@ const services = [
 ];
 export default function DataCloud() {
   const [hoveredBlog, setHoveredBlog] = useState(null);
+  const contactRef = useRef(null);
+
   const handleMouseEnter = (blogName) => {
     return () => {
       setHoveredBlog(blogName);
@@ -182,13 +192,21 @@ export default function DataCloud() {
       setHoveredBlog(null);
     };
   };
+  const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
   return (
     <div className="min-h-screen">
       <Seo
         title="Salesforce Data Cloud Implementation and Consulting Services | Rialtes"
         description="Expert Salesforce Data Cloud implementation and consulting to fuel growth, boost decisions, accelerate innovation, and drive stronger outcomes with Rialtes."
         keywords="home, website, welcome"
-        canonical={"https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting"}
+        canonical={
+          "https://www.rialtes.com/solutions/data-ai/salesforce-data-cloud-consulting"
+        }
       />
 
       <Script
@@ -223,17 +241,17 @@ export default function DataCloud() {
         </div>
         <div className="relative h-full custom-container flex items-center text-[#000000]">
           <div className="grid grid-cols-12 w-full">
-            <div className="4xl:col-span-5 md:col-span-4 col-span-4">
-            </div>
+            <div className="4xl:col-span-5 md:col-span-4 col-span-4"></div>
             <div className="4xl:col-span-7 md:col-span-8 col-span-8">
               <h3 className="text-[18px] md:text-[24px] font-bold max-lg:w-[60%] md:w-[50%] lg:w-full">
                 Data Cloud
               </h3>
-              <h1 className="text-[26px] leading-tight xl:text-[44px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px]">
+              <h1 className="text-[26px] leading-tight xl:text-[40px] 2xl:text-[48px] 4xl:text-[60px] mt-[11.5px] md:mt-[28.5px]">
                 Harness the Potential <br /> of Salesforce Data Cloud
               </h1>
               <h3 className="font-bold leading-tight mt-10 xl:text-[26px] 4xl:text-[30px] text-[20px] md:block hidden">
-                Drive automation, predictive, and generative AI, as well as analytics, within the world’s leading AI-powered CRM
+                Drive automation, predictive, and generative AI, as well as
+                analytics, within the world’s leading AI-powered CRM
               </h3>
               <div className=" w-full xl:mt-10 mt-5">
                 <Image
@@ -259,7 +277,7 @@ export default function DataCloud() {
         <BreadCrumbs currPage="Salesforce Data Cloud" subPath="Data & AI" />
         <section className="pt-10 md:pt-16 bg-white">
           <div className="mx-auto">
-            <h2 className="text-[#000000] 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] mb-8">
+            <h2 className="text-[#000000] 4xl:text-[60px] xl:text-[40px] 2xl:text-[48px] md:text-[32px] text-[26px] mb-8">
               What Is Salesforce Data Cloud?
             </h2>
             <p className="md:max-w-xl xl:max-w-4xl mb-8 4xl:text-[22px] md:text-[18px] text-[16px]">
@@ -282,7 +300,7 @@ export default function DataCloud() {
       {/* creating section */}
       <section className="custom-container">
         <section className="py-8 my-10">
-          <h2 className="text-[#000000] lg:w-[70%] xl:w-[76%] 4xl:w-[90%] 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight">
+          <h2 className="text-[#000000] lg:w-[70%] xl:w-[76%] 4xl:w-[90%] 4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] md:text-[32px] text-[26px] leading-tight">
             Creating Personalized & Impactful Customer Experiences for Your
             Business
           </h2>
@@ -290,7 +308,8 @@ export default function DataCloud() {
             {featureBoxes.map((feature, index) => (
               <div
                 key={index}
-                className="bg-white border hover:bg-[#D9F2FF] 4xl:p-12 p-8 flex flex-col h-full">
+                className="bg-white border hover:bg-[#D9F2FF] 4xl:p-12 p-8 flex flex-col h-full"
+              >
                 <div className="flex flex-col items-start mb-4">
                   <div className="w-16 h-16 flex-shrink-0 mb-4">
                     <div className="w-full h-full flex items-center justify-center">
@@ -303,13 +322,17 @@ export default function DataCloud() {
                       />
                     </div>
                   </div>
-                  <h3 className="text-[#1F3F69] mt-2 4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight">{feature.title}</h3>
+                  <h3 className="text-[#1F3F69] mt-2 4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight">
+                    {feature.title}
+                  </h3>
                 </div>
-                <p className="text-[#000000] mt-2 4xl:text-[22px] md:text-[18px] text-[16px]">{feature.description}</p>
+                <p className="text-[#000000] mt-2 4xl:text-[22px] md:text-[18px] text-[16px]">
+                  {feature.description}
+                </p>
               </div>
             ))}
           </div>
-          <LearnMore />
+          <LearnMore btnName="Talk to Us" onClick={handleScrollToContact} />
         </section>
       </section>
       {/* Stats Section */}
@@ -328,7 +351,9 @@ export default function DataCloud() {
                       {stat.percentage}
                     </span>
                   </div>
-                  <p className="text-[#000000] 4xl:text-[22px] md:text-[18px] text-[16px] lg:w-[70%] md:w-[90%] w-[90%]">{stat.description}</p>
+                  <p className="text-[#000000] 4xl:text-[22px] md:text-[18px] text-[16px] lg:w-[70%] md:w-[90%] w-[90%]">
+                    {stat.description}
+                  </p>
                 </div>
               ))}
             </div>
@@ -338,7 +363,7 @@ export default function DataCloud() {
       {/* Services Section */}
       <div className="custom-container">
         <section className="pb-12 pt-20">
-          <h2 className="text-left mb-10 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px] ">
+          <h2 className="text-left mb-10 leading-tight 4xl:text-[60px] xl:text-[40px] 2xl:text-[48px] md:text-[32px] text-[26px] ">
             Our Salesforce Data Cloud Services
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-20 xl:gap-12 xl:gap-y-[60px] mt-12">
@@ -347,7 +372,8 @@ export default function DataCloud() {
                 key={index}
                 className="flex flex-col h-full"
                 onMouseEnter={handleMouseEnter(service.id)}
-                onMouseLeave={handleMouseLeave(service.id)}>
+                onMouseLeave={handleMouseLeave(service.id)}
+              >
                 <div className="mb-4">
                   <div
                     className="w-full h-full"
@@ -355,7 +381,8 @@ export default function DataCloud() {
                       transition: "transform 0.3s ease",
                       transform:
                         hoveredBlog === service.id ? "scale(1.05)" : "scale(1)",
-                    }}>
+                    }}
+                  >
                     <Image
                       src={service.image}
                       alt={`${service.title} image`}
@@ -369,10 +396,17 @@ export default function DataCloud() {
                     />
                   </div>
                 </div>
-                <h3 className="h3-bold mb-3 4xl:text-[26px] xl:text-[22px] text-[18px] mt-6">{service.title}</h3>
-                <p className="text-[#000000] 4xl:text-[22px] md:text-[18px] text-[16px] mb-6">{service.description}</p>
+                <h3 className="h3-bold mb-3 4xl:text-[26px] xl:text-[22px] text-[18px] mt-6">
+                  {service.title}
+                </h3>
+                <p className="text-[#000000] 4xl:text-[22px] md:text-[18px] text-[16px] mb-6">
+                  {service.description}
+                </p>
                 <div className="mt-auto">
-                  <LearnMore />
+                  <LearnMore
+                    btnName="Talk to Us"
+                    onClick={handleScrollToContact}
+                  />
                 </div>
               </div>
             ))}
@@ -380,8 +414,11 @@ export default function DataCloud() {
         </section>
       </div>
       {/* Contact Form Section */}
-      <div className="py-20 custom-container">
-        <ContactForm title="Take the next step to operational excellence with us." className="leading-tight 4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] md:text-[32px] text-[26px] 4xl:w-[80%] xl:w-[70%]" />
+      <div className="py-20 custom-container scroll-mt-28" ref={contactRef}>
+        <ContactForm
+          title="Take the next step to operational excellence with us."
+          className="leading-tight 4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] md:text-[32px] text-[26px] 4xl:w-[80%] xl:w-[70%]"
+        />
       </div>
     </div>
   );

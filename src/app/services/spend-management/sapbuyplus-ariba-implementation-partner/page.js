@@ -8,6 +8,7 @@ import Seo from "@/app/components/Seo";
 import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
+ import { useRef } from "react";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -85,7 +86,7 @@ const schemaData = {
     ],
   },
 };
-const WhyChooseRialtes = () => {
+const WhyChooseRialtes = ({ onTalkClick }) => {
   const whyChooseData = [
     {
       title: "SAP ARIBA License Advisory",
@@ -165,16 +166,16 @@ const WhyChooseRialtes = () => {
           </div>
         </div>
         <div className="lg:mt-[53px] mt-[38px] lg:hidden block">
-          <LearnMore />
+          <LearnMore onClick={onTalkClick}  btnName="Talk to Us"/>
         </div>
         <div className="mt-[38px] hidden lg:block">
-          <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+          <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} onClick={onTalkClick}  btnName="Talk to Us"/>
         </div>
       </div>
     </section>
   );
 };
-const UnlockProcurementSection = () => {
+const UnlockProcurementSection = ({ onTalkClick }) => {
   const benefitsData = [
     {
       title: "Streamlined Procurement –",
@@ -302,7 +303,7 @@ const UnlockProcurementSection = () => {
     </section>
   );
 };
-const SapAribaModulesSection = () => {
+const SapAribaModulesSection = ({ onTalkClick }) => {
   const sapAribaDirectData = [
     "Real-time visibility into supply chain requirements.",
     "Automated purchase order (PO) generation linked to production schedules.",
@@ -373,14 +374,14 @@ const SapAribaModulesSection = () => {
             />
           </div>
           <div className="lg:mt-[25px]">
-            <LearnMore />
+            <LearnMore onClick={onTalkClick}  btnName="Talk to Us"/>
           </div>
         </div>
       </div>
     </section>
   );
 };
-const AribaBusinessNetworkSection = () => {
+const AribaBusinessNetworkSection = ({ onTalkClick }) => {
   const sapAribaData = [
     "Seamless Supplier Discovery – Connect with millions of verified suppliers globally.",
     "RFQ & Tendering Automation – Enable real-time negotiations with transparent pricing.",
@@ -430,7 +431,7 @@ const AribaBusinessNetworkSection = () => {
     </section>
   );
 };
-const SupplierProfileSection = () => {
+const SupplierProfileSection = ({ onTalkClick }) => {
   const sapAribaDirectData = [
     "Supplier onboarding automation with compliance validation.",
     "Continuous supplier performance tracking with real-time dashboards.",
@@ -474,14 +475,14 @@ const SupplierProfileSection = () => {
             />
           </div>
           <div className="lg:mt-[76px]">
-            <LearnMore />
+            <LearnMore onClick={onTalkClick}  btnName="Talk to Us"/>
           </div>
         </div>
       </section>
     </section>
   );
 };
-const AribaContract = () => {
+const AribaContract = ({ onTalkClick }) => {
   const contractData = [
     "Automated contract creation using predefined templates.",
     "Collaboration tools for legal and procurement teams to streamline approvals.",
@@ -535,7 +536,7 @@ const AribaContract = () => {
     </section>
   );
 };
-const ExploreRelatedSection = () => {
+const ExploreRelatedSection = ({ onTalkClick }) => {
   const exploreData = [
     {
       title: "SAP SuccessFactors",
@@ -592,7 +593,7 @@ const ExploreRelatedSection = () => {
     </section>
   );
 };
-const SeamlessIntergrationsSection = () => {
+const SeamlessIntergrationsSection = ({ onTalkClick }) => {
   const seamlessData = [
     {
       title:
@@ -657,7 +658,7 @@ const SeamlessIntergrationsSection = () => {
     </section>
   );
 };
-const BuyingInvoicingSection = () => {
+const BuyingInvoicingSection = ({ onTalkClick }) => {
   const buyingData = [
     "Catalog-based purchasing with predefined pricing and vendor terms.",
     "Purchase order (PO) & invoice reconciliation to eliminate mismatches.",
@@ -711,7 +712,7 @@ const BuyingInvoicingSection = () => {
     </section>
   );
 };
-const AgentChat = () => {
+const AgentChat = ({ onTalkClick }) => {
   const agentData = [
     {
       title: "Instant Supplier Communication –",
@@ -771,7 +772,7 @@ const AgentChat = () => {
                   href="/products/agentchat"
                   className={`inline-block bg-[#006FBE] 4xl:text-[20px] md:text-[18px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[#006FBE] font-semibold text-white py-3 px-8 transition duration-300 mt-6 cursor-pointer`}
                 >
-                  Learn More
+                  Know More
                 </Link>
               </div>
             </div>
@@ -797,7 +798,7 @@ const AgentChat = () => {
                   href="/products/agentchat"
                   className={`inline-block bg-[#006FBE] 4xl:text-[20px] md:text-[18px] text-[16px] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[#006FBE] font-semibold text-white py-3 px-8 transition duration-300 mt-6 cursor-pointer`}
                 >
-                  Learn More
+                  Know More
                 </Link>
               </div>
             </div>
@@ -808,6 +809,13 @@ const AgentChat = () => {
   );
 };
 export default function page() {
+  const contactRef = useRef(null);
+   const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
   return (
     <section>
       <Seo
@@ -884,27 +892,27 @@ export default function page() {
         </p>
       </section>
       {/* Why Choose Rialtes */}
-      <WhyChooseRialtes />
+      <WhyChooseRialtes  onTalkClick={handleScrollToContact}/>
       {/* unlock procurement section */}
-      <UnlockProcurementSection />
+      <UnlockProcurementSection  onTalkClick={handleScrollToContact}/>
       {/* sap aribas modules  */}
-      <SapAribaModulesSection />
+      <SapAribaModulesSection  onTalkClick={handleScrollToContact}/>
       {/* ariba business network */}
-      <AribaBusinessNetworkSection />
+      <AribaBusinessNetworkSection  onTalkClick={handleScrollToContact}/>
       {/* Buying Invoicing Section */}
-      <BuyingInvoicingSection />
+      <BuyingInvoicingSection  onTalkClick={handleScrollToContact}/>
       {/* ariba contract section */}
-      <AribaContract />
+      <AribaContract  onTalkClick={handleScrollToContact}/>
       {/* supplier profile section */}
-      <SupplierProfileSection />
+      <SupplierProfileSection  onTalkClick={handleScrollToContact}/>
       {/* Seamless Intergrations Section */}
-      <SeamlessIntergrationsSection />
+      <SeamlessIntergrationsSection  onTalkClick={handleScrollToContact}/>
       {/* Explore Related Section */}
-      <ExploreRelatedSection />
+      <ExploreRelatedSection  onTalkClick={handleScrollToContact}/>
       {/* agent chat */}
       <AgentChat />
       {/* Contact Form */}
-      <div className="custom-container pb-10 xl:mt-[109px] mt-[50px] mb-[45px]">
+      <div className="custom-container pb-10 xl:mt-[109px] mt-[50px] mb-[45px] scroll-mt-28" ref={contactRef}>
         <ContactForm
           title="Ready to Elevate Your Procurement with SAP ARIBA?"
           subtitle="With Rialtes expertise in SAP ARIBA, you can streamline procurement, enhance supplier collaboration, and drive cost efficiencies."
