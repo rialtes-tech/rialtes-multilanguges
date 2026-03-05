@@ -61,7 +61,7 @@ const ServicesCard = ({ services }) => (
         </div>
         <div className="mt-auto xl:mt-7 max-sm:mt-3">
             <button className="bg-[#134874] hover:bg-[#ffffff] hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-white py-3 px-8 transition duration-300 text-[20px]">
-                <Link href={services.url}>Learn More</Link>
+                <Link href={services.url}>Know More</Link>
             </button>
         </div>
     </div>
