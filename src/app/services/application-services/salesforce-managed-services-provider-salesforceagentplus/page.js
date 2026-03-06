@@ -1,3 +1,4 @@
+"use client";
 import ContactForm from "@/app/components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
@@ -6,7 +7,7 @@ import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import BreadCrumbs from "@/app/components/BreadCrumbs";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
-
+ import { useRef } from "react";
 export default function page() {
   const schemaData = {
     "@context": "https://schema.org",
@@ -279,6 +280,13 @@ export default function page() {
       ],
     },
   ];
+  const contactRef = useRef(null);
+const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
   return (
     <section>
       <Seo
@@ -399,7 +407,8 @@ export default function page() {
                     </p>
                   </div>
                   <div className="mt-auto lg:block hidden">
-                    <LearnMore />
+                    <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                   </div>
                 </div>
               </div>
@@ -421,7 +430,8 @@ export default function page() {
                   securely, and fast.
                 </p>
                 <div className="mt-[48px] lg:hidden block">
-                  <LearnMore />
+                  <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                 </div>
               </div>
             </div>
@@ -503,7 +513,8 @@ export default function page() {
               </p>
             </div>
             <div className="xl:mt-[53px] mt-[20px]">
-              <LearnMore />
+              <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
             </div>
           </div>
         </div>
@@ -703,7 +714,8 @@ export default function page() {
             <div className="lg:col-span-3 col-span-12">
               <div className="flex flex-row w-full lg:mt-[-10px] xl:mt-0">
                 <div className="lg:ml-auto">
-                  <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
+                  <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                 </div>
               </div>
             </div>
@@ -799,7 +811,8 @@ export default function page() {
                 liClassName="xl:text-[21px] 4xl:text-[22px] text-[16px] leading-tight xl:mt-[34px] mt-[23px]"
               />
               <div className="absolute xl:mt-[40px] mt-[30px]">
-                <LearnMore />
+                <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
               </div>
             </div>
           </div>
@@ -836,7 +849,7 @@ export default function page() {
         </div>
       </section>
       {/* Contact Form */}
-      <div className="custom-container xl:mt-[117px] xl:mb-[104px] mt-[104px] mb-[45px]">
+      <div className="custom-container xl:mt-[117px] xl:mb-[104px] mt-[104px] mb-[45px] scroll-mt-28" ref={contactRef}>
         <ContactForm
           title={"Let’s Elevate Your Salesforce Together!"}
           subtitle="Ready to unlock AI, boost productivity, and optimize Salesforce?"

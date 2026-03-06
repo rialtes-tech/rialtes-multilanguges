@@ -8,6 +8,8 @@ import Link from "next/link";
 import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
+import LearnMoreButton from "@/app/components/learnMore";
+ import { useRef } from "react";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -248,6 +250,14 @@ const aiData = [
   "Unified Data for Personalized Engagement",
 ]
 export default function Page() {
+  const contactRef = useRef(null);
+  
+    const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -439,9 +449,12 @@ export default function Page() {
           <p className="4xl:text-[26px] 2xl:text-[24px] xl:text-[22px] lg:text-[20px] md:text-[18px] bg-[#0C8AD4] p-5 pl-10 text-white xl:w-[93%] mt-[-50px] xl:ml-[50px]">
             Ideal for organizations focused on modernization without disrupting core operations.
           </p>
-          <button className="md:text-[18px] 4xl:text-[20px] text-[16px] border-[1px] border-[solid] border-[#134874] font-semibold bg-white text-black p-5 py-5 transition duration-300 order-4 mt-16">
-            <Link href='/contact-us'>Learn More</Link>
-          </button>
+         
+            <LearnMoreButton onClick={handleScrollToContact}
+            btnName="Talk to Us" 
+            color="#000000"
+            bgcolor="#0C8AD4"
+          />
         </div>
       </section>
       {/* laveraging section */}
@@ -606,7 +619,7 @@ export default function Page() {
               <p className="md:text-[18px] 4xl:text-[20px] text-[16px] font-normal leading-tight xl:mt-[30px] mt-[21px] w-[90%] lg:w-full">
                 AgentChat is a bi-directional WhatsApp conversational app built within Salesforce, designed to integrate seamlessly with SAP S/4HANA and Salesforce Clouds.
               </p>
-              <button className="md:text-[18px] 4xl:text-[20px] text-[16px] border-[1px] border-[solid]  border-[#134874] font-semibold bg-white text-black p-3  transition duration-300 order-4 mt-16 xl:block hidden">
+              <button className="md:text-[18px] 4xl:text-[20px] text-[16px] border-[1px] border-[solid]  border-[#134874] font-semibold bg-white text-[#000000] p-3  transition duration-300 order-4 mt-16 xl:block hidden">
                 <Link href='/products/agentchat'>Know More</Link>
               </button>
             </div>
@@ -656,7 +669,7 @@ export default function Page() {
       </div>
       {/* Contact Form */}
       <section
-        className="custom-container text-black xl:mt-[119px] mt-[72px] mb-[58px] xl:mb-[148px]">
+        className="custom-container text-black xl:mt-[119px] mt-[72px] mb-[58px] xl:mb-[148px] scroll-mt-28"  ref={contactRef}>
         <ContactForm title={'Partner with Rialtes to Transform Your SAP Landscape!'}
           className={"max-w-[80rem] font-normal text-[26px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] 4xl:text-[60px] leading-tight"} />
       </section>

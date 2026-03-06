@@ -1,3 +1,5 @@
+
+"use client";
 import ContactForm from "@/app/components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
@@ -6,8 +8,16 @@ import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import BreadCrumbs from "@/app/components/BreadCrumbs";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
-
+import { useRef } from "react";
 export default function retailPage() {
+  const contactRef = useRef(null);
+
+    const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -379,7 +389,8 @@ export default function retailPage() {
           </p>
         </div>
         <div className="lg:mt-[50px] mt-[36px] max-md:mx-[36px]">
-          <LearnMore bgcolor="#006FBE" bordercolor="#006FBE" />
+          <LearnMore bgcolor="#006FBE" bordercolor="#006FBE"   onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
         </div>
       </section>
       {/* why choose rialtes section */}
@@ -422,7 +433,8 @@ export default function retailPage() {
             </div>
           </div>
           <div className="xl:mt-[78px] mt-[54px]">
-            <LearnMore />
+            <LearnMore   onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
           </div>
         </div>
       </section>
@@ -593,7 +605,8 @@ export default function retailPage() {
                 />
               </div>
               <div className="mt-auto pt-[40px]">
-                <LearnMore />
+                <LearnMore   onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
               </div>
             </div>
           </div>
@@ -745,7 +758,8 @@ export default function retailPage() {
                     See the Future, Now
                   </p>
                   <div className="mt-auto max-lg:hidden">
-                    <LearnMore />
+                    <LearnMore   onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                   </div>
                 </div>
                 <div>
@@ -763,7 +777,8 @@ export default function retailPage() {
                     />
                   </div>
                   <div className="mt-auto block lg:hidden">
-                    <LearnMore />
+                    <LearnMore   onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                   </div>
                 </div>
               </div>
@@ -868,7 +883,8 @@ export default function retailPage() {
               operational strategy.
             </p>
             <div className="xl:mt-[74px] mt-[31px]">
-              <LearnMore />
+              <LearnMore   onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
             </div>
           </div>
         </div>
@@ -1031,7 +1047,8 @@ export default function retailPage() {
         </div>
       </section>
       {/* Contact Form */}
-      <div className="custom-container md:mt-[129px] xl:mb-[104px] mt-[41px] mb-[45px]">
+
+      <div className="custom-container md:mt-[129px] xl:mb-[104px] mt-[41px] mb-[45px] scroll-mt-28" ref={contactRef}>
         <ContactForm
           title={
             "Let’s Transform Retail Together — With Rialtes as Your Strategic Partner"

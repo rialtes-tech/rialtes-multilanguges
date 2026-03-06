@@ -9,7 +9,8 @@ import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import BreadCrumbs from '@/app/components/BreadCrumbs'
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
-
+ import { useRef } from "react";
+import LearnMoreButton from "@/app/components/learnMore";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -116,7 +117,7 @@ const schemaData = {
         }
     }
 }
-const StrategicChallenge = () => {
+const StrategicChallenge = ({ onTalkClick }) => {
     const data = [
         {
             number: "1",
@@ -237,7 +238,8 @@ const StrategicChallenge = () => {
                     </div>
                 ))}
                 <div className="mt-[20px] lg:mt-[40px] max-md:px-[36px]">
-                    <LearnMore />
+                    <LearnMore  onClick={onTalkClick}
+  btnName="Talk to Us"/>
                 </div>
             </div>
         </>
@@ -305,6 +307,14 @@ const salesforceAgentData = [
     "Track customer interactions and feedback in real-time.",
 ]
 export default function Page() {
+     const contactRef = useRef(null);
+
+    const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -454,7 +464,7 @@ export default function Page() {
                 </div>
             </section>
             {/* strategic challenge section */}
-            <StrategicChallenge />
+            <StrategicChallenge  onTalkClick={handleScrollToContact}/>
             {/* deep expertise section */}
             <section className="relative group overflow-hidden h-auto text-white xl:pt-[99px] xl:pb-[175px] pt-[39px] pb-[150px] mt-[32px] xl:mt-[160px]">
                 <div className="lg:block hidden">
@@ -564,9 +574,11 @@ export default function Page() {
                         <div className="lg:col-span-6 col-span-12 lg:mt-[93px] mt-[500px md:mt-[600px] sm:mt-[500px] mt-[480px] lg:ml-[61px] ml-[36px] lg:mb-[81px] mb-[40px]">
                             <h3 className="4xl:text-[40px] 2xl:text-[38px] xl:text-[36px] lg:text-[30px] md:text-[30px] text-[22px] font-bold  lg:w-[680px]">Key AI Impact Areas in Pharma:</h3>
                             <UnorderedList arrName={keyAiImpact} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[18px] lg:text-[16px] text-[16px] mt-5 lg:pr-4 pr-8" liClassName="" />
-                            <button className="bg-white hover:bg-[#ffffff] xl:text-[20px] xl:block hidden  hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-black py-3 px-8 transition duration-300 order-4 mt-10">
+                            {/* <button className="bg-white hover:bg-[#ffffff] xl:text-[20px] xl:block hidden  hover:text-[#134874] border-[1px] border-[solid] border-[#134874] font-semibold text-black py-3 px-8 transition duration-300 order-4 mt-10">
                                 <Link href='/contact-us'>Learn More</Link>
-                            </button>
+                            </button> */}
+                            <LearnMoreButton bgcolor="rgb(12 138 212)"  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                         </div>
                     </div>
                 </div>
@@ -601,7 +613,8 @@ export default function Page() {
                             <h3 className="4xl:text-[40px] 2xl:text-[38px] xl:text-[36px] lg:text-[30px] md:text-[30px] text-[22px] font-bold  lg:w-[680px]">Benefits of AI in Pharma:</h3>
                             <UnorderedList arrName={benefitsOfAiData} ulClassName="list-disc xl:space-y-4 marker:font-bold marker:text-2xl pl-5 4xl:text-[20px] 2xl:text-[18px] xl:text-[18px] lg:text-[16px] text-[16px] mt-5 xl:pr-20 pr-10" liClassName="" />
                             <div className="mt-5 xl:block hidden">
-                                <LearnMore />
+                                <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                             </div>
                         </div>
                     </div>
@@ -732,7 +745,7 @@ export default function Page() {
                 </div>
             </div>
             {/* Contact Form */}
-            <div className="xl:mt-32 mt-12 custom-container text-black py-20">
+            <div className="xl:mt-32 mt-12 custom-container text-black py-20 scroll-mt-28"  ref={contactRef}>
                 <ContactForm title={'Partner with Rialtes — Enabling Next-Gen Pharma and Biotech Excellence!'} className={"max-w-[62rem]  font-light text-[26px]  md:text-[36px] lg:text-[50px] xl:text-[50px] 2xl:text-[56px]  4xl:text-[60px]  leading-tight pr-10 xl:pr-0"} />
             </div>
         </div>

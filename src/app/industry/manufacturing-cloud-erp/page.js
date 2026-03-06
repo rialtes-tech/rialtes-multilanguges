@@ -6,7 +6,7 @@ import LearnMore from "../../components/learnMore";
 import Script from "next/script";
 import BreadCrumbs from '@/app/components/BreadCrumbs'
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
-
+ import { useRef } from "react";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -124,6 +124,14 @@ const schemaData = {
   }
 }
 export default function Page() {
+   const contactRef = useRef(null);
+
+    const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -267,7 +275,8 @@ export default function Page() {
               <p className="mt-5 font-light pr-8 xl:pr-0">Our services cover the entire manufacturing value chain, from advisory and architecture to implementation, testing, and continuous innovation. </p>
               <p className="xl:mt-5 font-light">We collaborate with leading platforms like SAP, Salesforce, MuleSoft, and Kinaxis to provide scalable, integrated, and future-ready solutions. Rialtes brings together technology, process, and industry expertise under one roof to deliver seamless transformation.</p>
               <div className="mt-5">
-                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"}  onClick={handleScrollToContact}
+  btnName="Talk to Us" />
               </div>
             </div>
           </div>
@@ -292,7 +301,8 @@ export default function Page() {
             <h3 className="4xl:text-[36px] text-[22px] mt-5 font-semibold leading-tight">Speed, Scale, Success</h3>
             <p className="mt-5 xl:mb-10 mb-5 font-normal 4xl:pr-20 pr-5 leading-tight">With industry-specific accelerators, Rialtes enables manufacturers to deploy ready-to-use solutions that cut down months of setup time. From smart factory templates to AI-powered predictive workflows, our tools are designed to accelerate value realization, improve productivity, and drive intelligent operations. Our accelerators also ensure regulatory compliance and quality assurance, reducing risks during implementation.</p>
             <div className="xl:bottom-0">
-              <LearnMore />
+              <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
             </div>
           </div>
         </div>
@@ -323,7 +333,8 @@ export default function Page() {
               Rialtes helps discrete manufacturers handle complex product configurations, multi-tier supply chains, and custom engineering processes. Our solutions integrate end-to-end quoting, engineering, and order management, delivering real-time visibility and seamless customer collaboration. AI-powered insights help predict maintenance needs, reduce downtime, and ensure superior product quality.
             </p>
             <div className="xl:bottom-0">
-              <LearnMore />
+              <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
             </div>
           </div>
         </div>
@@ -387,7 +398,8 @@ export default function Page() {
                 For high-volume production, Rialtes offers solutions that enhance capacity planning, workforce allocation, and real-time production monitoring. Our tools optimize repetitive workflows and reduce cycle times, ensuring maximum throughput with minimum waste. AI-driven analytics help detect production anomalies early, ensuring product quality and cost efficiency.
               </p>
               <div>
-                <LearnMore />
+                <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
               </div>
             </div>
           </div>
@@ -470,7 +482,8 @@ export default function Page() {
               <h3 className="mt-5 4xl:text-[42px] text-[22px] leading-tight font-semibold pr-4 xl:pr-0">Actionable Insights with Visual Analytics</h3>
               <p className="mt-8 leading-tight 4xl:text-[20px] xl:text-[15px]">With Data Cloud and Tableau, Rialtes helps manufacturers turn complex operational data into meaningful insights. From OEE tracking and downtime analysis to supply chain risks and customer demand forecasting, our dashboards provide real-time visibility for proactive decision-making. AI models further enhance predictive maintenance and inventory optimization.</p>
               <div className="absolute mt-5">
-                <LearnMore />
+                <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
               </div>
             </div>
           </div>
@@ -544,7 +557,8 @@ export default function Page() {
               AI is no longer the future — it’s shaping today’s manufacturing. Rialtes brings AI-powered solutions for predictive maintenance, intelligent scheduling, defect detection, and demand forecasting. AI helps manufacturers adapt faster, optimize resources, and deliver customized products efficiently, enhancing both profitability and customer satisfaction.
             </p>
             <div className="xl:mt-5 mt-[-10px]  absolute  xl:relative">
-              <LearnMore />
+              <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
             </div>
           </div>
           <div className="xl:col-span-8 col-span-12 xl:block hidden xl:ml-[-300px]">
@@ -594,7 +608,8 @@ export default function Page() {
               Rialtes partners with SAP and Salesforce to create connected, intelligent, and agile manufacturing ecosystems. SAP’s Digital Manufacturing Cloud and Salesforce Manufacturing Cloud together deliver 360-degree visibility from factory to customer. We enable manufacturers to integrate customer feedback, dealer management, and service workflows into a single intelligent platform.
             </p>
             <div className="mt-5">
-              <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+              <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"}  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
             </div>
           </div>
         </div>
@@ -642,7 +657,8 @@ export default function Page() {
                   <h2 className="text-[#068EDA] font-extrabold leading-tight text-[40px] 4xl:text-[60px]">15%.</h2>
                 </div>
                 <div className="4xl:mt-[50px] 2xl:mt-[190px] xl:mt-[-15px] mt-[395px] max-[375px]:mt-[375px] md:mt-8 absolute  ">
-                  <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                  <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"}  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                 </div>
               </div>
               <div className="xl:col-span-6 md:col-span-1 col-span-12 xl:space-y-10  mt-10 xl-mt-0">
@@ -661,7 +677,7 @@ export default function Page() {
         </div>
       </section>
       {/* Contact Form */}
-      <div className="mt-20 xl:mt-10 custom-container text-black xl:py-20 pb-10">
+      <div className="mt-20 xl:mt-10 custom-container text-black xl:py-20 pb-10 scroll-mt-28"  ref={contactRef}>
         <ContactForm title={'Ready to Reimagine Your Manufacturing Future?'} subtitle={"Partner with Rialtes to transform your manufacturing operations with AI, SAP, Salesforce, and next-gen tools. "} subtitle1={"Contact Us Today and start your journey toward intelligent, resilient, and customer-centric manufacturing!"} className={"max-w-[62rem]  leading-tight xl:text-[60px] text-[26px]"} />
       </div>
     </div>

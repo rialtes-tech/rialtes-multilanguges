@@ -5,9 +5,9 @@ import LearnMore from "@/app/components/learnMore";
 import ContactForm from "@/app/components/contactform";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
-import BreadCrumbs from '@/app/components/BreadCrumbs'
+import BreadCrumbs from "@/app/components/BreadCrumbs";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
-
+import { useRef } from "react";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -182,6 +182,14 @@ const whyChooseData = [
   "Global footprint with local expertise to drive lasting transformation.",
 ];
 export default function Page() {
+  const contactRef = useRef(null);
+
+  const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -197,10 +205,8 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
 
-       {/* breadcrumb schema */}
-      <BreadcrumbSchema
-        currPage="Finance"
-      />
+      {/* breadcrumb schema */}
+      <BreadcrumbSchema currPage="Finance" />
       {/* hero section */}
       <section className="relative h-[350px] md:h-[500px] 4xl:h-[650px]">
         <div className="xl:block hidden">
@@ -307,7 +313,10 @@ export default function Page() {
                 liClassName=""
               />
               <div className=" absolute bottom-0">
-                <LearnMore />
+                <LearnMore
+                  onClick={handleScrollToContact}
+                  btnName="Talk to Us"
+                />
               </div>
             </div>
           </div>
@@ -391,7 +400,10 @@ export default function Page() {
                     ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pt-4"
                     liClassName=""
                   />
-                  <LearnMore />
+                  <LearnMore
+                    onClick={handleScrollToContact}
+                    btnName="Talk to Us"
+                  />
                 </div>
                 <div className="md:col-span-5 col-span-12 xl:mt-[100px] mt-0">
                   <div className="">
@@ -421,7 +433,10 @@ export default function Page() {
                     ulClassName="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] pl-5 marker:font-bold marker:text-2xl leading-tight pt-4"
                     liClassName=""
                   />
-                  <LearnMore />
+                  <LearnMore
+                    onClick={handleScrollToContact}
+                    btnName="Talk to Us"
+                  />
                 </div>
               </div>
               <div className="relative bottom-[-55px]">
@@ -478,7 +493,7 @@ export default function Page() {
               liClassName=""
             />
             <div className="mt-10">
-              <LearnMore />
+              <LearnMore onClick={handleScrollToContact} btnName="Talk to Us" />
             </div>
           </div>
         </div>
@@ -561,7 +576,7 @@ export default function Page() {
           </div>
         </div>
         <div className="max-md:mt-[5px] md:bottom-[28px] max-md:m-[29px] absolute md:left-1/2">
-          <LearnMore />
+          <LearnMore onClick={handleScrollToContact} btnName="Talk to Us" />
         </div>
       </section>
       {/* AgentChat section */}
@@ -617,7 +632,11 @@ export default function Page() {
                 enabling real-time, modern client engagement.
               </p>
               <div className="absolute bottom-0 ">
-                <LearnMore bgcolor={"#006FBE"} />
+                <LearnMore
+                  bgcolor={"#006FBE"}
+                  onClick={handleScrollToContact}
+                  btnName="Talk to Us"
+                />
               </div>
             </div>
           </div>
@@ -670,7 +689,11 @@ export default function Page() {
                 Single source of truth — actionable, secure, and AI-ready.
               </p>
               <div className="lg:mt-[45px]">
-                <LearnMore bgcolor={"#006FBE"} />
+                <LearnMore
+                  bgcolor={"#006FBE"}
+                  onClick={handleScrollToContact}
+                  btnName="Talk to Us"
+                />
               </div>
             </div>
           </div>
@@ -766,7 +789,10 @@ export default function Page() {
               </div>
 
               <div className="mt-[29px] xl-mt-[50px] flex xl:justify-end lg:justify-start">
-                <LearnMore />
+                <LearnMore
+                  onClick={handleScrollToContact}
+                  btnName="Talk to Us"
+                />
               </div>
             </div>
           </div>
@@ -809,13 +835,19 @@ export default function Page() {
                 liClassName=""
               />
               <div className="absolute bottom-0">
-                <LearnMore />
+                <LearnMore
+                  onClick={handleScrollToContact}
+                  btnName="Talk to Us"
+                />
               </div>
             </div>
           </div>
         </div>
       </section>
-      <div className="mx-[35px] custom-container text-black py-16">
+      <div
+        className="mx-[35px] custom-container text-black py-16 scroll-mt-28"
+        ref={contactRef}
+      >
         <ContactForm
           className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[60%] 2xl:w-[50%] 4xl:w-[70%]"
           title="Ready to Transform Your Financial Services Experience?"

@@ -7,7 +7,7 @@ import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import BreadCrumbs from '@/app/components/BreadCrumbs'
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
-
+import { useRef } from "react";
 export default function Page() {
     const schemaData = {
         "@context": "https://schema.org",
@@ -177,6 +177,15 @@ export default function Page() {
         "Tableau-powered visualizations for interactive and actionable insights.",
         "Tableau-powered visualizations for interactive and actionable insights."
     ]
+
+     const contactRef = useRef(null);
+
+    const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
     return (
         <section>
             <div className="min-h-screen bg-white">
@@ -292,7 +301,8 @@ export default function Page() {
                             </div>
                         </div>
                         <div className="xl:mt-[49px] mt-[42px] md:pl-[60px]">
-                            <LearnMore />
+                            <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                         </div>
                     </div>
                 </section>
@@ -320,7 +330,8 @@ export default function Page() {
                                 </p>
                                 <UnorderedList arrName={industryData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[48px] mt-[38px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-light" />
                                 <div className="absolute bottom-[-20px] xl:pl-[61px] lg:pl-[26px]">
-                                    <LearnMore bgcolor="#006FBE" />
+                                    <LearnMore bgcolor="#006FBE" onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                                 </div>
                             </div>
                         </div>
@@ -357,7 +368,8 @@ export default function Page() {
                                             <UnorderedList arrName={industryData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[48px] mt-[38px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-light" />
                                         </div>
                                         <div className="absolute bottom-[-20px] xl:pl-[61px] lg:pl-[26px]">
-                                            <LearnMore bgcolor="#006FBE" />
+                                            <LearnMore bgcolor="#006FBE" onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                                         </div>
                                     </div>
                                 </div>
@@ -452,7 +464,8 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="absolute md:left-1/2 bottom-[-26px] max-md:ml-[36px] md:ml-[40px] lg:ml-[36px]">
-                        <LearnMore />
+                        <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                     </div>
                 </section>
                 {/* optimize section */}
@@ -502,7 +515,8 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="absolute md:left-1/2 md:bottom-[-26px] bottom-[60px]  max-md:ml-[36px]">
-                        <LearnMore />
+                        <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                     </div>
                 </section>
                 {/* driving repeat section */}
@@ -521,7 +535,8 @@ export default function Page() {
                                 </p>
                                 <UnorderedList arrName={futureReadyData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[37px] mt-[38px] pl-[20px] lg:w-[90%]" liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
                                 <div className="mt-[44px]">
-                                    <LearnMore />
+                                    <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                                 </div>
                             </div>
                         </div>
@@ -734,7 +749,8 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="xl:mt-[-20px] mt-[36px] max-md:ml-[36px]">
-                        <LearnMore />
+                        <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                     </div>
                 </section>
                 {/* quick commerce section */}
@@ -752,7 +768,8 @@ export default function Page() {
                             </p>
                             <UnorderedList arrName={quickCommereceData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[26px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
                             <div className="xl:mt-[120px] mt-[36px]">
-                                <LearnMore />
+                                <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                             </div>
                         </div>
                         <div className="order-1 lg:col-span-7 col-span-12">
@@ -799,7 +816,8 @@ export default function Page() {
                             </p>
                             <UnorderedList arrName={smarterServiceData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[22px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
                             <div className="xl:mt-[252px] mt-[36px]">
-                                <LearnMore />
+                                <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                             </div>
                         </div>
                         <div className="md:order-2 order-1 2xl:col-span-7 lg:col-span-5 md:col-span-6 col-span-12">
@@ -830,7 +848,7 @@ export default function Page() {
                     </div>
                 </section>
                 {/* Contact Form */}
-                <section className="custom-container xl:mt-[104px] xl:mb-[166px] mt-[45px] mb-[45px]">
+                <section className="custom-container xl:mt-[104px] xl:mb-[166px] mt-[45px] mb-[45px] scroll-mt-28" ref={contactRef}>
                     <ContactForm title={'Ready to Redefine the Future of Travel, Transportation & Hospitality?'} subtitle="Whether you’re an airline, hotel chain, cruise line, rideshare, or logistics provider, Rialtes can help you lead in a competitive world with technology, strategy, and execution that deliver results." subtitle1=" Contact Rialtes today to start your transformation journey — because great experiences start with great partners." className={"xl:w-[80%]"} />
                 </section>
             </div>

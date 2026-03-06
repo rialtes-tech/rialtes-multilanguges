@@ -7,7 +7,9 @@ import UnorderedList from "@/app/components/unorderedList";
 import BreadCrumbs from '../../../components/BreadCrumbs'
 import Script from "next/script";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
+ import { useRef } from "react";
 export default function DemandPlusSection() {
+   const contactRef = useRef(null);
   const schemaData = {
     "@context": "https://schema.org",
     "@type": "Service",
@@ -169,6 +171,13 @@ export default function DemandPlusSection() {
     "Custom-built and legacy applications",
     "Seamless data flow across qTest, Tosca, and DevOps tools for end-to-end visibility",
   ];
+
+    const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -351,7 +360,9 @@ export default function DemandPlusSection() {
       <div className="grid xl:grid-cols-12 4xl:mt-[-85px] mt-[1rem] sm:mt-10 xl:mt-[-50px] max-md:px-[35px] custom-container">
         <div className="xl:col-span-2">
           <div className="4xl:mt-[44px]  xl:mt-[75px] 2xl:mt-[5rem]">
-            <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"} />
+            <LearnMore bgcolor={"#134874"} bordercolor={"#006FBE"}  onClick={handleScrollToContact}
+  btnName="Talk to Us"
+/>
           </div>
         </div>
         <div className="xl:col-span-1"></div>
@@ -458,7 +469,9 @@ export default function DemandPlusSection() {
               liClassName="md:text-[18px] 4xl:text-[20px] text-[16px]"
             />
             <div className="xl:hidden block mt-5">
-              <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+              <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"}  onClick={handleScrollToContact}
+  btnName="Talk to Us"
+/>
             </div>
           </div>
         </div>
@@ -472,7 +485,9 @@ export default function DemandPlusSection() {
         </div>
         <div className="xl:col-span-1"></div>
         <div className="xl:col-span-2 xl:block hidden">
-          <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"} />
+          <LearnMore bgcolor={"#073259"} bordercolor={"#006FBE"}  onClick={handleScrollToContact}
+  btnName="Talk to Us"
+/>
         </div>
       </div>
       {/* neo load section */}
@@ -523,7 +538,9 @@ export default function DemandPlusSection() {
                 liClassName=" 4xl:text-[20px] md:text-[18px] text-[16px]"
               />
               <div className="xl:hidden block mt-10">
-                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"}  onClick={handleScrollToContact}
+  btnName="Talk to Us"
+/>
               </div>
               <div className="xl:hidden block bg-[#073259] p-8  mt-[40px]">
                 <p className="md:text-[18px] 4xl:text-[20px] text-[16px] text-white leading-tight font-normal">
@@ -548,7 +565,9 @@ export default function DemandPlusSection() {
         </section>
         <div className="xl:col-span-1"></div>
         <div className="xl:col-span-2 4xl:mt-[42px] xl:block hidden">
-          <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+          <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"}  onClick={handleScrollToContact}
+  btnName="Talk to Us"
+/> 
         </div>
       </div>
       {/* rialtes certified section */}
@@ -669,7 +688,9 @@ export default function DemandPlusSection() {
         <div className="relative">
           <div className="xl:grid xl:grid-cols-12">
             <div className="order-1 xl:order-3 col-span-2 max-[405px]:mt-[-185px] max-[520px]:mt-[-172px] mt-[-156px] md:mt-[-146px] xl:mt-[-74px] 3xl:mt-[-74px] 4xl:mt-[-80px]">
-              <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+              <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"}  onClick={handleScrollToContact}
+  btnName="Talk to Us"
+/>
             </div>
             <div className="order-2 xl:order-2 xl:col-span-1"></div>
             <div className="order-3 xl:order-1 xl:col-span-7 col-span-12 xl:mr-0 4xl:mr-0 mt-[26px]  xl:mt-[-70px] 3xl:mt-[-50px] 4xl:mt-[-80px]">
@@ -740,7 +761,7 @@ export default function DemandPlusSection() {
           </div>
         </section>
       </div>
-      <div className="mt-20 custom-container text-black pb-20">
+      <div className="mt-20 custom-container text-black pb-20 scroll-mt-28" ref={contactRef}>
         <ContactForm
           title={"Ready to Transform Your Testing Journey?"}
           subtitle={

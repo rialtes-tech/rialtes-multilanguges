@@ -7,6 +7,7 @@ import UnorderedList from "@/app/components/unorderedList";
 import Script from "next/script";
 import BreadCrumbs from '../../../components/BreadCrumbs'
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
+ import { useRef } from "react";
 
 const featureBoxes = [
     {
@@ -155,6 +156,14 @@ const whyRiatlesData = [
     "Focus on value, scalability, and rapid ROI. 24/7 monitoring and support for bots.",
 ]
 export default function DemandPlusSection() {
+     const contactRef = useRef(null);
+
+    const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "Service",
@@ -390,7 +399,8 @@ export default function DemandPlusSection() {
                             </div>
                             <p className="text-[#000000] mt-2 4xl:text-[22px] md:text-[18px] text-[16px] leading-tight font-normal pb-6 lg:pb-4">{feature.description}</p>
                             <div className="mt-auto">
-                                <LearnMore />
+                                <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                             </div>
                         </div>
                     ))}
@@ -436,7 +446,8 @@ export default function DemandPlusSection() {
                         <div className="4xl:mt-10 xl:mt-5 font-semibold 4xl:text-[32px] xl:text-[20px] text-[18px] leading-tight mt-10">Benefits:</div>
                         <UnorderedList arrName={aribaBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-1 font-medium  marker:font-bold marker:text-2xl pl-5 mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] md:text-[18px] text-[16px]" />
                         <div className="mt-5">
-                            <LearnMore />
+                            <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                         </div>
                     </div>
                 </div>
@@ -487,7 +498,8 @@ export default function DemandPlusSection() {
                         </div>
                         <UnorderedList arrName={s4hanaBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] md:text-[18px] text-[16px]" />
                         <div className="mt-5">
-                            <LearnMore />
+                            <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                         </div>
                     </div>
                 </div>
@@ -538,7 +550,8 @@ export default function DemandPlusSection() {
                         </div>
                         <UnorderedList arrName={successFactorBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-1 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] md:text-[18px] text-[16px]" />
                         <div className="mt-5">
-                            <LearnMore />
+                            <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                         </div>
                     </div>
                 </div>
@@ -589,7 +602,8 @@ export default function DemandPlusSection() {
                         </div>
                         <UnorderedList arrName={salesforceBenefits} ulClassName="list-disc leading-tight 4xl:space-y-3 xl:space-y-3 marker:font-bold marker:text-2xl pl-5 font-medium mt-3 pr-12 xl:pr-0" liClassName="4xl:text-[20px] md:text-[18px] text-[16px]" />
                         <div className="mt-10">
-                            <LearnMore />
+                            <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                         </div>
                     </div>
                 </div>
@@ -626,14 +640,16 @@ export default function DemandPlusSection() {
                                 <h3 className="4xl:text-[30px] text-[18px] xl:text-[22px]">Retail</h3>
                                 <UnorderedList arrName={retailData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-12 mt-3 xl:pr-0" liClassName="4xl:text-[20px] md:text-[18px] text-[16px]" />
                                 <div className="absolute 4xl:mt-5 xl:block hidden">
-                                    <LearnMore />
+                                    <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                                 </div>
                             </div>
                             <div>
                                 <h3 className="4xl:text-[30px] text-[18px] xl:text-[22px]">HR (Cross-Industry)</h3>
                                 <UnorderedList arrName={hrData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-light marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 pr-12 mt-3 xl:pr-0" liClassName="4xl:text-[20px] md:text-[18px] text-[16px]" />
                                 <div className="absolute mt-5 xl:hidden block">
-                                    <LearnMore />
+                                    <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                                 </div>
                             </div>
                         </div>
@@ -686,7 +702,8 @@ export default function DemandPlusSection() {
                         </p>
                         <UnorderedList arrName={aiEnhanceData} ulClassName="list-disc leading-tight 4xl:space-y-5 xl:space-y-3 font-medium marker:font-bold marker:text-2xl pl-5 4xl:mt-8 xl:mt-5 mt-8 xl:pr-10 4xl:pr-16" liClassName="4xl:text-[20px] md:text-[18px] text-[16px]" />
                         <div className="absolute mt-5 xl:mt-5">
-                            <LearnMore />
+                            <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                         </div>
                     </div>
                 </div>
@@ -750,7 +767,7 @@ export default function DemandPlusSection() {
                     </div>
                 </div>
             </section>
-            <div className="mt-20 custom-container pb-20">
+            <div className="mt-20 custom-container pb-20 scroll-mt-28" ref={contactRef}>
                 <ContactForm title={'Ready to Transform with UiPath RPA?'} subtitle={"Partner with Rialtes to accelerate your automation journey. Our UiPath-certified experts are ready to help you unlock efficiency, reduce costs, and scale innovation."} subtitle1={"Contact us today for a free automation assessment!"} className={"4xl:max-w-[58rem] xl:max-w-[44rem] leading-tight text-[26px] !font-light md:text-[32px] 4xl:text-[60px] 2xl:text-[48px] xl:text-[40px] pr-10 xl:pr-0"} />
             </div >
         </div>
