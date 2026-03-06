@@ -9,6 +9,7 @@ export default function LearnMoreButton({
   bgcolor = "#134874",
   bordercolor = "#134874",
   onClick,
+  color,
 }) {
   const [isHovered, setIsHovered] = useState(false);
 
@@ -27,6 +28,7 @@ export default function LearnMoreButton({
       <button
         type="button"
         onClick={onClick}
+        color={color}
         aria-label={arialabel}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}

@@ -7,6 +7,7 @@ import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import BreadCrumbs from '@/app/components/BreadCrumbs'
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
+import { useRef } from "react";
 
 const schemaData = {
     "@context": "https://schema.org",
@@ -165,7 +166,7 @@ const ServicesCard = ({ services }) => (
         </div>
     </div>
 );
-const SalesforceExplore = () => {
+const SalesforceExplore = ({ onTalkClick }) => {
     return (
         <section className="bg-[#EAF8FD] pt-16 pb-16 xl:pb-0 4xl:pb-0">
             <div className="custom-container">
@@ -180,7 +181,8 @@ const SalesforceExplore = () => {
                                 <p className="text-black xl:mb-5 4xl:text-[22px] text-[16px] leading-tight pr-[5rem] xl:pr-0 4xl:pr-10">{service.description}</p>
                             </div>
                             <div>
-                                <LearnMore />
+                                <LearnMore      onClick={onTalkClick}
+  btnName="Talk to Us"/>
                             </div>
                         </div>
                     ))}
@@ -189,7 +191,7 @@ const SalesforceExplore = () => {
         </section>
     );
 };
-const Services = () => {
+const Services = ({ onTalkClick }) => {
     return (
         <div className="text-black 2xl:pr-70 xl:pr-10 md:pr-8">
             <div className="grid 4xl:grid-cols-12">
@@ -200,11 +202,13 @@ const Services = () => {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6">
                 {latestServices.map((services) => (
-                    <ServicesCard key={services.id} services={services} />
+                    <ServicesCard key={services.id} services={services}  onClick={onTalkClick}/>
                 ))}
             </div>
             <div className="4xl:mt-10 xl:mt-5 mt-5 2xl:mt-5">
-                <LearnMore />
+                <LearnMore  onClick={onTalkClick}
+  btnName="Talk to Us"
+  />
             </div>
         </div>
     );
@@ -295,6 +299,13 @@ const yourGrowthData = [
     "End-to-end support from advisory to post-go-live optimization.",
 ]
 export default function Page() {
+    const contactRef = useRef(null);
+     const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -370,7 +381,7 @@ export default function Page() {
             {/* advantage+ section */}
             <div className="custom-container lg:mt-20  4xl:pr-[457px] 2xl:pr-[300px] xl:pr-[245px]">
                 <section className=" bg-white">
-                    <Services />
+                    <Services  onTalkClick={handleScrollToContact}/>
                 </section>
             </div>
             {/* deep salesforce section */}
@@ -423,7 +434,8 @@ export default function Page() {
 
                         {/* Button */}
                         <div className="xl:mt-10 mt-5  xl:text-left">
-                            <LearnMore />
+                            <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                         </div>
                     </div>
                 </section>
@@ -456,7 +468,8 @@ export default function Page() {
                         </ul>
 
                         <div className="mt-10">
-                            <LearnMore />
+                            <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
 
                         </div>
                     </div>
@@ -499,7 +512,8 @@ export default function Page() {
                                 Leveraging Salesforce Data Cloud and Agentforce, Rialtes transforms how organizations manage and execute marketing campaigns:
                             </p>
                             <div className="mt-6 xl:block hidden 4xl:mt-[275px] xl:mt-[85px]">
-                                <LearnMore />
+                                <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                             </div>
                         </div>
                         <div className="4xl:mt-[40rem]  xl:mt-[29rem] 2xl:mt-[32rem]">
@@ -514,7 +528,8 @@ export default function Page() {
                                 By harnessing AI and real-time data, Rialtes enables clients to move from reactive to proactive marketing, improving engagement rates and customer loyalty.
                             </p>
                             <div className="mt-5 xl:hidden block">
-                                <LearnMore />
+                                <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                             </div>
                         </div>
                     </div>
@@ -561,7 +576,8 @@ export default function Page() {
                         </ul>
                         <p className="mt-5 4xl:text-[22px] text-[16px] font-light 4xl:pr-6">AgentChat is the perfect solution for customer service, sales inquiries, order updates, and marketing outreach — all managed securely within Salesforce.</p>
                         <div className="mt-5">
-                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"} />
+                            <LearnMore bgcolor={"#006FBE"} bordercolor={"#006FBE"}  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                         </div>
                     </div>
                 </div>
@@ -613,7 +629,8 @@ export default function Page() {
                         </p>
                         <UnorderedList arrName={yourGrowthData} ulClassName="list-disc pl-5 mt-4 xl:mt-8 space-y-3 4xl:space-y-5 xl:space-y-3 text-[16px] 4xl:text-[22px] leading-tight font-normal marker:text-white 4xl:pr-[20px] pr-10" liClassName="" />
                         <div className="xl:absolute xl:mt-2 bottom-0 mt-8 4xl:mt-2">
-                            <LearnMore />
+                            <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                         </div>
                     </div>
                 </div>
@@ -621,11 +638,11 @@ export default function Page() {
             {/* explore more section */}
             <div className="mt-[4rem] 4xl:mt-[5rem] xl:mt-[3rem]">
                 <section className=" bg-white">
-                    <SalesforceExplore />
+                    <SalesforceExplore  onTalkClick={handleScrollToContact}/>
                 </section>
             </div>
             {/* contact form section */}
-            <div className="custom-container text-black py-16">
+            <div className="custom-container text-black py-16 scroll-mt-28" ref={contactRef}>
                 <ContactForm title={'Ready to Accelerate Your Marketing? Let’s Talk!'} className={"leading-tight xl:max-w-[65%] max-w-full 4xl:text-[60px] xl:text-[40px] md:text-[26px] font-light"} />
             </div >
         </div >

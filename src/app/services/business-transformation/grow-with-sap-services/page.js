@@ -7,6 +7,8 @@ import UnorderedList from "@/app/components/unorderedList";
 import BreadCrumbs from '../../../components/BreadCrumbs'
 import Script from "next/script";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
+ import { useRef } from "react";
+import LearnMoreButton from "@/app/components/learnMore";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "Service",
@@ -233,6 +235,15 @@ const futureProofingData = [
   "Personalized experiences with Data Cloud + AI",
 ]
 export default function Page() {
+   const contactRef = useRef(null);
+
+    const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -441,9 +452,9 @@ export default function Page() {
             <div className="xl:col-span-5 col-span-12 mt-20 xl:mt-0">
               <h3 className="4xl:text-[30px] xl:text-[24px] text-[22px] leading-tight font-bold">Rialtes SAP B1 to S/4HANA Migration Approach:</h3>
               <UnorderedList arrName={rialtesSapData} ulClassName="list-disc xl:space-y-5 marker:font-bold marker:text-2xl pl-5 xl:mt-10 mt-3" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight " />
-              <button className="bg-white hover:bg-[#ffffff] hover:text-[#134874] border-[1px] xl:text-[20px] border-[solid] border-[#134874] mt-10 font-semibold text-black py-3 px-8 transition duration-300 order-4">
-                <Link href='/contact-us'>Learn More</Link>
-              </button>
+             <LearnMoreButton onClick={handleScrollToContact}
+  btnName="Talk to Us" 
+/>
             </div>
           </div>
         </div>
@@ -649,7 +660,7 @@ export default function Page() {
         </div>
       </section>
       {/* contact form */}
-      <section className="custom-container text-black py-16">
+      <section className="custom-container text-black py-16  scroll-mt-28" ref={contactRef}>
         <ContactForm title={'Ready to Grow with SAP? Partner with Rialtes VoyagerNext Today!'} subtitle={"Empower your growth journey with VoyagerNext — the Rialtes way to unlock S/4HANA Cloud potential."} className={"leading-tight max-w-[96%] text-[26px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] 4xl:text-[60px]"} />
       </section>
     </div >

@@ -8,7 +8,7 @@ import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import BreadCrumbs from '@/app/components/BreadCrumbs'
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
-
+import { useRef } from "react";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -94,7 +94,7 @@ const schemaData = {
     }
   }
 }
-const Services2 = () => {
+const Services2 = ( { onTalkClick }) => {
   return (
     <div className="mx-auto text-black">
       <h2 className="text-black mb-6 4xl:text-[60px] 2xl:text-[56px] xl:text-[45px] lg:text-[45px] md:text-[35px] text-[26px] max-[350px]:text-[22px] leading-tight">
@@ -112,7 +112,8 @@ const Services2 = () => {
           <ServicesCard key={services.id} services={services} />
         ))}
       </div>
-      <LearnMore />
+      <LearnMore  onClick={onTalkClick}
+  btnName="Talk to Us"/>
     </div>
   );
 };
@@ -240,6 +241,14 @@ const educationSolutions = [
 ];
 
 export default function Page() {
+   const contactRef = useRef(null);
+
+    const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -386,7 +395,7 @@ export default function Page() {
       {/**Pre-Delivered Accelerators */}
       <section className="xl:mt-40 max-[388px]:mt-[38rem] mt-[35rem] md:mt-[26rem] custom-container xl:!pr-[142px]">
         <div className="pb-16 bg-white">
-          <Services2 />
+          <Services2  onTalkClick={handleScrollToContact}/>
         </div>
       </section>
       {/**Student Journey * */}
@@ -498,7 +507,9 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                <LearnMore />
+                <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"
+/>
               </div>
             </div>
           </div>
@@ -526,7 +537,9 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                <LearnMore />
+                <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"
+/>
               </div>
             </div>
           </div>
@@ -562,7 +575,9 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                <LearnMore />
+                <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"
+/>
               </div>
             </div>
           </div>
@@ -593,7 +608,9 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                <LearnMore />
+                <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"
+/>
               </div>
             </div>
           </div>
@@ -629,7 +646,9 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                <LearnMore />
+                <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"
+/>
               </div>
             </div>
           </div>
@@ -660,7 +679,9 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                <LearnMore />
+                <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"
+/>
               </div>
             </div>
           </div>
@@ -697,7 +718,9 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                <LearnMore />
+                <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"
+/>
               </div>
             </div>
           </div>
@@ -920,7 +943,7 @@ export default function Page() {
         </div>
       </section>
       {/* Contact Form */}
-      <div className="custom-container text-black xl:py-20 pb-10">
+      <div className="custom-container text-black xl:py-20 pb-10  scroll-mt-28"    ref={contactRef}>
         <ContactForm
           title={"Ready to Redefine Your Student Experience?"}
           subtitle={
@@ -929,6 +952,7 @@ export default function Page() {
           subtitle1={
             "Contact us today for a personalized consultation and demo!"
           }
+        
           className={
             "max-w-[62rem] leading-tight  4xl:text-[60px]  2xl:text-[56px] xl:text-[45px] lg:text-[45px] md:text-[30px] text-[26px] max-[400px]:text-[24px]"
           }

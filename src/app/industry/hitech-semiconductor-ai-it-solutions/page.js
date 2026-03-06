@@ -8,7 +8,7 @@ import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
 import BreadCrumbs from "@/app/components/BreadCrumbs";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
-
+import { useRef } from "react";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -449,6 +449,14 @@ const keyReasonsData = [
   },
 ];
 export default function Page() {
+  const contactRef = useRef(null);
+
+  const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
   return (
     <section className="min-h-screen bg-white">
       <Seo
@@ -574,7 +582,7 @@ export default function Page() {
               time-to-market, and enhanced compliance.
             </p>
             <div className="absolute mt-[20px] xl:mt-[30px]">
-              <LearnMore />
+              <LearnMore onClick={handleScrollToContact} btnName="Talk to Us" />
             </div>
           </div>
         </div>
@@ -643,12 +651,18 @@ export default function Page() {
                   ></div>
                   {ind === 3 && (
                     <div className="hidden lg:block absolute lg:bottom-[60px]">
-                      <LearnMore />
+                      <LearnMore
+                        onClick={handleScrollToContact}
+                        btnName="Talk to Us"
+                      />
                     </div>
                   )}
                   {ind === 4 && (
                     <div className="block lg:hidden max-lg:mt-[25px]">
-                      <LearnMore />
+                      <LearnMore
+                        onClick={handleScrollToContact}
+                        btnName="Talk to Us"
+                      />
                     </div>
                   )}
                 </div>
@@ -674,7 +688,7 @@ export default function Page() {
               liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-normal"
             />
             <div className="xl:mt-[87px] mt-[24px]">
-              <LearnMore />
+              <LearnMore onClick={handleScrollToContact} btnName="Talk to Us" />
             </div>
           </div>
           <div className="md:col-span-6 col-span-12 md:order-2 order-1">
@@ -749,13 +763,11 @@ export default function Page() {
         </div>
 
         <div className="absolute bottom-0 z-1-">
-          <Link
-            href="/contact-us"
-            className={`inline-block 4xl:text-[20px] text-[16px] border  font-semibold text-white py-3 px-8 transition duration-300 mt-6
-        bg-[#0C8AED] border-[#0C8AED]  hover:bg-white hover:text-[#134874] hover:border-[#134874]`}
-          >
-            Learn More
-          </Link>
+          <LearnMore
+            bgcolor="#0C8AED"
+            onClick={handleScrollToContact}
+            btnName="Talk to Us"
+          />
         </div>
       </section>
       {/* deep industry section */}
@@ -865,7 +877,10 @@ export default function Page() {
                 </div>
               </div>
               <div className="max-md:mt-[31px] mt-[40px]">
-                <LearnMore />
+                <LearnMore
+                  onClick={handleScrollToContact}
+                  btnName="Talk to Us"
+                />
               </div>
             </div>
           );
@@ -1022,7 +1037,7 @@ export default function Page() {
               </div>
             </div>
             <div className="absolute lg:mt-[60px] mt-[20px]">
-              <LearnMore />
+              <LearnMore onClick={handleScrollToContact} btnName="Talk to Us" />
             </div>
           </div>
         </div>
@@ -1228,7 +1243,10 @@ export default function Page() {
                     liClassName="text-[16px] xl:text-[19px] 4xl:text-[22px] leading-tight font-normal"
                   />
                   <div className="xl:mt-[97px] mt-[48] lg:float-end">
-                    <LearnMore />
+                    <LearnMore
+                      onClick={handleScrollToContact}
+                      btnName="Talk to Us"
+                    />
                   </div>
                 </div>
               </div>
@@ -1407,7 +1425,10 @@ export default function Page() {
                 <div
                   className={`absolute bottom-0 ${isEven && "lg:left-1/3 4xl:left-[770px] ml-[20px]"}`}
                 >
-                  <LearnMore />
+                  <LearnMore
+                    onClick={handleScrollToContact}
+                    btnName="Talk to Us"
+                  />
                 </div>
               </div>
             </div>
@@ -1466,7 +1487,10 @@ export default function Page() {
         </div>
       </section>
       {/* Contact Form */}
-      <div className="custom-container md:mt-[122px] xl:mb-[92px] mt-[54px] mb-[45px]">
+      <div
+        className="custom-container md:mt-[122px] xl:mb-[92px] mt-[54px] mb-[45px] scroll-mt-28"
+        ref={contactRef}
+      >
         <ContactForm
           title={"Ready to Connect Your Enterprise?"}
           subtitle="Partner with Rialtes to simplify integrations, accelerate digital transformation, and unlock real business value."

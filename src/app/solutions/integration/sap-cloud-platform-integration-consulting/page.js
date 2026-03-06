@@ -1,3 +1,4 @@
+"use client";
 import ContactForm from "@/app/components/contactform";
 import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
@@ -7,7 +8,9 @@ import React from "react";
 import BreadCrumbs from '../../../components/BreadCrumbs'
 import UnorderedList from "@/app/components/unorderedList";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
+import { useRef } from "react";
 export default function page() {
+    
     const schemaData = {
         "@context": "https://schema.org",
         "@type": "Service",
@@ -100,7 +103,7 @@ export default function page() {
                 }
             ]
         }
-    }
+    } 
     const thoughtLeadershipData = [
         "Disconnected systems and data silos limiting agility.",
         "Manual processes draining resources and increasing errors.",
@@ -303,6 +306,13 @@ export default function page() {
         "Deep expertise in SAP, Salesforce, Oracle, Mulesoft, Tableau, Kinaxis integrations.",
         "End-to-end support from advisory to post-go-live optimization.",
     ]
+     const contactRef = useRef(null);
+     const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
     return (
         <section className="min-h-screen">
             <Seo
@@ -461,7 +471,8 @@ export default function page() {
                             })
                         }
                         <div className="absolute max-md:left-0 md:right-0 bottom-[-100px]">
-                            <LearnMore />
+                            <LearnMore   onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                         </div>
                     </div>
                 </div>
@@ -501,7 +512,8 @@ export default function page() {
                                             </div>
                                         </div>
                                         <div className="xl:mt-[61px] mt-[44px]">
-                                            <LearnMore />
+                                            <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                                         </div>
                                     </div>
                                     <div className="lg:order-2 order-1">
@@ -575,7 +587,8 @@ export default function page() {
                                 </p>
                                 <UnorderedList arrName={integrationData} ulClassName="list-disc xl:mt-[44px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
                                 <div className="absolute md:mt-[40px] mt-[60px]">
-                                    <LearnMore />
+                                    <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                                 </div>
                             </div>
                         </div>
@@ -604,7 +617,8 @@ export default function page() {
                                                 </p>
                                                 <UnorderedList arrName={data.dataList} ulClassName="list-disc xl:mt-[34px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px] sm:w-[80%] md:w-full" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
                                                 <div className="md:mt-[83px] mt-[25px]">
-                                                    <LearnMore />
+                                                    <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                                                 </div>
                                             </div>
                                             {/* image section */}
@@ -691,7 +705,8 @@ export default function page() {
                                                 </p>
                                                 <UnorderedList arrName={data.dataList} ulClassName="list-disc xl:mt-[34px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px] sm:w-[80%] md:w-full" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
                                                 <div className="lg:mt-[60px] mt-[33px]">
-                                                    <LearnMore />
+                                                    <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                                                 </div>
                                             </div>
                                         </div>
@@ -734,7 +749,8 @@ export default function page() {
                                 </h2>
                                 <UnorderedList arrName={whyRialtesData} ulClassName="list-disc xl:mt-[60px] mt-[19px] md:ml-[26px] ml-[20px] space-y-[19px] xl:space-y-[27px]" liClassName="md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
                                 <div className="absolute xl:mt-[40px] lg:mt-[20px] sm:mt-[10px] mt-[20px]">
-                                    <LearnMore />
+                                    <LearnMore  onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                                 </div>
                             </div>
                         </div>
@@ -743,7 +759,7 @@ export default function page() {
                 </div>
             </section>
             {/* Contact Form */}
-            <div className="custom-container xl:mt-[224px] lg:mt-[164px] xl:mb-[104px] mt-[104px] mb-[45px]">
+            <div className="custom-container xl:mt-[224px] lg:mt-[164px] xl:mb-[104px] mt-[104px] mb-[45px] scroll-mt-28" ref={contactRef}>
                 <ContactForm title={'Ready to Connect Your Enterprise with SAP Cloud Integration?'} subtitle="Partner with Rialtes to simplify integrations, accelerate digital transformation, and unlock real business value." subtitle1="Contact us today for a free consultation and explore how we can empower your connected enterprise!" className="text-[26px] md:text-[32px] leading-tight xl:text-[40px] 2xl:text-[48px] 4xl:text-[60px] lg:w-[70%] 4xl:w-[80%]" />
             </div >
         </section >

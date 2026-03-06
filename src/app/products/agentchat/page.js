@@ -6,6 +6,7 @@ import Seo from "@/app/components/Seo";
 import BreadCrumbs from '../../components/BreadCrumbs'
 import Script from "next/script";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
+ import { useRef } from "react";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "Product",
@@ -59,6 +60,14 @@ const schemaData = {
     ]
 }
 export default function Page() {
+     const contactRef = useRef(null);
+
+    const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
     const features = [
         {
             title: "Real-Time, Two-Way WhatsApp Messaging",
@@ -348,7 +357,8 @@ export default function Page() {
                                     />
                                 ))}
                             </ul>
-                            <LearnMore />
+                            <LearnMore   onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                         </div>
                         <div className="mt-10 xl:mt-0">
                             <Image
@@ -545,7 +555,7 @@ export default function Page() {
             </div>
 
             {/* Contact Form */}
-            <div className="custom-container text-black py-10">
+            <div className="custom-container text-black py-10 scroll-mt-28" ref={contactRef}>
                 <ContactForm title={'Let me know if you want a design mockup, call-to-action variations, or shorter ad copy versions!'} className={' font-light leading-tight text-[26px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] 4xl:text-[60px] 4xl:w-[1222px] 2xl:w-[1100px] xl:w-[800px]'} />
             </div>
         </div>
