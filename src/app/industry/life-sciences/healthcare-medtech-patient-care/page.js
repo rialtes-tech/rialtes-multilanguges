@@ -2,84 +2,104 @@
 import UnorderedList from "@/app/components/unorderedList";
 import Image from "next/image";
 import ContactForm from "../../../components/contactform";
-import ExploreMoreCarousel from '../../../components/servicesExploreMoreCarousel';
-import BreadCrumbs from '@/app/components/BreadCrumbs'
+import ExploreMoreCarousel from "../../../components/servicesExploreMoreCarousel";
+import BreadCrumbs from "@/app/components/BreadCrumbs";
 import { useState } from "react";
 import LearnMore from "@/app/components/learnMore";
-import CaseStudyIndivisual from '../../../components/caseStudyIndivisual';
+import CaseStudyIndivisual from "../../../components/caseStudyIndivisual";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
+import { useRef } from "react";
 const slidesCaseStudy = [
   {
     id: 1,
     url: "/insights/case-studies/digitizing-patient-journey-using-salesforce-health-cloud",
     imgSrc: "/images/case-studies/case-study-7_thumb.webp",
     title: "Digitizing patient journey using Salesforce health cloud",
-    description: "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
+    description:
+      "A leading manufacturer that specializes in building innovative materials for residential and commercial construction projects.",
   },
   {
     id: 2,
     url: "/insights/case-studies/salesforce-health-cloud-prior-authorization",
     imgSrc: "/images/case-studies/case-study-8_thumb.webp",
     title: "Salesforce Health Cloud, Prior Authorization",
-    description: "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
+    description:
+      "A multifamily real estate firm based out of the US that specializes in managing and investing in multifamily properties.",
   },
   {
     id: 3,
     url: "/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap",
     imgSrc: "/images/case-studies/case study 1_thumb_n.webp",
-    title: "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
-    description: "A global medical technology company that develops and manufactures innovative products.",
+    title:
+      "Automate Order Processing using Mulesoft for Salesforce Health Cloud and SAP",
+    description:
+      "A global medical technology company that develops and manufactures innovative products.",
   },
 ];
 const latestServices = [
   {
     id: 1,
     title: "Payer",
-    description: "We provide IT and consulting services for private and commercial payers. If you’re a health insurance company, you can count on us to help you streamline critical functions like claim management, patient and provider communication, customer onboarding, and more.",
+    description:
+      "We provide IT and consulting services for private and commercial payers. If you’re a health insurance company, you can count on us to help you streamline critical functions like claim management, patient and provider communication, customer onboarding, and more.",
   },
   {
     id: 2,
     title: "Provider",
-    description: "From helping you centralize your patients’ data to implementing efficient care coordination systems, we’ll help you serve patients more effectively, ensure HIPAA compliance, and simplify administrative tasks.",
+    description:
+      "From helping you centralize your patients’ data to implementing efficient care coordination systems, we’ll help you serve patients more effectively, ensure HIPAA compliance, and simplify administrative tasks.",
   },
   {
     id: 3,
     title: "Pharma",
-    description: "Our healthcare IT solutions for pharmacies allow you to streamline communication between you, patients, and providers – while integrating data across suppliers, manufacturers, and R&D to inform patient therapies.",
+    description:
+      "Our healthcare IT solutions for pharmacies allow you to streamline communication between you, patients, and providers – while integrating data across suppliers, manufacturers, and R&D to inform patient therapies.",
   },
   {
     id: 4,
     title: "Medtech",
-    description: "We offer a wide range of IT and consulting services tailored to the unique needs of the MedTech sector. We take care of your tech solutions so you can focus on developing medical devices.",
+    description:
+      "We offer a wide range of IT and consulting services tailored to the unique needs of the MedTech sector. We take care of your tech solutions so you can focus on developing medical devices.",
   },
   {
     id: 5,
     title: "Biotech",
-    description: "Helping Biotech companies achieve R&D, keep their data secure, and put life-saving medicines on the market faster with tailored AI-powered healthcare IT solutions.",
+    description:
+      "Helping Biotech companies achieve R&D, keep their data secure, and put life-saving medicines on the market faster with tailored AI-powered healthcare IT solutions.",
   },
 ];
 const ServicesCard = ({ services }) => (
   <div className="w-full h-full flex flex-col border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
     <div className="flex-grow flex flex-col">
-      <h3 className="mb-[15px] md:mb-[25px] text-[#1F3F69] 4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight">{services.title}</h3>
-      <p className='md:mb-[15px] mb-0 4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight'>{services.description}</p>
+      <h3 className="mb-[15px] md:mb-[25px] text-[#1F3F69] 4xl:text-[30px] xl:text-[24px] text-[20px] leading-tight">
+        {services.title}
+      </h3>
+      <p className="md:mb-[15px] mb-0 4xl:text-[22px] xl:text-[18px] text-[16px] leading-tight">
+        {services.description}
+      </p>
     </div>
   </div>
 );
-const Services = () => {
+const Services = ({ onTalkClick }) => {
   return (
     <div className="custom-container mx-auto text-black mt-14 md:mt-20 xl:mt-[120px]">
-      <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[65%] 2xl:w-[60%] 4xl:w-[85%] ">From Pharma to Medtech, We Serve all Major Healthcare Segments</h2>
-      <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight lg:pr-[400px]">We offer Health cloud implementation, healthcare applications development, advisory services, and much more for companies within the following healthcare segments.</p>
+      <h2 className="text-black mb-6 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[65%] 2xl:w-[60%] 4xl:w-[85%] ">
+        From Pharma to Medtech, We Serve all Major Healthcare Segments
+      </h2>
+      <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight lg:pr-[400px]">
+        We offer Health cloud implementation, healthcare applications
+        development, advisory services, and much more for companies within the
+        following healthcare segments.
+      </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8 lg:gap-6 mt-10">
         {latestServices.map((services) => (
           <ServicesCard key={services.id} services={services} />
         ))}
       </div>
       <div className="mt-10">
-        <LearnMore />
+        <LearnMore onClick={onTalkClick} btnName="Talk to Us" />
       </div>
     </div>
   );
@@ -89,143 +109,154 @@ const growLatestServices = [
     id: 1,
     image: "/images/healthcare/AdobeStock_572162228 copy.webp",
     title: "Patient Care with Salesforce Health Cloud",
-    description: "Implementing Salesforce Health Cloud can significantly upgrade the patient experience solutions by centralizing all healthcare data. This helps in smarter decision-making and offers an intuitive platform for healthcare professionals.",
+    description:
+      "Implementing Salesforce Health Cloud can significantly upgrade the patient experience solutions by centralizing all healthcare data. This helps in smarter decision-making and offers an intuitive platform for healthcare professionals.",
     productsDetails: [
-      'Centralized Patient Records',
-      'Automated Appointment Scheduling',
-      'Medication Reminders ',
-      'Remote Care Monitoring'
+      "Centralized Patient Records",
+      "Automated Appointment Scheduling",
+      "Medication Reminders ",
+      "Remote Care Monitoring",
     ],
   },
   {
     id: 2,
     image: "/images/healthcare/AdobeStock_200878864 copy.webp",
     title: "Urgent Care & Hospital Enhancements",
-    description: "Hospital solutions optimize every aspect of managing your bespoke healthcare delivery, from the administration of team members to boosting quality patient care and post-treatment follow-up appointments.",
+    description:
+      "Hospital solutions optimize every aspect of managing your bespoke healthcare delivery, from the administration of team members to boosting quality patient care and post-treatment follow-up appointments.",
     productsDetails: [
-      'Resource Allocation',
-      'Admission and Discharge Management',
-      'Emergency Response System ',
+      "Resource Allocation",
+      "Admission and Discharge Management",
+      "Emergency Response System ",
     ],
-
   },
   {
     id: 3,
     image: "/images/healthcare/AdobeStock_930210511 copy.webp",
     title: "Tailored Patient Care Solutions",
-    description: "Our patient care solutions focus on creating an empathetic healthcare environment. By leveraging these solutions, medical facilities can enhance patient engagement and satisfaction.",
+    description:
+      "Our patient care solutions focus on creating an empathetic healthcare environment. By leveraging these solutions, medical facilities can enhance patient engagement and satisfaction.",
     productsDetails: [
-      'Virtual Waiting Rooms',
-      'Digitalized Prescription Management',
-      'Real-time Health Monitoring ',
+      "Virtual Waiting Rooms",
+      "Digitalized Prescription Management",
+      "Real-time Health Monitoring ",
     ],
   },
   {
     id: 4,
     image: "/images/healthcare/AdobeStock_184771424 copy.webp",
     title: "Unmatched MedTech Services",
-    description: "We understand the dynamics of the healthcare industry. Our MedTech services ensure the smooth operation of technical and mechanical systems within healthcare facilities.",
+    description:
+      "We understand the dynamics of the healthcare industry. Our MedTech services ensure the smooth operation of technical and mechanical systems within healthcare facilities.",
 
     productsDetails: [
-      '24/7 Customer Support',
-      'EMR integrations',
-      'Security Audits',
+      "24/7 Customer Support",
+      "EMR integrations",
+      "Security Audits",
     ],
-  }
+  },
 ];
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Healthcare & MedTech IT Solutions",
-  "url": "https://www.rialtes.com/industry/life-sciences/healthcare-medtech-patient-care/",
-  "description": "Rialtes delivers Salesforce Health Cloud-powered solutions that transform patient care, provider operations, and MedTech services. From virtual care to hospital enhancements, we empower payers, providers, pharma, biotech, and MedTech organizations with connected, secure, and scalable healthcare IT solutions.",
-  "publisher": {
+  name: "Healthcare & MedTech IT Solutions",
+  url: "https://www.rialtes.com/industry/life-sciences/healthcare-medtech-patient-care/",
+  description:
+    "Rialtes delivers Salesforce Health Cloud-powered solutions that transform patient care, provider operations, and MedTech services. From virtual care to hospital enhancements, we empower payers, providers, pharma, biotech, and MedTech organizations with connected, secure, and scalable healthcare IT solutions.",
+  publisher: {
     "@type": "Organization",
-    "name": "Rialtes",
-    "url": "https://www.rialtes.com",
-    "logo": {
+    name: "Rialtes",
+    url: "https://www.rialtes.com",
+    logo: {
       "@type": "ImageObject",
-      "url": "https://www.rialtes.com/images/homepage/logo.svg"
+      url: "https://www.rialtes.com/images/homepage/logo.svg",
     },
-    "sameAs": [
+    sameAs: [
       "https://www.linkedin.com/company/rialtes-technologies-llc/",
-      "https://www.youtube.com/@rialtes"
-    ]
-  },
-  "mainEntity": {
-    "@type": "Service",
-    "name": "Healthcare & MedTech IT Solutions",
-    "areaServed": [
-      { "@type": "Country", "name": "United States" },
-      { "@type": "Country", "name": "Canada" },
-      { "@type": "Country", "name": "India" },
-      { "@type": "Country", "name": "Singapore" }
+      "https://www.youtube.com/@rialtes",
     ],
-    "hasOfferCatalog": {
+  },
+  mainEntity: {
+    "@type": "Service",
+    name: "Healthcare & MedTech IT Solutions",
+    areaServed: [
+      { "@type": "Country", name: "United States" },
+      { "@type": "Country", name: "Canada" },
+      { "@type": "Country", name: "India" },
+      { "@type": "Country", name: "Singapore" },
+    ],
+    hasOfferCatalog: {
       "@type": "OfferCatalog",
-      "name": "Patient Care, MedTech & Health Cloud Solutions",
-      "itemListElement": [
+      name: "Patient Care, MedTech & Health Cloud Solutions",
+      itemListElement: [
         {
           "@type": "Offer",
-          "itemOffered": {
+          itemOffered: {
             "@type": "Service",
-            "name": "Salesforce Health Cloud Implementation",
-            "description": "Centralize patient records, enable remote monitoring, automate scheduling, and elevate decision-making with Health Cloud-driven care systems."
-          }
+            name: "Salesforce Health Cloud Implementation",
+            description:
+              "Centralize patient records, enable remote monitoring, automate scheduling, and elevate decision-making with Health Cloud-driven care systems.",
+          },
         },
         {
           "@type": "Offer",
-          "itemOffered": {
+          itemOffered: {
             "@type": "Service",
-            "name": "Urgent Care & Hospital Enhancements",
-            "description": "Digitize admissions, discharge processes, emergency response systems, and resource allocation with real-time hospital software solutions."
-          }
+            name: "Urgent Care & Hospital Enhancements",
+            description:
+              "Digitize admissions, discharge processes, emergency response systems, and resource allocation with real-time hospital software solutions.",
+          },
         },
         {
           "@type": "Offer",
-          "itemOffered": {
+          itemOffered: {
             "@type": "Service",
-            "name": "Tailored Patient Engagement Tools",
-            "description": "Deploy virtual waiting rooms, e-prescriptions, and real-time health monitoring to improve patient satisfaction and care quality."
-          }
+            name: "Tailored Patient Engagement Tools",
+            description:
+              "Deploy virtual waiting rooms, e-prescriptions, and real-time health monitoring to improve patient satisfaction and care quality.",
+          },
         },
         {
           "@type": "Offer",
-          "itemOffered": {
+          itemOffered: {
             "@type": "Service",
-            "name": "MedTech IT Services",
-            "description": "Ensure smooth tech operations across medical devices with EMR integrations, cybersecurity audits, and 24/7 MedTech support."
-          }
+            name: "MedTech IT Services",
+            description:
+              "Ensure smooth tech operations across medical devices with EMR integrations, cybersecurity audits, and 24/7 MedTech support.",
+          },
         },
         {
           "@type": "Offer",
-          "itemOffered": {
+          itemOffered: {
             "@type": "Service",
-            "name": "Payer Solutions",
-            "description": "Streamline claim processing, provider communication, patient onboarding, and compliance for private and commercial payers."
-          }
+            name: "Payer Solutions",
+            description:
+              "Streamline claim processing, provider communication, patient onboarding, and compliance for private and commercial payers.",
+          },
         },
         {
           "@type": "Offer",
-          "itemOffered": {
+          itemOffered: {
             "@type": "Service",
-            "name": "Provider Solutions",
-            "description": "Enable centralized EHR access, automate care coordination, simplify admin workflows, and ensure HIPAA-compliant operations."
-          }
+            name: "Provider Solutions",
+            description:
+              "Enable centralized EHR access, automate care coordination, simplify admin workflows, and ensure HIPAA-compliant operations.",
+          },
         },
         {
           "@type": "Offer",
-          "itemOffered": {
+          itemOffered: {
             "@type": "Service",
-            "name": "Pharma & Biotech Solutions",
-            "description": "Accelerate R&D, ensure data security, and improve cross-system communication between pharmacies, patients, and providers using AI-powered digital tools."
-          }
-        }
-      ]
-    }
-  }
-}
-const GrowServicesCard = ({ services, className = '' }) => (
+            name: "Pharma & Biotech Solutions",
+            description:
+              "Accelerate R&D, ensure data security, and improve cross-system communication between pharmacies, patients, and providers using AI-powered digital tools.",
+          },
+        },
+      ],
+    },
+  },
+};
+const GrowServicesCard = ({ services, className = "", onTalkClick }) => (
   <div className={`flex flex-col h-full ${className}`}>
     <div className="relative overflow-hidden">
       <Image
@@ -235,7 +266,7 @@ const GrowServicesCard = ({ services, className = '' }) => (
         width={0}
         height={0}
         sizes="100vw"
-        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+        style={{ width: "100%", height: "100%", objectFit: "cover" }}
         priority
       />
     </div>
@@ -246,33 +277,57 @@ const GrowServicesCard = ({ services, className = '' }) => (
       <p className="text-[16px] xl:text-[18px]  4xl:text-[20px] leading-tight">
         {services.description}
       </p>
-      <UnorderedList arrName={services?.productsDetails} ulClassName="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight" liClassName="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2 before:leading-[0.5]" />
+      <UnorderedList
+        arrName={services?.productsDetails}
+        ulClassName="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight"
+        liClassName="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2 before:leading-[0.5]"
+      />
     </div>
     <div className="mt-auto pt-5">
-      <LearnMore />
+      <LearnMore onClick={onTalkClick} btnName="Talk to Us" />
     </div>
   </div>
-
 );
-const GrowServices = () => {
+const GrowServices = ({ onTalkClick }) => {
   return (
     <div className="text-black xl:pt-[50px]   ">
-      <h2 className="pb-10 text-black leading-tight xl:w-[60%] 2xl:w-[52%] 4xl:w-[70%] w-fill 4xl:text-[60px] xl:text-[40px] md:text-[26px]">Pioneering Medical & Patient Care IT Solutions</h2>
-      <p className="xl:w-[65%] 4xl:w-[70%]  w-full text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">The healthcare industry is evolving at a critical crossroads of technology and patient care. At Rialtes, we offer specialized Salesforce Health Cloud solutions that enable medical facilities to enhance agility and focus on patient needs. Our integrated healthcare IT solutions combine hospital software, MedTech services, and patient engagement tools to deliver exceptional care, whether for pharmacies or in-home care teams.</p>
+      <h2 className="pb-10 text-black leading-tight xl:w-[60%] 2xl:w-[52%] 4xl:w-[70%] w-fill 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
+        Pioneering Medical & Patient Care IT Solutions
+      </h2>
+      <p className="xl:w-[65%] 4xl:w-[70%]  w-full text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+        The healthcare industry is evolving at a critical crossroads of
+        technology and patient care. At Rialtes, we offer specialized Salesforce
+        Health Cloud solutions that enable medical facilities to enhance agility
+        and focus on patient needs. Our integrated healthcare IT solutions
+        combine hospital software, MedTech services, and patient engagement
+        tools to deliver exceptional care, whether for pharmacies or in-home
+        care teams.
+      </p>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-20 md:gap-10 lg:gap-20 mt-20  ">
         {growLatestServices.map((services, index) => (
-          <GrowServicesCard key={services.id} services={services} className={`${index % 2 === 0 ? 'xl:mr-7' : 'xl:ml-7'}`} />
+          <GrowServicesCard
+            key={services.id}
+            services={services}
+            className={`${index % 2 === 0 ? "xl:mr-7" : "xl:ml-7"}`}
+            onTalkClick={onTalkClick}
+          />
         ))}
       </div>
 
-      <div className="mt-5">
-      </div>
+      <div className="mt-5"></div>
     </div>
   );
 };
 
 export default function Page() {
+  const contactRef = useRef(null);
 
+  const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
   return (
     <div className="min-h-screen bg-white">
       <Seo
@@ -288,9 +343,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
       {/* breadcrumb schema */}
-      <BreadcrumbSchema
-        currPage="Healthcare"
-      />
+      <BreadcrumbSchema currPage="Healthcare" />
       <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
         <div className="hidden lg:block">
           <Image
@@ -322,58 +375,83 @@ export default function Page() {
                 Redefining healthcare by keeping patients at the center
               </h2>
             </div>
-            <div className="col-span-12 lg:col-span-3 xl:col-span-5">
-            </div>
+            <div className="col-span-12 lg:col-span-3 xl:col-span-5"></div>
           </div>
         </div>
       </section>
       <section className="custom-container">
-         {/* breadcrumb */}
-        <BreadCrumbs currPage="Healthcare"/>
+        {/* breadcrumb */}
+        <BreadCrumbs currPage="Healthcare" />
         <div className="pb-5 bg-white mt-[70px] ">
           <div className=" mx-auto ">
             <div className="flex flex-col xl:flex-row py-6 xl:gap-20 gap-5">
               <div className="flex flex-col w-full 4xl:w-[50%] xl:w-[38%] xl:mr-4 xl:mb-0 ">
-                <h1 className="text-black md:pb-0 pb-4 leading-tight 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[26px]">Patient Care and MedTech Solutions Built on Salesforce Health Cloud</h1>
+                <h1 className="text-black md:pb-0 pb-4 leading-tight 4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[26px]">
+                  Patient Care and MedTech Solutions Built on Salesforce Health
+                  Cloud
+                </h1>
               </div>
               <div className="flex flex-col w-full xl:w-[50%] ">
-                <p className="text-[#000000] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">The healthcare industry is undergoing a major digital transformation. From the doctor’s office to home, patients have access to more care options than ever before, thanks to advancements not only in medical technology but the way healthcare IT solutions.
+                <p className="text-[#000000] text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+                  The healthcare industry is undergoing a major digital
+                  transformation. From the doctor’s office to home, patients
+                  have access to more care options than ever before, thanks to
+                  advancements not only in medical technology but the way
+                  healthcare IT solutions.
                 </p>
-                <p className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">Rialtes helps medical organizations deliver faster, more efficient, and compassionate patient care with specialized healthcare application development solutions. Whether you’re looking for ways to centralize patient records or migrate your data to Salesforce Health Cloud, our dedicated team of healthcare IT experts will help you transform your patients’ experiences.</p>
+                <p className="mt-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight">
+                  Rialtes helps medical organizations deliver faster, more
+                  efficient, and compassionate patient care with specialized
+                  healthcare application development solutions. Whether you’re
+                  looking for ways to centralize patient records or migrate your
+                  data to Salesforce Health Cloud, our dedicated team of
+                  healthcare IT experts will help you transform your patients’
+                  experiences.
+                </p>
               </div>
             </div>
           </div>
         </div>
       </section>
       {/* We Help You Grow and Thrive */}
-      <div
-        className="custom-container">
+      <div className="custom-container">
         <section className="bg-white">
-          <GrowServices />
+          <GrowServices onTalkClick={handleScrollToContact} />
         </section>
       </div>
       {/* Latest Services Section */}
       <div>
         <section className="pb-8 bg-white">
-          <Services />
+          <Services onTalkClick={handleScrollToContact} />
         </section>
       </div>
       {/* Latest Customer Success Stories */}
-      <div className="bg-[#F5F5F5] py-20 mt-20" >
-        <div className="custom-container" >
-          <CaseStudyIndivisual slides={slidesCaseStudy} />
+      <div className="bg-[#F5F5F5] py-20 mt-20">
+        <div className="custom-container">
+          <CaseStudyIndivisual
+            slides={slidesCaseStudy}
+            onTalkClick={handleScrollToContact}
+          />
         </div>
       </div>
 
       {/* Explore More */}
-      < div className="bg-[#808080] mt-20 py-20">
+      <div className="bg-[#808080] mt-20 py-20">
         <div className="custom-container">
           <ExploreMoreCarousel />
         </div>
-      </div >
+      </div>
       {/* Contact Form */}
-      <div className="mb-20 mt-20 custom-container text-black py-6">
-        <ContactForm title={'Take the next step to operational excellence with us.'} className={"xl:w-[75%] w-full leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]"} />
+      <div
+        className="mb-20 mt-20 custom-container text-black py-6 scroll-mt-28"
+        ref={contactRef}
+      >
+        <ContactForm
+          title={"Take the next step to operational excellence with us."}
+          className={
+            "xl:w-[75%] w-full leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]"
+          }
+        />
       </div>
     </div>
   );
