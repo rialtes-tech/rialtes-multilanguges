@@ -124,7 +124,7 @@ const latestBlogs = [
 
   {
     "id": 80,
-    "image": "/images/blog/digital-data-stream-thumb.webp",
+    "image": "/images/blog/digital-data-streams-thumb.webp",
     "category": "Integration",
     "industry": "Generic ",
     "date": "Mar. 09, 2026",
