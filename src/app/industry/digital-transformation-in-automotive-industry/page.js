@@ -2,7 +2,6 @@
 import Image from "next/image";
 import ContactForm from "../../components/contactform";
 import Seo from "@/app/components/Seo";
-import Link from "next/link";
 import LearnMore from "../../components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/components/unorderedList";
@@ -129,7 +128,7 @@ const schemaData = {
     },
   },
 };
-const ThoughtLeadershipSection = ({ onTalkClick }) => {
+const ThoughtLeadershipSection = () => {
   const keyIndustryChallenges = [
     "Fragmented customer lifecycle management (from prospect to owner).",
     "Inefficient dealer and franchisee management, impacting sales velocity.",

@@ -18,3 +18,11 @@
 .paragraph20 {
   @apply text-[16px] md:text-[18px] xl:text-[17px] 2xl:text-[18px] 4xl:text-[20px] leading-tight;
 }
+
+/* blog page css */
+.blogHeading2 {
+  @apply 4xl:text-[32px] 2xl:text-[28px] xl:text-[26px] md:text-[24px] text-[22px] text-[#1A82E0] font-semibold leading-tight;
+}
+.blog24boldHeading3{
+  @apply font-bold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[19px] leading-tight
+}
