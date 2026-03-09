@@ -3,7 +3,7 @@ import Image from "next/image";
 import FilteredBlogCarousel from "@/app/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/components/useUrl";
 import Seo from "@/app/components/Seo";
-import Script from "next/script"; 
+import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
 import BlogSocialIcons from "@/app/components/blogSocialIcons";
 import UnorderedList from "@/app/components/unorderedList";
@@ -118,7 +118,7 @@ export default function Page() {
   const mainData = [
     "Enterprise Salesforce adoption often doesn’t fail because the CRM itself is weak. It fails because Salesforce is asked to work in isolation while the business runs on a sprawling landscape of systems — ERPs, legacy platforms, partner networks, data lakes, and dozens of niche SaaS apps. Today’s average enterprise uses more than 1,000 applications, yet less than 30 % of them are integrated, creating persistent data silos that slow workflows and frustrate both users and customers.",
     "That disconnection shows up everywhere: inconsistent customer records, manual reconciliation between systems, delayed insights, and decisions made on delayed or incomplete information. In fact, 80 % of organizations say integration challenges are slowing their digital transformation efforts.",
-    "This is exactly where <a href='https://www.rialtes.com/solutions/integration/mulesoft-salesforce' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MuleSoft changes the equation</a>. It provides an enterprise-grade integration platform that enables secure, scalable, and governed connectivity for Salesforce across both cloud and on-premise systems. What makes it different is its API-led approach — you integrate once and reuse everywhere, turning integrations into long-lived digital assets instead of brittle one-off point solutions. That’s what enables enterprises to move faster, reduce integration costs, and build real-time data flows that support modern business demands.",
+    "This is exactly where <a href='https://www.rialtes.com/solutions/integration/mulesoft-salesforce' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MuleSoft changes the equation</a>. It provides an enterprise-grade integration platform that enables secure, scalable, and governed connectivity for Salesforce across both cloud and on-premises systems. What makes it different is its API-led approach — you integrate once and reuse everywhere, turning integrations into long-lived digital assets instead of brittle one-off point solutions. That’s what enables enterprises to move faster, reduce integration costs, and build real-time data flows that support modern business demands.",
   ];
   const commonData = [
     {
@@ -227,7 +227,7 @@ export default function Page() {
     {
       title: "Why Rialtes for MuleSoft Salesforce Integration",
       desc: [
-        "Rialtes brings deep expertise across Salesforce, SAP, and enterprise integration landscapes. Our teams have delivered complex <a href='https://en.wikipedia.org/wiki/Artificial_intelligence_in_healthcare' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MuleSoft integrations</a> across industries, geographies, and regulatory environments.",
+        "Rialtes brings deep expertise across Salesforce, SAP, and enterprise integration landscapes. Our teams have delivered complex <a href='https://www.rialtes.com/solutions/integration/mulesoft-salesforce' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>MuleSoft integrations</a> across industries, geographies, and regulatory environments.",
         "We don’t just connect systems. We design integration platforms that support growth, compliance, and resilience. With global delivery capabilities across the US, Canada, India, and Singapore, we combine enterprise rigor with execution speed.",
       ],
     },
@@ -297,7 +297,8 @@ export default function Page() {
             {/* main blog */}
             <div className="xl:mt-[60px] mt-[42px]">
               <h1 className="4xl:text-[60px] 2xl:text-[48px] xl:text-[42px] md:text-[28px] text-[26px] leading-tight">
-                What Is SAP Datasphere and Why Are Enterprises Moving to It?
+                How MuleSoft Enables Secure, Scalable Salesforce Integration at
+                Enterprise Scale
               </h1>
 
               <div className="xl:mt-[38px] mt-[33px]">
