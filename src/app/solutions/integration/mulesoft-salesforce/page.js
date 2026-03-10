@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import ServiceSection from "./components/ServiceSection";
 import FeaturedCarousel from "../../../components/servicesFeaturedCarousel";
@@ -10,6 +11,7 @@ import LearnMore from "@/app/components/learnMore";
 import BreadCrumbs from '../../../components/BreadCrumbs'
 import Script from "next/script";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
+import { useRef } from "react";
 const schemaData = {
   "@context": "https://schema.org",
   "@type": "WebPage",
@@ -154,8 +156,17 @@ const driveData = [
     des: `Improvement in\ncustomer satisfaction`,
   },
 ]
-const page = () => (
-  <>
+const page = () => {
+  const contactRef = useRef(null);
+
+    const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+  return(
+    <div>
     <Seo
       title="MuleSoft Integration Consulting Solutions and Services | Rialtes"
       description="Our MuleSoft integration consulting solutions make digital services flow effortlessly by unleashing the full power of connected Salesforce systems."
@@ -256,7 +267,8 @@ const page = () => (
         </div>
       </div>
       <div className="mt-6 custom-container">
-        <LearnMore />
+        <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
       </div>
     </section>
     {/* serve section */}
@@ -306,10 +318,11 @@ const page = () => (
         <ExploreMoreCarousel />
       </div>
     </div>
-    <div className="!py-[90px] custom-container">
+    <div className="!py-[90px] custom-container scroll-mt-28" ref={contactRef}>
       <ContactForm className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[88%] 4xl:w-[100%]" title="Take the next step to operational excellence with MuleSoft Integration Services" />
     </div>
-  </>
-);
+    </div>
+  )
+}
 
 export default page;

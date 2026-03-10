@@ -60,6 +60,9 @@ const categoryData = [
     category: "SAP Datasphere"
   },
   {
+    category: "Salesforce Revenue Cloud"
+  },
+  {
     category: "Products",
     items: [
       "Exelona",
@@ -110,17 +113,17 @@ const latestBlogs = [
   //   "alt": "Digital data streams and binary code representing cloud analytics and enterprise data fabric",
   //   "description": "The result is predictable. Research from IDC estimates that unplanned downtime costs large enterprises between $2.5 million and $6.5 million per hour, with application failures and slow response times among the leading contributors to lost productivity. Rising support costs, recurring incidents, and long resolution cycles erode business confidence and force functional teams to build workarounds outside SAP."
   // },
-  //  {
-  //   "id": 80,
-  //   "image": "/images/insights/blogs/revenue-cloude-blog/thumb.webp",
-  //   "category": "Salesforce Revenue Cloud",
-  //   "industry": "SAP",
-  //   "date": "Feb. 24, 2026",
-  //   "url": "/a-practical-guide-to-salesforce-revenue-cloud-implementation/",
-  //   "title": "A Practical Guide to Salesforce Revenue Cloud Implementation",
-  //   "alt": "Digital data streams and binary code representing cloud analytics and enterprise data fabric",
-  //   "description": "Enterprise revenue transformations tend to fail for reasons that have little to do with the platform itself."
-  // },
+    {
+    "id": 81,
+    "image": "/images/insights/blogs/revenue-cloude-blog/thumb.webp",
+    "category": "Salesforce Revenue Cloud",
+    "industry": "SAP",
+    "date": "Mar. 10, 2026",
+    "url": "/salesforce-revenue-cloud-implementation-guide",
+    "title": "A Practical Guide to Salesforce Revenue Cloud Implementation",
+    "alt": "Digital data streams and binary code representing cloud analytics and enterprise data fabric",
+    "description": "Enterprise revenue transformations tend to fail for reasons that have little to do with the platform itself."
+  },
 
   {
     "id": 80,

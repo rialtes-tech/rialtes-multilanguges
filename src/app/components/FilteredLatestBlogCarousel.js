@@ -9,40 +9,41 @@ export default function page({ url }) {
   const carouselRef = useRef(null);
   const [isLastSlide, setIsLastSlide] = useState(false);
   const latestBlogs = [
-  //   {
-  //   "id": 81,
-  //   "image": "/images/insights/blogs/sap-managed-services-strategic-guide-enterprise-support/thumb.webp",
-  //   "category": "SAP",
-  //   "industry": "SAP",
-  //   "date": "Feb. 25, 2026",
-  //   "url": "/sap-managed-services-strategic-guide-enterprise-support/",
-  //   "title": "What Is SAP Managed Services? A Strategic Guide for Enterprise SAP Support",
-  //   "alt": "Digital data streams and binary code representing cloud analytics and enterprise data fabric",
-  //   "description": "The result is predictable. Research from IDC estimates that unplanned downtime costs large enterprises between $2.5 million and $6.5 million per hour, with application failures and slow response times among the leading contributors to lost productivity. Rising support costs, recurring incidents, and long resolution cycles erode business confidence and force functional teams to build workarounds outside SAP."
-  // },
-  //   {
-  //     id: 80,
-  //     image: "/images/insights/blogs/revenue-cloude-blog/thumb.webp",
-  //     category: "Salesforce Revenue Cloud",
-  //     industry: "SAP",
-  //     date: "Feb. 24, 2026",
-  //     url: "/a-practical-guide-to-salesforce-revenue-cloud-implementation/",
-  //     title: "What Is SAP Datasphere and Why Are Enterprises Moving to It?",
-  //     alt: "Digital data streams and binary code representing cloud analytics and enterprise data fabric",
-  //     description:
-  //       "Enterprise revenue transformations tend to fail for reasons that have little to do with the platform itself.",
-  //   },
-  {
-    "id": 80,
-    "image": "/images/blog/digital-data-streams-thumb.webp",
-    "category": "Integration",
-    "industry": "Generic ",
-    "date": "Mar. 09, 2026",
-    "url": "/mulesoft-salesforce-integration-enterprise-scale",
-    "title": "What Is SAP Datasphere and Why Are Enterprises Moving to It?",
-    "alt": "Digital data streams and binary code representing cloud analytics and enterprise data fabric",
-    "description": "Enterprise Salesforce adoption often doesn’t fail because the CRM itself is weak. It fails because Salesforce is asked to work in isolation while the business runs on a sprawling landscape of systems — ERPs, legacy platforms, partner networks, data lakes, and dozens of niche SaaS apps."
-  },
+    //   {
+    //   "id": 81,
+    //   "image": "/images/insights/blogs/sap-managed-services-strategic-guide-enterprise-support/thumb.webp",
+    //   "category": "SAP",
+    //   "industry": "SAP",
+    //   "date": "Feb. 25, 2026",
+    //   "url": "/sap-managed-services-strategic-guide-enterprise-support/",
+    //   "title": "What Is SAP Managed Services? A Strategic Guide for Enterprise SAP Support",
+    //   "alt": "Digital data streams and binary code representing cloud analytics and enterprise data fabric",
+    //   "description": "The result is predictable. Research from IDC estimates that unplanned downtime costs large enterprises between $2.5 million and $6.5 million per hour, with application failures and slow response times among the leading contributors to lost productivity. Rising support costs, recurring incidents, and long resolution cycles erode business confidence and force functional teams to build workarounds outside SAP."
+    // },
+    {
+      id: 81,
+      image: "/images/insights/blogs/revenue-cloude-blog/thumb.webp",
+      category: "Salesforce Revenue Cloud",
+      industry: "SAP",
+      date: "Mar. 10, 2026",
+      url: "/salesforce-revenue-cloud-implementation-guide",
+      title: "What Is SAP Datasphere and Why Are Enterprises Moving to It?",
+      alt: "Digital data streams and binary code representing cloud analytics and enterprise data fabric",
+      description:
+        "Enterprise revenue transformations tend to fail for reasons that have little to do with the platform itself.",
+    },
+    {
+      id: 80,
+      image: "/images/blog/digital-data-streams-thumb.webp",
+      category: "Integration",
+      industry: "Generic ",
+      date: "Mar. 09, 2026",
+      url: "/mulesoft-salesforce-integration-enterprise-scale",
+      title: "What Is SAP Datasphere and Why Are Enterprises Moving to It?",
+      alt: "Digital data streams and binary code representing cloud analytics and enterprise data fabric",
+      description:
+        "Enterprise Salesforce adoption often doesn’t fail because the CRM itself is weak. It fails because Salesforce is asked to work in isolation while the business runs on a sprawling landscape of systems — ERPs, legacy platforms, partner networks, data lakes, and dozens of niche SaaS apps.",
+    },
     {
       id: 79,
       image: "/images/blog/sap-datasphere-data-fabric-thumb.webp",
