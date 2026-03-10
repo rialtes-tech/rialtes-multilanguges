@@ -8,6 +8,7 @@ import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import Script from "next/script";
 import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
+ import { useRef } from "react";
 const schemaData = {
     "@context": "https://schema.org",
     "@type": "WebPage",
@@ -100,6 +101,14 @@ const schemaData = {
     }
 }
 export default function HealthCloud() {
+    const contactRef = useRef(null);
+
+    const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
     const revenueStats = [
         {
             value: "40%",
@@ -307,7 +316,8 @@ export default function HealthCloud() {
                             )
                         })}
                     </div>
-                    <LearnMore />
+                    <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                 </div>
             </section>
             {/* Reduce Revenue Pitfalls, Supercharge Your Sales Funnel */}
@@ -345,7 +355,8 @@ export default function HealthCloud() {
             <section className='custom-container md:!pr-0 lg:mt-20 bg-[#808080] mt-10 py-20'>
                 <ExploreMoreCarousel />
             </section>
-            <section className="custom-container lg:mt-20 pb-20 mt-10">
+            <section className="custom-container lg:mt-20 pb-20 mt-10 scroll-mt-28" ref={contactRef}
+>
                 <ContactForm />
             </section>
         </section>
