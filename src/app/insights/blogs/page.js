@@ -104,7 +104,7 @@ const latestBlogs = [
     id: 82,
     image:
       "/images/insights/blogs/sap-managed-services-strategic-guide-enterprise-support/thumb.webp",
-    category: "SAP",
+    category: "Managed Services",
     industry: "Generic",
     date: "Mar. 11, 2026",
     url: "/sap-managed-services-enterprise-support-guide",
