@@ -9,17 +9,20 @@ export default function page({ url }) {
   const carouselRef = useRef(null);
   const [isLastSlide, setIsLastSlide] = useState(false);
   const latestBlogs = [
-    //   {
-    //   "id": 81,
-    //   "image": "/images/insights/blogs/sap-managed-services-strategic-guide-enterprise-support/thumb.webp",
-    //   "category": "SAP",
-    //   "industry": "SAP",
-    //   "date": "Feb. 25, 2026",
-    //   "url": "/sap-managed-services-strategic-guide-enterprise-support/",
-    //   "title": "What Is SAP Managed Services? A Strategic Guide for Enterprise SAP Support",
-    //   "alt": "Digital data streams and binary code representing cloud analytics and enterprise data fabric",
-    //   "description": "The result is predictable. Research from IDC estimates that unplanned downtime costs large enterprises between $2.5 million and $6.5 million per hour, with application failures and slow response times among the leading contributors to lost productivity. Rising support costs, recurring incidents, and long resolution cycles erode business confidence and force functional teams to build workarounds outside SAP."
-    // },
+    {
+      id: 82,
+      image:
+        "/images/insights/blogs/sap-managed-services-strategic-guide-enterprise-support/thumb.webp",
+      category: "SAP",
+      industry: "SAP",
+      date: "Mar. 11, 2026",
+      url: "/sap-managed-services-enterprise-support-guide",
+      title:
+        "What Is SAP Managed Services? A Strategic Guide for Enterprise SAP Support",
+      alt: "Digital data streams and binary code representing cloud analytics and enterprise data fabric",
+      description:
+        "The result is predictable. Research from IDC estimates that unplanned downtime costs large enterprises between $2.5 million and $6.5 million per hour, with application failures and slow response times among the leading contributors to lost productivity. Rising support costs, recurring incidents, and long resolution cycles erode business confidence and force functional teams to build workarounds outside SAP.",
+    },
     {
       id: 81,
       image: "/images/insights/blogs/revenue-cloude-blog/thumb.webp",
@@ -700,9 +703,9 @@ export default function page({ url }) {
                     </span>
                   </div>
                   <Link href={"/insights/blogs" + blog.url}>
-                    <h4 className="mb-2 md:mb-4 font-semibold line-clamp-3 xl:line-clamp-4 4xl:text-[25px] xl:text-[20px] text-[18px] leading-tight">
+                    <span className="mb-2 md:mb-4 font-semibold line-clamp-3 xl:line-clamp-4 4xl:text-[25px] xl:text-[20px] text-[18px] leading-tight">
                       {blog.title}
-                    </h4>
+                    </span>
                   </Link>
                 </div>
                 <div className="flex flex-col">

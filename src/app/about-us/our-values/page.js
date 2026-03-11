@@ -60,7 +60,7 @@ const growLatestServices = [
     },
     {
         id: 2,
-        image: "/images/culture/Welcome LGBTQ+.webp",
+        image: "/images/culture/welcome.webp",
         title: "Welcome LGBTQ+",
         description1: "We are committed to creating a safe, inclusive, and supportive environment for LGBTQ+ individuals. We actively promote diversity, inclusion, and allyship, fostering a culture where everyone feels valued and empowered to be their authentic selves.",
         description2: "At Rialtes, we stand for equality, acceptance, and belonging."

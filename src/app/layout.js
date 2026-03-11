@@ -63,7 +63,7 @@ export default function RootLayout({ children }) {
                 f.parentNode.insertBefore(j,f);
               })(window,document,'script','dataLayer','GTM-KM6HTT3');
             `,
-          }}
+          }} 
         />
         <link rel="icon" href="/Rialtes Symbol.jpg" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

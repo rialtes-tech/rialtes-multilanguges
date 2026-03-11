@@ -100,20 +100,20 @@ const categoryData = [
 ];
 
 const latestBlogs = [
-  // {
-  //   id: 82,
-  //   image:
-  //     "/images/insights/blogs/sap-managed-services-strategic-guide-enterprise-support/thumb.webp",
-  //   category: "SAP",
-  //   industry: "SAP",
-  //   date: "Mar. 11, 2026",
-  //   url: "/sap-managed-services-strategic-guide-enterprise-support/",
-  //   title:
-  //     "What Is SAP Managed Services? A Strategic Guide for Enterprise SAP Support",
-  //   alt: "Digital data streams and binary code representing cloud analytics and enterprise data fabric",
-  //   description:
-  //     "The result is predictable. Research from IDC estimates that unplanned downtime costs large enterprises between $2.5 million and $6.5 million per hour, with application failures and slow response times among the leading contributors to lost productivity. Rising support costs, recurring incidents, and long resolution cycles erode business confidence and force functional teams to build workarounds outside SAP.",
-  // },
+  {
+    id: 82,
+    image:
+      "/images/insights/blogs/sap-managed-services-strategic-guide-enterprise-support/thumb.webp",
+    category: "SAP",
+    industry: "Generic",
+    date: "Mar. 11, 2026",
+    url: "/sap-managed-services-enterprise-support-guide",
+    title:
+      "What Is SAP Managed Services? A Strategic Guide for Enterprise SAP Support",
+    alt: "Digital data streams and binary code representing cloud analytics and enterprise data fabric",
+    description:
+      "The result is predictable. Research from IDC estimates that unplanned downtime costs large enterprises between $2.5 million and $6.5 million per hour, with application failures and slow response times among the leading contributors to lost productivity. Rising support costs, recurring incidents, and long resolution cycles erode business confidence and force functional teams to build workarounds outside SAP.",
+  },
   {
     id: 81,
     image: "/images/insights/blogs/revenue-cloude-blog/thumb.webp",
