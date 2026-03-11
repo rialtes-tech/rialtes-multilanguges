@@ -804,7 +804,7 @@ export default function Page() {
                 <div className="flex flex-col  xl:flex-row  xl:items-start gap-4 xl:gap-0 xl:w-1/2 mt-10 md:mt-0 xl:mt-0">
                   <Image
                     className="xl:w-[200px] xl:h-[200px] w-[156px] h-[156px]"
-                    src="/images/education/AI-Powered Automation & Personalization.svg"
+                    src="/images/education/ai.svg"
                     alt="Taking the lead"
                     width={1200}
                     height={630}
@@ -827,7 +827,7 @@ export default function Page() {
                 <div className="flex flex-col xl:flex-row  xl:items-start gap-4 xl:gap-0 xl:w-1/2 mt-10 xl:mt-0">
                   <Image
                     className="xl:w-[200px] xl:h-[200px] w-[156px] h-[156px]"
-                    src="/images/education/Scalable & Efficient Communication.svg"
+                    src="/images/education/scalable.svg"
                     alt="Taking the lead"
                     width={1200}
                     height={630}
@@ -848,7 +848,7 @@ export default function Page() {
                 <div className="flex flex-col xl:flex-row  xl:items-start gap-4 xl:gap-0 xl:w-1/2 mt-10 xl:mt-0">
                   <Image
                     className="xl:w-[200px] xl:h-[200px] w-[156px] h-[156px]"
-                    src="/images/education/Actionable Insights & Data Security.svg"
+                    src="/images/education/actionable.svg"
                     alt="Taking the lead"
                     width={1200}
                     height={630}
