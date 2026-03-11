@@ -21,28 +21,28 @@ export const whySapManagedServices = {
     {
       id: 1,
       title: "Faster decision-making",
-      description: "Powered by reliable data and consistent system performance",
+      description: "powered by reliable data and consistent system performance",
     },
     {
       id: 2,
       title: "Process optimization",
-      description: "Through continuous improvements rather than one-off fixes",
+      description: "through continuous improvements rather than one-off fixes",
     },
     {
       id: 3,
       title: "Innovation",
-      description: "Without fear that change will destabilize core operations",
+      description: "without fear that change will destabilize core operations",
     },
   ],
 
   paragraphs: [
     "For <span style='color: #0A6BB8;font-weight:bold'>CIOs</span>, SAP Managed Services reduce operational noise. Instead of teams constantly reacting to incidents, outages, and performance issues, CIOs gain a predictable, well-governed SAP environment where problems are identified early and resolved systematically. This frees IT leadership to focus on architecture decisions, modernization initiatives, and enabling the business, rather than firefighting.",
 
-    "For <span style='color: #0A6BB8;font-weight:bold'>CIOs</span>, the value shows up in cost predictability and control. Managed services replace unpredictable support spend and emergency consulting with structured service models, clear SLAs, and transparent pricing. Downtime is reduced, rework is minimized, and SAP investments deliver measurable returns rather than ongoing surprises on the balance sheet.",
+    "For <span style='color: #0A6BB8;font-weight:bold'>CFOs</span>, the value shows up in cost predictability and control. Managed services replace unpredictable support spend and emergency consulting with structured service models, clear SLAs, and transparent pricing. Downtime is reduced, rework is minimized, and SAP investments deliver measurable returns rather than ongoing surprises on the balance sheet.",
 
-    "For <span style='color: #0A6BB8;font-weight:bold'>CIOs</span>, protecting business continuity is non-negotiable. SAP systems sit at the heart of order processing, finance, supply chain, and workforce operations. Managed services ensure these systems remain stable, responsive, and resilient across regions and time zones, even as volumes grow and processes change.",
+    "For <span style='color: #0A6BB8;font-weight:bold'>COOs</span>, protecting business continuity is non-negotiable. SAP systems sit at the heart of order processing, finance, supply chain, and workforce operations. Managed services ensure these systems remain stable, responsive, and resilient across regions and time zones, even as volumes grow and processes change.",
 
-    "More importantly, SAP Managed Services allow leadership teams to shift their focus from keeping systems running to driving outcomes that matter. When <a href='https://www.rialtes.com/insights/blogs/sap-consulting-trust-through-accountability' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>SAP is stable, governed, and continuously optimized</a> , it stops being a maintenance burden and becomes a strategic platform for:",
+    "More importantly, SAP Managed Services allow leadership teams to shift their focus from keeping systems running to driving outcomes that matter. When <a href='https://www.rialtes.com/insights/blogs/sap-consulting-trust-through-accountability' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'> SAP is stable, governed, and continuously optimized</a>, it stops being a maintenance burden and becomes a strategic platform for:",
   ],
 };
 const whyTraditionalData = [
@@ -600,23 +600,32 @@ export default function Page() {
                       />
                     ))}
                   </div>
-                  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 mt-10">
-                    {whySapManagedServices.highlights.map((item) => (
-                      <div
-                        key={item.id}
-                        className="xl:text-left border-b md:border-b-0 md:border-r border-gray-700 pb-6 md:pb-0 md:pr-6 last:border-none"
-                      >
-                        <h3
-                          className={`${styles.paragraph22} text-[#0A6BB8] font-bold`}
-                        >
-                          {item.title},
-                        </h3>
-                        <p className={`${styles.paragraph22}`}>
-                          {item.description}
-                        </p>
-                      </div>
-                    ))}
-                  </div>
+                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 mt-10">
+  {whySapManagedServices.highlights.map((item, index) => (
+    <div
+      key={item.id}
+      className="xl:text-left border-b md:border-b-0 md:border-r border-gray-700 pb-6 md:pb-0 md:pr-6 last:border-none"
+    >
+      {index === 2 ? (
+        <p className={`${styles.paragraph22}`}>
+          <span className={`${styles.paragraph22} text-[#0A6BB8] font-bold`}>
+            {item.title},
+          </span>{" "}
+          {item.description}
+        </p>
+      ) : (
+        <>
+          <span className={`${styles.paragraph22} text-[#0A6BB8] font-bold`}>
+            {item.title},
+          </span>
+          <p className={`${styles.paragraph22}`}>
+            {item.description}
+          </p>
+        </>
+      )}
+    </div>
+  ))}
+</div>
                 </div>
               </section>
 
