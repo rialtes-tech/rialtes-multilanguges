@@ -10,7 +10,7 @@ import UnorderedList from "@/app/components/unorderedList";
 import styles from "../../../temp.module.css";
 
 const mainData = [
-  "Salesforce has become the backbone of modern sales, service, and customer engagement. IDC says than 60 % of global enterprises cite CRM platforms like Salesforce as the central system of engagement for revenue operations and customer experience, powering everything from revenue forecasting and partner management to marketing automation and AI-driven engagement. ¹ But behind this success, a quiet risk is emerging. Most organizations are still running Salesforce on overstretched internal teams, fragmented vendor support models, and ad-hoc administrators, which was manageable when deployments were simpler. Today, as platforms expand with Agentforce, Data Cloud, AI automations, and complex cross-cloud and third-party integrations, the support model starts to break down. ",
+  "Salesforce has become the backbone of modern sales, service, and customer engagement. <a href='https://www.grandviewresearch.com/industry-analysis/customer-relationship-management-crm-market' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>IDC says</a> than 60 % of global enterprises cite CRM platforms like Salesforce as the central system of engagement for revenue operations and customer experience, powering everything from revenue forecasting and partner management to marketing automation and AI-driven engagement. ¹ But behind this success, a quiet risk is emerging. Most organizations are still running Salesforce on overstretched internal teams, fragmented vendor support models, and ad-hoc administrators, which was manageable when deployments were simpler. Today, as platforms expand with  <a href='https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Agentforce</a>, Data Cloud, AI automations, and complex cross-cloud and third-party integrations, the support model starts to break down. ",
 ];
 
 const digitalData = [
@@ -305,7 +305,7 @@ const howSalesforce = [
 const predectiveData = [
   {
     title: "What Salesforce Managed Services Should Deliver Today ",
-    desc: "Modern Salesforce Managed Services are no longer about ticket handling.",
+    desc: " <a href='https://www.rialtes.com/insights/blogs/scale-with-salesforce-managed-services-salesforceagentplus' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Modern Salesforce Managed Services</a> are no longer about ticket handling.",
     desc1: "They are about platform ownership. ",
     des2: "Enterprises need partners who can: ",
     list: [
@@ -378,7 +378,7 @@ const introducingData = [
       "Introducing SalesforceAgent+: Built for Scale, Security, and Speed ",
     desc: "At Rialtes, we go beyond traditional Salesforce support. ",
     desc1:
-      "<strong>SalesforceAgent+</strong> is our next-generation managed services offering, designed to keep your Salesforce platform future-ready, AI-enabled, and continuously optimized. ",
+      "<strong> <a href='https://www.rialtes.com/services/application-services/salesforce-managed-services-provider-salesforceagentplus' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>SalesforceAgent+</a></strong> is our next-generation managed services offering, designed to keep your Salesforce platform future-ready, AI-enabled, and continuously optimized. ",
     des2: "It combines: ",
   },
 ];
@@ -654,20 +654,22 @@ export default function Page() {
               {predectiveData.map((data, ind) => (
                 <div className="md:mt-[50px] mt-[40px]" key={ind}>
                   <h2 className={`${styles.blogHeading2}`}>{data.title}</h2>
-                  <p className={`${styles.paragraph22} mt-[29px] xl:mt-[30px]`}>
-                    {data.desc}
-                  </p>
+                  <p
+                    className={`${styles.paragraph22} mt-[29px] xl:mt-[30px]`}
+                    dangerouslySetInnerHTML={{ __html: data.desc }}
+                  />
+
                   <p className={`${styles.paragraph22} mt-5`}>{data.desc1}</p>
                   <p className={`${styles.paragraph22} mt-5`}>{data.des2}</p>
 
                   <ul className="mt-5 space-y-2 pl-[26px] lg:pl-[46px]">
                     {data.list.map((elem, id) => (
-                      <h4
+                      <div
                         className={`${styles.paragraph22} font-medium`}
                         key={id}
                       >
                         <li className="list-disc">{elem}</li>
-                      </h4>
+                      </div>
                     ))}
                   </ul>
                   <p className={`${styles.paragraph22} mt-5`}>{data.des3}</p>
@@ -719,12 +721,12 @@ export default function Page() {
 
                   <ul className="mt-5 space-y-2 pl-[26px] lg:pl-[46px]">
                     {data.list.map((elem, id) => (
-                      <h4
+                      <div
                         className={`${styles.paragraph22} font-medium`}
                         key={id}
                       >
                         <li className="list-disc">{elem}</li>
-                      </h4>
+                      </div>
                     ))}
                   </ul>
                   <p className={`${styles.paragraph22} mt-5`}>{data.des2}</p>
@@ -747,12 +749,12 @@ export default function Page() {
 
                   <ul className="mt-5 space-y-2 pl-[26px] lg:pl-[46px]">
                     {data.list.map((elem, id) => (
-                      <h4
+                      <div
                         className={`${styles.paragraph22} font-medium`}
                         key={id}
                       >
                         <li className="list-disc">{elem}</li>
-                      </h4>
+                      </div>
                     ))}
                   </ul>
 
@@ -772,12 +774,12 @@ export default function Page() {
 
                   <ul className="mt-5 space-y-2 pl-[26px] lg:pl-[46px]">
                     {data.list.map((elem, id) => (
-                      <h4
+                      <div
                         className={`${styles.paragraph22} font-medium`}
                         key={id}
                       >
                         <li className="list-disc">{elem}</li>
-                      </h4>
+                      </div>
                     ))}
                   </ul>
 
@@ -810,11 +812,11 @@ export default function Page() {
                               className="4xl:p-[36px] p-[32px] border border-[#707070]"
                               key={id}
                             >
-                              <h4
+                              <div
                                 className={`${styles.paragraph22} pb-4 text-[#006FBE] font-bold`}
                               >
                                 {item.title}
-                              </h4>
+                              </div>
                               <p
                                 className={`${styles.paragraph22}`}
                                 dangerouslySetInnerHTML={{ __html: item.desc }}
@@ -840,12 +842,12 @@ export default function Page() {
 
                   <ul className="mt-5 space-y-2 pl-[26px] lg:pl-[46px]">
                     {data.list.map((elem, id) => (
-                      <h4
+                      <div
                         className={`${styles.paragraph22} font-medium`}
                         key={id}
                       >
                         <li className="list-disc">{elem}</li>
-                      </h4>
+                      </div>
                     ))}
                   </ul>
 
