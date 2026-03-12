@@ -9,6 +9,20 @@ export default function page({ url }) {
   const carouselRef = useRef(null);
   const [isLastSlide, setIsLastSlide] = useState(false);
   const latestBlogs = [
+     {
+    id: 83,
+    image:
+      "/images/insights/blogs/salesforce-agentplus-blog-help/thumb.webp",
+    category: "Managed Services",
+    industry: "Generic",
+    date: "Mar. 12, 2026",
+    url: "/salesforceagentplus-ai-salesforce-managed-services",
+    title:
+      "How SalesforceAgent+ Helps Enterprises Run Salesforce Without Operational Risk",
+    alt: "Digital data streams and binary code representing cloud analytics and enterprise data fabric",
+    description:
+      "Today, as platforms expand with Agentforce, Data Cloud, AI automations, and complex cross-cloud and third-party integrations, the support model starts to break down.",
+  },
     {
       id: 82,
       image:
