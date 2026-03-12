@@ -385,14 +385,14 @@ export default function Page() {
             </div>
 
             <div className="xl:mt-[60px] mt-[42px]">
-              <h1 className={`${styles.heading2}`}>
+              <h1 className={`${styles.heading2} pb-5`}>
                 {howSalesforce[0].pageTitle}
               </h1>
-              <h3 className={`${styles.paragraph22} mt-8 font-bold`}>
+              <span className={`${styles.paragraph22} mt-8 font-bold`}>
                 {howSalesforce[0].theEnterPriseSupportTitle}
-              </h3>
+              </span>
 
-              <div className="xl:mt-[38px] mt-[33px]">
+              <div className="xl:mt-[25px] mt-[33px]">
                 {mainData.map((data, ind) => {
                   return (
                     <p
@@ -600,32 +600,36 @@ export default function Page() {
                       />
                     ))}
                   </div>
-                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 mt-10">
-  {whySapManagedServices.highlights.map((item, index) => (
-    <div
-      key={item.id}
-      className="xl:text-left border-b md:border-b-0 md:border-r border-gray-700 pb-6 md:pb-0 md:pr-6 last:border-none"
-    >
-      {index === 2 ? (
-        <p className={`${styles.paragraph22}`}>
-          <span className={`${styles.paragraph22} text-[#0A6BB8] font-bold`}>
-            {item.title},
-          </span>{" "}
-          {item.description}
-        </p>
-      ) : (
-        <>
-          <span className={`${styles.paragraph22} text-[#0A6BB8] font-bold`}>
-            {item.title},
-          </span>
-          <p className={`${styles.paragraph22}`}>
-            {item.description}
-          </p>
-        </>
-      )}
-    </div>
-  ))}
-</div>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16 mt-10">
+                    {whySapManagedServices.highlights.map((item, index) => (
+                      <div
+                        key={item.id}
+                        className="xl:text-left border-b md:border-b-0 md:border-r border-gray-700 pb-6 md:pb-0 md:pr-6 last:border-none"
+                      >
+                        {index === 2 ? (
+                          <p className={`${styles.paragraph22}`}>
+                            <span
+                              className={`${styles.paragraph22} text-[#0A6BB8] font-bold`}
+                            >
+                              {item.title},
+                            </span>{" "}
+                            {item.description}
+                          </p>
+                        ) : (
+                          <>
+                            <span
+                              className={`${styles.paragraph22} text-[#0A6BB8] font-bold`}
+                            >
+                              {item.title},
+                            </span>
+                            <p className={`${styles.paragraph22}`}>
+                              {item.description}
+                            </p>
+                          </>
+                        )}
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </section>
 
@@ -633,12 +637,12 @@ export default function Page() {
                 <div className="md:mt-[50px] mt-[40px]" key={ind}>
                   <h2 className={`${styles.blogHeading2}`}>{data.title}</h2>
                   <p
-                    className={`${styles.paragraph22} mt-6`}
+                    className={`${styles.paragraph22} mt-6 pb-5`}
                     dangerouslySetInnerHTML={{ __html: data.des }}
                   />
-                  <h3 className={`${styles.paragraph22}  font-bold mt-5`}>
+                  <span className={`${styles.paragraph22}  font-bold mt-5`}>
                     {data.boldTitle}
-                  </h3>
+                  </span>
                   <UnorderedList
                     arrName={data.list}
                     ulClassName={`${styles.paragraph22} mt-5 space-y-2 xl:pl-14 pl-5 font-medium list-disc`}
