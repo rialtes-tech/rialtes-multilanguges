@@ -348,12 +348,12 @@ export default function Page() {
               {/* delivery model section */}
               {deliverModelData.map((data, ind) => (
                 <div className="md:mt-[50px] mt-[40px]" key={ind}>
-                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                  <h2 className="font-semibold mb-5 text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
                     {data.title}
                   </h2>
-                  <h3 className="4xl:text-[24px] 2xl:text-[21px] text-[20px] font-bold mt-5">
+                  <span className="4xl:text-[24px] 2xl:text-[21px] text-[20px] font-bold mt-5">
                     {data.subTitle}
-                  </h3>
+                  </span>
                   {data.steps && (
                     <div className="md:flex mt-5">
                       {data.steps.map((elem, id) => (
