@@ -8,9 +8,6 @@ import FAQAccordion from "@/app/components/faqAccordion";
 import BlogSocialIcons from "@/app/components/blogSocialIcons";
 import UnorderedList from "@/app/components/unorderedList";
 import styles from "../../../temp.module.css";
-import { time } from "framer-motion";
-import footer from "@/app/components/footer";
-
 const mainData = [
   "Enterprise revenue transformations tend to fail for reasons that have little to do with the platform itself. Industry studies consistently show that quote-to-cash initiatives break down at the intersection of process design, data readiness, and cross-functional ownership, not because the technology lacks capability. Salesforce Revenue Cloud is already a proven solution for managing complex pricing, quoting, billing, and revenue recognition. By the time organizations evaluate it seriously, the functionality is rarely in question.",
   "What is in question is execution. How do you introduce a new revenue engine without slowing deal cycles, confusing sales teams, or creating reconciliation headaches for finance? How do you move from legacy systems to a unified revenue model while protecting cash flow and customer experience?",
@@ -474,7 +471,7 @@ export default function Page() {
                   return (
                     <p
                       key={ind}
-                      className={`${styles.paragraph22} mt-5`}
+                      className={`${styles.blogPara20} mt-5`}
                       dangerouslySetInnerHTML={{ __html: data }}
                     />
                   );
@@ -484,15 +481,15 @@ export default function Page() {
                 <div className="md:mt-[50px] mt-[40px]" key={ind}>
                   <h2 className={`${styles.blogHeading2}`}>{data.title}</h2>
                   <p
-                    className={`${styles.paragraph22} mt-[29px] xl:mt-[30px]`}
+                    className={`${styles.blogPara20} mt-[29px] xl:mt-[30px]`}
                     dangerouslySetInnerHTML={{ __html: data.desc }}
                   />
                   <UnorderedList
                     arrName={data.list}
-                    ulClassName={`${styles.paragraph22} mt-5 space-y-2 pl-[26px] font-medium list-disc`}
+                    ulClassName={`${styles.blogPara20} mt-5 space-y-2 pl-[26px] font-medium list-disc`}
                   />
                   <p
-                    className={`${styles.paragraph22} mt-10`}
+                    className={`${styles.blogPara20} mt-10`}
                     dangerouslySetInnerHTML={{ __html: data.desc2 }}
                   />
                 </div>
@@ -506,7 +503,7 @@ export default function Page() {
                   >
                     <div className="flex flex-col ">
                       <span
-                        className={`${styles.paragraph22} text-[#0A6BB8] font-bold`}
+                        className={`${styles.blogPara20} text-[#0A6BB8] font-bold`}
                       >
                         {howSalesforce[0].phaseTitle}
                       </span>
@@ -525,17 +522,17 @@ export default function Page() {
                         </div>
                       </div>
                       <div className="space-y-1 leading-tight">
-                        <p className={`${styles.paragraph22}`}>
+                        <p className={`${styles.blogPara20}`}>
                           <span
-                            className={`${styles.paragraph22} font-bold pr-3`}
+                            className={`${styles.blogPara20} font-bold pr-3`}
                           >
                             {howSalesforce[0].timelineTitle}:
                           </span>
                           {phase.timeline}
                         </p>
-                        <p className={`${styles.paragraph22}`}>
+                        <p className={`${styles.blogPara20}`}>
                           <span
-                            className={`${styles.paragraph22} font-bold pr-3`}
+                            className={`${styles.blogPara20} font-bold pr-3`}
                           >
                             {howSalesforce[0].primaryOwnersTitle}:
                           </span>
@@ -545,7 +542,7 @@ export default function Page() {
                       </div>
                     </div>
                     {phase.description && (
-                      <p className={`${styles.paragraph22} mt-10`}>
+                      <p className={`${styles.blogPara20} mt-10`}>
                         {phase.description}
                       </p>
                     )}
@@ -553,20 +550,20 @@ export default function Page() {
                       {phase.sections?.map((section, index) => (
                         <div key={index}>
                           <h3
-                            className={`${styles.paragraph22} font-bold mb-2`}
+                            className={`${styles.blogPara20} font-bold mb-2`}
                           >
                             {section.heading}
                           </h3>
                           <UnorderedList
                             arrName={section?.points}
-                            ulClassName={`${styles.paragraph22} list-disc pl-5 space-y-2 font-medium`}
+                            ulClassName={`${styles.blogPara20} list-disc pl-5 space-y-2 font-medium`}
                           />
                         </div>
                       ))}
                     </div>
                     {phase?.footer && (
                       <p
-                        className={`${styles.paragraph22} mt-6`}
+                        className={`${styles.blogPara20} mt-6`}
                         dangerouslySetInnerHTML={{ __html: phase?.footer }}
                       />
                     )}
@@ -621,13 +618,13 @@ export default function Page() {
               {predectiveData.map((data, ind) => (
                 <div className="md:mt-[50px] mt-[40px]" key={ind}>
                   <h2 className={`${styles.blogHeading2}`}>{data.title}</h2>
-                  <p className={`${styles.paragraph22} mt-[29px] xl:mt-[30px]`}>
+                  <p className={`${styles.blogPara20} mt-[29px] xl:mt-[30px]`}>
                     {data.desc}
                   </p>
                   <ul className="mt-5 space-y-2 pl-[26px] lg:pl-[46px]">
                     {data.list.map((elem, id) => (
                       <h3
-                        className={`${styles.paragraph22} font-medium`}
+                        className={`${styles.blogPara20} font-medium`}
                         key={id}
                       >
                         <li className="list-disc">{elem}</li>
@@ -646,11 +643,11 @@ export default function Page() {
                       >
                         {data.title}
                       </h2>
-                      <p className={`${styles.paragraph22} mt-5`}>
+                      <p className={`${styles.blogPara20} mt-5`}>
                         {data.desc}
                       </p>
                       <p
-                        className={`${styles.paragraph22} mt-5`}
+                        className={`${styles.blogPara20} mt-5`}
                         dangerouslySetInnerHTML={{ __html: data.desc1 }}
                       />
                       <h3 className="mt-5 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight font-bold">
@@ -664,19 +661,19 @@ export default function Page() {
                               key={id}
                             >
                               <h3
-                                className={`${styles.paragraph22} pb-4 text-[#006FBE] font-bold`}
+                                className={`${styles.blogPara20} pb-4 text-[#006FBE] font-bold`}
                               >
                                 {item.title}
                               </h3>
                               <p
-                                className={`${styles.paragraph22}`}
+                                className={`${styles.blogPara20}`}
                                 dangerouslySetInnerHTML={{ __html: item.desc }}
                               />
                             </div>
                           );
                         })}
                       </div>
-                      <p className={`${styles.paragraph22} mt-5`}>
+                      <p className={`${styles.blogPara20} mt-5`}>
                         {data.desc3}
                       </p>
                     </div>

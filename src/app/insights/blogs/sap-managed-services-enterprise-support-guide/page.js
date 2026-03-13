@@ -388,7 +388,7 @@ export default function Page() {
               <h1 className={`${styles.heading2} pb-5`}>
                 {howSalesforce[0].pageTitle}
               </h1>
-              <span className={`${styles.paragraph22} mt-8 font-bold`}>
+              <span className={`${styles.blogPara20} mt-10 font-bold`}>
                 {howSalesforce[0].theEnterPriseSupportTitle}
               </span>
 
@@ -397,7 +397,7 @@ export default function Page() {
                   return (
                     <p
                       key={ind}
-                      className={`${styles.paragraph22} mt-5`}
+                      className={`${styles.blogPara20} mt-5`}
                       dangerouslySetInnerHTML={{ __html: data }}
                     />
                   );
@@ -408,27 +408,27 @@ export default function Page() {
                   <h2 className={`${styles.blogHeading2}`}>{data.title}</h2>
 
                   <p
-                    className={`${styles.paragraph22} mt-[29px] xl:mt-[30px]`}
+                    className={`${styles.blogPara20} mt-[29px] xl:mt-[30px]`}
                     dangerouslySetInnerHTML={{ __html: data.desc }}
                   />
                   <p
-                    className={`${styles.paragraph22}`}
+                    className={`${styles.blogPara20}`}
                     dangerouslySetInnerHTML={{ __html: data.desc1 }}
                   />
                   <p
-                    className={`${styles.paragraph22} mt-6`}
+                    className={`${styles.blogPara20} mt-6`}
                     dangerouslySetInnerHTML={{ __html: data.desc2 }}
                   />
 
                   <UnorderedList
                     arrName={data.list}
-                    ulClassName={`${styles.paragraph22} mt-5 space-y-2 xl:pl-14 pl-5 font-medium list-disc`}
+                    ulClassName={`${styles.blogPara20} mt-5 space-y-2 xl:pl-14 pl-5 font-medium list-disc`}
                   />
 
                   {data.extraParagraphs?.map((para, i) => (
                     <p
                       key={i}
-                      className={`${styles.paragraph22} mt-5`}
+                      className={`${styles.blogPara20} mt-5`}
                       dangerouslySetInnerHTML={{ __html: para }}
                     />
                   ))}
@@ -439,27 +439,27 @@ export default function Page() {
                   <h2 className={`${styles.blogHeading2}`}>{data.title}</h2>
 
                   <p
-                    className={`${styles.paragraph22} mt-[29px] xl:mt-[30px]`}
+                    className={`${styles.blogPara20} mt-[29px] xl:mt-[30px]`}
                     dangerouslySetInnerHTML={{ __html: data.desc }}
                   />
                   <p
-                    className={`${styles.paragraph22}`}
+                    className={`${styles.blogPara20}`}
                     dangerouslySetInnerHTML={{ __html: data.desc2 }}
                   />
                   <p
-                    className={`${styles.paragraph22} mt-6`}
+                    className={`${styles.blogPara20} mt-6`}
                     dangerouslySetInnerHTML={{ __html: data.desc3 }}
                   />
 
                   <UnorderedList
                     arrName={data.list}
-                    ulClassName={`${styles.paragraph22} mt-5 space-y-2 xl:pl-14 pl-5 font-medium list-disc`}
+                    ulClassName={`${styles.blogPara20} mt-5 space-y-2 xl:pl-14 pl-5 font-medium list-disc`}
                   />
 
                   {data.extraParagraphs?.map((para, i) => (
                     <p
                       key={i}
-                      className={`${styles.paragraph22} mt-5`}
+                      className={`${styles.blogPara20} mt-5`}
                       dangerouslySetInnerHTML={{ __html: para }}
                     />
                   ))}
@@ -471,23 +471,23 @@ export default function Page() {
                   <h2 className={`${styles.blogHeading2}`}>{data.title}</h2>
 
                   <p
-                    className={`${styles.paragraph22} mt-[29px] xl:mt-[30px]`}
+                    className={`${styles.blogPara20} mt-[29px] xl:mt-[30px]`}
                     dangerouslySetInnerHTML={{ __html: data.desc }}
                   />
                   <p
-                    className={`${styles.paragraph22} mt-6`}
+                    className={`${styles.blogPara20} mt-6`}
                     dangerouslySetInnerHTML={{ __html: data.desc1 }}
                   />
 
                   <UnorderedList
                     arrName={data.list}
-                    ulClassName={`${styles.paragraph22} mt-5 space-y-2 xl:pl-14 pl-5 font-medium list-disc mb-10`}
+                    ulClassName={`${styles.blogPara20} mt-5 space-y-2 xl:pl-14 pl-5 font-medium list-disc mb-10`}
                   />
 
                   {data.extraParagraphs?.map((para, i) => (
                     <p
                       key={i}
-                      className={`${styles.paragraph22}`}
+                      className={`${styles.blogPara20}`}
                       dangerouslySetInnerHTML={{ __html: para }}
                     />
                   ))}
@@ -501,20 +501,22 @@ export default function Page() {
                   {data.desc?.map((para, i) => (
                     <p
                       key={i}
-                      className={`${styles.paragraph22} mt-[29px] xl:mt-[30px]`}
+                      className={`${styles.blogPara20} mt-[29px] xl:mt-[30px]`}
                       dangerouslySetInnerHTML={{ __html: para }}
                     />
                   ))}
-                  <h3 className={`${styles.paragraph22} mt-5 font-bold`}>
+                  <h3 className={`${styles.blogPara20} mt-5 font-bold`}>
                     {data.boldHeading}
                   </h3>
 
                   <UnorderedList
                     arrName={data.list}
-                    ulClassName={`${styles.paragraph22} mt-5 space-y-2 xl:pl-14 pl-5 font-medium list-disc`}
+                    ulClassName={`${styles.blogPara20} mt-5 space-y-2 xl:pl-14 pl-5 font-medium list-disc`}
                   />
                   <p
-                    className={`${styles.paragraph22} mt-6`}
+                    className={`${styles.blogPara20
+
+                    } mt-6`}
                     dangerouslySetInnerHTML={{ __html: data.desc1 }}
                   />
                 </div>
@@ -527,17 +529,17 @@ export default function Page() {
                   {data.desc?.map((para, i) => (
                     <p
                       key={i}
-                      className={`${styles.paragraph22} mt-[29px] xl:mt-[30px]`}
+                      className={`${styles.blogPara20} mt-[29px] xl:mt-[30px]`}
                       dangerouslySetInnerHTML={{ __html: para }}
                     />
                   ))}
 
                   <UnorderedList
                     arrName={data.list}
-                    ulClassName={`${styles.paragraph22} mt-5 space-y-2 xl:pl-14 pl-5 font-medium list-disc`}
+                    ulClassName={`${styles.blogPara20} mt-5 space-y-2 xl:pl-14 pl-5 font-medium list-disc`}
                   />
                   <p
-                    className={`${styles.paragraph22} mt-6`}
+                    className={`${styles.blogPara20} mt-6`}
                     dangerouslySetInnerHTML={{ __html: data.desc1 }}
                   />
                 </div>
@@ -552,7 +554,7 @@ export default function Page() {
                     </h2>
 
                     <p
-                      className={`${styles.paragraph22} mt-6`}
+                      className={`${styles.blogPara20} mt-6`}
                       dangerouslySetInnerHTML={{ __html: supportModels.des }}
                     />
                   </div>
@@ -566,14 +568,14 @@ export default function Page() {
                         <h3 className="font-bold 4xl:text-[24px] 2xl:text-[21px] xl:text-[20px] text-[19px]  leading-tight">
                           {item.title}
                         </h3>
-                        <p className={`${styles.paragraph22} mt-6`}>
+                        <p className={`${styles.blogPara20} mt-6`}>
                           {item.description}
                         </p>
                       </div>
                     ))}
                   </div>
                   <p
-                    className={`${styles.paragraph22} mt-12`}
+                    className={`${styles.blogPara20} mt-12`}
                     dangerouslySetInnerHTML={{
                       __html: supportModels.footerText,
                     }}
@@ -593,7 +595,7 @@ export default function Page() {
                     {whySapManagedServices.paragraphs.map((para, index) => (
                       <p
                         key={index}
-                        className={`${styles.paragraph22} mt-5`}
+                        className={`${styles.blogPara20} mt-5`}
                         dangerouslySetInnerHTML={{
                           __html: para,
                         }}
@@ -607,9 +609,9 @@ export default function Page() {
                         className="xl:text-left border-b md:border-b-0 md:border-r border-gray-700 pb-6 md:pb-0 md:pr-6 last:border-none"
                       >
                         {index === 2 ? (
-                          <p className={`${styles.paragraph22}`}>
+                          <p className={`${styles.blogPara20}`}>
                             <span
-                              className={`${styles.paragraph22} text-[#0A6BB8] font-bold`}
+                              className={`${styles.blogPara20} text-[#0A6BB8] font-bold`}
                             >
                               {item.title},
                             </span>{" "}
@@ -618,11 +620,11 @@ export default function Page() {
                         ) : (
                           <>
                             <span
-                              className={`${styles.paragraph22} text-[#0A6BB8] font-bold`}
+                              className={`${styles.blogPara20} text-[#0A6BB8] font-bold`}
                             >
                               {item.title},
                             </span>
-                            <p className={`${styles.paragraph22}`}>
+                            <p className={`${styles.blogPara20}`}>
                               {item.description}
                             </p>
                           </>
@@ -637,15 +639,15 @@ export default function Page() {
                 <div className="md:mt-[50px] mt-[40px]" key={ind}>
                   <h2 className={`${styles.blogHeading2}`}>{data.title}</h2>
                   <p
-                    className={`${styles.paragraph22} mt-6 pb-5`}
+                    className={`${styles.blogPara20} mt-6 pb-5`}
                     dangerouslySetInnerHTML={{ __html: data.des }}
                   />
-                  <span className={`${styles.paragraph22}  font-bold mt-5`}>
+                  <span className={`${styles.blogPara20}  font-bold mt-5`}>
                     {data.boldTitle}
                   </span>
                   <UnorderedList
                     arrName={data.list}
-                    ulClassName={`${styles.paragraph22} mt-5 space-y-2 xl:pl-14 pl-5 font-medium list-disc`}
+                    ulClassName={`${styles.blogPara20} mt-5 space-y-2 xl:pl-14 pl-5 font-medium list-disc`}
                   />
                 </div>
               ))}

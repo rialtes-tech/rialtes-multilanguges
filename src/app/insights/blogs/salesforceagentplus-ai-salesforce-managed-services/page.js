@@ -10,7 +10,7 @@ import UnorderedList from "@/app/components/unorderedList";
 import styles from "../../../temp.module.css";
 
 const mainData = [
-  "Salesforce has become the backbone of modern sales, service, and customer engagement. <a href='https://www.grandviewresearch.com/industry-analysis/customer-relationship-management-crm-market' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>IDC says</a> than 60 % of global enterprises cite CRM platforms like Salesforce as the central system of engagement for revenue operations and customer experience, powering everything from revenue forecasting and partner management to marketing automation and AI-driven engagement. ¹ But behind this success, a quiet risk is emerging. Most organizations are still running Salesforce on overstretched internal teams, fragmented vendor support models, and ad-hoc administrators, which was manageable when deployments were simpler. Today, as platforms expand with  <a href='https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Agentforce</a>, Data Cloud, AI automations, and complex cross-cloud and third-party integrations, the support model starts to break down. ",
+  "Salesforce has become the backbone of modern sales, service, and customer engagement. <a href='https://www.grandviewresearch.com/industry-analysis/customer-relationship-management-crm-market' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>IDC says</a> than 60 % of global enterprises cite CRM platforms like Salesforce as the central system of engagement for revenue operations and customer experience, powering everything from revenue forecasting and partner management to marketing automation and AI-driven engagement.But behind this success, a quiet risk is emerging. Most organizations are still running Salesforce on overstretched internal teams, fragmented vendor support models, and ad-hoc administrators, which was manageable when deployments were simpler. Today, as platforms expand with  <a href='https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Agentforce</a>, Data Cloud, AI automations, and complex cross-cloud and third-party integrations, the support model starts to break down. ",
 ];
 
 const digitalData = [
@@ -24,26 +24,6 @@ const digitalData = [
     ],
     desc2:
       "Over time, what once accelerated business becomes an operational bottleneck that undermines agility and disrupts execution. This is why leading enterprises are rethinking how Salesforce is managed — shifting from break-fix, ticket-driven models to strategic managed services that reduce risk, enforce consistency, and enable innovation. Salesforce Managed Services are no longer a tactical support option; they have become a strategic priority for sustainable growth.",
-  },
-];
-
-const theHiddenCost = [
-  {
-    title: "The Hidden Cost of Internal Salesforce Management",
-    content:
-      "On paper, internal Salesforce teams often look efficient. They know the business. They understand existing processes. They’ve kept the platform running for years. But in practice, this model carries invisible risks that compound over time.",
-  },
-  {
-    content:
-      "Most enterprises become heavily dependent on a small number of key administrators and architects. When those individuals are unavailable, overloaded, or leave the organization, critical knowledge goes with them. At the same time, internal teams typically operate with limited 24x7 coverage, making it difficult to respond quickly during outages, peak periods, or global incidents. Response times slow. Backlogs grow. Strategic enhancements are repeatedly deferred in favor of short-term fixes.",
-  },
-  {
-    content:
-      "As Salesforce ecosystems expand, this pressure intensifies. No single team can realistically master Sales Cloud, Service Cloud, Data Cloud, Agentforce, complex integrations, security frameworks, analytics, and regulatory compliance simultaneously. Each new capability adds operational weight.",
-  },
-  {
-    content:
-      "When expertise is stretched thin, platforms stop evolving. Preventive maintenance gives way to firefighting. Innovation slows. User confidence erodes. And operational risk quietly rises.",
   },
 ];
 
@@ -316,6 +296,18 @@ const predectiveData = [
       "Support global operations 24x7 ",
     ],
     des3: "This requires mature governance, enterprise-grade SLAs, and deep platform expertise. This is exactly what SalesforceAgent+ was built to deliver.",
+  },
+];
+
+const theHiddenCost = [
+  {
+    title: "The Hidden Cost of Internal Salesforce Management",
+    desc: [
+      "On paper, internal Salesforce teams often look efficient. They know the business. They understand existing processes. They’ve kept the platform running for years. But in practice, this model carries invisible risks that compound over time.",
+      "Most enterprises become heavily dependent on a small number of key administrators and architects. When those individuals are unavailable, overloaded, or leave the organization, critical knowledge goes with them. At the same time, internal teams typically operate with limited 24x7 coverage, making it difficult to respond quickly during outages, peak periods, or global incidents. Response times slow. Backlogs grow. Strategic enhancements are repeatedly deferred in favor of short-term fixes.",
+      "As Salesforce ecosystems expand, this pressure intensifies. No single team can realistically master Sales Cloud, Service Cloud, Data Cloud, Agentforce, complex integrations, security frameworks, analytics, and regulatory compliance simultaneously. Each new capability adds operational weight.",
+      "When expertise is stretched thin, platforms stop evolving. Preventive maintenance gives way to firefighting. Innovation slows. User confidence erodes. And operational risk quietly rises.",
+    ],
   },
 ];
 
@@ -613,7 +605,7 @@ export default function Page() {
                   return (
                     <p
                       key={ind}
-                      className={`${styles.paragraph22} mt-5`}
+                      className={`${styles.blogPara20} mt-5`}
                       dangerouslySetInnerHTML={{ __html: data }}
                     />
                   );
@@ -621,73 +613,70 @@ export default function Page() {
                 {digitalData.map((data, ind) => (
                   <div className="mt-6" key={ind}>
                     <p
-                      className={`${styles.paragraph22} mt-[29px] xl:mt-[30px]`}
+                      className={`${styles.blogPara20} mt-[29px] xl:mt-[30px]`}
                       dangerouslySetInnerHTML={{ __html: data.desc }}
                     />
                     <UnorderedList
                       arrName={data.list}
-                      ulClassName={`${styles.paragraph22} mt-5 space-y-2 pl-[26px] font-medium list-disc`}
+                      ulClassName={`${styles.blogPara20} mt-5 space-y-2 pl-[26px] font-medium list-disc`}
                     />
                     <p
-                      className={`${styles.paragraph22} mt-10`}
+                      className={`${styles.blogPara20} mt-10`}
                       dangerouslySetInnerHTML={{ __html: data.desc2 }}
                     />
                   </div>
                 ))}
               </div>
 
-              {theHiddenCost.map((data, ind) => {
-                return (
-                  <div key={ind} className="md:mt-[50px] mt-[40px]">
-                    {data.title && (
-                      <h2 className={`${styles.blogHeading2}`}>{data.title}</h2>
-                    )}
-
-                    <p
-                      className={`${styles.paragraph22} mt-5`}
-                      dangerouslySetInnerHTML={{ __html: data.content }}
-                    />
-                  </div>
-                );
-              })}
+              {theHiddenCost.map((data, ind) => (
+                <div className="md:mt-[50px] mt-[40px]" key={ind}>
+                  <h2 className="font-semibold text-[#0092E0] 4xl:text-[32px] 2xl:text-[26px] xl:text-[26px] md:text-[22px] text-[22px] leading-tight">
+                    {data.title}
+                  </h2>
+                  <UnorderedList
+                    arrName={data.desc}
+                    ulClassName="mt-5 space-y-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium"
+                  />
+                </div>
+              ))}
 
               {predectiveData.map((data, ind) => (
                 <div className="md:mt-[50px] mt-[40px]" key={ind}>
                   <h2 className={`${styles.blogHeading2}`}>{data.title}</h2>
                   <p
-                    className={`${styles.paragraph22} mt-[29px] xl:mt-[30px]`}
+                    className={`${styles.blogPara20} mt-[29px] xl:mt-[30px]`}
                     dangerouslySetInnerHTML={{ __html: data.desc }}
                   />
 
-                  <p className={`${styles.paragraph22} mt-5`}>{data.desc1}</p>
-                  <p className={`${styles.paragraph22} mt-5`}>{data.des2}</p>
+                  <p className={`${styles.blogPara20} mt-5`}>{data.desc1}</p>
+                  <p className={`${styles.blogPara20} mt-5`}>{data.des2}</p>
 
                   <ul className="mt-5 space-y-2 pl-[26px] lg:pl-[46px]">
                     {data.list.map((elem, id) => (
                       <div
-                        className={`${styles.paragraph22} font-medium`}
+                        className={`${styles.blogPara20} font-medium`}
                         key={id}
                       >
                         <li className="list-disc">{elem}</li>
                       </div>
                     ))}
                   </ul>
-                  <p className={`${styles.paragraph22} mt-5`}>{data.des3}</p>
+                  <p className={`${styles.blogPara20} mt-5`}>{data.des3}</p>
                 </div>
               ))}
 
               {introducingData.map((data, ind) => (
                 <div className="md:mt-[50px] mt-[40px]" key={ind}>
                   <h2 className={`${styles.blogHeading2}`}>{data.title}</h2>
-                  <p className={`${styles.paragraph22} mt-[29px] xl:mt-[30px]`}>
+                  <p className={`${styles.blogPara20} mt-[29px] xl:mt-[30px]`}>
                     {data.desc}
                   </p>
                   <p
-                    className={`${styles.paragraph22} mt-5`}
+                    className={`${styles.blogPara20} mt-5`}
                     dangerouslySetInnerHTML={{ __html: data.desc1 }}
                   />
 
-                  <p className={`${styles.paragraph22} mt-5`}>{data.des2}</p>
+                  <p className={`${styles.blogPara20} mt-5`}>{data.des2}</p>
                 </div>
               ))}
               <section>
@@ -714,43 +703,43 @@ export default function Page() {
               {howSalesforceAgentreduce.map((data, ind) => (
                 <div className="md:mt-[50px] mt-[40px]" key={ind}>
                   <h2 className={`${styles.blogHeading2}`}>{data.title}</h2>
-                  <p className={`${styles.paragraph22} mt-[29px] xl:mt-[30px]`}>
+                  <p className={`${styles.blogPara20} mt-[29px] xl:mt-[30px]`}>
                     {data.desc}
                   </p>
-                  <p className={`${styles.paragraph22} mt-5`}>{data.desc1}</p>
+                  <p className={`${styles.blogPara20} mt-5`}>{data.desc1}</p>
 
                   <ul className="mt-5 space-y-2 pl-[26px] lg:pl-[46px]">
                     {data.list.map((elem, id) => (
                       <div
-                        className={`${styles.paragraph22} font-medium`}
+                        className={`${styles.blogPara20} font-medium`}
                         key={id}
                       >
                         <li className="list-disc">{elem}</li>
                       </div>
                     ))}
                   </ul>
-                  <p className={`${styles.paragraph22} mt-5`}>{data.des2}</p>
+                  <p className={`${styles.blogPara20} mt-5`}>{data.des2}</p>
 
-                  <p className={`${styles.paragraph22} mt-5`}>{data.des3}</p>
-                  <p className={`${styles.paragraph22} `}>{data.des4}</p>
+                  <p className={`${styles.blogPara20} mt-5`}>{data.des3}</p>
+                  <p className={`${styles.blogPara20} `}>{data.des4}</p>
 
-                  <p className={`${styles.paragraph22} `}>{data.des5}</p>
+                  <p className={`${styles.blogPara20} `}>{data.des5}</p>
                 </div>
               ))}
 
               {whenShouldEnter.map((data, ind) => (
                 <div className="md:mt-[50px] mt-[40px]" key={ind}>
                   <h2 className={`${styles.blogHeading2}`}>{data.title}</h2>
-                  <p className={`${styles.paragraph22} mt-[29px] xl:mt-[30px]`}>
+                  <p className={`${styles.blogPara20} mt-[29px] xl:mt-[30px]`}>
                     {data.desc}
                   </p>
-                  <p className={`${styles.paragraph22} mt-5`}>{data.desc1}</p>
-                  <p className={`${styles.paragraph22} mt-5`}>{data.des2}</p>
+                  <p className={`${styles.blogPara20} mt-5`}>{data.desc1}</p>
+                  <p className={`${styles.blogPara20} mt-5`}>{data.des2}</p>
 
                   <ul className="mt-5 space-y-2 pl-[26px] lg:pl-[46px]">
                     {data.list.map((elem, id) => (
                       <div
-                        className={`${styles.paragraph22} font-medium`}
+                        className={`${styles.blogPara20} font-medium`}
                         key={id}
                       >
                         <li className="list-disc">{elem}</li>
@@ -758,24 +747,24 @@ export default function Page() {
                     ))}
                   </ul>
 
-                  <p className={`${styles.paragraph22} mt-5`}>{data.des3}</p>
-                  <p className={`${styles.paragraph22} `}>{data.des4}</p>
+                  <p className={`${styles.blogPara20} mt-5`}>{data.des3}</p>
+                  <p className={`${styles.blogPara20} `}>{data.des4}</p>
                 </div>
               ))}
 
               {agentForceAdoption.map((data, ind) => (
                 <div className="md:mt-[50px] mt-[40px]" key={ind}>
                   <h2 className={`${styles.blogHeading2}`}>{data.title}</h2>
-                  <p className={`${styles.paragraph22} mt-[29px] xl:mt-[30px]`}>
+                  <p className={`${styles.blogPara20} mt-[29px] xl:mt-[30px]`}>
                     {data.desc}
                   </p>
-                  <p className={`${styles.paragraph22}`}>{data.desc1}</p>
-                  <p className={`${styles.paragraph22} mt-5`}>{data.des2}</p>
+                  <p className={`${styles.blogPara20}`}>{data.desc1}</p>
+                  <p className={`${styles.blogPara20} mt-5`}>{data.des2}</p>
 
                   <ul className="mt-5 space-y-2 pl-[26px] lg:pl-[46px]">
                     {data.list.map((elem, id) => (
                       <div
-                        className={`${styles.paragraph22} font-medium`}
+                        className={`${styles.blogPara20} font-medium`}
                         key={id}
                       >
                         <li className="list-disc">{elem}</li>
@@ -783,7 +772,7 @@ export default function Page() {
                     ))}
                   </ul>
 
-                  <p className={`${styles.paragraph22} mt-5`}>{data.des3}</p>
+                  <p className={`${styles.blogPara20} mt-5`}>{data.des3}</p>
                 </div>
               ))}
               <div className="md:mt-[50px] mt-[40px]">
@@ -795,11 +784,9 @@ export default function Page() {
                       >
                         {data.title}
                       </h2>
-                      <p className={`${styles.paragraph22} mt-5`}>
-                        {data.desc}
-                      </p>
+                      <p className={`${styles.blogPara20} mt-5`}>{data.desc}</p>
                       <p
-                        className={`${styles.paragraph22} mt-5`}
+                        className={`${styles.blogPara20} mt-5`}
                         dangerouslySetInnerHTML={{ __html: data.desc1 }}
                       />
                       <h3 className="mt-5 4xl:text-[24px]  2xl:text-[21px]  xl:text-[20px] text-[20px] leading-tight font-bold">
@@ -813,19 +800,19 @@ export default function Page() {
                               key={id}
                             >
                               <div
-                                className={`${styles.paragraph22} pb-4 text-[#006FBE] font-bold`}
+                                className={`${styles.blogPara20} pb-4 text-[#006FBE] font-bold`}
                               >
                                 {item.title}
                               </div>
                               <p
-                                className={`${styles.paragraph22}`}
+                                className={`${styles.blogPara20}`}
                                 dangerouslySetInnerHTML={{ __html: item.desc }}
                               />
                             </div>
                           );
                         })}
                       </div>
-                      <p className={`${styles.paragraph22} mt-5`}>
+                      <p className={`${styles.blogPara20} mt-5`}>
                         {data.desc3}
                       </p>
                     </div>
@@ -836,14 +823,14 @@ export default function Page() {
               {whyEnterPrises.map((data, ind) => (
                 <div className="md:mt-[50px] mt-[40px]" key={ind}>
                   <h2 className={`${styles.blogHeading2}`}>{data.title}</h2>
-                  <p className={`${styles.paragraph22} mt-[29px] xl:mt-[30px]`}>
+                  <p className={`${styles.blogPara20} mt-[29px] xl:mt-[30px]`}>
                     {data.desc}
                   </p>
 
                   <ul className="mt-5 space-y-2 pl-[26px] lg:pl-[46px]">
                     {data.list.map((elem, id) => (
                       <div
-                        className={`${styles.paragraph22} font-medium`}
+                        className={`${styles.blogPara20} font-medium`}
                         key={id}
                       >
                         <li className="list-disc">{elem}</li>
@@ -851,24 +838,27 @@ export default function Page() {
                     ))}
                   </ul>
 
-                  <p className={`${styles.paragraph22} mt-5`}>{data.des3}</p>
+                  <p className={`${styles.blogPara20} mt-5`}>{data.des3}</p>
                 </div>
               ))}
+              <div className="mt-16">
+                {runningSalsforce.map((data, ind) => {
+                  return (
+                    <div key={ind} className={`${ind !== 0 ? "mt-2" : ""}`}>
+                      {data.title && (
+                        <h2 className={`${styles.blogHeading2}`}>
+                          {data.title}
+                        </h2>
+                      )}
 
-              {runningSalsforce.map((data, ind) => {
-                return (
-                  <div key={ind} className="md:mt-[50px] mt-[40px]">
-                    {data.title && (
-                      <h2 className={`${styles.blogHeading2}`}>{data.title}</h2>
-                    )}
-
-                    <p
-                      className={`${styles.paragraph22} mt-5`}
-                      dangerouslySetInnerHTML={{ __html: data.content }}
-                    />
-                  </div>
-                );
-              })}
+                      <p
+                        className={`${styles.blogPara20} mt-6`}
+                        dangerouslySetInnerHTML={{ __html: data.content }}
+                      />
+                    </div>
+                  );
+                })}
+              </div>
             </div>
           </div>
         </div>
