@@ -24,11 +24,14 @@ export default function page() {
                 description={t('seoDescription')}
                 canonical={`https://www.rialtes.com/${locale}/industry/life-sciences-digital-transformation/`}
             />
-            <Script
-                id="schema-life-science"
-                type="application/ld+json"
-                strategy="afterInteractive"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+            {/* Desktop Image */}
+            <Image
+              src="/images/industry/life-science/pre-build-desk.webp"
+              alt="prebuilt Desktop"
+              className="w-full h-[800px] object-cover hidden md:block"
+              priority
+              width={1200}
+              height={630}
             />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">

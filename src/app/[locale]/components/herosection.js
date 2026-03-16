@@ -71,8 +71,8 @@ export const HeroSection = ({ title, subtitle, mobimg, deskimg, extraImg, txtCol
                             <Image
                                 src={extraImg}
                                 alt="SAP Partner Logo"
-                                width={0}
-                                height={0}
+                                width={300}
+                                height={300}
                                 priority
                                 className="mt-5 w-[25%] sm:w-[16%] md:w-[14%] lg:w-[16%]"
                             />

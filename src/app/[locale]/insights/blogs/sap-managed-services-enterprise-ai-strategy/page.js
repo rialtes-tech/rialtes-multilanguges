@@ -34,7 +34,7 @@ export default function Page() {
                 description={t('seoDescription')}
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/sap-managed-services-enterprise-ai-strategy/"
+                    "https://www.rialtes.com/insights/blogs/sap-managed-services-enterprise-ai-strategy"
                 }
             />
 
@@ -59,8 +59,8 @@ export default function Page() {
                         src="/images/blog/digital-data-stream-mobile.webp"
                         alt={t('bannerAlt')}
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>

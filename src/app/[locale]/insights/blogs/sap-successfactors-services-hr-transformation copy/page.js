@@ -280,7 +280,7 @@ export default function Page() {
                 description="SAP SuccessFactors is more than an HR system; it is a unified, AI-driven platform that connects every part of the employee lifecycle."
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/sap-successfactors-services-hr-transformation/"
+                    "https://www.rialtes.com/insights/blogs/sap-successfactors-services-hr-transformation"
                 }
             />
 
@@ -303,10 +303,10 @@ export default function Page() {
                 <div className="xl:hidden block">
                     <Image
                         src="/images/blog/digital-data-interface-with-futuristic-touch-interaction-mobile.webp"
-                        alt="A futuristic digital interface showing data panels and a virtual hand touching a glowing point on a tech surface"
+                         alt="A futuristic digital interface showing data panels and a virtual hand touching a glowing point on a tech surface"
                         priority
-                        height={0}
-                        width={0}
+                        height={375}
+                        width={250}
                         className="w-full h-auto object-cover"
                     />
                 </div>
@@ -407,8 +407,8 @@ export default function Page() {
                                             <Image
                                                 src="/images/blog/SAP-SuccessFactors-Consultant-Responsibilities.webp"
                                                 alt="What Does a SAP SuccessFactors Consultant Do"
-                                                width={0}
-                                                height={0}
+                                                width={1200}
+                                                height={630}
                                                 className="h-full w-full"
                                                 priority
                                             />

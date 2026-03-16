@@ -142,7 +142,7 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
                 </p>
             )}
             {subtitle1 && (
-                <p className="mt-4 4xl:text-[20px] text-[16px] xl:w-[60%] xl:mt-[24px] font-regular">
+                <p className="mt-4 4xl:text-[20px] md:text-[18px] text-[16px] xl:w-[60%] xl:mt-[24px] font-regular">
                     {subtitle1}
                 </p>
             )}
@@ -212,12 +212,20 @@ export default function ContactForm({ title, subtitle, subtitle1, className, pad
                     <button
                         type="submit"
                         value="Submit"
-                        className="bg-[#134874] border border-[#134874] font-semibold py-3 px-8 transition duration-300 text-white hover:bg-[#ffffff] hover:text-[#134874]">
-                        {t('letsBegin')}
+                        onMouseEnter={() => setIsHovered(true)}
+                        onMouseLeave={() => setIsHovered(false)}
+                        style={{
+                            backgroundColor: isHovered ? "#ffffff" : (beginBtnBg || "#134874"),
+                            color: isHovered ? "#134874" : "#ffffff",
+                        }}
+                        className="border border-[#134874] max-lg:w-fit font-semibold py-3 px-8 transition duration-300 4xl:text-[20px] xl:text-[18px] text-[16px]">
+                        Let's Begin
                     </button>
 
                 </div>
-                <div className="4xl:text-[20px] 2xl:text-[18px] md:text-[18px] text-[16px]">{t('captchaMsg')} (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</div>
+                <div className="md:block hidden 4xl:text-[20px] md:text-[18px] text-[16px]">Enter the result of the equation shown above (e.g., 2 + 3 = 5, 6 ÷ 2 = 3, 4 × 2 = 8, 4 - 2= 2)</div>
+
+
                 <div>
                     <AnimatePresence>
                         {error && (

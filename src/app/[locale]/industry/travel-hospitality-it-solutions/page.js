@@ -36,6 +36,10 @@ export default function Page() {
                     strategy="afterInteractive"
                     dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
                 />
+                 {/* breadcrumb schema */}
+      <BreadcrumbSchema
+        currPage="Travel & Hospitality"
+      />
                 {/* herosection */}
                 <section className="relative group overflow-hidden h-[350px] md:h-[500px] 4xl:h-[650px]">
                     <div className="hidden md:block">
@@ -73,6 +77,10 @@ export default function Page() {
                         </div>
                     </div>
                 </section>
+                {/* breadcrumb */}
+                <div className="custom-container">
+                    <BreadCrumbs currPage="Travel & Hospitality" />
+                </div>
                 {/* page description section */}
                 <section className="custom-container xl:mt-[135px] mt-[42px]">
                     <div className="grid grid-cols-1 xl:grid-cols-12 w-full 4xl:gap-[47px] gap-y-[32px] md:w-[80%] xl:w-full">
@@ -108,8 +116,8 @@ export default function Page() {
                                         src="/images/industry/travel-transporation/end-to-end-desktop-img.webp"
                                         alt={t('endtoendAlt')}
                                         className="h-full w-full"
-                                        width={0}
-                                        height={0}
+                                        width={1200}
+                                        height={630}
                                         style={{ objectFit: "cover", objectPosition: "75% 20%" }}
                                         priority
                                     />
@@ -128,7 +136,8 @@ export default function Page() {
                             </div>
                         </div>
                         <div className="xl:mt-[49px] mt-[42px] md:pl-[60px]">
-                            <LearnMore btnName={t('learnMoreBtn')}   locale={locale} />
+                            <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                         </div>
                     </div>
                 </section>
@@ -142,8 +151,8 @@ export default function Page() {
                                 alt={t('industryFocusAlt')}
                                 className="w-full h-auto"
                                 priority
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                             />
                             <div className="border-none px-[35px] pt-[42px] z-10  xl:pb-[144px] pb-[77px]" style={{
                                 background: "#073259",
@@ -156,7 +165,8 @@ export default function Page() {
                                 </p>
                                 <UnorderedList arrName={industryData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[48px] mt-[38px] pl-[20px]" liClassName="text-[16px] md:text-[18px] xl:text-[20px] leading-tight font-light" />
                                 <div className="absolute bottom-[-20px] xl:pl-[61px] lg:pl-[26px]">
-                                    <LearnMore btnName={t('learnMoreBtn')}  locale={locale}  bgcolor="#006FBE" />
+                                    <LearnMore bgcolor="#006FBE" onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                                 </div>
                             </div>
                         </div>
@@ -167,8 +177,8 @@ export default function Page() {
                                 src="/images/industry/travel-transporation/industry-focused-desk-img.webp"
                                 alt={t('industryFocusAlt')}
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 style={{ objectPosition: "35% 20%" }}
                                 priority
                             />
@@ -193,7 +203,8 @@ export default function Page() {
                                             <UnorderedList arrName={industryData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[48px] mt-[38px] pl-[20px]" liClassName="xl:text-[16px] 4xl:text-[20px] text-[16px] leading-tight font-light" />
                                         </div>
                                         <div className="absolute bottom-[-20px] xl:pl-[61px] lg:pl-[26px]">
-                                            <LearnMore btnName={t('learnMoreBtn')}  locale={locale}  bgcolor="#006FBE" />
+                                            <LearnMore bgcolor="#006FBE" onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                                         </div>
                                     </div>
                                 </div>
@@ -225,8 +236,8 @@ export default function Page() {
                                     src="/images/industry/travel-transporation/elavate-travel-desk-img.webp"
                                     alt={t('elevateTravelAlt')}
                                     className="w-full h-full"
-                                    width={0}
-                                    height={0}
+                                    width={1200}
+                                    height={630}
                                     style={{ objectFit: "cover", objectPosition: "45% 20%" }}
                                     priority
                                 />
@@ -235,9 +246,9 @@ export default function Page() {
                             <div className="block lg:hidden w-full h-[500px] sm:h-[700px] md:h-[750px] relative">
                                 <Image
                                     src="/images/industry/travel-transporation/Mobile/elavate-travel-mob-img.webp"
-                                    alt={t('elevateTravelAlt')}
-                                    width={0}
-                                    height={0}
+                                    alt="elavate-travel mobile image"
+                                    width={375}
+                                    height={250}
                                     style={{ objectFit: "cover", objectPosition: "20% 20%" }}
                                     priority
                                     className="h-full w-full absolute top-[110px] z-20"
@@ -252,9 +263,9 @@ export default function Page() {
                     <div className="hidden md:block h-full">
                         <Image
                             src="/images/industry/travel-transporation/personalized-img-desk1.webp"
-                            alt={t('personalizedAlt')}
-                            width={0}
-                            height={0}
+                            alt="personalized desktop background"
+                            width={1200}
+                            height={630}
                             className="h-full w-full"
                             priority
                             style={{ objectFit: "cover" }}
@@ -267,8 +278,8 @@ export default function Page() {
                             alt={t('personalizedAlt')}
                             className="h-full w-full"
                             priority
-                            width={0}
-                            height={0}
+                            width={375}
+                            height={250}
                             style={{ objectFit: "cover" }}
                         />
                     </div>
@@ -288,7 +299,8 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="absolute md:left-1/2 bottom-[-26px] max-md:ml-[36px] md:ml-[40px] lg:ml-[36px]">
-                        <LearnMore btnName={t('learnMoreBtn')}  locale={locale}  />
+                        <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                     </div>
                 </section>
                 {/* optimize section */}
@@ -300,8 +312,8 @@ export default function Page() {
                                 src="/images/industry/travel-transporation/Mobile/optimize-asset-mob-img.webp"
                                 alt={t('optimizeAlt')}
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={375}
+                                height={250}
                                 priority
                             />
                         </div>
@@ -311,8 +323,8 @@ export default function Page() {
                                 src="/images/industry/travel-transporation/optimize-asset-desk-img.webp"
                                 alt={t('optimizeAlt')}
                                 className="w-full h-full object-cover"
-                                width={0}
-                                height={0}
+                                width={1200}
+                                height={630}
                                 style={{ objectPosition: '25% 20%' }}
                                 priority
                             />
@@ -338,7 +350,8 @@ export default function Page() {
                         </div>
                     </div>
                     <div className="absolute md:left-1/2 md:bottom-[-26px] bottom-[60px]  max-md:ml-[36px]">
-                        <LearnMore btnName={t('learnMoreBtn')}  locale={locale}  />
+                        <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                     </div>
                 </section>
                 {/* driving repeat section */}
@@ -357,7 +370,8 @@ export default function Page() {
                                 </p>
                                 <UnorderedList arrName={futureReadyData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[37px] mt-[38px] pl-[20px] lg:w-[90%]" liClassName="xl:text-[16px] 4xl:text-[20px] text-[16px] md:text-[18px] leading-tight font-normal" />
                                 <div className="mt-[44px]">
-                                    <LearnMore btnName={t('learnMoreBtn')}  locale={locale}  />
+                                    <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                                 </div>
                             </div>
                         </div>
@@ -369,8 +383,8 @@ export default function Page() {
                                     src="/images/industry/travel-transporation/Mobile/driving-repeat-mob-img.webp"
                                     alt={t('drivingReapeatAlt')}
                                     className="w-full h-full object-cover"
-                                    width={0}
-                                    height={0}
+                                    width={375}
+                                    height={250}
                                     priority
                                 />
                             </div>
@@ -381,8 +395,8 @@ export default function Page() {
                                     src="/images/industry/travel-transporation/driving-repeat-desk-img.webp"
                                     alt={t('drivingReapeatAlt')}
                                     className="w-full h-[80%] py-auto object-cover"
-                                    width={0}
-                                    height={0}
+                                    width={1200}
+                                    height={630}
                                     style={{ objectPosition: '85% 20%' }}
                                     priority
                                 />
@@ -401,8 +415,8 @@ export default function Page() {
                                         src="/images/industry/travel-transporation/Mobile/flawless-backend-mob-img.webp"
                                         alt={t('flawlessAlt')}
                                         className="w-full h-full object-cover"
-                                        width={0}
-                                        height={0}
+                                        width={375}
+                                        height={250}
                                         priority
 
                                     />
@@ -413,8 +427,8 @@ export default function Page() {
                                         src="/images/industry/travel-transporation/flawless-backend-desk-img.webp"
                                         alt={t('flawlessAlt')}
                                         className="w-full h-full object-cover"
-                                        width={0}
-                                        height={0}
+                                        width={1200}
+                                        height={630}
                                         style={{ objectPosition: '25% 20%' }}
                                         priority
                                     />
@@ -436,9 +450,35 @@ export default function Page() {
                     </div>
                 </section>
                 {/* turn data section */}
-                <section className="relative bg-[url('/images/industry/travel-transporation/Mobile/turn-data-mob-bg.webp')] 
-                               md:bg-[url('/images/industry/travel-transporation/turn-data-desk-bg.webp')] bg-cover bg-center bg-no-repeat lg:mt-[76px] mt-[68px]">
-                    <div className="custom-container h-full flex items-center max-md:px-0">
+                <section className="relative
+                               lg:mt-[76px] mt-[68px]">
+                   
+                     <div className="absolute inset-0 z-0">
+    
+    {/* Mobile Background */}
+    <div className="block md:hidden relative w-full h-full">
+      <Image
+        src="/images/industry/travel-transporation/Mobile/turn-data-mob-bg.webp"
+        alt="Turn Data Background"
+        fill
+        className="object-cover object-center"
+        priority
+      />
+    </div>
+
+    {/* Desktop Background */}
+    <div className="hidden md:block relative w-full h-full">
+      <Image
+        src="/images/industry/travel-transporation/turn-data-desk-bg.webp"
+        alt="Turn Data Background"
+        fill
+        className="object-cover object-center"
+        priority
+      />
+    </div>
+
+  </div>
+                    <div className="relative z-10 custom-container h-full flex items-center max-md:px-0">
                         <div className="relative w-full max-md:mt-[162px]  max-md:mx-auto md:w-1/2 xl:w-1/2">
                             <div className="absolute inset-0 bg-[#363636] mix-blend-multiply z-0"></div>
                             <div className="relative z-10 text-white xl:pt-[49px] xl:pb-[77px] xl:px-[77px] pt-[55px] pb-[51px] px-[36px]">
@@ -467,8 +507,8 @@ export default function Page() {
                             src="/images/industry/travel-transporation/Mobile/right-technology-mob-img.webp"
                             alt={t('rightTechPartAlt')}
                             className="w-full h-full object-cover"
-                            width={0}
-                            height={0}
+                            width={375}
+                            height={250}
                             priority
                         />
                     </div>
@@ -478,8 +518,8 @@ export default function Page() {
                             src="/images/industry/travel-transporation/right-technology-desk-img.webp"
                             alt={t('rightTechPartAlt')}
                             className="w-full h-full object-cover"
-                            width={0}
-                            height={0}
+                            width={1200}
+                            height={630}
                             style={{ objectPosition: '25% 20%' }}
                             priority
                         />
@@ -525,8 +565,8 @@ export default function Page() {
                                     src="/images/industry/travel-transporation/Mobile/ai-powered-mob-img.webp"
                                     alt={t('aiPoweredAlt')}
                                     className="w-full h-full object-cover"
-                                    width={0}
-                                    height={0}
+                                    width={375}
+                                    height={250}
                                     priority
                                 />
                             </div>
@@ -536,15 +576,16 @@ export default function Page() {
                                     src="/images/industry/travel-transporation/ai-powered-desk-img.webp"
                                     alt={t('aiPoweredAlt')}
                                     className="w-full h-full object-cover"
-                                    width={0}
-                                    height={0}
+                                    width={1200}
+                                    height={630}
                                     priority
                                 />
                             </div>
                         </div>
                     </div>
-                    <div className="xl:mt-[20px] mt-[36px] max-md:ml-[36px]">
-                        <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+                    <div className="xl:mt-[-20px] mt-[36px] max-md:ml-[36px]">
+                        <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                     </div>
                 </section>
                 {/* quick commerce section */}
@@ -562,7 +603,8 @@ export default function Page() {
                             </p>
                             <UnorderedList arrName={quickCommereceData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[26px] pl-[20px]" liClassName="xl:text-[16px] 4xl:text-[20px] text-[16px] md:text-[18px] leading-tight font-normal" />
                             <div className="xl:mt-[120px] mt-[36px]">
-                                <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+                                <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                             </div>
                         </div>
                         <div className="order-1 lg:col-span-7 col-span-12">
@@ -572,8 +614,8 @@ export default function Page() {
                                     src="/images/industry/travel-transporation/Mobile/quick-commerce-mob-img.webp"
                                     alt={t('quikCommerceAlt')}
                                     className="w-full h-full object-cover"
-                                    width={0}
-                                    height={0}
+                                    width={375}
+                                    height={250}
                                     priority
                                 />
                             </div>
@@ -583,8 +625,8 @@ export default function Page() {
                                     src="/images/industry/travel-transporation/quick-commerce-desk-img.webp"
                                     alt={t('quikCommerceAlt')}
                                     className="w-full h-full object-cover"
-                                    width={0}
-                                    height={0}
+                                    width={1200}
+                                    height={630}
                                     priority
                                 />
                             </div>
@@ -607,9 +649,10 @@ export default function Page() {
                             <p className="4xl:text-[22px] xl:text-[18px] text-[16px] md:text-[18px] leading-tight font-normal xl:mt-[34px] mt-[23px]">
                                 {t('smarterDesc')}
                             </p>
-                            <UnorderedList arrName={smarterServiceData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[22px] pl-[20px] xl:w-[80%] 4xl:w-full" liClassName="xl:text-[16px] 4xl:text-[20px] md:text-[18px] text-[16px] leading-tight font-normal" />
-                            <div className="lg:mt-auto lg:pt-[26px] mt-[26px]">
-                                <LearnMore btnName={t('learnMoreBtn')}  locale={locale}  />
+                            <UnorderedList arrName={smarterServiceData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[22px] pl-[20px]" liClassName="text-[16px] xl:text-[20px] leading-tight font-normal" />
+                            <div className="xl:mt-[252px] mt-[36px]">
+                                <LearnMore onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                             </div>
                         </div>
                         <div className="md:order-2 order-1 2xl:col-span-5 lg:col-span-5 md:col-span-6 col-span-12">
@@ -620,8 +663,8 @@ export default function Page() {
                                     src="/images/industry/travel-transporation/Mobile/smarter-service-mob-img.webp"
                                     alt={t('smaterServiceAlt')}
                                     className="w-full h-full object-cover"
-                                    width={0}
-                                    height={0}
+                                    width={375}
+                                    height={250}
                                     priority
                                 />
                             </div>
@@ -631,8 +674,8 @@ export default function Page() {
                                     src="/images/industry/travel-transporation/smarter-service-desk-img.webp"
                                     alt={t('smaterServiceAlt')}
                                     className="w-full h-full object-cover"
-                                    width={0}
-                                    height={0}
+                                    width={1200}
+                                    height={630}
                                     priority
                                 />
                             </div>
@@ -640,8 +683,8 @@ export default function Page() {
                     </div>
                 </section>
                 {/* Contact Form */}
-                <section className="custom-container xl:mt-[104px] xl:mb-[166px] mt-[45px] mb-[45px]">
-                    <ContactForm title={t('contactTitle')} subtitle={t('contactSubTitle')} subtitle1={t('contactSubTitle2')} className={"xl:w-[80%] 4xl:text-[60px] xl:text-[40px] md:text-[30px] text-[26px]"} />
+                <section className="custom-container xl:mt-[104px] xl:mb-[166px] mt-[45px] mb-[45px] scroll-mt-28" ref={contactRef}>
+                    <ContactForm title={'Ready to Redefine the Future of Travel, Transportation & Hospitality?'} subtitle="Whether you’re an airline, hotel chain, cruise line, rideshare, or logistics provider, Rialtes can help you lead in a competitive world with technology, strategy, and execution that deliver results." subtitle1=" Contact Rialtes today to start your transformation journey — because great experiences start with great partners." className={"xl:w-[80%]"} />
                 </section>
             </div>
         </section>

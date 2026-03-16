@@ -5,20 +5,164 @@ import Link from "next/link";
 import LearnMore from "@/app/[locale]/components/learnMore";
 import ContactForm from "../../../components/contactform";
 import Script from "next/script";
-import UnorderedList from "@/app/[locale]/components/unorderedList";
-import { useLocale, useTranslations } from "next-intl";
-import enContent from '../../../../../../messages/en/solutions.json';
-import esContent from '../../../../../../messages/es/solutions.json';
-import frContent from '../../../../../../messages/fr/solutions.json';
-import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
-import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
-
-
+import BreadCrumbs from "../../../components/BreadCrumbs";
+import UnorderedList from "@/app/components/unorderedList";
+import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
+ import { useRef } from "react";
+const schemaData = {
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  name: "SAP Business Data Cloud: End Data Chaos Today",
+  url: "https://www.rialtes.com/solutions/data-ai/sap-business-data-cloud-bdc-consulting",
+  headline: "SAP Business Data Cloud: End Data Chaos Today",
+  description:
+    "SAP Business Data Cloud turns chaos into clarity with a single source of truth. Make smarter decisions with Rialtes. Start your data journey today.",
+  publisher: {
+    "@type": "Organization",
+    name: "Rialtes",
+    url: "https://www.rialtes.com",
+    logo: {
+      "@type": "ImageObject",
+      url: "https://www.rialtes.com/images/homepage/logo.svg",
+    },
+  },
+  mainEntity: {
+    "@type": "Product",
+    name: "SAP Business Data Cloud Services",
+    brand: {
+      "@type": "Brand",
+      name: "SAP",
+    },
+    description:
+      "Rialtes helps you implement SAP Business Data Cloud for unified data management, migration from BW/Datasphere, Databricks integration, and intelligent data fabric design.",
+    offers: {
+      "@type": "Offer",
+      price: "Contact for pricing",
+      priceCurrency: "USD",
+      url: "https://www.rialtes.com/contact-us",
+    },
+  },
+  about: [
+    {
+      "@type": "Thing",
+      name: "Data Fabric",
+    },
+    {
+      "@type": "Thing",
+      name: "SAP Integration",
+    },
+    {
+      "@type": "Thing",
+      name: "Enterprise Data Management",
+    },
+    {
+      "@type": "Thing",
+      name: "Cloud Data Strategy",
+    },
+  ],
+};
+const Data = [
+  {
+    title: "Business-Ready Data",
+    desc: "Access and connect data from SAP and non-SAP systems while retaining rich business semantics and context.",
+  },
+  {
+    title: "Open Ecosystem Integration",
+    desc: "Integrate with industry leaders like Databricks, BigQuery, and AWS using open standards and APIs.",
+  },
+  {
+    title: "Unified Governance & Security",
+    desc: "Manage data securely across all layers with enterprise-grade governance and lineage.",
+  },
+  {
+    title: "AI & ML Enabled",
+    desc: "Power advanced analytics and AI-driven scenarios using embedded machine learning services.",
+  },
+];
+const exploreData = [
+  {
+    title: "Assessment & Roadmapping",
+    desc: " Analyze your existing SAP BW models and data flows to build a tailored migration strategy",
+  },
+  {
+    title: "Automated Data Replication",
+    desc: " Use SAP-provided migration tools and Rialtes accelerators to transition existing logic and semantics to SAP Business Data Cloud.",
+  },
+  {
+    title: "Preserve Business Logic",
+    desc: "Retain existing business metadata and KPIs for faster time-to-value.",
+  },
+  {
+    title: "Improve Performance & Agility",
+    desc: " Leverage cloud-native capabilities for real-time data consumption and visualization.",
+  },
+];
+const sapDataFabricData = [
+  "Connect live and replicated data across multi-cloud and hybrid landscapes",
+  "Unify semantic definitions across domains and systems",
+  "Ensure trusted data governance and lineage across all business functions",
+  "Accelerate AI, planning, and analytics with clean, context-rich data",
+];
+const migrateData = [
+  {
+    title: "Data Mapping & Reconciliation",
+    description:
+      "We help map your current artifacts and pipelines from SAP Datasphere to SAP Business Data Cloud",
+  },
+  {
+    title: "Business Context Retention",
+    description:
+      "Ensure all metadata, lineage, and context are preserved during the shift",
+  },
+  {
+    title: "Open Extension",
+    description:
+      "Connect to external platforms like Databricks for advanced analytics and ML integration.",
+  },
+  {
+    title: "Future-Proof Architecture",
+    description:
+      "Establish a foundation for scalable AI, reporting, and cross-system data modeling.",
+  },
+];
+const connectSapData = [
+  "Establish bi-directional data pipelines between SAP and Databricks",
+  "Use Delta Lake and MLFlow with SAP semantic models ",
+  "Enable real-time predictive insights using SAP business context ",
+  "Create industry-specific AI models using unified data across platforms",
+];
+const ourSapData = [
+  {
+    title: "Consulting & Advisory",
+    description:
+      "Align your data strategy with business objectives and cloud roadmaps.",
+  },
+  {
+    title: "Implementation & Migration",
+    description:
+      "From BW and Datasphere to Business Data Cloud with full lifecycle support.",
+  },
+  {
+    title: "Managed Services & Optimization",
+    description:
+      "24x7 support, data quality monitoring, and optimization for performance and cost.",
+  },
+];
+const whyClientsData = [
+  "SAP-Certified Implementation Experts ",
+  "Official SAP & Databricks Partner",
+  "Accelerators for BW and Datasphere Migration",
+  "Global Delivery with 24x7 Support",
+  "Industry-Specific Data Frameworks for Life Sciences,Retail, Automotive & More",
+];
 export default function Page() {
-  const t = useTranslations("sapBdc");
-  const locale = useLocale();
-  const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { listItems, fabricList, dataItems, schemaData, partnerList, exploreData, migrateData, connectSapData, ourSapData, whyClientsData } = homepageContent.sapBdc;
+   const contactRef = useRef(null);
+ const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
 
   return (
     <div className="min-h-screen bg-white">
@@ -26,13 +170,18 @@ export default function Page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/solutions/data-ai/sap-business-data-cloud-bdc-consulting/`}
+        canonical="https://www.rialtes.com/solutions/data-ai/sap-business-data-cloud-bdc-consulting"
       />
       <Script
         id="schema-sap-bdc"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+      />
+      {/*breadcrumb schema */}
+      <BreadcrumbSchema
+        currPage="SAP Business Data Cloud"
+        subPath="Data & AI"
       />
       {/* hero section */}
       <section className="relative h-[350px] md:h-[500px] 4xl:h-[650px]">
@@ -73,7 +222,7 @@ export default function Page() {
         <BreadCrumbs />
       </section>
       {/* page description */}
-      <section className="mt-16">
+      <>
         <section className="custom-container">
           <h2 className="4xl:w-[69%] 2xl:w-[46%] xl:w-[55%] leading-tight pb-6 4xl:text-[60px] xl:text-[40px] md:text-[26px]">
             {t('unifyTitle')}
@@ -85,8 +234,12 @@ export default function Page() {
           <div className="flex xl:gap-32 gap-10 flex-col lg:flex-row lg:mt-10 mt-5 xl:w-[85%]">
             <div className="lg:w-1/2">
               <UnorderedList
-                arrName={listItems}
-                ulClassName="list-disc text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight font-medium space-y-4"
+                arrName={[
+                  "Finance, Procurement, and Supply Chain Data from SAP S/4HANA",
+                  "Workforce and Payroll Intelligence from SAP SuccessFactors",
+                  "Sales, Service, and Marketing Insights from Salesforce or SAP CX",
+                ]}
+                ulClassName="list-disc text-black pl-4 text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight font-medium space-y-4"
                 liClassName=""
               />
             </div>
@@ -107,8 +260,8 @@ export default function Page() {
                 src="/images/sap-bdc-services/business-team-strategy-meeting.webp"
                 alt={t('unifiedAlt')}
                 className="w-full h-full object-cover hidden lg:block "
-                width={0}
-                height={0}
+                width={1200}
+                height={630}
                 style={{ objectPosition: "75% 20%" }}
               />
               <Image
@@ -141,20 +294,20 @@ export default function Page() {
             <div className="hidden lg:block h-full xl:py-20">
               <Image
                 className="w-full h-full object-cover"
-                src="/images/sap-bdc-services/warehouse-manager-inventory.webp"
-                alt={t('sapDataAlt')}
-                width={0}
-                height={0}
+                src="/images/sap-bdc-services/SAP-data-web.webp"
+                alt="Sap data fabric image"
+                width={1200}
+                height={630}
                 priority
               />
             </div>
             {/* Mobile image */}
             <div className="block lg:hidden h-100%">
               <Image
-                src="/images/sap-bdc-services/warehouse-manager-inventory-mobile.webp"
-                alt={t('sapDataAlt')}
-                width={0}
-                height={0}
+                src="/images/sap-bdc-services/SAP-data-mobile.webp"
+                alt="sap data fabric image"
+                width={375}
+                height={250}
                 className="w-full h-full object-cover"
               />
             </div>
@@ -227,7 +380,7 @@ export default function Page() {
                     <p className="text-[#0A6BB8] 2xl:text-[30px] xl:text-[22px] text-[20px] font-bold leading-tight">
                       {item.title}
                     </p>
-                    <p className="mt-4 text-[16px] xl:text-[18px] md:text-[18px] 4xl:text-[20px] leading-tight">
+                    <p className="mt-4 text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight">
                       {item.desc}
                     </p>
                   </div>
@@ -241,36 +394,45 @@ export default function Page() {
         <section className="custom-container grid grid-cols-1 lg:grid-cols-12 gap-8 items-center md:mt-[52px] lg:mt-6">
           <div className="order-1 lg:order-2 2xl:h-[579px] h-full lg:col-span-5">
             <Image
-              src="/images/sap-bdc-services/businesswoman-writing-whiteboard.webp"
-              alt={t('trustedAlt')}
-              width={0}
-              height={0}
-              className="w-full hidden md:block h-full object-cover"
+              src="/images/sap-bdc-services/Your-Trusted-SAP-web.webp"
+              alt="Your Trusted SAP image"
+              width={1200}
+              height={630}
+              className="w-full hidden md:block h-full"
               style={{ objectPosition: "75% 20%" }}
             />
             <Image
-              src="/images/sap-bdc-services/businesswoman-writing-whiteboard-mobile.webp"
-              alt={t('trustedAlt')}
-              width={0}
-              height={0}
-              className="w-full block md:hidden h-auto object-cover"
+              src="/images/sap-bdc-services/your-trusted-sap-mobile.webp"
+              alt="Your Trusted SAP image"
+              width={375}
+              height={250}
+              className="w-full block md:hidden h-auto"
             />
           </div>
           <div className="order-2 lg:order-1 lg:col-span-7">
-            <h2 className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] lg:w-[75%] 2xl:w-[59%] 4xl:w-[87%] ">
-              {t('partnerTitle')}</h2>
-            <p className="leading-tight mt-[23px] font-normal text-[16px] xl:text-[18px] md:text-[18px] 4xl:text-[20px] lg:mt-[33px] lg:pr-20">
-              {t('partnerDesc')}
+            <h2 className="leading-tight xl:text-[40px] 2xl:text-[48px] 4xl:text-[60px] md:text-[32px] text-[26px] lg:w-[75%] 2xl:w-[59%] 4xl:w-[87%] ">
+              Rialtes: Your Trusted SAP & Databricks Partner
+            </h2>
+            <p className="leading-tight mt-[23px] font-normal text-[16px] md:text-[18px] 4xl:text-[20px] xl:text-[18px] lg:mt-[33px] lg:pr-20">
+              Rialtes specializes in data cloud architecture, implementation,
+              and governance with a team of SAP-certified engineers. We
+              integrate process intelligence, data engineering, and cloud
+              development to deliver measurable value from your enterprise data.
+              Our certified teams assist you in:
             </p>
             <div>
               <UnorderedList
-                arrName={partnerList}
-                ulClassName="list-disc pt-4 text-black pl-4 text-[16px] xl:text-[18px] 4xl:text-[20px] xl:pr-20 leading-tight space-y-3"
+                arrName={[
+                  "Finance, Procurement, and Supply Chain Data from SAP S/4HANA",
+                  " Workforce and Payroll Intelligence from SAP SuccessFactors",
+                  "Sales, Service, and Marketing Insights from Salesforce or SAP CX",
+                ]}
+                ulClassName="list-disc pt-4 text-black pl-4 text-[16px] md:text-[18px] 4xl:text-[20px] xl:pr-20 leading-tight space-y-3"
                 liClassName=""
               />
             </div>
             <div className="lg:mt-[30px]">
-              <LearnMore btnName={t('learnMore')} />
+              <LearnMore btnName="Talk to Us" onClick={handleScrollToContact}/>
             </div>
           </div>
         </section>
@@ -320,7 +482,7 @@ export default function Page() {
                     <p className="mt-5  text-[#FFFFFF] font-light leading-tight text-[16px] xl:text-[18px] 4xl:text-[20px] md:text-[18px]">
                       {t('migrateDesc')}
                     </p>
-                    <ul className="list-disc p-4 text-white font-light pt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] space-y-4 leading-tight">
+                    <ul className="list-disc p-4 text-white font-light pt-4 text-[16px] md:text-[18px] 4xl:text-[20px] space-y-4 leading-tight">
                       {migrateData.map((step, index) => (
                         <li
                           key={index}
@@ -333,7 +495,7 @@ export default function Page() {
                       ))}
                     </ul>
                     <div className="absolute mt-0 xl:mt-[3px] max-lg:mt-[-10px]">
-                      <LearnMore bgcolor={"#006FBE"} btnName={t('learnMore')} />
+                      <LearnMore bgcolor={"#006FBE"} btnName="Talk to Us" onClick={handleScrollToContact}/>
                     </div>
                   </div>
                 </div>
@@ -346,8 +508,8 @@ export default function Page() {
                   src="/images/sap-bdc-services/developers-analyzing-code.webp"
                   alt={t('migrateAlt')}
                   className="w-full h-full"
-                  width={0}
-                  height={0}
+                  width={1200}
+                  height={630}
                   style={{ objectFit: "cover", objectPosition: "25% 20%" }}
                   priority
                 />
@@ -355,10 +517,10 @@ export default function Page() {
               {/* Mobile Image */}
               <div className="block lg:hidden w-full h-[340px] sm:h-[700px] md:h-[750px] relative">
                 <Image
-                  src="/images/sap-bdc-services/developers-analyzing-code.webp"
-                  alt={t('migrateAlt')}
-                  width={0}
-                  height={0}
+                  src="/images/sap-bdc-services/web.webp"
+                  alt="Migrate from SAP image"
+                  width={375}
+                  height={250}
                   style={{ objectFit: "cover", objectPosition: "70% 20%" }}
                   priority
                   className="h-full w-full z-20"
@@ -449,7 +611,7 @@ export default function Page() {
                       <h2 className="mb-4 leading-tight  4xl:text-[56px] xl:text-[40px] md:text-[26px]">
                         {t("dataCloud")}
                       </h2>
-                      <ul className="list-disc leading-tight p-4 text-white font-light pt-4 text-[16px] xl:text-[18px] 4xl:text-[20px] space-y-4">
+                      <ul className="list-disc leading-tight p-4 text-white font-light pt-4 text-[16px] md:text-[18px] 4xl:text-[20px] space-y-4">
                         {ourSapData.map((item, index) => (
                           <li key={index} className="pb-1">
                             <div className="font-semibold">{item.title}</div>
@@ -470,10 +632,10 @@ export default function Page() {
             <div className="lg:col-span-6 col-span-12 lg:order-1 order-2 xl:mr-[40px] relative">
               <div className="block lg:hidden relative z-10 px-6 ">
                 <Image
-                  src="/images/sap-bdc-services/software-developer-workspace.webp"
-                  alt={t('clientsAlt')}
-                  width={0}
-                  height={0}
+                  src="/images/sap-bdc-services/clients-choose-rialtes-web.webp"
+                  alt="Why Clients Choose Rialtes image"
+                  width={1200}
+                  height={630}
                   className="w-full h-[400px] 2xl:h-[90%] md:w-[60%]"
                   style={{ objectFit: "cover", objectPosition: "70% 20%" }}
                   priority
@@ -501,8 +663,8 @@ export default function Page() {
                   src="/images/sap-bdc-services/software-developer-workspace.webp"
                   alt={t('clientsAlt')}
                   className="w-full h-full "
-                  width={0}
-                  height={0}
+                  width={1200}
+                  height={630}
                   style={{ objectFit: "cover", objectPosition: "25% 20%" }}
                   priority
                 />
@@ -510,12 +672,13 @@ export default function Page() {
             </div>
           </div>
         </section>
-      </section>
-      <div className="mx-[35px] custom-container text-black py-16">
+      </>
+      <div className="mx-[35px] custom-container text-black py-16 scroll-mt-28" ref={contactRef}>
         <ContactForm
-          className="leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px] xl:w-[60%] 4xl:w-[80%]"
-          title={t('contactTitle')}
-          subtitle={t('SubTitle')}
+          className="leading-tight xl:text-[40px] 4xl:text-[60px] md:text-[32px] text-[26px] xl:w-[60%] 4xl:w-[80%]"
+          title="Let’s Build Your Enterprise Data Cloud Together"
+          subtitle="
+            Talk to our SAP Data Cloud experts today and begin your journey with Rialtes."
         />
       </div>
     </div>

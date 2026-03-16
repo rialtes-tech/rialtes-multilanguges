@@ -30,7 +30,7 @@ export default function Page() {
                 title="Grow with SAP: Modern ERP for an AI-First Tomorrow | Rialtes"
                 description="Grow with SAP gives you a clean, cloud-native ERP foundation so you can automate operations, connect data, and become truly AI-ready without legacy complexity."
                 keywords="Partners, website, welcome"
-                canonical={`https://www.rialtes.com/insights/blogs/grow-with-sap-ai-ready-cloud-erp/`}
+                canonical={`https://www.rialtes.com/insights/blogs/grow-with-sap-ai-ready-cloud-erp`}
             />
 
             <Script
@@ -54,8 +54,8 @@ export default function Page() {
                         src="/images/blog/voygernext/voyager-mobile.webp"
                         alt="Two people shaking hands with glowing digital lines symbolizing partnership and collaboration."
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>
@@ -116,18 +116,22 @@ export default function Page() {
                                 }
                                 <div className="bg-[#006FBE] text-white 2xl:w-[90%] 4xl:w-full font-semibold p-5 mt-16 4xl:text-[26px] 2xl:text-[22px] xl:text-[22px] md:text-[20px] text-[20px]">GROW with SAP = Modern ERP + Standardization + Future AI Enablement</div>
                                 <div className="xl:block hidden md:block">
-                                    <img
+                                    <Image
                                         src="/images/blog/voygernext/infographic11.png"
                                         alt="Two people shaking hands with glowing digital lines symbolizing partnership and collaboration."
                                         className="w-full mt-16"
+                                        width={1200}
+                                        height={600}
                                     />
                                 </div>
                                 <div className="xl:hidden block md:hidden">
 
-                                    <img
+                                    <Image
                                         src="/images/blog/voygernext/mobile-info.webp"
                                         alt="Two people shaking hands with glowing digital lines symbolizing partnership and collaboration."
                                         className="mt-16 m-auto"
+                                        width={375}
+                                        height={250}
                                     />
                                 </div>
                                 <p className="xl:mt-10 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">This alone shifts companies from reactive problem-solving to proactive decision-making.</p>
@@ -151,8 +155,10 @@ export default function Page() {
                                     ))
                                 }
                                 <div className="bg-[#EDEDED] p-6 mt-5 ml-8 4xl:w-[90%] 2xl:w-[80%] xl:w-[80%]">
-                                    <img
+                                    <Image
                                         src="/images/blog/voygernext/infographic.png"
+                                        width={1200}
+                                        height={600}
                                         alt="Two people shaking hands with glowing digital lines symbolizing partnership and collaboration."
 
                                     />

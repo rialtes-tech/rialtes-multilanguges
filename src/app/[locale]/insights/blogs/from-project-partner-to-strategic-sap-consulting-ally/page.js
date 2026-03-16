@@ -27,7 +27,7 @@ export default function Page() {
                 title="How Enterprises Scale SAP Consulting Partnerships | Rialtes"
                 description="Enterprises scale SAP relationships with partners who show ownership, governance discipline, and the ability to think beyond the current scope."
                 keywords="Partners, website, welcome"
-                canonical={`https://www.rialtes.com/insights/blogs/from-project-partner-to-strategic-sap-consulting-ally/`}
+                canonical={`https://www.rialtes.com/insights/blogs/from-project-partner-to-strategic-sap-consulting-ally`}
             />
 
             <Script
@@ -51,8 +51,8 @@ export default function Page() {
                         src="/images/blog/from-project-partner/mobile.webp"
                         alt="Two people shaking hands with glowing digital lines symbolizing partnership and collaboration."
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>
@@ -122,7 +122,7 @@ export default function Page() {
                                         </div>
                                     ))
                                 }
-                                <div className="hidden md:block mt-5">
+                                <div className="hidden md:block mt-5 ">
                                     <table className="w-full border-separate border-spacing-y-3">
                                         <thead>
                                             <tr className="bg-[#DEDEDE] text-left">
@@ -167,7 +167,7 @@ export default function Page() {
 
 
                                 {/* Mobile Layout */}
-                                <div className="md:hidden space-y-4">
+                                <div className="md:hidden space-y-4 mt-5">
                                     {rows.map((row, idx) => (
                                         <div
                                             key={idx}
@@ -205,10 +205,8 @@ export default function Page() {
 
                                             <h3 className=" 4xl:text-[22px] 2xl:text-[19px] xl:text-[20px] md:text-[20px] text-[20px] font-bold pb-4 leading-tight mt-5">{data.boldTitle}</h3>
 
-                                            <h4>
-                                                <UnorderedList arrName={data.list} ulClassName="space-y-2 pl-[26px] lg:pl-[46px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium list-disc" />
+                                            <UnorderedList arrName={data.list} ulClassName="space-y-2 pl-[26px] lg:pl-[46px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium list-disc" />
 
-                                            </h4>
                                             <p className="mt-5 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] leading-tight" dangerouslySetInnerHTML={{ __html: data.desc2 }} />
                                         </div>
                                     ))
@@ -250,7 +248,7 @@ export default function Page() {
                                             />
                                             {
                                                 data.list.map((elem, index) => (
-                                                    <div key={`${elem.title}-${index}`} className="mt-8 pl-6 p-8 border border-[#707070]">
+                                                    <div key={`${elem.title}-${index}`} className="mt-8 pl-6 p-8 border border-[#707070] 4xl:w-[80%] 2xl:w-[90%] xl:w-[90%] md:w-full">
                                                         <h3 className="4xl:text-[20px] 2xl:text-[17px] text-[20px] font-bold">{elem.title}</h3>
                                                         <UnorderedList arrName={elem.desc} ulClassName={`4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium mt-4`} />
                                                     </div>

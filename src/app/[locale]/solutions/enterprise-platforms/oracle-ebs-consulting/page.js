@@ -21,9 +21,9 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title={t('seoTitle')}
-        description={t('seoDescription')}
-        canonical={`https://www.rialtes.com/${locale}/solutions/enterprise-platforms/oracle-ebs-consulting/`}
+        title="Oracle EBS Consulting Services and Solutions | Rialtes"
+        description="Oracle EBS Consulting Services and Solutions by Rialtes' OracleEBS+ deliver smarter ERP performance, increased agility, and innovation-driven business growth."
+        canonical="https://www.rialtes.com/solutions/enterprise-platforms/oracle-ebs-consulting"
       />
       <Script
         id="schema-oracle"
@@ -31,8 +31,10 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/* breadcrumb */}
+      <BreadcrumbSchema currPage="Oracle EBS" />
       {/* Header Section */}
-      <section className="relative h-[350px] md:h-[500px]  4xl:h-[650px] ">
+      <section className="relative h-[350px] sm:h-[500px] md:h-[680px] lg:h-[700px] xl:h-[500px] 4xl:h-[650px] ">
         {/* Desktop Image */}
         <div className="xl:block hidden">
           <Image
@@ -52,7 +54,7 @@ export default function Page() {
             fill
             priority
             sizes="100vw"
-            className="object-cover"
+            className="object-cover object-top"
           />
         </div>
         {/* Text Content */}
@@ -72,7 +74,7 @@ export default function Page() {
         <BreadCrumbs />
       </section>
       {/* Empower your enterprise with Rialtes section */}
-      <section className="xl:py-20 pt-10 pb-5">
+      <section className="mt-5">
         <div className="custom-container">
           <div>
             <h2 className="4xl:text-[40px] xl:text-[32px] text-[26px] 4xl:w-[89%] 2xl:w-[78%] xl:w-[88%] w-full xl:pr-0 leading-tight">
@@ -91,8 +93,8 @@ export default function Page() {
                   alt={t('ebsSuitelogoAlt')}
                   priority
                   className="w-[397px] h-[233] xl:mt-[-20px]"
-                  width={0}
-                  height={0}
+                  width={397}
+                  height={233}
                 />
               </div>
               <div className="xl:col-span-1 col-span-12"></div>
@@ -152,7 +154,7 @@ export default function Page() {
               <h3 className="text-[22px] xl:text-[23px]  4xl:text-[24px] font-bold leading-tight">
                 {item.title}
               </h3>
-              <p className="text-[16px] xl:text-[18px] 4xl:text-[20px] xl:text-lg mt-4 pr-5 xl:pr-10 leading-tight">
+              <p className="text-[16px] 4xl:text-[20px] md:text-[18px] xl:text-lg mt-4 pr-5 xl:pr-10 leading-tight">
                 {item.description}
               </p>
             </div>
@@ -253,7 +255,7 @@ export default function Page() {
                   <h3 className="4xl:text-[30px] xl:text-[26px] text-[22px] font-bold mt-10 md:mt-16 xl:mt-8">
                     {t('thoughtPillarsTitle')}
                   </h3>
-                  <ul className="list-disc xl:space-y-5 text-[16px] xl:text-[18px] 4xl:text-[20px] leading-tight pl-5 marker:font-bold marker:text-2xl mt-4 4xl:w-[94%]">
+                  <ul className="list-disc xl:space-y-5 text-[16px] 4xl:text-[20px] md:text-[18px] leading-tight pl-5 marker:font-bold marker:text-2xl mt-4 4xl:w-[94%]">
                     {ebsListItems.map((item, index) => (
                       <li key={index} className={`${index === 0 ? "mt-5" : ""}`}>
                         {item.fullBold ? (
@@ -311,13 +313,13 @@ export default function Page() {
                   <h3 className="text-[20px] xl:text-[24px] 4xl:text-[28px] leading-tight text-[#006CBC] font-bold">
                     {t('keyTitle')}
                   </h3>
-                  <UnorderedList arrName={keyCapabilitiesData} ulClassName="list-disc xl:space-y-5 pl-5 xl:mt-5 mt-3 marker:font-bold marker:text-2xl leading-tight" liClassName=" text-[16px] xl:text-[18px] 4xl:text-[20px]" />
+                  <UnorderedList arrName={keyCapabilitiesData} ulClassName="list-disc xl:space-y-5 pl-5 xl:mt-5 mt-3 marker:font-bold marker:text-2xl leading-tight" liClassName=" text-[16px] 4xl:text-[20px] md:text-[18px]" />
                 </div>
                 <div>
                   <h3 className="text-[20px] xl:text-[24px] 4xl:text-[28px] leading-tight text-[#006CBC] font-bold">
                     {t('businessTitle')}
                   </h3>
-                  <UnorderedList arrName={businessBenefitsData} ulClassName="list-disc xl:space-y-5 xl:mt-5 mt-3 leading-tight pl-5 marker:font-bold marker:text-2xl" liClassName="text-[16px] xl:text-[18px] 4xl:text-[20px]" />
+                  <UnorderedList arrName={businessBenefitsData} ulClassName="list-disc xl:space-y-5 xl:mt-5 mt-3 leading-tight pl-5 marker:font-bold marker:text-2xl" liClassName="text-[16px] 4xl:text-[20px] md:text-[18px]" />
                 </div>
               </div>
             </div>
@@ -367,13 +369,13 @@ export default function Page() {
               <h3 className="4xl:text-[30px] xl:text-[28px] text-[24px] font-medium leading-tight">
                 {t('howWeTitle')}
               </h3>
-              <UnorderedList arrName={howWeTransformData} ulClassName="list-disc xl:space-y-5 xl:mt-5 mt-3 pl-5 marker:font-bold marker:text-2xl leading-tight" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+              <UnorderedList arrName={howWeTransformData} ulClassName="list-disc xl:space-y-5 xl:mt-5 mt-3 pl-5 marker:font-bold marker:text-2xl leading-tight" liClassName="text-[16px] 4xl:text-[20px] md:text-[18px]" />
             </div>
             <div className="xl:col-span-6 col-span-12 md:col-span-1 mt-10 xl:mt-0">
               <h3 className="4xl:text-[30px] xl:text-[28px] text-[24px] font-medium leading-tight">
                 {t('outcomeTitle')}
               </h3>
-              <UnorderedList arrName={outcomeData} ulClassName="list-disc xl:space-y-5 pl-5 xl:mt-5 mt-3 marker:font-bold marker:text-2xl leading-tight" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+              <UnorderedList arrName={outcomeData} ulClassName="list-disc xl:space-y-5 pl-5 xl:mt-5 mt-3 marker:font-bold marker:text-2xl leading-tight" liClassName="text-[16px] 4xl:text-[20px] md:text-[18px]" />
             </div>
           </div>
         </div>
@@ -387,8 +389,8 @@ export default function Page() {
               alt={t('inventoryAlt')}
               priority
               className="xl:w-[618px] xl:h-[640] h-[309] w-full object-cover"
-              width={0}
-              height={0}
+              width={618}
+              height={640}
               sizes="100vw"
             />
             <div className="xl:mt-[6rem] xl:pr-[25px]">
@@ -414,7 +416,7 @@ export default function Page() {
                 <h3 className="text-[#006CBC] font-bold leading-tight 4xl:text-[30px] xl:text-[23px] text-[20px]">
                   {block.title}
                 </h3>
-                <UnorderedList arrName={block?.points} ulClassName="list-disc xl:space-y-5 marker:text-[#036CBC] marker:font-bold marker:text-2xl pl-5 leading-tight" liClassName="text-[16px] xl:mt-4 mt-2 xl:text-[18px] 4xl:text-[20px]" />
+                <UnorderedList arrName={block?.points} ulClassName="list-disc xl:space-y-5 marker:text-[#036CBC] marker:font-bold marker:text-2xl pl-5 leading-tight" liClassName="xl:mt-4 mt-2 text-[16px] 4xl:text-[20px] md:text-[18px]" />
               </div>
             ))}
           </div>
@@ -458,7 +460,7 @@ export default function Page() {
               <p className="4xl:text-[22px] xl:text-[18px] text-[16px] mt-5 leading-tight ">
                 {t('endToEndDesc')}
               </p>
-              <UnorderedList arrName={endToEndData} ulClassName="mt-5 list-disc xl:space-y-5 pl-5 marker:font-bold marker:text-2xl leading-tight" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+              <UnorderedList arrName={endToEndData} ulClassName="mt-5 list-disc xl:space-y-5 pl-5 marker:font-bold marker:text-2xl leading-tight" liClassName="text-[16px] 4xl:text-[20px] md:text-[18px]" />
             </div>
           </div>
         </div>
@@ -479,9 +481,9 @@ export default function Page() {
             alt={t('aiDrivenAlt')}
             priority
             style={{ objectFit: "cover", objectPosition: "35% 0%" }}
-            width={0}
-            height={0}
-            className="w-full md:h-[1400px]  h-[1350px]"
+            width={300}
+            height={200}
+            className="w-full md:h-[1400px] h-[1350px]"
           />
         </div>
         <div className="relative custom-container">
@@ -500,13 +502,13 @@ export default function Page() {
                     <h3 className="4xl:text-[30px] xl:text-[25px] text-[20px] leading-tight xl:font-bold font-medium mt-10 xl:mt-0 xl:pr-0 2xl:pr-10">
                       {t('realWorldTitle')}
                     </h3>
-                    <UnorderedList arrName={realWorldData} ulClassName="mt-5 list-disc xl:space-y-5 xl:font-medium font-light pl-5 marker:font-bold marker:text-2xl pr-5 xl:pr-16 leading-tight" liClassName=" 4xl:text-[20px] xl:text-[18px] text-[16px]" />
+                    <UnorderedList arrName={realWorldData} ulClassName="mt-5 list-disc xl:space-y-5 xl:font-medium font-light pl-5 marker:font-bold marker:text-2xl pr-5 xl:pr-16 leading-tight" liClassName=" text-[16px] 4xl:text-[20px] md:text-[18px]" />
                   </div>
                   <div className="md:mt-10 xl:mt-0">
                     <h3 className="4xl:text-[30px] xl:text-[25px] text-[20px] xl:font-bold font-medium pr-10 xl:pr-0">
                       {t('benefitsTitle')}
                     </h3>
-                    <UnorderedList arrName={aiDrivenData} ulClassName="mt-5 list-disc xl:space-y-5 pl-5 xl:font-medium font-light marker:font-bold marker:text-2xl pr-8 xl:pr-10 leading-tight" liClassName="4xl:text-[20px] xl:text-[18px] text-[16px]" />
+                    <UnorderedList arrName={aiDrivenData} ulClassName="mt-5 list-disc xl:space-y-5 pl-5 xl:font-medium font-light marker:font-bold marker:text-2xl pr-8 xl:pr-10 leading-tight" liClassName="text-[16px] 4xl:text-[20px] md:text-[18px]" />
                   </div>
                 </div>
               </div>
@@ -553,7 +555,7 @@ export default function Page() {
         <ContactForm
           title={t('contactTitle')}
           className={
-            "xl:max-w-[60rem] font-light pr-10 xl:pr-0 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[26px]"
+            "xl:max-w-[60rem] font-light pr-10 xl:pr-0 leading-tight 4xl:text-[60px] xl:text-[40px] md:text-[32px] text-[26px]"
           }
         />
       </div>

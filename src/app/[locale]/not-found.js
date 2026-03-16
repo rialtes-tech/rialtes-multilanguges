@@ -14,8 +14,8 @@ export default function Custom404() {
             alt="404 Error"
             className="w-full h-auto object-contain"
             priority
-            width={0}
-            height={0}
+            width={1200}
+            height={630}
           />
         </div>
         <div className="xl:hidden block">
@@ -24,8 +24,8 @@ export default function Custom404() {
             alt="404 Error"
             className="w-full h-auto object-contain"
             priority
-            width={0}
-            height={0}
+            width={375}
+            height={250}
           />
         </div>
       </div>
