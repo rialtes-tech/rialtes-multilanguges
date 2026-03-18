@@ -25,7 +25,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-to-integrate-sap-successfactors-with-microsoft-office-365-for-enhanced-collaboration`}
       />
       <Script
         id="schema-integrate-sap"

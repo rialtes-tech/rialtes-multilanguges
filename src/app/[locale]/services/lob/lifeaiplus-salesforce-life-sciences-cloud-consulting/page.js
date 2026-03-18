@@ -11,6 +11,7 @@ import esContent from '../../../../../../messages/es/services.json';
 import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/[locale]/components/BreadcrumbSchema";
 
 export default function page() {
     const t = useTranslations('lifeAiPlus')
@@ -56,7 +57,7 @@ export default function page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical={`https://www.rialtes.com/${locale}/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting/`}
+                canonical={`https://www.rialtes.com/${locale}/services/lob/lifeaiplus-salesforce-life-sciences-cloud-consulting`}
             />
             <Script
                 id="schema-lifeaiplus"
@@ -64,6 +65,8 @@ export default function page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumbs schema */}
+            <BreadcrumbSchema />
             {/* hero section */}
             <section className="relative h-[435px] 4xl:h-[650px] xl:h-[500px]">
                 <div className="xl:block hidden">

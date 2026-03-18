@@ -18,7 +18,7 @@ const LocationPage = () => {
     es: esContent,
     fr: frContent,
   });
-  const {schemaData } = contactUsContent.contactUs;
+  const { schemaData } = contactUsContent.contactUs;
 
   const locations = [
     {
@@ -144,7 +144,7 @@ const LocationPage = () => {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="Contact, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/contact-us/`}
+        canonical={`https://www.rialtes.com/${locale}/contact-us`}
       />
       <Script
         id="schema-contact-us"

@@ -41,7 +41,7 @@ export default function Page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="Partners, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-to-build-and-deploy-ai-agents-with-agentforce`}
       />
 
       <Script

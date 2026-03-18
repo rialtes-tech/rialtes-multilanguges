@@ -11,6 +11,7 @@ import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/[locale]/components/BreadcrumbSchema";
 
 export default function page() {
     const t = useTranslations('sapCpi')
@@ -22,7 +23,7 @@ export default function page() {
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical={`https://www.rialtes.com/${locale}/solutions/integration/sap-cloud-platform-integration-consulting/`}
+                canonical={`https://www.rialtes.com/${locale}/solutions/integration/sap-cloud-platform-integration-consulting`}
             />
             <Script
                 id="schema-sap-cloud"
@@ -30,6 +31,8 @@ export default function page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumbs schema */}
+            <BreadcrumbSchema />
             {/* herosection */}
             <section className="relative group overflow-hidden  h-[350px] md:h-[500px]  4xl:h-[650px] ">
                 {/* Desktop Image */}

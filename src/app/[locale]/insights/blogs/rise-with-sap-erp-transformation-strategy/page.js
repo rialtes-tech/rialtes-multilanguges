@@ -32,7 +32,7 @@ export default function Page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="Partners, website, welcome"
-                canonical={`https://www.rialtes.com/${locale}/insights/blogs/partner-salesforce-right-way-for-growth/`}
+                canonical={`https://www.rialtes.com/${locale}/insights/blogs/partner-salesforce-right-way-for-growth`}
             />
 
             <Script

@@ -14,6 +14,7 @@ import esContent from "../../../../../../messages/es/solutions.json";
 import frContent from "../../../../../../messages/fr/solutions.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/[locale]/components/BreadcrumbSchema";
 
 const page = () => {
   const t = useTranslations("mulesoft");
@@ -27,7 +28,7 @@ const page = () => {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/solutions/integration/mulesoft-salesforce/`}
+        canonical={`https://www.rialtes.com/${locale}/solutions/integration/mulesoft-salesforce`}
       />
       <Script
         id="schema-mulesoft"
@@ -35,6 +36,8 @@ const page = () => {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/* breadcrumbs schema */}
+      <BreadcrumbSchema />
       {/* hero section */}
       <section className="relative group overflow-hidden h-[400px] md:h-[500px] 4xl:h-[650px]">
         {/* Desktop Image */}

@@ -11,13 +11,14 @@ import enContent from '../../../../../messages/en/industry.json';
 import esContent from '../../../../../messages/es/industry.json';
 import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
-
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "../../components/BreadcrumbSchema";
 
 export default function Page() {
   const t = useTranslations("education");
   const locale = useLocale();
   const realContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { latestServices2, keyIndustryData, approachData, studentLeadData, selectionData, studentData, hyperData, lifelongData, selfData, s4HanaData, dynamicData, unifiedData, empoweringData, educationSolutions,schemaData } = realContent.education;
+  const { latestServices2, keyIndustryData, approachData, studentLeadData, selectionData, studentData, hyperData, lifelongData, selfData, s4HanaData, dynamicData, unifiedData, empoweringData, educationSolutions, schemaData } = realContent.education;
 
   const Services2 = () => {
     return (
@@ -36,7 +37,7 @@ export default function Page() {
             <ServicesCard key={services.id} services={services} />
           ))}
         </div>
-         <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+        <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
       </div>
     );
   };
@@ -59,7 +60,7 @@ export default function Page() {
       <Seo
         title={t("seoTitle")}
         description={t("seoDescription")}
-        canonical={`https://www.rialtes.com/${locale}/industry/education-cloud-it-solutions/`}
+        canonical={`https://www.rialtes.com/${locale}/industry/education-cloud-it-solutions`}
       />
       <Script
         id="schema-education"
@@ -67,6 +68,8 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/* breadcrumbs schema */}
+      <BreadcrumbSchema />
       {/* hero section */}
       <section className="relative group overflow-hidden xl:pb-40 2xl:pb-20 pb-10 h-[400px] md:h-[530px]  4xl:h-[650px] 2xl:h-[500px] xl:h-[550px]">
         <div className="md:block hidden">
@@ -106,6 +109,10 @@ export default function Page() {
             <div className="xl:col-span-5 col-span-12"></div>
           </div>
         </div>
+      </section>
+      {/* breadcrumb */}
+      <section className="custom-container">
+        <BreadCrumbs />
       </section>
       {/* page description */}
       <section className="xl:mt-16 mt-8 custom-container">
@@ -301,7 +308,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                <LearnMore btnName={t('learnMoreBtn')}  locale={locale}/>
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
               </div>
             </div>
           </div>
@@ -329,7 +336,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                 <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
               </div>
             </div>
           </div>
@@ -365,7 +372,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
               </div>
             </div>
           </div>
@@ -396,7 +403,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                 <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
               </div>
             </div>
           </div>
@@ -432,7 +439,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                 <LearnMore btnName={t('learnMoreBtn')}   locale={locale}/>
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
               </div>
             </div>
           </div>
@@ -463,7 +470,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                 <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
               </div>
             </div>
           </div>
@@ -500,7 +507,7 @@ export default function Page() {
                 liClassName=""
               />
               <div className="mt-5">
-                 <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
               </div>
             </div>
           </div>

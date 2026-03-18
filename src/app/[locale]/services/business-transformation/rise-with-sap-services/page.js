@@ -13,6 +13,7 @@ import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import { useActiveLocale } from "@/app/[locale]/components/activeLanguages";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/[locale]/components/BreadcrumbSchema";
 
 
 const BulletList = ({ items }) => (
@@ -38,7 +39,7 @@ export default function Page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/services/business-transformation/rise-with-sap-services/`}
+        canonical={`https://www.rialtes.com/${locale}/services/business-transformation/rise-with-sap-services`}
       />
       <Script
         id="schema-rise"
@@ -46,6 +47,8 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/* breadcrumbs schema */}
+      <BreadcrumbSchema />
       {/* hero section */}
       <section className="relative h-[350px] md:h-[500px] xl:h-[550px] 4xl:h-[700px] group overflow-hidden">
         <div className="xl:block hidden ">

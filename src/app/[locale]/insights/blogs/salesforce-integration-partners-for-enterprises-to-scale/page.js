@@ -13,7 +13,7 @@ import frContent from "../../../../../../messages/fr/blogs.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import { useLocale, useTranslations } from "next-intl";
 
-export default function Page() { 
+export default function Page() {
     const fullUrl = "https://www.rialtes.com/insights/blogs/salesforce-integration-partners-for-enterprises-to-scale";
     const currUrl = useUrl()
     const t = useTranslations("integrationPartnersForSalesforce");
@@ -42,7 +42,7 @@ export default function Page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
- 
+
             <section className="relative 4xl:h-[638px] xl:h-[450px] 2xl:h-[500px] sm:h-[600px] md:h-[700px] overflow-hidden">
                 <div className="xl:block hidden">
                     <Image

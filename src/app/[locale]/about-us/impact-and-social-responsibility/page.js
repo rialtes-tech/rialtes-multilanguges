@@ -10,6 +10,7 @@ import esContent from '../../../../../messages/es/aboutus.json'
 import frContent from '../../../../../messages/fr/aboutus.json'
 import { changeLocalization } from "../../components/changeLocalization";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "../../components/BreadcrumbSchema";
 
 export default function Page() {
   const t = useTranslations('impact')
@@ -24,7 +25,7 @@ export default function Page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/about-us/impact-and-social-responsibility/`}
+        canonical={`https://www.rialtes.com/${locale}/about-us/impact-and-social-responsibility`}
       />
       <Script
         id="schema-impact"
@@ -32,6 +33,8 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/* breadcrumbs schema */}
+      <BreadcrumbSchema />
       {/** hero section * */}
       <section className="relative group overflow-hidden h-[350px] md:h-[500px] 4xl:h-[650px]">
         <div className="hidden md:block">

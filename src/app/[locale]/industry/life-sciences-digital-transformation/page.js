@@ -10,19 +10,22 @@ import esContent from '../../../../../messages/es/industry.json';
 import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
 import { useActiveLocale } from "../../components/activeLanguages";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "../../components/BreadcrumbSchema";
+
+
 export default function page() {
-    
     const t = useTranslations('lifeScience')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
     const { frActive, esActive } = useActiveLocale();
-    const { whyRialtesData, seamlessData, thoughLeadershipData, prebuiltData, commonSectionData, commonSectionData1,schemaData } = content.lifeScience
+    const { whyRialtesData, seamlessData, thoughLeadershipData, prebuiltData, commonSectionData, commonSectionData1, schemaData } = content.lifeScience
     return (
         <section className="min-h-screen">
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical={`https://www.rialtes.com/${locale}/industry/life-sciences-digital-transformation/`}
+                canonical={`https://www.rialtes.com/${locale}/industry/life-sciences-digital-transformation`}
             />
             {/* Desktop Image */}
             <Image
@@ -33,6 +36,8 @@ export default function page() {
               width={1200}
               height={630}
             />
+            {/* breadcrumbs schema */}
+            <BreadcrumbSchema />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
                 <div className="hidden md:block">
@@ -72,6 +77,10 @@ export default function page() {
                         </div>
                     </div>
                 </div>
+            </section>
+            {/* breadcrumb */}
+            <section className="custom-container">
+                <BreadCrumbs />
             </section>
             {/* page description section */}
             <section className="custom-container xl:mt-[119px] mt-[44px]">
@@ -202,7 +211,7 @@ export default function page() {
                             </div>
                         </div>
                         <div className="absolute bottom-[-20px]">
-                            <LearnMore btnName={t('learnMoreBtn')}   locale={locale}/>
+                            <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                         </div>
                     </div>
                     {/* white extension for right side */}
@@ -240,7 +249,7 @@ export default function page() {
                                     {t('prebuiltTitle')}
                                 </h2>
                                 <div className="xl:mt-[77px] mt-[29px] md:block hidden">
-                                    <LearnMore btnName={t('learnMoreBtn')}  locale={locale}/>
+                                    <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                                 </div>
                             </div>
                             <div>
@@ -249,7 +258,7 @@ export default function page() {
                                 </h3>
                                 <UnorderedList arrName={prebuiltData} ulClassName="list-disc xl:mt-[37px] mt-[19px] ml-[20px] space-y-[19px] xl:space-y-[24px]" liClassName="xl:text-[18px] md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
                                 <div className="xl:mt-[77px] mt-[29px] md:hidden block">
-                                    <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+                                    <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                                 </div>
                             </div>
                         </div>
@@ -277,7 +286,7 @@ export default function page() {
                                         </h3>
                                         <UnorderedList arrName={data.dataList} ulClassName={`list-disc xl:mt-[32px] mt-[19px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[86%]`} liClassName="xl:text-[16px] md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
                                         <div className={`mt-[22px] xl:mt-[59px] ${(frActive || esActive) && ind === 0 ? "xl:mb-[40px]" : ""}`}>
-                                            <LearnMore btnName={t('learnMoreBtn')}  locale={locale}/>
+                                            <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                                         </div>
                                         <div className={`absolute z-20 max-md:w-full max-md:left-0 max-md:top-[100%] md:bottom-[-50px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px] max-[320px]:pb-[15px] ${(frActive || esActive) && ind === 0 ? "md:w-[90%]" : "md:w-[90%] lg:w-auto"}`}>
                                             <p className="xl:text-[22px] 4xl:text-[26px] md:text-[20px] text-[18px] leading-tight sm:w-full font-normal">
@@ -350,7 +359,7 @@ export default function page() {
                                         </h3>
                                         <UnorderedList arrName={data.dataList} ulClassName={`list-disc xl:mt-[32px] mt-[19px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[86%]`} liClassName="xl:text-[16px] md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
                                         <div className="mt-[22px] xl:mt-[59px]">
-                                            <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+                                            <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                                         </div>
                                     </div>
                                 </div>
@@ -402,7 +411,7 @@ export default function page() {
                         </h3>
                         <UnorderedList arrName={seamlessData} ulClassName="list-disc xl:mt-[46px] mt-[28px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[86%]" liClassName="xl:text-[16px] md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
                         <div className="mt-[41px] xl:mt-[55px] xl:mb-[167px] lg:mb-[97px]">
-                            <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+                            <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                         </div>
                     </div>
                 </div>
@@ -423,7 +432,7 @@ export default function page() {
                                         </h3>
                                         <UnorderedList arrName={data.dataList} ulClassName="list-disc xl:mt-[32px] mt-[28px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[86%]" liClassName="xl:text-[16px] md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
                                         <div className="mt-[22px] xl:mt-[59px]">
-                                            <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+                                            <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                                         </div>
                                         <div className="absolute max-md:left-0 max-md:top-[100%] md:bottom-[-50px] text-[#ffffff] bg-[#163055] xl:py-[38px] xl:px-[48px] pt-[27px] px-[22px] pb-[32px]">
                                             <p className="xl:text-[22px] 4xl:text-[26px] md:text-[20px] text-[18px] leading-tight w-[90%] sm:w-full font-normal">
@@ -496,7 +505,7 @@ export default function page() {
                                         </h3>
                                         <UnorderedList arrName={data.dataList} ulClassName="list-disc xl:mt-[32px] mt-[19px] ml-[20px] space-y-[19px] xl:space-y-[24px] w-[90%] sm:w-full 4xl:w-[82%]" liClassName="xl:text-[16px] md:text-[18px] 4xl:text-[20px] text-[16px] leading-tight" />
                                         <div className="mt-[22px] xl:mt-[59px]">
-                                            <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+                                            <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                                         </div>
                                     </div>
                                 </div>

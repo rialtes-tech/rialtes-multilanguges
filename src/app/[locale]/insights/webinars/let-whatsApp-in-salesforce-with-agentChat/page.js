@@ -13,7 +13,7 @@ export default function () {
     const t = useTranslations("letsWhatsappWebinar");
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { webinarAdvantagesData, whoShouldAttendData,schemaData } = content.letsWhatsappWebinar
+    const { webinarAdvantagesData, whoShouldAttendData, schemaData } = content.letsWhatsappWebinar
     return (
         <>
             <WebinarComponent fullUrl="https://rialtes.netlify.app/insights/webinars/let-whatsapp-in-salesforce-with-agentchat"
@@ -21,7 +21,7 @@ export default function () {
                     < Seo
                         title={t('seoTitle')}
                         description={t('seoDescription')}
-                        canonical={`https://www.rialtes.com/${locale}/insights/webinars/let-whatsapp-in-salesforce-with-agentchat/`}
+                        canonical={`https://www.rialtes.com/${locale}/insights/webinars/let-whatsapp-in-salesforce-with-agentchat`}
                     />
                 }
                 schemaData={schemaData}

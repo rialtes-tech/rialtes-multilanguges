@@ -9,6 +9,7 @@ import esContent from '../../../../messages/es/aboutus.json';
 import frContent from '../../../../messages/fr/aboutus.json'
 import { changeLocalization } from "../components/changeLocalization";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "../components/BreadcrumbSchema";
 
 
 export default function About() {
@@ -51,7 +52,7 @@ export default function About() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical={`https://www.rialtes.com/${locale}/about-us/`}
+                canonical={`https://www.rialtes.com/${locale}/about-us`}
             />
             <Script
                 id="schema-about"
@@ -59,6 +60,8 @@ export default function About() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumbs schema */}
+            <BreadcrumbSchema />
             <section className="relative">
                 <div className="custom-container lg:!pr-0 overflow-hidden max-md:px-0 h-[350px] md:h-[500px]  4xl:h-[650px] ">
                     {/* Image Element */}

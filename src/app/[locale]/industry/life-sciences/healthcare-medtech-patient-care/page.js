@@ -12,14 +12,15 @@ import enContent from '../../../../../../messages/en/industry.json';
 import esContent from '../../../../../../messages/es/industry.json';
 import frContent from '../../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../../components/changeLocalization";
-
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/[locale]/components/BreadcrumbSchema";
 
 export default function Page() {
   const t = useTranslations('healthCare')
   const locale = useLocale();
   const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-  const { slidesCaseStudy, latestServices, growLatestServices, schemaData} = content.healthCare;
- 
+  const { slidesCaseStudy, latestServices, growLatestServices, schemaData } = content.healthCare;
+
   const ServicesCard = ({ services }) => (
     <div className="w-full h-full flex flex-col border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
       <div className="flex-grow flex flex-col">
@@ -52,7 +53,7 @@ export default function Page() {
         <UnorderedList arrName={services?.productsDetails} ulClassName="mt-5 text-[16px] md:text-[18px] xl:text-[16px] 4xl:text-[20px] leading-tight" liClassName="font-medium flex mt-3 items-start before:content-['•'] before:text-[#0092E0] before:text-4xl before:font-bold before:mr-2 before:leading-[0.5]" />
       </div>
       <div className="mt-auto pt-5">
-       <LearnMore btnName={t('learnMoreBtn')}  locale={locale}/>
+        <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
       </div>
     </div>
 
@@ -65,7 +66,7 @@ export default function Page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/industry/life-sciences/healthcare-medtech-patient-care/`}
+        canonical={`https://www.rialtes.com/${locale}/industry/life-sciences/healthcare-medtech-patient-care`}
       />
       <Script
         id="schema-healthcare"
@@ -73,6 +74,8 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/* breadcrumbs schema */}
+      <BreadcrumbSchema />
       <section className="relative group overflow-hidden h-[400px] md:h-[500px] 4xl:h-[650px]">
         <div className="hidden lg:block">
           <Image
@@ -109,7 +112,11 @@ export default function Page() {
           </div>
         </div>
       </section>
-      <section className=" mt-[70px] custom-container">
+      {/* breadcrumb */}
+      <section className="custom-container">
+        <BreadCrumbs />
+      </section>
+      <section className="mt-[70px] custom-container">
         <div className="pb-5 bg-white">
           <div className=" mx-auto ">
             <div className="flex flex-col xl:flex-row py-6 xl:gap-20 gap-5">
@@ -154,9 +161,9 @@ export default function Page() {
               ))}
             </div>
             <div className="mt-10">
-             <LearnMore btnName={t('learnMoreBtn')}  locale={locale}/>
+              <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
             </div>
-          </div> 
+          </div>
         </section>
       </div>
       {/* Latest Customer Success Stories */}

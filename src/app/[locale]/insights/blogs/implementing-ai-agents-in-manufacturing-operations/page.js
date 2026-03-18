@@ -30,7 +30,7 @@ export default function Page() {
         title={t("seoTitle")}
         description={t("seoDescription")}
         keywords="Partners, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/implementing-ai-agents-in-manufacturing-operations/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/implementing-ai-agents-in-manufacturing-operations`}
       />
 
       <Script

@@ -11,6 +11,7 @@ import frContent from '../../../../../messages/fr/products.json';
 import { changeLocalization } from "../../components/changeLocalization";
 import LearnMore from "../../components/learnMore";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "../../components/BreadcrumbSchema";
 
 export default function Page() {
     const t = useTranslations("mediaina");
@@ -23,7 +24,7 @@ export default function Page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical={`https://www.rialtes.com/${locale}/products/mediaina-reimagining-patient-journeys/`}
+                canonical={`https://www.rialtes.com/${locale}/products/mediaina-reimagining-patient-journeys`}
             />
             <Script
                 id="schema-grow"
@@ -31,6 +32,8 @@ export default function Page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumbs schema */}
+            <BreadcrumbSchema />
             {/* hero section */}
             <section className="relative group overflow-hidden pb-20 md:pb-48 xl:pb-20 4xl:pb-20">
                 <div className="xl:block hidden">

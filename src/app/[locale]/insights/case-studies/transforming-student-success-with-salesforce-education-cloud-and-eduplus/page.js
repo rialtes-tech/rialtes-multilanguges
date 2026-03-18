@@ -37,7 +37,7 @@ export default function page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical={`https://www.rialtes.com/${locale}/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/case-studies/transforming-student-success-with-salesforce-education-cloud-and-eduplus`}
       />
       <Script
         id="schema-revolutionizing"

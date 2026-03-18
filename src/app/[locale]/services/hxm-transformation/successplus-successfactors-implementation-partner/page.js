@@ -11,6 +11,7 @@ import frContent from '../../../../../../messages/fr/services.json';
 import { useLocale, useTranslations } from "next-intl";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/[locale]/components/BreadcrumbSchema";
 
 export default function Page() {
   const t = useTranslations('successPlus')
@@ -24,7 +25,7 @@ export default function Page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/services/hxm-transformation/successplus-successfactors-implementation-partner/`}
+        canonical={`https://www.rialtes.com/${locale}/services/hxm-transformation/successplus-successfactors-implementation-partner`}
       />
       <Script
         id="schema-sucessfactor"
@@ -32,6 +33,8 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/* breadcrumbs schema */}
+      <BreadcrumbSchema />
       {/* hero section */}
       <section className="relative 4xl:h-[638px] xl:h-[500px] 2xl:h-[600px] h-[400px] md:h-[600px] overflow-hidden">
         <div className="md:block hidden">

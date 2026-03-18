@@ -5,60 +5,9 @@ import LearnMore from "@/app/components/learnMore";
 import Seo from "@/app/components/Seo";
 import BreadCrumbs from '../../components/BreadCrumbs'
 import Script from "next/script";
-import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
- import { useRef } from "react";
-const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    "name": "AgentChat",
-    "image": "https://www.rialtes.com/images/industry/rialchat/AgentChat%20logo.svg",
-    "description": "AgentChat is a bi-directional WhatsApp conversational app natively built on Salesforce, offering seamless Salesforce WhatsApp integration. It enables real-time messaging, supports all Salesforce Clouds, and allows teams to engage, support, and close deals through WhatsApp without leaving Salesforce.",
-    "brand": {
-        "@type": "Organization",
-        "name": "Rialtes",
-        "url": "https://www.rialtes.com",
-        "logo": "https://www.rialtes.com/images/homepage/logo.svg"
-    },
-    "url": "https://www.rialtes.com/products/agentchat/",
-    "category": "Salesforce WhatsApp Messaging App",
-    "isRelatedTo": {
-        "@type": "SoftwareApplication",
-        "applicationCategory": "BusinessApplication",
-        "operatingSystem": "Cloud",
-        "softwareRequirements": "Salesforce platform"
-    },
-    "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://www.rialtes.com/products/agentchat/"
-    },
-    "additionalProperty": [
-        {
-            "@type": "PropertyValue",
-            "name": "Salesforce Integration",
-            "value": "Works with Leads, Cases, Opportunities, Work Orders, and Custom Objects."
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "Real-Time Bi-Directional Messaging",
-            "value": "Synchronizes messages in real time between WhatsApp and Salesforce."
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "Multi-Team Support",
-            "value": "Supports Sales, Service, Field, Education, and Nonprofit teams."
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "Role-Based Access Control",
-            "value": "Advanced permissions using Salesforce’s native security model."
-        },
-        {
-            "@type": "PropertyValue",
-            "name": "GDPR & HIPAA Ready",
-            "value": "Built on Salesforce’s secure and compliant platform."
-        }
-    ]
-}
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "../../components/BreadcrumbSchema";
+
 export default function Page() {
      const contactRef = useRef(null);
 
@@ -134,7 +83,7 @@ export default function Page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="Contact, website, welcome"
-                canonical={`https://www.rialtes.com/${locale}/products/agentchat/`}
+                canonical={`https://www.rialtes.com/${locale}/products/agentchat`}
             />
             <Script
                 id="schema-agentchat"

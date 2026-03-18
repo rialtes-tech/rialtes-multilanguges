@@ -10,18 +10,20 @@ import enContent from '../../../../../messages/en/industry.json';
 import esContent from '../../../../../messages/es/industry.json';
 import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "../../components/BreadcrumbSchema";
+
 export default function retailPage() {
-  
     const t = useTranslations('nonProfit')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { whyChooseData, thoughtLeadershipData, preDeliveredData, commonSectionData,schemaData } = content.nonProfit
+    const { whyChooseData, thoughtLeadershipData, preDeliveredData, commonSectionData, schemaData } = content.nonProfit
     return (
         <section className="min-h-screen">
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical={`https://www.rialtes.com/${locale}/industry/nonprofit-digital-transformation-it-solutions/`}
+                canonical={`https://www.rialtes.com/${locale}/industry/nonprofit-digital-transformation-it-solutions`}
             />
             <Script
                 id="schema-nonprofit"
@@ -29,6 +31,8 @@ export default function retailPage() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumbs schema */}
+            <BreadcrumbSchema />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[420px] lg:h-[550px] 4xl:h-[650px]">
                 {/* Desktop Image */}
@@ -69,6 +73,10 @@ export default function retailPage() {
                         </div>
                     </div>
                 </div>
+            </section>
+            {/* breadcrumb */}
+            <section className="custom-container">
+                <BreadCrumbs />
             </section>
             {/* page description section */}
             <section className="custom-container xl:mt-[99px] mt-[50px]">
@@ -314,7 +322,7 @@ export default function retailPage() {
                                 {t('seamlessCard5Desc')}
                             </p>
                             <div className="md:mt-auto mt-[30px]">
-                                <LearnMore btnName={t('learnMoreBtn')} locale={locale}/>
+                                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                             </div>
                         </div>
                     </div>

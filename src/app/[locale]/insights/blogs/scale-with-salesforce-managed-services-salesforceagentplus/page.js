@@ -152,7 +152,7 @@ export default function Page() {
                 description={t("seoDescription")}
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/scale-with-salesforce-managed-services-salesforceagentplus/"
+                    `https://www.rialtes.com/${locale}/insights/blogs/scale-with-salesforce-managed-services-salesforceagentplus`
                 }
             />
 

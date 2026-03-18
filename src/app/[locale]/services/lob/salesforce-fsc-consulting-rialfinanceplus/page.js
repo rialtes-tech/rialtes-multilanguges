@@ -12,6 +12,7 @@ import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import { useActiveLocale } from "@/app/[locale]/components/activeLanguages";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/[locale]/components/BreadcrumbSchema";
 
 export default function page() {
 
@@ -25,7 +26,7 @@ export default function page() {
             <Seo
                 title={t('seoTitle')}
                 description={t('seoDescription')}
-                canonical={`https://www.rialtes.com/${locale}/services/lob/salesforce-fsc-consulting-rialfinanceplus/`}
+                canonical={`https://www.rialtes.com/${locale}/services/lob/salesforce-fsc-consulting-rialfinanceplus`}
             />
             <Script
                 id="schema-realfinance"
@@ -33,6 +34,8 @@ export default function page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumbs schema */}
+            <BreadcrumbSchema />
             {/* herosection */}
             <section className="relative group overflow-hidden h-[420px] lg:h-[550px] 4xl:h-[650px]">
                 <div className="hidden md:block">

@@ -28,7 +28,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-sap-successfactors-enhances-remote-work-management/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/blogs/how-sap-successfactors-enhances-remote-work-management`}
       />
       <Script
         id="schema-how-sap"

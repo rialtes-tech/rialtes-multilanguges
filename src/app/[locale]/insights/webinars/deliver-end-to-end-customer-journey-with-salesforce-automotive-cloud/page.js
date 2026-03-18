@@ -20,7 +20,7 @@ export default function () {
                     < Seo
                         title={t('seoTitle')}
                         description={t('seoDescription')}
-                        canonical={`https://www.rialtes.com/${locale}/insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud/`}
+                        canonical={`https://www.rialtes.com/${locale}/insights/webinars/deliver-end-to-end-customer-journey-with-salesforce-automotive-cloud`}
                     />
                 }
                 schemaData={schemaData}

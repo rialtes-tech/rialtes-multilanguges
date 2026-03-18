@@ -33,7 +33,7 @@ export default function Page() {
                 description={t('seoDescription')}
                 keywords="Partners, website, welcome"
                 canonical={
-                    "https://www.rialtes.com/insights/blogs/reimagining-clinical-trial-patient-journey/"
+                    `https://www.rialtes.com/${locale}/insights/blogs/reimagining-clinical-trial-patient-journey`
                 }
             />
 

@@ -11,6 +11,7 @@ import esContent from '../../../../../../messages/es/services.json';
 import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/[locale]/components/BreadcrumbSchema";
 
 
 export default function Page() {
@@ -84,6 +85,8 @@ export default function Page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumbs schema */}
+            <BreadcrumbSchema />
             {/* hero section */}
             <section className="relative group overflow-hidden  lg:pb-[10rem] xs:pb-40 xl:pb-[6rem] 2xl:pb-[10rem] 4xl:pb-[12rem] sm:pb-[12rem]  pb-20">
                 <div className="xl:block hidden pt-20">

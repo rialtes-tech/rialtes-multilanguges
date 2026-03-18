@@ -26,7 +26,7 @@ export default function Page() {
             <Seo
                 title={t("seoTitle")}
                 description={t("seoDescription")}
-                canonical={`https://www.rialtes.com/${locale}/insights/blogs/salesforce-development-services-to-boost-crm-efficiency/`}
+                canonical={`https://www.rialtes.com/${locale}/insights/blogs/salesforce-development-services-to-boost-crm-efficiency`}
             />
 
             <Script

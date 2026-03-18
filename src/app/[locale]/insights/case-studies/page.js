@@ -320,7 +320,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical={`https://www.rialtes.com/${locale}/insights/case-studies/`} />
+        canonical={`https://www.rialtes.com/${locale}/insights/case-studies`} />
 
       <Script
         id="schema-case-study"

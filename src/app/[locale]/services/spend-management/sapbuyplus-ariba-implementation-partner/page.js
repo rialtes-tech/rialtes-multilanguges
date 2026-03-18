@@ -11,6 +11,7 @@ import frContent from '../../../../../../messages/fr/services.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 import Script from "next/script";
+import BreadcrumbSchema from "@/app/[locale]/components/BreadcrumbSchema";
 
 export default function page() {
     const t = useTranslations('sapBuyPlus')
@@ -451,7 +452,7 @@ export default function page() {
                 title={t('seoTitle')}
                 description={t('seoDescription')}
                 keywords="home, website, welcome"
-                canonical={`https://www.rialtes.com/${locale}/services/spend-management/sapbuyplus-ariba-implementation-partner/`}
+                canonical={`https://www.rialtes.com/${locale}/services/spend-management/sapbuyplus-ariba-implementation-partner`}
             />
             <Script
                 id="schema-sap-buy-plus"
@@ -459,6 +460,8 @@ export default function page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
+            {/* breadcrumbs schema */}
+            <BreadcrumbSchema />
             {/* hero section */}
             <section className="relative group overflow-hidden h-[399px] lg:h-[600px] 4xl:h-[650px] ">
                 {/* Desktop Image */}

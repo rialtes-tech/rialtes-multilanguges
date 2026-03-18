@@ -10,6 +10,7 @@ import esContent from '../../../../../../messages/es/solutions.json';
 import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/[locale]/components/BreadcrumbSchema";
 
 export default function Page() {
   const t = useTranslations('oracle')
@@ -21,9 +22,9 @@ export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <Seo
-        title="Oracle EBS Consulting Services and Solutions | Rialtes"
-        description="Oracle EBS Consulting Services and Solutions by Rialtes' OracleEBS+ deliver smarter ERP performance, increased agility, and innovation-driven business growth."
-        canonical="https://www.rialtes.com/solutions/enterprise-platforms/oracle-ebs-consulting"
+        title={t('seoTitle')}
+        description={t('seoDescription')}
+        canonical={`https://www.rialtes.com/${locale}/solutions/enterprise-platforms/oracle-ebs-consulting`}
       />
       <Script
         id="schema-oracle"

@@ -11,6 +11,7 @@ import LearnMore from "@/app/[locale]/components/learnMore";
 import Script from "next/script";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/[locale]/components/BreadcrumbSchema";
 
 
 export default function page() {
@@ -24,7 +25,7 @@ export default function page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/services/lob/retail-plus-business-consulting-omnichannel-solutions/`}
+        canonical={`https://www.rialtes.com/${locale}/services/lob/retail-plus-business-consulting-omnichannel-solutions`}
       />
       <Script
         id="schema-retail-plus"
@@ -32,6 +33,8 @@ export default function page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/* breadcrumbs schema */}
+      <BreadcrumbSchema />
       <section className="relative group overflow-hidden  h-[350px] md:h-[500px] lg:h-[600px] xl:h-[550px] 4xl:h-[700px]">
         <div className="xl:block hidden">
           <Image

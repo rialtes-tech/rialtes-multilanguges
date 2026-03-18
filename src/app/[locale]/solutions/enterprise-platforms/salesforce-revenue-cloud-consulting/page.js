@@ -12,6 +12,7 @@ import esContent from "../../../../../../messages/es/solutions.json";
 import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/[locale]/components/BreadcrumbSchema";
 
 export default function HealthCloud() {
   const t = useTranslations("revenueCloud");
@@ -25,7 +26,7 @@ export default function HealthCloud() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting/`}
+        canonical={`https://www.rialtes.com/${locale}/solutions/enterprise-platforms/salesforce-revenue-cloud-consulting`}
       />
       <Script
         id="schema-revenue-cloude"
@@ -33,6 +34,8 @@ export default function HealthCloud() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/* breadcrumbs schema */}
+      <BreadcrumbSchema />
       <section className="relative group overflow-hidden h-[399px] lg:h-[650px] ">
         {/* Desktop Image */}
         <div className="hidden md:block">

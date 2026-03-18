@@ -26,7 +26,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical={`https://www.rialtes.com/${locale}/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/case-studies/automate-order-processing-using-mulesoft-for-salesforce-health-cloud-and-sap`}
       />
       <Script
         id="schema-automate"

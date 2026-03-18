@@ -15,6 +15,7 @@ import esContent from "../../../../../../messages/es/solutions.json";
 import frContent from '../../../../../../messages/fr/solutions.json';
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "@/app/[locale]/components/BreadcrumbSchema";
 
 
 export default function SalesForceConsulting() {
@@ -27,7 +28,7 @@ export default function SalesForceConsulting() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical={`https://www.rialtes.com/${locale}/solutions/enterprise-platforms/salesforce-consulting-partner-us-india/`}
+        canonical={`https://www.rialtes.com/${locale}/solutions/enterprise-platforms/salesforce-consulting-partner-us-india`}
       />
       <Script
         id="schema-salesforce-consulting"
@@ -35,7 +36,8 @@ export default function SalesForceConsulting() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
-
+      {/* breadcrumbs schema */}
+      <BreadcrumbSchema />
       <div className="relative group overflow-hidden h-[350px] md:h-[500px] lg:h-[550px] 4xl:h-[650px]">
         <Image
           src="/images/salesforce-consulting-services/salesforce-consulting-banner.webp"

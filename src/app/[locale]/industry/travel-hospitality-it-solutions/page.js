@@ -11,8 +11,10 @@ import esContent from '../../../../../messages/es/industry.json';
 import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
 import { useActiveLocale } from "../../components/activeLanguages";
-export default function Page() {
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "../../components/BreadcrumbSchema";
 
+export default function Page() {
     const t = useTranslations('travelIndustry')
     const locale = useLocale();
     const content = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
@@ -28,7 +30,7 @@ export default function Page() {
                     title={t("seoTitle")}
                     description={t("seoDescription")}
                     keywords="home, website, welcome"
-                    canonical={`https://www.rialtes.com/${locale}/industry/travel-hospitality-it-solutions/`}
+                    canonical={`https://www.rialtes.com/${locale}/industry/travel-hospitality-it-solutions`}
                 />
                 <Script
                     id="schema-travel"
@@ -583,9 +585,8 @@ export default function Page() {
                             </div>
                         </div>
                     </div>
-                    <div className="xl:mt-[-20px] mt-[36px] max-md:ml-[36px]">
-                        <LearnMore onClick={handleScrollToContact}
-  btnName="Talk to Us"/>
+                    <div className="xl:mt-[20px] mt-[36px] max-md:ml-[36px]">
+                        <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                     </div>
                 </section>
                 {/* quick commerce section */}
@@ -603,8 +604,7 @@ export default function Page() {
                             </p>
                             <UnorderedList arrName={quickCommereceData} ulClassName="xl:space-y-[24px] space-y-[19px] list-disc xl:mt-[44px] mt-[26px] pl-[20px]" liClassName="xl:text-[16px] 4xl:text-[20px] text-[16px] md:text-[18px] leading-tight font-normal" />
                             <div className="xl:mt-[120px] mt-[36px]">
-                                <LearnMore onClick={handleScrollToContact}
-  btnName="Talk to Us"/>
+                                <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
                             </div>
                         </div>
                         <div className="order-1 lg:col-span-7 col-span-12">

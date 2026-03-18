@@ -12,14 +12,14 @@ import enContent from '../../../../../messages/en/industry.json';
 import esContent from '../../../../../messages/es/industry.json';
 import frContent from '../../../../../messages/fr/industry.json';
 import { changeLocalization } from "../../components/changeLocalization";
-
+import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
+import BreadcrumbSchema from "../../components/BreadcrumbSchema";
 
 export default function Page() {
   const t = useTranslations("realEstate");
   const locale = useLocale();
   const realContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
   const { growLatestServices, latestServices, slides, schemaData } = realContent.realEstate;
-
 
   const ServicesCard = ({ services }) => (
     <div className="h-full flex flex-col border border-[#707070] p-10 transition ease-out duration-300 hover:bg-[#D9F2FF] hover:border-[#D9F2FF]">
@@ -84,7 +84,7 @@ export default function Page() {
         title={t('seoTitle')}
         description={t('seoDescription')}
         keywords="home, website, welcome"
-        canonical={`https://www.rialtes.com/${locale}/industry/real-estate-property-management/`}
+        canonical={`https://www.rialtes.com/${locale}/industry/real-estate-property-management`}
       />
       <Script
         id="schema-real-estate"
@@ -92,6 +92,8 @@ export default function Page() {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
       />
+      {/* breadcrumbs schema */}
+      <BreadcrumbSchema />
       <section className="relative group overflow-hidden h-[350px] md:h-[500px]  4xl:h-[650px]  ">
         <div className="hidden md:block">
           <Image
@@ -126,6 +128,10 @@ export default function Page() {
             </div>
           </div>
         </div>
+      </section>
+      {/* breadcrumb */}
+      <section className="custom-container">
+        <BreadCrumbs />
       </section>
       {/* page description */}
       <section className="custom-container">
@@ -179,7 +185,7 @@ export default function Page() {
       <div className="custom-container">
         <section className="pb-16 bg-white">
           <Services />
-          <LearnMore btnName={t('learnMoreBtn')}  locale={locale} />
+          <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
         </section>
       </div>
       <div className="bg-[#F5F5F5] py-6">

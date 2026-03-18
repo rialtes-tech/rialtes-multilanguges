@@ -26,7 +26,7 @@ export default function Page() {
       <Seo
         title={t('seoTitle')}
         description={t('seoDescription')}
-        canonical={`https://www.rialtes.com/${locale}/insights/case-studies/warranty-claim-submission-using-experience-cloud/`}
+        canonical={`https://www.rialtes.com/${locale}/insights/case-studies/warranty-claim-submission-using-experience-cloud`}
       />
       <Script
         id="schema-warranty-desktop"
