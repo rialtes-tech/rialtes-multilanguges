@@ -59,8 +59,8 @@ export default function Page() {
                         src="/images/blog/digital-data-stream-mobile.webp"
                         alt={t('bannerAlt')}
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>

@@ -1,77 +1,75 @@
 "use client";
-import { useTranslations } from "next-intl";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useLocale } from "next-intl";
-export default function Breadcrumb({ subPath }) {
-    const locale = useLocale()
-    const t = useTranslations("breadcrumbs");
-    const pathname = usePathname();
-    const cleanPath = pathname.replace(/\/$/, "");
-    let segments = cleanPath.split("/").filter(Boolean);
 
-    const EXISTING_ROUTES = {
-        "about-us": "/about-us",
-        "industry": "/industry",
-        "life-sciences": "/industry/life-sciences-digital-transformation"
-    };
+export default function Breadcrumb({ currPage, subPath }) {
+  const pathname = usePathname();
+  const cleanPath = pathname.replace(/\/$/, "");
+  const segments = cleanPath.split("/").filter(Boolean);
 
-    const LOCALES = ["en", "es", "fr"];
-    if (LOCALES.includes(segments[0])) {
-        segments = segments.slice(1);
-    }
+  const EXISTING_ROUTES = {
+    "about-us": "/about-us",
+    industry: "/industry",
+    "life-sciences": "/industry/life-sciences-digital-transformation",
+  };
 
+  let manualPath;
+  if (segments.length === 3 && subPath) {
+    manualPath = 1;
+  } else if (segments.length === 3) {
+    manualPath = 2;
+  } else if (segments.length === 1) {
+    manualPath = 0;
+  } else if (segments.length === 2) {
+    manualPath = 1;
+  } else {
+    manualPath = 2;
+  }
 
-    const breadcrumbs = segments.map((segment, index) => {
-        const label = t.has(segment)
-            ? t(segment)
-            : segment.replace(/-/g, " ");
+  const breadcrumbs = segments.slice(0, manualPath).map((segment) => {
+    const label = segment
+      .split("-")
+      .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+      .join(" ");
 
-        const isCurrent = index === segments.length - 1;
+    const href = EXISTING_ROUTES[segment] || null;
 
-        return {
-            label,
-            href: isCurrent ? null : (EXISTING_ROUTES[segment] || `/${segments.slice(0, index + 1).join("/")}`),
-        };
-    });
+    return { label, href };
+  });
 
-
-
-    return (
-        <div className="mt-[40px]">
-            <p className="4xl:text-[20px] xl:text-[17px] text-[14px] flex flex-wrap gap-1">
-                <Link
-                    href={`/${locale}`}
-                    className="cursor-pointer hover:text-[#0C8AED]">
-                    {t("home")}
-                </Link> {"/"}
-                {
-                    breadcrumbs.map((item, index) => (
-                        <span key={item.label} className={`flex items-center gap-1`}>
-                            {item.href ? (
-                                <Link
-                                    href={item.href}
-                                    className="cursor-pointer hover:text-[#0C8AED]"
-                                >
-                                    {item.label}
-                                    {!subPath && " /"}
-                                </Link>
-                            ) : (
-                                <span className={`cursor-default ${index == breadcrumbs.length - 1 ? "text-[#0C8AED]" : ""
-                                    }`}
-                                >
-                                    {item.label}
-                                    {index < breadcrumbs.length - 1 && " / "}
-                                </span>
-                            )}
-                        </span>
-                    ))
-                }
-
-                {/* sub path */}
-                {subPath && <span>{subPath} {" / "}</span>}
-
-            </p>
-        </div>
-    );
+  return (
+    <div className="mt-[40px]">
+      <p className="4xl:text-[16px] xl:text-[16px] text-[14px] flex flex-wrap gap-1">
+        <Link href="/" className="cursor-pointer hover:text-[#0C8AED]">
+          Home
+        </Link>{" "}
+        {"/"}
+        {breadcrumbs.map((item, index) => (
+          <span key={item.label} className="flex items-center gap-1">
+            {item.href ? (
+              <Link
+                href={item.href}
+                className="cursor-pointer hover:text-[#0C8AED]"
+              >
+                {item.label}
+                {!subPath && " /"}
+              </Link>
+            ) : (
+              <span className="cursor-default">
+                {item.label} {" / "}
+              </span>
+            )}
+          </span>
+        ))}
+        {/* sub path */}
+        {subPath && (
+          <span>
+            {subPath} {" / "}
+          </span>
+        )}
+        {/* Current page */}
+        <span className="text-[#0C8AED]">{currPage}</span>
+      </p>
+    </div>
+  );
 }

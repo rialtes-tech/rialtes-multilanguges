@@ -10,7 +10,7 @@ import frContent from "../../../../../../messages/fr/blogs.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
 import UnorderedList from "@/app/[locale]/components/unorderedList";
 import FAQAccordion from "@/app/[locale]/components/faqAccordion";
-import OrderedList from "@/app/[locale]/components/orderedList";
+import OrderedList1 from "@/app/[locale]/components/OrderedList1";
 import FilteredBlogCarouse from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/[locale]/components/useUrl";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
@@ -234,7 +234,7 @@ export default function Page() {
                 <p className="4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] ">
                   {t("driveDesc1")}
                 </p>
-                <OrderedList
+                <OrderedList1
                   arrName={listItems}
                   olClassName="list-disc marker:text-xl pl-[36px] lg:pl-[56px]  mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]  font-medium space-y-2"
                 />

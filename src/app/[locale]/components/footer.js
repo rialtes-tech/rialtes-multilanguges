@@ -61,10 +61,20 @@ const Footer = () => {
     return () => {
       window.removeEventListener("resize", handleResize);
     };
-  }, []);
+  }, []); 
   return (
     <footer
-      className={`text-[#ffffff] bg-cover max-md:absolute bg-center bg-no-repeat flex flex-col custom-container lg:pt-[66px] pb-[40px] bg-[url("/images/homepage/footer-Bg.webp")]`}>
+      className={`text-[#ffffff] bg-cover max-md:absolute bg-center bg-no-repeat flex flex-col custom-container lg:pt-[66px] pb-[40px] relative`}>
+      <div className="absolute inset-0 -z-10">
+        <Image
+          src="/images/homepage/footer-Bg.webp"
+          alt="Footer Background"
+          layout="fill"
+          objectFit="cover"
+          objectPosition="center"
+          priority
+        />
+      </div>
       <div className={`flex flex-col md:flex-row border-b border-gray-300 justify-start md:justify-between gap-[41px] md:gap-10 pb-10 mt-4 w-full mx-auto`}>
 
         {/* Logo and Tagline */}
@@ -75,8 +85,8 @@ const Footer = () => {
             src="/images/homepage/rialtes-company-logo.webp"
             className="w-40 h-32"
             alt="Company Logo"
-            loading="lazy"
             href='/'
+            priority
           />
           <div className="lg:text-left">
             <p className="mt-4">
@@ -133,6 +143,7 @@ const Footer = () => {
                 src="/images/homepage/Asset5.svg"
                 height={100}
                 width={100}
+                priority
               />
             </Link>
             {/* <Link href="/facebook" title="Follow us on Facebook" className="mt-3">
@@ -151,6 +162,7 @@ const Footer = () => {
                 src="/images/homepage/Asset2.svg"
                 height={100}
                 width={100}
+                priority
               />
             </Link>
             <Link
@@ -164,6 +176,7 @@ const Footer = () => {
                 src="/images/homepage/Asset3.svg"
                 height={100}
                 width={100}
+                priority
               />
             </Link>
             <Link href="https://www.youtube.com/@rialtes" title="Follow us on YouTube" className="mt-3 md:mt-0">
@@ -173,6 +186,7 @@ const Footer = () => {
                 src="/images/homepage/Asset4.svg"
                 height={100}
                 width={100}
+                priority
               />
             </Link>
           </div>
@@ -180,7 +194,7 @@ const Footer = () => {
       </div>
 
       {/* Copyright */}
-      <p className="mt-5 text-start">©2026 Rialtes, All rights reserved</p>
+      <p className="mt-5 text-start 4xl:text-[20px] xl:text-[18px] text-[16px]">©2026 Rialtes, All rights reserved</p>
 
       {/* Scroll to Top Button */}
       {isVisible && (
@@ -192,6 +206,7 @@ const Footer = () => {
               alt="Up arrow"
               width={24}
               height={24}
+              priority
             />
           ) : (
             <Image
@@ -200,6 +215,7 @@ const Footer = () => {
               className="w-16"
               width={24}
               height={24}
+              priority
             />
           )}
         </div>

@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+User-agent: *
+Disallow: /*?elementor_library=
+Disallow: /*?et_core_page_resource=
+Disallow: /*?page_id=
+Disallow: /*?ref=
+Disallow: /*?trk=
+Disallow: /*?utm_source=
+Disallow: /*?utm_medium=
+Disallow: /*?utm_campaign=
+Disallow: /*?utm_term=
+Disallow: /*?utm_content=
+
+Sitemap: https://www.rialtes.com/sitemap.xml

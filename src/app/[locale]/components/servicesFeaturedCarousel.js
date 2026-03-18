@@ -163,7 +163,7 @@ export default function servicesFeaturedCarousel() {
                         {slide.title}
                       </h3>
                     </Link>
-                    <p className="pb-6 text-[16px] xl:text-[18px] 4xl:text-[24px] leading-tight">{slide.description}</p>
+                    <p className="pb-6 text-[16px] md:text-[18px] 4xl:text-[20px] leading-tight">{slide.description}</p>
                     <Link tabIndex={-1}
                       href={slide.url}
                       className="font-medium text-[#0092E0] xl:text-[24px] text-[16px]">

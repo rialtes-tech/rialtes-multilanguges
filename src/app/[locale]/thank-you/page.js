@@ -32,15 +32,15 @@ export default function ThankYou() {
         {/* SOCIAL ICONS */}
         <div className="flex items-center gap-8 ml-[-20px] mt-8">
           <Link href="https://www.instagram.com/rialtes_technologies/" title="Instagram">
-            <Image className="h-12 w-16" src="/images/homepage/Asset3.svg" alt="instagram" height={100} width={100} />
+            <Image className="h-12 w-16" src="/images/homepage/Asset3.svg" alt="instagram" priority height={100} width={100} />
           </Link>
 
           <Link href="https://www.youtube.com/@rialtes" title="YouTube">
-            <Image className="h-12 w-16" src="/images/homepage/Asset4.svg" alt="youtube" height={100} width={100} />
+            <Image className="h-12 w-16" src="/images/homepage/Asset4.svg" alt="youtube" priority height={100} width={100} />
           </Link>
 
           <Link href="https://www.linkedin.com/company/rialtes-technologies-llc/" title="LinkedIn">
-            <Image className="h-12 w-16" src="/images/homepage/Asset5.svg" alt="linkedin" height={100} width={100} />
+            <Image className="h-12 w-16" src="/images/homepage/Asset5.svg" alt="linkedin" priority height={100} width={100} />
           </Link>
         </div>
       </div>
@@ -57,6 +57,7 @@ export default function ThankYou() {
             width={800}
             height={800}
             className="w-full h-auto object-contain"
+            priority
           />
 
           {/* Close Button */}

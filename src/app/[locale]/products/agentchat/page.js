@@ -1,24 +1,82 @@
 "use client";
 import Image from "next/image";
 import ContactForm from "../../components/contactform";
-import LearnMore from "@/app/[locale]/components/learnMore";
-import Seo from "@/app/[locale]/components/Seo";
-import { useLocale, useTranslations } from "next-intl";
-import enContent from '../../../../../messages/en/products.json';
-import esContent from '../../../../../messages/es/products.json';
-import frContent from '../../../../../messages/fr/products.json';
-import { changeLocalization } from "../../components/changeLocalization";
+import LearnMore from "@/app/components/learnMore";
+import Seo from "@/app/components/Seo";
+import BreadCrumbs from '../../components/BreadCrumbs'
 import Script from "next/script";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 import BreadcrumbSchema from "../../components/BreadcrumbSchema";
 
 export default function Page() {
-    const t = useTranslations("agentChat");
-    const locale = useLocale();
-    const homepageContent = changeLocalization(locale, { en: enContent, es: esContent, fr: frContent });
-    const { features, tableData, schemaData } = homepageContent.agentChat;
+     const contactRef = useRef(null);
 
-
+    const handleScrollToContact = () => {
+    contactRef.current?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  };
+    const features = [
+        {
+            title: "Real-Time, Two-Way WhatsApp Messaging",
+            image: "/images/industry/rialchat/Seamless Messaging.webp",
+            alt: "Real-Time WhatsApp Messaging",
+            points: [
+                "Start and manage WhatsApp conversations directly from any Salesforce object.",
+                "Automatic conversation tracking linked to Salesforce records.",
+                "Full conversation history and audit trails.",
+            ],
+        },
+        {
+            title: "Context-Aware Messaging",
+            image: "/images/industry/rialchat/rich-media-support.webp",
+            alt: "Context-Aware Messaging",
+            points: [
+                "Access full customer context from Salesforce while chatting.",
+                "Share files, media, and quick replies for faster resolutions.",
+            ],
+        },
+        {
+            title: "Supports All Salesforce Clouds",
+            image: "/images/industry/rialchat/Automated Conversation Logging.webp",
+            alt: "Supports All Salesforce Clouds",
+            points: [
+                "<strong>Sales Cloud:</strong> Convert chats to Leads and Opportunities.",
+                "<strong>Service Cloud:</strong> Manage Cases and provide instant support.",
+                "<strong>Field Service:</strong> Coordinate field operations and Work Orders.",
+                "<strong>Education Cloud:</strong> Engage students and alumni for enrollment, advising, and support.",
+                "<strong>Nonprofit Cloud:</strong> Connect with donors, volunteers, and stakeholders.",
+            ],
+        },
+        {
+            title: "Seamless Salesforce Integration",
+            image: "/images/industry/rialchat/Seamless Messaging.webp",
+            alt: "Seamless Salesforce Integration",
+            points: [
+                "Works out-of-the-box with Cases, Leads, Opportunities, Work Orders, and more.",
+                "Delegation and routing rules by record type — no manual effort needed.",
+            ],
+        },
+        {
+            title: "Multi-Role, Multi-Team Support",
+            image: "/images/industry/rialchat/Multi-Agent Collaboration.webp",
+            alt: "Multi-Team Support",
+            points: [
+                "Serve customers through dedicated teams (Sales, Support, Field Agents, Advisors).",
+                "Define who can initiate, view, or respond based on roles and business units.",
+            ],
+        },
+        {
+            title: "Salesforce-Native Security and Compliance",
+            image: "/images/industry/rialchat/Seamless Messaging.webp",
+            alt: "Security and Compliance",
+            points: [
+                "Leverages Salesforce’s role hierarchies, sharing rules, and object-level security.",
+                "GDPR, HIPAA-ready based on Salesforce’s secure platform.",
+            ],
+        },
+    ];
     return (
         <div className="min-h-screen bg-white">
             <Seo
@@ -33,8 +91,10 @@ export default function Page() {
                 strategy="afterInteractive"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
             />
-            {/* breadcrumbs schema */}
-            <BreadcrumbSchema />
+            {/* breadcrumb schema */}
+            <BreadcrumbSchema
+                currPage="AgentChat"
+            />
             {/* hero section */}
             <div className="relative bg-[#E8E8E8] pb-20 ">
                 <div className="relative  custom-container xl:!pr-0 max-xl:pr-0">
@@ -138,7 +198,7 @@ export default function Page() {
                             />
                         </div>
                     </div>
-                    <div>
+                    <div className="hidden xl:block">
                         <div className="group flex flex-col justify-between border p-8 4xl:p-[54px]  h-full hover:bg-[#134874] hover:text-white">
                             <div>
                                 <h3 className="font-semibold 4xl:text-[35px] text-[18px] xl:text-[30px] md:text-[20px] leading-tight 4xl:w-[358px] 2xl:w-[350px] xl:w-[300px]  ">{t('rapidTitle')}</h3>
@@ -155,8 +215,6 @@ export default function Page() {
                             />
                         </div>
                     </div>
-                </div>
-                <div className="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1">
                     <div>
                         <div className="group flex flex-col justify-between border p-8 4xl:p-[54px] h-full hover:bg-[#134874] hover:text-white">
                             <div>
@@ -228,7 +286,8 @@ export default function Page() {
                                     />
                                 ))}
                             </ul>
-                            <LearnMore btnName={t('learnMoreBtn')} locale={locale} />
+                            <LearnMore   onClick={handleScrollToContact}
+  btnName="Talk to Us"/>
                         </div>
                         <div className="mt-10 xl:mt-0">
                             <Image
@@ -272,16 +331,17 @@ export default function Page() {
                 </div>
             </section>
             {/* quick setup section */}
-            <div className={`bg-[url('/images/industry/rialchat/bg2.png')] bg-cover bg-right overflow-hidden
-             ${locale === "es"
-                    ? "xl:h-[400px] 4xl:h-[580px] 2xl:h-[510px]"
-                    : locale === "fr"
-                        ? "xl:h-[400px] 4xl:h-[580px] 2xl:h-[510px]"
-                        : "xl:h-[400px] 4xl:h-[520px] 2xl:h-[480px]"
-                }`}>
-                <div className="mt-16 text-white custom-container xl:!pr-[142px] pt-6">
-                    <h2 className="text-[26px] md:text-[30px] xl:text-[40px] 4xl:text-[60px] max-lg:pb-6 lg:text-[40px] xl:pb-10 leading-tight">{t('setupTitle')}</h2>
-                    <div className="flex flex-col xl:flex-row  4xl:gap-34px 2xl:gap-40 xl:gap-36">
+            <div className="overflow-hidden xl:h-[400px] 4xl:h-[520px] 2xl:h-[480px] relative">
+                 <Image
+    src="/images/industry/rialchat/quick-setup-img.png"
+    alt="Quick Setup Background"
+    fill
+    className="object-cover object-right"
+    priority
+  />
+                <div className="mt-16 text-white custom-container xl:!pr-[142px] pt-6 relative z-10">
+                    <h2 className="max-lg:pb-6 lg:text-[40px] xl:pb-10 text-[26px] md:text-[32px] xl:text-[40px] 2xl:text-[48px] 4xl:text-[60px] leading-tight">Quick Setup. Maximum Impact.</h2>
+                    <div className="flex flex-col xl:flex-row  4xl:gap-34px 2xl:gap-40 xl:gap-48">
                         <div className="relative">
                             <Image
                                 className="w-[194px] 4xl:w-[188px] 2xl:w-[120px] xl:w-[400px] md:w-[220px] "

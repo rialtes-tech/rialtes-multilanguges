@@ -56,8 +56,8 @@ export default function Page() {
                         src="/images/blog/enterprise-growth-strategy-mobile.webp"
                         alt={t('bannerAlt')}
                         priority
-                        height={0}
-                        width={0}
+                        height={375}
+                        width={250} 
                         className="w-full h-auto object-cover"
                     />
                 </div>
@@ -108,8 +108,8 @@ export default function Page() {
                                                     src="/images/blog/legacy-erp-reality-check.webp"
                                                     alt={t("legacyAlt")}
                                                     className="xl:w-[700px] w-full h-full"
-                                                    height={0}
-                                                    width={0}
+                                                    width={1200}
+                                                    height={630}
                                                     priority
                                                 />
                                             </div>
@@ -248,10 +248,10 @@ export default function Page() {
                                             <div className="w-full h-full lg:mt-10 mt-5">
                                                 <Image
                                                     src="/images/blog/discover-define-deploy.webp"
-                                                    alt={t('discoverAlt')}
-                                                    width={1200}
-                                                    height={700}
-                                                    className="w-full h-auto"
+                                                    alt="Process flow showing discover, define, deploy, automate, optimize, and innovate stages"
+                                                    className="w-full h-full"
+                                                    height={1200}
+                                                    width={630}
                                                     priority
                                                 />
                                             </div>

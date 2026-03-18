@@ -12,6 +12,7 @@ export default function Loader() {
                     width={60}
                     height={60}
                     className="z-10 object-contain"
+                    priority
                 />
             </div>
         </div>

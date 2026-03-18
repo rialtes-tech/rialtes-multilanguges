@@ -32,7 +32,7 @@ export default function Page() {
                 description="For enterprises focused on scale, automation, and AI readiness, integration is no longer a supporting activity. It’s foundational."
                 keywords="Partners, website, welcome"
                 canonical={
-                    `https://www.rialtes.com/${locale}/insights/blogs/salesforce-integration-partners-for-enterprises-to-scale`
+                    "https://www.rialtes.com/insights/blogs/salesforce-integration-partners-for-enterprises-to-scale"
                 }
             />
 
@@ -57,8 +57,8 @@ export default function Page() {
                         src="/images/blog/salesforce-integration-partners-mobile.webp"
                         alt="Cloud integration icon on a smartphone representing Salesforce integration and enterprise system connectivity."
                         priority
-                        height={0}
-                        width={0}
+                        height={250}
+                        width={375}
                         className="w-full h-auto object-cover"
                     />
                 </div>

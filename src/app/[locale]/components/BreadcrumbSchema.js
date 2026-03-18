@@ -1,19 +1,12 @@
 "use client";
 
-import { useTranslations } from "next-intl";
 import { usePathname } from "next/navigation";
 import Script from "next/script";
 
-export default function BreadcrumbSchema({ subPath }) {
+export default function BreadcrumbSchema({ currPage, subPath }) {
     const pathname = usePathname();
     const cleanPath = pathname.replace(/\/$/, "");
-    let segments = cleanPath.split("/").filter(Boolean);
-    const t = useTranslations("breadcrumbs");
-
-    const LOCALES = ["en", "es", "fr"];
-    if (LOCALES.includes(segments[0])) {
-        segments = segments.slice(1);
-    }
+    const segments = cleanPath.split("/").filter(Boolean);
 
     const EXISTING_ROUTES = {
         "about-us": "/about-us",
@@ -45,12 +38,6 @@ export default function BreadcrumbSchema({ subPath }) {
         return { label, href };
     });
 
-
-    const currentSegment = segments[segments.length - 1];
-    const currPage = t.has(currentSegment)
-        ? t(currentSegment)
-        : currentSegment.replace(/-/g, " ");
-
     const fullCurrentUrl = `https://www.rialtes.com${cleanPath}`;
     const breadcrumbJsonLd = {
         "@context": "https://schema.org",
@@ -81,7 +68,6 @@ export default function BreadcrumbSchema({ subPath }) {
             }
         ]
     };
-
 
     return (
         <Script
