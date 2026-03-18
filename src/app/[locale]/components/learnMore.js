@@ -4,6 +4,7 @@ import { useState } from "react";
 
 export default function LearnMoreButton({
   href = "/contact-us",
+   locale = "en",
   arialabel = "Learn more",
   btnName = "Learn More",
   bgcolor = "#134874",

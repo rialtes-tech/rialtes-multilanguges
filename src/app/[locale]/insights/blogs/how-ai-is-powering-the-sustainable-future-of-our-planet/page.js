@@ -10,7 +10,7 @@ import enContent from "../../../../../../messages/en/blogs.json";
 import esContent from "../../../../../../messages/es/blogs.json";
 import frContent from "../../../../../../messages/fr/blogs.json";
 import { changeLocalization } from "@/app/[locale]/components/changeLocalization";
-import OrderedList from "@/app/[locale]/components/orderedList";
+import OrderedList1 from "@/app/[locale]/components/OrderedList1";
 import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
 import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
 import useUrl from "@/app/[locale]/components/useUrl";
@@ -288,7 +288,7 @@ export default function Page() {
                 <p className="mt-[29px] xl:mt-[30px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px]">
                   {t("predictDesc")}
                 </p>
-                <OrderedList
+                <OrderedList1
                   arrName={trendsList}
                   olClassName="list-disc  marker:text-xl pl-[36px] lg:pl-[56px] mt-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium space-y-3"
                 />

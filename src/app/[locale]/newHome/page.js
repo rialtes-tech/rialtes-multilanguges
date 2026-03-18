@@ -3,6 +3,7 @@ import Link from 'next/link';
 import '../../../app/[locale]/newHome/demo.css';
 import MyComponent from './demo';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 const AutoTimerSlider = () => {
     const t = useTranslations('homePage');
     return (

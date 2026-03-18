@@ -7,7 +7,7 @@ import Script from "next/script";
 import FAQAccordion from "@/app/components/faqAccordion";
 import BlogSocialIcons from "@/app/components/blogSocialIcons";
 import UnorderedList from "@/app/components/unorderedList";
-import OrderedList from "@/app/components/OrderedList";
+import OrderedList1 from "@/app/components/OrderedList1";
 
 export default function Page() {
   const fullUrl =
@@ -324,7 +324,7 @@ export default function Page() {
                     ulClassName="mt-5 space-y-4 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium"
                   />
                   {data.olList && (
-                    <OrderedList
+                    <OrderedList1
                       arrName={data.olList}
                       ulClassName="mt-5 space-y-2 pl-[26px] lg:pl-[46px] 4xl:text-[20px] 2xl:text-[17px] xl:text-[17px] md:text-[16px] text-[16px] font-medium list-decimal"
                     />
