@@ -4,8 +4,8 @@ import Seo from "@/app/[locale]/components/Seo";
 import ContactForm from "../../../components/contactform";
 import BreadCrumbs from "../../../components/BreadCrumbs";
 import LearnMore from "../../../components/learnMore";
-import UnorderedList from "@/app/components/unorderedList";
-import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
+import UnorderedList from "@/app/[locale]/components/unorderedList";
+import BreadcrumbSchema from "@/app/[locale]/components/BreadcrumbSchema";
 import Script from "next/script";
 import { useRef } from "react";
 const schemaData = {
