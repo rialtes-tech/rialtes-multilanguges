@@ -1,9 +1,8 @@
 "use client";
 import Image from "next/image";
 import ContactForm from "../../components/contactform";
-import LearnMore from "@/app/components/learnMore";
-import Seo from "@/app/components/Seo";
-import BreadCrumbs from '../../components/BreadCrumbs'
+import LearnMore from "@/app/[locale]/components/learnMore";
+import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
 import BreadCrumbs from '@/app/[locale]/components/BreadCrumbs'
 import BreadcrumbSchema from "../../components/BreadcrumbSchema";

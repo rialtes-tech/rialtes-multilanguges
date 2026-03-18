@@ -2,11 +2,11 @@
 import Image from "next/image";
 import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
-import ContactForm from "@/app/components/contactform";
-import LearnMore from "@/app/components/learnMore";
-import BreadCrumbs from "@/app/components/BreadCrumbs";
-import UnorderedList from "@/app/components/unorderedList";
-import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
+import ContactForm from "@/app/[locale]/components/contactform";
+import LearnMore from "@/app/[locale]/components/learnMore";
+import BreadCrumbs from "@/app/[locale]/components/BreadCrumbs";
+import UnorderedList from "@/app/[locale]/components/unorderedList";
+import BreadcrumbSchema from "@/app/[locale]/components/BreadcrumbSchema";
 import { useRef } from "react";
 const schemaData = {
   "@context": "https://schema.org",

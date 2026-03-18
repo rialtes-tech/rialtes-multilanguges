@@ -1,13 +1,13 @@
 "use client";
 import Image from "next/image";
-import FilteredBlogCarousel from "@/app/components/FilteredLatestBlogCarousel";
-import useUrl from "@/app/components/useUrl";
-import Seo from "@/app/components/Seo";
+import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
+import useUrl from "@/app/[locale]/components/useUrl";
+import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
-import FAQAccordion from "@/app/components/faqAccordion";
-import BlogSocialIcons from "@/app/components/blogSocialIcons";
-import UnorderedList from "@/app/components/unorderedList";
-import styles from "../../../temp.module.css";
+import FAQAccordion from "@/app/[locale]/components/faqAccordion";
+import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
+import UnorderedList from "@/app/[locale]/components/unorderedList";
+import styles from "../../../../temp.module.css";
 
 const mainData = [
   "Salesforce has become the backbone of modern sales, service, and customer engagement. <a href='https://www.grandviewresearch.com/industry-analysis/customer-relationship-management-crm-market' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>IDC says</a> than 60 % of global enterprises cite CRM platforms like Salesforce as the central system of engagement for revenue operations and customer experience, powering everything from revenue forecasting and partner management to marketing automation and AI-driven engagement.But behind this success, a quiet risk is emerging. Most organizations are still running Salesforce on overstretched internal teams, fragmented vendor support models, and ad-hoc administrators, which was manageable when deployments were simpler. Today, as platforms expand with  <a href='https://www.rialtes.com/solutions/artificial-intelligence/salesforce-agentforce-consulting' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Agentforce</a>, Data Cloud, AI automations, and complex cross-cloud and third-party integrations, the support model starts to break down. ",

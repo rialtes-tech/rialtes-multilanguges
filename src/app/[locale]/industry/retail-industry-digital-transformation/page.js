@@ -1,13 +1,13 @@
 
 "use client";
-import ContactForm from "@/app/components/contactform";
-import LearnMore from "@/app/components/learnMore";
-import Seo from "@/app/components/Seo";
+import ContactForm from "@/app/[locale]/components/contactform";
+import LearnMore from "@/app/[locale]/components/learnMore";
+import Seo from "@/app/[locale]/components/Seo";
 import Image from "next/image";
 import Script from "next/script";
-import UnorderedList from "@/app/components/unorderedList";
-import BreadCrumbs from "@/app/components/BreadCrumbs";
-import BreadcrumbSchema from "@/app/components/BreadcrumbSchema";
+import UnorderedList from "@/app/[locale]/components/unorderedList";
+import BreadCrumbs from "@/app/[locale]/components/BreadCrumbs";
+import BreadcrumbSchema from "@/app/[locale]/components/BreadcrumbSchema";
 import { useRef } from "react";
 export default function retailPage() {
   const contactRef = useRef(null);

@@ -1,13 +1,13 @@
 "use client";
 import Image from "next/image";
-import FilteredBlogCarousel from "@/app/components/FilteredLatestBlogCarousel";
-import useUrl from "@/app/components/useUrl";
-import Seo from "@/app/components/Seo";
+import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
+import useUrl from "@/app/[locale]/components/useUrl";
+import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
-import FAQAccordion from "@/app/components/faqAccordion";
-import BlogSocialIcons from "@/app/components/blogSocialIcons";
-import UnorderedList from "@/app/components/unorderedList";
-import styles from "../../../temp.module.css";
+import FAQAccordion from "@/app/[locale]/components/faqAccordion";
+import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
+import UnorderedList from "@/app/[locale]/components/unorderedList";
+import styles from "../../../../temp.module.css";
 const mainData = [
   "Enterprise revenue transformations tend to fail for reasons that have little to do with the platform itself. Industry studies consistently show that quote-to-cash initiatives break down at the intersection of process design, data readiness, and cross-functional ownership, not because the technology lacks capability. Salesforce Revenue Cloud is already a proven solution for managing complex pricing, quoting, billing, and revenue recognition. By the time organizations evaluate it seriously, the functionality is rarely in question.",
   "What is in question is execution. How do you introduce a new revenue engine without slowing deal cycles, confusing sales teams, or creating reconciliation headaches for finance? How do you move from legacy systems to a unified revenue model while protecting cash flow and customer experience?",

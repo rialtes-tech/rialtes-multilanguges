@@ -1,13 +1,13 @@
 "use client";
 import Image from "next/image";
-import FilteredBlogCarousel from "@/app/components/FilteredLatestBlogCarousel";
-import useUrl from "@/app/components/useUrl";
-import Seo from "@/app/components/Seo";
+import FilteredBlogCarousel from "@/app/[locale]/components/FilteredLatestBlogCarousel";
+import useUrl from "@/app/[locale]/components/useUrl";
+import Seo from "@/app/[locale]/components/Seo";
 import Script from "next/script";
-import FAQAccordion from "@/app/components/faqAccordion";
-import BlogSocialIcons from "@/app/components/blogSocialIcons";
-import UnorderedList from "@/app/components/unorderedList";
-import styles from "../../../temp.module.css";
+import FAQAccordion from "@/app/[locale]/components/faqAccordion";
+import BlogSocialIcons from "@/app/[locale]/components/blogSocialIcons";
+import UnorderedList from "@/app/[locale]/components/unorderedList";
+import styles from "../../../../temp.module.css";
 
 const mainData = [
   "Most SAP failures don’t start with bad technology. They start with outdated support models. According to a <a href='https://www.gartner.com/en/articles/top-technology-trends-2026' class='text-[#0092E0] transition duration-300 ease-out hover:text-gray-400 underline'>Gartner survey</a>, more than 70 % of enterprise IT leaders say rising application complexity is one of their top three operational challenges, and that complexity has only increased as organizations adopt S/4HANA cores, cloud extensions, SAP BTP, Ariba, SuccessFactors, CPI, and an expanding ecosystem of third-party applications.¹ Yet many enterprises still rely on reactive, ticket-driven support models that were designed for older, simpler landscapes — where systems were fewer, changes were slower, and integrations were minimal.",
